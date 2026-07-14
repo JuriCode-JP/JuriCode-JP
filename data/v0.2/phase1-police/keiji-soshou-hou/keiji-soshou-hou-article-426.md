@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四百二十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-426-p1 -->
 抗告の手続がその規定に違反したとき、又は抗告が理由のないときは、決定で抗告を棄却しなければならない。
 
 ### 第四百二十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-426-p2 -->
 抗告が理由のあるときは、決定で原決定を取り消し、必要がある場合には、更に裁判をしなければならない。

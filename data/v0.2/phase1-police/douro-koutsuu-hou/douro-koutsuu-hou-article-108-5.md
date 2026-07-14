@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-5-p1
+    type: simple
+    text: 取消処分者講習又は若年運転者講習を行う指定講習機関は、運転適性指導には、運転適性指導員以外の者を従事させてはならない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-5-p2
+    type: simple
+    text: 初心運転者講習を行う指定講習機関は、運転習熟指導には、運転習熟指導員以外の者を従事させてはならない。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-5-p3
+    type: simple
+    text: 公安委員会は、運転適性指導員又は運転習熟指導員が運転適性指導又は運転習熟指導について不正な行為をしたときは、当該指定講習機関に対し、その選任に係る当該運転適性指導員又は運転習熟指導員の解任を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

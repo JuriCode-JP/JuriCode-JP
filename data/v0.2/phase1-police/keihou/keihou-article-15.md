@@ -43,6 +43,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: honbun id: keihou-art-15-p1-honbun -->
-罰金は、一万円以上とする。<!-- segment: tadashi id: keihou-art-15-p1-tadashi -->
-ただし、これを減軽する場合においては、一万円未満に下げることができる。
+罰金は、一万円以上とする。ただし、これを減軽する場合においては、一万円未満に下げることができる。

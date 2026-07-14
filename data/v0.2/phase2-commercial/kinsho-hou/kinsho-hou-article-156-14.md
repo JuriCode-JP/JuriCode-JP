@@ -14,24 +14,52 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-14-p1-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当する者は、金融商品取引清算機関の取締役、会計参与、監査役又は執行役となることができない。
+    modality: kanou_negative
+  - id: kinsho-hou-art-156-14-p1-kou-1
+    type: kou
+    text: 一　心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-14-p1-kou-2
+    type: kou
+    text: 二　第八十二条第二項第三号イからヘまでのいずれかに該当する者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-14-p2
+    type: simple
+    text: 金融商品取引清算機関の取締役、会計参与、監査役又は執行役が前項に規定する者に該当することとなつたときは、その職を失う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-14-p3
+    type: simple
+    text: 内閣総理大臣は、不正の手段により金融商品取引清算機関の取締役、会計参与、監査役若しくは執行役となつた者のあることが判明したとき、又は金融商品取引清算機関の取締役、会計参与、監査役若しくは執行役が法令若しくは法令に基づく行政官庁の処分に違反したときは、当該金融商品取引清算機関に対し、当該取締役、会計参与、監査役又は執行役の解任を命ずることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-14-p4
+    type: simple
+    text: 会社法第三百三十一条第二項ただし書（同法第三百三十五条第一項において準用する場合を含む。）、第三百三十二条第二項（同法第三百三十四条第一項において準用する場合を含む。）、第三百三十六条第二項及び第四百二条第五項ただし書の規定は、金融商品取引清算機関については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:
@@ -51,6 +79,10 @@ parent_section:
 ### 第百五十六条の十四第一項
 
 次の各号のいずれかに該当する者は、金融商品取引清算機関の取締役、会計参与、監査役又は執行役となることができない。
+
+一　心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+
+二　第八十二条第二項第三号イからヘまでのいずれかに該当する者
 
 ### 第百五十六条の十四第二項
 

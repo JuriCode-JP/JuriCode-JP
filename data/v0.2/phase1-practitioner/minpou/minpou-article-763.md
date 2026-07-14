@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百六十三条
 
-<!-- segment: simple id: minpou-art-763-p1 -->
 夫婦は、その協議で、離婚をすることができる。

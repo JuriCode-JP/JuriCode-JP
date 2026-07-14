@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百五十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-251-p1 -->
 二以上の主刑を併科し、又は二以上の主刑中その一を科すべき罪については、その重い刑に従つて、前条の規定を適用する。

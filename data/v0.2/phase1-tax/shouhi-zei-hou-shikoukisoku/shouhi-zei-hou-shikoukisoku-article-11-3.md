@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第十二条の四第三項に規定する財務省令で定める資産は、次に掲げる資産とする。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-11-3-p1-kou-1
+    type: kou
+    text: 一　金貨又は白金貨
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-11-3-p1-kou-2
+    type: kou
+    text: 二　金製品又は白金製品（金又は白金の重量当たりの単価に重量を乗じて得た価額により取引されるものに限るものとし、当該事業者が製造する製品の原材料として使用されることが明らかなものを除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第十一条の三
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-11-3-p1-hashira -->
 法第十二条の四第三項に規定する財務省令で定める資産は、次に掲げる資産とする。
+
+一　金貨又は白金貨
+
+二　金製品又は白金製品（金又は白金の重量当たりの単価に重量を乗じて得た価額により取引されるものに限るものとし、当該事業者が製造する製品の原材料として使用されることが明らかなものを除く。）

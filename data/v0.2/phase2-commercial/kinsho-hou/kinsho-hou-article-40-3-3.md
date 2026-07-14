@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-3-3-p1
+    type: simple
+    text: 金融商品取引業者等は、貸付事業等権利については、当該貸付事業等権利に係る出資対象事業の状況に係る情報が、当該貸付事業等権利を有する者に提供されることが当該貸付事業等権利に係る契約その他の法律行為において確保されているものとして内閣府令で定めるものでなければ、第二条第八項第一号、第二号又は第七号から第九号までに掲げる行為をしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

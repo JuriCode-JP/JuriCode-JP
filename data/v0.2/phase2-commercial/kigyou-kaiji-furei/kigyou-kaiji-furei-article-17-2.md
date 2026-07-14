@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-17-2-p1
+    type: simple
+    text: 法第二十四条第八項に規定する内閣府令で定める場合は、報告書提出外国会社（同項に規定する報告書提出外国会社又は報告書提出外国者をいう。次条から第十七条の九までにおいて同じ。）が有価証券報告書等（同項に規定する有価証券報告書等をいう。）に代えて外国会社報告書を提出することを、その用語、様式及び作成方法に照らし、金融庁長官が公益又は投資者保護に欠けることがないものとして認める場合とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-9-p1
+    type: simple
+    text: 金融商品取引所は、特定の会員等又は有価証券の発行者に対し不当な差別的取扱いをしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

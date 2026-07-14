@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-33-p1
+    type: simple
+    text: 信用格付業者は、信用格付業を公正かつ的確に遂行するため、内閣府令で定めるところにより、業務管理体制を整備しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-33-p2
+    type: simple
+    text: 前項に規定する業務管理体制は、専門的知識及び技能を有する者の配置その他の業務の品質を管理するための措置並びに自己又は格付関係者（信用格付の対象となる事項に関し利害を有する者として内閣府令で定める者をいう。第六十六条の三十五において同じ。）の利益を図る目的をもつて投資者の利益を害することを防止するための措置その他業務の執行の適正を確保するための措置を含むものでなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

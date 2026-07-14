@@ -13,20 +13,41 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-38-2-p1-honbun
+    type: honbun
+    text: 労働者が労働時間の全部又は一部について事業場外で業務に従事した場合において、労働時間を算定し難いときは、所定労働時間労働したものとみなす。
+    modality: unspecified
+  - id: roudou-kijun-hou-art-38-2-p1-tadashi
+    type: tadashi
+    text: ただし、当該業務を遂行するためには通常所定労働時間を超えて労働することが必要となる場合においては、当該業務に関しては、厚生労働省令で定めるところにより、当該業務の遂行に通常必要とされる時間労働したものとみなす。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-38-2-p2
+    type: simple
+    text: 前項ただし書の場合において、当該業務に関し、当該事業場に、労働者の過半数で組織する労働組合があるときはその労働組合、労働者の過半数で組織する労働組合がないときは労働者の過半数を代表する者との書面による協定があるときは、その協定で定める時間を同項ただし書の当該業務の遂行に通常必要とされる時間とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-38-2-p3
+    type: simple
+    text: 使用者は、厚生労働省令で定めるところにより、前項の協定を行政官庁に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

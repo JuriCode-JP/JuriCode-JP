@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-19-4-p1
+    type: simple
+    text: 相続又は遺贈により財産を取得した者（第一条の三第一項第二号から第四号までの規定に該当する者を除く。）が当該相続又は遺贈に係る被相続人の前条第一項に規定する相続人に該当し、かつ、障害者である場合には、その者については、第十五条から前条までの規定により算出した金額から十万円（その者が特別障害者である場合には、二十万円）にその者が八十五歳に達するまでの年数（当該年数が一年未満であるとき、又はこれに一年未満の端数があるときは、これを一年とする。）を乗じて算出した金額を控除した金額をもつて、その納付すべき相続税額とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-19-4-p2
+    type: simple
+    text: 前項に規定する障害者とは、精神上の障害により事理を弁識する能力を欠く常況にある者、失明者その他の精神又は身体に障害がある者で政令で定めるものをいい、同項に規定する特別障害者とは、同項の障害者のうち精神又は身体に重度の障害がある者で政令で定めるものをいう。
+    modality: teigi
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-19-4-p3
+    type: junyou
+    text: 前条第二項及び第三項の規定は、第一項の規定を適用する場合について準用する。この場合において、同条第二項中「前条」とあるのは、「第十九条の三」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

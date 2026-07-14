@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-104-2-p1
+    type: simple
+    text: 行政官庁は、この法律を施行するため必要があると認めるときは、厚生労働省令で定めるところにより、使用者又は労働者に対し、必要な事項を報告させ、又は出頭を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-104-2-p2
+    type: simple
+    text: 労働基準監督官は、この法律を施行するため必要があると認めるときは、使用者又は労働者に対し、必要な事項を報告させ、又は出頭を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

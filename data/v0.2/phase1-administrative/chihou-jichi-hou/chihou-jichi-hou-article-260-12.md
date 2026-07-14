@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-12-p1-hashira
+    type: hashira
+    text: 認可地縁団体の監事の職務は、次のとおりとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-260-12-p1-kou-1
+    type: kou
+    text: 一　財産の状況を監査すること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-260-12-p1-kou-2
+    type: kou
+    text: 二　代表者の業務の執行の状況を監査すること。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-260-12-p1-kou-3
+    type: kou
+    text: 三　財産の状況又は業務の執行について、法令若しくは規約に違反し、又は著しく不当な事項があると認めるときは、総会に報告をすること。
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-260-12-p1-kou-4
+    type: kou
+    text: 四　前号の報告をするため必要があるときは、総会を招集すること。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -36,3 +60,11 @@ parent_section:
 ### 第二百六十条の十二
 
 認可地縁団体の監事の職務は、次のとおりとする。
+
+一　財産の状況を監査すること。
+
+二　代表者の業務の執行の状況を監査すること。
+
+三　財産の状況又は業務の執行について、法令若しくは規約に違反し、又は著しく不当な事項があると認めるときは、総会に報告をすること。
+
+四　前号の報告をするため必要があるときは、総会を招集すること。

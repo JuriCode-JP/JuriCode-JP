@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: minpou-art-2-p1 -->
 この法律は、個人の尊厳と両性の本質的平等を旨として、解釈しなければならない。

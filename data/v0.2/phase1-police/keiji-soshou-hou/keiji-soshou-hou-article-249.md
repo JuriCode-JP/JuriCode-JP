@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-249-p1 -->
 公訴は、検察官の指定した被告人以外の者にその効力を及ぼさない。

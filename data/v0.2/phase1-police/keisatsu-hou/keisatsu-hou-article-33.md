@@ -51,7 +51,7 @@ parent_section:
   setsu_name_ja: 第四節　地方機関
 ---
 
-# 警察法 第33条(（<!-- segment: simple id: keisatsu-hou-art-33-p2 -->
+# 警察法 第33条(（東京都警察情報通信部及び北海道警察情報通信部）)
 <!-- segment: simple id: keisatsu-hou-art-33-p3 -->
 東京都警察情報通信部及び北海道警察情報通信部）)
 
@@ -59,7 +59,6 @@ parent_section:
 
 ### 第三十三条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-33-p1 -->
 警察庁に、その所掌事務のうち、東京都及び北海道の区域における第五条第四項第十九号及び第二十号に掲げるものに係るものを分掌させるため、地方機関として、東京都警察情報通信部及び北海道警察情報通信部を置く。
 
 ### 第三十三条第二項

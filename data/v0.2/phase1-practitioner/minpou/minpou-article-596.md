@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百九十六条
 
-<!-- segment: junyou id: minpou-art-596-p1 applies_provisions: 第五百五十一条 -->
 第五百五十一条の規定は、使用貸借について準用する。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百八十八条
 
-<!-- segment: simple id: minpou-art-888-p1 -->
 削除

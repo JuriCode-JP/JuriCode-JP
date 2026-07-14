@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-23-p1
+    type: simple
+    text: 内閣総理大臣は、この章の規定に基づく処分を行うために必要があると認めるときは、日本銀行に対し、意見を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

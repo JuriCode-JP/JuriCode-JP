@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第六十六条の十六の規定により金融商品仲介業者が作成すべき帳簿書類は、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-282-p1-kou-1
+    type: kou
+    text: 一　金融商品仲介補助簿
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-282-p1-kou-2
+    type: kou
+    text: 二　投資顧問契約又は投資一任契約の締結の媒介に係る取引記録
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -51,10 +61,12 @@ parent_section:
 
 ### 第二百八十二条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-282-p1-hashira -->
 法第六十六条の十六の規定により金融商品仲介業者が作成すべき帳簿書類は、次に掲げるものとする。
+
+一　金融商品仲介補助簿
+
+二　投資顧問契約又は投資一任契約の締結の媒介に係る取引記録
 
 ### 第二百八十二条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-282-p2 -->
 前項第一号に掲げる帳簿書類は、その作成の日から七年間、同項第二号に掲げる帳簿書類は、その作成の日から十年間保存しなければならない。

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 発起人は、株式会社の設立に際して次に掲げる事項（定款に定めがある事項を除く。）を定めようとするときは、その全員の同意を得なければならない。
     modality: gimu
+  - id: kaisha-hou-art-32-p1-kou-1
+    type: kou
+    text: 一　発起人が割当てを受ける設立時発行株式の数
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-32-p1-kou-2
+    type: kou
+    text: 二　前号の設立時発行株式と引換えに払い込む金銭の額
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-32-p1-kou-3
+    type: kou
+    text: 三　成立後の株式会社の資本金及び資本準備金の額に関する事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第三十二条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-32-p1-hashira -->
 発起人は、株式会社の設立に際して次に掲げる事項（定款に定めがある事項を除く。）を定めようとするときは、その全員の同意を得なければならない。
+
+一　発起人が割当てを受ける設立時発行株式の数
+
+二　前号の設立時発行株式と引換えに払い込む金銭の額
+
+三　成立後の株式会社の資本金及び資本準備金の額に関する事項
 
 ### 第三十二条第二項
 
-<!-- segment: simple id: kaisha-hou-art-32-p2 -->
 設立しようとする株式会社が種類株式発行会社である場合において、前項第一号の設立時発行株式が第百八条第三項前段の規定による定款の定めがあるものであるときは、発起人は、その全員の同意を得て、当該設立時発行株式の内容を定めなければならない。

@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-8-p1-honbun
+    type: honbun
+    text: 薬局開設者は、その薬局で調剤に従事する薬剤師でない者に販売又は授与の目的で調剤させてはならない。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-11-8-p1-tadashi
+    type: tadashi
+    text: ただし、高度な無菌製剤処理を行うことができる作業室（以下「無菌調剤室」という。）を有する薬局の薬局開設者が、無菌調剤室を有しない薬局の薬局開設者から依頼を受けて、当該無菌調剤室を有しない薬局で調剤に従事する薬剤師に、当該無菌調剤室を利用した無菌製剤処理を行わせるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-8-p2
+    type: simple
+    text: 前項ただし書の場合においては、当該無菌調剤室を有しない薬局の薬局開設者は、当該無菌調剤室を有しない薬局で調剤に従事する薬剤師の行う無菌製剤処理の業務に係る適正な管理を確保するため、事前に、当該無菌調剤室を有する薬局の薬局開設者の協力を得て、指針の策定、当該薬剤師に対する研修の実施その他必要な措置を講じなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

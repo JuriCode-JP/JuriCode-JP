@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第二百二十八条の二（新株予約権の行使に関する調書）に規定する政令で定める新株予約権は、次に掲げる新株予約権とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-354-p1-kou-1
+    type: kou
+    text: 一　新株予約権を引き受ける者に特に有利な条件又は金額であることとされる当該新株予約権
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-354-p1-kou-2
+    type: kou
+    text: 二　役務の提供その他の行為に係る対価の全部又は一部として発行又は割当てをすることとされる新株予約権（前号に該当するものを除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -46,10 +56,12 @@ parent_section:
 
 ### 第三百五十四条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-354-p1-hashira -->
 法第二百二十八条の二（新株予約権の行使に関する調書）に規定する政令で定める新株予約権は、次に掲げる新株予約権とする。
+
+一　新株予約権を引き受ける者に特に有利な条件又は金額であることとされる当該新株予約権
+
+二　役務の提供その他の行為に係る対価の全部又は一部として発行又は割当てをすることとされる新株予約権（前号に該当するものを除く。）
 
 ### 第三百五十四条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-354-p2 -->
 法第二百二十八条の二に規定する政令で定める発行又は割当ては、同条に規定する新株予約権の発行又は割当てに係る金銭により払い込まれるべき額と当該新株予約権の行使に際して払い込まれるべき額との合計額を当該新株予約権の行使によつて交付することとなる株式の数で除して計算した金額が当該新株予約権の発行又は割当てに係る同条に規定する決議の時における当該新株予約権を発行又は割当てをした株式会社の株式の一株当たりの価額に相当する金額に満たない場合における当該新株予約権の発行又は割当てとする。

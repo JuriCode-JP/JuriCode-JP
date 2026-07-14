@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: simple id: jouhou-koukai-hou-art-23-p1 -->
 総務大臣は、行政機関の長に対し、この法律の施行の状況について報告を求めることができる。
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: jouhou-koukai-hou-art-23-p2 -->
 総務大臣は、毎年度、前項の報告を取りまとめ、その概要を公表するものとする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-23-p1
+    type: junyou
+    text: 第八条の二十一の規定は、法第三百二十一条の八第二十四項に規定する政令で定める要件について準用する。この場合において、第八条の二十一中「第五十三条第二十三項第一号」とあるのは「第三百二十一条の八第二十三項第一号」と、「の日の属する事業年度以後において連続して法人の道府県民税の確定申告書」とあるのは「の日の属する事業年度以後において連続して法人の市町村民税の確定申告書」と、同条ただし書中「第五十三条第二十四項」とあるのは「第三百二十一条の八第二十四項」と、「法人の道府県民税の確定申告書」とあるのは「法人の市町村民税の確定申告書」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

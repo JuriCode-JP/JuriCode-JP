@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-5-3-p1
+    type: simple
+    text: 法第百七十二条の四第一項第二号イ及び第百七十二条の十一第一項第一号ロ（１）に規定する政令で定めるところにより算出した額は、内閣府令で定める貸借対照表に計上されている資産の額の合計額から負債の額の合計額を控除して得た額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

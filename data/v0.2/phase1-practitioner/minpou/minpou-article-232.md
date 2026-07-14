@@ -45,5 +45,4 @@ parent_section:
 
 ### 第二百三十二条
 
-<!-- segment: simple id: minpou-art-232-p1 -->
 前条の場合において、隣人が損害を受けたときは、その償金を請求することができる。

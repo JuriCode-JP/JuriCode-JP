@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九条の八
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-9-8-p1 -->
 法第五十三条第五十四項に規定する政令で定める金額は、同項に規定する道府県知事の更正により減少する部分の金額で事実を仮装して経理した金額に係るものとする。

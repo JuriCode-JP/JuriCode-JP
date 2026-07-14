@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-37-5-p1
+    type: simple
+    text: 金融商品取引業者等は、その行う金融商品取引業に関して顧客が預託すべき保証金（内閣府令で定めるものに限る。）を受領したときは、顧客に対し、直ちに、内閣府令で定めるところにより、その旨を記載した書面を交付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-37-5-p2
+    type: junyou
+    text: 第三十四条の二第四項の規定は、前項の規定による書面の交付について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

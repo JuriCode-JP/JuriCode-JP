@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-8-p1
+    type: simple
+    text: 金融商品取引清算機関の役員（役員が法人であるときは、その職務を行うべき者）若しくは職員又はこれらの職にあつた者は、その業務に関して知り得た秘密を漏らし、又は盗用してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-8-p2
+    type: simple
+    text: 金融商品取引清算機関の役員（役員が法人であるときは、その職務を行うべき者）若しくは職員又はこれらの職にあつた者は、その職務に関して知り得た情報を、金融商品取引清算機関の業務の用に供する目的以外に利用してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-96-3-p1
+    type: simple
+    text: 労働者を就業させる事業の附属寄宿舎が、安全及び衛生に関し定められた基準に反する場合においては、行政官庁は、使用者に対して、その全部又は一部の使用の停止、変更その他必要な事項を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-96-3-p2
+    type: simple
+    text: 前項の場合において行政官庁は、使用者に命じた事項について必要な事項を労働者に命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

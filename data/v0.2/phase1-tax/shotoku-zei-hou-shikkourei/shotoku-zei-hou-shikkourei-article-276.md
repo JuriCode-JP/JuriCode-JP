@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第百五十七条第一項第二号ロ（同族会社等の行為又は計算の否認等）及び第百五十八条（事業所の所得の帰属の推定）に規定する主宰者と政令で定める特殊の関係のある個人は、次に掲げる者及びこれらの者であつた者とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-276-p1-kou-1
+    type: kou
+    text: 一　当該主宰者の親族
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-276-p1-kou-2
+    type: kou
+    text: 二　当該主宰者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-276-p1-kou-3
+    type: kou
+    text: 三　当該主宰者の使用人
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-276-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げる者以外の者で当該主宰者から受ける金銭その他の資産によつて生計を維持するもの
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikkourei-art-276-p1-kou-5
+    type: kou
+    text: 五　当該主宰者の雇主
+    modality: unspecified
+    item_number: 5
+  - id: shotoku-zei-hou-shikkourei-art-276-p1-kou-6
+    type: kou
+    text: 六　第二号から前号までに掲げる者と生計を一にするこれらの者の親族
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第二百七十六条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-276-p1-hashira -->
 法第百五十七条第一項第二号ロ（同族会社等の行為又は計算の否認等）及び第百五十八条（事業所の所得の帰属の推定）に規定する主宰者と政令で定める特殊の関係のある個人は、次に掲げる者及びこれらの者であつた者とする。
+
+一　当該主宰者の親族
+
+二　当該主宰者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
+
+三　当該主宰者の使用人
+
+四　前三号に掲げる者以外の者で当該主宰者から受ける金銭その他の資産によつて生計を維持するもの
+
+五　当該主宰者の雇主
+
+六　第二号から前号までに掲げる者と生計を一にするこれらの者の親族

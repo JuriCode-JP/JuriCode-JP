@@ -14,14 +14,39 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-8-p1-hashira
+    type: hashira
+    text: 外国金融商品取引所が次の各号のいずれかに該当するときは、第百五十五条第一項の認可は、効力を失う。
+    modality: unspecified
+  - id: kinsho-hou-art-155-8-p1-kou-1
+    type: kou
+    text: 一　外国市場取引を行う外国金融商品取引所参加者がなくなつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-155-8-p1-kou-2
+    type: kou
+    text: 二　外国市場取引が行われる外国金融商品市場の全部を閉鎖したとき。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-155-8-p1-kou-3
+    type: kou
+    text: 三　解散したとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-8-p2
+    type: simple
+    text: 前項の規定により認可が失効したときは、その国内における代表者又は代表者であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +66,12 @@ parent_section:
 ### 第百五十五条の八第一項
 
 外国金融商品取引所が次の各号のいずれかに該当するときは、第百五十五条第一項の認可は、効力を失う。
+
+一　外国市場取引を行う外国金融商品取引所参加者がなくなつたとき。
+
+二　外国市場取引が行われる外国金融商品市場の全部を閉鎖したとき。
+
+三　解散したとき。
 
 ### 第百五十五条の八第二項
 

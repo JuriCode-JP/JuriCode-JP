@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-24-6-3-p1
+    type: simple
+    text: 政令第五十六条の四十の二に規定する総務省令で定める施設は、信書便物（民間事業者による信書の送達に関する法律（平成十四年法律第九十九号）第二条第三項に規定する信書便物をいう。第二十四条の二十一において同じ。）の表示、区分、転送、還付及び管理の用に供する施設とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

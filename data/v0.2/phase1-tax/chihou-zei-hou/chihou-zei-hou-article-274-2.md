@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-274-2-p1
+    type: simple
+    text: 道府県法定外普通税を申告納付すべき納税者は、当該道府県の条例で定める期間内における課税標準額、税額その他同条例で定める事項を記載した申告書を同条例で定める納期限までに道府県知事に提出し、及びその申告した税額を当該道府県に納付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-274-2-p2
+    type: simple
+    text: 前項の規定によつて申告書を提出した者は、申告書を提出した後においてその申告に係る課税標準額又は税額を修正しなければならない場合においては、当該道府県の条例で定める様式によつて、遅滞なく、修正申告書を提出するとともに、修正に因り増加した税額があるときは、これを納付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

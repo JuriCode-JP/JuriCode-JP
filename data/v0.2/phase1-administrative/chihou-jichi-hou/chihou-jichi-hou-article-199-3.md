@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-199-3-p1
+    type: simple
+    text: 監査委員は、識見を有する者のうちから選任される監査委員の一人（監査委員の定数が二人の場合において、そのうち一人が議員のうちから選任される監査委員であるときは、識見を有する者のうちから選任される監査委員）を代表監査委員としなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-199-3-p2
+    type: simple
+    text: 代表監査委員は、監査委員に関する庶務及び次項又は第二百四十二条の三第五項に規定する訴訟に関する事務を処理する。
+    modality: unspecified
+    references:
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-199-3-p3
+    type: simple
+    text: 代表監査委員又は監査委員の処分又は裁決に係る普通地方公共団体を被告とする訴訟については、代表監査委員が当該普通地方公共団体を代表する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-199-3-p4
+    type: simple
+    text: 代表監査委員に事故があるとき、又は代表監査委員が欠けたときは、監査委員の定数が三人以上の場合には代表監査委員の指定する監査委員が、二人の場合には他の監査委員がその職務を代理する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

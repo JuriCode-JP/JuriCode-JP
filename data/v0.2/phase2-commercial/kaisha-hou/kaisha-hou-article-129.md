@@ -58,10 +58,8 @@ parent_section:
 
 ### 第百二十九条第一項
 
-<!-- segment: simple id: kaisha-hou-art-129-p1 -->
 株券発行会社は、自己株式を処分した日以後遅滞なく、当該自己株式を取得した者に対し、株券を交付しなければならない。
 
 ### 第百二十九条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-129-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、公開会社でない株券発行会社は、同項の者から請求がある時までは、同項の株券を交付しないことができる。

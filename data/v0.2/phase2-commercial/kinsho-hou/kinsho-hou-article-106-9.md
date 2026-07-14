@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-9-p1
+    type: junyou
+    text: 第百三条の二第五項の規定は、第百六条の三第一項から第五項まで、第百六条の四第一項、第百六条の六第二項、第百六条の七第二項及び第四項並びに前条第一項の規定を適用する場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

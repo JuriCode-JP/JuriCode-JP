@@ -39,6 +39,21 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、人事官となることができない。
     modality: kanou_negative
+  - id: kokka-koumuin-hou-art-5-p3-kou-1
+    type: kou
+    text: 一　破産手続開始の決定を受けて復権を得ない者
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-5-p3-kou-2
+    type: kou
+    text: 二　拘禁刑以上の刑に処せられた者又は第四章に規定する罪を犯し、刑に処せられた者
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-5-p3-kou-3
+    type: kou
+    text: 三　第三十八条第二号又は第四号に該当する者
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -73,25 +88,26 @@ parent_section:
 
 ### 第五条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-5-p1 -->
 人事官は、人格が高潔で、民主的な統治組織と成績本位の原則による能率的な事務の処理に理解があり、かつ、人事行政に関し識見を有する年齢三十五年以上の者のうちから、両議院の同意を経て、内閣が任命する。
 
 ### 第五条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-5-p2 -->
 人事官の任免は、天皇が認証する。
 
 ### 第五条第三項
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-5-p3-hashira -->
 次の各号のいずれかに該当する者は、人事官となることができない。
+
+一　破産手続開始の決定を受けて復権を得ない者
+
+二　拘禁刑以上の刑に処せられた者又は第四章に規定する罪を犯し、刑に処せられた者
+
+三　第三十八条第二号又は第四号に該当する者
 
 ### 第五条第四項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-5-p4 -->
 任命の日以前五年間において、政党の役員、政治的顧問その他これらと同様な政治的影響力を有する政党員であつた者又は任命の日以前五年間において、公選による国若しくは都道府県の公職の候補者となつた者は、人事院規則で定めるところにより、人事官となることができない。
 
 ### 第五条第五項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-5-p5 -->
 人事官の任命については、そのうちの二人が、同一の政党に属し、又は同一の大学学部を卒業した者となることとなつてはならない。

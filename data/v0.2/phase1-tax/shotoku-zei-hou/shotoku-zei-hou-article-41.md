@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の農産物は、同項に規定する時にその収穫価額をもつて取得したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -55,10 +55,8 @@ parent_section:
 
 ### 第四十一条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-art-41-p1 -->
 農業を営む居住者が農産物（米、麦その他政令で定めるものに限る。）を収穫した場合には、その収穫した時における当該農産物の価額（以下この条において「収穫価額」という。）に相当する金額は、その者のその収穫の日の属する年分の事業所得の金額の計算上、総収入金額に算入する。
 
 ### 第四十一条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-art-41-p2 -->
 前項の農産物は、同項に規定する時にその収穫価額をもつて取得したものとみなす。

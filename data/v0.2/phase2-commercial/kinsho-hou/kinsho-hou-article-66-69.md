@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-69-p1-zen
+    type: zen_dan
+    text: 第五十七条第一項及び第三項の規定は第六十六条の五十の登録について、第五十七条第二項及び第三項並びに第六十五条の六の規定は高速取引行為者について、それぞれ準用する。
+    modality: unspecified
+  - id: kinsho-hou-art-66-69-p1-kou
+    type: kou_dan
+    text: この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    depends_on: kinsho-hou-art-66-69-p1-zen
 cases: []
 amendments: []
 tags:

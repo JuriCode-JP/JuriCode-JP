@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十四条
 
-<!-- segment: simple id: chihou-jichi-hou-art-254-p1 -->
 この法律における人口は、官報で公示された最近の国勢調査又はこれに準ずる全国的な人口調査の結果による人口による。

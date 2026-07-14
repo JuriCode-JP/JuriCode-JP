@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-125-3-p1
+    type: simple
+    text: 機構は、法第二十三条の六第二項の規定による調査をしたときは、その結果を厚生労働大臣に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五十五条の九
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-155-9-p1 -->
 法第八十二条第八号（定義）に規定する政令で定める権利は、残余財産の分配を受ける権利とする。

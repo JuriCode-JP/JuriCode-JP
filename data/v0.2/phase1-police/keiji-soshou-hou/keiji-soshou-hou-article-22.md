@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-22-p1 -->
 事件について請求又は陳述をした後には、不公平な裁判をする虞があることを理由として裁判官を忌避することはできない。但し、忌避の原因があることを知らなかつたとき、又は忌避の原因がその後に生じたときは、この限りでない。

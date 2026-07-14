@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-9-p1
+    type: simple
+    text: この府令の規定により作成することとされている書類中、資金決済に関する法律（平成二十一年法律第五十九号）第二条第十四項に規定する暗号資産又は同条第五項に規定する電子決済手段をもつて数量を表示するものがあるときは、主要な事項について当該数量を本邦通貨に換算した金額及びその換算に当たつて採用した換算の基準を付記するとともに、当該暗号資産又は電子決済手段の名称及び概要を記載しなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-9-p2-honbun
+    type: honbun
+    text: 法第二条の二及び令第一条の二十三に定めるもののほか、暗号等資産（法第二条第二十四項第三号の二に規定する暗号等資産をいう。以下同じ。）は、この府令の規定の金銭又は取引に係る金銭とみなして、この府令の規定を適用する。
+    modality: unspecified
+  - id: kigyou-kaiji-furei-art-2-9-p2-tadashi
+    type: tadashi
+    text: ただし、この府令の規定により作成することとされている書類に記載する事項のうち貸借対照表、損益計算書その他の財務計算に関する書類に記載された事項に準拠するものに係る規定の金銭又は取引に係る金銭については、法第百九十三条に規定する内閣府令の定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

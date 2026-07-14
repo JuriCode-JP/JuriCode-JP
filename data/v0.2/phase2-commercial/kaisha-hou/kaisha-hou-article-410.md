@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四百十条
 
-<!-- segment: simple id: kaisha-hou-art-410-p1 -->
 指名委員会等は、当該指名委員会等の各委員が招集する。

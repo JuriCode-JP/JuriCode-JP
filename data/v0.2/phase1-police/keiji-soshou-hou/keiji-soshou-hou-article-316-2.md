@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-2-p1
+    type: simple
+    text: 裁判所は、充実した公判の審理を継続的、計画的かつ迅速に行うため必要があると認めるときは、検察官、被告人若しくは弁護人の請求により又は職権で、第一回公判期日前に、決定で、事件の争点及び証拠を整理するための公判準備として、事件を公判前整理手続に付することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-2-p2
+    type: simple
+    text: 前項の決定又は同項の請求を却下する決定をするには、裁判所の規則の定めるところにより、あらかじめ、検察官及び被告人又は弁護人の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-2-p3
+    type: simple
+    text: 公判前整理手続は、この款に定めるところにより、訴訟関係人を出頭させて陳述させ、又は訴訟関係人に書面を提出させる方法により、行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

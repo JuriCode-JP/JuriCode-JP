@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十八条の八
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-8-p1 -->
 法第三百十四条の七第一項第二号に規定する政令で定める寄附金は、第七条の十七各号に掲げる寄附金とする。

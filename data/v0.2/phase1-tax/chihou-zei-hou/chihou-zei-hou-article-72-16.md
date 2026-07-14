@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-16-p1
+    type: simple
+    text: 第七十二条の十四の各事業年度の純支払利子は、各事業年度の支払利子の額（当該事業年度の法人税の所得の計算上損金の額に算入されるもの（政令で定めるものを除く。）及び当該事業年度において支払われるもので政令で定めるものに限る。）の合計額から当該合計額を限度として各事業年度の受取利子の額（当該事業年度の法人税の所得の計算上益金の額に算入されるものに限る。）の合計額を控除した金額による。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-16-p2
+    type: simple
+    text: 前項の支払利子とは、法人が各事業年度において支払う負債の利子（これに準ずるものとして政令で定めるものを含む。）をいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-16-p3
+    type: simple
+    text: 第一項の受取利子とは、法人が各事業年度において支払を受ける利子（これに準ずるものとして政令で定めるものを含む。）をいう。
+    modality: teigi
 cases: []
 amendments: []
 tags:

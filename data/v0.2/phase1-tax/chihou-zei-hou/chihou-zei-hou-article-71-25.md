@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-25-p1
+    type: simple
+    text: 道府県は、当該道府県に納入された利子割額に相当する額に政令で定める率を乗じて得た額を、政令で定めるところにより、各道府県ごとの利子割清算基準額に応じて按分し、当該按分した額のうち他の道府県に係る額を他の道府県に対し、それぞれ支払うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-25-p2
+    type: simple
+    text: 前項の規定により他の道府県に支払うべき金額と同項の規定により他の道府県から支払を受けるべき金額は、関係道府県間で、それぞれ相殺するものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-25-p3
+    type: simple
+    text: 第一項の各道府県ごとの利子割清算基準額とは、各道府県ごとに、当該道府県内に住所を有する個人に係る所得の金額に相当する金額として総務省令で定めるところにより算定した額で当該年度の初日の属する年の前年前三年内の各年に係るものを合算したものを三で除して得た額をいう。
+    modality: teigi
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-25-p4
+    type: simple
+    text: 前三項に定めるもののほか、これらの規定の実施のための手続その他その執行のために必要な事項は、総務省令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

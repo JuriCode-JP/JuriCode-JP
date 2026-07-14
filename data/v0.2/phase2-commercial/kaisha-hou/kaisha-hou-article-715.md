@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百十五条
 
-<!-- segment: simple id: kaisha-hou-art-715-p1 -->
 社債権者は、社債の種類ごとに社債権者集会を組織する。

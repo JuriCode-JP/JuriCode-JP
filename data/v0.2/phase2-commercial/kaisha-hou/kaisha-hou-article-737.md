@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 社債権者集会の決議は、次の各号に掲げる場合の区分に応じ、当該各号に定める者が執行する。ただし、社債権者集会の決議によって別に社債権者集会の決議を執行する者を定めたときは、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-737-p1-kou-1
+    type: kou
+    text: 一　社債管理者がある場合　社債管理者
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-737-p1-kou-2
+    type: kou
+    text: 二　社債管理補助者がある場合において、社債管理補助者の権限に属する行為に関する事項を可決する旨の社債権者集会の決議があったとき　社債管理補助者
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-737-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げる場合以外の場合　代表社債権者
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第七百三十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-737-p1-hashira -->
 社債権者集会の決議は、次の各号に掲げる場合の区分に応じ、当該各号に定める者が執行する。ただし、社債権者集会の決議によって別に社債権者集会の決議を執行する者を定めたときは、この限りでない。
+
+一　社債管理者がある場合　社債管理者
+
+二　社債管理補助者がある場合において、社債管理補助者の権限に属する行為に関する事項を可決する旨の社債権者集会の決議があったとき　社債管理補助者
+
+三　前二号に掲げる場合以外の場合　代表社債権者
 
 ### 第七百三十七条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-737-p2 applies_provisions: 第七百九条 -->
 第七百五条第一項から第三項まで、第七百八条及び第七百九条の規定は、代表社債権者又は前項ただし書の規定により定められた社債権者集会の決議を執行する者（以下この章において「決議執行者」という。）が社債権者集会の決議を執行する場合について準用する。

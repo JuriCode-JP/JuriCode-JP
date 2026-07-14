@@ -47,5 +47,4 @@ parent_section:
 
 ### 第三百十九条
 
-<!-- segment: junyou id: minpou-art-319-p1 applies_provisions: 第百九十二条から第百九十五条まで -->
 第百九十二条から第百九十五条までの規定は、第三百十二条から前条までの規定による先取特権について準用する。

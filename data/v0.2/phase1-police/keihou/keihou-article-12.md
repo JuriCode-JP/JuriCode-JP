@@ -57,15 +57,12 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: keihou-art-12-p1 -->
 拘禁刑は、無期及び有期とし、有期拘禁刑は、一月以上二十年以下とする。
 
 ### 第十二条第二項
 
-<!-- segment: simple id: keihou-art-12-p2 -->
 拘禁刑は、刑事施設に拘置する。
 
 ### 第十二条第三項
 
-<!-- segment: simple id: keihou-art-12-p3 -->
 拘禁刑に処せられた者には、改善更生を図るため、必要な作業を行わせ、又は必要な指導を行うことができる。

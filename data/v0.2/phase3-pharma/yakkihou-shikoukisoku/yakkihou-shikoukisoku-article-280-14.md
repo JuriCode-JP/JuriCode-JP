@@ -16,27 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-14-p1
+    type: simple
+    text: 原薬等登録業者について相続、合併又は分割（第二百八十条の三第四項に規定する書類（以下この条において「登録に係る書類」という。）を承継させるものに限る。）があつたときは、相続人（相続人が二人以上ある場合において、その全員の同意により当該原薬等登録業者の地位を承継すべき相続人を選定したときは、その者）、合併後存続する法人若しくは合併により設立した法人又は分割により当該登録に係る書類を承継した法人は、当該原薬等登録業者の地位を承継する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-14-p2
+    type: simple
+    text: 原薬等登録業者がその地位を承継させる目的で当該登録に係る書類の譲渡しをしたときは、譲受人は、当該原薬等登録業者の地位を承継する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-14-p3
+    type: simple
+    text: 前二項の規定により原薬等登録業者の地位を承継した者は、相続の場合にあつては相続後遅滞なく、相続以外の場合にあつては承継前に、様式第百二十六による届書を厚生労働大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-14-p4
+    type: simple
+    text: 前項の届書には、原薬等登録業者の地位を承継する者であることを証する書類を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-14-p5
+    type: simple
+    text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における第三項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

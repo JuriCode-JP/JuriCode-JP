@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 行政庁は、聴聞を行うに当たっては、聴聞を行うべき期日までに相当な期間をおいて、不利益処分の名あて人となるべき者に対し、次に掲げる事項を書面により通知しなければならない。
     modality: gimu
+  - id: gyousei-tetsuzuki-hou-art-15-p1-kou-1
+    type: kou
+    text: 一　予定される不利益処分の内容及び根拠となる法令の条項
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-tetsuzuki-hou-art-15-p1-kou-2
+    type: kou
+    text: 二　不利益処分の原因となる事実
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-tetsuzuki-hou-art-15-p1-kou-3
+    type: kou
+    text: 三　聴聞の期日及び場所
+    modality: unspecified
+    item_number: 3
+  - id: gyousei-tetsuzuki-hou-art-15-p1-kou-4
+    type: kou
+    text: 四　聴聞に関する事務を所掌する組織の名称及び所在地
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +52,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: gyousei-tetsuzuki-hou-art-15-p2-kou-1
+    type: kou
+    text: 一　聴聞の期日に出頭して意見を述べ、及び証拠書類又は証拠物（以下「証拠書類等」という。）を提出し、又は聴聞の期日への出頭に代えて陳述書及び証拠書類等を提出することができること。
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-tetsuzuki-hou-art-15-p2-kou-2
+    type: kou
+    text: 二　聴聞が終結する時までの間、当該不利益処分の原因となる事実を証する資料の閲覧を求めることができること。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -66,16 +96,24 @@ parent_section:
 
 ### 第十五条第一項
 
-<!-- segment: hashira id: gyousei-tetsuzuki-hou-art-15-p1-hashira -->
 行政庁は、聴聞を行うに当たっては、聴聞を行うべき期日までに相当な期間をおいて、不利益処分の名あて人となるべき者に対し、次に掲げる事項を書面により通知しなければならない。
+
+一　予定される不利益処分の内容及び根拠となる法令の条項
+
+二　不利益処分の原因となる事実
+
+三　聴聞の期日及び場所
+
+四　聴聞に関する事務を所掌する組織の名称及び所在地
 
 ### 第十五条第二項
 
-<!-- segment: hashira id: gyousei-tetsuzuki-hou-art-15-p2-hashira -->
 前項の書面においては、次に掲げる事項を教示しなければならない。
+
+一　聴聞の期日に出頭して意見を述べ、及び証拠書類又は証拠物（以下「証拠書類等」という。）を提出し、又は聴聞の期日への出頭に代えて陳述書及び証拠書類等を提出することができること。
+
+二　聴聞が終結する時までの間、当該不利益処分の原因となる事実を証する資料の閲覧を求めることができること。
 
 ### 第十五条第三項
 
-<!-- segment: zen_dan id: gyousei-tetsuzuki-hou-art-15-p3-zen -->
-行政庁は、不利益処分の名あて人となるべき者の所在が判明しない場合においては、第一項の規定による通知を、その者の氏名、同項第三号及び第四号に掲げる事項並びに当該行政庁が同項各号に掲げる事項を記載した書面をいつでもその者に交付する旨を当該行政庁の事務所の掲示場に掲示することによって行うことができる。<!-- segment: kou_dan id: gyousei-tetsuzuki-hou-art-15-p3-kou depends_on: gyousei-tetsuzuki-hou-art-15-p3-zen -->
-この場合においては、掲示を始めた日から二週間を経過したときに、当該通知がその者に到達したものとみなす。
+行政庁は、不利益処分の名あて人となるべき者の所在が判明しない場合においては、第一項の規定による通知を、その者の氏名、同項第三号及び第四号に掲げる事項並びに当該行政庁が同項各号に掲げる事項を記載した書面をいつでもその者に交付する旨を当該行政庁の事務所の掲示場に掲示することによって行うことができる。この場合においては、掲示を始めた日から二週間を経過したときに、当該通知がその者に到達したものとみなす。

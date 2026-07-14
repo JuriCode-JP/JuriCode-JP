@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七百七十一条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-771-p1 -->
 機構に、役員として、理事長及び監事を置く。
 
 ### 第七百七十一条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-771-p2 -->
 機構に、前項に規定する役員のほか、定款で定めるところにより、役員として、副理事長又は理事を置くことができる。

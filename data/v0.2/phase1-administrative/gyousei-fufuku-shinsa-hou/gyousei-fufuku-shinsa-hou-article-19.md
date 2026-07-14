@@ -30,6 +30,36 @@ paragraphs:
     type: hashira
     text: 処分についての審査請求書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-1
+    type: kou
+    text: 一　審査請求人の氏名又は名称及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-2
+    type: kou
+    text: 二　審査請求に係る処分の内容
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-3
+    type: kou
+    text: 三　審査請求に係る処分（当該処分について再調査の請求についての決定を経たときは、当該決定）があったことを知った年月日
+    modality: unspecified
+    item_number: 3
+  - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-4
+    type: kou
+    text: 四　審査請求の趣旨及び理由
+    modality: unspecified
+    item_number: 4
+  - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-5
+    type: kou
+    text: 五　処分庁の教示の有無及びその内容
+    modality: unspecified
+    item_number: 5
+  - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-6
+    type: kou
+    text: 六　審査請求の年月日
+    modality: unspecified
+    item_number: 6
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +69,21 @@ paragraphs:
     type: hashira
     text: 不作為についての審査請求書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: gyousei-fufuku-shinsa-hou-art-19-p3-kou-1
+    type: kou
+    text: 一　審査請求人の氏名又は名称及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-19-p3-kou-2
+    type: kou
+    text: 二　当該不作為に係る処分についての申請の内容及び年月日
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-fufuku-shinsa-hou-art-19-p3-kou-3
+    type: kou
+    text: 三　審査請求の年月日
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -61,6 +106,21 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: gyousei-fufuku-shinsa-hou-art-19-p5-kou-1
+    type: kou
+    text: 一　第五条第二項第一号の規定により再調査の請求についての決定を経ないで審査請求をする場合　再調査の請求をした年月日
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-19-p5-kou-2
+    type: kou
+    text: 二　第五条第二項第二号の規定により再調査の請求についての決定を経ないで審査請求をする場合　その決定を経ないことについての正当な理由
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-fufuku-shinsa-hou-art-19-p5-kou-3
+    type: kou
+    text: 三　審査請求期間の経過後において審査請求をする場合　前条第一項ただし書又は第二項ただし書に規定する正当な理由
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -79,25 +139,44 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-19-p1 -->
 審査請求は、他の法律（条例に基づく処分については、条例）に口頭ですることができる旨の定めがある場合を除き、政令で定めるところにより、審査請求書を提出してしなければならない。
 
 ### 第十九条第二項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-19-p2-hashira -->
 処分についての審査請求書には、次に掲げる事項を記載しなければならない。
+
+一　審査請求人の氏名又は名称及び住所又は居所
+
+二　審査請求に係る処分の内容
+
+三　審査請求に係る処分（当該処分について再調査の請求についての決定を経たときは、当該決定）があったことを知った年月日
+
+四　審査請求の趣旨及び理由
+
+五　処分庁の教示の有無及びその内容
+
+六　審査請求の年月日
 
 ### 第十九条第三項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-19-p3-hashira -->
 不作為についての審査請求書には、次に掲げる事項を記載しなければならない。
+
+一　審査請求人の氏名又は名称及び住所又は居所
+
+二　当該不作為に係る処分についての申請の内容及び年月日
+
+三　審査請求の年月日
 
 ### 第十九条第四項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-19-p4 -->
 審査請求人が、法人その他の社団若しくは財団である場合、総代を互選した場合又は代理人によって審査請求をする場合には、審査請求書には、第二項各号又は前項各号に掲げる事項のほか、その代表者若しくは管理人、総代又は代理人の氏名及び住所又は居所を記載しなければならない。
 
 ### 第十九条第五項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-19-p5-hashira -->
 処分についての審査請求書には、第二項及び前項に規定する事項のほか、次の各号に掲げる場合においては、当該各号に定める事項を記載しなければならない。
+
+一　第五条第二項第一号の規定により再調査の請求についての決定を経ないで審査請求をする場合　再調査の請求をした年月日
+
+二　第五条第二項第二号の規定により再調査の請求についての決定を経ないで審査請求をする場合　その決定を経ないことについての正当な理由
+
+三　審査請求期間の経過後において審査請求をする場合　前条第一項ただし書又は第二項ただし書に規定する正当な理由

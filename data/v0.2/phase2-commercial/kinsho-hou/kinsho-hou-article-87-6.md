@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-6-p1
+    type: simple
+    text: 内閣総理大臣は、取引所金融商品市場を開設する金融商品会員制法人（以下「会員金融商品取引所」という。）の理事又は監事の職務を行う者のない場合において、必要があると認めるときは、仮理事又は仮監事を選任することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-6-p2
+    type: simple
+    text: 内閣総理大臣は、株式会社金融商品取引所の取締役（監査等委員会設置会社にあつては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、執行役又は代表執行役の職務を行う者のない場合において、必要があると認めるときは、仮取締役（監査等委員会設置会社にあつては、監査等委員の職務を行うべき仮取締役又はそれ以外の仮取締役。次条第一項において同じ。）、仮会計参与、仮監査役、仮代表取締役、仮執行役又は仮代表執行役を選任することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-6-p3
+    type: simple
+    text: 会社法第三百四十六条第二項、第三百五十一条第二項及び第四百一条第三項（同法第四百三条第三項及び第四百二十条第三項において準用する場合を含む。）の規定は、株式会社金融商品取引所には、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

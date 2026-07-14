@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-4-p1
+    type: simple
+    text: 認可協会は、金融に係る知識の普及、啓発活動及び広報活動を通じて、金融商品取引業の健全な発展及び投資者の保護の促進に努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

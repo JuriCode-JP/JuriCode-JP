@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-499-2-p1
+    type: simple
+    text: 前条第一項の規定は第百二十三条第三項の規定による交付又は複写について、前条第二項の規定は第二百二十条第二項及び第二百二十二条第一項において準用する第百二十三条第三項の規定による交付又は複写について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-499-2-p2
+    type: simple
+    text: 前項において準用する前条第一項又は第二項の規定による公告をした日から六箇月以内に前項の交付又は複写の請求がないときは、その交付をし、又は複写をさせることを要しない。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

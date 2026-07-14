@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 船舶管理人は、次に掲げる行為を除き、船舶共有者に代わって船舶の利用に関する一切の裁判上又は裁判外の行為をする権限を有する。
     modality: unspecified
+  - id: shouhou-art-698-p1-kou-1
+    type: kou
+    text: 一　船舶を賃貸し、又はこれについて抵当権を設定すること。
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-698-p1-kou-2
+    type: kou
+    text: 二　船舶を保険に付すること。
+    modality: unspecified
+    item_number: 2
+  - id: shouhou-art-698-p1-kou-3
+    type: kou
+    text: 三　新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
+    modality: unspecified
+    item_number: 3
+  - id: shouhou-art-698-p1-kou-4
+    type: kou
+    text: 四　船舶の大修繕をすること。
+    modality: unspecified
+    item_number: 4
+  - id: shouhou-art-698-p1-kou-5
+    type: kou
+    text: 五　借財をすること。
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +77,18 @@ parent_section:
 
 ### 第六百九十八条第一項
 
-<!-- segment: hashira id: shouhou-art-698-p1-hashira -->
 船舶管理人は、次に掲げる行為を除き、船舶共有者に代わって船舶の利用に関する一切の裁判上又は裁判外の行為をする権限を有する。
+
+一　船舶を賃貸し、又はこれについて抵当権を設定すること。
+
+二　船舶を保険に付すること。
+
+三　新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
+
+四　船舶の大修繕をすること。
+
+五　借財をすること。
 
 ### 第六百九十八条第二項
 
-<!-- segment: simple id: shouhou-art-698-p2 -->
 船舶管理人の代理権に加えた制限は、善意の第三者に対抗することができない。

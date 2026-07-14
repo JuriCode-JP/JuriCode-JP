@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: shouhou-art-2-p1 -->
 公法人が行う商行為については、法令に別段の定めがある場合を除き、この法律の定めるところによる。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 業務を執行する社員は、当該社員以外の社員の全員の承認を受けなければ、次に掲げる行為をしてはならない。ただし、定款に別段の定めがある場合は、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-594-p1-kou-1
+    type: kou
+    text: 一　自己又は第三者のために持分会社の事業の部類に属する取引をすること。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-594-p1-kou-2
+    type: kou
+    text: 二　持分会社の事業と同種の事業を目的とする会社の取締役、執行役又は業務を執行する社員となること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -53,10 +63,12 @@ parent_section:
 
 ### 第五百九十四条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-594-p1-hashira -->
 業務を執行する社員は、当該社員以外の社員の全員の承認を受けなければ、次に掲げる行為をしてはならない。ただし、定款に別段の定めがある場合は、この限りでない。
+
+一　自己又は第三者のために持分会社の事業の部類に属する取引をすること。
+
+二　持分会社の事業と同種の事業を目的とする会社の取締役、執行役又は業務を執行する社員となること。
 
 ### 第五百九十四条第二項
 
-<!-- segment: simple id: kaisha-hou-art-594-p2 -->
 業務を執行する社員が前項の規定に違反して同項第一号に掲げる行為をしたときは、当該行為によって当該業務を執行する社員又は第三者が得た利益の額は、持分会社に生じた損害の額と推定する。

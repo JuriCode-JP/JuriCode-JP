@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-12-p1
+    type: simple
+    text: 厚生労働大臣は、毎年度、前二条の規定によるそれぞれの報告の状況について薬事審議会に報告し、必要があると認めるときは、その意見を聴いて、医薬品、医薬部外品、化粧品、医療機器又は再生医療等製品の使用による保健衛生上の危害の発生又は拡大を防止するために必要な措置を講ずるものとする。
+    modality: gimu
+    references:
+    - 前二条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-12-p2
+    type: simple
+    text: 薬事審議会は、前項、第六十八条の十四第二項及び第六十八条の二十四第二項に規定するほか、医薬品、医薬部外品、化粧品、医療機器又は再生医療等製品の使用による保健衛生上の危害の発生又は拡大を防止するために必要な措置について、調査審議し、必要があると認めるときは、厚生労働大臣に意見を述べることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-12-p3
+    type: simple
+    text: 厚生労働大臣は、第一項の報告又は措置を行うに当たつては、第六十八条の十第一項若しくは第二項若しくは前条の規定による報告に係る情報の整理又は当該報告に関する調査を行うものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

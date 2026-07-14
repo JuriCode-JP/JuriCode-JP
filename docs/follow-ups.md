@@ -1038,6 +1038,81 @@ manifests).
 
 **Related**: FU-554 (canonicalization) / FU-517 (duplicate chunk_ids) / FU-518 (embedding provenance).
 
+### [ ] FU-558: G0 の ground truth を独立実装にする (2026-07-14 追加)
+
+**問題**: 現在の `G0-a`（e-Gov XML ↔ 正本 md）は、ground truth 側のテキスト抽出に
+**生成器と同じ `parse-egov.extract_all_text` を再利用している**。DRY のつもりだったが、
+**共有された抽出器の欠陥は比較の両側に等しく現れて相殺され、完全一致に見える**。
+
+**実例 (2026-07-14)**: ルビ (`<Ruby>瑕疵<Rt>かし</Rt></Ruby>`) の読みを本文として取り込む欠陥が
+生成器にあり、G0-a も同じ関数を使っていたため **16,332/16,332 完全一致と報告しながら、
+実際には法令本文が改変されていた** (352 箇所・92 条)。露見したのは
+`table_core.get_text_recursive` だけが以前から `Rt` を除外しており、その食い違いを
+G0-c (chunk ⊂ 親本文) が拾ったという**偶然**による。
+
+**現在の対症 (不十分)**:
+- `test_both_xml_text_extractors_agree` — 2 つの抽出器の一致を固定
+- `G0-d` — ルビの読みが md に混入していないかの常設ゲート
+
+いずれも有効だが、**「両方の抽出器が同じ欠陥を持つ」可能性は残る**（今回も 2 つのうち
+1 つが正しかったから助かっただけ）。ルビ以外の未知の要素 (`<Sup>`, `<Sub>`, `QuoteStruct`,
+`Fig`, `ArithFormula` 等) で同じ事故が起こり得る。
+
+**やること**: G0 の ground truth を、生成器から独立した**第三の実装**として組む。
+XML のタグ走査を最小の規則で書き下し (「どのタグのテキストが本文か」を宣言的に定義)、
+生成器の抽出器を一切 import しない。両者が食い違ったら **どちらが正しいかを一次資料
+(e-Gov の版面) で裁定する**。
+
+**留意**: 「既存のものを再利用しろ (新規パーサを書くな)」という規律は DRY のためであって、
+**検証の独立性を捨てる理由にはならない**。検証器と生成器の間だけは、意図的に重複を許す。
+
+**関連**: G0-d / `test_both_xml_text_extractors_agree` / CLAUDE.md §0.4 W3 (結論と機構を分離)。
+
+---
+
+### [ ] FU-556: 別表 (Appdx*) が canonical corpus に存在しない (2026-07-14 追加)
+
+**現状**: e-Gov XML の `LawBody` 直下にある **別表・附録 (`AppdxTable` / `AppdxNote` / `AppdxStyle` 等) 1,150 個**
+は、`data/v0.2/` の canonical corpus に **1 件も収録されていない**。corpus の単位が「条 (Article)」であり、
+別表は条に属さない law-level の要素なので、条ファイルの生成対象から構造的に外れている。
+
+**なぜ今まで見えなかったか**: `verify.py` は md ↔ manifest の自己整合しか見ず、manifest は
+「収録した条」だけを列挙するため、**最初から取り込んでいないものは欠落として現れない**。
+G0-a 忠実性ゲート (`tools/parse/v0.2/g0_fidelity_gate.py`, 2026-07-13) が XML を ground truth として
+突合したことで初めて数として出た。
+
+**影響**: 別表を参照する条 (「別表第一に掲げる…」) の retrieval で、参照先の実体が corpus に無い。
+税法・地方税法・薬機法で特に多い。
+
+**やること**:
+1. 別表の単位設計を決める (1 別表 = 1 ファイルか、法令ごとに 1 ファイルにまとめるか)。
+   条 (`article_number` pattern `^[0-9]+(-[0-9]+)*$`) には収まらないので、`article_id` 体系の拡張が要る。
+2. round-trip 検証 (manifest hash) の対象に含める。
+3. retrieval chunk を作る (表は既に `table_core` で GFM 直列化できる)。
+
+**留意**: **収録していないことを隠さない**。当面 README に「別表は canonical corpus に未収録」と明記する
+(2026-07-14 実施済)。
+
+**関連**: G0-a ゲート / FU-557 (附則本文) — どちらも「条以外の law-level 要素が corpus に無い」同型の欠落。
+
+---
+
+### [ ] FU-557: 附則 (SupplProvision) の本文が canonical corpus に存在しない (2026-07-14 追加)
+
+**現状**: 附則は **retrieval chunk (`{law}-supplproviso.chunks.jsonl`) にはあるが、canonical md には無い**。
+つまり「chunk にはあるが正本には無い」= 2026-07-13 に号 (kou) で解消したのと**同型の乖離**が附則に残っている。
+
+**なぜ問題か**: 正本 (`data/v0.2/`) が「我々が法令だと言っているもの」である以上、そこに無いものを
+chunk が返すと、出典検証 (quote → chunk → article hash) の鎖が附則で切れる。また G0-c
+(chunk ⊂ 親条文本文) を附則 chunk に適用できない (親が存在しない)。
+
+**やること**: FU-556 (別表) と**同じ単位設計の議論**に載せる。附則は本則条文とは別の階層 (改正法ごとの
+附則) を持つので、`article_id` 体系と manifest の構造を一緒に決める必要がある。
+
+**関連**: FU-556 (別表) / `extract_supplproviso_from_xml.py` / G0-c。
+
+---
+
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
 
 **現状**: `hen: int + hen_name_ja + hen_name_en` flat 構造. 中国語・韓国語追加時にフィールドが増殖.

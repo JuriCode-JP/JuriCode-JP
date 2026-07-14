@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-13-p1
+    type: simple
+    text: 委員長及び委員の給与は、別に法律で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

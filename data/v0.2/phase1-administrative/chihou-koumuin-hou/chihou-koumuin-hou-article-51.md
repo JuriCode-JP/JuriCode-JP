@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五十一条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-51-p1 -->
 審査請求の手続及び審査の結果執るべき措置に関し必要な事項は、人事委員会規則又は公平委員会規則で定めなければならない。

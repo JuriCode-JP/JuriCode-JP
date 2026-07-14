@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-13-p1
+    type: simple
+    text: 認可地縁団体の代表者は、少なくとも毎年一回、構成員の通常総会を開かなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

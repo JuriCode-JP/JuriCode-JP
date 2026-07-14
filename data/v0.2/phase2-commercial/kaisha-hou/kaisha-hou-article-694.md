@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 社債に質権を設定した者は、社債発行会社に対し、次に掲げる事項を社債原簿に記載し、又は記録することを請求することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-694-p1-kou-1
+    type: kou
+    text: 一　質権者の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-694-p1-kou-2
+    type: kou
+    text: 二　質権の目的である社債
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第六百九十四条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-694-p1-hashira -->
 社債に質権を設定した者は、社債発行会社に対し、次に掲げる事項を社債原簿に記載し、又は記録することを請求することができる。
+
+一　質権者の氏名又は名称及び住所
+
+二　質権の目的である社債
 
 ### 第六百九十四条第二項
 
-<!-- segment: simple id: kaisha-hou-art-694-p2 -->
 前項の規定は、社債券を発行する旨の定めがある場合には、適用しない。

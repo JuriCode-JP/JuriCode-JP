@@ -42,6 +42,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: zen_dan id: roudou-kijun-hou-art-13-p1-zen -->
-この法律で定める基準に達しない労働条件を定める労働契約は、その部分については無効とする。<!-- segment: kou_dan id: roudou-kijun-hou-art-13-p1-kou depends_on: roudou-kijun-hou-art-13-p1-zen -->
-この場合において、無効となつた部分は、この法律で定める基準による。
+この法律で定める基準に達しない労働条件を定める労働契約は、その部分については無効とする。この場合において、無効となつた部分は、この法律で定める基準による。

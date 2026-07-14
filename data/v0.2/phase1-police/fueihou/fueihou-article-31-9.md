@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-9-p1
+    type: simple
+    text: 映像送信型性風俗特殊営業を営む者又はその代理人等が、当該営業に関し、この法律又はこの法律に基づく命令若しくは条例の規定に違反したときは、当該違反行為が行われた時における事務所の所在地を管轄する公安委員会は、当該映像送信型性風俗特殊営業を営む者に対し、善良の風俗若しくは清浄な風俗環境を害する行為又は少年の健全な育成に障害を及ぼす行為を防止するため必要な指示をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-9-p2
+    type: simple
+    text: 映像送信型性風俗特殊営業を営む者が客にわいせつな映像又は児童ポルノ映像を見せた場合において、当該映像送信型性風俗特殊営業を営む者に係る自動公衆送信装置設置者が前条第五項の規定を遵守していないと認めるときは、当該自動公衆送信装置設置者の事務所の所在地を管轄する公安委員会は、当該自動公衆送信装置設置者に対し、同項の規定が遵守されることを確保するため必要な措置をとるべきことを勧告することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-9-p3
+    type: simple
+    text: 公安委員会は、電気通信事業者たる自動公衆送信装置設置者に対して前項の規定による勧告をしようとするときは、あらかじめ総務大臣と協議しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

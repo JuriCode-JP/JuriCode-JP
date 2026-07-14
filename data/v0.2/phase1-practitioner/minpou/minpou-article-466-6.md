@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-6-p1
+    type: simple
+    text: 債権の譲渡は、その意思表示の時に債権が現に発生していることを要しない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-6-p2
+    type: simple
+    text: 債権が譲渡された場合において、その意思表示の時に債権が現に発生していないときは、譲受人は、発生した債権を当然に取得する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-6-p3
+    type: simple
+    text: 前項に規定する場合において、譲渡人が次条の規定による通知をし、又は債務者が同条の規定による承諾をした時（以下「対抗要件具備時」という。）までに譲渡制限の意思表示がされたときは、譲受人その他の第三者がそのことを知っていたものとみなして、第四百六十六条第三項（譲渡制限の意思表示がされた債権が預貯金債権の場合にあっては、前条第一項）の規定を適用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

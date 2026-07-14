@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-3-3-p1
+    type: tokusoku
+    text: 法第七百三十五条第一項の規定により都がその特別区の存する区域内において課する事業所税については、第一条の規定にかかわらず、都を市とみなして第二十四条の二から第二十四条の二十九までの規定を準用する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第一条
 cases: []
 amendments: []
 tags:

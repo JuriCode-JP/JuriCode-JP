@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百四十五条
 
-<!-- segment: simple id: chihou-jichi-hou-art-145-p1 -->
 普通地方公共団体の長は、退職しようとするときは、その退職しようとする日前、都道府県知事にあつては三十日、市町村長にあつては二十日までに、当該普通地方公共団体の議会の議長に申し出なければならない。但し、議会の同意を得たときは、その期日前に退職することができる。

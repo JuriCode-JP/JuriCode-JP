@@ -46,10 +46,8 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-12-p1 -->
 法第三十条第一項に規定する財務省令で定める費用は、山林の伐採又は譲渡に関して要した伐採費、運搬費のほか、当該伐採又は譲渡に関して要した仲介手数料その他の費用とする。
 
 ### 第十二条第二項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-12-p2 -->
 法第三十条第四項に規定する割合は、百分の五十とする。

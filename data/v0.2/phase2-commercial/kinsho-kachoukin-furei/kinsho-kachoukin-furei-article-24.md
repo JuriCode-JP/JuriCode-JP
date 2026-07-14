@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十四条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-24-p1 -->
 主張の提出又は証拠の申出は、審判手続の進行状況に応じ適切な時期に行わなければならない。

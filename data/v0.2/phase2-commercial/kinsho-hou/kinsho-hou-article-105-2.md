@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-2-p1
+    type: junyou
+    text: 第九十八条第四項及び第五項の規定は、株式会社金融商品取引所の役員について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

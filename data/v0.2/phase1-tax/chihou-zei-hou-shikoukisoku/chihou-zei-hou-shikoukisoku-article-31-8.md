@@ -34,5 +34,4 @@ tags:
 
 ### 第三十一条の八
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-31-8-p1 -->
 法第七百九十三条第三項に規定する総務省令で定める期間は、五年間とする。

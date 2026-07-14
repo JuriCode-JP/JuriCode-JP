@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-207-2-p1
+    type: simple
+    text: 第百九十七条の二第二項第二号、第百九十八条第二項又は第二百三条第一項に規定する者が法人であるときは、これらの規定は、その行為をした取締役、執行役その他業務を執行する役員又は支配人に適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

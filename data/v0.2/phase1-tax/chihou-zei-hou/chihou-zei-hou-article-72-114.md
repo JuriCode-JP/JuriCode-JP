@@ -16,27 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-114-p1
+    type: simple
+    text: 道府県は、当該道府県に納付された譲渡割額に相当する額及び第七十二条の百三第三項の規定により払い込まれた貨物割の納付額の合算額の二十二分の十に相当する額から前条第一項の規定により国に支払つた金額に相当する額を減額した額を、政令で定めるところにより、各道府県ごとの消費に相当する額に応じて按分し、当該按分した額のうち他の道府県に係る額を他の道府県に対し、それぞれ支払うものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-114-p2
+    type: simple
+    text: 道府県は、前項に規定する合算額の二十二分の十二に相当する額を、政令で定めるところにより、各道府県ごとの消費に相当する額に応じて按分し、当該按分した額のうち他の道府県に係る額を他の道府県に対し、それぞれ支払うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-114-p3
+    type: simple
+    text: 前二項の規定により他の道府県に支払うべき金額とこれらの規定により他の道府県から支払を受けるべき金額は、関係道府県間で、それぞれ相殺するものとする。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-114-p4
+    type: simple
+    text: 第一項及び第二項の各道府県ごとの消費に相当する額とは、各道府県ごとに、当該道府県の小売年間販売額（統計法第二条第四項に規定する基幹統計である経済構造統計（総務省令で定めるものに限る。）の最近に公表された結果に基づき総務省令で定める額をいう。）と当該道府県の当該小売年間販売額に相当する消費以外の消費に相当する額（消費に関連する指標で政令で定めるものを基準として政令で定めるところにより算定した額をいう。）とを合計して得た額をいう。
+    modality: teigi
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-114-p5
+    type: simple
+    text: 前各項に定めるもののほか、これらの規定の実施のための手続その他その執行のために必要な事項は、総務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

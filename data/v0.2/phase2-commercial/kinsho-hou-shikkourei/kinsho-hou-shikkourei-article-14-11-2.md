@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-11-2-p1
+    type: simple
+    text: 法第二十七条の三十の五第一項第一号に規定する政令で定める事由は、電力の供給が断たれた場合その他の理由により、法第二十七条の三十の二の電子計算機を稼働させることができないこととする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

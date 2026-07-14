@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百一条
 
-<!-- segment: simple id: kinsho-hou-art-101-p1 -->
 会員金融商品取引所は、その組織を変更して株式会社金融商品取引所になることができる。

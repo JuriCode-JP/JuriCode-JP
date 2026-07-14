@@ -32,6 +32,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: shotoku-zei-hou-shikkourei-art-100-p2-kou-1
+    type: kou
+    text: 一　新たに事業所得を生ずべき事業を開始した居住者　当該事業を開始した日
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-100-p2-kou-2
+    type: kou
+    text: 二　前号の事業を開始した後新たに他の種類の事業を開始し又は事業の種類を変更した居住者　当該他の種類の事業を開始し又は事業の種類を変更した日
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -56,10 +66,12 @@ parent_section:
 
 ### 第百条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-100-p1 -->
 第九十九条第一項（棚卸資産の評価の方法）に規定する棚卸資産の評価の方法は、居住者の営む事業の種類ごとに、かつ、商品又は製品（副産物及び作業くずを除く。）、半製品、仕掛品（半成工事を含む。）、主要原材料及び補助原材料その他の棚卸資産の区分ごとに選定しなければならない。
 
 ### 第百条第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-100-p2-hashira -->
 居住者は、次の各号に掲げる者の区分に応じ当該各号に掲げる日の属する年分の所得税に係る確定申告期限までに、棚卸資産につき、前項に規定する事業の種類及び資産の区分ごとに、第九十九条第一項に規定する評価の方法のうちそのよるべき方法を書面により納税地の所轄税務署長に届け出なければならない。
+
+一　新たに事業所得を生ずべき事業を開始した居住者　当該事業を開始した日
+
+二　前号の事業を開始した後新たに他の種類の事業を開始し又は事業の種類を変更した居住者　当該他の種類の事業を開始し又は事業の種類を変更した日

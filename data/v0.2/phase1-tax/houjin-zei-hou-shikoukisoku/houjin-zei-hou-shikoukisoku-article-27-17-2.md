@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-17-2-p1
+    type: junyou
+    text: 前条の規定は、令第百三十三条の二第一項（一括償却資産の損金算入）に規定する主要な事業として行われる貸付けに該当するかどうかの判定について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

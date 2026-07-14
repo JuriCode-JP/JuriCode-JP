@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第九十五条第四項第十号イ（外国税額控除）に規定する政令で定める人的役務の提供は、次に掲げる勤務その他の人的役務の提供とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-225-8-p1-kou-1
+    type: kou
+    text: 一　内国法人の役員としての勤務で国外において行うもの（当該役員としての勤務を行う者が同時にその内国法人の使用人として常時勤務を行う場合の当該役員としての勤務を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-225-8-p1-kou-2
+    type: kou
+    text: 二　居住者又は内国法人が運航する船舶又は航空機において行う勤務その他の人的役務の提供（国外における寄航地において行われる一時的な人的役務の提供を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第二百二十五条の八第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-225-8-p1-hashira -->
 法第九十五条第四項第十号イ（外国税額控除）に規定する政令で定める人的役務の提供は、次に掲げる勤務その他の人的役務の提供とする。
+
+一　内国法人の役員としての勤務で国外において行うもの（当該役員としての勤務を行う者が同時にその内国法人の使用人として常時勤務を行う場合の当該役員としての勤務を除く。）
+
+二　居住者又は内国法人が運航する船舶又は航空機において行う勤務その他の人的役務の提供（国外における寄航地において行われる一時的な人的役務の提供を除く。）
 
 ### 第二百二十五条の八第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-225-8-p2 -->
 法第九十五条第四項第十号ハに規定する政令で定める人的役務の提供は、前項各号に掲げる勤務その他の人的役務の提供で当該勤務その他の人的役務の提供を行う者が非居住者であつた期間に行つたものとする。

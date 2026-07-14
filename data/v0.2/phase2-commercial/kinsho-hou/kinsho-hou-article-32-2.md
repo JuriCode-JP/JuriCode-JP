@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-32-2-p1
+    type: simple
+    text: 内閣総理大臣は、金融商品取引業者の主要株主が第二十九条の四第一項第五号ニ（１）若しくは（２）又はホ（１）から（３）までのいずれかに該当する場合には、当該主要株主に対し三月以内の期間を定めて当該金融商品取引業者の主要株主でなくなるための措置その他必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-32-2-p2
+    type: simple
+    text: 内閣総理大臣は、金融商品取引業者の特定主要株主（前条第四項に規定する特定主要株主をいう。以下同じ。）の業務又は財産の状況（当該特定主要株主が法人である場合にあつては、当該特定主要株主の子法人等（特定主要株主が総株主等の議決権の過半数を保有していることその他の当該特定主要株主と密接な関係を有する法人その他の団体として政令で定める要件に該当する者をいう。）の財産の状況を含む。）に照らして公益又は投資者保護のため特に必要があると認めるときは、その必要の限度において、当該特定主要株主に対し、当該金融商品取引業者の業務の運営又は財産の状況の改善に必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-32-2-p3
+    type: simple
+    text: 内閣総理大臣は、金融商品取引業者の特定主要株主が前項の規定による命令に違反した場合には、当該特定主要株主に対し三月以内の期間を定めて当該金融商品取引業者の主要株主でなくなるための措置その他必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

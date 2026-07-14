@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-7-p1
+    type: simple
+    text: 組織変更後株式会社金融商品取引所の資本金として計上すべき額については、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

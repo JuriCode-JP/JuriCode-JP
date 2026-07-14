@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-47-p1
+    type: simple
+    text: 法第二十三条の三十二第一項において準用する法第二十三条の二十七第一項の規定により機構に法第二十三条の三十一第二項の規定による確認又は同条第五項の規定による調査（以下この条及び次条において「再生医療等製品確認等」という。）を行わせることとしたときは、令第四十三条の四十に規定する再生医療等製品に係る法第二十三条の三十一第一項の再評価の申請者は、機構に当該再生医療等製品確認等の申請をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-47-p2
+    type: simple
+    text: 前項の申請は、様式第七十五の十三による申請書を当該申請に係る品目の法第二十三条の三十一第一項の再評価の申請書に添付して、厚生労働大臣を経由して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

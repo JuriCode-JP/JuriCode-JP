@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十四条の四第六項において準用する法第三十四条の三第二項に規定する内閣府令で定める場合は、金融商品取引業者等が一定の日を定め、次に掲げる事項を当該金融商品取引業者等の営業所又は事務所の公衆の見やすい場所への掲示その他の適切な方法により公表している場合とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-63-p1-kou-1
+    type: kou
+    text: 一　当該日
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-63-p1-kou-2
+    type: kou
+    text: 二　次項に規定する日を期限日（法第三十四条の四第六項において準用する法第三十四条の三第二項第二号に規定する期限日をいう。次条第二項及び第六十四条の二において同じ。）とする旨
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,9 +62,11 @@ parent_section:
 
 ### 第六十三条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-63-p1-hashira -->
-<!-- segment: simple id: kinsho-gyou-furei-art-63-p2 -->
 法第三十四条の四第六項において準用する法第三十四条の三第二項に規定する内閣府令で定める場合は、金融商品取引業者等が一定の日を定め、次に掲げる事項を当該金融商品取引業者等の営業所又は事務所の公衆の見やすい場所への掲示その他の適切な方法により公表している場合とする。
+
+一　当該日
+
+二　次項に規定する日を期限日（法第三十四条の四第六項において準用する法第三十四条の三第二項第二号に規定する期限日をいう。次条第二項及び第六十四条の二において同じ。）とする旨
 
 ### 第六十三条第二項
 

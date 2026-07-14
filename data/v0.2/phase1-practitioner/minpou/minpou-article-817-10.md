@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-10-p1-hashira
+    type: hashira
+    text: 次の各号のいずれにも該当する場合において、養子の利益のため特に必要があると認めるときは、家庭裁判所は、養子、実父母又は検察官の請求により、特別養子縁組の当事者を離縁させることができる。
+    modality: kanou_kenri
+  - id: minpou-art-817-10-p1-kou-1
+    type: kou
+    text: 一　養親による虐待、悪意の遺棄その他養子の利益を著しく害する事由があること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-817-10-p1-kou-2
+    type: kou
+    text: 二　実父母が相当の監護をすることができること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-10-p2
+    type: simple
+    text: 離縁は、前項の規定による場合のほか、これをすることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -45,6 +65,10 @@ parent_section:
 ### 第八百十七条の十第一項
 
 次の各号のいずれにも該当する場合において、養子の利益のため特に必要があると認めるときは、家庭裁判所は、養子、実父母又は検察官の請求により、特別養子縁組の当事者を離縁させることができる。
+
+一　養親による虐待、悪意の遺棄その他養子の利益を著しく害する事由があること。
+
+二　実父母が相当の監護をすることができること。
 
 ### 第八百十七条の十第二項
 

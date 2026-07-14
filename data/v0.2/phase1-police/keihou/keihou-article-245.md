@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十五条
 
-<!-- segment: simple id: keihou-art-245-p1 -->
 この章の罪については、電気は、財物とみなす。

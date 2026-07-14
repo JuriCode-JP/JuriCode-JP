@@ -50,8 +50,6 @@ parent_section:
 
 ### 第九十三条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-93-p1 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-93-p2 -->
 行政機関の長等は、訂正請求に係る保有個人情報の訂正をするときは、その旨の決定をし、訂正請求者に対し、その旨を書面により通知しなければならない。
 
 ### 第九十三条第二項

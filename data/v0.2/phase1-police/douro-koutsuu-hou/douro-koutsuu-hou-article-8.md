@@ -75,6 +75,10 @@ paragraphs:
     type: simple
     text: 第三項の許可証の様式その他第二項の許可について必要な事項は、内閣府令で定める。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-8-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第一項第二号、同条第三項、第百二十一条第一項第一号及び第二号　第五項については第百二十一条第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -91,30 +95,26 @@ parent_section:
 
 ### 第八条第一項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-8-p1 -->
 歩行者等又は車両等は、道路標識等によりその通行を禁止されている道路又はその部分を通行してはならない。
 
 ### 第八条第二項
 
-<!-- segment: tokusoku id: douro-koutsuu-hou-art-8-p2 override_flag: true override_target: 前項 -->
 車両は、警察署長が政令で定めるやむを得ない理由があると認めて許可をしたときは、前項の規定にかかわらず、道路標識等によりその通行を禁止されている道路又はその部分を通行することができる。
 
 ### 第八条第三項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-8-p3 -->
 警察署長は、前項の許可をしたときは、許可証を交付しなければならない。
 
 ### 第八条第四項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-8-p4 -->
 前項の規定により許可証の交付を受けた車両の運転者は、当該許可に係る通行中、当該許可証を携帯していなければならない。
 
 ### 第八条第五項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-8-p5 -->
 第二項の許可を与える場合において、必要があると認めるときは、警察署長は、当該許可に条件を付することができる。
 
 ### 第八条第六項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-8-p6 -->
 第三項の許可証の様式その他第二項の許可について必要な事項は、内閣府令で定める。
+
+（罰則　第一項については第百十九条第一項第二号、同条第三項、第百二十一条第一項第一号及び第二号　第五項については第百二十一条第一項第三号）

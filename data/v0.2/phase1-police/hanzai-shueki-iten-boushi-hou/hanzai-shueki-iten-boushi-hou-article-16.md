@@ -66,20 +66,16 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-16-p1 -->
 行政庁は、この法律の施行に必要な限度において、当該職員に特定事業者の営業所その他の施設に立ち入らせ、帳簿書類その他の物件を検査させ、又はその業務に関し関係人に質問させることができる。
 
 ### 第十六条第二項
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-16-p2 -->
 前項の規定により立入検査をする当該職員は、その身分を示す証明書を携帯し、関係人の請求があったときは、これを提示しなければならない。
 
 ### 第十六条第三項
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-16-p3 -->
 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
 
 ### 第十六条第四項
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-16-p4 -->
 第一項の規定は、特定事業者である日本銀行については、適用しない。

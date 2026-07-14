@@ -41,6 +41,36 @@ paragraphs:
     type: hashira
     text: 第一項の許可を受けようとする者は、厚生労働省令で定めるところにより、次の各号に掲げる事項を記載した申請書を厚生労働大臣に提出しなければならない。
     modality: gimu
+  - id: yakkihou-art-13-p3-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-13-p3-kou-2
+    type: kou
+    text: 二　その製造所の構造設備の概要
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-13-p3-kou-3
+    type: kou
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-13-p3-kou-4
+    type: kou
+    text: 四　医薬品の製造業の許可を受けようとする者にあつては、第十七条第六項に規定する医薬品製造管理者の氏名
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-art-13-p3-kou-5
+    type: kou
+    text: 五　医薬部外品又は化粧品の製造業の許可を受けようとする者にあつては、第十七条第十一項に規定する医薬部外品等責任技術者の氏名
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-art-13-p3-kou-6
+    type: kou
+    text: 六　第六項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    modality: unspecified
+    item_number: 6
 - number: 4
   has_proviso: false
   has_items: false
@@ -113,45 +143,48 @@ parent_section:
 
 ### 第十三条第一項
 
-<!-- segment: simple id: yakkihou-art-13-p1 -->
 医薬品、医薬部外品又は化粧品の製造業の許可を受けた者でなければ、それぞれ、業として、医薬品、医薬部外品又は化粧品の製造をしてはならない。
 
 ### 第十三条第二項
 
-<!-- segment: simple id: yakkihou-art-13-p2 -->
 前項の許可は、厚生労働省令で定める区分に従い、厚生労働大臣が製造所ごとに与える。
 
 ### 第十三条第三項
 
-<!-- segment: hashira id: yakkihou-art-13-p3-hashira -->
 第一項の許可を受けようとする者は、厚生労働省令で定めるところにより、次の各号に掲げる事項を記載した申請書を厚生労働大臣に提出しなければならない。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　その製造所の構造設備の概要
+
+三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
+
+四　医薬品の製造業の許可を受けようとする者にあつては、第十七条第六項に規定する医薬品製造管理者の氏名
+
+五　医薬部外品又は化粧品の製造業の許可を受けようとする者にあつては、第十七条第十一項に規定する医薬部外品等責任技術者の氏名
+
+六　第六項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
 
 ### 第十三条第四項
 
-<!-- segment: simple id: yakkihou-art-13-p4 -->
 第一項の許可は、三年を下らない政令で定める期間ごとにその更新を受けなければ、その期間の経過によつて、その効力を失う。
 
 ### 第十三条第五項
 
-<!-- segment: simple id: yakkihou-art-13-p5 -->
 その製造所の構造設備が、厚生労働省令で定める基準に適合しないときは、第一項の許可を与えないことができる。
 
 ### 第十三条第六項
 
-<!-- segment: junyou id: yakkihou-art-13-p6 -->
 第五条（第三号に係る部分に限る。）の規定は、第一項の許可について準用する。
 
 ### 第十三条第七項
 
-<!-- segment: simple id: yakkihou-art-13-p7 -->
 厚生労働大臣は、第一項の許可又は第四項の許可の更新の申請を受けたときは、第五項の厚生労働省令で定める基準に適合するかどうかについての書面による調査又は実地の調査を行うものとする。
 
 ### 第十三条第八項
 
-<!-- segment: simple id: yakkihou-art-13-p8 -->
 第一項の許可を受けた者は、当該製造所に係る許可の区分を変更し、又は追加しようとするときは、厚生労働大臣の許可を受けなければならない。
 
 ### 第十三条第九項
 
-<!-- segment: simple id: yakkihou-art-13-p9 -->
 前項の許可については、第一項から第七項までの規定を準用する。

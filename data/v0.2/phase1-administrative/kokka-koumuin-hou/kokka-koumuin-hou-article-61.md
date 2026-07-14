@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六十一条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-61-p1 -->
 職員の休職、復職、退職及び免職は任命権者が、この法律及び人事院規則に従い、これを行う。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-55-2-p1
+    type: simple
+    text: 令第二十八条第三項第一号の厚生労働省令で定める調査は、法第十四条の三第一項の規定による法第十四条の承認に係る医薬品の使用成績に関する調査、当該医薬品の副作用等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査、当該医薬品の効能又は効果及び安全性に関しその製造販売の承認後に得られた研究報告に関する調査その他の当該医薬品の品質、有効性及び安全性に関する調査とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

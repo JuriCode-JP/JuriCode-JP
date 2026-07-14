@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-19-p1
+    type: simple
+    text: 法第六十三条の九第六項第一号ハに規定する内閣府令で定める者は、海外投資家等特例業務を適確に遂行するための社内規則（海外投資家等以外の者が権利者となることを防止するための措置に関する規定を含むものに限る。）を作成していない者又は当該社内規則を遵守するための体制を整備していない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

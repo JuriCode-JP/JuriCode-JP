@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-3-p1
+    type: simple
+    text: 製造専用医薬品、製造専用医療機器又は製造専用再生医療等製品について法第六十八条の二第二項の規定を適用する場合においては、同項第一号、第二号又は第三号中「イから」とあるのは、「ロから」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-3-p2
+    type: simple
+    text: 製造専用医薬品、製造専用医療機器又は製造専用再生医療等製品については、これに添付する文書又はその容器若しくは被包に、法第六十八条の二第二項第一号ロからホまで、同項第二号ロからホまで又は同項第三号ロからホまでに掲げる事項が記載されている場合には、法第六十八条の二第一項の規定は適用しない。
+    modality: jogai
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-3-p3
+    type: simple
+    text: 製造専用医薬品、製造専用医療機器及び製造専用再生医療等製品については、法第六十八条の二の三の規定は適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

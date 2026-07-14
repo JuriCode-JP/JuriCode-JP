@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-10-p1
+    type: simple
+    text: 軽油引取税の税率は、一キロリットルにつき、一万五千円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -22,7 +22,7 @@ paragraphs:
     text: 持分会社が第六百六十八条第一項の財産の処分の方法を定めた場合には、その解散後の清算持分会社の債権者は、当該清算持分会社に対し、当該財産の処分の方法について異議を述べることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -31,8 +31,18 @@ paragraphs:
     text: 前項に規定する場合には、清算持分会社は、解散の日（前条第二項に規定する場合にあっては、当該財産の処分の方法を定めた日）から二週間以内に、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第二号の期間は、一箇月を下ることができない。
     modality: kanou_negative
     references:
-    - 前項
     - 前条
+    - 前項
+  - id: kaisha-hou-art-670-p2-kou-1
+    type: kou
+    text: 一　第六百六十八条第一項の財産の処分の方法に従い清算をする旨
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-670-p2-kou-2
+    type: kou
+    text: 二　債権者が一定の期間内に異議を述べることができる旨
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -86,23 +96,22 @@ parent_section:
 
 ### 第六百七十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-670-p1 -->
 持分会社が第六百六十八条第一項の財産の処分の方法を定めた場合には、その解散後の清算持分会社の債権者は、当該清算持分会社に対し、当該財産の処分の方法について異議を述べることができる。
 
 ### 第六百七十条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-670-p2-hashira -->
 前項に規定する場合には、清算持分会社は、解散の日（前条第二項に規定する場合にあっては、当該財産の処分の方法を定めた日）から二週間以内に、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第二号の期間は、一箇月を下ることができない。
+
+一　第六百六十八条第一項の財産の処分の方法に従い清算をする旨
+
+二　債権者が一定の期間内に異議を述べることができる旨
 
 ### 第六百七十条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-670-p3 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、清算持分会社が同項の規定による公告を、官報のほか、第九百三十九条第一項の規定による定款の定めに従い、同項第二号又は第三号に掲げる公告方法によりするときは、前項の規定による各別の催告は、することを要しない。
 
 ### 第六百七十条第四項
 
-<!-- segment: simple id: kaisha-hou-art-670-p4 -->
-<!-- segment: simple id: kaisha-hou-art-670-p5 -->
 債権者が第二項第二号の期間内に異議を述べなかったときは、当該債権者は、当該財産の処分の方法について承認をしたものとみなす。
 
 ### 第六百七十条第五項

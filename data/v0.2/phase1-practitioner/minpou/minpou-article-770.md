@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 夫婦の一方は、次に掲げる場合に限り、離婚の訴えを提起することができる。
     modality: kanou_kenri
+  - id: minpou-art-770-p1-kou-1
+    type: kou
+    text: 一　配偶者に不貞な行為があったとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-770-p1-kou-2
+    type: kou
+    text: 二　配偶者から悪意で遺棄されたとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-770-p1-kou-3
+    type: kou
+    text: 三　配偶者の生死が三年以上明らかでないとき。
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-770-p1-kou-4
+    type: kou
+    text: 四　その他婚姻を継続し難い重大な事由があるとき。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +74,16 @@ parent_section:
 
 ### 第七百七十条第一項
 
-<!-- segment: hashira id: minpou-art-770-p1-hashira -->
 夫婦の一方は、次に掲げる場合に限り、離婚の訴えを提起することができる。
+
+一　配偶者に不貞な行為があったとき。
+
+二　配偶者から悪意で遺棄されたとき。
+
+三　配偶者の生死が三年以上明らかでないとき。
+
+四　その他婚姻を継続し難い重大な事由があるとき。
 
 ### 第七百七十条第二項
 
-<!-- segment: simple id: minpou-art-770-p2 -->
 裁判所は、前項第一号から第三号までに掲げる事由がある場合であっても、一切の事情を考慮して婚姻の継続を相当と認めるときは、離婚の請求を棄却することができる。

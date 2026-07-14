@@ -14,16 +14,31 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kokka-koumuin-hou-art-8-p1
     type: simple
     text: 人事官は、左の各号の一に該当する場合を除く外、その意に反して罷免されることがない。
     modality: unspecified
+  - id: kokka-koumuin-hou-art-8-p1-kou-1
+    type: kou
+    text: 一　第五条第三項各号の一に該当するに至つた場合
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-8-p1-kou-2
+    type: kou
+    text: 二　国会の訴追に基き、公開の弾劾手続により罷免を可とすると決定された場合
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-8-p1-kou-3
+    type: kou
+    text: 三　任期が満了して、再任されず又は人事官として引き続き十二年在任するに至つた場合
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kokka-koumuin-hou-art-8-p2
@@ -32,6 +47,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kokka-koumuin-hou-art-8-p2-kou-1
+    type: kou
+    text: 一　心身の故障のため、職務の遂行に堪えないこと
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-8-p2-kou-2
+    type: kou
+    text: 二　職務上の義務に違反し、その他人事官たるに適しない非行があること
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -68,20 +93,26 @@ parent_section:
 
 ### 第八条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-8-p1 -->
 人事官は、左の各号の一に該当する場合を除く外、その意に反して罷免されることがない。
+
+一　第五条第三項各号の一に該当するに至つた場合
+
+二　国会の訴追に基き、公開の弾劾手続により罷免を可とすると決定された場合
+
+三　任期が満了して、再任されず又は人事官として引き続き十二年在任するに至つた場合
 
 ### 第八条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-8-p2 -->
 前項第二号の規定による弾劾の事由は、左に掲げるものとする。
+
+一　心身の故障のため、職務の遂行に堪えないこと
+
+二　職務上の義務に違反し、その他人事官たるに適しない非行があること
 
 ### 第八条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-8-p3 -->
 人事官の中、二人以上が同一の政党に属することとなつた場合においては、これらの者の中一人以外の者は、内閣が両議院の同意を経て、これを罷免するものとする。
 
 ### 第八条第四項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-8-p4 -->
 前項の規定は、政党所属関係について異動のなかつた人事官の地位に、影響を及ぼすものではない。

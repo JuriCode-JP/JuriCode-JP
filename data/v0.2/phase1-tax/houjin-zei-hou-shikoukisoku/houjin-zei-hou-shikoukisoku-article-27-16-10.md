@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-10-p1
+    type: simple
+    text: 令第百三十一条の十五第一項第四号（通算制度の開始に伴う資産の時価評価損益）に規定する財務省令で定める単位は、第二十七条の十五第一項各号（特定資産に係る譲渡等損失額の損金不算入）に掲げる資産の区分に応じ当該各号に定めるところにより区分した後の単位とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

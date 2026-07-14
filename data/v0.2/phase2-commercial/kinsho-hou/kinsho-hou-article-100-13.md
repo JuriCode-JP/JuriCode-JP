@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-13-p1
+    type: simple
+    text: 前条第一項の期間の経過後に申出をした債権者は、金融商品会員制法人の債務が完済された後まだ権利の帰属すべき者に引き渡されていない財産に対してのみ、請求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

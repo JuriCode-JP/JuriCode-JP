@@ -46,10 +46,8 @@ parent_section:
 
 ### 第四十三条第一項
 
-<!-- segment: simple id: kenpou-art-43-p1 -->
 両議院は、全国民を代表する選挙された議員でこれを組織する。
 
 ### 第四十三条第二項
 
-<!-- segment: simple id: kenpou-art-43-p2 -->
 両議院の議員の定数は、法律でこれを定める。

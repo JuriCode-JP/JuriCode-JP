@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百八十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-389-p1 -->
 公判期日には、検察官及び弁護人は、控訴趣意書に基いて弁論をしなければならない。

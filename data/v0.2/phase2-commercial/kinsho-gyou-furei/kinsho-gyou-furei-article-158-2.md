@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-158-2-p1-hashira
+    type: hashira
+    text: 第百五十七条第一項第三号の二の決済措置の確認に係る記録には、令第二十六条の二の二第一項又は第二項（これらの規定を同条第六項及び第七項において準用する場合を含む。）の規定により確認した内容に関し、次に掲げる事項を記載しなければならない。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-158-2-p1-kou-1
+    type: kou
+    text: 一　顧客の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-158-2-p1-kou-2
+    type: kou
+    text: 二　確認年月日
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-158-2-p1-kou-3
+    type: kou
+    text: 三　決済措置に係る有価証券の調達先
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-158-2-p1-kou-4
+    type: kou
+    text: 四　令第二十六条の二の二第一項又は第二項（これらの規定を同条第六項及び第七項において準用する場合を含む。）の規定により確認した決済措置の内容
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -38,3 +62,11 @@ parent_section:
 ### 第百五十八条の二
 
 第百五十七条第一項第三号の二の決済措置の確認に係る記録には、令第二十六条の二の二第一項又は第二項（これらの規定を同条第六項及び第七項において準用する場合を含む。）の規定により確認した内容に関し、次に掲げる事項を記載しなければならない。
+
+一　顧客の氏名又は名称
+
+二　確認年月日
+
+三　決済措置に係る有価証券の調達先
+
+四　令第二十六条の二の二第一項又は第二項（これらの規定を同条第六項及び第七項において準用する場合を含む。）の規定により確認した決済措置の内容

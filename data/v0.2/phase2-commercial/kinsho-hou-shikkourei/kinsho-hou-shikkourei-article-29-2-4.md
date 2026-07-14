@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-hashira
+    type: hashira
+    text: 法第百六十六条第二項第十二号チに規定する政令で定める事項は、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-kou-1
+    type: kou
+    text: 一　会社分割
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-kou-2
+    type: kou
+    text: 二　事業譲渡
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-kou-3
+    type: kou
+    text: 三　当該上場会社等から委託された資産の運用に係る事業の休止又は廃止
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-kou-4
+    type: kou
+    text: 四　当該上場会社等から委託を受けて行う資産の運用であつて、その全部又は一部が休止又は廃止されることとなるもの
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-kou-5
+    type: kou
+    text: 五　破産手続開始、再生手続開始又は更生手続開始の申立て
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-shikkourei-art-29-2-4-p1-kou-6
+    type: kou
+    text: 六　当該上場会社等から委託を受けて行う資産の運用であつて、新たに開始されることとなるもの
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第二十九条の二の四
 
 法第百六十六条第二項第十二号チに規定する政令で定める事項は、次に掲げるものとする。
+
+一　会社分割
+
+二　事業譲渡
+
+三　当該上場会社等から委託された資産の運用に係る事業の休止又は廃止
+
+四　当該上場会社等から委託を受けて行う資産の運用であつて、その全部又は一部が休止又は廃止されることとなるもの
+
+五　破産手続開始、再生手続開始又は更生手続開始の申立て
+
+六　当該上場会社等から委託を受けて行う資産の運用であつて、新たに開始されることとなるもの

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: simple id: keihou-art-9-p1 -->
 死刑、拘禁刑、罰金、拘留及び科料を主刑とし、没収を付加刑とする。

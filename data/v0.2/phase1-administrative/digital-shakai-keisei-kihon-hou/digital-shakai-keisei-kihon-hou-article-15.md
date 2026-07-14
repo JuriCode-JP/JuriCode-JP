@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-15-p1 -->
 国及び地方公共団体は、デジタル社会の形成に関する施策が迅速かつ重点的に実施されるよう、相互に連携を図らなければならない。

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 命令等制定機関は、意見公募手続を実施して命令等を定めた場合には、当該命令等の公布（公布をしないものにあっては、公にする行為。第五項において同じ。）と同時期に、次に掲げる事項を公示しなければならない。
     modality: gimu
+  - id: gyousei-tetsuzuki-hou-art-43-p1-kou-1
+    type: kou
+    text: 一　命令等の題名
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-tetsuzuki-hou-art-43-p1-kou-2
+    type: kou
+    text: 二　命令等の案の公示の日
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-tetsuzuki-hou-art-43-p1-kou-3
+    type: kou
+    text: 三　提出意見（提出意見がなかった場合にあっては、その旨）
+    modality: unspecified
+    item_number: 3
+  - id: gyousei-tetsuzuki-hou-art-43-p1-kou-4
+    type: kou
+    text: 四　提出意見を考慮した結果（意見公募手続を実施した命令等の案と定めた命令等との差異を含む。）及びその理由
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -34,8 +54,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -57,7 +77,7 @@ paragraphs:
     text: 命令等制定機関は、意見公募手続を実施したにもかかわらず命令等を定めないこととした場合には、その旨（別の命令等の案について改めて意見公募手続を実施しようとする場合にあっては、その旨を含む。）並びに第一項第一号及び第二号に掲げる事項を速やかに公示しなければならない。
     modality: gimu
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -67,6 +87,16 @@ paragraphs:
     modality: unspecified
     references:
     - 同項
+  - id: gyousei-tetsuzuki-hou-art-43-p5-kou-1
+    type: kou
+    text: 一　命令等の題名及び趣旨
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-tetsuzuki-hou-art-43-p5-kou-2
+    type: kou
+    text: 二　意見公募手続を実施しなかった旨及びその理由
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -83,25 +113,32 @@ parent_section:
 
 ### 第四十三条第一項
 
-<!-- segment: hashira id: gyousei-tetsuzuki-hou-art-43-p1-hashira -->
 命令等制定機関は、意見公募手続を実施して命令等を定めた場合には、当該命令等の公布（公布をしないものにあっては、公にする行為。第五項において同じ。）と同時期に、次に掲げる事項を公示しなければならない。
+
+一　命令等の題名
+
+二　命令等の案の公示の日
+
+三　提出意見（提出意見がなかった場合にあっては、その旨）
+
+四　提出意見を考慮した結果（意見公募手続を実施した命令等の案と定めた命令等との差異を含む。）及びその理由
 
 ### 第四十三条第二項
 
-<!-- segment: tokusoku id: gyousei-tetsuzuki-hou-art-43-p2 override_flag: true override_target: 前項 -->
 命令等制定機関は、前項の規定にかかわらず、必要に応じ、同項第三号の提出意見に代えて、当該提出意見を整理又は要約したものを公示することができる。この場合においては、当該公示の後遅滞なく、当該提出意見を当該命令等制定機関の事務所における備付けその他の適当な方法により公にしなければならない。
 
 ### 第四十三条第三項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-43-p3 -->
 命令等制定機関は、前二項の規定により提出意見を公示し又は公にすることにより第三者の利益を害するおそれがあるとき、その他正当な理由があるときは、当該提出意見の全部又は一部を除くことができる。
 
 ### 第四十三条第四項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-43-p4 -->
 命令等制定機関は、意見公募手続を実施したにもかかわらず命令等を定めないこととした場合には、その旨（別の命令等の案について改めて意見公募手続を実施しようとする場合にあっては、その旨を含む。）並びに第一項第一号及び第二号に掲げる事項を速やかに公示しなければならない。
 
 ### 第四十三条第五項
 
-<!-- segment: hashira id: gyousei-tetsuzuki-hou-art-43-p5-hashira -->
 命令等制定機関は、第三十九条第四項各号のいずれかに該当することにより意見公募手続を実施しないで命令等を定めた場合には、当該命令等の公布と同時期に、次に掲げる事項を公示しなければならない。ただし、第一号に掲げる事項のうち命令等の趣旨については、同項第一号から第四号までのいずれかに該当することにより意見公募手続を実施しなかった場合において、当該命令等自体から明らかでないときに限る。
+
+一　命令等の題名及び趣旨
+
+二　意見公募手続を実施しなかった旨及びその理由

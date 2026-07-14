@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五条
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-5-p1 -->
 特定事業者は、顧客等又は代表者等が特定取引等を行う際に取引時確認に応じないときは、当該顧客等又は代表者等がこれに応ずるまでの間、当該特定取引等に係る義務の履行を拒むことができる。

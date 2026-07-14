@@ -45,5 +45,4 @@ parent_section:
 
 ### 第八百三条
 
-<!-- segment: simple id: minpou-art-803-p1 -->
 縁組は、次条から第八百八条までの規定によらなければ、取り消すことができない。

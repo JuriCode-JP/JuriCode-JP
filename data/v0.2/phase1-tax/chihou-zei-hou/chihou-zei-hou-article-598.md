@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五百九十八条
 
-<!-- segment: simple id: chihou-zei-hou-art-598-p1 -->
 特別土地保有税の徴収については、申告納付の方法によらなければならない。

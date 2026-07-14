@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-11-p1
+    type: simple
+    text: 拘置の執行停止を取り消され、検察官から出頭を命ぜられた者が、正当な理由がなく、指定された日時及び場所に出頭しないときは、二年以下の拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

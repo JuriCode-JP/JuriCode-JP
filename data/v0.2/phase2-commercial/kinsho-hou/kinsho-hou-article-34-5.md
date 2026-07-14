@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-5-p1
+    type: simple
+    text: この款に定めるもののほか、特定投資家が特定投資家以外の顧客とみなされる場合又は特定投資家以外の顧客が特定投資家とみなされる場合の手続その他この款の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

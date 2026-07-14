@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-145-7-p1
+    type: simple
+    text: 外国法人に対して課する各対象会計年度の国内最低課税額に対する法人税の課税標準は、各対象会計年度の外国法人に係る課税標準国内最低課税額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-145-7-p2
+    type: simple
+    text: 各対象会計年度の外国法人に係る課税標準国内最低課税額は、各対象会計年度の国内最低課税額とする。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2026-04-01'

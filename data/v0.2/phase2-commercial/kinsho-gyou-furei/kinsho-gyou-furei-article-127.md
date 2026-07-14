@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 令第十六条の十各号列記以外の部分に規定する内閣府令で定める者は、次に掲げる者とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-127-p1-kou-1
+    type: kou
+    text: 一　金融商品取引業者（有価証券等管理業務を行う者に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-127-p1-kou-2
+    type: kou
+    text: 二　銀行
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-127-p1-kou-3
+    type: kou
+    text: 三　協同組織金融機関
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-127-p1-kou-4
+    type: kou
+    text: 四　保険会社
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-127-p1-kou-5
+    type: kou
+    text: 五　信託会社
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-127-p1-kou-6
+    type: kou
+    text: 六　株式会社商工組合中央金庫
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -41,5 +71,16 @@ parent_section:
 
 ### 第百二十七条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-127-p1-hashira -->
 令第十六条の十各号列記以外の部分に規定する内閣府令で定める者は、次に掲げる者とする。
+
+一　金融商品取引業者（有価証券等管理業務を行う者に限る。）
+
+二　銀行
+
+三　協同組織金融機関
+
+四　保険会社
+
+五　信託会社
+
+六　株式会社商工組合中央金庫

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 持分会社の社員は、当該持分会社の営業時間内は、いつでも、次に掲げる請求をすることができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-618-p1-kou-1
+    type: kou
+    text: 一　計算書類が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-618-p1-kou-2
+    type: kou
+    text: 二　計算書類が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: true
   has_items: false
@@ -58,11 +68,12 @@ parent_section:
 
 ### 第六百十八条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-618-p1-hashira -->
 持分会社の社員は、当該持分会社の営業時間内は、いつでも、次に掲げる請求をすることができる。
+
+一　計算書類が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+
+二　計算書類が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
 
 ### 第六百十八条第二項
 
-<!-- segment: honbun id: kaisha-hou-art-618-p2-honbun -->
-前項の規定は、定款で別段の定めをすることを妨げない。<!-- segment: tadashi id: kaisha-hou-art-618-p2-tadashi -->
-ただし、定款によっても、社員が事業年度の終了時に同項各号に掲げる請求をすることを制限する旨を定めることができない。
+前項の規定は、定款で別段の定めをすることを妨げない。ただし、定款によっても、社員が事業年度の終了時に同項各号に掲げる請求をすることを制限する旨を定めることができない。

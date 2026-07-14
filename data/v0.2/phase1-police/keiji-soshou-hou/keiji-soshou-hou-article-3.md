@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-3-p1 -->
 事物管轄を異にする数個の事件が関連するときは、上級の裁判所は、併せてこれを管轄することができる。
 
 ### 第三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-3-p2 -->
 高等裁判所の特別権限に属する事件と他の事件とが関連するときは、高等裁判所は、併せてこれを管轄することができる。

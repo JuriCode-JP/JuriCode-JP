@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 法第七十二条の二十一第一項第三号に規定する剰余金として計上したもので総務省令で定めるものは、次の各号に掲げる場合の区分に応じ、それぞれ当該各号に定める額とする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-3-16-p2-kou-1
+    type: kou
+    text: 一　会社法第四百四十七条の規定により資本金の額を減少した場合　会社計算規則第二十七条第一項第一号に規定する額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-3-16-p2-kou-2
+    type: kou
+    text: 二　会社法第四百四十八条の規定により準備金の額を減少した場合　会社計算規則第二十七条第一項第二号に規定する額
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -63,20 +73,20 @@ tags:
 
 ### 第三条の十六第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-3-16-p1 -->
 法第七十二条の二十一第一項第一号に規定する総務省令で定めるものは、会社計算規則第二十九条第二項第一号に規定する額とする。
 
 ### 第三条の十六第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-3-16-p2-hashira -->
 法第七十二条の二十一第一項第三号に規定する剰余金として計上したもので総務省令で定めるものは、次の各号に掲げる場合の区分に応じ、それぞれ当該各号に定める額とする。
+
+一　会社法第四百四十七条の規定により資本金の額を減少した場合　会社計算規則第二十七条第一項第一号に規定する額
+
+二　会社法第四百四十八条の規定により準備金の額を減少した場合　会社計算規則第二十七条第一項第二号に規定する額
 
 ### 第三条の十六第三項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-3-16-p3 -->
 前項各号に定める額は、会社法第四百五十二条の規定により損失の塡補に充てた日以前一年間において剰余金として計上した額に限るものとする。
 
 ### 第三条の十六第四項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-3-16-p4 -->
 法第七十二条の二十一第一項第三号に規定する総務省令で定める損失は、会社法第四百五十二条の規定により損失の塡補に充てた日における会社計算規則第二十九条に規定するその他利益剰余金の額が零を下回る場合における当該零を下回る額とする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-12-p1
+    type: simple
+    text: 当該徴税吏員は、この款の規定により質問、検査、領置、臨検、捜索、差押え又は記録命令付差押えをするときは、その身分を証明する証票を携帯し、関係人の請求があつたときは、これを提示しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

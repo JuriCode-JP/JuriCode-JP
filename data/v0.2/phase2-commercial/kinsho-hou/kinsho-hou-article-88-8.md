@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-8-p1-honbun
+    type: honbun
+    text: 定款は、総会員の四分の三以上の同意があるときに限り、変更することができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-88-8-p1-tadashi
+    type: tadashi
+    text: ただし、定款に別段の定めがあるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

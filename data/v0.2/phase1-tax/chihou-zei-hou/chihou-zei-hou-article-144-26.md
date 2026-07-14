@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-26-p1
+    type: simple
+    text: 第百四十四条の三第三項の規定に違反して道府県知事の承認を受けないで免税軽油の譲渡を行つたときは、その違反行為をした者は、二年以下の拘禁刑又は百万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-26-p2
+    type: simple
+    text: 第百四十四条の三第四項の規定に違反して免税軽油を譲り受けたときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-26-p3
+    type: simple
+    text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務に関して前二項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、当該各項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

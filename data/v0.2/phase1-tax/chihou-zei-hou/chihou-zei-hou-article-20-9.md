@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-p1
+    type: simple
+    text: 地方団体の徴収金と地方団体に対する債権で金銭の給付を目的とするものとは、法律の別段の規定によらなければ、相殺することができない。還付金に係る債権と地方団体に対する債務で金銭の給付を目的とするものとについても、また同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-11-p1
+    type: junyou
+    text: 第百五十六条の五の三第二項の規定は、第百五十六条の五の五第一項から第五項まで、第百五十六条の五の六第一項、第百五十六条の五の八、第百五十六条の五の九第二項及び前条の規定を適用する場合について準用する。この場合において、第百五十六条の五の三第二項中「保有する」とあるのは「取得し、又は保有する」と、同項第一号中「有する」とあるのは「有し、又は有することとなる」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

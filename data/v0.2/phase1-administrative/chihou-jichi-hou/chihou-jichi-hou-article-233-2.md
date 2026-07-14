@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-233-2-p1-honbun
+    type: honbun
+    text: 各会計年度において決算上剰余金を生じたときは、翌年度の歳入に編入しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-233-2-p1-tadashi
+    type: tadashi
+    text: ただし、条例の定めるところにより、又は普通地方公共団体の議会の議決により、剰余金の全部又は一部を翌年度に繰り越さないで基金に編入することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

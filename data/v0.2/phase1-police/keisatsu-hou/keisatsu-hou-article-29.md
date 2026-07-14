@@ -75,25 +75,20 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-29-p1 -->
 警察庁に、皇宮警察本部を附置する。
 
 ### 第二十九条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-29-p2 -->
 皇宮警察本部は、天皇及び皇后、皇太子その他の皇族の護衛、皇居及び御所の警備その他の皇宮警察に関する事務をつかさどる。
 
 ### 第二十九条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-29-p3 -->
 皇宮警察本部に、本部長を置く。
 
 ### 第二十九条第四項
 
-<!-- segment: simple id: keisatsu-hou-art-29-p4 -->
 皇宮警察本部に、皇宮警察学校を置き、皇宮警察の職員に対して必要な教育訓練を行う。
 
 ### 第二十九条第五項
 
-<!-- segment: simple id: keisatsu-hou-art-29-p5 -->
 皇宮警察本部の位置及び内部組織は、内閣府令で定める。

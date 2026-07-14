@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百七十七条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-177-p1 -->
 第百四十三条の規定に違反して秘密を漏らし、又は盗用した者は、二年以下の拘禁刑又は百万円以下の罰金に処する。

@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-91-2-p1
+    type: simple
+    text: 免許を受けた者は、その者の住所地を管轄する公安委員会に対し、免許に、その者が運転することができる自動車等の種類を限定する条件その他の条件であつて、交通事故を防止し、若しくは交通事故による被害を軽減することに資するものとして内閣府令で定めるものを付し、又はこれを変更することを申請することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-91-2-p2
+    type: simple
+    text: 前項の規定による申請を受けた公安委員会は、政令で定めるところにより、当該申請に係る免許に条件を付し、又は当該申請に係る免許に付されている条件を変更するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-91-2-p3
+    type: simple
+    text: 公安委員会は、第一項の規定による条件の変更の申請があつた場合において、必要があると認めるときは、当該申請をした者に対し、当該変更をすることが適当であるかどうかについて審査を行うことができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-91-2-p4
+    type: simple
+    text: 前三項に定めるもののほか、第二項の規定による免許の条件の付与及び変更について必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前三項
+  - id: douro-koutsuu-hou-art-91-2-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十九条第一項第二十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -63,3 +87,5 @@ parent_section:
 ### 第九十一条の二第四項
 
 前三項に定めるもののほか、第二項の規定による免許の条件の付与及び変更について必要な事項は、内閣府令で定める。
+
+（罰則　第二項については第百十九条第一項第二十号）

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十二条
 
-<!-- segment: simple id: kenpou-art-52-p1 -->
 国会の常会は、毎年一回これを召集する。

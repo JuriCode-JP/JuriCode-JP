@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-7-p1
+    type: simple
+    text: この章に定めるもののほか、希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品に関し必要な事項は、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

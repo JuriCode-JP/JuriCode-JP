@@ -16,17 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-27-p1-zen
+    type: zen_dan
+    text: 裁判所は、第三百十六条の二十五第一項又は前条第一項の請求について決定をするに当たり、必要があると認めるときは、検察官、被告人又は弁護人に対し、当該請求に係る証拠の提示を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-316-27-p1-kou
+    type: kou_dan
+    text: この場合においては、裁判所は、何人にも、当該証拠の閲覧又は謄写をさせることができない。
+    modality: kanou_negative
+    depends_on: keiji-soshou-hou-art-316-27-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-27-p2-zen
+    type: zen_dan
+    text: 裁判所は、被告人又は弁護人がする前条第一項の請求について決定をするに当たり、必要があると認めるときは、検察官に対し、その保管する証拠であつて、裁判所の指定する範囲に属するものの標目を記載した一覧表の提示を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-316-27-p2-kou
+    type: kou_dan
+    text: この場合においては、裁判所は、何人にも、当該一覧表の閲覧又は謄写をさせることができない。
+    modality: kanou_negative
+    depends_on: keiji-soshou-hou-art-316-27-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-27-p3
+    type: simple
+    text: 第一項の規定は第三百十六条の二十五第三項又は前条第三項の即時抗告が係属する抗告裁判所について、前項の規定は同条第三項の即時抗告が係属する抗告裁判所について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

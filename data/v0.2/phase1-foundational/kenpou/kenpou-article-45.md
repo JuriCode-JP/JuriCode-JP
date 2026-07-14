@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十五条
 
-<!-- segment: simple id: kenpou-art-45-p1 -->
 衆議院議員の任期は、四年とする。但し、衆議院解散の場合には、その期間満了前に終了する。

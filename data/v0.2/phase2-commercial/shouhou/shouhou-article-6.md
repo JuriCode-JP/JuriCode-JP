@@ -48,10 +48,8 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: shouhou-art-6-p1 -->
 後見人が被後見人のために第四条の営業を行うときは、その登記をしなければならない。
 
 ### 第六条第二項
 
-<!-- segment: simple id: shouhou-art-6-p2 -->
 後見人の代理権に加えた制限は、善意の第三者に対抗することができない。

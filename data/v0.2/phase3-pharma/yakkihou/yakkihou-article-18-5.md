@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-18-5-p1
+    type: simple
+    text: 厚生労働大臣は、特定医薬品について、第十八条の三の規定による報告があつた場合又は前条の規定による届出があつた場合その他の保健衛生上の危害の発生又は拡大を防止するために当該特定医薬品又は効能及び効果について当該特定医薬品と代替性のある医薬品（以下この条において「代替薬」という。）の製造販売又は販売の状況を把握する必要があると認める場合には、製造販売業者、第三十四条第五項に規定する卸売販売業者その他の当該特定医薬品又は代替薬の製造販売又は販売に係る関係者に対し、当該特定医薬品又は代替薬の製造、輸入、販売又は授与の状況その他必要な事項について報告を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

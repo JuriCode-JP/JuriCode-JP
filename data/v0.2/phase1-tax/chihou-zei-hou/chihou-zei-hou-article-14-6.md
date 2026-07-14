@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-6-p1
+    type: simple
+    text: 納税者又は特別徴収義務者の財産につき地方団体の徴収金の滞納処分による差押をした場合において、他の地方団体の徴収金又は国税の交付要求があつたときは、当該差押に係る地方団体の徴収金は、その換価代金につき、当該交付要求に係る地方団体の徴収金又は国税に先だつて徴収する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-6-p2
+    type: simple
+    text: 納税者又は特別徴収義務者の財産につき他の地方団体の徴収金又は国税の滞納処分による差押があつた場合において、地方団体の徴収金の交付要求をしたときは、当該交付要求に係る地方団体の徴収金は、その換価代金につき、当該差押に係る地方団体の徴収金又は国税（第十四条の二の規定の適用を受ける費用を除く。）に次いで徴収する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

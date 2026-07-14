@@ -50,10 +50,8 @@ parent_section:
 
 ### 第六十一条第一項
 
-<!-- segment: simple id: keihou-art-61-p1 -->
 人を教唆して犯罪を実行させた者には、正犯の刑を科する。
 
 ### 第六十一条第二項
 
-<!-- segment: simple id: keihou-art-61-p2 -->
 教唆者を教唆した者についても、前項と同様とする。

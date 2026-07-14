@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-20-2-p1-honbun
+    type: honbun
+    text: 相続又は遺贈（第二十一条の二第四項に規定する贈与を含む。以下この条において同じ。）によりこの法律の施行地外にある財産を取得した場合において、当該財産についてその地の法令により相続税に相当する税が課せられたときは、当該財産を取得した者については、第十五条から前条までの規定により算出した金額からその課せられた税額に相当する金額を控除した金額をもつて、その納付すべき相続税額とする。
+    modality: gimu
+    references:
+    - 前条
+  - id: souzoku-zei-hou-art-20-2-p1-tadashi
+    type: tadashi
+    text: ただし、その控除すべき金額が、その者についてこれらの規定により算出した金額に当該財産の価額が当該相続又は遺贈により取得した財産の価額のうち課税価格計算の基礎に算入された部分のうちに占める割合を乗じて算出した金額を超える場合においては、その超える部分の金額については、当該控除をしない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十条
 
-<!-- segment: simple id: shouhi-zei-hou-shikkourei-art-30-p1 -->
 削除

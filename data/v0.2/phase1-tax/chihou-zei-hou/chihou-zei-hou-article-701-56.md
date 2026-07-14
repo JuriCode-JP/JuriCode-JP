@@ -16,37 +16,80 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p1
+    type: simple
+    text: 偽りその他不正の行為により事業所税の全部又は一部を免れたときは、その違反行為をした者は、五年以下の拘禁刑若しくは百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p2
+    type: tokusoku
+    text: 前項の免れた税額が百万円を超える場合には、情状により、同項の罰金の額は、同項の規定にかかわらず、百万円を超える額でその免れた税額に相当する額以下の額とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p3
+    type: simple
+    text: 第一項に規定するもののほか、第七百一条の四十六第一項又は第七百一条の四十七第一項の規定による申告書を当該各項に規定する申告書の提出期限までに提出しないことにより、事業所税の全部又は一部を免れたときは、その違反行為をした者は、三年以下の拘禁刑若しくは五十万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p4
+    type: tokusoku
+    text: 前項の免れた税額が五十万円を超える場合には、情状により、同項の罰金の額は、同項の規定にかかわらず、五十万円を超える額でその免れた税額に相当する額以下の額とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p5
+    type: simple
+    text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務又は財産に関して第一項又は第三項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、当該各項の罰金刑を科する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p6
+    type: simple
+    text: 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-56-p7
+    type: simple
+    text: 人格のない社団等について第五項の規定の適用がある場合には、その代表者又は管理人がその訴訟行為につき当該人格のない社団等を代表するほか、法人を被告人又は被疑者とする場合の刑事訴訟に関する法律の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

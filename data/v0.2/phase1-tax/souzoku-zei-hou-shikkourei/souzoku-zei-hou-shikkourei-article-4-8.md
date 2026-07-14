@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第二十一条の四第一項に規定する精神に障害のある者として政令で定めるものは、次に掲げる者とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikkourei-art-4-8-p1-kou-1
+    type: kou
+    text: 一　所得税法施行令第十条第一項第一号及び第二号（障害者及び特別障害者の範囲）に掲げる者
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-4-8-p1-kou-2
+    type: kou
+    text: 二　所得税法施行令第十条第一項第七号に掲げる者のうち、その障害の程度が同項第一号に掲げる者に準ずるものとして同項第七号に規定する市町村長等の認定を受けている者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第四条の八
 
-<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-4-8-p1-hashira -->
 法第二十一条の四第一項に規定する精神に障害のある者として政令で定めるものは、次に掲げる者とする。
+
+一　所得税法施行令第十条第一項第一号及び第二号（障害者及び特別障害者の範囲）に掲げる者
+
+二　所得税法施行令第十条第一項第七号に掲げる者のうち、その障害の程度が同項第一号に掲げる者に準ずるものとして同項第七号に規定する市町村長等の認定を受けている者

@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 次に掲げる者は、相続人となることができない。
     modality: kanou_negative
+  - id: minpou-art-891-p1-kou-1
+    type: kou
+    text: 一　故意に被相続人又は相続について先順位若しくは同順位にある者を死亡するに至らせ、又は至らせようとしたために、刑に処せられた者
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-891-p1-kou-2
+    type: kou
+    text: 二　被相続人の殺害されたことを知って、これを告発せず、又は告訴しなかった者。ただし、その者に是非の弁別がないとき、又は殺害者が自己の配偶者若しくは直系血族であったときは、この限りでない。
+    modality: jogai
+    item_number: 2
+  - id: minpou-art-891-p1-kou-3
+    type: kou
+    text: 三　詐欺又は強迫によって、被相続人が相続に関する遺言をし、撤回し、取り消し、又は変更することを妨げた者
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-891-p1-kou-4
+    type: kou
+    text: 四　詐欺又は強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、又は変更させた者
+    modality: unspecified
+    item_number: 4
+  - id: minpou-art-891-p1-kou-5
+    type: kou
+    text: 五　相続に関する被相続人の遺言書を偽造し、変造し、破棄し、又は隠匿した者
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第八百九十一条
 
-<!-- segment: hashira id: minpou-art-891-p1-hashira -->
 次に掲げる者は、相続人となることができない。
+
+一　故意に被相続人又は相続について先順位若しくは同順位にある者を死亡するに至らせ、又は至らせようとしたために、刑に処せられた者
+
+二　被相続人の殺害されたことを知って、これを告発せず、又は告訴しなかった者。ただし、その者に是非の弁別がないとき、又は殺害者が自己の配偶者若しくは直系血族であったときは、この限りでない。
+
+三　詐欺又は強迫によって、被相続人が相続に関する遺言をし、撤回し、取り消し、又は変更することを妨げた者
+
+四　詐欺又は強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、又は変更させた者
+
+五　相続に関する被相続人の遺言書を偽造し、変造し、破棄し、又は隠匿した者

@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-27-p1-hashira
+    type: hashira
+    text: 株券等の保有者は、大量保有報告書若しくは変更報告書又はこれらの訂正報告書を提出したときは、遅滞なく、これらの書類の写しを当該株券等の発行者及び次の各号に掲げる株券等の区分に応じ当該各号に定める者に送付しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-27-27-p1-kou-1
+    type: kou
+    text: 一　金融商品取引所に上場されている株券等の発行者が発行する株券等　当該金融商品取引所
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-27-27-p1-kou-2
+    type: kou
+    text: 二　流通状況が前号に掲げる株券等に準ずるものとして政令で定める株券等の発行者が発行する株券等　政令で定める認可金融商品取引業協会
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第二十七条の二十七
 
 株券等の保有者は、大量保有報告書若しくは変更報告書又はこれらの訂正報告書を提出したときは、遅滞なく、これらの書類の写しを当該株券等の発行者及び次の各号に掲げる株券等の区分に応じ当該各号に定める者に送付しなければならない。
+
+一　金融商品取引所に上場されている株券等の発行者が発行する株券等　当該金融商品取引所
+
+二　流通状況が前号に掲げる株券等に準ずるものとして政令で定める株券等の発行者が発行する株券等　政令で定める認可金融商品取引業協会

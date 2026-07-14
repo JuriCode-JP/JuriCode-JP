@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-19-p1
+    type: junyou
+    text: 第百三十九条の十二の規定は、新設合併消滅株式会社金融商品取引所について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

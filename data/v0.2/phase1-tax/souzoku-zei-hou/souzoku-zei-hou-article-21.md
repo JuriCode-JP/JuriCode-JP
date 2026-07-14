@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: souzoku-zei-hou-art-21-p1 -->
 贈与税は、この節及び次節に定めるところにより、贈与により財産を取得した者に係る贈与税額として計算した金額により、課する。

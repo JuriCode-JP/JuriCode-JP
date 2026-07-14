@@ -30,6 +30,10 @@ paragraphs:
     type: simple
     text: 免許を受けた者は、自動車等を運転している場合において、警察官から第六十七条第一項又は第二項の規定による免許証の提示を求められたときは、これを提示しなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-95-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十一条第一項第十二号、同条第三項　第二項については第百二十条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -48,10 +52,10 @@ parent_section:
 
 ### 第九十五条第一項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-95-p1 -->
 免許を受けた者は、自動車等を運転するときは、当該自動車等に係る免許証を携帯していなければならない。
 
 ### 第九十五条第二項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-95-p2 -->
 免許を受けた者は、自動車等を運転している場合において、警察官から第六十七条第一項又は第二項の規定による免許証の提示を求められたときは、これを提示しなければならない。
+
+（罰則　第一項については第百二十一条第一項第十二号、同条第三項　第二項については第百二十条第一項第十号）

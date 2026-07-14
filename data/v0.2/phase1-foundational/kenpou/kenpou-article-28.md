@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十八条
 
-<!-- segment: simple id: kenpou-art-28-p1 -->
 勤労者の団結する権利及び団体交渉その他の団体行動をする権利は、これを保障する。

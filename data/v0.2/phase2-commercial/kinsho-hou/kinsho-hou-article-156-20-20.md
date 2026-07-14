@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-20-p1
+    type: simple
+    text: 内閣総理大臣は、第百五十六条の二十の十六第一項の認可について、認可金融商品取引清算機関が当該認可を受けた当時既に第百五十六条の二十の十八第二項第六号に該当していたこと又は当該認可に係る連携清算機関等が同項第一号から第五号までのいずれかに該当していたことが判明したときは、当該認可を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

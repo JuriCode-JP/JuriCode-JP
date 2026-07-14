@@ -16,27 +16,70 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-6-2-p1
+    type: tokusoku
+    text: 前条の規定にかかわらず、協議会を設ける普通地方公共団体は、その議会の議決を経て、脱退する日の二年前までに他の全ての関係普通地方公共団体に書面で予告をすることにより、協議会から脱退することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-6-2-p2-honbun
+    type: honbun
+    text: 前項の予告を受けた関係普通地方公共団体は、当該予告をした普通地方公共団体が脱退する時までに、第二百五十二条の二の二第一項から第三項までの例により、当該脱退により必要となる規約の変更を行わなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-252-6-2-p2-tadashi
+    type: tadashi
+    text: ただし、第二百五十二条の四第一項第二号に掲げる事項のみに係る規約の変更については、第二百五十二条の二の二第三項本文の例によらないものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-6-2-p3-zen
+    type: zen_dan
+    text: 第一項の予告の撤回は、他の全ての関係普通地方公共団体が議会の議決を経て同意をした場合に限り、することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-6-2-p3-kou
+    type: kou_dan
+    text: この場合において、同項の予告をした普通地方公共団体が他の関係普通地方公共団体に当該予告の撤回について同意を求めるに当たつては、あらかじめ、その議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: chihou-jichi-hou-art-252-6-2-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-6-2-p4
+    type: simple
+    text: 普通地方公共団体は、第一項の規定により協議会から脱退したときは、その旨を告示しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-6-2-p5-zen
+    type: zen_dan
+    text: 第一項の規定による脱退により協議会を設ける普通地方公共団体が一となつたときは、当該協議会は廃止されるものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-6-2-p5-kou
+    type: kou_dan
+    text: この場合において、当該普通地方公共団体は、その旨を告示するとともに、第二百五十二条の二の二第二項の例により、総務大臣又は都道府県知事に届け出なければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-6-2-p5-zen
 cases: []
 amendments: []
 tags:

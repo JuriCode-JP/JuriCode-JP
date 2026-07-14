@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: houjin-zei-hou-shikkourei-art-81-p1-kou-1
+    type: kou
+    text: 一　法第四十三条第一項に規定する国庫補助金等（以下この号において「国庫補助金等」という。）について返還すべきこと又は返還を要しないことが確定した場合　その確定した国庫補助金等の額に相当する同条第二項の特別勘定の金額（以下この条において「特別勘定の金額」という。）
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-81-p1-kou-2
+    type: kou
+    text: 二　解散（合併による解散を除く。）をした場合において、特別勘定の金額を有しているとき。　当該特別勘定の金額
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-81-p1-kou-3
+    type: kou
+    text: 三　合併（適格合併を除く。）により解散した場合において、特別勘定の金額を有しているとき。　当該特別勘定の金額
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -47,5 +62,10 @@ parent_section:
 
 ### 第八十一条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-81-p1-hashira -->
 法第四十三条第二項（国庫補助金等に係る特別勘定の金額の損金算入）に規定する政令で定める場合は、次の各号に掲げる場合とし、同項に規定する政令で定めるところにより計算した金額は、それぞれ当該各号に定める金額とする。
+
+一　法第四十三条第一項に規定する国庫補助金等（以下この号において「国庫補助金等」という。）について返還すべきこと又は返還を要しないことが確定した場合　その確定した国庫補助金等の額に相当する同条第二項の特別勘定の金額（以下この条において「特別勘定の金額」という。）
+
+二　解散（合併による解散を除く。）をした場合において、特別勘定の金額を有しているとき。　当該特別勘定の金額
+
+三　合併（適格合併を除く。）により解散した場合において、特別勘定の金額を有しているとき。　当該特別勘定の金額

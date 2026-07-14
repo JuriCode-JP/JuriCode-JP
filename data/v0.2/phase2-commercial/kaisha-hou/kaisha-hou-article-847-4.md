@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-4-p1
+    type: simple
+    text: 第八百四十七条第三項若しくは第五項、第八百四十七条の二第六項若しくは第八項又は前条第七項若しくは第九項の責任追及等の訴えは、訴訟の目的の価額の算定については、財産権上の請求でない請求に係る訴えとみなす。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-4-p2
+    type: simple
+    text: 株主等（株主、適格旧株主又は最終完全親会社等の株主をいう。以下この節において同じ。）が責任追及等の訴えを提起したときは、裁判所は、被告の申立てにより、当該株主等に対し、相当の担保を立てるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-4-p3
+    type: simple
+    text: 被告が前項の申立てをするには、責任追及等の訴えの提起が悪意によるものであることを疎明しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-13-6-p1-hashira
+    type: hashira
+    text: 法第六十三条の九第一項第四号に規定する政令で定める使用人は、海外投資家等特例業務（法第六十三条の八第一項に規定する海外投資家等特例業務をいう。以下この条において同じ。）の届出を行おうとする者の使用人で次の各号のいずれかに該当する者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-17-13-6-p1-kou-1
+    type: kou
+    text: 一　海外投資家等特例業務に関し、法令等を遵守させるための指導に関する業務を統括する者その他これに準ずる者として内閣府令で定める者
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-17-13-6-p1-kou-2
+    type: kou
+    text: 二　海外投資家等特例業務に関し、運用を行う部門を統括する者その他これに準ずる者として内閣府令で定める者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十七条の十三の六
 
 法第六十三条の九第一項第四号に規定する政令で定める使用人は、海外投資家等特例業務（法第六十三条の八第一項に規定する海外投資家等特例業務をいう。以下この条において同じ。）の届出を行おうとする者の使用人で次の各号のいずれかに該当する者とする。
+
+一　海外投資家等特例業務に関し、法令等を遵守させるための指導に関する業務を統括する者その他これに準ずる者として内閣府令で定める者
+
+二　海外投資家等特例業務に関し、運用を行う部門を統括する者その他これに準ずる者として内閣府令で定める者

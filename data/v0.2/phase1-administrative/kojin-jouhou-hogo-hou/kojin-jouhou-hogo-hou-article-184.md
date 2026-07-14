@@ -23,6 +23,16 @@ paragraphs:
     modality: unspecified
     references:
     - 本条
+  - id: kojin-jouhou-hogo-hou-art-184-p1-kou-1
+    type: kou
+    text: 一　第百七十八条及び第百七十九条　一億円以下の罰金刑
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-184-p1-kou-2
+    type: kou
+    text: 二　第百八十二条　同条の罰金刑
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第百八十四条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-184-p1-hashira -->
 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者が、その法人又は人の業務に関して、次の各号に掲げる違反行為をしたときは、行為者を罰するほか、その法人に対して当該各号に定める罰金刑を、その人に対して各本条の罰金刑を科する。
+
+一　第百七十八条及び第百七十九条　一億円以下の罰金刑
+
+二　第百八十二条　同条の罰金刑
 
 ### 第百八十四条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-184-p2 -->
 法人でない団体について前項の規定の適用がある場合には、その代表者又は管理人が、その訴訟行為につき法人でない団体を代表するほか、法人を被告人又は被疑者とする場合の刑事訴訟に関する法律の規定を準用する。

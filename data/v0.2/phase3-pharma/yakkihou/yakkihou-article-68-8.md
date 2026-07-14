@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-8-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、再生医療等製品承認取得者等、前条第六項の委託を受けた者、再生医療等製品の販売業者、再生医療等製品取扱医療関係者又は病院、診療所若しくは飼育動物診療施設の管理者に対し、記録等の事務について必要な指導及び助言を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

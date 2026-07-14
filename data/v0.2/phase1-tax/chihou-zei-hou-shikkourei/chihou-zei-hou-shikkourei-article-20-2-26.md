@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-26-p1
+    type: simple
+    text: 法第七十二条の二十二第二項に規定する外国法人の資本金等の額から控除する金額は、当該外国法人の資本金等の額に当該外国法人の法の施行地外に有する事務所又は事業所の従業者の数を乗じて得た額を当該外国法人の恒久的施設及び法の施行地外に有する事務所又は事業所の従業者の合計数で除して計算する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-26-p2
+    type: junyou
+    text: 第二十条の二の二十一第三項の規定は、前項の事務所又は事業所及び恒久的施設の従業者の数について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

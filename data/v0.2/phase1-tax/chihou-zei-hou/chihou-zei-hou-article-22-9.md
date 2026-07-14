@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-9-p1
+    type: simple
+    text: 当該徴税吏員は、臨検、捜索、差押え又は記録命令付差押えをするため必要があるときは、錠をはずし、封を開き、その他必要な処分をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-9-p2
+    type: simple
+    text: 前項の処分は、領置物件、差押物件又は記録命令付差押物件についても、することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

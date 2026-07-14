@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法別表第二第十一号に規定する政令で定める料金は、次に掲げる料金とする。
     modality: gimu
+  - id: shouhi-zei-hou-shikkourei-art-14-5-p1-kou-1
+    type: kou
+    text: 一　授業料
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikkourei-art-14-5-p1-kou-2
+    type: kou
+    text: 二　入学金及び入園料
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikkourei-art-14-5-p1-kou-3
+    type: kou
+    text: 三　施設設備費
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikkourei-art-14-5-p1-kou-4
+    type: kou
+    text: 四　入学又は入園のための試験に係る検定料
+    modality: unspecified
+    item_number: 4
+  - id: shouhi-zei-hou-shikkourei-art-14-5-p1-kou-5
+    type: kou
+    text: 五　在学証明、成績証明その他学生、生徒、児童又は幼児の記録に係る証明に係る手数料及びこれに類する手数料
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,5 +62,14 @@ parent_section:
 
 ### 第十四条の五
 
-<!-- segment: hashira id: shouhi-zei-hou-shikkourei-art-14-5-p1-hashira -->
 法別表第二第十一号に規定する政令で定める料金は、次に掲げる料金とする。
+
+一　授業料
+
+二　入学金及び入園料
+
+三　施設設備費
+
+四　入学又は入園のための試験に係る検定料
+
+五　在学証明、成績証明その他学生、生徒、児童又は幼児の記録に係る証明に係る手数料及びこれに類する手数料

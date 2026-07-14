@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-15-p1-zen
+    type: zen_dan
+    text: 留置権が納税者又は特別徴収義務者の財産上にある場合において、その財産を滞納処分により換価したときは、その地方団体の徴収金は、その換価代金につき、その留置権により担保されていた債権に次いで徴収する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-14-15-p1-kou
+    type: kou_dan
+    text: この場合において、その債権は、質権、抵当権、先取特権又は第十四条の十七第一項に規定する担保のための仮登記により担保される債権に先立つて配当するものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-14-15-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-15-p2
+    type: simple
+    text: 前項の規定は、その留置権者が、滞納処分の手続において、その行政機関等に対し、その留置権がある事実を証明した場合に限り適用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-163-3-p1
+    type: simple
+    text: 前条第一項の目的で、同条第三項のカードを所持した者は、五年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、十万円以下の過料に処する。
     modality: gimu_kei
+  - id: kokka-koumuin-hou-art-113-p1-kou-1
+    type: kou
+    text: 一　第百六条の四第一項から第四項までの規定に違反して、役職員又はこれらの規定に規定する役職員に類する者として政令で定めるものに対し、契約等事務に関し、職務上の行為をするように、又はしないように要求し、又は依頼した者（不正な行為をするように、又は相当の行為をしないように要求し、又は依頼した者を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-113-p1-kou-2
+    type: kou
+    text: 二　第百六条の二十四第一項又は第二項の規定による届出をせず、又は虚偽の届出をした者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第百十三条
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-113-p1-hashira -->
 次の各号のいずれかに該当する者は、十万円以下の過料に処する。
+
+一　第百六条の四第一項から第四項までの規定に違反して、役職員又はこれらの規定に規定する役職員に類する者として政令で定めるものに対し、契約等事務に関し、職務上の行為をするように、又はしないように要求し、又は依頼した者（不正な行為をするように、又は相当の行為をしないように要求し、又は依頼した者を除く。）
+
+二　第百六条の二十四第一項又は第二項の規定による届出をせず、又は虚偽の届出をした者

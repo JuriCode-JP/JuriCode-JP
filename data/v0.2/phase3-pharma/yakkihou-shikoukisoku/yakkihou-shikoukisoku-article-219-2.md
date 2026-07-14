@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-219-2-p1
+    type: simple
+    text: 法第五十九条第三号の厚生労働省令で定める文字は、次の表の上欄に掲げる区分に応じ、それぞれ同表の下欄に掲げる字句とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-219-2-p2
+    type: simple
+    text: 前項に掲げる字句が記載されている場合には、法第五十九条第二号に規定する「医薬部外品」の文字が記載されているものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

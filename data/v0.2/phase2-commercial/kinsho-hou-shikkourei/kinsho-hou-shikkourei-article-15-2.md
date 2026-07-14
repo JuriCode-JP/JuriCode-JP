@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-2-p1
+    type: simple
+    text: 法第二十八条第八項第四号イに規定する政令で定める行為は、金融商品市場及び外国金融商品市場によらないで、将来の一定の時期において有価証券及びその対価の授受を約する売買に関し、当該売買の当事者がその売買契約を解除する行為とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

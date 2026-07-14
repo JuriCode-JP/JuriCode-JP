@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-5-p1
+    type: simple
+    text: 信用格付業者が外国法人である場合について、法の規定の適用に当たつての法第六十六条の四十七の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-20-p1
+    type: simple
+    text: 法第二条第三十八項に規定する政令で定める者は、商品先物取引法第二条第六項に規定する株式会社商品取引所とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

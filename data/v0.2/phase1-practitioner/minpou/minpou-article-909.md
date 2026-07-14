@@ -45,6 +45,4 @@ parent_section:
 
 ### 第九百九条
 
-<!-- segment: honbun id: minpou-art-909-p1-honbun -->
-遺産の分割は、相続開始の時にさかのぼってその効力を生ずる。<!-- segment: tadashi id: minpou-art-909-p1-tadashi -->
-ただし、第三者の権利を害することはできない。
+遺産の分割は、相続開始の時にさかのぼってその効力を生ずる。ただし、第三者の権利を害することはできない。

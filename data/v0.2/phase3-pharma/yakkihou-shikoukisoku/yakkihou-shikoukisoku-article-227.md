@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百二十七条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-227-p1 -->
 削除

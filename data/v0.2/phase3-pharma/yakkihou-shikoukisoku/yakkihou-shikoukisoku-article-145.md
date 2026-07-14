@@ -57,15 +57,12 @@ parent_section:
 
 ### 第百四十五条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-145-p1 -->
 店舗販売業者は、店舗に当該店舗の管理に関する事項を記録するための帳簿を備えなければならない。
 
 ### 第百四十五条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-145-p2 -->
 店舗管理者は、試験検査、不良品の処理その他当該店舗の管理に関する事項を、前項の帳簿に記載しなければならない。
 
 ### 第百四十五条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-145-p3 -->
 店舗販売業者は、第一項の帳簿を、最終の記載の日から三年間、保存しなければならない。

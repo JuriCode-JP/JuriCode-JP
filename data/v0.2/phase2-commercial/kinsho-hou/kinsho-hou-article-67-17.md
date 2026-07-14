@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-17-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、店頭売買有価証券の発行者が、この法律、この法律に基づく命令又は当該店頭売買有価証券を登録する認可協会の規則に違反した場合において、公益又は投資者保護のため必要かつ適当であると認めるときは、当該認可協会に対し、その開設する店頭売買有価証券市場における当該店頭売買有価証券の売買を停止し、又は登録を取り消すことを命ずることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-67-17-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-67-17-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-17-p2
+    type: simple
+    text: 前項の規定による処分に係る聴聞において行政手続法第十五条第一項の通知があつた場合における同法第三章第二節の規定の適用については、前項の発行者は、同項の通知を受けた者とみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

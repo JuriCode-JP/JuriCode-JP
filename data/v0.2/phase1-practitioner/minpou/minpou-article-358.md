@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百五十八条
 
-<!-- segment: simple id: minpou-art-358-p1 -->
 不動産質権者は、その債権の利息を請求することができない。

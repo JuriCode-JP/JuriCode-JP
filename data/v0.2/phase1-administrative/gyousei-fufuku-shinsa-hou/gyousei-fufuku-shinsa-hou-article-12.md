@@ -54,11 +54,8 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-12-p1 -->
 審査請求は、代理人によってすることができる。
 
 ### 第十二条第二項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-12-p2-honbun -->
-前項の代理人は、各自、審査請求人のために、当該審査請求に関する一切の行為をすることができる。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-12-p2-tadashi -->
-ただし、審査請求の取下げは、特別の委任を受けた場合に限り、することができる。
+前項の代理人は、各自、審査請求人のために、当該審査請求に関する一切の行為をすることができる。ただし、審査請求の取下げは、特別の委任を受けた場合に限り、することができる。

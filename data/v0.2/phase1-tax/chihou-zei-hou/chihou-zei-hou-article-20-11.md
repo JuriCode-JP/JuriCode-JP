@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-11-p1
+    type: simple
+    text: 徴税吏員は、この法律に特別の定めがあるものを除くほか、地方税に関する調査について必要があるときは、事業者（特別の法律により設立された法人を含む。）又は官公署に、当該調査に関し参考となるべき簿書及び資料の閲覧又は提供その他の協力を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

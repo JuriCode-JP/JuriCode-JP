@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五条
 
-<!-- segment: simple id: keihou-art-205-p1 -->
 身体を傷害し、よって人を死亡させた者は、三年以上の有期拘禁刑に処する。

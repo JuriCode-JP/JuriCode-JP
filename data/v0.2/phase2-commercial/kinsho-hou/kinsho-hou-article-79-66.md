@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-66-p1
+    type: simple
+    text: 金融商品取引業者は、負担金を業務規程の定める納期限までに納付しない場合には、その所属する基金に対し、延滞金を納付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-66-p2
+    type: simple
+    text: 延滞金の額は、未納の負担金の額に納期限の翌日からその納付の日までの日数に応じ年十四・五パーセントの割合を乗じて計算した金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

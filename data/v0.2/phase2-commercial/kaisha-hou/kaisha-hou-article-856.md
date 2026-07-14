@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百五十六条
 
-<!-- segment: simple id: kaisha-hou-art-856-p1 -->
 株式会社の役員の解任の訴えは、当該株式会社の本店の所在地を管轄する地方裁判所の管轄に専属する。

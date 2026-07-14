@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-5-p1
+    type: simple
+    text: 普通地方公共団体から国の行政機関又は都道府県の機関への届出が届出書の記載事項に不備がないこと、届出書に必要な書類が添付されていることその他の法令に定められた届出の形式上の要件に適合している場合は、当該届出が法令により当該届出の提出先とされている機関の事務所に到達したときに、当該届出をすべき手続上の義務が履行されたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

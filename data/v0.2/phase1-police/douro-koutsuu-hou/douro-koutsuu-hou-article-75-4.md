@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-4-p1
+    type: simple
+    text: 自動車は、法令の規定によりその速度を減ずる場合及び危険を防止するためやむを得ない場合を除き、高速自動車国道の本線車道（政令で定めるものを除く。）においては、道路標識等により自動車の最低速度が指定されている区間にあつてはその最低速度に、その他の区間にあつては政令で定める最低速度に達しない速度で進行してはならない。
+    modality: gimu_negative
+  - id: douro-koutsuu-hou-art-75-4-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ヌ、第百二十条第一項第十二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -36,3 +44,5 @@ parent_section:
 ### 第七十五条の四
 
 自動車は、法令の規定によりその速度を減ずる場合及び危険を防止するためやむを得ない場合を除き、高速自動車国道の本線車道（政令で定めるものを除く。）においては、道路標識等により自動車の最低速度が指定されている区間にあつてはその最低速度に、その他の区間にあつては政令で定める最低速度に達しない速度で進行してはならない。
+
+（罰則　第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ヌ、第百二十条第一項第十二号）

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-40-p1 -->
 この章の規定は、一時使用のために建物の賃貸借をしたことが明らかな場合には、適用しない。

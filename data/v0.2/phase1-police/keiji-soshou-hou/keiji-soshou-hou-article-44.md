@@ -22,7 +22,7 @@ paragraphs:
     text: 裁判には、理由を附しなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-44-p1 -->
 裁判には、理由を附しなければならない。
 
 ### 第四十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-44-p2 -->
 上訴を許さない決定又は命令には、理由を附することを要しない。但し、第四百二十八条第二項の規定により異議の申立をすることができる決定については、この限りでない。

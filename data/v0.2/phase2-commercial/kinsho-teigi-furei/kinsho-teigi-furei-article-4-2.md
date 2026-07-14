@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-teigi-furei-art-4-2-p1
+    type: simple
+    text: 令第一条の二第一号に規定する内閣府令で定めるものは、普通預金その他の預金（その預金者がその払戻しをいつでも請求することができるものに限り、預金保険法施行令（昭和四十六年政令第百十一号）第三条第一号、第二号又は第七号に掲げる預金等に該当するものを除く。）又は貯金（その貯金者がその払戻しをいつでも請求することができるものに限り、農水産業協同組合貯金保険法施行令（昭和四十八年政令第二百一号）第六条第一号、第二号又は第七号に掲げる貯金等に該当するものを除く。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

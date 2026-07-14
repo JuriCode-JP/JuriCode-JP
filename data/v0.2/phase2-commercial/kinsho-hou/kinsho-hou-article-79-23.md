@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-23-p1
+    type: simple
+    text: 基金は、その名称のうちに投資者保護基金という文字を用いなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-23-p2
+    type: simple
+    text: 基金でない者は、その名称のうちに投資者保護基金という文字を用いてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

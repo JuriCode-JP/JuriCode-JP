@@ -43,6 +43,26 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: chihou-koumuin-hou-art-45-p3-kou-1
+    type: kou
+    text: 一　職員の公務上の負傷又は疾病に対する必要な療養又は療養の費用の負担に関する事項
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-45-p3-kou-2
+    type: kou
+    text: 二　職員の公務上の負傷又は疾病に起因する療養の期間又は船員である職員の公務による行方不明の期間におけるその職員の所得の喪失に対する補償に関する事項
+    modality: unspecified
+    item_number: 2
+  - id: chihou-koumuin-hou-art-45-p3-kou-3
+    type: kou
+    text: 三　職員の公務上の負傷又は疾病に起因して、永久に、又は長期に所得能力を害された場合におけるその職員の受ける損害に対する補償に関する事項
+    modality: unspecified
+    item_number: 3
+  - id: chihou-koumuin-hou-art-45-p3-kou-4
+    type: kou
+    text: 四　職員の公務上の負傷又は疾病に起因する死亡の場合におけるその遺族又は職員の死亡の当時その収入によつて生計を維持した者の受ける損害に対する補償に関する事項
+    modality: unspecified
+    item_number: 4
 - number: 4
   has_proviso: false
   has_items: false
@@ -72,20 +92,24 @@ parent_section:
 
 ### 第四十五条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-45-p1 -->
 職員が公務に因り死亡し、負傷し、若しくは疾病にかかり、若しくは公務に因る負傷若しくは疾病により死亡し、若しくは障害の状態となり、又は船員である職員が公務に因り行方不明となつた場合においてその者又はその者の遺族若しくは被扶養者がこれらの原因によつて受ける損害は、補償されなければならない。
 
 ### 第四十五条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-45-p2 -->
 前項の規定による補償の迅速かつ公正な実施を確保するため必要な補償に関する制度が実施されなければならない。
 
 ### 第四十五条第三項
 
-<!-- segment: hashira id: chihou-koumuin-hou-art-45-p3-hashira -->
 前項の補償に関する制度には、次に掲げる事項が定められなければならない。
+
+一　職員の公務上の負傷又は疾病に対する必要な療養又は療養の費用の負担に関する事項
+
+二　職員の公務上の負傷又は疾病に起因する療養の期間又は船員である職員の公務による行方不明の期間におけるその職員の所得の喪失に対する補償に関する事項
+
+三　職員の公務上の負傷又は疾病に起因して、永久に、又は長期に所得能力を害された場合におけるその職員の受ける損害に対する補償に関する事項
+
+四　職員の公務上の負傷又は疾病に起因する死亡の場合におけるその遺族又は職員の死亡の当時その収入によつて生計を維持した者の受ける損害に対する補償に関する事項
 
 ### 第四十五条第四項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-45-p4 -->
 第二項の補償に関する制度は、法律によつて定めるものとし、当該制度については、国の制度との間に権衡を失しないように適当な考慮が払われなければならない。

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-50-p1-hashira
+    type: hashira
+    text: 再生医療等製品の品質管理及び製造販売後安全管理を行う者に係る法第二十三条の三十四第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-50-p1-kou-1
+    type: kou
+    text: 一　大学等で医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-50-p1-kou-2
+    type: kou
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した後、医薬品、医療機器又は再生医療等製品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-50-p1-kou-3
+    type: kou
+    text: 三　厚生労働大臣が前二号に掲げる者と同等以上の知識経験を有すると認めた者
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第百三十七条の五十
 
 再生医療等製品の品質管理及び製造販売後安全管理を行う者に係る法第二十三条の三十四第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+
+一　大学等で医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した者
+
+二　旧制中学若しくは高校又はこれと同等以上の学校で、医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した後、医薬品、医療機器又は再生医療等製品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+
+三　厚生労働大臣が前二号に掲げる者と同等以上の知識経験を有すると認めた者

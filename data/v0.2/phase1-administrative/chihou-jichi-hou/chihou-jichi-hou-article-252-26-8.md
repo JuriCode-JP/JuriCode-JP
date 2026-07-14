@@ -16,37 +16,83 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p1
+    type: simple
+    text: 都道府県知事は、国民の安全に重大な影響を及ぼす事態が発生し、又は発生するおそれがある場合において、第二百五十二条の二十六の六第一項若しくは前条第一項の規定による求め又は同条第二項の規定による指示のみによつてはこれらの規定の生命等の保護の措置に係る応援が円滑に実施されないと認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援することを求めるよう求めることができる場合を除き、当該国民の安全に重大な影響を及ぼす事態に関係のある事務を担任する各大臣に対し、他の都道府県知事又は他の都道府県の委員会若しくは委員に対し当該国民の安全に重大な影響を及ぼす事態が発生し若しくは発生するおそれがある都道府県の知事若しくは委員会若しくは委員（以下この条において「事態発生都道府県の知事等」という。）又は当該国民の安全に重大な影響を及ぼす事態が発生し若しくは発生するおそれがある市町村の長若しくは委員会若しくは委員（以下この条において「事態発生市町村の長等」という。）を応援することを求めるよう求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p2
+    type: simple
+    text: 各大臣は、前項の規定による求めがあつた場合において、その担任する事務に関し、事態発生都道府県の知事等及び事態発生市町村の長等の実施する生命等の保護の措置が的確かつ迅速に講ぜられるようにするため特に必要があると認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援することを求めることができる場合を除き、当該事態発生都道府県の知事等以外の都道府県知事又は都道府県の委員会若しくは委員（以下この条において「都道府県知事等」という。）に対し、当該事態発生都道府県の知事等又は当該事態発生市町村の長等を応援することを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p3-zen
+    type: zen_dan
+    text: 各大臣は、国民の安全に重大な影響を及ぼす事態が発生し、又は発生するおそれがある場合であつて、その担任する事務に関し、事態発生都道府県の知事等及び事態発生市町村の長等の実施する生命等の保護の措置が的確かつ迅速に講ぜられるようにするため特に必要があると認める場合において、当該国民の安全に重大な影響を及ぼす事態に照らし特に緊急を要し、第一項の規定による求めを待ついとまがないと認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援することを求めることができる場合を除き、当該求めを待たないで、当該事態発生都道府県の知事等以外の都道府県知事等又は当該事態発生市町村の長等以外の市町村長若しくは市町村の委員会若しくは委員（以下この条において「市町村長等」という。）に対し、当該事態発生都道府県の知事等又は当該事態発生市町村の長等を応援することを求めることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-26-8-p3-kou
+    type: kou_dan
+    text: この場合において、各大臣は、当該事態発生都道府県の知事等に対し、速やかにその旨を通知するものとする。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-26-8-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p4
+    type: simple
+    text: 各大臣は、前二項に規定する場合において、これらの規定による求めのみによつてはこれらの規定の生命等の保護の措置に係る応援が円滑に実施されないと認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援すべきことを指示することができる場合を除き、事態発生都道府県の知事等以外の都道府県知事等又は事態発生市町村の長等以外の市町村長等に対し、当該事態発生都道府県の知事等又は当該事態発生市町村の長等を応援すべきことを指示することができる。この場合（前項に規定する場合において、各大臣が指示するときに限る。）において、各大臣は、当該事態発生都道府県の知事等に対し、速やかにその旨を通知するものとする。
+    modality: gimu
+    references:
+    - 前二項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p5
+    type: simple
+    text: 事態発生都道府県の知事等以外の都道府県知事等は、第二項若しくは第三項の規定による求め又は前項の規定による指示に応じ応援をする場合において、事態発生市町村の長等の実施する生命等の保護の措置が的確かつ迅速に講ぜられるようにするため特に必要があると認めるときは、当該都道府県の区域内の市町村長等に対し、当該事態発生市町村の長等を応援することを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p6
+    type: simple
+    text: 事態発生都道府県の知事等以外の都道府県知事等は、第四項の規定による指示に応じ応援をする場合において、事態発生市町村の長等の実施する生命等の保護の措置が的確かつ迅速に講ぜられるようにするため特に必要があり、かつ、前項の規定による求めのみによつては当該生命等の保護の措置に係る応援が円滑に実施されないと認めるときは、当該都道府県の区域内の市町村長等に対し、当該事態発生市町村の長等を応援すべきことを指示することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-8-p7
+    type: simple
+    text: 第二項から前項までの規定による求め又は指示に係る応援を受ける事態発生都道府県の知事等又は事態発生市町村の長等は、これらの規定の生命等の保護の措置の実施について、当該応援に従事する者を指揮する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

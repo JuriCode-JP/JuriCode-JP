@@ -14,34 +14,90 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-2-2-2-p1
+    type: tokusoku
+    text: 第十四条の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する医薬品として政令で定めるものである場合には、厚生労働大臣は、同条第二項（第三号ハに係る部分を除く。）、第五項、第六項及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その適正な使用の確保のために必要な条件及び二年を超えない範囲内の期限を付してその品目に係る同条の承認を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十二項
+  - id: yakkihou-art-14-2-2-2-p1-kou-1
+    type: kou
+    text: 一　国民の生命及び健康に重大な影響を与えるおそれがある疾病のまん延その他の健康被害の拡大を防止するため緊急に使用されることが必要な医薬品であり、かつ、当該医薬品の使用以外に適当な方法がないこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-14-2-2-2-p1-kou-2
+    type: kou
+    text: 二　申請に係る効能又は効果を有すると推定されるものであること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-14-2-2-2-p1-kou-3
+    type: kou
+    text: 三　申請に係る効能又は効果に比して著しく有害な作用を有することにより医薬品として使用価値がないと推定されるものでないこと。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-2-2-2-p2-zen
+    type: zen_dan
+    text: 厚生労働大臣は、前項の規定による第十四条の承認に係る医薬品の特性その他を勘案して必要があると認めるときは、当該品目に係る同条第三項前段に規定する資料が同項後段の規定に適合するかどうか又は当該医薬品の製造所における製造管理若しくは品質管理の方法が同条第二項第四号に規定する厚生労働省令で定める基準に適合しているかどうかについて、書面による調査又は実地の調査を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
+  - id: yakkihou-art-14-2-2-2-p2-kou
+    type: kou_dan
+    text: この場合において、前項の規定による同条の承認を受けようとする者又は同項の規定による同条の承認を受けた者は、当該調査を受けなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+    depends_on: yakkihou-art-14-2-2-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-2-2-2-p3
+    type: simple
+    text: 厚生労働大臣は、第五項の申請に係る第十四条第二項第三号の規定による審査を適正に行うため特に必要があると認めるときは、薬事審議会の意見を聴いて、第一項の期限を一年を超えない範囲内において延長することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-2-2-2-p4
+    type: simple
+    text: 第一項の規定により条件及び期限を付した第十四条の承認を受けた者は、厚生労働省令で定めるところにより、当該医薬品の品質、有効性及び安全性に関する調査として厚生労働省令で定める調査を行い、その結果を厚生労働大臣に報告しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-2-2-2-p5
+    type: simple
+    text: 第一項の規定により条件及び期限を付した第十四条の承認を受けた者は、その品目について、当該承認の期限（第三項の規定による延長が行われたときは、その延長後のもの）内に、改めて同条の承認の申請をしなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-2-2-2-p6
+    type: simple
+    text: 前項の申請があつた場合において、同項に規定する期限内にその申請に対する処分がされないときは、第一項の規定により条件及び期限を付した第十四条の承認は、当該期限の到来後もその処分がされるまでの間は、なおその効力を有する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -59,6 +115,12 @@ parent_section:
 ### 第十四条の二の二の二第一項
 
 第十四条の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する医薬品として政令で定めるものである場合には、厚生労働大臣は、同条第二項（第三号ハに係る部分を除く。）、第五項、第六項及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その適正な使用の確保のために必要な条件及び二年を超えない範囲内の期限を付してその品目に係る同条の承認を与えることができる。
+
+一　国民の生命及び健康に重大な影響を与えるおそれがある疾病のまん延その他の健康被害の拡大を防止するため緊急に使用されることが必要な医薬品であり、かつ、当該医薬品の使用以外に適当な方法がないこと。
+
+二　申請に係る効能又は効果を有すると推定されるものであること。
+
+三　申請に係る効能又は効果に比して著しく有害な作用を有することにより医薬品として使用価値がないと推定されるものでないこと。
 
 ### 第十四条の二の二の二第二項
 

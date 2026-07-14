@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百四十六条
 
-<!-- segment: junyou id: minpou-art-946-p1 applies_provisions: 第三百四条 -->
 第三百四条の規定は、財産分離の場合について準用する。

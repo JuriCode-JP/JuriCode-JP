@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-7-p1
+    type: simple
+    text: 公開買付開始公告（前条第二項又は第三項の規定による公告及び同項の規定による公表を含む。次項において同じ。）を行つた公開買付者は、その内容に形式上の不備があり、又は記載された内容が事実と相違していると認めたときは、その内容を訂正して、内閣府令で定めるところにより、公告し、又は公表しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-7-p2
+    type: simple
+    text: 内閣総理大臣は、公開買付開始公告の内容について訂正をする必要があると認めるときは、当該公開買付開始公告を行つた公開買付者に対し、期限を指定して、内閣府令で定めるところにより、その訂正の内容を公告し、又は公表することを命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-7-p3
+    type: simple
+    text: 前項の規定による処分は、当該公開買付期間（次条第八項の規定により延長しなければならない期間を含む。）の末日後は、することができない。
+    modality: kanou_negative
+    references:
+    - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

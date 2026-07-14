@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百四十一条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-141-p1 -->
 普通地方公共団体の長は、衆議院議員又は参議院議員と兼ねることができない。
 
 ### 第百四十一条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-141-p2 -->
 普通地方公共団体の長は、地方公共団体の議会の議員並びに常勤の職員及び短時間勤務職員と兼ねることができない。

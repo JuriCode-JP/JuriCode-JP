@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-21-p1
+    type: simple
+    text: 内閣総理大臣が第一節又は第二節の規定により行う決定その他の処分（同節の規定により審判官が行う処分を含む。）又はその不作為については、審査請求をすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

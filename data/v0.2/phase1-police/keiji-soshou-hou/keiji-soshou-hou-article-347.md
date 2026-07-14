@@ -72,20 +72,16 @@ parent_section:
 
 ### 第三百四十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-347-p1 -->
 押収した贓物で被害者に還付すべき理由が明らかなものは、これを被害者に還付する言渡をしなければならない。
 
 ### 第三百四十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-347-p2 -->
 贓物の対価として得た物について、被害者から交付の請求があつたときは、前項の例による。
 
 ### 第三百四十七条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-347-p3 -->
 仮に還付した物について、別段の言渡がないときは、還付の言渡があつたものとする。
 
 ### 第三百四十七条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-347-p4 -->
 前三項の規定は、民事訴訟の手続に従い、利害関係人がその権利を主張することを妨げない。

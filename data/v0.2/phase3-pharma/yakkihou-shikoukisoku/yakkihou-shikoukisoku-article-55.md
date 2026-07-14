@@ -64,10 +64,6 @@ parent_section:
 
 ### 第五十五条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-55-p1 -->
-<!-- segment: simple id: yakkihou-shikoukisoku-art-55-p2 -->
-<!-- segment: simple id: yakkihou-shikoukisoku-art-55-p3 -->
-<!-- segment: simple id: yakkihou-shikoukisoku-art-55-p4 -->
 法第十四条の二の三第六項の規定により厚生労働大臣に対して行う医薬品等審査等の結果の通知は、様式第二十八による通知書によつて行うものとする。
 
 ### 第五十五条第二項

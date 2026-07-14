@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-2-p1
+    type: simple
+    text: 納税者又は特別徴収義務者の財産につき強制換価手続が行われた場合において、地方団体の徴収金の交付要求をしたときは、その地方団体の徴収金は、その手続により配当すべき金銭（以下本章において「換価代金」という。）につき、当該強制換価手続に係る費用に次いで徴収する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

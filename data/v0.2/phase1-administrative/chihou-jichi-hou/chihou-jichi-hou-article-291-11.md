@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-11-p1
+    type: simple
+    text: 第二百八十四条第三項、第二百九十一条の三第一項及び第三項、前条第一項並びに第二百九十一条の十三において準用する第二百八十九条の協議については、関係地方公共団体の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

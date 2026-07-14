@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三十三条第五項（資産の評価損）に規定する政令で定めるものは、次に掲げる法人とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-68-3-p1-kou-1
+    type: kou
+    text: 一　清算中の内国法人
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-68-3-p1-kou-2
+    type: kou
+    text: 二　解散（合併による解散を除く。）をすることが見込まれる内国法人
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-68-3-p1-kou-3
+    type: kou
+    text: 三　内国法人で当該内国法人との間に完全支配関係がある他の内国法人との間で適格合併を行うことが見込まれるもの
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +69,14 @@ parent_section:
 
 ### 第六十八条の三第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-68-3-p1-hashira -->
 法第三十三条第五項（資産の評価損）に規定する政令で定めるものは、次に掲げる法人とする。
+
+一　清算中の内国法人
+
+二　解散（合併による解散を除く。）をすることが見込まれる内国法人
+
+三　内国法人で当該内国法人との間に完全支配関係がある他の内国法人との間で適格合併を行うことが見込まれるもの
 
 ### 第六十八条の三第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-68-3-p2 -->
 法第三十三条第五項に規定する政令で定める法人は、第二十四条の三（資産の評価益の計上ができない株式の発行法人等から除外される通算法人）に規定する初年度離脱通算子法人とする。

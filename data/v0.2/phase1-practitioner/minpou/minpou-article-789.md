@@ -61,15 +61,12 @@ parent_section:
 
 ### 第七百八十九条第一項
 
-<!-- segment: simple id: minpou-art-789-p1 -->
 父が認知した子は、その父母の婚姻によって嫡出子の身分を取得する。
 
 ### 第七百八十九条第二項
 
-<!-- segment: simple id: minpou-art-789-p2 -->
 婚姻中父母が認知した子は、その認知の時から、嫡出子の身分を取得する。
 
 ### 第七百八十九条第三項
 
-<!-- segment: junyou id: minpou-art-789-p3 -->
 前二項の規定は、子が既に死亡していた場合について準用する。

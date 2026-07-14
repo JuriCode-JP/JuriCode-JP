@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十二条
 
-<!-- segment: simple id: keihou-art-22-p1 -->
 月又は年によって期間を定めたときは、暦に従って計算する。

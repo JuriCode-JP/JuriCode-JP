@@ -45,5 +45,4 @@ parent_section:
 
 ### 第七百九十九条
 
-<!-- segment: junyou id: minpou-art-799-p1 applies_provisions: 第七百三十九条 -->
 第七百三十八条及び第七百三十九条の規定は、縁組について準用する。

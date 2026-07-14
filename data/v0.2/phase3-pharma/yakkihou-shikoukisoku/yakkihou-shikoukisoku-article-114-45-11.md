@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-11-p1-hashira
+    type: hashira
+    text: 令第三十七条の三十五第二項に規定する医療機器等適合性確認に関する台帳に記載する事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-45-11-p1-kou-1
+    type: kou
+    text: 一　法第二十三条の二の十の二第三項の確認の結果
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-11-p1-kou-2
+    type: kou
+    text: 二　医療機器等適合性確認の通知の年月日及び番号
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-45-11-p1-kou-3
+    type: kou
+    text: 三　令第三十七条の三十七の規定による医療機器等適合性確認の結果を通知した場合にあつては、その通知の年月日及び番号
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第百十四条の四十五の十一
 
 令第三十七条の三十五第二項に規定する医療機器等適合性確認に関する台帳に記載する事項は、次のとおりとする。
+
+一　法第二十三条の二の十の二第三項の確認の結果
+
+二　医療機器等適合性確認の通知の年月日及び番号
+
+三　令第三十七条の三十七の規定による医療機器等適合性確認の結果を通知した場合にあつては、その通知の年月日及び番号

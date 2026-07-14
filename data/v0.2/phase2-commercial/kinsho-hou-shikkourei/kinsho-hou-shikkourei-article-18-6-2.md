@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-6-2-p1
+    type: simple
+    text: 法第七十九条の二十第三項第五号及び第六号に規定する政令で定める有価証券は、法第二条第二項の規定により有価証券とみなされる電子記録移転権利及び第一条の十二第二号に規定する権利とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

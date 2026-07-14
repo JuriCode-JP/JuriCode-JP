@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-16-p1 -->
 法律による管轄裁判所がないとき、又はこれを知ることができないときは、検事総長は、最高裁判所に管轄指定の請求をしなければならない。

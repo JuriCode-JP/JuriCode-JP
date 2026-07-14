@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第四十八条の二第二項の規定により登録金融機関は、次の各号に掲げる報告書を、当該各号に定める提出期限までに所管金融庁長官等に提出しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-188-p1-kou-1
+    type: kou
+    text: 一　別紙様式第十三号により作成した関係会社に関する報告書　毎事業年度経過後四月以内
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-188-p1-kou-2
+    type: kou
+    text: 二　別紙様式第十七号により作成した業務又は財産の状況に関する報告書　毎月のものを翌月二十日まで
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第百八十八条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-188-p1-hashira -->
 法第四十八条の二第二項の規定により登録金融機関は、次の各号に掲げる報告書を、当該各号に定める提出期限までに所管金融庁長官等に提出しなければならない。
+
+一　別紙様式第十三号により作成した関係会社に関する報告書　毎事業年度経過後四月以内
+
+二　別紙様式第十七号により作成した業務又は財産の状況に関する報告書　毎月のものを翌月二十日まで

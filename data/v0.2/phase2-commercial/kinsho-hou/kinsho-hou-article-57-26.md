@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-26-p1
+    type: junyou
+    text: 第三十二条第一項及び第二項、第三十二条の二第一項並びに第三十二条の三第一項の規定は、指定親会社の株主又は出資者について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-26-p2
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、指定親会社の主要株主（第二十九条の四第二項に規定する主要株主をいう。以下この項において同じ。）に対し前項において準用する第三十二条第一項若しくは第二項、第三十二条の二第一項若しくは第三十二条の三第一項の届出若しくは措置若しくは対象特別金融商品取引業者若しくは当該指定親会社の業務若しくは財産に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に当該主要株主の書類その他の物件の検査（前項において準用する第三十二条第一項若しくは第二項、第三十二条の二第一項若しくは第三十二条の三第一項の届出若しくは措置又は当該対象特別金融商品取引業者若しくは当該指定親会社の業務若しくは財産に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

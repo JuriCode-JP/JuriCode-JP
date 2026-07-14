@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-10-10-p1
+    type: simple
+    text: 法第三百四十九条の三第三十項に規定する政令で定める者は、公益社団法人、公益財団法人、農業協同組合、農業協同組合連合会、消費生活協同組合及び消費生活協同組合連合会とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

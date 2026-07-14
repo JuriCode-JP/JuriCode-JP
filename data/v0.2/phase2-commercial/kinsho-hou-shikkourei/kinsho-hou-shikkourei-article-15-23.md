@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-23-p1
+    type: simple
+    text: 金融商品取引業者等は、法第三十四条の二第十二項（法第三十四条の三第三項（法第三十四条の四第六項において準用する場合を含む。）及び第四十三条の四第三項において準用する場合を含む。以下この条において同じ。）の規定により、法第三十四条の二第十一項の規定による書面による同意に代えて同条第十二項に規定する内閣府令で定める方法（以下この条において「電磁的方法」という。）により同意を得ようとするときは、内閣府令で定めるところにより、あらかじめ、当該同意を得ようとする相手方に対し、その用いる電磁的方法の種類及び内容を示し、書面又は電磁的方法による承諾を得なければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-23-p2-honbun
+    type: honbun
+    text: 前項の規定による承諾を得た金融商品取引業者等は、当該相手方から書面又は電磁的方法により電磁的方法による同意を行わない旨の申出があつたときは、当該相手方に対し、法第三十四条の二第十二項に規定する同意の取得を電磁的方法によつてしてはならない。
+    modality: gimu_negative
+    references:
+    - 前項
+  - id: kinsho-hou-shikkourei-art-15-23-p2-tadashi
+    type: tadashi
+    text: ただし、当該相手方が再び前項の規定による承諾をした場合は、この限りでない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

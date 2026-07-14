@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百八十八条
 
-<!-- segment: simple id: shouhou-art-688-p1 -->
 航海中の船舶を譲渡したときは、その航海によって生ずる損益は、譲受人に帰属する。

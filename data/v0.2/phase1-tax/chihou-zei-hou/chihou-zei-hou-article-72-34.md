@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-34-p1
+    type: simple
+    text: 事務所又は事業所所在地の道府県知事は、第七十二条の二第一項第一号ロに掲げる法人（収入割を申告納付すべきものを除く。）が第七十二条の二十五第九項（第七十二条の二十八第二項並びに第七十二条の二十九第二項、第四項及び第六項において準用する場合を含む。）の規定又は第七十二条の二十六第四項の規定による申告書若しくは修正申告書を提出する場合又は当該申告書若しくは修正申告書を提出した後において、事業税の賦課徴収について必要があると認めるときは、当該法人に対し、貸借対照表、損益計算書その他の事業税の賦課徴収について必要な書類の提出を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

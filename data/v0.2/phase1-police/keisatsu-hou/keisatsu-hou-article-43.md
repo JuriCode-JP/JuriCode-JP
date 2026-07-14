@@ -22,7 +22,7 @@ paragraphs:
     text: 都道府県公安委員会に委員長を置き、委員が互選する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,15 +57,12 @@ parent_section:
 
 ### 第四十三条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-43-p1 -->
 都道府県公安委員会に委員長を置き、委員が互選する。
 
 ### 第四十三条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-43-p2 -->
 委員長の任期は、一年とする。但し、再任することができる。
 
 ### 第四十三条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-43-p3 -->
 委員長は、会務を総理し、都道府県公安委員会を代表する。

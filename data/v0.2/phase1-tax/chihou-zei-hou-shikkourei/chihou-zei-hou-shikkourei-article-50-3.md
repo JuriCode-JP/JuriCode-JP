@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第十一号の四に規定する政令で定める保健施設は、次に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-50-3-p2-kou-1
+    type: kou
+    text: 一　運動場、体育館、プール及びこれらに附属する施設
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-50-3-p2-kou-2
+    type: kou
+    text: 二　健康相談所
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-50-3-p2-kou-3
+    type: kou
+    text: 三　専ら負傷又は疾病の治つた者を収容し、その者の体力の回復を図るための施設
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -48,10 +63,14 @@ parent_section:
 
 ### 第五十条の三第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-50-3-p1 -->
 法第三百四十八条第二項第十一号の四に規定する政令で定める固定資産は、その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する固定資産以外の固定資産とする。
 
 ### 第五十条の三第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-50-3-p2-hashira -->
 法第三百四十八条第二項第十一号の四に規定する政令で定める保健施設は、次に掲げるものとする。
+
+一　運動場、体育館、プール及びこれらに附属する施設
+
+二　健康相談所
+
+三　専ら負傷又は疾病の治つた者を収容し、その者の体力の回復を図るための施設

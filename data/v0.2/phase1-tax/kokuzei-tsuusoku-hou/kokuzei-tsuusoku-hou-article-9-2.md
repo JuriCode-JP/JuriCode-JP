@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-9-2-p1
+    type: simple
+    text: 合併又は分割（以下この条において「合併等」という。）を無効とする判決が確定した場合には、当該合併等をした法人は、合併後存続する法人若しくは合併により設立した法人又は分割により事業を承継した法人の当該合併等の日以後に納税義務（第十五条第一項（納税義務の成立及びその納付すべき税額の確定）に規定する納税義務をいう。次条において同じ。）の成立した国税（その附帯税を含む。）について、連帯して納付する義務を負う。
+    modality: unspecified
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

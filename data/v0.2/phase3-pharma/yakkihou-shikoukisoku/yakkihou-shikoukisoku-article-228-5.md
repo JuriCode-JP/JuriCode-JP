@@ -14,24 +14,52 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-5-p1-hashira
+    type: hashira
+    text: 次に掲げる再生医療等製品で、その直接の容器又は直接の被包の面積が狭いため法第六十五条の二各号に掲げる事項を明瞭に記載することができないものについては、次の表の上欄に掲げる法の規定によつて定められた同表の中欄に掲げる事項の記載は、当該事項が当該再生医療等製品の外部の容器又は外部の被包に記載されている場合には、それぞれ同表の下欄に定めるところにより、同欄に掲げる事項の記載をもつてこれに代え、又は当該事項の記載を省略することができる。
+    modality: kanou_kenri
+  - id: yakkihou-shikoukisoku-art-228-5-p1-kou-1
+    type: kou
+    text: 一　二ミリリツトル以下のアンプル又はこれと同等の大きさの直接の容器若しくは直接の被包に収められた再生医療等製品
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-5-p1-kou-2
+    type: kou
+    text: 二　二ミリリツトルを超え十ミリリツトル以下のアンプル若しくはこれと同等の大きさのガラスその他これに類する材質からなる直接の容器で、その記載事項がその容器に直接印刷されているものに収められた再生医療等製品
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-5-p2
+    type: simple
+    text: その記載場所の面積が著しく狭いため前項の規定による表示の特例によつて記載すべき事項も明瞭に記載することができない直接の容器又は直接の被包に収められた再生医療等製品であつて、厚生労働大臣の許可を受けたものについては、その外部の容器又は外部の被包に法第六十五条の二各号に掲げる事項が記載されている場合には、これらの事項が当該再生医療等製品の直接の容器又は直接の被包に記載されていることを要しない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-5-p3
+    type: simple
+    text: 製造量、製造工程その他のその再生医療等製品の特性を勘案し、法第六十五条の二に規定する事項を記載することが著しく困難である再生医療等製品については、当該事項の記載は、当該再生医療等製品が使用される間その使用者その他の関係者が当該事項を適切に把握できる方法をとることをもつてこれに代えることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-5-p4
+    type: simple
+    text: 第一項各号に掲げる再生医療等製品であつて、その容器又は被包の記載場所の面積が狭いため法第六十五条の三に規定する符号（再生医療等製品の容器又は被包に記載されたバーコード又は二次元コードをいう。以下同じ。）を記載することができないものについては、当該再生医療等製品に添付する文書に同条に規定する符号が記載されている場合には、当該符号が当該再生医療等製品の容器又は被包に記載されていることを要しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -49,6 +77,10 @@ parent_section:
 ### 第二百二十八条の五第一項
 
 次に掲げる再生医療等製品で、その直接の容器又は直接の被包の面積が狭いため法第六十五条の二各号に掲げる事項を明瞭に記載することができないものについては、次の表の上欄に掲げる法の規定によつて定められた同表の中欄に掲げる事項の記載は、当該事項が当該再生医療等製品の外部の容器又は外部の被包に記載されている場合には、それぞれ同表の下欄に定めるところにより、同欄に掲げる事項の記載をもつてこれに代え、又は当該事項の記載を省略することができる。
+
+一　二ミリリツトル以下のアンプル又はこれと同等の大きさの直接の容器若しくは直接の被包に収められた再生医療等製品
+
+二　二ミリリツトルを超え十ミリリツトル以下のアンプル若しくはこれと同等の大きさのガラスその他これに類する材質からなる直接の容器で、その記載事項がその容器に直接印刷されているものに収められた再生医療等製品
 
 | 第六十五条の二第一号 | 製造販売業者の氏名又は名称及び住所 | 次のいずれかの記載をもつて代えることができる。 一 製造販売業者の略名 二 商標法によつて登録された製造販売業者の商標 |
 | --- | --- | --- |

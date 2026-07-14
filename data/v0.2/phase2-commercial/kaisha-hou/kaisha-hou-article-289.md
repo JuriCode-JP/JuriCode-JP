@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 新株予約権証券には、次に掲げる事項及びその番号を記載し、株式会社の代表取締役（指名委員会等設置会社にあっては、代表執行役）がこれに署名し、又は記名押印しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-289-p1-kou-1
+    type: kou
+    text: 一　株式会社の商号
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-289-p1-kou-2
+    type: kou
+    text: 二　当該新株予約権証券に係る証券発行新株予約権の内容及び数
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二百八十九条
 
-<!-- segment: hashira id: kaisha-hou-art-289-p1-hashira -->
 新株予約権証券には、次に掲げる事項及びその番号を記載し、株式会社の代表取締役（指名委員会等設置会社にあっては、代表執行役）がこれに署名し、又は記名押印しなければならない。
+
+一　株式会社の商号
+
+二　当該新株予約権証券に係る証券発行新株予約権の内容及び数

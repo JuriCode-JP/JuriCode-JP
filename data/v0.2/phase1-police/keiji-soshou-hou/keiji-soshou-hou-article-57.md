@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-57-p1 -->
 裁判所は、裁判所の規則で定める相当の猶予期間を置いて、被告人を召喚することができる。

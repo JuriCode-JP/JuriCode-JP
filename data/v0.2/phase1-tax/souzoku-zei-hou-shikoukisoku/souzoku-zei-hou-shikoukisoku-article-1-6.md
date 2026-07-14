@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 施行令第四条の二第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p1-kou-1
+    type: kou
+    text: 一　施行令第四条の二第二項の規定による申請書を提出する者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p1-kou-2
+    type: kou
+    text: 二　被相続人の氏名並びにその死亡の時における住所又は居所及びその死亡の日
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p1-kou-3
+    type: kou
+    text: 三　被相続人からの相続又は遺贈（贈与をした者の死亡により効力を生ずる贈与を含む。以下同じ。）により取得した財産に係る相続税の法第十九条の二第三項に規定する申告書を提出した日
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p1-kou-4
+    type: kou
+    text: 四　その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +52,26 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p2-kou-1
+    type: kou
+    text: 一　当該相続又は遺贈に関する訴えの提起がされていること　訴えの提起がされていることを証する書類
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p2-kou-2
+    type: kou
+    text: 二　当該相続又は遺贈に関する和解、調停又は審判の申立てがされていること（次号に該当する場合を除く。）　これらの申立てがされていることを証する書類
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p2-kou-3
+    type: kou
+    text: 三　当該相続又は遺贈に関し、民法（明治二十九年法律第八十九号）第九百八条第一項若しくは第四項（遺産の分割の方法の指定及び遺産の分割の禁止）の規定により遺産の分割が禁止され、又は同法第九百十五条第一項ただし書（相続の承認又は放棄をすべき期間）の規定により相続の承認若しくは放棄の期間が伸長されていること　これらの事実及び当該分割が禁止されている期間又は当該承認若しくは放棄が伸長された期間を証する書類
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p2-kou-4
+    type: kou
+    text: 四　前三号に掲げる事情以外の事情　財産の分割がされなかつた事情の詳細を記載した書類
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: true
@@ -41,6 +81,16 @@ paragraphs:
     type: hashira
     text: 法第十九条の二第三項に規定する財務省令で定める書類は、次に掲げる書類とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p3-kou-1
+    type: kou
+    text: 一　遺言書の写し、財産の分割の協議に関する書類（当該書類に当該相続に係る全ての共同相続人及び包括受遺者が自署し、自己の印を押しているものに限る。）の写し（当該自己の印に係る印鑑証明書が添付されているものに限る。）その他の財産の取得の状況を証する書類
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-1-6-p3-kou-2
+    type: kou
+    text: 二　当該相続又は遺贈により取得した財産に係る相続税について法第十九条の二第三項に規定する申告書又は更正請求書を提出する際に当該財産の全部又は一部が共同相続人又は包括受遺者によつてまだ分割されていない場合において、当該申告書又は更正請求書の提出後に分割される当該財産について同条第二項ただし書の規定の適用を受けようとするときは、その旨並びに分割されていない事情及び分割の見込みの詳細
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -54,15 +104,32 @@ tags:
 
 ### 第一条の六第一項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-1-6-p1-hashira -->
 施行令第四条の二第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　施行令第四条の二第二項の規定による申請書を提出する者の氏名及び住所又は居所
+
+二　被相続人の氏名並びにその死亡の時における住所又は居所及びその死亡の日
+
+三　被相続人からの相続又は遺贈（贈与をした者の死亡により効力を生ずる贈与を含む。以下同じ。）により取得した財産に係る相続税の法第十九条の二第三項に規定する申告書を提出した日
+
+四　その他参考となるべき事項
 
 ### 第一条の六第二項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-1-6-p2-hashira -->
 施行令第四条の二第二項の規定により提出する申請書には、同項に規定する相続又は遺贈に係る申告期限後三年を経過する日までに当該相続又は遺贈により取得した財産の全部又は一部が共同相続人又は包括受遺者によつて分割されなかつた事情の次の各号に掲げる区分に応じ当該各号に定める書類を添付しなければならない。
+
+一　当該相続又は遺贈に関する訴えの提起がされていること　訴えの提起がされていることを証する書類
+
+二　当該相続又は遺贈に関する和解、調停又は審判の申立てがされていること（次号に該当する場合を除く。）　これらの申立てがされていることを証する書類
+
+三　当該相続又は遺贈に関し、民法（明治二十九年法律第八十九号）第九百八条第一項若しくは第四項（遺産の分割の方法の指定及び遺産の分割の禁止）の規定により遺産の分割が禁止され、又は同法第九百十五条第一項ただし書（相続の承認又は放棄をすべき期間）の規定により相続の承認若しくは放棄の期間が伸長されていること　これらの事実及び当該分割が禁止されている期間又は当該承認若しくは放棄が伸長された期間を証する書類
+
+四　前三号に掲げる事情以外の事情　財産の分割がされなかつた事情の詳細を記載した書類
 
 ### 第一条の六第三項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-1-6-p3-hashira -->
 法第十九条の二第三項に規定する財務省令で定める書類は、次に掲げる書類とする。
+
+一　遺言書の写し、財産の分割の協議に関する書類（当該書類に当該相続に係る全ての共同相続人及び包括受遺者が自署し、自己の印を押しているものに限る。）の写し（当該自己の印に係る印鑑証明書が添付されているものに限る。）その他の財産の取得の状況を証する書類
+
+二　当該相続又は遺贈により取得した財産に係る相続税について法第十九条の二第三項に規定する申告書又は更正請求書を提出する際に当該財産の全部又は一部が共同相続人又は包括受遺者によつてまだ分割されていない場合において、当該申告書又は更正請求書の提出後に分割される当該財産について同条第二項ただし書の規定の適用を受けようとするときは、その旨並びに分割されていない事情及び分割の見込みの詳細

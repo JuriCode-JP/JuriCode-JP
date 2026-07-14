@@ -50,10 +50,8 @@ parent_section:
 
 ### 第八十四条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-84-p1 -->
 懲戒処分は、任命権者が、これを行う。
 
 ### 第八十四条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-84-p2 -->
 人事院は、この法律に規定された調査を経て職員を懲戒手続に付することができる。

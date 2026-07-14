@@ -53,10 +53,8 @@ parent_section:
 
 ### 第二百七十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-270-p1 -->
 検察官は、公訴の提起後は、訴訟に関する書類及び証拠物を閲覧し、且つ謄写することができる。
 
 ### 第二百七十条第二項
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-270-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、第百五十七条の六第四項に規定する記録媒体は、謄写することができない。

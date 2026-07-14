@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-14-p1
+    type: simple
+    text: 第七十二条の十二第一号の各事業年度の付加価値額は、各事業年度の報酬給与額、純支払利子及び純支払賃借料の合計額（第七十二条の二十において「収益配分額」という。）と各事業年度の単年度損益との合計額による。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

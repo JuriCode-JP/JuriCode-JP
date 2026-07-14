@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 法第六十九条第四項第三号（外国税額の控除）に規定する国外にある資産の譲渡により生ずる所得として政令で定めるものは、次に掲げる資産の譲渡（第三号に掲げる資産については、伐採又は譲渡）により生ずる所得とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-1
+    type: kou
+    text: 一　国外にある不動産
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-2
+    type: kou
+    text: 二　国外にある不動産の上に存する権利、国外における鉱業権又は国外における採石権
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-3
+    type: kou
+    text: 三　国外にある山林
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-4
+    type: kou
+    text: 四　外国法人の発行する株式又は外国法人の出資者の持分で、その外国法人の発行済株式又は出資の総数又は総額の一定割合以上に相当する数又は金額の株式又は出資を所有する場合にその外国法人の本店又は主たる事務所の所在する国又は地域においてその譲渡による所得に対して外国法人税が課されるもの
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-5
+    type: kou
+    text: 五　不動産関連法人の株式（出資を含む。次号及び次項において同じ。）
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-6
+    type: kou
+    text: 六　国外にあるゴルフ場の所有又は経営に係る法人の株式を所有することがそのゴルフ場を一般の利用者に比して有利な条件で継続的に利用する権利を有する者となるための要件とされている場合における当該株式
+    modality: unspecified
+    item_number: 6
+  - id: houjin-zei-hou-shikkourei-art-145-4-p1-kou-7
+    type: kou
+    text: 七　国外にあるゴルフ場その他の施設の利用に関する権利
+    modality: unspecified
+    item_number: 7
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +67,26 @@ paragraphs:
     modality: teigi
     references:
     - 前項
+  - id: houjin-zei-hou-shikkourei-art-145-4-p2-kou-1
+    type: kou
+    text: 一　国外にある土地等（土地若しくは土地の上に存する権利又は建物及びその附属設備若しくは構築物をいう。以下この項において同じ。）
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-145-4-p2-kou-2
+    type: kou
+    text: 二　その有する資産の価額の総額のうちに国外にある土地等の価額の合計額の占める割合が百分の五十以上である法人の株式
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-145-4-p2-kou-3
+    type: kou
+    text: 三　前号又は次号に掲げる株式を有する法人（その有する資産の価額の総額のうちに国外にある土地等並びに前号、この号及び次号に掲げる株式の価額の合計額の占める割合が百分の五十以上であるものに限る。）の株式（前号に掲げる株式に該当するものを除く。）
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikkourei-art-145-4-p2-kou-4
+    type: kou
+    text: 四　前号に掲げる株式を有する法人（その有する資産の価額の総額のうちに国外にある土地等並びに前二号及びこの号に掲げる株式の価額の合計額の占める割合が百分の五十以上であるものに限る。）の株式（前二号に掲げる株式に該当するものを除く。）
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -54,10 +109,30 @@ parent_section:
 
 ### 第百四十五条の四第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-145-4-p1-hashira -->
 法第六十九条第四項第三号（外国税額の控除）に規定する国外にある資産の譲渡により生ずる所得として政令で定めるものは、次に掲げる資産の譲渡（第三号に掲げる資産については、伐採又は譲渡）により生ずる所得とする。
+
+一　国外にある不動産
+
+二　国外にある不動産の上に存する権利、国外における鉱業権又は国外における採石権
+
+三　国外にある山林
+
+四　外国法人の発行する株式又は外国法人の出資者の持分で、その外国法人の発行済株式又は出資の総数又は総額の一定割合以上に相当する数又は金額の株式又は出資を所有する場合にその外国法人の本店又は主たる事務所の所在する国又は地域においてその譲渡による所得に対して外国法人税が課されるもの
+
+五　不動産関連法人の株式（出資を含む。次号及び次項において同じ。）
+
+六　国外にあるゴルフ場の所有又は経営に係る法人の株式を所有することがそのゴルフ場を一般の利用者に比して有利な条件で継続的に利用する権利を有する者となるための要件とされている場合における当該株式
+
+七　国外にあるゴルフ場その他の施設の利用に関する権利
 
 ### 第百四十五条の四第二項
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-145-4-p2-hashira -->
 前項第五号に規定する不動産関連法人とは、その有する資産の価額の総額のうちに次に掲げる資産の価額の合計額の占める割合が百分の五十以上である法人をいう。
+
+一　国外にある土地等（土地若しくは土地の上に存する権利又は建物及びその附属設備若しくは構築物をいう。以下この項において同じ。）
+
+二　その有する資産の価額の総額のうちに国外にある土地等の価額の合計額の占める割合が百分の五十以上である法人の株式
+
+三　前号又は次号に掲げる株式を有する法人（その有する資産の価額の総額のうちに国外にある土地等並びに前号、この号及び次号に掲げる株式の価額の合計額の占める割合が百分の五十以上であるものに限る。）の株式（前号に掲げる株式に該当するものを除く。）
+
+四　前号に掲げる株式を有する法人（その有する資産の価額の総額のうちに国外にある土地等並びに前二号及びこの号に掲げる株式の価額の合計額の占める割合が百分の五十以上であるものに限る。）の株式（前二号に掲げる株式に該当するものを除く。）

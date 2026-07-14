@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五十五条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-155-p1 -->
 削除

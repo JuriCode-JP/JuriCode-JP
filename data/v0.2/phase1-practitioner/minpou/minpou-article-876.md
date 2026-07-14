@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百七十六条
 
-<!-- segment: simple id: minpou-art-876-p1 -->
 保佐は、保佐開始の審判によって開始する。

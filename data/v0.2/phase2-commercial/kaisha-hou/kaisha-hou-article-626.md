@@ -43,7 +43,7 @@ paragraphs:
     modality: unspecified
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-626-p4
@@ -52,6 +52,26 @@ paragraphs:
     modality: unspecified
     references:
     - 前二項
+  - id: kaisha-hou-art-626-p4-kou-1
+    type: kou
+    text: 一　資産の額
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-626-p4-kou-2
+    type: kou
+    text: 二　負債の額
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-626-p4-kou-3
+    type: kou
+    text: 三　資本金の額
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-626-p4-kou-4
+    type: kou
+    text: 四　前二号に掲げるもののほか、法務省令で定める各勘定科目に計上した額の合計額
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -74,20 +94,24 @@ parent_section:
 
 ### 第六百二十六条第一項
 
-<!-- segment: simple id: kaisha-hou-art-626-p1 -->
 合同会社は、第六百二十条第一項の場合のほか、出資の払戻し又は持分の払戻しのために、その資本金の額を減少することができる。
 
 ### 第六百二十六条第二項
 
-<!-- segment: simple id: kaisha-hou-art-626-p2 -->
 前項の規定により出資の払戻しのために減少する資本金の額は、第六百三十二条第二項に規定する出資払戻額から出資の払戻しをする日における剰余金額を控除して得た額を超えてはならない。
 
 ### 第六百二十六条第三項
 
-<!-- segment: simple id: kaisha-hou-art-626-p3 -->
 第一項の規定により持分の払戻しのために減少する資本金の額は、第六百三十五条第一項に規定する持分払戻額から持分の払戻しをする日における剰余金額を控除して得た額を超えてはならない。
 
 ### 第六百二十六条第四項
 
-<!-- segment: simple id: kaisha-hou-art-626-p4 -->
 前二項に規定する「剰余金額」とは、第一号に掲げる額から第二号から第四号までに掲げる額の合計額を減じて得た額をいう（第四款及び第五款において同じ。）。
+
+一　資産の額
+
+二　負債の額
+
+三　資本金の額
+
+四　前二号に掲げるもののほか、法務省令で定める各勘定科目に計上した額の合計額

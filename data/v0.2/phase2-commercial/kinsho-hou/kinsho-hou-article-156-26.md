@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-26-p1
+    type: junyou
+    text: 第八十三条及び第百四十八条の規定は、証券金融会社の免許について準用する。この場合において、同条中「第八十二条第二項各号のいずれか」とあるのは、「第百五十六条の二十五第二項各号のいずれか」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第百四十八条
 cases: []
 amendments: []
 tags:

@@ -16,57 +16,111 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p1
+    type: simple
+    text: 指定都市は、市長の権限に属する事務を分掌させるため、条例で、その区域を分けて区を設け、区の事務所又は必要があると認めるときはその出張所を置くものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p2
+    type: simple
+    text: 区の事務所又はその出張所の位置、名称及び所管区域並びに区の事務所が分掌する事務は、条例でこれを定めなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p3
+    type: simple
+    text: 区にその事務所の長として区長を置く。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p4
+    type: simple
+    text: 区長又は区の事務所の出張所の長は、当該普通地方公共団体の長の補助機関である職員をもつて充てる。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p5
+    type: simple
+    text: 区に選挙管理委員会を置く。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p6
+    type: simple
+    text: 第四条第二項の規定は第二項の区の事務所又はその出張所の位置及び所管区域に、第百七十五条第二項の規定は区長又は第四項の区の事務所の出張所の長に、第二編第七章第三節中市の選挙管理委員会に関する規定は前項の選挙管理委員会について、これを準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p7-zen
+    type: zen_dan
+    text: 指定都市は、必要と認めるときは、条例で、区ごとに区地域協議会を置くことができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-20-p7-kou
+    type: kou_dan
+    text: この場合において、その区域内に地域自治区が設けられる区には、区地域協議会を設けないことができる。
+    modality: kanou_kenri
+    depends_on: chihou-jichi-hou-art-252-20-p7-zen
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p8
+    type: junyou
+    text: 第二百二条の五第二項から第五項まで及び第二百二条の六から第二百二条の九までの規定は、区地域協議会に準用する。
+    modality: unspecified
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p9
+    type: simple
+    text: 指定都市は、地域自治区を設けるときは、その区域は、区の区域を分けて定めなければならない。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p10
+    type: tokusoku
+    text: 第七項の規定に基づき、区に区地域協議会を置く指定都市は、第二百二条の四第一項の規定にかかわらず、その一部の区の区域に地域自治区を設けることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-p11
+    type: simple
+    text: 前各項に定めるもののほか、指定都市の区に関し必要な事項は、政令でこれを定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

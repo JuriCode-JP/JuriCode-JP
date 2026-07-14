@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-12-p1
+    type: simple
+    text: 道府県は、第七十三条の十第二項の認定を受けていない不動産取得税の納税義務者で同条第一項の承認を受けていないものが同項の規定によつて申告すべき納税管理人について正当な事由がなくて申告をしなかつた場合においては、その者に対し、当該道府県の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

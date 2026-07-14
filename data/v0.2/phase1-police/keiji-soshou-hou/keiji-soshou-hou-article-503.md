@@ -52,10 +52,8 @@ parent_section:
 
 ### 第五百三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-503-p1 -->
 第五百条及び前二条の申立ては、決定があるまでこれを取り下げることができる。
 
 ### 第五百三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-503-p2 -->
 第三百六十六条の規定は、第五百条及び前二条の申立て及びその取下げについてこれを準用する。

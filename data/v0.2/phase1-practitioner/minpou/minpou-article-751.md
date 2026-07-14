@@ -54,10 +54,8 @@ parent_section:
 
 ### 第七百五十一条第一項
 
-<!-- segment: simple id: minpou-art-751-p1 -->
 夫婦の一方が死亡したときは、生存配偶者は、婚姻前の氏に復することができる。
 
 ### 第七百五十一条第二項
 
-<!-- segment: junyou id: minpou-art-751-p2 applies_provisions: 第七百六十九条 -->
 第七百六十九条の規定は、前項及び第七百二十八条第二項の場合について準用する。

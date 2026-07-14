@@ -32,6 +32,21 @@ paragraphs:
     type: hashira
     text: 法第百八十条第五項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-kou-1
+    type: kou
+    text: 一　法第百八十条第五項に規定する届出をした者又は通知を受けた者の名称
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-kou-2
+    type: kou
+    text: 二　前号に規定する者の令第三百五条第一項第二号（外国法人が課税の特例の適用を受けるための手続等）に規定する納税地にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-kou-3
+    type: kou
+    text: 三　法第百八十条第六項第一号の有効期限
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第七十二条の五第一項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-72-5-p1 -->
 法第百八十条第五項（恒久的施設を有する外国法人の受ける国内源泉所得に係る課税の特例）の規定による公示は、次項各号に掲げる事項を官報に掲載して行うものとする。
 
 ### 第七十二条の五第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-hashira -->
 法第百八十条第五項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百八十条第五項に規定する届出をした者又は通知を受けた者の名称
+
+二　前号に規定する者の令第三百五条第一項第二号（外国法人が課税の特例の適用を受けるための手続等）に規定する納税地にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
+
+三　法第百八十条第六項第一号の有効期限

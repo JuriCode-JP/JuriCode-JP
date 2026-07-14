@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-9-p1-zen
+    type: zen_dan
+    text: 債権者は、第四百二十四条の六第一項前段又は第二項前段の規定により受益者又は転得者に対して財産の返還を請求する場合において、その返還の請求が金銭の支払又は動産の引渡しを求めるものであるときは、受益者に対してその支払又は引渡しを、転得者に対してその引渡しを、自己に対してすることを求めることができる。
+    modality: kanou_kenri
+  - id: minpou-art-424-9-p1-kou
+    type: kou_dan
+    text: この場合において、受益者又は転得者は、債権者に対してその支払又は引渡しをしたときは、債務者に対してその支払又は引渡しをすることを要しない。
+    modality: unspecified
+    depends_on: minpou-art-424-9-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-9-p2
+    type: simple
+    text: 債権者が第四百二十四条の六第一項後段又は第二項後段の規定により受益者又は転得者に対して価額の償還を請求する場合についても、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

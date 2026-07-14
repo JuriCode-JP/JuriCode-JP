@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-714-3-p1
+    type: simple
+    text: 社債管理補助者は、第七百三条各号に掲げる者その他法務省令で定める者でなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

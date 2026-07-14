@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二十九条
 
-<!-- segment: simple id: shotoku-zei-hou-art-29-p1 -->
 削除

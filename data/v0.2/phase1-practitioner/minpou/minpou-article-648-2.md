@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-648-2-p1
+    type: simple
+    text: 委任事務の履行により得られる成果に対して報酬を支払うことを約した場合において、その成果が引渡しを要するときは、報酬は、その成果の引渡しと同時に、支払わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-648-2-p2
+    type: junyou
+    text: 第六百三十四条の規定は、委任事務の履行により得られる成果に対して報酬を支払うことを約した場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第六百三十四条
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 清算人は、次に掲げる職務を行う。
     modality: unspecified
+  - id: kaisha-hou-art-649-p1-kou-1
+    type: kou
+    text: 一　現務の結了
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-649-p1-kou-2
+    type: kou
+    text: 二　債権の取立て及び債務の弁済
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-649-p1-kou-3
+    type: kou
+    text: 三　残余財産の分配
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第六百四十九条
 
-<!-- segment: hashira id: kaisha-hou-art-649-p1-hashira -->
 清算人は、次に掲げる職務を行う。
+
+一　現務の結了
+
+二　債権の取立て及び債務の弁済
+
+三　残余財産の分配

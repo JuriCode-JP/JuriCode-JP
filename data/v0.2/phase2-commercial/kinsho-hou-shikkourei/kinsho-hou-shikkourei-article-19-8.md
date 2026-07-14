@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-8-p1
+    type: simple
+    text: 法第百五十六条の三十九第一項第八号に規定する政令で定める割合は、三分の一とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

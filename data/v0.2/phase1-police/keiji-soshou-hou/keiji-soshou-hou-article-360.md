@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百六十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-360-p1 -->
 第三百五十三条又は第三百五十四条に規定する者は、書面による被告人の同意を得て、上訴の放棄又は取下をすることができる。

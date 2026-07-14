@@ -13,30 +13,54 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-10-p1-honbun
+    type: honbun
+    text: 委員の任期は、二年とする。
+    modality: gimu
+  - id: yakkihou-art-76-3-10-p1-tadashi
+    type: tadashi
+    text: ただし、補欠の委員の任期は、前任者の残任期間とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-10-p2
+    type: simple
+    text: 委員は、再任されることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-10-p3
+    type: simple
+    text: 臨時委員は、その者の任命に係る当該特別の事項に関する調査審議が終了したときは、解任されるものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-10-p4
+    type: simple
+    text: 専門委員は、その者の任命に係る当該専門の事項に関する調査が終了したときは、解任されるものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-10-p5
+    type: simple
+    text: 委員、臨時委員及び専門委員は、非常勤とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

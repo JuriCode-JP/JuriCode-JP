@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-105-p1
+    type: simple
+    text: 国は、前条の規定により貨物割に係る還付金等を還付した場合には、当該還付金等に相当する額を、当該貨物割に係る第七十二条の百三第三項に規定する道府県に同項の規定により払い込む貨物割として納付された額で当該還付金等を還付した日の属する月に納付されたものの総額から控除するものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-105-p2
+    type: simple
+    text: 貨物割として納付された額の総額から前項の規定によりその相当額が控除された還付金等について返納があつた場合その他政令で定める事由が生じた場合には、当該返納があつた額その他政令で定める額に相当する額を、第七十二条の百三第三項の規定により当該道府県に払い込む貨物割として納付された額で当該返納があつた又は政令で定める事由が生じた日の属する月に納付されたものの総額に加算するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-105-p3
+    type: simple
+    text: 第一項の規定により控除すべき還付金等に相当する額が、当該還付金等を還付した日の属する月に貨物割として納付された額の総額（同月に前項の規定による加算すべき額がある場合にあつては、これを加算した額）を超える場合には、当該超える額に相当する還付金等をその翌月に還付したものとみなして、第一項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

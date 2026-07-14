@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-15-p1
+    type: simple
+    text: 委員会は、関係行政機関を審査の手続に参加させる必要があると認めるときは、国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関、相手方である国の行政庁若しくは当該関係行政機関の申立てにより又は職権で、当該関係行政機関を審査の手続に参加させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-15-p2
+    type: simple
+    text: 委員会は、前項の規定により関係行政機関を審査の手続に参加させるときは、あらかじめ、当該国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関及び相手方である国の行政庁並びに当該関係行政機関の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

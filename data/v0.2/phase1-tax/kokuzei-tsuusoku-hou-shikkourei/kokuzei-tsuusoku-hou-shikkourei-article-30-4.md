@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第七十四条の九第一項第七号（納税義務者に対する調査の事前通知等）に規定する政令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-1
+    type: kou
+    text: 一　調査の相手方である法第七十四条の九第三項第一号に掲げる納税義務者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-2
+    type: kou
+    text: 二　調査を行う当該職員の氏名及び所属官署（当該職員が複数であるときは、当該職員を代表する者の氏名及び所属官署）
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-3
+    type: kou
+    text: 三　法第七十四条の九第一項第一号又は第二号に掲げる事項の変更に関する事項
+    modality: unspecified
+    item_number: 3
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-4
+    type: kou
+    text: 四　法第七十四条の九第四項の規定の趣旨
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +68,16 @@ parent_section:
 
 ### 第三十条の四第一項
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-hashira -->
 法第七十四条の九第一項第七号（納税義務者に対する調査の事前通知等）に規定する政令で定める事項は、次に掲げる事項とする。
+
+一　調査の相手方である法第七十四条の九第三項第一号に掲げる納税義務者の氏名及び住所又は居所
+
+二　調査を行う当該職員の氏名及び所属官署（当該職員が複数であるときは、当該職員を代表する者の氏名及び所属官署）
+
+三　法第七十四条の九第一項第一号又は第二号に掲げる事項の変更に関する事項
+
+四　法第七十四条の九第四項の規定の趣旨
 
 ### 第三十条の四第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p2 -->
 法第七十四条の九第一項各号に掲げる事項のうち、同項第二号に掲げる事項については調査を開始する日時において質問検査等を行おうとする場所を、同項第三号に掲げる事項については納税申告書の記載内容の確認又は納税申告書の提出がない場合における納税義務の有無の確認その他これらに類する調査の目的を、それぞれ通知するものとし、同項第六号に掲げる事項については、同号に掲げる物件が国税に関する法令の規定により備付け又は保存をしなければならないこととされているものである場合にはその旨を併せて通知するものとする。

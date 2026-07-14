@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-24-p1
+    type: simple
+    text: 法第百七十五条の二第一項第一号に規定する内閣府令で定めるものは、法第三十五条第一項第八号に掲げる行為を行う業務とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

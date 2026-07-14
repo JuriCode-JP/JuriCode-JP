@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-6-p1-zen
+    type: zen_dan
+    text: 消費税法施行令第七十一条の二第二項の規定は法第八十七条の六第十二項において準用する消費税法第五十九条の二第一項に規定する電磁的記録に記録された事項に係る事実に基づく税額として政令で定めるところにより計算した金額について、同令第七十一条の二第三項の規定は法第八十七条の六第十二項において準用する消費税法第五十九条の二第一項の規定の適用がある場合について、それぞれ準用する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-46-8-6-p1-kou
+    type: kou_dan
+    text: この場合において、同令第七十一条の二第三項中「消費税法」とあるのは、「租税特別措置法第八十七条の六第十二項において準用する消費税法」と読み替えるものとする。
+    modality: gimu
+    depends_on: sochi-hou-shikkourei-art-46-8-6-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-6-p2
+    type: simple
+    text: 前項に定めるもののほか、法第八十七条の六第十二項の規定の適用に関し必要な事項は、財務省令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

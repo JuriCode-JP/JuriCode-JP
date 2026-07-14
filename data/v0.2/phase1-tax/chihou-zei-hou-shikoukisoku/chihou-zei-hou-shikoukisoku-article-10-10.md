@@ -34,5 +34,4 @@ tags:
 
 ### 第十条の十
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-10-10-p1 -->
 政令第五十一条の四第二号に規定する総務省令で定める宿舎は、第七条の五に規定する宿舎とする。

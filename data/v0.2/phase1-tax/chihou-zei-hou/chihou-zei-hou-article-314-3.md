@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-314-3-p1-zen
+    type: zen_dan
+    text: 所得割の額は、課税総所得金額、課税退職所得金額及び課税山林所得金額の合計額に、百分の六（所得割の納税義務者が地方自治法第二百五十二条の十九第一項の市（第三百十四条の六及び第三百十四条の七において「指定都市」という。）の区域内に住所を有する場合には、百分の八）の標準税率によつて定める率を乗じて得た金額とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-314-3-p1-kou
+    type: kou_dan
+    text: この場合において、当該定める率は、一の率でなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-314-3-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-314-3-p2
+    type: simple
+    text: 前項の「課税総所得金額」、「課税退職所得金額」又は「課税山林所得金額」とは、それぞれ前条の規定による控除後の前年の総所得金額、退職所得金額又は山林所得金額をいう。
+    modality: teigi
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

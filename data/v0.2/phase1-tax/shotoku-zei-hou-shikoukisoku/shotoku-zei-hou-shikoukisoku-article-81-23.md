@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十一条の二十三
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-81-23-p1 -->
 削除

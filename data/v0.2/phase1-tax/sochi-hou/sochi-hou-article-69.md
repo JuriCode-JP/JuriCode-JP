@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十九条
 
-<!-- segment: simple id: sochi-hou-art-69-p1 -->
 削除

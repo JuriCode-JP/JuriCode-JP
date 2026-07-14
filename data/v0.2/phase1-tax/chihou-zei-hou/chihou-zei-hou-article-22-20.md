@@ -13,15 +13,27 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-20-p1-honbun
+    type: honbun
+    text: 当該徴税吏員は、許可状に夜間でも執行することができる旨の記載がなければ、日没から日出までの間には、臨検、捜索、差押え又は記録命令付差押えをしてはならない。
+    modality: gimu_negative
+  - id: chihou-zei-hou-art-22-20-p1-tadashi
+    type: tadashi
+    text: ただし、第二十二条の七の規定により処分をする場合及び軽油引取税その他の政令で定める地方税について夜間でも公衆が出入りすることができる場所でその公開した時間内にこれらの処分をする場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-20-p2
+    type: simple
+    text: 当該徴税吏員は、必要があると認めるときは、日没前に開始した臨検、捜索、差押え又は記録命令付差押えを、日没後まで継続することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

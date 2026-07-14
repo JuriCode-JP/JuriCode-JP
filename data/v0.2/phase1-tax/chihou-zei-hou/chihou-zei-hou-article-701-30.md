@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-30-p1
+    type: simple
+    text: 指定都市等は、都市環境の整備及び改善に関する事業に要する費用に充てるため、事業所税を課するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

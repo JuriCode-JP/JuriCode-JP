@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九百条
 
-<!-- segment: simple id: kaisha-hou-art-900-p1 -->
 第五百四十七条第三項の許可の申立てを却下する決定に対しては、即時抗告をすることができる。

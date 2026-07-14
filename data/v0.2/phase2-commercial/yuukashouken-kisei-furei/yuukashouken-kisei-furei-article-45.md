@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十五条
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-45-p1 -->
 法第百六十五条の二第十四項に規定する内閣府令で定める場合は、第四十条第四項各号に掲げる場合とする。

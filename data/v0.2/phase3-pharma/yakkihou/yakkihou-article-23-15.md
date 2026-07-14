@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-15-p1
+    type: simple
+    text: 登録認証機関は、基準適合性認証の業務の全部又は一部を休止し、又は廃止しようとするときは、厚生労働省令で定めるところにより、あらかじめ、その旨を厚生労働大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-15-p2
+    type: simple
+    text: 厚生労働大臣は、前項の規定による届出があつたときは、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -34,6 +34,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-108-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十七条の四第一項第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -52,10 +56,10 @@ parent_section:
 
 ### 第百八条第一項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-108-p1 -->
 公安委員会は、政令で定めるところにより、この章に規定する免許に関する事務（免許の拒否及び保留、免許の条件の付与及び変更、運転免許試験及び適性検査の結果の判定並びに免許の取消し及び効力の停止に係る事務その他の政令で定める事務を除く。次項において「免許関係事務」という。）の全部又は一部を内閣府令で定める法人に委託することができる。
 
 ### 第百八条第二項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-108-p2 -->
 前項の規定により免許関係事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該委託に係る免許関係事務に関して知り得た秘密を漏らしてはならない。
+
+（罰則　第二項については第百十七条の四第一項第一号）

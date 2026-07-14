@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百十条
 
-<!-- segment: simple id: shouhou-art-710-p1 -->
 船長は、属具目録を船内に備え置かなければならない。

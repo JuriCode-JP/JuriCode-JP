@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十四条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-144-p1 -->
 委員長及び委員の給与は、別に法律で定める。

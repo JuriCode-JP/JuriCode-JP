@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-185-2-p1
+    type: simple
+    text: 選挙管理委員は、職務上知り得た秘密を漏らしてはならない。その職を退いた後も、同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

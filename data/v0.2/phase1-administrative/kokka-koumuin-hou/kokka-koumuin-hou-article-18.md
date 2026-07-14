@@ -46,10 +46,8 @@ parent_section:
 
 ### 第十八条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-18-p1 -->
 人事院は、職員に対する給与の支払を監理する。
 
 ### 第十八条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-18-p2 -->
 職員に対する給与の支払は、人事院規則又は人事院指令に反してこれを行つてはならない。

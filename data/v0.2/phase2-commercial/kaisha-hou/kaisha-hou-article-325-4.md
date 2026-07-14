@@ -16,22 +16,67 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-325-4-p1
+    type: simple
+    text: 前条第一項の規定により電子提供措置をとる場合における第二百九十九条第一項の規定の適用については、同項中「二週間（前条第一項第三号又は第四号に掲げる事項を定めたときを除き、公開会社でない株式会社にあっては、一週間（当該株式会社が取締役会設置会社以外の株式会社である場合において、これを下回る期間を定款で定めた場合にあっては、その期間））」とあるのは、「二週間」とする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-325-4-p2
+    type: tokusoku
+    text: 第二百九十九条第四項の規定にかかわらず、前条第一項の規定により電子提供措置をとる場合には、第二百九十九条第二項又は第三項の通知には、第二百九十八条第一項第五号に掲げる事項を記載し、又は記録することを要しない。この場合において、当該通知には、同項第一号から第四号までに掲げる事項のほか、次に掲げる事項を記載し、又は記録しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第二百九十九条
+    references:
+    - 前条
+    - 同項
+  - id: kaisha-hou-art-325-4-p2-kou-1
+    type: kou
+    text: 一　電子提供措置をとっているときは、その旨
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-325-4-p2-kou-2
+    type: kou
+    text: 二　前条第三項の手続を開示用電子情報処理組織を使用して行ったときは、その旨
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-325-4-p2-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-325-4-p3
+    type: tokusoku
+    text: 第三百一条第一項、第三百二条第一項、第四百三十七条及び第四百四十四条第六項の規定にかかわらず、電子提供措置をとる旨の定款の定めがある株式会社においては、取締役は、第二百九十九条第一項の通知に際して、株主に対し、株主総会参考書類等を交付し、又は提供することを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第四百四十四条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-325-4-p4
+    type: simple
+    text: 電子提供措置をとる旨の定款の定めがある株式会社における第三百五条第一項の規定の適用については、同項中「その通知に記載し、又は記録する」とあるのは、「当該議案の要領について第三百二十五条の二に規定する電子提供措置をとる」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -59,6 +104,12 @@ parent_section:
 ### 第三百二十五条の四第二項
 
 第二百九十九条第四項の規定にかかわらず、前条第一項の規定により電子提供措置をとる場合には、第二百九十九条第二項又は第三項の通知には、第二百九十八条第一項第五号に掲げる事項を記載し、又は記録することを要しない。この場合において、当該通知には、同項第一号から第四号までに掲げる事項のほか、次に掲げる事項を記載し、又は記録しなければならない。
+
+一　電子提供措置をとっているときは、その旨
+
+二　前条第三項の手続を開示用電子情報処理組織を使用して行ったときは、その旨
+
+三　前二号に掲げるもののほか、法務省令で定める事項
 
 ### 第三百二十五条の四第三項
 

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百五十条
 
-<!-- segment: simple id: kaisha-hou-art-350-p1 -->
 株式会社は、代表取締役その他の代表者がその職務を行うについて第三者に加えた損害を賠償する責任を負う。

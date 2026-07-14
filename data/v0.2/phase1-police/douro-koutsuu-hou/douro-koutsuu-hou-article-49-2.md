@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-49-2-p1-zen
+    type: zen_dan
+    text: 公安委員会は、時間制限駐車区間を、時間を限つて同一の高齢運転者等標章自動車に限り引き続き駐車することができる道路の区間として指定することができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-49-2-p1-kou
+    type: kou_dan
+    text: この場合において、公安委員会は、前条第一項の道路標識等にその旨を表示するものとする。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: douro-koutsuu-hou-art-49-2-p1-zen
 cases: []
 amendments: []
 tags:

@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-8-p1-honbun
+    type: honbun
+    text: 法第二十七条の二十五第二項に規定する政令で定める基準は、同項の変更報告書に記載すべき変更後の株券等保有割合（法第二十七条の二十三第四項に規定する株券等保有割合をいう。以下この条において同じ。）が、当該変更報告書に係る大量保有報告書（法第二十七条の二十三第一項又は第二十七条の二十六第一項に規定する大量保有報告書をいう。）又は当該大量保有報告書に係る他の変更報告書（法第二十七条の二十五第一項又は第二十七条の二十六第二項に規定する変更報告書をいう。）に記載された又は記載すべきであつた株券等保有割合（当該変更後の株券等保有割合の計算の基礎となつた日の六十日前の日以後の日を計算の基礎とするもの及び当該六十日前の日の前日以前の日を計算の基礎とするもので当該六十日前の日に最も近い日を計算の基礎とするものに限る。）のうち最も高いものの二分の一未満となり、かつ、当該最も高いものより百分の五を超えて減少したこととする。
+    modality: gimu
+    references:
+    - 同項
+  - id: kinsho-hou-shikkourei-art-14-8-p1-tadashi
+    type: tadashi
+    text: ただし、株券等保有割合が減少したことにより変更報告書を提出する者又はその共同保有者が当該変更後の株券等保有割合の計算の基礎となつた日前六十日間（次項において「短期大量譲渡報告対象期間」という。）に株券等を譲渡したことにより減少した株券等保有割合の合計が、当該最も高いものの二分の一以下である場合又は百分の五以下である場合には、この限りでない。
+    modality: jogai
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-8-p2
+    type: simple
+    text: 法第二十七条の二十五第二項に規定する政令で定める者は、株券等保有割合が減少したことにより変更報告書を提出する者又はその共同保有者から短期大量譲渡報告対象期間に譲渡を受けた株券等の数の合計を当該提出する者の保有株券等の総数（法第二十七条の二十三第四項に規定する保有株券等の総数をいう。）とみなした場合における当該提出する者の株券等保有割合が百分の一に満たない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

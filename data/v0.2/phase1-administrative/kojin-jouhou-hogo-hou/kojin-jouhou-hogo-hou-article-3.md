@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-3-p1 -->
 個人情報は、個人の人格尊重の理念の下に慎重に取り扱われるべきものであることに鑑み、その適正な取扱いが図られなければならない。

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第百八十条の二第一項（信託財産に係る利子等の課税の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-kou-1
+    type: kou
+    text: 一　法第百八十条の二第一項に規定する外国信託会社（次項第一号において「外国信託会社」という。）の名称及び国内にある主たる事務所の所在地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-kou-2
+    type: kou
+    text: 二　法第百八十条の二第一項に規定する証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の氏名又は名称
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-kou-3
+    type: kou
+    text: 三　法第百八十条の二第一項の規定による登載をした年月日
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +45,21 @@ paragraphs:
     type: hashira
     text: 法第百八十条の二第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-kou-1
+    type: kou
+    text: 一　外国信託会社の名称及び国内にある主たる事務所の所在地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-kou-2
+    type: kou
+    text: 二　法第百八十条の二第二項に規定する退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-kou-3
+    type: kou
+    text: 三　法第百八十条の二第二項の規定による登載をした年月日
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -130,50 +160,52 @@ parent_section:
 
 ### 第七十二条の六第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-hashira -->
 法第百八十条の二第一項（信託財産に係る利子等の課税の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百八十条の二第一項に規定する外国信託会社（次項第一号において「外国信託会社」という。）の名称及び国内にある主たる事務所の所在地
+
+二　法第百八十条の二第一項に規定する証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の氏名又は名称
+
+三　法第百八十条の二第一項の規定による登載をした年月日
 
 ### 第七十二条の六第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-hashira -->
 法第百八十条の二第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　外国信託会社の名称及び国内にある主たる事務所の所在地
+
+二　法第百八十条の二第二項に規定する退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類
+
+三　法第百八十条の二第二項の規定による登載をした年月日
 
 ### 第七十二条の六第三項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-72-6-p3 -->
 法第百七十六条第三項（信託財産に係る利子等の課税の特例）に規定する集団投資信託を引き受けた外国法人は、当該集団投資信託の信託財産について法第百八十条の二第三項に規定する所得税を課された場合には、令第三百六条の二第三項（信託財産に係る利子等の課税の特例）に規定する書類を、法第百八十条の二第三項の規定により当該所得税の額を控除した日又は租税特別措置法第九条の三の二第三項（上場株式等の配当等に係る源泉徴収義務等の特例）の規定により当該所得税の額が控除された日の属する年の翌年から七年間、納税地に保存しなければならない。
 
 ### 第七十二条の六第四項
 
-<!-- segment: junyou id: shotoku-zei-hou-shikoukisoku-art-72-6-p4 -->
 第七十二条の四第三項（集団投資信託の信託財産の利子等の課税の特例）の規定は、令第三百六条の二第三項に規定する財務省令で定める書類について準用する。
 
 ### 第七十二条の六第五項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-72-6-p5 -->
 第七十二条の四第四項の規定は令第三百六条の二第四項及び第六項に規定する財務省令で定める事項について、第七十二条の四第五項の規定は令第三百六条の二第五項に規定する財務省令で定める事項について、それぞれ準用する。
 
 ### 第七十二条の六第六項
 
-<!-- segment: junyou id: shotoku-zei-hou-shikoukisoku-art-72-6-p6 -->
 第七十二条の四第四項及び第五項の規定は、令第三百六条の二第八項ただし書の規定による同項ただし書の書面の通知について準用する。
 
 ### 第七十二条の六第七項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-72-6-p7 -->
 令第三百六条の二第五項の規定による同項の書面の通知は、同項に規定する外国法人ごとに選択しなければならない。
 
 ### 第七十二条の六第八項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-72-6-p8 -->
 令第三百六条の二第八項に規定する財務省令で定める方法は、第九十二条の二第一項（支払通知書に記載すべき事項の提供に係る電磁的方法）に規定する方法とする。
 
 ### 第七十二条の六第九項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-72-6-p9 -->
 前項に規定する方法は、第九十二条の二第二項に規定する基準に適合するものでなければならない。
 
 ### 第七十二条の六第十項
 
-<!-- segment: junyou id: shotoku-zei-hou-shikoukisoku-art-72-6-p10 -->
 第九十二条の三（支払通知書に係る電磁的方法による提供の承諾）の規定は、令第三百六条の二第十項に規定する外国法人が同項の規定により同項の個人又は法人の承諾を得る場合について準用する。

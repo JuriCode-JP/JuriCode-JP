@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四条の九
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-4-9-p1 -->
 法第二十一条の四第一項に規定する信託会社その他の者で政令で定めるものは、信託会社及び信託業務を営む金融機関とする。

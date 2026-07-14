@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百八十条
 
-<!-- segment: simple id: minpou-art-380-p1 -->
 主たる債務者、保証人及びこれらの者の承継人は、抵当権消滅請求をすることができない。

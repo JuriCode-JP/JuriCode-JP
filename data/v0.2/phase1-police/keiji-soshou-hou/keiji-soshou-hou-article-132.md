@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-132-p1 -->
 裁判所は、身体の検査のため、被告人以外の者を裁判所又は指定の場所に召喚することができる。

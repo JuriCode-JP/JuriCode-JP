@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-348-2-p1
+    type: simple
+    text: 株式会社（指名委員会等設置会社を除く。）が社外取締役を置いている場合において、当該株式会社と取締役との利益が相反する状況にあるとき、その他取締役が当該株式会社の業務を執行することにより株主の利益を損なうおそれがあるときは、当該株式会社は、その都度、取締役の決定（取締役会設置会社にあっては、取締役会の決議）によって、当該株式会社の業務を執行することを社外取締役に委託することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-348-2-p2
+    type: simple
+    text: 指名委員会等設置会社と執行役との利益が相反する状況にあるとき、その他執行役が指名委員会等設置会社の業務を執行することにより株主の利益を損なうおそれがあるときは、当該指名委員会等設置会社は、その都度、取締役会の決議によって、当該指名委員会等設置会社の業務を執行することを社外取締役に委託することができる。
+    modality: kanou_kenri
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-348-2-p3-honbun
+    type: honbun
+    text: 前二項の規定により委託された業務の執行は、第二条第十五号イに規定する株式会社の業務の執行に該当しないものとする。
+    modality: gimu
+    references:
+    - 前二項
+  - id: kaisha-hou-art-348-2-p3-tadashi
+    type: tadashi
+    text: ただし、社外取締役が業務執行取締役（指名委員会等設置会社にあっては、執行役）の指揮命令により当該委託された業務を執行したときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

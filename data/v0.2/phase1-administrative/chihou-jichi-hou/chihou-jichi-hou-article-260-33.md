@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-33-p1
+    type: simple
+    text: 認可地縁団体の清算が結了したときは、清算人は、その旨を市町村長に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

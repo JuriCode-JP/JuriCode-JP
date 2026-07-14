@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-43-4-2-p1
+    type: simple
+    text: 法第百四十四条の三第五項に規定する国際約束のうち政令で定めるものは、日本国の自衛隊とオーストラリア国防軍との間における相互のアクセス及び協力の円滑化に関する日本国とオーストラリアとの間の協定とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

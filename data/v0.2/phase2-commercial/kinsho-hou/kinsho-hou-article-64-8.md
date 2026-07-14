@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-8-p1
+    type: simple
+    text: 外務員の登録を受けようとする金融商品取引業者等は、政令で定めるところにより、登録手数料を国（前条第一項又は第二項の規定により協会に登録する場合にあつては、協会）に納めなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-8-p2
+    type: simple
+    text: 前項の手数料で協会に納められたものは、当該協会の収入とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

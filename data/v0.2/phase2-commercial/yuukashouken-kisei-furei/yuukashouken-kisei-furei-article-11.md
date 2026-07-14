@@ -55,15 +55,12 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-11-p1 -->
 令第二十六条の三第五項に規定する内閣府令で定める取引は、第九条の三第一項第一号から第十七号までに掲げる取引とする。
 
 ### 第十一条第二項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-11-p2 -->
 令第二十六条の三第六項において準用する同条第五項に規定する内閣府令で定める取引は、第九条の三第二項第一号から第五号までに掲げる取引とする。
 
 ### 第十一条第三項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-11-p3 -->
 令第二十六条の三第七項において準用する同条第五項に規定する内閣府令で定める取引は、第九条の三第三項第一号から第四号までに掲げる取引とする。

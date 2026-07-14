@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七十九条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-79-p1 -->
 審査会は、諮問に対する答申をしたときは、答申書の写しを審査請求人及び参加人に送付するとともに、答申の内容を公表するものとする。

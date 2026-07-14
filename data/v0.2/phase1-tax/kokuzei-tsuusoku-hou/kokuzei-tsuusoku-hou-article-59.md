@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 納税者は、次に掲げる国税として納付する旨を税務署長に申し出て納付した金額があるときは、その還付を請求することができない。
     modality: kanou_negative
+  - id: kokuzei-tsuusoku-hou-art-59-p1-kou-1
+    type: kou
+    text: 一　納付すべき税額の確定した国税で、その納期が到来していないもの
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-art-59-p1-kou-2
+    type: kou
+    text: 二　最近において納付すべき税額の確定することが確実であると認められる国税
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -49,10 +59,12 @@ parent_section:
 
 ### 第五十九条第一項
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-art-59-p1-hashira -->
 納税者は、次に掲げる国税として納付する旨を税務署長に申し出て納付した金額があるときは、その還付を請求することができない。
+
+一　納付すべき税額の確定した国税で、その納期が到来していないもの
+
+二　最近において納付すべき税額の確定することが確実であると認められる国税
 
 ### 第五十九条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-59-p2 -->
 前項の規定に該当する納付があつた場合において、その納付に係る国税の全部又は一部につき国税に関する法律の改正その他の理由によりその納付の必要がないこととなつたときは、その時に国税に係る過誤納があつたものとみなして、前三条の規定を適用する。

@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-4-2-p1-honbun
+    type: honbun
+    text: 法第百五十六条の五の二に規定する政令で定める金額は、十億円とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-19-4-2-p1-tadashi
+    type: tadashi
+    text: ただし、法第二条第八項第一号に規定する商品関連市場デリバティブ取引のみについて金融商品債務引受業を行う金融商品取引清算機関（金融商品取引清算機関が金融商品取引所である場合を除く。次条第一項第一号において同じ。）にあつては、五億円とする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

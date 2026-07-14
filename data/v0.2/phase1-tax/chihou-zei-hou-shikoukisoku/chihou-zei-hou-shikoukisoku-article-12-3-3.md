@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-12-3-3-p1
+    type: simple
+    text: 法第三百八十二条の二第一項に規定する総務省令で定める事項は、政令第五十二条の十四の表第二号から第四号までの上欄に掲げる者については、同表第一号の上欄に掲げる者の個人番号とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

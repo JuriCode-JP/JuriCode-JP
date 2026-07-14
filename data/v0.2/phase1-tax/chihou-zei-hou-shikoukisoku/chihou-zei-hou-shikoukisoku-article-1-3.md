@@ -37,5 +37,4 @@ tags:
 
 ### 第一条の三
 
-<!-- segment: tokusoku id: chihou-zei-hou-shikoukisoku-art-1-3-p1 override_flag: true override_target: 第一条 -->
 法第七百三十四条第一項の規定により都がその特別区の存する区域内において課する固定資産税については、第一条の規定にかかわらず、都を市とみなして第十条の三から第十二条の二まで、第十四条及び第十五条の三から第十五条の六までの規定を準用する。

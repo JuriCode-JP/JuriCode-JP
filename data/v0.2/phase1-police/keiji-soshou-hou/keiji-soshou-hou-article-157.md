@@ -22,7 +22,7 @@ paragraphs:
     text: 検察官、被告人又は弁護人は、証人の尋問に立ち会うことができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -59,15 +59,12 @@ parent_section:
 
 ### 第百五十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-157-p1 -->
 検察官、被告人又は弁護人は、証人の尋問に立ち会うことができる。
 
 ### 第百五十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-157-p2 -->
 証人尋問の日時及び場所は、あらかじめ、前項の規定により尋問に立ち会うことができる者にこれを通知しなければならない。但し、これらの者があらかじめ裁判所に立ち会わない意思を明示したときは、この限りでない。
 
 ### 第百五十七条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-157-p3 -->
 第一項に規定する者は、証人の尋問に立ち会つたときは、裁判長に告げて、その証人を尋問することができる。

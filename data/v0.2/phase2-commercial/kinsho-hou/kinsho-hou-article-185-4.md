@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-4-p1
+    type: simple
+    text: 審判官は、被審人の申立てにより又は職権で、学識経験を有する者に鑑定を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-4-p2
+    type: simple
+    text: 審判官が鑑定人に出頭を求めて審問する場合においては、被審人も、その鑑定人に質問することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-4-p3
+    type: junyou
+    text: 民事訴訟法第百九十一条、第百九十七条、第二百一条第一項及び第二百十二条の規定は、第一項の規定により鑑定人に鑑定を命ずる手続について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第二百十二条
 cases: []
 amendments: []
 tags:

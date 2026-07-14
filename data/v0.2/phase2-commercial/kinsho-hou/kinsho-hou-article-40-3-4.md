@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-3-4-p1
+    type: simple
+    text: 金融商品取引業者等は、貸付事業等権利については、当該貸付事業等権利を有する者に前条に規定する契約その他の法律行為に基づき提供されるべき情報が提供されていないことを知りながら、第二条第八項第七号から第九号までに掲げる行為をしてはならない。
+    modality: gimu_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

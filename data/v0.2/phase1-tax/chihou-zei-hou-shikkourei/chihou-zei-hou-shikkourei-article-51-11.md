@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第三十号に規定する日本下水道事業団が日本下水道事業団法第二十六条第一項第七号又は第八号に規定する業務の用に供する固定資産で政令で定めるものは、これらの業務の用に供する固定資産のうち、次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-1
+    type: kou
+    text: 一　事務所の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-2
+    type: kou
+    text: 二　宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-3
+    type: kou
+    text: 三　職員の福利及び厚生の用に供する固定資産
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-4
+    type: kou
+    text: 四　日本下水道事業団法第二十六条第一項第七号に規定する業務（下水道に関する技術を担当する者の養成及び訓練に関する業務を除く。）の用に供する固定資産
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第五十一条の十一
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-51-11-p1-hashira -->
 法第三百四十八条第二項第三十号に規定する日本下水道事業団が日本下水道事業団法第二十六条第一項第七号又は第八号に規定する業務の用に供する固定資産で政令で定めるものは、これらの業務の用に供する固定資産のうち、次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産
+
+二　宿舎の用に供する固定資産
+
+三　職員の福利及び厚生の用に供する固定資産
+
+四　日本下水道事業団法第二十六条第一項第七号に規定する業務（下水道に関する技術を担当する者の養成及び訓練に関する業務を除く。）の用に供する固定資産

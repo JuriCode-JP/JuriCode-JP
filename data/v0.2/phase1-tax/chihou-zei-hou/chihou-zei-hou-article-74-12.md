@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-12-p1
+    type: simple
+    text: 第七十四条の十第一項から第三項までの規定によつて申告書を提出すべき申告納税者は、当該申告書の提出期限後においても、第七十四条の二十第四項の規定による決定の通知があるまでは、第七十四条の十第一項から第三項までの規定によつて申告納付することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-12-p2
+    type: simple
+    text: 第七十四条の十第一項から第三項まで、前項若しくはこの項の規定によつて申告書若しくは修正申告書を提出した申告納税者又は第七十四条の二十第一項から第三項までの規定による更正若しくは決定を受けた申告納税者は、当該申告書若しくは修正申告書又は当該更正若しくは決定に係る課税標準数量又は税額について不足がある場合には、遅滞なく、総務省令で定める様式による修正申告書を第七十四条の十第一項から第三項まで、前項若しくはこの項の規定によつて申告書若しくは修正申告書を提出した道府県知事又は第七十四条の二十第二項の規定により決定をした道府県知事に提出するとともに、その修正により増加した税額を当該道府県に納付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

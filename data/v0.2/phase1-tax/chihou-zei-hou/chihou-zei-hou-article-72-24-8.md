@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-8-p1-honbun
+    type: honbun
+    text: 法人の行う事業に対する事業税の税率は、各事業年度終了の日現在における税率による。
+    modality: unspecified
+  - id: chihou-zei-hou-art-72-24-8-p1-tadashi
+    type: tadashi
+    text: ただし、第七十二条の二十六第一項ただし書又は第七十二条の四十八第二項ただし書の規定により申告納付すべき事業税にあつては第七十二条の二十六第一項に規定する六月経過日の前日現在における税率による。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

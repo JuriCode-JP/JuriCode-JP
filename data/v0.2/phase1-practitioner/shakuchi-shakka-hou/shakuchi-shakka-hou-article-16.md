@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-16-p1 -->
 第十条、第十三条及び第十四条の規定に反する特約で借地権者又は転借地権者に不利なものは、無効とする。

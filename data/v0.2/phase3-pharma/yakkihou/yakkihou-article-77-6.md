@@ -16,17 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-6-p1
+    type: simple
+    text: 厚生労働大臣は、前条の規定による届出があつたときは、第七十七条の二第一項から第三項までの規定による指定（以下この条において「指定」という。）を取り消さなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-6-p2-hashira
+    type: hashira
+    text: 厚生労働大臣は、次の各号のいずれかに該当するときは、指定を取り消すことができる。
+    modality: koka_torikeshi
+  - id: yakkihou-art-77-6-p2-kou-1
+    type: kou
+    text: 一　希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品が第七十七条の二第一項各号、第二項各号又は第三項各号のいずれかに該当しなくなつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-77-6-p2-kou-2
+    type: kou
+    text: 二　指定に関し不正の行為があつたとき。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-77-6-p2-kou-3
+    type: kou
+    text: 三　正当な理由なく希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品の試験研究又は製造販売が行われないとき。
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-77-6-p2-kou-4
+    type: kou
+    text: 四　指定を受けた者についてこの法律その他薬事に関する法令で政令で定めるもの又はこれに基づく処分に違反する行為があつたとき。
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-6-p3
+    type: simple
+    text: 厚生労働大臣は、前二項の規定により指定を取り消したときは、その旨を公示するものとする。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:
@@ -48,6 +84,14 @@ parent_section:
 ### 第七十七条の六第二項
 
 厚生労働大臣は、次の各号のいずれかに該当するときは、指定を取り消すことができる。
+
+一　希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品が第七十七条の二第一項各号、第二項各号又は第三項各号のいずれかに該当しなくなつたとき。
+
+二　指定に関し不正の行為があつたとき。
+
+三　正当な理由なく希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品の試験研究又は製造販売が行われないとき。
+
+四　指定を受けた者についてこの法律その他薬事に関する法令で政令で定めるもの又はこれに基づく処分に違反する行為があつたとき。
 
 ### 第七十七条の六第三項
 

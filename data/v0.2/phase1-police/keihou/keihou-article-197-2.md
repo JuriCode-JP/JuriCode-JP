@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-197-2-p1
+    type: simple
+    text: 公務員が、その職務に関し、請託を受けて、第三者に賄賂を供与させ、又はその供与の要求若しくは約束をしたときは、五年以下の拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

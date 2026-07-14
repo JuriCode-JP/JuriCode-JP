@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-71-p1
+    type: simple
+    text: 基金は、毎事業年度の剰余金の全部を、準備金として積み立てなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-71-p2
+    type: simple
+    text: 前項の準備金は、前事業年度から繰り越した欠損のてん補に充て、又は投資者保護資金に繰り入れることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-71-p3
+    type: simple
+    text: 第一項の準備金は、前項の場合を除き、取り崩してはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

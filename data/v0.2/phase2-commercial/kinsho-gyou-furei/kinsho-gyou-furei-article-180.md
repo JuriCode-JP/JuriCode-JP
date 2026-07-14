@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 金融商品取引業者は、法第四十六条の六第三項の規定により書面を作成するときは、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-180-p2-kou-1
+    type: kou
+    text: 一　固定化されていない自己資本の額
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-180-p2-kou-2
+    type: kou
+    text: 二　市場リスク相当額、取引先リスク相当額及び基礎的リスク相当額並びにこれらの合計額
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-180-p2-kou-3
+    type: kou
+    text: 三　自己資本規制比率
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: true
@@ -41,6 +56,21 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kinsho-gyou-furei-art-180-p3-kou-1
+    type: kou
+    text: 一　当該劣後債務の金額
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-180-p3-kou-2
+    type: kou
+    text: 二　当該劣後債務の契約日又は発行日
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-180-p3-kou-3
+    type: kou
+    text: 三　当該劣後債務の弁済期日又は償還期日
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -61,15 +91,24 @@ parent_section:
 
 ### 第百八十条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-180-p1 -->
 法第四十六条の六第三項に規定する内閣府令で定める各期間は、事業年度の末日を変更する場合における変更後の最初の事業年度をその開始の日以後三月ごとに区分した各期間（最後に三月未満の期間を生じたときは、その三月未満の期間）とする。
 
 ### 第百八十条第二項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-180-p2-hashira -->
 金融商品取引業者は、法第四十六条の六第三項の規定により書面を作成するときは、次に掲げる事項を記載しなければならない。
+
+一　固定化されていない自己資本の額
+
+二　市場リスク相当額、取引先リスク相当額及び基礎的リスク相当額並びにこれらの合計額
+
+三　自己資本規制比率
 
 ### 第百八十条第三項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-180-p3-hashira -->
 補完的項目の額に、劣後債務（第百七十六条第一項第七号ニ及びホに掲げるものをいう。以下この項において同じ。）の額がある場合には、次に掲げる事項を前項に規定する書面に注記しなければならない。
+
+一　当該劣後債務の金額
+
+二　当該劣後債務の契約日又は発行日
+
+三　当該劣後債務の弁済期日又は償還期日

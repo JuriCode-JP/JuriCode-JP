@@ -37,5 +37,4 @@ parent_section:
 
 ### 第一条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-1-p1 -->
 この法律は、道路における危険を防止し、その他交通の安全と円滑を図り、及び道路の交通に起因する障害の防止に資することを目的とする。

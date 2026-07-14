@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-419-p1 -->
 抗告は、特に即時抗告をすることができる旨の規定がある場合の外、裁判所のした決定に対してこれをすることができる。但し、この法律に特別の定のある場合は、この限りでない。

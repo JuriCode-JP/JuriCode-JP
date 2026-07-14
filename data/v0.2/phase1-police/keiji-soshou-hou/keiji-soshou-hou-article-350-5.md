@@ -16,17 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-5-p1-zen
+    type: zen_dan
+    text: 前条の協議において、検察官は、被疑者又は被告人に対し、他人の刑事事件について供述を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-350-5-p1-kou
+    type: kou_dan
+    text: この場合においては、第百九十八条第二項の規定を準用する。
+    modality: unspecified
+    depends_on: keiji-soshou-hou-art-350-5-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-5-p2
+    type: simple
+    text: 被疑者又は被告人が前条の協議においてした供述は、第三百五十条の二第一項の合意が成立しなかつたときは、これを証拠とすることができない。
+    modality: kanou_negative
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-5-p3
+    type: simple
+    text: 前項の規定は、被疑者又は被告人が当該協議においてした行為が刑法第百三条、第百四条若しくは第百七十二条の罪又は組織的犯罪処罰法第七条第一項第一号若しくは第二号に掲げる者に係る同条の罪に当たる場合において、これらの罪に係る事件において用いるときは、これを適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

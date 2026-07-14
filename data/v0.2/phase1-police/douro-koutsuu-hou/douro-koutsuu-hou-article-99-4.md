@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-4-p1
+    type: simple
+    text: 指定自動車教習所を管理する者は、公安委員会から当該指定自動車教習所の職員について第百八条の二第一項第九号に掲げる講習を行う旨の通知を受けたときは、当該職員に当該講習を受けさせなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

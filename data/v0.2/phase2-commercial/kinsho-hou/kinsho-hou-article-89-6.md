@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-6-p1
+    type: simple
+    text: 金融商品会員制法人は、理事長若しくは金融商品会員制法人を代表する理事の職務の執行を停止し、若しくはその職務を代行する者を選任する仮処分命令又はその仮処分命令を変更し、若しくは取り消す決定があつたときは、主たる事務所において、その登記をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

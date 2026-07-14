@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九百二十条
 
-<!-- segment: simple id: minpou-art-920-p1 -->
 相続人は、単純承認をしたときは、無限に被相続人の権利義務を承継する。

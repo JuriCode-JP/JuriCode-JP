@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-35-p1-zen
+    type: zen_dan
+    text: 被害者参加人又はその委託を受けた弁護士は、検察官に対し、当該被告事件についてのこの法律の規定による検察官の権限の行使に関し、意見を述べることができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-316-35-p1-kou
+    type: kou_dan
+    text: この場合において、検察官は、当該権限を行使し又は行使しないこととしたときは、必要に応じ、当該意見を述べた者に対し、その理由を説明しなければならない。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-316-35-p1-zen
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-19-p1 -->
 法第七十二条の五第一項第五号に規定する農業協同組合連合会で政令で定めるものは、法人税法別表第二に規定する農業協同組合連合会に該当する農業協同組合連合会とする。

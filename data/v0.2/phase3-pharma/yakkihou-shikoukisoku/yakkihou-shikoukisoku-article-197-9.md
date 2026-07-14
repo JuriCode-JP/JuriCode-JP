@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-9-p1
+    type: simple
+    text: 検査機関は、第百九十七条の三の規定にかかわらず、作成した製造・試験記録等要約書の様式の変更が必要となつたと認める場合は、当該様式に係る製造販売業者と協議の上、当該様式を変更することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

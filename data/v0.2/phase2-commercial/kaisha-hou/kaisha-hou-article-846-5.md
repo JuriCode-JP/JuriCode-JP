@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-5-p1-honbun
+    type: honbun
+    text: 売渡株式等の取得の無効の訴えについては、裁判所は、被告の申立てにより、当該売渡株式等の取得の無効の訴えを提起した売渡株主に対し、相当の担保を立てるべきことを命ずることができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-846-5-p1-tadashi
+    type: tadashi
+    text: ただし、当該売渡株主が対象会社の取締役、監査役、執行役又は清算人であるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-5-p2
+    type: simple
+    text: 被告は、前項の申立てをするには、原告の訴えの提起が悪意によるものであることを疎明しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

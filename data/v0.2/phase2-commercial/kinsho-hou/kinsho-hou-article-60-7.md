@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-7-p1-zen
+    type: zen_dan
+    text: 取引所取引許可業者が解散したとき、又は取引所取引業務を廃止したときは、第六十条第一項の許可は、その効力を失う。
+    modality: unspecified
+  - id: kinsho-hou-art-60-7-p1-kou
+    type: kou_dan
+    text: この場合において、その国内における代表者又は代表者であつた者は、その日から三十日以内に、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-60-7-p1-zen
 cases: []
 amendments: []
 tags:

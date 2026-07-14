@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四百三十五条
 
-<!-- segment: simple id: minpou-art-435-p1 -->
 連帯債権者の一人と債務者との間に混同があったときは、債務者は、弁済をしたものとみなす。

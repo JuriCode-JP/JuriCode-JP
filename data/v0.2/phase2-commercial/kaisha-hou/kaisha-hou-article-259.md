@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 株式会社は、次の各号に掲げる場合には、当該各号の新株予約権の新株予約権者に係る新株予約権原簿記載事項を新株予約権原簿に記載し、又は記録しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-259-p1-kou-1
+    type: kou
+    text: 一　当該株式会社の新株予約権を取得した場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-259-p1-kou-2
+    type: kou
+    text: 二　自己新株予約権を処分した場合
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +64,12 @@ parent_section:
 
 ### 第二百五十九条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-259-p1-hashira -->
 株式会社は、次の各号に掲げる場合には、当該各号の新株予約権の新株予約権者に係る新株予約権原簿記載事項を新株予約権原簿に記載し、又は記録しなければならない。
+
+一　当該株式会社の新株予約権を取得した場合
+
+二　自己新株予約権を処分した場合
 
 ### 第二百五十九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-259-p2 -->
 前項の規定は、無記名新株予約権及び無記名新株予約権付社債に付された新株予約権については、適用しない。

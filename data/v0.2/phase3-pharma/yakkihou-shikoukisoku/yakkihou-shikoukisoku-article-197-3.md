@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-3-p1
+    type: simple
+    text: 製造・試験記録等要約書の様式は、製造販売業者（選任外国製造医薬品等製造販売業者を含む。第百九十七条の七から第百九十七条の十までにおいて同じ。）の申請に基づき、品目ごとに、当該品目に係る検査機関が作成し、又は変更するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,54 +14,232 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p1-hashira
+    type: hashira
+    text: 法人の行う事業（電気供給業、ガス供給業、保険業及び貿易保険業を除く。第五項において同じ。）に対する事業税の額は、次の各号に掲げる法人の区分に応じ、それぞれ当該各号に定める金額とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-72-24-7-p1-kou-1
+    type: kou
+    text: '一　第七十二条の二第一項第一号イに掲げる法人　次に掲げる金額の合計額
+
+      イ　各事業年度の付加価値額に百分の一・二の標準税率により定めた率を乗じて得た金額
+
+      ロ　各事業年度の資本金等の額に百分の〇・五の標準税率により定めた率を乗じて得た金額
+
+      ハ　各事業年度の所得に百分の一の標準税率により定めた率を乗じて得た金額'
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-24-7-p1-kou-2
+    type: kou
+    text: 二　特別法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-72-24-7-p1-kou-3
+    type: kou
+    text: 三　その他の法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p2
+    type: simple
+    text: 電気供給業（小売電気事業等、発電事業等及び特定卸供給事業を除く。）、導管ガス供給業、保険業及び貿易保険業に対する事業税の額は、各事業年度の収入金額に百分の一の標準税率により定めた率を乗じて得た金額とする。
+    modality: gimu
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p3-hashira
+    type: hashira
+    text: 電気供給業のうち、小売電気事業等、発電事業等及び特定卸供給事業に対する事業税の額は、次の各号に掲げる法人の区分に応じ、それぞれ当該各号に定める金額とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-72-24-7-p3-kou-1
+    type: kou
+    text: '一　第七十二条の二第一項第三号イに掲げる法人　次に掲げる金額の合計額
+
+      イ　各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
+
+      ロ　各事業年度の付加価値額に百分の〇・三七の標準税率により定めた率を乗じて得た金額
+
+      ハ　各事業年度の資本金等の額に百分の〇・一五の標準税率により定めた率を乗じて得た金額'
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-24-7-p3-kou-2
+    type: kou
+    text: '二　第七十二条の二第一項第三号ロに掲げる法人　次に掲げる金額の合計額
+
+      イ　各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
+
+      ロ　各事業年度の所得に百分の一・八五の標準税率により定めた率を乗じて得た金額'
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p4-hashira
+    type: hashira
+    text: 特定ガス供給業に対する事業税の額は、次に掲げる金額の合計額とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-72-24-7-p4-kou-1
+    type: kou
+    text: 一　各事業年度の収入金額に百分の〇・四八の標準税率により定めた率を乗じて得た金額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-24-7-p4-kou-2
+    type: kou
+    text: 二　各事業年度の付加価値額に百分の〇・七七の標準税率により定めた率を乗じて得た金額
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-72-24-7-p4-kou-3
+    type: kou
+    text: 三　各事業年度の資本金等の額に百分の〇・三二の標準税率により定めた率を乗じて得た金額
+    modality: unspecified
+    item_number: 3
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p5
+    type: tokusoku
+    text: 二以上の道府県において事務所又は事業所を設けて事業を行う法人の第一項の各事業年度の所得は、第七十二条の四十八の規定により関係道府県に分割される前の各事業年度の所得によるものとし、三以上の道府県において事務所又は事業所を設けて事業を行う法人で資本金の額又は出資金の額が千万円以上のもの（第七十二条の二第一項第一号イに掲げる法人を除く。）が行う事業に対する事業税の額は、第一項の規定にかかわらず、次の各号に掲げる法人の区分に応じ、当該各号に定める金額とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一項
+  - id: chihou-zei-hou-art-72-24-7-p5-kou-1
+    type: kou
+    text: 一　特別法人　各事業年度の所得に百分の四・九の標準税率により定めた率を乗じて得た金額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-24-7-p5-kou-2
+    type: kou
+    text: 二　特別法人以外の法人　各事業年度の所得に百分の七の標準税率により定めた率を乗じて得た金額
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p6
+    type: simple
+    text: 事業年度が一年に満たない場合における第一項の規定の適用については、同項中「年四百万円」とあるのは「四百万円に当該事業年度の月数を乗じて得た額を十二で除して計算した金額」と、「年八百万円」とあるのは「八百万円に当該事業年度の月数を乗じて得た額を十二で除して計算した金額」とする。この場合における月数は、暦に従い計算し、一月に満たない端数を生じたときは、一月とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 7
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p7-hashira
+    type: hashira
+    text: 第一項第二号及び第五項各号の「特別法人」とは、次に掲げる法人をいう。
+    modality: teigi
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-1
+    type: kou
+    text: 一　農業協同組合、農業協同組合連合会（特定農業協同組合連合会を除く。）及び農事組合法人（農業協同組合法第七十二条の十第一項第二号の事業を行う農事組合法人でその事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）並びにたばこ耕作組合
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-2
+    type: kou
+    text: 二　消費生活協同組合及び消費生活協同組合連合会
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-3
+    type: kou
+    text: 三　信用金庫、信用金庫連合会、労働金庫及び労働金庫連合会
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-4
+    type: kou
+    text: 四　中小企業等協同組合（企業組合を除く。）、出資組合である商工組合及び商工組合連合会、商店街振興組合、商店街振興組合連合会、内航海運組合、内航海運組合連合会、出資組合である生活衛生同業組合及び生活衛生同業組合連合会並びに生活衛生同業小組合
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-5
+    type: kou
+    text: 五　出資組合である輸出組合及び輸入組合
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-6
+    type: kou
+    text: 六　船主相互保険組合
+    modality: unspecified
+    item_number: 6
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-7
+    type: kou
+    text: 七　漁業協同組合、漁業協同組合連合会、漁業生産組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）、水産加工業協同組合、水産加工業協同組合連合会、共済水産業協同組合連合会及び輸出水産業組合
+    modality: unspecified
+    item_number: 7
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-8
+    type: kou
+    text: 八　森林組合、森林組合連合会及び生産森林組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）
+    modality: unspecified
+    item_number: 8
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-9
+    type: kou
+    text: 九　農林中央金庫
+    modality: unspecified
+    item_number: 9
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-10
+    type: kou
+    text: 十　医療法人
+    modality: unspecified
+    item_number: 10
+  - id: chihou-zei-hou-art-72-24-7-p7-kou-11
+    type: kou
+    text: 十一　労働者協同組合連合会
+    modality: unspecified
+    item_number: 11
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p8
+    type: simple
+    text: 第五項の規定を適用する場合において、資本金の額又は出資金の額が千万円以上の法人であるかどうかの判定は、各事業年度の所得（清算中の各事業年度の所得を除く。）を課税標準とする事業税にあつては、各事業年度の終了の日（第七十二条の二十六第一項ただし書又は第七十二条の四十八第二項ただし書の規定により申告納付すべき事業税にあつては、第七十二条の二十六第一項に規定する六月経過日の前日）の現況によるものとし、清算中の各事業年度の所得を課税標準とする事業税にあつては、解散の日の現況によるものとする。
+    modality: gimu
 - number: 9
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p9-hashira
+    type: hashira
+    text: 道府県は、第一項から第五項までに規定する標準税率を超える税率で事業税を課する場合には、次の各号に掲げる率に、当該率の区分に応じて当該各号に定める率を乗じて得た率を超える税率で課することができない。
+    modality: kanou_negative
+  - id: chihou-zei-hou-art-72-24-7-p9-kou-1
+    type: kou
+    text: 一　第一項各号（第一号ハを除く。）に掲げる法人の区分に応じて当該各号に定める率、第二項に規定する率、第三項各号に掲げる法人の区分に応じて当該各号に定める率、第四項各号に規定する率及び第五項各号に掲げる法人の区分に応じて当該各号に定める率　一・二
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-24-7-p9-kou-2
+    type: kou
+    text: 二　第一項第一号ハに定める率　一・七
+    modality: unspecified
+    item_number: 2
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-7-p10
+    type: simple
+    text: 道府県が第七十二条の二十四の四の規定により事業税を課する場合における税率は、第一項から第五項まで及び前項の税率による場合における負担と著しく均衡を失することのないようにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -84,9 +262,21 @@ parent_section:
 
 法人の行う事業（電気供給業、ガス供給業、保険業及び貿易保険業を除く。第五項において同じ。）に対する事業税の額は、次の各号に掲げる法人の区分に応じ、それぞれ当該各号に定める金額とする。
 
+一　第七十二条の二第一項第一号イに掲げる法人　次に掲げる金額の合計額
+
+　イ　各事業年度の付加価値額に百分の一・二の標準税率により定めた率を乗じて得た金額
+
+　ロ　各事業年度の資本金等の額に百分の〇・五の標準税率により定めた率を乗じて得た金額
+
+　ハ　各事業年度の所得に百分の一の標準税率により定めた率を乗じて得た金額
+
+二　特別法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
+
 | 各事業年度の所得のうち年四百万円以下の金額 | 百分の三・五 |
 | --- | --- |
 | 各事業年度の所得のうち年四百万円を超える金額 | 百分の四・九 |
+
+三　その他の法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
 
 | 各事業年度の所得のうち年四百万円以下の金額 | 百分の三・五 |
 | --- | --- |
@@ -101,13 +291,37 @@ parent_section:
 
 電気供給業のうち、小売電気事業等、発電事業等及び特定卸供給事業に対する事業税の額は、次の各号に掲げる法人の区分に応じ、それぞれ当該各号に定める金額とする。
 
+一　第七十二条の二第一項第三号イに掲げる法人　次に掲げる金額の合計額
+
+　イ　各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
+
+　ロ　各事業年度の付加価値額に百分の〇・三七の標準税率により定めた率を乗じて得た金額
+
+　ハ　各事業年度の資本金等の額に百分の〇・一五の標準税率により定めた率を乗じて得た金額
+
+二　第七十二条の二第一項第三号ロに掲げる法人　次に掲げる金額の合計額
+
+　イ　各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
+
+　ロ　各事業年度の所得に百分の一・八五の標準税率により定めた率を乗じて得た金額
+
 ### 第七十二条の二十四の七第四項
 
 特定ガス供給業に対する事業税の額は、次に掲げる金額の合計額とする。
 
+一　各事業年度の収入金額に百分の〇・四八の標準税率により定めた率を乗じて得た金額
+
+二　各事業年度の付加価値額に百分の〇・七七の標準税率により定めた率を乗じて得た金額
+
+三　各事業年度の資本金等の額に百分の〇・三二の標準税率により定めた率を乗じて得た金額
+
 ### 第七十二条の二十四の七第五項
 
 二以上の道府県において事務所又は事業所を設けて事業を行う法人の第一項の各事業年度の所得は、第七十二条の四十八の規定により関係道府県に分割される前の各事業年度の所得によるものとし、三以上の道府県において事務所又は事業所を設けて事業を行う法人で資本金の額又は出資金の額が千万円以上のもの（第七十二条の二第一項第一号イに掲げる法人を除く。）が行う事業に対する事業税の額は、第一項の規定にかかわらず、次の各号に掲げる法人の区分に応じ、当該各号に定める金額とする。
+
+一　特別法人　各事業年度の所得に百分の四・九の標準税率により定めた率を乗じて得た金額
+
+二　特別法人以外の法人　各事業年度の所得に百分の七の標準税率により定めた率を乗じて得た金額
 
 ### 第七十二条の二十四の七第六項
 
@@ -117,6 +331,28 @@ parent_section:
 
 第一項第二号及び第五項各号の「特別法人」とは、次に掲げる法人をいう。
 
+一　農業協同組合、農業協同組合連合会（特定農業協同組合連合会を除く。）及び農事組合法人（農業協同組合法第七十二条の十第一項第二号の事業を行う農事組合法人でその事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）並びにたばこ耕作組合
+
+二　消費生活協同組合及び消費生活協同組合連合会
+
+三　信用金庫、信用金庫連合会、労働金庫及び労働金庫連合会
+
+四　中小企業等協同組合（企業組合を除く。）、出資組合である商工組合及び商工組合連合会、商店街振興組合、商店街振興組合連合会、内航海運組合、内航海運組合連合会、出資組合である生活衛生同業組合及び生活衛生同業組合連合会並びに生活衛生同業小組合
+
+五　出資組合である輸出組合及び輸入組合
+
+六　船主相互保険組合
+
+七　漁業協同組合、漁業協同組合連合会、漁業生産組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）、水産加工業協同組合、水産加工業協同組合連合会、共済水産業協同組合連合会及び輸出水産業組合
+
+八　森林組合、森林組合連合会及び生産森林組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）
+
+九　農林中央金庫
+
+十　医療法人
+
+十一　労働者協同組合連合会
+
 ### 第七十二条の二十四の七第八項
 
 第五項の規定を適用する場合において、資本金の額又は出資金の額が千万円以上の法人であるかどうかの判定は、各事業年度の所得（清算中の各事業年度の所得を除く。）を課税標準とする事業税にあつては、各事業年度の終了の日（第七十二条の二十六第一項ただし書又は第七十二条の四十八第二項ただし書の規定により申告納付すべき事業税にあつては、第七十二条の二十六第一項に規定する六月経過日の前日）の現況によるものとし、清算中の各事業年度の所得を課税標準とする事業税にあつては、解散の日の現況によるものとする。
@@ -124,6 +360,10 @@ parent_section:
 ### 第七十二条の二十四の七第九項
 
 道府県は、第一項から第五項までに規定する標準税率を超える税率で事業税を課する場合には、次の各号に掲げる率に、当該率の区分に応じて当該各号に定める率を乗じて得た率を超える税率で課することができない。
+
+一　第一項各号（第一号ハを除く。）に掲げる法人の区分に応じて当該各号に定める率、第二項に規定する率、第三項各号に掲げる法人の区分に応じて当該各号に定める率、第四項各号に規定する率及び第五項各号に掲げる法人の区分に応じて当該各号に定める率　一・二
+
+二　第一項第一号ハに定める率　一・七
 
 ### 第七十二条の二十四の七第十項
 

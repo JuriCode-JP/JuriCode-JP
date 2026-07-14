@@ -55,15 +55,12 @@ parent_section:
 
 ### 第十条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-10-p1 -->
 人事委員会又は公平委員会は、委員のうちから委員長を選挙しなければならない。
 
 ### 第十条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-10-p2 -->
 委員長は、委員会に関する事務を処理し、委員会を代表する。
 
 ### 第十条第三項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-10-p3 -->
 委員長に事故があるとき、又は委員長が欠けたときは、委員長の指定する委員が、その職務を代理する。

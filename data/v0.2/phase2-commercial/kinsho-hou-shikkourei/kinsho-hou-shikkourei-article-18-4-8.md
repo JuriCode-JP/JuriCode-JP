@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-8-p1
+    type: simple
+    text: 法第六十六条の四十八に規定する法第六十六条の二十七の登録又は信用格付業者について、法の規定を準用する場合における法第六十六条の四十八の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

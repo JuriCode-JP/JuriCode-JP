@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-25-p1
+    type: simple
+    text: 理事の任期は、選任後二年以内に終了する事業年度のうち最終のものに関する総会の終結の時までとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-25-p2
+    type: simple
+    text: 理事は、二回に限り再任されることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-25-p3
+    type: simple
+    text: 理事は、総会において、会員の過半数が出席し、出席した会員の五分の四以上に当たる多数による決議をもつて同意を与えた場合でなければ解任されない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

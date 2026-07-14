@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-6-p1
+    type: simple
+    text: 裁判長は、訴訟関係人を出頭させて公判前整理手続をするときは、公判前整理手続期日を定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-6-p2
+    type: simple
+    text: 公判前整理手続期日は、これを検察官、被告人及び弁護人に通知しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-6-p3-zen
+    type: zen_dan
+    text: 裁判長は、検察官、被告人若しくは弁護人の請求により又は職権で、公判前整理手続期日を変更することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-316-6-p3-kou
+    type: kou_dan
+    text: この場合においては、裁判所の規則の定めるところにより、あらかじめ、検察官及び被告人又は弁護人の意見を聴かなければならない。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-316-6-p3-zen
 cases: []
 amendments: []
 tags:

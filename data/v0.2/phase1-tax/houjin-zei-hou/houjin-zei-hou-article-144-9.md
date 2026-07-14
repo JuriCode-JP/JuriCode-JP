@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-9-p1
+    type: simple
+    text: 中間申告書を提出した外国法人である普通法人は、当該申告書に記載した第百四十四条の三第一項第一号（中間申告）に掲げる金額（第百四十四条の四第一項各号（仮決算をした場合の中間申告書の記載事項等）に掲げる事項を記載した中間申告書を提出した場合には、同項第七号に掲げる金額）又は第百四十四条の三第二項第一号に掲げる金額（第百四十四条の四第二項各号に掲げる事項を記載した中間申告書を提出した場合には、同項第二号に掲げる金額）があるときは、当該申告書の提出期限までに、これらの金額に相当する法人税を国に納付しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

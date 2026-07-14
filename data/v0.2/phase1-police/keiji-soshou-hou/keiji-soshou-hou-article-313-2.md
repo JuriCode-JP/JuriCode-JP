@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-313-2-p1-honbun
+    type: honbun
+    text: この法律の規定に基づいて裁判所若しくは裁判長又は裁判官が付した弁護人の選任は、弁論が併合された事件についてもその効力を有する。
+    modality: unspecified
+  - id: keiji-soshou-hou-art-313-2-p1-tadashi
+    type: tadashi
+    text: ただし、裁判所がこれと異なる決定をしたときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-313-2-p2
+    type: simple
+    text: 前項ただし書の決定をするには、あらかじめ、検察官及び被告人又は弁護人の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百四十三条
 
-<!-- segment: simple id: shouhou-art-543-p1 -->
 この章において「仲立人」とは、他人間の商行為の媒介をすることを業とする者をいう。

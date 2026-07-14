@@ -14,14 +14,44 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-12-p1-hashira
+    type: hashira
+    text: 機構は、機構指定納付受託者が次の各号のいずれかに該当するときは、総務省令で定めるところにより、第七百四十七条の八第一項の規定による指定を取り消すことができる。
+    modality: koka_torikeshi
+  - id: chihou-zei-hou-art-747-12-p1-kou-1
+    type: kou
+    text: 一　第七百四十七条の八第一項に規定する政令で定める者に該当しなくなつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-747-12-p1-kou-2
+    type: kou
+    text: 二　第七百四十七条の十第二項又は前条第二項の規定による報告をせず、又は虚偽の報告をしたとき。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-747-12-p1-kou-3
+    type: kou
+    text: 三　前条第一項の規定に違反して、帳簿を備え付けず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-747-12-p1-kou-4
+    type: kou
+    text: 四　前条第三項の規定による立入り若しくは検査を拒み、妨げ、若しくは忌避し、又は同項の規定による質問に対して陳述をせず、若しくは虚偽の陳述をしたとき。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-12-p2
+    type: simple
+    text: 機構は、前項の規定により指定を取り消したときは、その旨を総務大臣及び各地方団体に通知するとともに、遅滞なく、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +69,14 @@ parent_section:
 ### 第七百四十七条の十二第一項
 
 機構は、機構指定納付受託者が次の各号のいずれかに該当するときは、総務省令で定めるところにより、第七百四十七条の八第一項の規定による指定を取り消すことができる。
+
+一　第七百四十七条の八第一項に規定する政令で定める者に該当しなくなつたとき。
+
+二　第七百四十七条の十第二項又は前条第二項の規定による報告をせず、又は虚偽の報告をしたとき。
+
+三　前条第一項の規定に違反して、帳簿を備え付けず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
+
+四　前条第三項の規定による立入り若しくは検査を拒み、妨げ、若しくは忌避し、又は同項の規定による質問に対して陳述をせず、若しくは虚偽の陳述をしたとき。
 
 ### 第七百四十七条の十二第二項
 

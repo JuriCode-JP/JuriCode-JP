@@ -45,6 +45,4 @@ parent_section:
 
 ### 第千二十一条
 
-<!-- segment: honbun id: minpou-art-1021-p1-honbun -->
-遺言の執行に関する費用は、相続財産の負担とする。<!-- segment: tadashi id: minpou-art-1021-p1-tadashi -->
-ただし、これによって遺留分を減ずることができない。
+遺言の執行に関する費用は、相続財産の負担とする。ただし、これによって遺留分を減ずることができない。

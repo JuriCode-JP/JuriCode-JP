@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-4-p1-hashira
+    type: hashira
+    text: 再生医療等製品営業所管理者に係る法第四十条の六第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-196-4-p1-kou-1
+    type: kou
+    text: 一　旧制中学若しくは高校又はこれと同等以上の学校で、薬学、化学又は生物学に関する専門の課程を修了した者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-196-4-p1-kou-2
+    type: kou
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、薬学、化学又は生物学に関する科目を修得した後、再生医療等製品の販売又は授与に関する業務に三年以上従事した者
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-196-4-p1-kou-3
+    type: kou
+    text: 三　再生医療等製品の販売又は授与に関する業務に五年以上従事した者
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-196-4-p1-kou-4
+    type: kou
+    text: 四　都道府県知事が第一号から前号までに掲げる者と同等以上の知識経験を有すると認めた者
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第百九十六条の四
 
 再生医療等製品営業所管理者に係る法第四十条の六第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+
+一　旧制中学若しくは高校又はこれと同等以上の学校で、薬学、化学又は生物学に関する専門の課程を修了した者
+
+二　旧制中学若しくは高校又はこれと同等以上の学校で、薬学、化学又は生物学に関する科目を修得した後、再生医療等製品の販売又は授与に関する業務に三年以上従事した者
+
+三　再生医療等製品の販売又は授与に関する業務に五年以上従事した者
+
+四　都道府県知事が第一号から前号までに掲げる者と同等以上の知識経験を有すると認めた者

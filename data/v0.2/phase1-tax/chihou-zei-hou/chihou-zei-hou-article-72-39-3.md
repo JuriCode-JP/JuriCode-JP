@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-39-3-p1
+    type: simple
+    text: 国税庁長官は、国税庁長官に対する申立てが行われた場合又は条約相手国等の権限ある当局に対する申立てが行われた場合には、遅滞なく、その旨、これらの申立てに係る租税特別措置法第六十六条の四第二十七項第一号に掲げる更正決定に係る法人税額の課税標準とされた所得その他総務省令で定める事項をこれらの申立てをした法人の事務所又は事業所（二以上の道府県において事務所又は事業所を有する法人にあつては、その主たる事務所又は事業所。次項及び第三項において同じ。）の所在地の道府県知事に通知しなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-39-3-p2
+    type: simple
+    text: 国税庁長官は、国税庁長官に対する申立てが行われた場合又は条約相手国等の権限ある当局に対する申立てが行われた場合において、これらの申立てに係る相互協議において前条第一項に規定する合意がない場合その他の政令で定める場合に該当することとなつたときは、遅滞なく、その旨その他総務省令で定める事項をこれらの申立てをした法人の事務所又は事業所の所在地の道府県知事に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-39-3-p3
+    type: simple
+    text: 国税庁長官は、国税庁長官に対する申立てが行われた場合又は条約相手国等の権限ある当局に対する申立てが行われた場合において、これらの申立てに係る相互協議において前条第一項に規定する合意が行われたときは、遅滞なく、その旨、当該合意に基づく国税通則法第二十六条の規定による更正に係る法人税額の課税標準とされた所得その他総務省令で定める事項をこれらの申立てをした法人の事務所又は事業所の所在地の道府県知事に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-39-3-p4
+    type: simple
+    text: 前三項の通知を受けた主たる事務所又は事業所の所在地の道府県知事は、遅滞なく、これらの規定に規定する事項を関係道府県知事に通知しなければならない。
+    modality: gimu
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

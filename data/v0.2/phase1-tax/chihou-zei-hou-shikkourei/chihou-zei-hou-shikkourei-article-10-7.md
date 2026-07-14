@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第七十二条の二第八項第三十一号に規定する事業で政令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-1
+    type: kou
+    text: 一　商品取引業
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-2
+    type: kou
+    text: 二　不動産売買業
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-3
+    type: kou
+    text: 三　広告業
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-4
+    type: kou
+    text: 四　興信所業
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-5
+    type: kou
+    text: 五　案内業
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-6
+    type: kou
+    text: 六　冠婚葬祭業
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第十条の七
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-10-7-p1-hashira -->
 法第七十二条の二第八項第三十一号に規定する事業で政令で定めるものは、次に掲げるものとする。
+
+一　商品取引業
+
+二　不動産売買業
+
+三　広告業
+
+四　興信所業
+
+五　案内業
+
+六　冠婚葬祭業

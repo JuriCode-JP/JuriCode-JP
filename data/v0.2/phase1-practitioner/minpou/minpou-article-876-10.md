@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-10-p1
+    type: junyou
+    text: 第六百四十四条、第八百五十九条の二、第八百五十九条の三、第八百六十一条第二項、第八百六十二条、第八百六十三条及び第八百七十六条の五第一項の規定は補助の事務について、第八百二十四条ただし書の規定は補助人が前条第一項の代理権を付与する旨の審判に基づき被補助人を代表する場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-10-p2
+    type: junyou
+    text: 第六百五十四条、第六百五十五条、第八百七十条、第八百七十一条及び第八百七十三条の規定は補助人の任務が終了した場合について、第八百三十二条の規定は補助人又は補助監督人と被補助人との間において補助に関して生じた債権について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第八百七十三条
+    - 第八百三十二条
 cases: []
 amendments: []
 tags:

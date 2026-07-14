@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百五十一条
 
-<!-- segment: junyou id: keihou-art-251-p1 applies_provisions: 第二百四十五条 -->
 第二百四十二条、第二百四十四条及び第二百四十五条の規定は、この章の罪について準用する。

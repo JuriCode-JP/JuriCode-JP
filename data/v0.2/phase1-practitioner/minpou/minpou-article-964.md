@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百六十四条
 
-<!-- segment: simple id: minpou-art-964-p1 -->
 遺言者は、包括又は特定の名義で、その財産の全部又は一部を処分することができる。

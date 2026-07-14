@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第十七条の三第二号イに規定する内閣府令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-213-p1-kou-1
+    type: kou
+    text: 一　有価証券の売買
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-213-p1-kou-2
+    type: kou
+    text: 二　有価証券の売買又は法第二十八条第八項第五号に掲げる取引の媒介、取次ぎ又は代理
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-213-p1-kou-3
+    type: kou
+    text: 三　外国金融商品市場における有価証券の売買又は法第二十八条第八項第五号に掲げる取引の委託の媒介、取次ぎ又は代理
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第二百十三条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-213-p1-hashira -->
 令第十七条の三第二号イに規定する内閣府令で定めるものは、次に掲げるものとする。
+
+一　有価証券の売買
+
+二　有価証券の売買又は法第二十八条第八項第五号に掲げる取引の媒介、取次ぎ又は代理
+
+三　外国金融商品市場における有価証券の売買又は法第二十八条第八項第五号に掲げる取引の委託の媒介、取次ぎ又は代理
 
 ### 第二百十三条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-213-p2 -->
 令第十七条の三第二号ロに規定する内閣府令で定めるものは、有価証券の売買又は法第二十八条第八項第五号に掲げる取引とする。

@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 高度管理医療機器等の販売業者等は、高度管理医療機器等を購入し、又は譲り受けたとき及び高度管理医療機器等の製造販売業者、製造業者、販売業者、貸与業者若しくは修理業者又は病院、診療所若しくは飼育動物診療施設の開設者に販売し、授与し、若しくは貸与し、又は電気通信回線を通じて提供したときは、次に掲げる事項を書面に記載しなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-173-p1-kou-1
+    type: kou
+    text: 一　品名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-173-p1-kou-2
+    type: kou
+    text: 二　数量
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-173-p1-kou-3
+    type: kou
+    text: 三　製造番号又は製造記号
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-173-p1-kou-4
+    type: kou
+    text: 四　購入、譲受け、販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-173-p1-kou-5
+    type: kou
+    text: 五　購入者等若しくは貸与された者又は電気通信回線を通じて提供を受けた者の氏名及び住所
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +57,26 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-173-p2-kou-1
+    type: kou
+    text: 一　品名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-173-p2-kou-2
+    type: kou
+    text: 二　数量
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-173-p2-kou-3
+    type: kou
+    text: 三　販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-173-p2-kou-4
+    type: kou
+    text: 四　販売、授与若しくは貸与又は電気通信回線を通じた提供を受けた者の氏名及び住所
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: true
   has_items: false
@@ -72,21 +117,34 @@ parent_section:
 
 ### 第百七十三条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-173-p1-hashira -->
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-173-p2-hashira -->
 高度管理医療機器等の販売業者等は、高度管理医療機器等を購入し、又は譲り受けたとき及び高度管理医療機器等の製造販売業者、製造業者、販売業者、貸与業者若しくは修理業者又は病院、診療所若しくは飼育動物診療施設の開設者に販売し、授与し、若しくは貸与し、又は電気通信回線を通じて提供したときは、次に掲げる事項を書面に記載しなければならない。
+
+一　品名
+
+二　数量
+
+三　製造番号又は製造記号
+
+四　購入、譲受け、販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
+
+五　購入者等若しくは貸与された者又は電気通信回線を通じて提供を受けた者の氏名及び住所
 
 ### 第百七十三条第二項
 
 高度管理医療機器等の販売業者等は、高度管理医療機器等を前項に掲げる者以外の者に販売し、授与し、若しくは貸与し、又は電気通信回線を通じて提供したときは、次に掲げる事項を書面に記載しなければならない。
 
+一　品名
+
+二　数量
+
+三　販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
+
+四　販売、授与若しくは貸与又は電気通信回線を通じた提供を受けた者の氏名及び住所
+
 ### 第百七十三条第三項
 
-<!-- segment: honbun id: yakkihou-shikoukisoku-art-173-p3-honbun -->
-高度管理医療機器等の販売業者等は、前二項の書面を、記載の日から三年間（特定保守管理医療機器に係る書面にあつては、記載の日から十五年間）、保存しなければならない。<!-- segment: tadashi id: yakkihou-shikoukisoku-art-173-p3-tadashi -->
-ただし、貸与した特定保守管理医療機器について、貸与を受けた者から返却されてから三年を経過した場合にあつては、この限りではない。
+高度管理医療機器等の販売業者等は、前二項の書面を、記載の日から三年間（特定保守管理医療機器に係る書面にあつては、記載の日から十五年間）、保存しなければならない。ただし、貸与した特定保守管理医療機器について、貸与を受けた者から返却されてから三年を経過した場合にあつては、この限りではない。
 
 ### 第百七十三条第四項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-173-p4 -->
 高度管理医療機器等の販売業者等は、管理医療機器又は一般医療機器（特定保守管理医療機器を除く。以下この条及び第百七十八条において同じ。）を取り扱う場合にあつては、管理医療機器又は一般医療機器の購入、譲受け、販売、授与若しくは貸与又は電気通信回線を通じた提供に関する記録を作成し、保存するよう努めなければならない。

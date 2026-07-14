@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-251-2-p1
+    type: simple
+    text: 法第七十七条の二第二項の規定による先駆的医薬品、先駆的医療機器又は先駆的再生医療等製品の指定の申請は、様式第百七の二による申請書（正副二通）を提出することによつて行うものとする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-251-2-p2-honbun
+    type: honbun
+    text: 前項の申請書には、当該申請に係る医薬品、医療機器又は再生医療等製品に関し、その作用機序又は原理に関する資料、その本邦及び外国における開発計画の概要、その毒性、薬理作用等に関する試験成績の概要その他必要な資料を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-251-2-p2-tadashi
+    type: tadashi
+    text: ただし、医療機器及び体外診断用医薬品に係る申請の場合は、その毒性、薬理作用等に関する試験成績の概要を添付することを要しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -14,14 +14,35 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-9-p1-hashira
+    type: hashira
+    text: 法第七十六条の六第一項の検査の申請は、次に掲げる事項を記載した申請書を提出することによつて行うものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-249-9-p1-kou-1
+    type: kou
+    text: 一　申請者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-249-9-p1-kou-2
+    type: kou
+    text: 二　物品の名称及び形状
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-9-p2
+    type: simple
+    text: 前項の申請書には、前条第一項の検査命令書の写しを添えなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +60,10 @@ parent_section:
 ### 第二百四十九条の九第一項
 
 法第七十六条の六第一項の検査の申請は、次に掲げる事項を記載した申請書を提出することによつて行うものとする。
+
+一　申請者の氏名及び住所
+
+二　物品の名称及び形状
 
 ### 第二百四十九条の九第二項
 

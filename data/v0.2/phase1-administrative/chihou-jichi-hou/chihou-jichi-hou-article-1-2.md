@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-1-2-p1
+    type: simple
+    text: 地方公共団体は、住民の福祉の増進を図ることを基本として、地域における行政を自主的かつ総合的に実施する役割を広く担うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-1-2-p2
+    type: simple
+    text: 国は、前項の規定の趣旨を達成するため、国においては国際社会における国家としての存立にかかわる事務、全国的に統一して定めることが望ましい国民の諸活動若しくは地方自治に関する基本的な準則に関する事務又は全国的な規模で若しくは全国的な視点に立つて行わなければならない施策及び事業の実施その他の国が本来果たすべき役割を重点的に担い、住民に身近な行政はできる限り地方公共団体にゆだねることを基本として、地方公共団体との間で適切に役割を分担するとともに、地方公共団体に関する制度の策定及び施策の実施に当たつて、地方公共団体の自主性及び自立性が十分に発揮されるようにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

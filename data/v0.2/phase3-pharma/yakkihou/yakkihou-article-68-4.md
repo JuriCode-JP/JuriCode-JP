@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-4-p1
+    type: simple
+    text: 再生医療等製品取扱医療関係者は、再生医療等製品の有効性及び安全性その他再生医療等製品の適正な使用のために必要な事項について、当該再生医療等製品の使用の対象者に対し適切な説明を行い、その同意を得て当該再生医療等製品を使用するよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

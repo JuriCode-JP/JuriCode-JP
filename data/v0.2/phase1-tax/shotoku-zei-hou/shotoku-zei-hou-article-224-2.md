@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-224-2-p1-zen
+    type: zen_dan
+    text: 国内において、譲渡性預金（譲渡禁止の特約のない預貯金で政令で定めるものをいう。）の譲渡をし又は譲受けをした者は、財務省令で定めるところにより、その譲渡又は譲受けに関する告知書を、その譲渡又は譲受けをした日の属する月の翌月末日までに当該譲渡性預金を受け入れている金融機関の営業所又は事務所に提出しなければならない。
+    modality: gimu
+  - id: shotoku-zei-hou-art-224-2-p1-kou
+    type: kou_dan
+    text: この場合において、当該金融機関の営業所又は事務所の長は、財務省令で定めるところにより、当該告知書に記載されている事項を確認しなければならない。
+    modality: gimu
+    depends_on: shotoku-zei-hou-art-224-2-p1-zen
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-72-6-p1
+    type: simple
+    text: 特定電気通信役務提供者は、前条第二項の規定による要請を受けて特定違法広告である特定電気通信による情報の送信を防止する措置を講じた場合その他の特定違法広告である特定電気通信による情報の送信を防止する措置を講じた場合において、当該措置により送信を防止された情報の発信者（特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律第二条第五号に規定する発信者をいう。以下同じ。）に生じた損害については、当該措置が当該情報の不特定の者に対する送信を防止するために必要な限度において行われたものであるときは、賠償の責めに任じない。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

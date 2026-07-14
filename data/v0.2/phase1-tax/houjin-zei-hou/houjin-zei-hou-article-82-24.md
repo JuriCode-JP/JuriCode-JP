@@ -16,12 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-24-p1
+    type: simple
+    text: 前条第一項の内国法人が、電気通信回線の故障、災害その他の理由により同項に規定する電子情報処理組織を使用することが困難であると認められる場合で、かつ、同項の規定を適用しないで納税申告書を提出することができると認められる場合において、同項の規定を適用しないで納税申告書を提出することについて納税地の所轄税務署長の承認を受けたときは、当該税務署長が指定する期間内に行う同項の申告については、同条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-24-p2-zen
+    type: zen_dan
+    text: 第八十二条の八第二項から第五項まで（電子情報処理組織による申告が困難である場合の特例）の規定は前項の承認について、同条第六項から第八項までの規定は前項の規定の適用を受けている内国法人について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: houjin-zei-hou-art-82-24-p2-kou
+    type: kou_dan
+    text: この場合において、同条第二項中「同項の規定の」とあるのは「第八十二条の二十四第一項（電子情報処理組織による申告が困難である場合の特例）の規定の」と、「第八十二条の六第一項（国際最低課税額」とあるのは「第八十二条の二十二第一項（国内最低課税額」と、同条第五項中「第一項」とあるのは「第八十二条の二十四第一項」と、同条第六項中「前条第一項」とあるのは「第八十二条の二十三第一項（電子情報処理組織による申告）」と、「第一項の承認」とあるのは「第八十二条の二十四第一項の承認」と、同条第八項中「前条第一項」とあるのは「第八十二条の二十三第一項」と、「つき第一項」とあるのは「つき第八十二条の二十四第一項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
+    depends_on: houjin-zei-hou-art-82-24-p2-zen
 cases: []
 amendments:
 - effective_date: '2026-04-01'

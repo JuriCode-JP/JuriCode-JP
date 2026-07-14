@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-3-p1
+    type: simple
+    text: 売渡株式等の取得の無効の訴えについては、特別支配株主を被告とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

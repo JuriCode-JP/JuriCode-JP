@@ -22,7 +22,7 @@ paragraphs:
     text: 法第四十条の二第七項の医療機器の修理区分の変更又は追加の許可の申請は、様式第九十四による申請書（地方厚生局長に提出する場合にあつては正本一通及び副本二通、都道府県知事に提出する場合にあつては正本一通）を第二百八十一条又は令第八十条の規定により当該許可の権限に属する事務を行うこととされた地方厚生局長又は都道府県知事に提出することによつて行うものとする。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-186-p2-kou-1
+    type: kou
+    text: 一　許可証
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-186-p2-kou-2
+    type: kou
+    text: 二　変更し、又は追加しようとする修理区分に係る事業所の構造設備に関する書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第百八十六条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-186-p1 -->
 法第四十条の二第七項の医療機器の修理区分の変更又は追加の許可の申請は、様式第九十四による申請書（地方厚生局長に提出する場合にあつては正本一通及び副本二通、都道府県知事に提出する場合にあつては正本一通）を第二百八十一条又は令第八十条の規定により当該許可の権限に属する事務を行うこととされた地方厚生局長又は都道府県知事に提出することによつて行うものとする。
 
 ### 第百八十六条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-186-p2-hashira -->
 前項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際当該申請書の提出先とされている地方厚生局長若しくは都道府県知事に提出され、又は当該都道府県知事を経由して地方厚生局長に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
+
+一　許可証
+
+二　変更し、又は追加しようとする修理区分に係る事業所の構造設備に関する書類

@@ -16,37 +16,80 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p1
+    type: simple
+    text: 令和五年一月一日以後に居住の用に供する家屋について第四十一条第一項又は前条第一項の規定の適用を受けようとする個人は、住宅借入金等（第四十一条第一項に規定する住宅借入金等をいう。以下第三項までにおいて同じ。）に係る債権者（当該住宅借入金等に係る債権者その他の政令で定める者をいう。次項において同じ。）に、当該個人の氏名及び住所、個人番号その他の財務省令で定める事項（次項において「申請事項」という。）を記載した書類（以下この項及び次項において「適用申請書」という。）の提出（当該適用申請書の提出に代えて行う電磁的方法（電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法をいう。）による当該適用申請書に記載すべき事項の提供を含む。）をしなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p2-zen
+    type: zen_dan
+    text: 適用申請書の前項に規定する提出（以下この項において「適用申請書の提出」という。）を受けた債権者は、その適用申請書の提出を受けた日の属する年以後十年内（前項の個人が同項の家屋を居住の用に供した日の属する年が令和五年であり、かつ、その居住に係る第四十一条第一項に規定する住宅の取得等が同項に規定する居住用家屋の新築等又は買取再販住宅の取得に該当するものである場合その他の政令で定める場合には、政令で定める期間）の各年の十月三十一日（その適用申請書の提出を受けた日の属する年にあつては、その翌年一月三十一日）までに、申請事項及び当該適用申請書の提出をした個人のその年の十二月三十一日（その者が死亡した日の属する年にあつては、同日）における住宅借入金等の金額その他の財務省令で定める事項を記載した調書を作成し、当該債権者の住所若しくは居所又は本店若しくは主たる事務所の所在地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+  - id: sochi-hou-art-41-2-3-p2-kou
+    type: kou_dan
+    text: この場合において、当該債権者は、当該適用申請書につき帳簿を備え、当該適用申請書の提出をした個人の各人別に、申請事項を記載し、又は記録しなければならない。
+    modality: gimu
+    depends_on: sochi-hou-art-41-2-3-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p3
+    type: simple
+    text: 国税庁、国税局又は税務署の当該職員は、前項の調書の提出に関する調査について必要があるときは、当該調書を提出する義務がある者に質問し、その者の住宅借入金等に関する帳簿書類その他の物件を検査し、又は当該物件（その写しを含む。）の提示若しくは提出を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p4
+    type: simple
+    text: 国税庁、国税局又は税務署の当該職員は、第二項の調書の提出に関する調査について必要があるときは、当該調査において提出された物件を留め置くことができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p5
+    type: simple
+    text: 国税庁、国税局又は税務署の当該職員は、第三項の規定による質問、検査又は提示若しくは提出の要求をする場合には、その身分を示す証明書を携帯し、関係人の請求があつたときは、これを提示しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p6
+    type: simple
+    text: 第三項及び第四項の規定による当該職員の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-2-3-p7
+    type: simple
+    text: 前項に定めるもののほか、第四項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

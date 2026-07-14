@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-21-p1
+    type: simple
+    text: 投資者保護基金（以下この章及び附則において「基金」という。）は、第七十九条の五十六第一項の規定による一般顧客に対する支払その他の業務を行うことにより投資者の保護を図り、もつて証券取引又は商品関連市場デリバティブ取引に対する信頼性を維持することを目的とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

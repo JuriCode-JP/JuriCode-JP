@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-5-p1
+    type: simple
+    text: 地方公共団体の組合を組織する地方公共団体の任命権者は、前条第一項本文の規定によるほか、当該地方公共団体の組合の条例年齢以上退職者を、条例で定めるところにより、従前の勤務実績その他の人事委員会規則で定める情報に基づく選考により、短時間勤務の職に採用することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-5-p2
+    type: simple
+    text: 地方公共団体の組合の任命権者は、前条第一項本文の規定によるほか、当該地方公共団体の組合を組織する地方公共団体の条例年齢以上退職者を、条例で定めるところにより、従前の勤務実績その他の地方公共団体の組合の規則（競争試験等を行う公平委員会を置く地方公共団体の組合においては、公平委員会規則）で定める情報に基づく選考により、短時間勤務の職に採用することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-5-p3
+    type: simple
+    text: 前二項の場合においては、前条第一項ただし書及び第三項から第六項までの規定を準用する。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:

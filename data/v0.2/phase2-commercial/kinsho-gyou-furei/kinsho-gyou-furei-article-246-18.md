@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-18-p1
+    type: simple
+    text: 法第六十三条の九第五項（法第六十三条の十一第二項において準用する場合を含む。次項において同じ。）の規定により海外投資家等特例業務届出者又は金融商品取引業者は、別紙様式第二十一号の五により作成した書面の写しを主たる営業所若しくは事務所及び海外投資家等特例業務を行う全ての営業所若しくは事務所（外国法人又は外国に住所を有する個人にあっては、国内における主たる営業所又は事務所及び海外投資家等特例業務を行うため国内に設ける全ての営業所又は事務所）に備え置いて公衆の縦覧に供し、又はインターネットの利用その他の方法により、投資者が常に容易に閲覧することができるよう公表しなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-18-p2
+    type: simple
+    text: 法第六十三条の九第五項に規定する内閣府令で定める事項は、別紙様式第二十一号の五に記載されている事項とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-18-p3
+    type: simple
+    text: 第一項の書面は、別紙様式第二十一号の五に準じて英語で作成することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

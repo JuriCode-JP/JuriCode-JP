@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-168-3-p1
+    type: simple
+    text: 正当な理由がないのに、前条第一項の目的で、同項各号に掲げる電磁的記録その他の記録を取得し、又は保管した者は、二年以下の拘禁刑又は三十万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

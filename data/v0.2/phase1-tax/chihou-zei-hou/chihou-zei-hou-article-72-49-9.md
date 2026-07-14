@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-9-p1
+    type: simple
+    text: 第七十二条の四十九の五から前条までに定めるもののほか、総務省の職員の法人の事業税に関する調査の実施に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

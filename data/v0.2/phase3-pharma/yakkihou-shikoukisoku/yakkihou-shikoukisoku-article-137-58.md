@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-58-p1
+    type: simple
+    text: 再生医療等製品の製造業者又は法第二十三条の二十四第一項の認定を受けた再生医療等製品外国製造業者（以下「認定再生医療等製品外国製造業者」という。）は、その製造所における製造管理又は品質管理の方法を、法第二十三条の二十五第二項第四号に規定する厚生労働省令で定める基準に適合させなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

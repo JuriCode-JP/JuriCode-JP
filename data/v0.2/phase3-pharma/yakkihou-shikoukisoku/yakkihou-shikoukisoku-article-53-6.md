@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-6-p1
+    type: simple
+    text: 令第二十六条の四第二項の申請書は、様式第三によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

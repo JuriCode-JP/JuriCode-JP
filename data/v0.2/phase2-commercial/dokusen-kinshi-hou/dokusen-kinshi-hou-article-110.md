@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-110-p1 -->
 委員会職員は、臨検、捜索、差押え又は記録命令付差押えをするに際し必要があるときは、警察官の援助を求めることができる。

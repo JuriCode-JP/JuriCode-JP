@@ -14,19 +14,56 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-hashira
+    type: hashira
+    text: 法第三百四十九条の三第三項に規定する政令で定める法人は、次に掲げる法人とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-1
+    type: kou
+    text: 一　農業協同組合連合会又は農事組合法人（農業協同組合法第七十二条の十第一項第一号に規定する事業を行う農事組合法人に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-2
+    type: kou
+    text: 二　漁業協同組合又は漁業協同組合連合会
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-3
+    type: kou
+    text: 三　水産加工業協同組合又は水産加工業協同組合連合会
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-4
+    type: kou
+    text: 四　森林組合又は森林組合連合会
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-5
+    type: kou
+    text: 五　協業組合又は出資組合である商工組合
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p2
+    type: simple
+    text: 法第三百四十九条の三第三項に規定する国の補助金又は交付金で政令で定めるものは、五百万円以上の国の補助金又は交付金とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-2-2-p3
+    type: simple
+    text: 法第三百四十九条の三第三項に規定する農林漁業者又は中小企業者の共同利用に供する機械及び装置で政令で定めるものは、農林漁業者又は中小企業者の共同利用に供する機械及び装置（農林漁業者の共同利用に供する農山漁村における環境の整備のために必要な機械及び装置で総務省令で定めるものを除く。）のうち、一台又は一基（通常一組又は一式をもつて取引の単位とされるものにあつては、一組又は一式）の取得価額（総務省令で定めるところにより計算した取得価額をいう。）が三百三十万円以上のものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -46,6 +83,16 @@ parent_section:
 ### 第五十二条の二の二第一項
 
 法第三百四十九条の三第三項に規定する政令で定める法人は、次に掲げる法人とする。
+
+一　農業協同組合連合会又は農事組合法人（農業協同組合法第七十二条の十第一項第一号に規定する事業を行う農事組合法人に限る。）
+
+二　漁業協同組合又は漁業協同組合連合会
+
+三　水産加工業協同組合又は水産加工業協同組合連合会
+
+四　森林組合又は森林組合連合会
+
+五　協業組合又は出資組合である商工組合
 
 ### 第五十二条の二の二第二項
 

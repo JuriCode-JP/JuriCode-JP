@@ -56,11 +56,8 @@ parent_section:
 
 ### 第百六十一条第一項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-161-p1-honbun -->
-都道府県に副知事を、市町村に副市町村長を置く。<!-- segment: tadashi id: chihou-jichi-hou-art-161-p1-tadashi -->
-ただし、条例で置かないことができる。
+都道府県に副知事を、市町村に副市町村長を置く。ただし、条例で置かないことができる。
 
 ### 第百六十一条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-161-p2 -->
 副知事及び副市町村長の定数は、条例で定める。

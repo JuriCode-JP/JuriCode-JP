@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-13-p1
+    type: simple
+    text: 第三十五条の三の規定は取引所取引許可業者の行う高速取引行為に係る取引所取引業務について、第三十六条の三、第三十八条（第八号及び第九号に係る部分に限る。）及び第四十条（第二号に係る部分に限る。）の規定は取引所取引許可業者の取引所取引業務について、それぞれ準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十二条の五
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-52-5-p1 -->
 法第三百四十九条の三第十二項に規定する線路設備、電路設備その他の政令で定める構築物は、線路設備、電路設備、停車場設備、車庫構築物及び工場構築物とする。

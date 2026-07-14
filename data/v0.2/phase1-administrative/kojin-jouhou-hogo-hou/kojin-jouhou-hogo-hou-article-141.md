@@ -57,15 +57,12 @@ parent_section:
 
 ### 第百四十一条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-141-p1 -->
 委員会の事務を処理させるため、委員会に事務局を置く。
 
 ### 第百四十一条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-141-p2 -->
 事務局に、事務局長その他の職員を置く。
 
 ### 第百四十一条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-141-p3 -->
 事務局長は、委員長の命を受けて、局務を掌理する。

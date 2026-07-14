@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-7-p1
+    type: simple
+    text: 第百九十七条第一項第五号若しくは第六号若しくは第二項、第百九十七条の二第一項第十三号又は第二百条第十四号の罪に関し没収すべき債権等の没収の執行に対する刑事補償法による補償の内容については、同法第四条第六項の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

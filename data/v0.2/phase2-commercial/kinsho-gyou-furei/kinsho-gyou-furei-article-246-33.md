@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-33-p1
+    type: simple
+    text: 法第六十三条の十二第二項（法第六十三条の十一第二項において準用する場合を含む。）の規定により海外投資家等特例業務届出者又は金融商品取引業者が提出する事業報告書は、別紙様式第二十一号の七により作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-33-p2
+    type: simple
+    text: 前項の事業報告書（海外投資家等特例業務届出者に係るものに限る。）は、別紙様式第二十一号の七に準じて英語で作成することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-33-p3
+    type: simple
+    text: 海外投資家等特例業務届出者（会社に限る。）は、第一項の事業報告書を作成する場合には、一般に公正妥当と認められる企業会計の慣行、指定国際会計基準又は修正国際基準（当該海外投資家等特例業務届出者が外国会社である場合にあっては、その主たる営業所若しくは事務所又は海外投資家等特例業務を行う営業所若しくは事務所の所在するいずれかの外国における公正妥当な企業会計の慣行を含む。）に従うものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-33-p4
+    type: simple
+    text: 海外投資家等特例業務届出者（会社を除く。）は、第一項の事業報告書を作成する場合には、一般に公正妥当と認められる会計の慣行に従うものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-33-p5
+    type: simple
+    text: 金融商品取引業者（会社に限る。）は、第一項の事業報告書を作成する場合には、一般に公正妥当と認められる企業会計の慣行に従うものとする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-33-p6
+    type: simple
+    text: 金融商品取引業者（会社を除く。）は、第一項の事業報告書を作成する場合には、一般に公正妥当と認められる会計の慣行に従うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-7-p1
+    type: simple
+    text: 法第五十七条の五第二項に規定する政令で定める期間は、一月とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-7-p2
+    type: simple
+    text: 法第五十七条の五第三項に規定する届出日から起算して政令で定める期間は、一月とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-7-p3
+    type: simple
+    text: 法第五十七条の五第三項に規定する四半期の末日から起算して政令で定める期間は、二月とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

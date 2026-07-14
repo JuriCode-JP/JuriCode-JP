@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-77-2-p1
+    type: simple
+    text: 国税庁長官、国税不服審判所長、国税局長、税務署長又は税関長は、不服申立てがその事務所に到達してから当該不服申立てについての決定又は裁決をするまでに通常要すべき標準的な期間を定めるよう努めるとともに、これを定めたときは、その事務所における備付けその他の適当な方法により公にしておかなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

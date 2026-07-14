@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 法第八十九条の二第三項の規定により帳簿に記載すべきことを命ずる事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-47-3-p2-kou-1
+    type: kou
+    text: 一　当該揮発油の受入数量、消費数量及び貯蔵数量並びに受入れ及び消費の年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-47-3-p2-kou-2
+    type: kou
+    text: 二　当該揮発油を消費して製造した石油化学製品の種類、種類ごとの数量、製造の年月日、販売数量、販売の年月日その他参考となるべき事項
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,10 +56,12 @@ parent_section:
 
 ### 第四十七条の三第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-47-3-p1 -->
 法第八十九条の二第三項の命令をする場合には、その内容を記載した書類を交付するものとする。
 
 ### 第四十七条の三第二項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-47-3-p2-hashira -->
 法第八十九条の二第三項の規定により帳簿に記載すべきことを命ずる事項は、次に掲げる事項とする。
+
+一　当該揮発油の受入数量、消費数量及び貯蔵数量並びに受入れ及び消費の年月日
+
+二　当該揮発油を消費して製造した石油化学製品の種類、種類ごとの数量、製造の年月日、販売数量、販売の年月日その他参考となるべき事項

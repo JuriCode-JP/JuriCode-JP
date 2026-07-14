@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十九条の五
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-39-5-p1 -->
 法第七十三条の二十七の六第一項に規定する政令で定める区域は、農業振興地域の整備に関する法律第八条第二項第一号に規定する農用地区域とする。

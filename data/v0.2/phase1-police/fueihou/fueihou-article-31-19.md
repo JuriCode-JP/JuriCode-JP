@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-19-p1
+    type: simple
+    text: 無店舗型電話異性紹介営業を営む者又はその代理人等が、当該営業に関し、この法律又はこの法律に基づく命令若しくは条例の規定に違反したときは、当該違反行為が行われた時における事務所の所在地を管轄する公安委員会は、当該無店舗型電話異性紹介営業を営む者に対し、善良の風俗若しくは清浄な風俗環境を害する行為又は少年の健全な育成に障害を及ぼす行為を防止するため必要な指示をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-19-p2
+    type: simple
+    text: 無店舗型電話異性紹介営業を営む者又はその代理人等が、当該営業に関し、前条第一項において準用する第二十八条第五項第一号の規定に違反した場合において、当該違反行為が行われた時における事務所を知ることができず、かつ、当該違反行為がはり紙、はり札又は立看板を前条第一項において準用する同号イに掲げる区域において表示することであるときは、当該違反行為が行われた場所を管轄する公安委員会は、当該違反行為に係るはり紙、はり札又は立看板を警察職員に除却させることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

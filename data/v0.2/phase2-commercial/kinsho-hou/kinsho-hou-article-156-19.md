@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-19-p1
+    type: simple
+    text: 金融商品取引所は、第八十七条の二第一項及び第百五十六条の二の規定にかかわらず、内閣府令で定めるところにより、内閣総理大臣の承認を受けて金融商品債務引受業等及びこれに附帯する業務を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-19-p2
+    type: tokusoku
+    text: 商品市場開設金融商品取引所は、第八十七条の二第一項の規定にかかわらず、内閣府令で定めるところにより、内閣総理大臣の承認を受けて商品取引債務引受業等及びこれに附帯する業務を行うことができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-19-p3
+    type: simple
+    text: 商品市場開設金融商品取引所は、前項の承認を受けた業務を廃止したときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-19-p4
+    type: junyou
+    text: 第百五十六条の六第四項及び第五項の規定は、第一項又は第二項の承認について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

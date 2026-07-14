@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: simple id: keihou-art-31-p1 -->
 刑（死刑を除く。）の言渡しを受けた者は、時効によりその執行の免除を得る。

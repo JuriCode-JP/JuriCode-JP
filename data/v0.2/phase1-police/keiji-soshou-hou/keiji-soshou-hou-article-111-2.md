@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-111-2-p1
+    type: simple
+    text: 差し押さえるべき物が電磁的記録に係る記録媒体であるときは、差押状又は捜索状の執行をする者は、処分を受ける者に対し、電子計算機の操作その他の必要な協力を求めることができる。公判廷で差押え又は捜索をする場合も、同様である。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

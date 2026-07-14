@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十三条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-43-p1 -->
 この政令に定めるもののほか、法及びこの政令の実施のための手続その他これらの執行に関し必要な細則は、財務省令で定める。

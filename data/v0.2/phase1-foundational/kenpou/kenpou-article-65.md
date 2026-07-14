@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十五条
 
-<!-- segment: simple id: kenpou-art-65-p1 -->
 行政権は、内閣に属する。

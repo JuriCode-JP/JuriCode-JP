@@ -14,9 +14,48 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-3-p1-hashira
+    type: hashira
+    text: 医薬品、医薬部外品及び化粧品に係る法第十四条の七の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-1
+    type: kou
+    text: 一　成分及び分量又は本質（有効成分を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-2
+    type: kou
+    text: 二　製造方法
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-3
+    type: kou
+    text: 三　貯蔵方法及び有効期間
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-4
+    type: kou
+    text: 四　規格及び試験方法
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-5
+    type: kou
+    text: 五　製造販売する品目の製造所
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-6
+    type: kou
+    text: 六　原薬の製造所
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-68-3-p1-kou-7
+    type: kou
+    text: 七　前各号に掲げるもののほか、最終的な製品の有効性及び安全性に影響を与えないと認められる事項
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -34,3 +73,17 @@ parent_section:
 ### 第六十八条の三
 
 医薬品、医薬部外品及び化粧品に係る法第十四条の七の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+
+一　成分及び分量又は本質（有効成分を除く。）
+
+二　製造方法
+
+三　貯蔵方法及び有効期間
+
+四　規格及び試験方法
+
+五　製造販売する品目の製造所
+
+六　原薬の製造所
+
+七　前各号に掲げるもののほか、最終的な製品の有効性及び安全性に影響を与えないと認められる事項

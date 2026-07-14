@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: この法律の規定は、次の各号に掲げる要件を備え、かつ、法律の規定に基づいて設立された組合（組合の連合会を含む。）の行為には、これを適用しない。ただし、不公正な取引方法を用いる場合又は一定の取引分野における競争を実質的に制限することにより不当に対価を引き上げることとなる場合は、この限りでない。
     modality: jogai
+  - id: dokusen-kinshi-hou-art-22-p1-kou-1
+    type: kou
+    text: 一　小規模の事業者又は消費者の相互扶助を目的とすること。
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-22-p1-kou-2
+    type: kou
+    text: 二　任意に設立され、かつ、組合員が任意に加入し、又は脱退することができること。
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-22-p1-kou-3
+    type: kou
+    text: 三　各組合員が平等の議決権を有すること。
+    modality: unspecified
+    item_number: 3
+  - id: dokusen-kinshi-hou-art-22-p1-kou-4
+    type: kou
+    text: 四　組合員に対して利益分配を行う場合には、その限度が法令又は定款に定められていること。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第二十二条
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-22-p1-hashira -->
 この法律の規定は、次の各号に掲げる要件を備え、かつ、法律の規定に基づいて設立された組合（組合の連合会を含む。）の行為には、これを適用しない。ただし、不公正な取引方法を用いる場合又は一定の取引分野における競争を実質的に制限することにより不当に対価を引き上げることとなる場合は、この限りでない。
+
+一　小規模の事業者又は消費者の相互扶助を目的とすること。
+
+二　任意に設立され、かつ、組合員が任意に加入し、又は脱退することができること。
+
+三　各組合員が平等の議決権を有すること。
+
+四　組合員に対して利益分配を行う場合には、その限度が法令又は定款に定められていること。

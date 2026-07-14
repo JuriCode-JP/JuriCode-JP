@@ -16,22 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-342-2-p1
+    type: simple
+    text: 監査等委員である取締役は、株主総会において、監査等委員である取締役の選任若しくは解任又は辞任について意見を述べることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-342-2-p2
+    type: simple
+    text: 監査等委員である取締役を辞任した者は、辞任後最初に招集される株主総会に出席して、辞任した旨及びその理由を述べることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-342-2-p3
+    type: simple
+    text: 取締役は、前項の者に対し、同項の株主総会を招集する旨及び第二百九十八条第一項第一号に掲げる事項を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-342-2-p4
+    type: simple
+    text: 監査等委員会が選定する監査等委員は、株主総会において、監査等委員である取締役以外の取締役の選任若しくは解任又は辞任について監査等委員会の意見を述べることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

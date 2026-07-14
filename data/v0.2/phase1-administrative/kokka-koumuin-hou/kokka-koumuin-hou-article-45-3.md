@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-45-3-p1
+    type: simple
+    text: 採用試験の方法、試験科目、合格者の決定の方法その他採用試験に関する事項については、この法律に定めのあるものを除いては、前条第二項各号に掲げる採用試験の種類に応じ、人事院規則で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

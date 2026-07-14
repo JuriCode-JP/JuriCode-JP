@@ -46,10 +46,8 @@ parent_section:
 
 ### 第九十四条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-94-p1 -->
 使用者は、事業の附属寄宿舎に寄宿する労働者の私生活の自由を侵してはならない。
 
 ### 第九十四条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-94-p2 -->
 使用者は、寮長、室長その他寄宿舎生活の自治に必要な役員の選任に干渉してはならない。

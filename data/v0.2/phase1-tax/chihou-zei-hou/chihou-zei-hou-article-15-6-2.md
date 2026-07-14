@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-6-2-p1
+    type: simple
+    text: 申請による換価の猶予の申請をしようとする者は、当該申請による換価の猶予に係る地方団体の徴収金を一時に納付し、又は納入することによりその事業の継続又はその生活の維持が困難となる事情の詳細、納付又は納入が困難である金額、当該申請による換価の猶予を受けようとする期間その他の当該地方団体の条例で定める事項を記載した申請書に、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類を添付し、これを当該地方団体の長に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-6-2-p2
+    type: simple
+    text: 前条第三項において準用する第十五条第四項の規定により申請による換価の猶予をした期間の延長を申請しようとする者は、申請による換価の猶予を受けた期間内に当該申請による換価の猶予を受けた金額を納付し、又は納入することができないやむを得ない理由、申請による換価の猶予をした期間の延長を受けようとする期間その他の当該地方団体の条例で定める事項を記載した申請書に、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類を添付し、これを当該地方団体の長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-6-2-p3
+    type: junyou
+    text: 第十五条の二第五項から第九項まで及び第十五条の二の二の規定は、申請による換価の猶予について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

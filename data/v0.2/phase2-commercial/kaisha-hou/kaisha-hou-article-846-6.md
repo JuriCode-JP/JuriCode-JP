@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-6-p1
+    type: simple
+    text: 同一の請求を目的とする売渡株式等の取得の無効の訴えに係る訴訟が数個同時に係属するときは、その弁論及び裁判は、併合してしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

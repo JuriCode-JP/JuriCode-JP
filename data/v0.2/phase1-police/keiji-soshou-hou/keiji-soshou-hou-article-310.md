@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-310-p1 -->
 証拠調を終つた証拠書類又は証拠物は、遅滞なくこれを裁判所に提出しなければならない。但し、裁判所の許可を得たときは、原本に代え、その謄本を提出することができる。

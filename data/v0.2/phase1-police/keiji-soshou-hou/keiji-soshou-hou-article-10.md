@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-10-p1 -->
 同一事件が事物管轄を異にする数個の裁判所に係属するときは、上級の裁判所が、これを審判する。
 
 ### 第十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-10-p2 -->
 上級の裁判所は、検察官又は被告人の請求により、決定で管轄権を有する下級の裁判所にその事件を審判させることができる。

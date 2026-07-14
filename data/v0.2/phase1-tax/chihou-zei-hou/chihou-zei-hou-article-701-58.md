@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-58-p1
+    type: simple
+    text: 指定都市等の長は、第七百一条の四十六又は第七百一条の四十七の規定による申告書（以下本節において「申告書」という。）又は第七百一条の四十九第二項の規定による修正申告書（以下本節において「修正申告書」という。）の提出があつた場合において、当該申告書又は修正申告書に係る課税標準額又は税額がその調査したところと異なるときは、これを更正する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-58-p2
+    type: simple
+    text: 指定都市等の長は、申告書を提出すべき者が当該申告書を提出しなかつた場合には、その調査によつて、申告すべき課税標準額及び税額を決定する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-58-p3
+    type: simple
+    text: 指定都市等の長は、第一項若しくは本項の規定によつて更正し、又は前項の規定によつて決定した課税標準額又は税額について過不足額があることを知つたときは、その調査によつてこれを更正する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-58-p4
+    type: simple
+    text: 指定都市等の長は、前三項の規定によつて更正し、又は決定した場合には、遅滞なく、これを納税者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

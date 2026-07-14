@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-10-p1
+    type: simple
+    text: 金融商品取引清算機関は、金融商品債務引受業により損失が生じた場合に清算参加者が当該損失の全部を負担する旨を業務方法書において定めることその他の金融商品債務引受業の適切な遂行を確保するための措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

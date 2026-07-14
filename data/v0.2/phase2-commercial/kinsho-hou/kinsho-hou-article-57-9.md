@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-9-p1
+    type: junyou
+    text: 第五十条の二第八項の規定は、特別金融商品取引業者が第五十七条の六第三項の規定により第二十九条の登録を取り消された場合における当該特別金融商品取引業者であつた者について準用する。この場合において、当該特別金融商品取引業者であつた者は、顧客取引を結了する目的の範囲内において、なお金融商品取引業者とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-3-p1
+    type: simple
+    text: 法第三十七条の六第一項に規定する政令で定めるものは、投資顧問契約とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-3-p2
+    type: simple
+    text: 法第三十七条の六第一項に規定する政令で定める日は、法第三十七条の四に規定する情報の提供方法について内閣府令で定める区分に応じ、当該情報が顧客による閲覧ができる状態に置かれたと認められる日として内閣府令で定める日とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-3-p3
+    type: simple
+    text: 法第三十七条の六第一項に規定する政令で定める日数は、十日とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

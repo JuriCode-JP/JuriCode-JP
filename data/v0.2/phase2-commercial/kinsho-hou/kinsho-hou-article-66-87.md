@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-87-p1
+    type: simple
+    text: 内閣総理大臣は、投資運用関係業務受託業者から第六十六条の七十一の登録の抹消の申請があつたとき、第六十六条の八十三第二項の規定により第六十六条の七十一の登録がその効力を失つたとき、又は第六十六条の八十五第一項若しくは第三項の規定により第六十六条の七十一の登録を取り消したときは、当該登録を抹消しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

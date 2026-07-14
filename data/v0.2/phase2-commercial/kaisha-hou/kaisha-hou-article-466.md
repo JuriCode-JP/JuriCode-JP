@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百六十六条
 
-<!-- segment: simple id: kaisha-hou-art-466-p1 -->
 株式会社は、その成立後、株主総会の決議によって、定款を変更することができる。

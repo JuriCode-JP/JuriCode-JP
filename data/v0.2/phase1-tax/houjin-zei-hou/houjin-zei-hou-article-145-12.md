@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-145-12-p1
+    type: simple
+    text: 外国法人に対して課する退職年金等積立金に対する法人税の額は、各事業年度の退職年金等積立金の額に百分の一の税率を乗じて計算した金額とする。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2026-04-01'

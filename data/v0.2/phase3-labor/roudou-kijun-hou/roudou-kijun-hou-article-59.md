@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十九条
 
-<!-- segment: simple id: roudou-kijun-hou-art-59-p1 -->
 未成年者は、独立して賃金を請求することができる。親権者又は後見人は、未成年者の賃金を代つて受け取つてはならない。

@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-16-p1
+    type: simple
+    text: 特定販売業者又は卸売販売業者は、営業を開始しようとするときは、その事務所又は事業所ごとに、総務省令で定めるところにより、その旨を当該事務所又は事業所所在地の道府県知事に報告しなければならない。特定販売業者又は卸売販売業者がその営業を廃止し、又は休止しようとするときも、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-16-p2
+    type: simple
+    text: 特定販売業者又は卸売販売業者は、前項の規定により報告した事項に異動を生じた場合には、総務省令で定めるところにより、遅滞なく、その旨を同項に規定する道府県知事に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

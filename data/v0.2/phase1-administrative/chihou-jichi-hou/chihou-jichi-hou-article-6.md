@@ -31,7 +31,7 @@ paragraphs:
     text: 都道府県の境界にわたつて市町村の設置又は境界の変更があつたときは、都道府県の境界も、また、自ら変更する。従来地方公共団体の区域に属しなかつた地域を市町村の区域に編入したときも、また、同様とする。
     modality: gimu
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -70,20 +70,16 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-6-p1 -->
 都道府県の廃置分合又は境界変更をしようとするときは、法律でこれを定める。
 
 ### 第六条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-6-p2 -->
 都道府県の境界にわたつて市町村の設置又は境界の変更があつたときは、都道府県の境界も、また、自ら変更する。従来地方公共団体の区域に属しなかつた地域を市町村の区域に編入したときも、また、同様とする。
 
 ### 第六条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-6-p3 -->
 前二項の場合において財産処分を必要とするときは、関係地方公共団体が協議してこれを定める。但し、法律に特別の定があるときは、この限りでない。
 
 ### 第六条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-6-p4 -->
 前項の協議については、関係地方公共団体の議会の議決を経なければならない。

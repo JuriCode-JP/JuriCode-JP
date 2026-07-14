@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-10-p1
+    type: simple
+    text: 法第三百二十一条の八第八項に規定する政令で定める額は、第八条の十六の六に規定する金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

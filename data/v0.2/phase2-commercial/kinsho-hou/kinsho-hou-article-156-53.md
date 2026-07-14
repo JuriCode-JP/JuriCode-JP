@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-53-p1
+    type: simple
+    text: 指定紛争解決機関は、加入金融商品取引関係業者の名簿を公衆の縦覧に供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

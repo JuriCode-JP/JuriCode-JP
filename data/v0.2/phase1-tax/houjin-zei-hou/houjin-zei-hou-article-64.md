@@ -47,5 +47,4 @@ parent_section:
 
 ### 第六十四条
 
-<!-- segment: simple id: houjin-zei-hou-art-64-p1 -->
 削除

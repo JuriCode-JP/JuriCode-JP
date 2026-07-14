@@ -50,10 +50,8 @@ parent_section:
 
 ### 第一条第一項
 
-<!-- segment: simple id: keihou-art-1-p1 -->
 この法律は、日本国内において罪を犯したすべての者に適用する。
 
 ### 第一条第二項
 
-<!-- segment: simple id: keihou-art-1-p2 -->
 日本国外にある日本船舶又は日本航空機内において罪を犯した者についても、前項と同様とする。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十八条
 
-<!-- segment: simple id: roudou-kijun-hou-art-68-p1 -->
 使用者は、生理日の就業が著しく困難な女性が休暇を請求したときは、その者を生理日に就業させてはならない。

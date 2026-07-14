@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-9-p1 -->
 共有物、共同事業又は当該事業に属する財産に係る国税は、その納税者が連帯して納付する義務を負う。

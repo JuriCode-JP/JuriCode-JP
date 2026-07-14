@@ -34,5 +34,4 @@ tags:
 
 ### 第三十一条の七
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-31-7-p1 -->
 法第七百九十三条第一項に規定する総務省令で定める書類は、財産目録及びキャッシュ・フロー計算書とする。

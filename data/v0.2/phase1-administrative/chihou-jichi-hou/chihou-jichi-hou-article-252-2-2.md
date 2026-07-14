@@ -16,32 +16,60 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-2-p1
+    type: simple
+    text: 普通地方公共団体は、普通地方公共団体の事務の一部を共同して管理し及び執行し、若しくは普通地方公共団体の事務の管理及び執行について連絡調整を図り、又は広域にわたる総合的な計画を共同して作成するため、協議により規約を定め、普通地方公共団体の協議会を設けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-2-p2
+    type: simple
+    text: 普通地方公共団体は、協議会を設けたときは、その旨及び規約を告示するとともに、都道府県の加入するものにあつては総務大臣、その他のものにあつては都道府県知事に届け出なければならない。
+    modality: gimu
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-2-p3-honbun
+    type: honbun
+    text: 第一項の協議については、関係普通地方公共団体の議会の議決を経なければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-2-2-p3-tadashi
+    type: tadashi
+    text: ただし、普通地方公共団体の事務の管理及び執行について連絡調整を図るため普通地方公共団体の協議会を設ける場合は、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-2-p4
+    type: simple
+    text: 公益上必要がある場合においては、都道府県の加入するものについては総務大臣、その他のものについては都道府県知事は、関係のある普通地方公共団体に対し、普通地方公共団体の協議会を設けるべきことを勧告することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-2-p5
+    type: simple
+    text: 普通地方公共団体の協議会が広域にわたる総合的な計画を作成したときは、関係普通地方公共団体は、当該計画に基づいて、その事務を処理するようにしなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-2-p6
+    type: simple
+    text: 普通地方公共団体の協議会は、必要があると認めるときは、関係のある公の機関の長に対し、資料の提出、意見の開陳、説明その他必要な協力を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

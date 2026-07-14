@@ -66,15 +66,12 @@ parent_section:
 
 ### 第百四十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-147-p1 -->
 株式の質入れは、その質権者の氏名又は名称及び住所を株主名簿に記載し、又は記録しなければ、株式会社その他の第三者に対抗することができない。
 
 ### 第百四十七条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-147-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、株券発行会社の株式の質権者は、継続して当該株式に係る株券を占有しなければ、その質権をもって株券発行会社その他の第三者に対抗することができない。
 
 ### 第百四十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-147-p3 -->
 民法第三百六十四条の規定は、株式については、適用しない。

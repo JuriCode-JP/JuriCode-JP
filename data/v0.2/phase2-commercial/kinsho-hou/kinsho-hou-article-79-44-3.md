@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-44-3-p1-honbun
+    type: honbun
+    text: 総会においては、前条の規定によりあらかじめ通知をした事項についてのみ、決議をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: kinsho-hou-art-79-44-3-p1-tadashi
+    type: tadashi
+    text: ただし、定款に別段の定めがあるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

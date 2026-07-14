@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-778-4-p1
+    type: simple
+    text: 相続の開始後、第七百七十四条の規定により否認権が行使され、第七百七十二条第四項の規定により読み替えられた同条第三項の規定により新たに被相続人がその父と定められた者が相続人として遺産の分割を請求しようとする場合において、他の共同相続人が既にその分割その他の処分をしていたときは、当該相続人の遺産分割の請求は、価額のみによる支払の請求により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

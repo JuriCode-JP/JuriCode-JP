@@ -55,15 +55,12 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-6-p1 -->
 委員長は、国務大臣をもつて充てる。
 
 ### 第六条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-6-p2 -->
 委員長は、会務を総理し、国家公安委員会を代表する。
 
 ### 第六条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-6-p3 -->
 国家公安委員会は、あらかじめ委員の互選により、委員長に故障がある場合において委員長を代理する者を定めておかなければならない。

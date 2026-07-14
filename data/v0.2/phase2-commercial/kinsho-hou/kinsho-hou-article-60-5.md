@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-5-p1
+    type: simple
+    text: 取引所取引許可業者は、第六十条の二第一項各号に掲げる事項について変更があつたときは、その日から二週間以内に、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-5-p2
+    type: simple
+    text: 取引所取引許可業者は、第六十条の二第三項第二号に掲げる書面に記載した取引所取引業務の内容又は方法について変更があつた場合その他内閣府令で定める場合には、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

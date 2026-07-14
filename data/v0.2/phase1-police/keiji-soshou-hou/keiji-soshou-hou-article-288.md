@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百八十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-288-p1 -->
 被告人は、裁判長の許可がなければ、退廷することができない。
 
 ### 第二百八十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-288-p2 -->
 裁判長は、被告人を在廷させるため、又は法廷の秩序を維持するため相当な処分をすることができる。

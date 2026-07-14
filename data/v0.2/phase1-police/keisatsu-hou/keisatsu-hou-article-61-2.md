@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-61-2-p1
+    type: simple
+    text: 警視総監又は警察本部長は、当該都道府県警察が、他の都道府県警察の管轄区域に権限を及ぼし、その他他の都道府県警察と共同して事案を処理する場合において、必要があると認めるときは、相互に協議して定めたところにより、関係都道府県警察の一の警察官（第六十条第一項の規定による援助の要求により派遣された者を含む。）に、当該事案の処理に関し、当該協議によりあらかじめ定めた方針の範囲内で、それぞれの都道府県警察の警察職員に対して必要な指揮を行わせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-61-2-p2
+    type: junyou
+    text: 第六十条第二項の規定は、前項の規定による協議をしようとする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-61-2-p3
+    type: simple
+    text: 都道府県警察は、他の都道府県警察の管轄区域に権限を及ぼすときは、当該他の都道府県警察と緊密な連絡を保たなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

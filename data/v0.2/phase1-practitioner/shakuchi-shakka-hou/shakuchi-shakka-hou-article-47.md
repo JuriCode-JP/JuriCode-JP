@@ -22,7 +22,7 @@ paragraphs:
     text: 鑑定委員会は、三人以上の委員で組織する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 鑑定委員は、次に掲げる者の中から、事件ごとに、裁判所が指定する。ただし、特に必要があるときは、それ以外の者の中から指定することを妨げない。
     modality: jogai
+  - id: shakuchi-shakka-hou-art-47-p2-kou-1
+    type: kou
+    text: 一　地方裁判所が特別の知識経験を有する者その他適当な者の中から毎年あらかじめ選任した者
+    modality: unspecified
+    item_number: 1
+  - id: shakuchi-shakka-hou-art-47-p2-kou-2
+    type: kou
+    text: 二　当事者が合意によって選定した者
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -55,15 +65,16 @@ parent_section:
 
 ### 第四十七条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-47-p1 -->
 鑑定委員会は、三人以上の委員で組織する。
 
 ### 第四十七条第二項
 
-<!-- segment: hashira id: shakuchi-shakka-hou-art-47-p2-hashira -->
 鑑定委員は、次に掲げる者の中から、事件ごとに、裁判所が指定する。ただし、特に必要があるときは、それ以外の者の中から指定することを妨げない。
+
+一　地方裁判所が特別の知識経験を有する者その他適当な者の中から毎年あらかじめ選任した者
+
+二　当事者が合意によって選定した者
 
 ### 第四十七条第三項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-47-p3 -->
 鑑定委員には、最高裁判所規則で定める旅費、日当及び宿泊料を支給する。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十四条
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-44-p1 -->
 法第八十四条の二に規定する政令で定める法人は、その発行済株式の総数の三分の二以上の数が地方公共団体により所有されている株式会社とする。

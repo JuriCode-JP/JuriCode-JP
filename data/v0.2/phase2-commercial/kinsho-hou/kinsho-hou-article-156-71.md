@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-71-p1
+    type: simple
+    text: 取引情報蓄積機関は、この節の規定及び業務規程の定めるところにより、取引情報蓄積業務を行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

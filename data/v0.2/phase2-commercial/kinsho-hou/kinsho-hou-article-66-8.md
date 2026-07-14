@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-8-p1
+    type: simple
+    text: 金融商品仲介業者は、営業所又は事務所ごとに、公衆の見やすい場所に、内閣府令で定める様式の標識を掲示しなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-8-p2-honbun
+    type: honbun
+    text: 金融商品仲介業者は、内閣府令で定めるところにより、商号、名称又は氏名その他内閣府令で定める事項を電気通信回線に接続して行う自動公衆送信により公衆の閲覧に供しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-66-8-p2-tadashi
+    type: tadashi
+    text: ただし、その事業の規模が著しく小さい場合その他の内閣府令で定める場合は、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-8-p3
+    type: simple
+    text: 金融商品仲介業者以外の者は、第一項の標識又はこれに類似する標識を掲示してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-22-2-p1
+    type: simple
+    text: 当該徴税吏員（法第二十二条の三第一項に規定する当該徴税吏員をいう。以下この章において同じ。）は、物件の領置、差押え又は記録命令付差押え（法第二十二条の四第一項に規定する記録命令付差押えをいう。以下この章において同じ。）をしたときは、これに封印をし、又はその他の方法により、領置、差押え又は記録命令付差押えをしたことを明らかにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

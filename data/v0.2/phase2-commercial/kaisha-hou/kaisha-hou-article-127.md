@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百二十七条
 
-<!-- segment: simple id: kaisha-hou-art-127-p1 -->
 株主は、その有する株式を譲渡することができる。

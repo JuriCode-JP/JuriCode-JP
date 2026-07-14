@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百九十五条
 
-<!-- segment: simple id: chihou-zei-hou-art-795-p1 -->
 第七百九十一条から前条までに定めるもののほか、機構の財務及び会計に関し必要な事項は、総務省令で定める。

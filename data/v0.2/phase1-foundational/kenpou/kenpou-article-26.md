@@ -46,8 +46,6 @@ parent_section:
 
 ### 第二十六条第一項
 
-<!-- segment: simple id: kenpou-art-26-p1 -->
-<!-- segment: simple id: kenpou-art-26-p2 -->
 すべて国民は、法律の定めるところにより、その能力に応じて、ひとしく教育を受ける権利を有する。
 
 ### 第二十六条第二項

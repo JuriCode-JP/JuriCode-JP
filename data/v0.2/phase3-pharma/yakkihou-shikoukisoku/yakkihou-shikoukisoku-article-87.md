@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第十七条第四項の医薬品等総括製造販売責任者が行う医薬品、医薬部外品又は化粧品の品質管理及び製造販売後安全管理のために必要な業務は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-87-p1-kou-1
+    type: kou
+    text: 一　医薬品、医薬部外品、化粧品及び再生医療等製品の品質管理の基準に関する省令（平成十六年厚生労働省令第百三十六号）により医薬品等総括製造販売責任者が行うこととされた業務
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-87-p1-kou-2
+    type: kou
+    text: 二　医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の製造販売後安全管理の基準に関する省令により医薬品等総括製造販売責任者が行うこととされた業務
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-87-p1-kou-3
+    type: kou
+    text: 三　法第十八条の二第一項第一号に規定する医薬品等総括製造販売責任者が有する権限に係る業務
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +45,21 @@ paragraphs:
     type: hashira
     text: 法第十七条第四項の医薬品等総括製造販売責任者が遵守すべき事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-87-p2-kou-1
+    type: kou
+    text: 一　品質管理及び製造販売後安全管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-87-p2-kou-2
+    type: kou
+    text: 二　法第十七条第三項の規定により製造販売業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-87-p2-kou-3
+    type: kou
+    text: 三　医薬品、医薬部外品又は化粧品の品質管理に関する業務の責任者（以下「医薬品等品質保証責任者」という。）及び医薬品、医薬部外品又は化粧品の製造販売後安全管理に関する業務の責任者（以下「医薬品等安全管理責任者」という。）との相互の密接な連携を図ること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -46,10 +76,20 @@ parent_section:
 
 ### 第八十七条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-87-p1-hashira -->
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-87-p2-hashira -->
 法第十七条第四項の医薬品等総括製造販売責任者が行う医薬品、医薬部外品又は化粧品の品質管理及び製造販売後安全管理のために必要な業務は、次のとおりとする。
+
+一　医薬品、医薬部外品、化粧品及び再生医療等製品の品質管理の基準に関する省令（平成十六年厚生労働省令第百三十六号）により医薬品等総括製造販売責任者が行うこととされた業務
+
+二　医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の製造販売後安全管理の基準に関する省令により医薬品等総括製造販売責任者が行うこととされた業務
+
+三　法第十八条の二第一項第一号に規定する医薬品等総括製造販売責任者が有する権限に係る業務
 
 ### 第八十七条第二項
 
 法第十七条第四項の医薬品等総括製造販売責任者が遵守すべき事項は、次のとおりとする。
+
+一　品質管理及び製造販売後安全管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+
+二　法第十七条第三項の規定により製造販売業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+
+三　医薬品、医薬部外品又は化粧品の品質管理に関する業務の責任者（以下「医薬品等品質保証責任者」という。）及び医薬品、医薬部外品又は化粧品の製造販売後安全管理に関する業務の責任者（以下「医薬品等安全管理責任者」という。）との相互の密接な連携を図ること。

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-360-2-p1
+    type: tokusoku
+    text: 死刑又は無期拘禁刑に処する判決に対する上訴は、前二条の規定にかかわらず、これを放棄することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 前二条
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

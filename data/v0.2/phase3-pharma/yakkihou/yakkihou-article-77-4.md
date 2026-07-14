@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-4-p1
+    type: simple
+    text: 国は、租税特別措置法（昭和三十二年法律第二十六号）で定めるところにより、希少疾病用医薬品、希少疾病用医療機器及び希少疾病用再生医療等製品並びにその用途に係る対象者の数が本邦において厚生労働省令で定める人数に達しない特定用途医薬品、特定用途医療機器及び特定用途再生医療等製品の試験研究を促進するため必要な措置を講ずるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

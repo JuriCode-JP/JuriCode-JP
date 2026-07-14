@@ -14,14 +14,57 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-4-2-p1-hashira
+    type: hashira
+    text: 法第二十八条第七項第三号に規定する内閣府令で定める有価証券は、次に掲げる有価証券とする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-4-2-p1-kou-1
+    type: kou
+    text: 一　新株予約権付社債券
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-4-2-p1-kou-2
+    type: kou
+    text: 二　外国の者の発行する証券又は証書で新株予約権証券又は新株予約権付社債券の性質を有するもの
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-4-2-p1-kou-3
+    type: kou
+    text: 三　新投資口予約権証券（投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十八項に規定する新投資口予約権証券をいう。以下同じ。）
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-4-2-p1-kou-4
+    type: kou
+    text: 四　外国投資証券（投資信託及び投資法人に関する法律第二百二十条第一項に規定する外国投資証券をいう。以下同じ。）で新投資口予約権証券に類する証券
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-4-2-p2-hashira
+    type: hashira
+    text: 法第二十八条第七項第三号に規定する内閣府令で定める権利は、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-4-2-p2-kou-1
+    type: kou
+    text: 一　外国の者に対する権利で新株予約権の性質を有するもの
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-4-2-p2-kou-2
+    type: kou
+    text: 二　新投資口予約権（投資信託及び投資法人に関する法律第二条第十七項に規定する新投資口予約権をいう。以下同じ。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-4-2-p2-kou-3
+    type: kou
+    text: 三　外国投資法人（投資信託及び投資法人に関する法律第二条第二十五項に規定する外国投資法人をいう。）に対する権利で新投資口予約権の性質を有するもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -44,6 +87,20 @@ parent_section:
 
 法第二十八条第七項第三号に規定する内閣府令で定める有価証券は、次に掲げる有価証券とする。
 
+一　新株予約権付社債券
+
+二　外国の者の発行する証券又は証書で新株予約権証券又は新株予約権付社債券の性質を有するもの
+
+三　新投資口予約権証券（投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十八項に規定する新投資口予約権証券をいう。以下同じ。）
+
+四　外国投資証券（投資信託及び投資法人に関する法律第二百二十条第一項に規定する外国投資証券をいう。以下同じ。）で新投資口予約権証券に類する証券
+
 ### 第四条の二第二項
 
 法第二十八条第七項第三号に規定する内閣府令で定める権利は、次に掲げるものとする。
+
+一　外国の者に対する権利で新株予約権の性質を有するもの
+
+二　新投資口予約権（投資信託及び投資法人に関する法律第二条第十七項に規定する新投資口予約権をいう。以下同じ。）
+
+三　外国投資法人（投資信託及び投資法人に関する法律第二条第二十五項に規定する外国投資法人をいう。）に対する権利で新投資口予約権の性質を有するもの

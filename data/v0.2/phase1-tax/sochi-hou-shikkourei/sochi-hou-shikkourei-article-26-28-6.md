@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-6-p1
+    type: simple
+    text: 法第四十一条の十九の四第一項に規定する政令で定める金額は、同項又は同条第二項の個人が新築をし、又は取得をした同条第一項に規定する認定住宅等（以下この項において「認定住宅等」という。）について講じられた構造及び設備に係る標準的な費用の額として国土交通大臣が財務大臣と協議して定める金額（当該認定住宅等のうちにその者の居住の用以外の用に供する部分がある場合には、当該金額に、当該認定住宅等の床面積（当該認定住宅等が一棟の家屋でその構造上区分された数個の部分を独立して住居その他の用途に供することができるものであつて、その者がその各部分を区分所有する場合には、その者の区分所有する部分の床面積とする。以下この項において同じ。）のうちに当該居住の用に供する部分の床面積の占める割合を乗じて計算した金額）とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-6-p2
+    type: simple
+    text: 法第四十一条の十九の四第一項及び第二項の規定による控除をすべき金額は、これらの規定に規定するその年分の所得税法第九十二条第一項に規定する所得税額から控除する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-6-p3
+    type: simple
+    text: 国土交通大臣は、第一項の規定により金額を定めたときは、これを告示する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

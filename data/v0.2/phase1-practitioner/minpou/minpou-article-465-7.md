@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-7-p1
+    type: simple
+    text: 前条第一項の保証契約又は根保証契約の保証人になろうとする者が口がきけない者である場合には、公証人の前で、同条第二項第一号イ又はロに掲げる契約の区分に応じ、それぞれ当該イ又はロに定める事項を通訳人の通訳により申述し、又は自書して、同号の口授に代えなければならない。この場合における同項第二号の規定の適用については、同号中「口述」とあるのは、「通訳人の通訳による申述又は自書」とする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-7-p2
+    type: simple
+    text: 前条第一項の保証契約又は根保証契約の保証人になろうとする者が耳が聞こえない者である場合には、公証人は、同条第二項第二号に規定する筆記した内容を通訳人の通訳により保証人になろうとする者に伝えて、同号の読み聞かせに代えることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-7-p3
+    type: simple
+    text: 公証人は、前二項に定める方式に従って公正証書を作ったときは、その旨をその証書に付記しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

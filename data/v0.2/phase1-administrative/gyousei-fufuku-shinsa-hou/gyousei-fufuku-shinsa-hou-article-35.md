@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三十五条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-35-p1 -->
 審理員は、審査請求人若しくは参加人の申立てにより又は職権で、必要な場所につき、検証をすることができる。
 
 ### 第三十五条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-35-p2 -->
 審理員は、審査請求人又は参加人の申立てにより前項の検証をしようとするときは、あらかじめ、その日時及び場所を当該申立てをした者に通知し、これに立ち会う機会を与えなければならない。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-12-p1 -->
 行政庁は、処分基準を定め、かつ、これを公にしておくよう努めなければならない。
 
 ### 第十二条第二項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-12-p2 -->
 行政庁は、処分基準を定めるに当たっては、不利益処分の性質に照らしてできる限り具体的なものとしなければならない。

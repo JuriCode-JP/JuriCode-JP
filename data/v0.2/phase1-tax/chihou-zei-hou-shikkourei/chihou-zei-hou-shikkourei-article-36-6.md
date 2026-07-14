@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十六条の六
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-36-6-p1 -->
 法第七十三条の四第一項第三号の二に規定する政令で定める医療関係者は、歯科技工士、助産師、臨床検査技師、理学療法士及び作業療法士とする。

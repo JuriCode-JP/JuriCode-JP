@@ -59,11 +59,8 @@ parent_section:
 
 ### 第千十七条第一項
 
-<!-- segment: honbun id: minpou-art-1017-p1-honbun -->
-遺言執行者が数人ある場合には、その任務の執行は、過半数で決する。<!-- segment: tadashi id: minpou-art-1017-p1-tadashi -->
-ただし、遺言者がその遺言に別段の意思を表示したときは、その意思に従う。
+遺言執行者が数人ある場合には、その任務の執行は、過半数で決する。ただし、遺言者がその遺言に別段の意思を表示したときは、その意思に従う。
 
 ### 第千十七条第二項
 
-<!-- segment: tokusoku id: minpou-art-1017-p2 override_flag: true override_target: 前項 -->
 各遺言執行者は、前項の規定にかかわらず、保存行為をすることができる。

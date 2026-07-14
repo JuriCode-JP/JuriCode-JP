@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 荷受人は、運送品を受け取ったときは、個品運送契約又は船荷証券の趣旨に従い、運送人に対し、次に掲げる金額の合計額（以下この節において「運送賃等」という。）を支払う義務を負う。
     modality: unspecified
+  - id: shouhou-art-741-p1-kou-1
+    type: kou
+    text: 一　運送賃、付随の費用及び立替金の額
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-741-p1-kou-2
+    type: kou
+    text: 二　運送品の価格に応じて支払うべき救助料の額及び共同海損の分担額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第七百四十一条第一項
 
-<!-- segment: hashira id: shouhou-art-741-p1-hashira -->
 荷受人は、運送品を受け取ったときは、個品運送契約又は船荷証券の趣旨に従い、運送人に対し、次に掲げる金額の合計額（以下この節において「運送賃等」という。）を支払う義務を負う。
+
+一　運送賃、付随の費用及び立替金の額
+
+二　運送品の価格に応じて支払うべき救助料の額及び共同海損の分担額
 
 ### 第七百四十一条第二項
 
-<!-- segment: simple id: shouhou-art-741-p2 -->
 運送人は、運送賃等の支払を受けるまで、運送品を留置することができる。

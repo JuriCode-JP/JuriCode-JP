@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-221-3-p1
+    type: simple
+    text: 化粧品については、第二百十一条第一項及び第二項、第二百十三条第一項、第二百十四条第一項及び第二項、第二百十七条第一項、第二百十八条、第二百十八条の二（第二項第二号を除く。）から第二百十八条の二の三まで（同条第二項ただし書を除く。）並びに第二百十八条の二の四（第一項の表に係る部分を除く。）の規定を準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-221-3-p2
+    type: simple
+    text: 前項の場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

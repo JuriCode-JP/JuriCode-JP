@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四条
 
-<!-- segment: simple id: roudou-kijun-hou-art-4-p1 -->
 使用者は、労働者が女性であることを理由として、賃金について、男性と差別的取扱いをしてはならない。

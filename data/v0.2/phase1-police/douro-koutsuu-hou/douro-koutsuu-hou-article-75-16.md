@@ -13,25 +13,54 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-16-p1-honbun
+    type: honbun
+    text: 第七十五条の十二第一項の許可を受けた者（以下「特定自動運行実施者」という。）は、特定自動運行計画を変更しようとするときは、内閣府令で定めるところにより、公安委員会の許可を受けなければならない。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-75-16-p1-tadashi
+    type: tadashi
+    text: ただし、内閣府令で定める軽微な変更については、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-16-p2
+    type: junyou
+    text: 第七十五条の十三及び前条の規定は、前項の許可について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-16-p3
+    type: simple
+    text: 特定自動運行実施者は、第一項ただし書に規定する内閣府令で定める軽微な変更をしようとするときは、内閣府令で定めるところにより、その旨を公安委員会に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-16-p4
+    type: simple
+    text: 特定自動運行実施者は、第七十五条の十二第二項第一号に掲げる事項を変更したときは、内閣府令で定めるところにより、変更の日から三十日以内に、公安委員会に届け出なければならない。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-75-16-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の二第二項第四号及び第五号、第百二十三条　第三項及び第四項については第百十九条の二の三第二号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -61,3 +90,5 @@ parent_section:
 ### 第七十五条の十六第四項
 
 特定自動運行実施者は、第七十五条の十二第二項第一号に掲げる事項を変更したときは、内閣府令で定めるところにより、変更の日から三十日以内に、公安委員会に届け出なければならない。
+
+（罰則　第一項については第百十七条の二第二項第四号及び第五号、第百二十三条　第三項及び第四項については第百十九条の二の三第二号、第百二十三条）

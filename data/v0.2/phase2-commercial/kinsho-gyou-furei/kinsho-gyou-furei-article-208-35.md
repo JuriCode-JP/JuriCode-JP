@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-35-p1
+    type: junyou
+    text: 第三十六条から第三十八条までの規定は、法第五十七条の二十六第一項において法第三十二条第一項及び第二項の規定を準用する場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第三十六条から第三十八条まで
 cases: []
 amendments: []
 tags:

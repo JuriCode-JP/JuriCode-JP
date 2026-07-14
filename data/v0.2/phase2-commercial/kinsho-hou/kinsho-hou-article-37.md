@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 金融商品取引業者等は、その行う金融商品取引業の内容について広告その他これに類似するものとして内閣府令で定める行為をするときは、内閣府令で定めるところにより、次に掲げる事項を表示しなければならない。
     modality: gimu
+  - id: kinsho-hou-art-37-p1-kou-1
+    type: kou
+    text: 一　当該金融商品取引業者等の商号、名称又は氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-37-p1-kou-2
+    type: kou
+    text: 二　金融商品取引業者等である旨及び当該金融商品取引業者等の登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-37-p1-kou-3
+    type: kou
+    text: 三　当該金融商品取引業者等の行う金融商品取引業の内容に関する事項であつて、顧客の判断に影響を及ぼすこととなる重要なものとして政令で定めるもの
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,9 +65,13 @@ parent_section:
 
 ### 第三十七条第一項
 
-<!-- segment: hashira id: kinsho-hou-art-37-p1-hashira -->
-<!-- segment: simple id: kinsho-hou-art-37-p2 -->
 金融商品取引業者等は、その行う金融商品取引業の内容について広告その他これに類似するものとして内閣府令で定める行為をするときは、内閣府令で定めるところにより、次に掲げる事項を表示しなければならない。
+
+一　当該金融商品取引業者等の商号、名称又は氏名
+
+二　金融商品取引業者等である旨及び当該金融商品取引業者等の登録番号
+
+三　当該金融商品取引業者等の行う金融商品取引業の内容に関する事項であつて、顧客の判断に影響を及ぼすこととなる重要なものとして政令で定めるもの
 
 ### 第三十七条第二項
 

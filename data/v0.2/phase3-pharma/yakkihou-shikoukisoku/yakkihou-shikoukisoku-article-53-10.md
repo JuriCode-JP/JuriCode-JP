@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-10-p1
+    type: simple
+    text: 医薬品条件付承認を受けた者は、法第十四条の二の二第二項の規定により、法第十四条の四第一項各号に定める期間を超えない範囲内において厚生労働大臣が指定する期間内に、様式第二十六の五による申請書に添えて資料を提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-10-p2
+    type: simple
+    text: 厚生労働大臣が法第十四条の二の二第三項の調査のため必要と認めて当該医薬品の見本品その他の資料の提出を求めたときは、医薬品条件付承認を受けた者は、当該資料を厚生労働大臣に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

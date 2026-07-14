@@ -16,17 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-15-p1
+    type: simple
+    text: 法第二十三条の二の四第一項の医療機器等外国製造業者の登録の申請は、様式第六十三の五による申請書（正副二通）を機構を経由して厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-15-p2-hashira
+    type: hashira
+    text: 法第二十三条の二の四第二項において準用する法第二十三条の二の三第二項第六号の厚生労働省令で定める事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-15-p2-kou-1
+    type: kou
+    text: 一　製造所の名称及び所在地
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-15-p2-kou-2
+    type: kou
+    text: 二　登録の区分
+    modality: unspecified
+    item_number: 2
 - number: 3
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-15-p3-hashira
+    type: hashira
+    text: 第一項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際厚生労働大臣に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
+    modality: jogai
+  - id: yakkihou-shikoukisoku-art-114-15-p3-kou-1
+    type: kou
+    text: 一　製造所の責任者の履歴書
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-15-p3-kou-2
+    type: kou
+    text: 二　登録を受けようとする製造所の場所を明らかにした図面
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -51,6 +83,14 @@ parent_section:
 
 法第二十三条の二の四第二項において準用する法第二十三条の二の三第二項第六号の厚生労働省令で定める事項は、次のとおりとする。
 
+一　製造所の名称及び所在地
+
+二　登録の区分
+
 ### 第百十四条の十五第三項
 
 第一項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際厚生労働大臣に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
+
+一　製造所の責任者の履歴書
+
+二　登録を受けようとする製造所の場所を明らかにした図面

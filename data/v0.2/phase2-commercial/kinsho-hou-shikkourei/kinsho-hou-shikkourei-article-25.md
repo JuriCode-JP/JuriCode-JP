@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 次条
+  - id: kinsho-hou-shikkourei-art-25-p1-kou-1
+    type: kou
+    text: 一　上場有価証券　当該安定操作取引が行われた取引所金融商品市場を開設する金融商品取引所
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-25-p1-kou-2
+    type: kou
+    text: 二　店頭売買有価証券　当該安定操作取引が行われた店頭売買有価証券市場を開設する認可金融商品取引業協会
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: hashira id: kinsho-hou-shikkourei-art-25-p1-hashira -->
 安定操作取引を行つた金融商品取引業者は、その最初に行つた安定操作取引の日から安定操作期間の末日までの間における安定操作有価証券の売買について、当該売買を行つた日の翌日までに、当該売買の内容その他の内閣府令で定める事項を記載した書面（次条において「安定操作報告書」という。）三通を金融庁長官に提出するとともに、内閣府令で定めるところにより、当該安定操作有価証券が次の各号に掲げる有価証券のいずれに該当するかの区分に応じ当該各号に定める者にその写しを提出しなければならない。
+
+一　上場有価証券　当該安定操作取引が行われた取引所金融商品市場を開設する金融商品取引所
+
+二　店頭売買有価証券　当該安定操作取引が行われた店頭売買有価証券市場を開設する認可金融商品取引業協会

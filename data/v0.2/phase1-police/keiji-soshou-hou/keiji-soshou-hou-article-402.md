@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-402-p1 -->
 被告人が控訴をし、又は被告人のため控訴をした事件については、原判決の刑より重い刑を言い渡すことはできない。

@@ -14,29 +14,65 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-84-p1-hashira
+    type: hashira
+    text: 道府県の徴税吏員は、譲渡割の賦課徴収に関する調査のために必要がある場合においては、次に掲げる者に質問し、又はその者の事業に関する帳簿書類（その作成又は保存に代えて電磁的記録（電子的方式、磁気的方式その他の人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。）の作成又は保存がされている場合における当該電磁的記録を含む。次条第一項第一号及び第二号において同じ。）その他の物件を検査し、若しくは当該物件（その写しを含む。）の提示若しくは提出を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+  - id: chihou-zei-hou-art-72-84-p1-kou-1
+    type: kou
+    text: 一　納税義務者、納税義務があると認められる者又は第七十二条の八十八第二項の規定による申告書を提出した者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-84-p1-kou-2
+    type: kou
+    text: 二　前号に掲げる者に金銭の支払、課税資産の譲渡等若しくは特定資産の譲渡等をする義務があると認められる者又は同号に掲げる者から金銭の支払、課税資産の譲渡等若しくは特定資産の譲渡等を受ける権利があると認められる者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-84-p2
+    type: simple
+    text: 分割があつた場合の前項の規定の適用については、分割法人（分割をした法人をいう。以下この項において同じ。）は前項第二号に規定する課税資産の譲渡等又は特定資産の譲渡等をする義務があると認められる者とみなし、分割承継法人（分割により分割法人の事業を承継した法人をいう。）は同号に規定する課税資産の譲渡等又は特定資産の譲渡等を受ける権利があると認められる者とみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-84-p3
+    type: simple
+    text: 第一項の場合においては、当該徴税吏員は、その身分を証明する証票を携帯し、関係人の請求があつたときは、これを提示しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-84-p4
+    type: simple
+    text: 道府県の徴税吏員は、政令で定めるところにより、第一項の規定により提出を受けた物件を留め置くことができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-84-p5
+    type: simple
+    text: 第一項又は前項の規定による道府県の徴税吏員の権限は、犯罪捜査のために認められたものと解釈してはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -58,6 +94,10 @@ parent_section:
 ### 第七十二条の八十四第一項
 
 道府県の徴税吏員は、譲渡割の賦課徴収に関する調査のために必要がある場合においては、次に掲げる者に質問し、又はその者の事業に関する帳簿書類（その作成又は保存に代えて電磁的記録（電子的方式、磁気的方式その他の人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。）の作成又は保存がされている場合における当該電磁的記録を含む。次条第一項第一号及び第二号において同じ。）その他の物件を検査し、若しくは当該物件（その写しを含む。）の提示若しくは提出を求めることができる。
+
+一　納税義務者、納税義務があると認められる者又は第七十二条の八十八第二項の規定による申告書を提出した者
+
+二　前号に掲げる者に金銭の支払、課税資産の譲渡等若しくは特定資産の譲渡等をする義務があると認められる者又は同号に掲げる者から金銭の支払、課税資産の譲渡等若しくは特定資産の譲渡等を受ける権利があると認められる者
 
 ### 第七十二条の八十四第二項
 

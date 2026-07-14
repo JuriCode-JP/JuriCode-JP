@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-174-p1 -->
 特別の知識によつて知り得た過去の事実に関する尋問については、この章の規定によらないで、前章の規定を適用する。

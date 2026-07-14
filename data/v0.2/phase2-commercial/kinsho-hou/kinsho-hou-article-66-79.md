@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-79-p1
+    type: simple
+    text: 投資運用関係業務受託業者は、自己の名義をもつて、他人に投資運用関係業務受託業を行わせてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

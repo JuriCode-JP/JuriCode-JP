@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-32-2-p1
+    type: simple
+    text: 数人の者が死亡した場合において、そのうちの一人が他の者の死亡後になお生存していたことが明らかでないときは、これらの者は、同時に死亡したものと推定する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

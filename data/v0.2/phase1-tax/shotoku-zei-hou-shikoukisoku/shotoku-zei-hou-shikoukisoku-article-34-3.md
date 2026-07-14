@@ -47,5 +47,4 @@ parent_section:
 
 ### 第三十四条の三
 
-<!-- segment: junyou id: shotoku-zei-hou-shikoukisoku-art-34-3-p1 applies_provisions: 前条 -->
 前条の規定は、令第百三十九条第一項（一括償却資産の必要経費算入）に規定する主要な業務として行われる貸付けに該当するかどうかの判定について準用する。

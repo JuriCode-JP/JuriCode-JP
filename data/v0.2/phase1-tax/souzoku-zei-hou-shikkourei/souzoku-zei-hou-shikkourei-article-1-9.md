@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第九条の四第一項に規定する政令で定める者は、次に掲げる者とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikkourei-art-1-9-p1-kou-1
+    type: kou
+    text: 一　六親等内の血族
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-1-9-p1-kou-2
+    type: kou
+    text: 二　配偶者
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikkourei-art-1-9-p1-kou-3
+    type: kou
+    text: 三　三親等内の姻族
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikkourei-art-1-9-p1-kou-4
+    type: kou
+    text: 四　当該信託の受益者等となる者（法第九条の四第一項又は第二項の信託の残余財産の給付を受けることとなる者及び同項の次に受益者等となる者を含む。）が信託の効力が生じた時（同項に規定する受益者等が不存在となつた場合に該当することとなつた時及び法第九条の五に規定する契約締結時等を含む。次号において同じ。）において存しない場合には、その者が存するものとしたときにおいて前三号に掲げる者に該当する者
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikkourei-art-1-9-p1-kou-5
+    type: kou
+    text: 五　当該信託の委託者（法第九条の四第二項の次に受益者等となる者の前の受益者等を含む。）が信託の効力が生じた時において存しない場合には、その者が存するものとしたときにおいて第一号から第三号までに掲げる者に該当する者
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第一条の九
 
-<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-1-9-p1-hashira -->
 法第九条の四第一項に規定する政令で定める者は、次に掲げる者とする。
+
+一　六親等内の血族
+
+二　配偶者
+
+三　三親等内の姻族
+
+四　当該信託の受益者等となる者（法第九条の四第一項又は第二項の信託の残余財産の給付を受けることとなる者及び同項の次に受益者等となる者を含む。）が信託の効力が生じた時（同項に規定する受益者等が不存在となつた場合に該当することとなつた時及び法第九条の五に規定する契約締結時等を含む。次号において同じ。）において存しない場合には、その者が存するものとしたときにおいて前三号に掲げる者に該当する者
+
+五　当該信託の委託者（法第九条の四第二項の次に受益者等となる者の前の受益者等を含む。）が信託の効力が生じた時において存しない場合には、その者が存するものとしたときにおいて第一号から第三号までに掲げる者に該当する者

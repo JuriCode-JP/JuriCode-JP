@@ -16,27 +16,66 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-5-p1
+    type: simple
+    text: 各大臣は、その担任する事務に関し、都道府県の自治事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該都道府県に対し、当該自治事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-5-p2-hashira
+    type: hashira
+    text: 各大臣は、その担任する事務に関し、市町村の次の各号に掲げる事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該各号に定める都道府県の執行機関に対し、当該事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを当該市町村に求めるよう指示をすることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-245-5-p2-kou-1
+    type: kou
+    text: 一　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する事務（第一号法定受託事務を除く。次号及び第三号において同じ。）　都道府県知事
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-245-5-p2-kou-2
+    type: kou
+    text: 二　市町村教育委員会の担任する事務　都道府県教育委員会
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-245-5-p2-kou-3
+    type: kou
+    text: 三　市町村選挙管理委員会の担任する事務　都道府県選挙管理委員会
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-5-p3
+    type: simple
+    text: 前項の指示を受けた都道府県の執行機関は、当該市町村に対し、当該事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを求めなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-5-p4
+    type: simple
+    text: 各大臣は、第二項の規定によるほか、その担任する事務に関し、市町村の事務（第一号法定受託事務を除く。）の処理が法令の規定に違反していると認める場合、又は著しく適正を欠き、かつ、明らかに公益を害していると認める場合において、緊急を要するときその他特に必要があると認めるときは、自ら当該市町村に対し、当該事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを求めることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-5-p5
+    type: simple
+    text: 普通地方公共団体は、第一項、第三項又は前項の規定による求めを受けたときは、当該事務の処理について違反の是正又は改善のための必要な措置を講じなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -64,6 +103,12 @@ parent_section:
 ### 第二百四十五条の五第二項
 
 各大臣は、その担任する事務に関し、市町村の次の各号に掲げる事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該各号に定める都道府県の執行機関に対し、当該事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを当該市町村に求めるよう指示をすることができる。
+
+一　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する事務（第一号法定受託事務を除く。次号及び第三号において同じ。）　都道府県知事
+
+二　市町村教育委員会の担任する事務　都道府県教育委員会
+
+三　市町村選挙管理委員会の担任する事務　都道府県選挙管理委員会
 
 ### 第二百四十五条の五第三項
 

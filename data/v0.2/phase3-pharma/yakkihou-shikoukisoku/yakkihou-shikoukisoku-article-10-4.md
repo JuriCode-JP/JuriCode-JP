@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-10-4-p1
+    type: simple
+    text: 地域連携薬局等の認定証は、様式第五の四によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

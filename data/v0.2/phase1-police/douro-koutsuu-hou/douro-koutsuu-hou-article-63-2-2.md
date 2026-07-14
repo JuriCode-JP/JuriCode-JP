@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-2-2-p1
+    type: simple
+    text: 自動車の使用者その他自動車の装置の整備について責任を有する者又は運転者は、自動運行装置を備えている自動車で、作動状態記録装置により道路運送車両法第四十一条第二項に規定する作動状態の確認に必要な情報を正確に記録することができないものを運転させ、又は運転してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-2-2-p2
+    type: simple
+    text: 自動運行装置を備えている自動車の使用者は、作動状態記録装置により記録された記録を、内閣府令で定めるところにより保存しなければならない。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-63-2-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +57,5 @@ parent_section:
 ### 第六十三条の二の二第二項
 
 自動運行装置を備えている自動車の使用者は、作動状態記録装置により記録された記録を、内閣府令で定めるところにより保存しなければならない。
+
+（罰則　第百十九条第二項第三号、第百二十三条）

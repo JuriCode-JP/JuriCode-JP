@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 令第一条の八の六第一項第二号イに規定する内閣府令で定める者は、次に掲げる者とする。
     modality: gimu
+  - id: kinsho-teigi-furei-art-15-p1-kou-1
+    type: kou
+    text: 一　金融商品取引業者（第一種金融商品取引業を行う者（法第二十九条の四の二第八項に規定する第一種少額電子募集取扱業者及び法第二十九条の四の四第七項に規定する非上場有価証券特例仲介等業者を除く。）に限る。）又は登録金融機関
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-teigi-furei-art-15-p1-kou-2
+    type: kou
+    text: 二　第十条第一項各号（第二十五号を除く。）に掲げる者（前号に掲げる者を除く。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-teigi-furei-art-15-p1-kou-3
+    type: kou
+    text: 三　外国の法令上前二号に掲げる者に相当する者
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-teigi-furei-art-15-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げる者のほか、金融庁長官が指定する者
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -43,10 +63,16 @@ tags:
 
 ### 第十五条第一項
 
-<!-- segment: hashira id: kinsho-teigi-furei-art-15-p1-hashira -->
 令第一条の八の六第一項第二号イに規定する内閣府令で定める者は、次に掲げる者とする。
+
+一　金融商品取引業者（第一種金融商品取引業を行う者（法第二十九条の四の二第八項に規定する第一種少額電子募集取扱業者及び法第二十九条の四の四第七項に規定する非上場有価証券特例仲介等業者を除く。）に限る。）又は登録金融機関
+
+二　第十条第一項各号（第二十五号を除く。）に掲げる者（前号に掲げる者を除く。）
+
+三　外国の法令上前二号に掲げる者に相当する者
+
+四　前三号に掲げる者のほか、金融庁長官が指定する者
 
 ### 第十五条第二項
 
-<!-- segment: simple id: kinsho-teigi-furei-art-15-p2 -->
 令第一条の八の六第一項第二号ロに規定する内閣府令で定める金額は、十億円とする。

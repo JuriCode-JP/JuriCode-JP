@@ -32,6 +32,86 @@ paragraphs:
     type: hashira
     text: 法第八十二条第一号イに規定する国際的に共通した会計処理の基準として財務省令で定めるものに準ずるものとして財務省令で定めるものは、我が国又は次に掲げる国若しくは地域において一般に公正妥当と認められる会計処理の基準（国際会計基準を除く。）とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-1
+    type: kou
+    text: 一　アメリカ合衆国
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-2
+    type: kou
+    text: 二　インド
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-3
+    type: kou
+    text: 三　英国
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-4
+    type: kou
+    text: 四　オーストラリア
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-5
+    type: kou
+    text: 五　カナダ
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-6
+    type: kou
+    text: 六　シンガポール
+    modality: unspecified
+    item_number: 6
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-7
+    type: kou
+    text: 七　スイス
+    modality: unspecified
+    item_number: 7
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-8
+    type: kou
+    text: 八　大韓民国
+    modality: unspecified
+    item_number: 8
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-9
+    type: kou
+    text: 九　中華人民共和国
+    modality: unspecified
+    item_number: 9
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-10
+    type: kou
+    text: 十　ニュージーランド
+    modality: unspecified
+    item_number: 10
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-11
+    type: kou
+    text: 十一　ブラジル
+    modality: unspecified
+    item_number: 11
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-12
+    type: kou
+    text: 十二　香港
+    modality: unspecified
+    item_number: 12
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-13
+    type: kou
+    text: 十三　メキシコ
+    modality: unspecified
+    item_number: 13
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-14
+    type: kou
+    text: 十四　ロシア
+    modality: unspecified
+    item_number: 14
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-15
+    type: kou
+    text: 十五　欧州連合の加盟国
+    modality: unspecified
+    item_number: 15
+  - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-16
+    type: kou
+    text: 十六　欧州経済領域の加盟国（前号に掲げる国を除く。）
+    modality: unspecified
+    item_number: 16
 cases: []
 amendments: []
 tags:
@@ -52,10 +132,40 @@ parent_section:
 
 ### 第三十八条の四第一項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-38-4-p1 -->
 法第八十二条第一号イ（定義）に規定する国際的に共通した会計処理の基準として財務省令で定めるものは、国際会計基準（連結財務諸表の用語、様式及び作成方法に関する規則（昭和五十一年大蔵省令第二十八号）第三百十二条（指定国際会計基準に係る特例）に規定する国際会計基準をいう。次項において同じ。）とする。
 
 ### 第三十八条の四第二項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-38-4-p2-hashira -->
 法第八十二条第一号イに規定する国際的に共通した会計処理の基準として財務省令で定めるものに準ずるものとして財務省令で定めるものは、我が国又は次に掲げる国若しくは地域において一般に公正妥当と認められる会計処理の基準（国際会計基準を除く。）とする。
+
+一　アメリカ合衆国
+
+二　インド
+
+三　英国
+
+四　オーストラリア
+
+五　カナダ
+
+六　シンガポール
+
+七　スイス
+
+八　大韓民国
+
+九　中華人民共和国
+
+十　ニュージーランド
+
+十一　ブラジル
+
+十二　香港
+
+十三　メキシコ
+
+十四　ロシア
+
+十五　欧州連合の加盟国
+
+十六　欧州経済領域の加盟国（前号に掲げる国を除く。）

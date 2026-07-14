@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-40-p1
+    type: simple
+    text: 認可地縁団体は、前条第三項の認可があつたときは、その認可の通知のあつた日から二週間以内に、財産目録を作成し、次項の規定により債権者が異議を述べることができる期間が満了するまでの間、これをその主たる事務所に備え置かなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-40-p2-zen
+    type: zen_dan
+    text: 認可地縁団体は、前条第三項の認可があつたときは、その認可の通知のあつた日から二週間以内に、その債権者に対し、合併に異議があれば一定の期間内に述べるべきことを公告し、かつ、判明している債権者に対しては、各別にこれを催告しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-jichi-hou-art-260-40-p2-kou
+    type: kou_dan
+    text: この場合において、その期間は、二月を下ることができない。
+    modality: kanou_negative
+    depends_on: chihou-jichi-hou-art-260-40-p2-zen
 cases: []
 amendments: []
 tags:

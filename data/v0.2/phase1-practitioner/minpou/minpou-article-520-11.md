@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-11-p1
+    type: simple
+    text: 指図証券は、非訟事件手続法（平成二十三年法律第五十一号）第百条に規定する公示催告手続によって無効とすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

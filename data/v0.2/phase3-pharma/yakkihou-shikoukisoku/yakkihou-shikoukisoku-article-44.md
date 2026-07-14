@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十四条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-44-p1 -->
 削除

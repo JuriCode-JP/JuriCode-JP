@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-4-7-p1
+    type: simple
+    text: 法第七十条の二の七第一項において準用する相続税法第二十一条の九第二項の届出書に係る贈与をした者からの贈与により取得する財産については、同条第三項の規定の適用を受ける財産とみなして、同法その他相続税又は贈与税に関する法令の規定を適用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-4-7-p2
+    type: simple
+    text: 法第七十条の二の七第一項の規定の適用がある場合における相続税法施行令第二十七条第一項の規定の適用については、同項中「推定相続人」とあるのは「推定相続人（租税特別措置法第七十条の二の七第一項（相続時精算課税適用者の特例）の規定の適用を受けた同法第七十条の六の八第二項第二号（個人の事業用資産についての贈与税の納税猶予及び免除）に規定する特例事業受贈者を含む。）」と、「を同項」とあるのは「を法第四十九条第一項」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

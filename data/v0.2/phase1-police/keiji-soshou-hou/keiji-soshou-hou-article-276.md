@@ -22,7 +22,7 @@ paragraphs:
     text: 裁判所は、検察官、被告人若しくは弁護人の請求により又は職権で、公判期日を変更することができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -61,15 +61,12 @@ parent_section:
 
 ### 第二百七十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-276-p1 -->
 裁判所は、検察官、被告人若しくは弁護人の請求により又は職権で、公判期日を変更することができる。
 
 ### 第二百七十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-276-p2 -->
 公判期日を変更するには、裁判所の規則の定めるところにより、あらかじめ、検察官及び被告人又は弁護人の意見を聴かなければならない。但し、急速を要する場合は、この限りでない。
 
 ### 第二百七十六条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-276-p3 -->
 前項但書の場合には、変更後の公判期日において、まず、検察官及び被告人又は弁護人に対し、異議を申し立てる機会を与えなければならない。

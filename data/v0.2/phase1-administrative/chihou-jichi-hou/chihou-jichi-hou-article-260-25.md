@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-25-p1
+    type: simple
+    text: 前条の規定により清算人となる者がないとき、又は清算人が欠けたため損害を生ずるおそれがあるときは、裁判所は、利害関係人若しくは検察官の請求により又は職権で、清算人を選任することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-115-p1 -->
 女子の身体について捜索状の執行をする場合には、成年の女子をこれに立ち会わせなければならない。但し、急速を要する場合は、この限りでない。

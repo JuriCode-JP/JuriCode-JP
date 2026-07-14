@@ -63,16 +63,12 @@ parent_section:
 
 ### 第四十九条第一項
 
-<!-- segment: honbun id: kinsho-kachoukin-furei-art-49-p1-honbun -->
-参考人及び被審人の審問を行うときは、まず参考人の審問をする。<!-- segment: tadashi id: kinsho-kachoukin-furei-art-49-p1-tadashi -->
-ただし、適当と認めるときは、指定職員及び被審人又はその代理人の意見を聴いて、まず被審人の審問をすることができる。
+参考人及び被審人の審問を行うときは、まず参考人の審問をする。ただし、適当と認めるときは、指定職員及び被審人又はその代理人の意見を聴いて、まず被審人の審問をすることができる。
 
 ### 第四十九条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-49-p2 -->
 審判長は、必要があると認めるときは、被審人と、他の被審人又は参考人との対質を命ずることができる。
 
 ### 第四十九条第三項
 
-<!-- segment: junyou id: kinsho-kachoukin-furei-art-49-p3 -->
 前款（第四十一条及び第四十七条第一項を除く。）の規定は、被審人の審問について準用する。

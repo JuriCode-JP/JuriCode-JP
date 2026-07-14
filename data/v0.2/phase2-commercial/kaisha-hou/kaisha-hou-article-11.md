@@ -59,15 +59,12 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: kaisha-hou-art-11-p1 -->
 支配人は、会社に代わってその事業に関する一切の裁判上又は裁判外の行為をする権限を有する。
 
 ### 第十一条第二項
 
-<!-- segment: simple id: kaisha-hou-art-11-p2 -->
 支配人は、他の使用人を選任し、又は解任することができる。
 
 ### 第十一条第三項
 
-<!-- segment: simple id: kaisha-hou-art-11-p3 -->
 支配人の代理権に加えた制限は、善意の第三者に対抗することができない。

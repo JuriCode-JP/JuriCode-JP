@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-2-p1
+    type: simple
+    text: 法第五十七条の二第一項に規定する政令で定める金額は、一兆円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

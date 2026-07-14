@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-2-p1
+    type: simple
+    text: 第百九十八条の二第一項又は第二百条の二の規定により没収すべき財産（以下この条、次条第一項及び第二百九条の四第一項において「不法財産」という。）が不法財産以外の財産と混和した場合において、当該不法財産を没収すべきときは、当該混和により生じた財産（次項及び次条第一項において「混和財産」という。）のうち当該不法財産（当該混和に係る部分に限る。）の額又は数量に相当する部分を没収することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-2-p2
+    type: simple
+    text: 情を知つた第三者が混和財産（第二百条の二の規定に係る不法財産が混和したものに限る。）を取得した場合も、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

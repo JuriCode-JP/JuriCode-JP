@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-2-p1
+    type: simple
+    text: 家庭裁判所は、成年後見人がその事務を行うに当たって必要があると認めるときは、成年後見人の請求により、信書の送達の事業を行う者に対し、期間を定めて、成年被後見人に宛てた郵便物又は民間事業者による信書の送達に関する法律（平成十四年法律第九十九号）第二条第三項に規定する信書便物（次条において「郵便物等」という。）を成年後見人に配達すべき旨を嘱託することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-2-p2
+    type: simple
+    text: 前項に規定する嘱託の期間は、六箇月を超えることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-2-p3-honbun
+    type: honbun
+    text: 家庭裁判所は、第一項の規定による審判があった後事情に変更を生じたときは、成年被後見人、成年後見人若しくは成年後見監督人の請求により又は職権で、同項に規定する嘱託を取り消し、又は変更することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: minpou-art-860-2-p3-tadashi
+    type: tadashi
+    text: ただし、その変更の審判においては、同項の規定による審判において定められた期間を伸長することができない。
+    modality: kanou_negative
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-2-p4
+    type: simple
+    text: 成年後見人の任務が終了したときは、家庭裁判所は、第一項に規定する嘱託を取り消さなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

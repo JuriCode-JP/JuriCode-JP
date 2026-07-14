@@ -16,12 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-33-p1-zen
+    type: zen_dan
+    text: 第七十二条の二十五、第七十二条の二十八又は第七十二条の二十九の規定による申告書に記載すべき付加価値額、資本金等の額、所得若しくは収入金額又は事業税額につき、修正申告書を提出し、又は第七十二条の三十九、第七十二条の四十一若しくは第七十二条の四十一の二の規定による更正若しくは決定を受けた法人は、当該修正申告書の提出又は当該更正若しくは決定に伴い、当該修正申告又は当該更正若しくは決定に係る事業年度後の事業年度分の第七十二条の二十五、第七十二条の二十八又は第七十二条の二十九の規定による申告書に記載すべき付加価値額、資本金等の額、所得若しくは収入金額又は事業税額が過大となる場合には、当該修正申告書を提出した日又は当該更正若しくは決定の通知を受けた日から二月以内に限り、総務省令で定めるところにより、道府県知事に対し、当該付加価値額、資本金等の額、所得若しくは収入金額又は事業税額につき、更正の請求をすることができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-72-33-p1-kou
+    type: kou_dan
+    text: この場合においては、第二十条の九の三第三項に規定する更正請求書には、同項に規定する事項のほか、当該修正申告書を提出した日又は当該更正若しくは決定の通知を受けた日を記載しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: chihou-zei-hou-art-72-33-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-33-p2-zen
+    type: zen_dan
+    text: 申告書又は修正申告書を提出した法人（収入割のみを申告納付すべきものを除く。）が、当該申告又は修正申告に係る事業税の計算の基礎となつた事業年度に係る法人税の課税標準について国の税務官署の更正又は決定を受けたことに伴い、当該申告又は修正申告に係る付加価値額、資本金等の額若しくは所得又は事業税額が過大となる場合には、国の税務官署が当該更正又は決定の通知をした日から二月以内に限り、総務省令で定めるところにより、道府県知事に対し、当該付加価値額、資本金等の額若しくは所得又は事業税額につき、更正の請求をすることができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-72-33-p2-kou
+    type: kou_dan
+    text: この場合においては、第二十条の九の三第三項に規定する更正請求書には、同項に規定する事項のほか、国の税務官署が当該更正又は決定の通知をした日を記載しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: chihou-zei-hou-art-72-33-p2-zen
 cases: []
 amendments: []
 tags:

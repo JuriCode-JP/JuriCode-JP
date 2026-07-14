@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四百十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-417-p1 -->
 上告裁判所は、訂正の判決をしないときは、速やかに決定で申立を棄却しなければならない。
 
 ### 第四百十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-417-p2 -->
 訂正の判決に対しては、第四百十五条第一項の申立をすることはできない。

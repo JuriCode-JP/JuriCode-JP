@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-167-3-p1-hashira
+    type: hashira
+    text: 何人も、第八十条第一項の規定に違反して開設される金融商品市場により次に掲げる取引をしてはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-167-3-p1-kou-1
+    type: kou
+    text: 一　有価証券の売買
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-167-3-p1-kou-2
+    type: kou
+    text: 二　市場デリバティブ取引
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第百六十七条の三
 
 何人も、第八十条第一項の規定に違反して開設される金融商品市場により次に掲げる取引をしてはならない。
+
+一　有価証券の売買
+
+二　市場デリバティブ取引

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-73-2-p1
+    type: simple
+    text: 内閣総理大臣は、職員の能率の増進を図るため必要があると認めるときは、関係庁の長に対し、国家公務員宿舎法（昭和二十四年法律第百十七号）又は国家公務員等の旅費に関する法律（昭和二十五年法律第百十四号）の執行に関し必要な要請をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百九十三条
 
-<!-- segment: simple id: minpou-art-293-p1 -->
 地役権者がその権利の一部を行使しないときは、その部分のみが時効によって消滅する。

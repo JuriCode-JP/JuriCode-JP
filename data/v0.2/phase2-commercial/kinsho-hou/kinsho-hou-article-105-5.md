@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-5-p1
+    type: simple
+    text: 自主規制委員会は、自主規制委員三人以上で組織し、その過半数は、社外取締役でなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-5-p2
+    type: simple
+    text: 自主規制委員は、特定株式会社金融商品取引所の取締役の中から、取締役会の決議によつて選定する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-5-p3
+    type: simple
+    text: 前項の決議は、議決に加わることができる取締役の過半数（これを上回る割合を定款で定めた場合にあつては、その割合以上）が出席し、その過半数（これを上回る割合を定款で定めた場合にあつては、その割合以上）で、かつ、出席した社外取締役の過半数をもつて行う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-5-p4
+    type: simple
+    text: 自主規制委員会に自主規制委員長を置き、自主規制委員の互選によつて社外取締役のうちからこれを定める。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-5-p5
+    type: simple
+    text: 自主規制委員長は、自主規制委員会の会務を総理する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-5-p6
+    type: simple
+    text: 自主規制委員会は、あらかじめ、自主規制委員のうちから、自主規制委員長に事故がある場合に当該自主規制委員長の職務を代理する者を定めておかなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

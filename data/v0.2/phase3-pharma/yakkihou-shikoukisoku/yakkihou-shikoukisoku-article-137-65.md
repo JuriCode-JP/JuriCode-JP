@@ -14,19 +14,75 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-65-p1-hashira
+    type: hashira
+    text: 法第二十三条の三十六第一項の規定により変更の届出をしなければならない事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-65-p1-kou-1
+    type: kou
+    text: 一　製造販売業者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-65-p1-kou-2
+    type: kou
+    text: 二　主たる機能を有する事務所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-65-p1-kou-3
+    type: kou
+    text: 三　製造販売業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-65-p1-kou-4
+    type: kou
+    text: 四　再生医療等製品総括製造販売責任者の氏名及び住所
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-65-p1-kou-5
+    type: kou
+    text: 五　当該製造販売業者が、他の種類の製造販売業の許可を受け、又は当該許可に係る事業を廃止したときは、当該許可の種類及び許可番号
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-65-p2
+    type: simple
+    text: 前項の届出は、様式第六による届書を提出することによつて行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-65-p3-hashira
+    type: hashira
+    text: 前項の届書には、次の各号に掲げる届書の区分に応じて当該各号に定める書類を添えなければならない。ただし、申請等の行為の際当該届書の提出先とされている都道府県知事に提出された書類については、当該届書にその旨が付記されたときは、この限りでない。
+    modality: jogai
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-137-65-p3-kou-1
+    type: kou
+    text: 一　第一項第一号に掲げる製造販売業者の氏名に係る届書　製造販売業者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（製造販売業者が法人であるときは、登記事項証明書）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-65-p3-kou-2
+    type: kou
+    text: 二　第一項第三号に掲げる役員に係る届書　新たに役員となつた者が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該役員に係る精神の機能の障害に関する医師の診断書
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-65-p3-kou-3
+    type: kou
+    text: 三　第一項第四号に掲げる事項に係る届書（新たに再生医療等製品総括製造販売責任者となつた者が製造販売業者である場合を除く。）　雇用契約書の写しその他の製造販売業者の新たに再生医療等製品総括製造販売責任者となつた者に対する使用関係を証する書類及び当該者が法第二十三条の三十四第一項に規定する者であることを証する書類
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -45,6 +101,16 @@ parent_section:
 
 法第二十三条の三十六第一項の規定により変更の届出をしなければならない事項は、次のとおりとする。
 
+一　製造販売業者の氏名及び住所
+
+二　主たる機能を有する事務所の名称及び所在地
+
+三　製造販売業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名
+
+四　再生医療等製品総括製造販売責任者の氏名及び住所
+
+五　当該製造販売業者が、他の種類の製造販売業の許可を受け、又は当該許可に係る事業を廃止したときは、当該許可の種類及び許可番号
+
 ### 第百三十七条の六十五第二項
 
 前項の届出は、様式第六による届書を提出することによつて行うものとする。
@@ -52,3 +118,9 @@ parent_section:
 ### 第百三十七条の六十五第三項
 
 前項の届書には、次の各号に掲げる届書の区分に応じて当該各号に定める書類を添えなければならない。ただし、申請等の行為の際当該届書の提出先とされている都道府県知事に提出された書類については、当該届書にその旨が付記されたときは、この限りでない。
+
+一　第一項第一号に掲げる製造販売業者の氏名に係る届書　製造販売業者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（製造販売業者が法人であるときは、登記事項証明書）
+
+二　第一項第三号に掲げる役員に係る届書　新たに役員となつた者が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該役員に係る精神の機能の障害に関する医師の診断書
+
+三　第一項第四号に掲げる事項に係る届書（新たに再生医療等製品総括製造販売責任者となつた者が製造販売業者である場合を除く。）　雇用契約書の写しその他の製造販売業者の新たに再生医療等製品総括製造販売責任者となつた者に対する使用関係を証する書類及び当該者が法第二十三条の三十四第一項に規定する者であることを証する書類

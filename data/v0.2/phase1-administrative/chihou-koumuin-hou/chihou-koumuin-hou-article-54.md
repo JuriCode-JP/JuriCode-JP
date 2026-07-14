@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十四条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-54-p1 -->
 削除

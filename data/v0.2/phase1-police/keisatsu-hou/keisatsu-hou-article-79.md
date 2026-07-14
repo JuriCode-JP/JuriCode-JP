@@ -31,7 +31,7 @@ paragraphs:
     text: 第六十四条第一項に規定する警察庁の警察官及び第六十一条の三第四項に規定する都道府県警察の警察官の当該職務執行について苦情がある者は、国家公安委員会に対し、国家公安委員会規則で定める手続に従い、文書により苦情の申出をすることができる。
     modality: kanou_kenri
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -41,6 +41,21 @@ paragraphs:
     modality: jogai
     references:
     - 前二項
+  - id: keisatsu-hou-art-79-p3-kou-1
+    type: kou
+    text: 一　申出が警察の事務の適正な遂行を妨げる目的で行われたと認められるとき。
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-79-p3-kou-2
+    type: kou
+    text: 二　申出者の所在が不明であるとき。
+    modality: unspecified
+    item_number: 2
+  - id: keisatsu-hou-art-79-p3-kou-3
+    type: kou
+    text: 三　申出者が他の者と共同で苦情の申出を行つたと認められる場合において、当該他の者に当該苦情に係る処理の結果を通知したとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -57,15 +72,18 @@ parent_section:
 
 ### 第七十九条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-79-p1 -->
 都道府県警察の職員（第六十一条の三第四項に規定する都道府県警察の警察官を除く。）の職務執行について苦情がある者は、都道府県公安委員会に対し、国家公安委員会規則で定める手続に従い、文書により苦情の申出をすることができる。
 
 ### 第七十九条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-79-p2 -->
 第六十四条第一項に規定する警察庁の警察官及び第六十一条の三第四項に規定する都道府県警察の警察官の当該職務執行について苦情がある者は、国家公安委員会に対し、国家公安委員会規則で定める手続に従い、文書により苦情の申出をすることができる。
 
 ### 第七十九条第三項
 
-<!-- segment: hashira id: keisatsu-hou-art-79-p3-hashira -->
 都道府県公安委員会又は国家公安委員会は、前二項の申出があつたときは、法令又は条例の規定に基づきこれを誠実に処理し、処理の結果を文書により申出者に通知しなければならない。ただし、次に掲げる場合は、この限りでない。
+
+一　申出が警察の事務の適正な遂行を妨げる目的で行われたと認められるとき。
+
+二　申出者の所在が不明であるとき。
+
+三　申出者が他の者と共同で苦情の申出を行つたと認められる場合において、当該他の者に当該苦情に係る処理の結果を通知したとき。

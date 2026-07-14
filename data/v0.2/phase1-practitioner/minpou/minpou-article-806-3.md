@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-806-3-p1-honbun
+    type: honbun
+    text: 第七百九十七条第二項の規定に違反した縁組は、縁組の同意をしていない者から、その取消しを家庭裁判所に請求することができる。
+    modality: kanou_kenri
+  - id: minpou-art-806-3-p1-tadashi
+    type: tadashi
+    text: ただし、その者が追認をしたとき、又は養子が十五歳に達した後六箇月を経過し、若しくは追認をしたときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-806-3-p2
+    type: junyou
+    text: 前条第二項の規定は、詐欺又は強迫によって第七百九十七条第二項の同意をした者について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

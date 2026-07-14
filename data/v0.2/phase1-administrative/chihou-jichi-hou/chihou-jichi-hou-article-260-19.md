@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-19-p1
+    type: simple
+    text: 認可地縁団体と特定の構成員との関係について議決をする場合には、その構成員は、表決権を有しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

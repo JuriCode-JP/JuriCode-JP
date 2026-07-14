@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-113-4-p1
+    type: simple
+    text: この法律又はこの法律に基づく命令の規定により国家公安委員会の権限に属する事務（第百十条第一項の規定による指定に係るものを除く。）は、政令で定めるところにより、警察庁長官に委任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

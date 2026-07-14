@@ -14,9 +14,25 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-98-12-p1-hashira
+    type: hashira
+    text: 法第十八条の四第一項及び第二項の規定による届出は、前条各号（第三号及び第四号を除く。）に掲げる事項及び次に掲げる事項について行うものとする。
+    modality: gimu
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-98-12-p1-kou-1
+    type: kou
+    text: 一　出荷の停止又は制限をした理由
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-98-12-p1-kou-2
+    type: kou
+    text: 二　出荷の停止又は制限の解除が可能となると見込まれる時期
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +50,7 @@ parent_section:
 ### 第九十八条の十二
 
 法第十八条の四第一項及び第二項の規定による届出は、前条各号（第三号及び第四号を除く。）に掲げる事項及び次に掲げる事項について行うものとする。
+
+一　出荷の停止又は制限をした理由
+
+二　出荷の停止又は制限の解除が可能となると見込まれる時期

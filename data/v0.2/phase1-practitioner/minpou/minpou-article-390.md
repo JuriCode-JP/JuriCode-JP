@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百九十条
 
-<!-- segment: simple id: minpou-art-390-p1 -->
 抵当不動産の第三取得者は、その競売において買受人となることができる。

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-43-p1
+    type: simple
+    text: 法第二十三条の二の九第一項に規定する医療機器又は体外診断用医薬品につき法第二十三条の二の五の承認（法第二十三条の二の六の三第一項の規定により条件及び期限を付したものを除く。次項において同じ。）を受けた者が行う法第二十三条の二の九第六項の調査は、同条第一項に規定する調査期間（同条第二項の規定による延長が行われたときは、その延長後の期間）当該医療機器又は体外診断用医薬品の不具合等の発現状況その他の品質、有効性及び安全性に関する事項について行うものとする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-43-p2
+    type: simple
+    text: 法第二十三条の二の九第六項の規定による厚生労働大臣に対する報告又は法第二十三条の二の十第二項前段の規定による機構に対する報告は、当該調査に係る医療機器又は体外診断用医薬品の製造販売の承認の際に厚生労働大臣が指示した日から起算して一年（厚生労働大臣が指示する医療機器又は体外診断用医薬品にあつては、厚生労働大臣が指示する期間）ごとに、その期間の満了後二月以内に行わなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-43-p3
+    type: simple
+    text: 法第二十三条の二の十第二項後段の規定により厚生労働大臣に対して行う前項の報告を受けた旨の通知は、様式第三十一による通知書によつて行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

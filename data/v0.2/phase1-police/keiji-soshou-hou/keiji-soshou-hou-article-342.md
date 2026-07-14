@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百四十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-342-p1 -->
 判決は、公判廷において、宣告によりこれを告知する。

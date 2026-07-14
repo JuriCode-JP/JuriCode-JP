@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-21-p1
+    type: simple
+    text: 認可金融商品取引清算機関は、第百五十六条の二十の十七第一項第四号若しくは第五号に掲げる事項又は同条第二項第一号若しくは第二号に掲げる書類に記載した事項を変更しようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-21-p2
+    type: simple
+    text: 認可金融商品取引清算機関は、第百五十六条の二十の十七第一項第二号若しくは第三号に掲げる事項又は同条第二項第三号ロ若しくはハに掲げる書類に記載した事項に変更があつたときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-21-p3-zen
+    type: zen_dan
+    text: 認可金融商品取引清算機関が連携金融商品債務引受業務を廃止したときは、第百五十六条の二十の十六第一項の認可は、その効力を失う。
+    modality: unspecified
+  - id: kinsho-hou-art-156-20-21-p3-kou
+    type: kou_dan
+    text: この場合において、当該認可金融商品取引清算機関は、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-156-20-21-p3-zen
 cases: []
 amendments: []
 tags:

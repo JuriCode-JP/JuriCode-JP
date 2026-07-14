@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-327-2-p1
+    type: simple
+    text: 監査役会設置会社（公開会社であり、かつ、大会社であるものに限る。）であって金融商品取引法第二十四条第一項の規定によりその発行する株式について有価証券報告書を内閣総理大臣に提出しなければならないものは、社外取締役を置かなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

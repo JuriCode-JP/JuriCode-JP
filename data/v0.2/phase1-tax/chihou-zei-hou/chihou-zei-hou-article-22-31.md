@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-31-p1-zen
+    type: zen_dan
+    text: 地方団体の長は、間接地方税に関する犯則事件を調査し、犯則の心証を得ない場合には、その旨を犯則嫌疑者に通知しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-22-31-p1-kou
+    type: kou_dan
+    text: この場合において、物件の領置、差押え又は記録命令付差押えがあるときは、その解除を命じなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-22-31-p1-zen
 cases: []
 amendments: []
 tags:

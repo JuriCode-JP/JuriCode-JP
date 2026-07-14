@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-13-p1
+    type: simple
+    text: 第七十四条の九ただし書の規定によりたばこ税を普通徴収の方法によつて徴収する場合においては、当該道府県の条例で定めるところにより、納期を定めて徴収するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-13-p2
+    type: simple
+    text: 前項の場合において、普通徴収の方法によつて徴収されるたばこ税を納付すべき納税者（以下この節において「納税者」という。）に交付すべき納税通知書は、遅くとも、その納期限前十日までに納税者に交付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

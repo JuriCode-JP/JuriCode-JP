@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第七十二条の二第十項第二十一号に規定する事業で政令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-14-p1-kou-1
+    type: kou
+    text: 一　歯科衛生士業
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-14-p1-kou-2
+    type: kou
+    text: 二　歯科技工士業
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-14-p1-kou-3
+    type: kou
+    text: 三　測量士業
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-14-p1-kou-4
+    type: kou
+    text: 四　土地家屋調査士業
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-14-p1-kou-5
+    type: kou
+    text: 五　海事代理士業
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-14-p1-kou-6
+    type: kou
+    text: 六　印刷製版業
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第十四条
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-14-p1-hashira -->
 法第七十二条の二第十項第二十一号に規定する事業で政令で定めるものは、次に掲げるものとする。
+
+一　歯科衛生士業
+
+二　歯科技工士業
+
+三　測量士業
+
+四　土地家屋調査士業
+
+五　海事代理士業
+
+六　印刷製版業

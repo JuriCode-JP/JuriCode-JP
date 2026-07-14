@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-36-p1
+    type: simple
+    text: 元売業者、特約業者、石油製品販売業者及び軽油製造業者等は、帳簿を備え、総務省令で定めるところにより、軽油又は燃料炭化水素油の引取り、引渡し、納入、貯蔵及び消費に関する事実をこれに記載しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

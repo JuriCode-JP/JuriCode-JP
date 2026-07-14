@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-16-3-p1
+    type: simple
+    text: 法第三百四十八条第七項に規定する政令で定める非課税独立行政法人は、独立行政法人海技教育機構とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-16-3-p2
+    type: simple
+    text: 法第三百四十八条第七項に規定する政令で定める土地は、公益社団法人又は公益財団法人で総務大臣が指定するものから無償で借り受けて独立行政法人海技教育機構法（平成十一年法律第二百十四号）第十一条第一項第一号に規定する業務の用に供する土地とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

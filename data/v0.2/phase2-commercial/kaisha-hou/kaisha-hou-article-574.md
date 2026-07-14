@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 裁判所は、特別清算開始後、次に掲げる場合において、清算株式会社に破産手続開始の原因となる事実があると認めるときは、職権で、破産法に従い、破産手続開始の決定をしなければならない。
     modality: gimu
+  - id: kaisha-hou-art-574-p1-kou-1
+    type: kou
+    text: 一　協定の見込みがないとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-574-p1-kou-2
+    type: kou
+    text: 二　協定の実行の見込みがないとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-574-p1-kou-3
+    type: kou
+    text: 三　特別清算によることが債権者の一般の利益に反するとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +45,16 @@ paragraphs:
     type: hashira
     text: 裁判所は、特別清算開始後、次に掲げる場合において、清算株式会社に破産手続開始の原因となる事実があると認めるときは、職権で、破産法に従い、破産手続開始の決定をすることができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-574-p2-kou-1
+    type: kou
+    text: 一　協定が否決されたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-574-p2-kou-2
+    type: kou
+    text: 二　協定の不認可の決定が確定したとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: true
@@ -41,6 +66,16 @@ paragraphs:
     modality: unspecified
     references:
     - 前二項
+  - id: kaisha-hou-art-574-p3-kou-1
+    type: kou
+    text: 一　特別清算開始の申立ての前に特別清算開始の命令の確定によって効力を失った破産手続における破産手続開始の申立てがある場合　当該破産手続開始の申立て
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-574-p3-kou-2
+    type: kou
+    text: 二　前号に掲げる場合以外の場合　特別清算開始の申立て
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -72,20 +107,30 @@ parent_section:
 
 ### 第五百七十四条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-574-p1-hashira -->
-<!-- segment: hashira id: kaisha-hou-art-574-p2-hashira -->
 裁判所は、特別清算開始後、次に掲げる場合において、清算株式会社に破産手続開始の原因となる事実があると認めるときは、職権で、破産法に従い、破産手続開始の決定をしなければならない。
+
+一　協定の見込みがないとき。
+
+二　協定の実行の見込みがないとき。
+
+三　特別清算によることが債権者の一般の利益に反するとき。
 
 ### 第五百七十四条第二項
 
 裁判所は、特別清算開始後、次に掲げる場合において、清算株式会社に破産手続開始の原因となる事実があると認めるときは、職権で、破産法に従い、破産手続開始の決定をすることができる。
 
+一　協定が否決されたとき。
+
+二　協定の不認可の決定が確定したとき。
+
 ### 第五百七十四条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-574-p3-hashira -->
 前二項の規定により破産手続開始の決定があった場合における破産法第七十一条第一項第四号並びに第二項第二号及び第三号、第七十二条第一項第四号並びに第二項第二号及び第三号、第百六十条（第一項第一号を除く。）、第百六十二条（第一項第二号を除く。）、第百六十三条第二項、第百六十四条第一項（同条第二項において準用する場合を含む。）、第百六十六条並びに第百六十七条第二項（同法第百七十条第二項において準用する場合を含む。）の規定の適用については、次の各号に掲げる区分に応じ、当該各号に定める申立てがあった時に破産手続開始の申立てがあったものとみなす。
+
+一　特別清算開始の申立ての前に特別清算開始の命令の確定によって効力を失った破産手続における破産手続開始の申立てがある場合　当該破産手続開始の申立て
+
+二　前号に掲げる場合以外の場合　特別清算開始の申立て
 
 ### 第五百七十四条第四項
 
-<!-- segment: simple id: kaisha-hou-art-574-p4 -->
 第一項又は第二項の規定により破産手続開始の決定があったときは、特別清算の手続のために清算株式会社に対して生じた債権及び特別清算の手続に関する清算株式会社に対する費用請求権は、財団債権とする。

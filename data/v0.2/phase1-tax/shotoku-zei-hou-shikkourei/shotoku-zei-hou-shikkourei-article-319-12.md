@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百十九条の十二
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-319-12-p1 -->
 法第二百三条の七（源泉徴収を要しない公的年金等）に規定する政令で定める金額は、百十八万円とする。

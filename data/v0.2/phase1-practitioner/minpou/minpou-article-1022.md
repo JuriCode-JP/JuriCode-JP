@@ -41,5 +41,4 @@ parent_section:
 
 ### 第千二十二条
 
-<!-- segment: simple id: minpou-art-1022-p1 -->
 遺言者は、いつでも、遺言の方式に従って、その遺言の全部又は一部を撤回することができる。

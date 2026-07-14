@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百四十六条第一項
 
-<!-- segment: simple id: kaisha-hou-art-146-p1 -->
 株主は、その有する株式に質権を設定することができる。
 
 ### 第百四十六条第二項
 
-<!-- segment: simple id: kaisha-hou-art-146-p2 -->
 株券発行会社の株式の質入れは、当該株式に係る株券を交付しなければ、その効力を生じない。

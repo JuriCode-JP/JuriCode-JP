@@ -45,5 +45,4 @@ parent_section:
 
 ### 第四百八十条
 
-<!-- segment: simple id: minpou-art-480-p1 -->
 削除

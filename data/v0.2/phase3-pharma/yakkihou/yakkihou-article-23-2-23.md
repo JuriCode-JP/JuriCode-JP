@@ -16,57 +16,174 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p1
+    type: simple
+    text: 厚生労働大臣が基準を定めて指定する高度管理医療機器、管理医療機器又は体外診断用医薬品（以下「指定高度管理医療機器等」という。）の製造販売をしようとする者又は外国において本邦に輸出される指定高度管理医療機器等の製造等をする者（以下「外国指定高度管理医療機器製造等事業者」という。）であつて第二十三条の三第一項の規定により選任した製造販売業者に指定高度管理医療機器等の製造販売をさせようとするものは、厚生労働省令で定めるところにより、品目ごとにその製造販売についての厚生労働大臣の登録を受けた者（以下「登録認証機関」という。）の認証を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p2-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当するときは、登録認証機関は、前項の認証を与えてはならない。
+    modality: unspecified
+    references:
+    - 前項
+  - id: yakkihou-art-23-2-23-p2-kou-1
+    type: kou
+    text: 一　申請者（外国指定高度管理医療機器製造等事業者を除く。）が、第二十三条の二第一項の許可（申請をした品目の種類に応じた許可に限る。）を受けていないとき。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-2-23-p2-kou-2
+    type: kou
+    text: 二　申請者（外国指定高度管理医療機器製造等事業者に限る。）が、第二十三条の二第一項の許可（申請をした品目の種類に応じた許可に限る。）を受けた製造販売業者を選任していないとき。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-23-2-23-p2-kou-3
+    type: kou
+    text: 三　申請に係る指定高度管理医療機器等を製造する製造所が、第二十三条の二の三第一項又は第二十三条の二の四第一項の登録を受けていないとき。
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-23-2-23-p2-kou-4
+    type: kou
+    text: 四　申請に係る指定高度管理医療機器等が、前項の基準に適合していないとき。
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-art-23-2-23-p2-kou-5
+    type: kou
+    text: 五　申請に係る指定高度管理医療機器等が政令で定めるものであるときは、その物の製造管理又は品質管理の方法が、第二十三条の二の五第二項第四号に規定する厚生労働省令で定める基準に適合していると認められないとき。
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p3-zen
+    type: zen_dan
+    text: 第一項の認証を受けようとする者は、厚生労働省令で定めるところにより、申請書に同項の厚生労働大臣が定める基準への適合性についての資料その他の資料を添付して申請しなければならない。
+    modality: gimu
+    references:
+    - 同項
+  - id: yakkihou-art-23-2-23-p3-kou
+    type: kou_dan
+    text: この場合において、当該資料は、厚生労働省令で定める基準に従つて収集され、かつ、作成されたものでなければならない。
+    modality: gimu
+    depends_on: yakkihou-art-23-2-23-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p4
+    type: simple
+    text: 第一項の認証を受けようとする者又は同項の認証を受けた者は、その認証に係る指定高度管理医療機器等が政令で定めるものであるときは、その物の製造管理又は品質管理の方法が第二十三条の二の五第二項第四号に規定する厚生労働省令で定める基準に適合しているかどうかについて、当該認証を受けようとするとき、及び当該認証の取得後三年を下らない政令で定める期間を経過するごとに、登録認証機関の書面による調査又は実地の調査を受けなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p5-hashira
+    type: hashira
+    text: 第一項の認証を受けようとする者又は同項の認証を受けた者は、その認証に係る指定高度管理医療機器等が次の各号のいずれにも該当するときは、前項の調査を受けることを要しない。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+  - id: yakkihou-art-23-2-23-p5-kou-1
+    type: kou
+    text: 一　第一項の認証を受けようとする者又は同項の認証を受けた者が既に第二十三条の二の六第一項の基準適合証又は次条第一項の基準適合証の交付を受けている場合であつて、これらの基準適合証に係る医療機器又は体外診断用医薬品と同一の第二十三条の二の五第七項第一号に規定する厚生労働省令で定める区分に属するものであるとき。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-2-23-p5-kou-2
+    type: kou
+    text: 二　第一項の認証に係る医療機器又は体外診断用医薬品を製造する全ての製造所（当該医療機器又は体外診断用医薬品の製造工程のうち滅菌その他の厚生労働省令で定めるもののみをするものを除く。以下この号において同じ。）が、前号の基準適合証に係る医療機器又は体外診断用医薬品を製造する製造所（同項の認証に係る医療機器又は体外診断用医薬品の製造工程と同一の製造工程が、当該製造所において、同号の基準適合証に係る医療機器又は体外診断用医薬品の製造工程として行われている場合に限る。）であるとき。
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p6
+    type: tokusoku
+    text: 前項の規定にかかわらず、登録認証機関は、第一項の認証に係る指定高度管理医療機器等の特性その他を勘案して必要があると認めるときは、当該医療機器又は体外診断用医薬品の製造管理又は品質管理の方法が第二十三条の二の五第二項第四号に規定する厚生労働省令で定める基準に適合しているかどうかについて、書面による調査又は実地の調査を行うことができる。この場合において、第一項の認証を受けようとする者又は同項の認証を受けた者は、当該調査を受けなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p7-zen
+    type: zen_dan
+    text: 第一項の認証を受けた者は、当該品目について認証を受けた事項の一部を変更しようとするとき（当該変更が厚生労働省令で定める軽微な変更であるときを除く。）は、その変更についての当該登録認証機関の認証を受けなければならない。
+    modality: gimu
+  - id: yakkihou-art-23-2-23-p7-kou
+    type: kou_dan
+    text: この場合においては、第二項から前項までの規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
+    depends_on: yakkihou-art-23-2-23-p7-zen
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p8
+    type: simple
+    text: 第一項の認証を受けた者は、前項の厚生労働省令で定める軽微な変更について、厚生労働省令で定めるところにより、当該登録認証機関にその旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p9-zen
+    type: zen_dan
+    text: 厚生労働大臣は、第四項及び第六項（これらの規定を第七項において準用する場合を含む。）の調査に立ち会うことができる。
+    modality: kanou_kenri
+  - id: yakkihou-art-23-2-23-p9-kou
+    type: kou_dan
+    text: この場合において、必要があるときは、厚生労働大臣は登録認証機関に助言を行うことができる。
+    modality: kanou_kenri
+    depends_on: yakkihou-art-23-2-23-p9-zen
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p10
+    type: simple
+    text: 厚生労働大臣は、機構に、前項の立会い及び助言を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-23-p11
+    type: junyou
+    text: 第二十三条の二の七第二項及び第六項の規定は、前項の規定により機構に立会い及び助言を行わせることとした場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -91,6 +208,16 @@ parent_section:
 
 次の各号のいずれかに該当するときは、登録認証機関は、前項の認証を与えてはならない。
 
+一　申請者（外国指定高度管理医療機器製造等事業者を除く。）が、第二十三条の二第一項の許可（申請をした品目の種類に応じた許可に限る。）を受けていないとき。
+
+二　申請者（外国指定高度管理医療機器製造等事業者に限る。）が、第二十三条の二第一項の許可（申請をした品目の種類に応じた許可に限る。）を受けた製造販売業者を選任していないとき。
+
+三　申請に係る指定高度管理医療機器等を製造する製造所が、第二十三条の二の三第一項又は第二十三条の二の四第一項の登録を受けていないとき。
+
+四　申請に係る指定高度管理医療機器等が、前項の基準に適合していないとき。
+
+五　申請に係る指定高度管理医療機器等が政令で定めるものであるときは、その物の製造管理又は品質管理の方法が、第二十三条の二の五第二項第四号に規定する厚生労働省令で定める基準に適合していると認められないとき。
+
 ### 第二十三条の二の二十三第三項
 
 第一項の認証を受けようとする者は、厚生労働省令で定めるところにより、申請書に同項の厚生労働大臣が定める基準への適合性についての資料その他の資料を添付して申請しなければならない。この場合において、当該資料は、厚生労働省令で定める基準に従つて収集され、かつ、作成されたものでなければならない。
@@ -102,6 +229,10 @@ parent_section:
 ### 第二十三条の二の二十三第五項
 
 第一項の認証を受けようとする者又は同項の認証を受けた者は、その認証に係る指定高度管理医療機器等が次の各号のいずれにも該当するときは、前項の調査を受けることを要しない。
+
+一　第一項の認証を受けようとする者又は同項の認証を受けた者が既に第二十三条の二の六第一項の基準適合証又は次条第一項の基準適合証の交付を受けている場合であつて、これらの基準適合証に係る医療機器又は体外診断用医薬品と同一の第二十三条の二の五第七項第一号に規定する厚生労働省令で定める区分に属するものであるとき。
+
+二　第一項の認証に係る医療機器又は体外診断用医薬品を製造する全ての製造所（当該医療機器又は体外診断用医薬品の製造工程のうち滅菌その他の厚生労働省令で定めるもののみをするものを除く。以下この号において同じ。）が、前号の基準適合証に係る医療機器又は体外診断用医薬品を製造する製造所（同項の認証に係る医療機器又は体外診断用医薬品の製造工程と同一の製造工程が、当該製造所において、同号の基準適合証に係る医療機器又は体外診断用医薬品の製造工程として行われている場合に限る。）であるとき。
 
 ### 第二十三条の二の二十三第六項
 

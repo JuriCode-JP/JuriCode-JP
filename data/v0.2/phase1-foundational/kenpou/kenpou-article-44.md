@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十四条
 
-<!-- segment: simple id: kenpou-art-44-p1 -->
 両議院の議員及びその選挙人の資格は、法律でこれを定める。但し、人種、信条、性別、社会的身分、門地、教育、財産又は収入によつて差別してはならない。

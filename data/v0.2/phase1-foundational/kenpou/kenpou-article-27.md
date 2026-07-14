@@ -55,15 +55,12 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: kenpou-art-27-p1 -->
 すべて国民は、勤労の権利を有し、義務を負ふ。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: kenpou-art-27-p2 -->
 賃金、就業時間、休息その他の勤労条件に関する基準は、法律でこれを定める。
 
 ### 第二十七条第三項
 
-<!-- segment: simple id: kenpou-art-27-p3 -->
 児童は、これを酷使してはならない。

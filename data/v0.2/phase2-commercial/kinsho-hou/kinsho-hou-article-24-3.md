@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-3-p1
+    type: junyou
+    text: 第十一条の規定は、重要な事項について虚偽の記載がある有価証券報告書（その訂正報告書を含む。次条において同じ。）を提出した者が当該記載について前条第一項において準用する第七条第一項の規定により訂正報告書を提出した日又は前条第一項において準用する第十条第一項の規定により訂正報告書の提出を命ぜられた日から一年以内に提出する第五条第一項に規定する届出書又は発行登録書若しくは発行登録追補書類について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第十一条
+    references:
+    - 前条
+    - 次条
 cases: []
 amendments: []
 tags:

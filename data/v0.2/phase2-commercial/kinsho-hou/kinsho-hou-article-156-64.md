@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-64-p1
+    type: simple
+    text: 金融商品取引業者等は、内閣府令で定めるところにより、取引情報蓄積機関又は指定外国取引情報蓄積機関に対し、非清算集中等取引情報（取引情報（前条第三項に規定する取引情報をいう。以下この章において同じ。）のうち、清算集中等取引情報（同項に規定する清算集中等取引情報をいう。第百九十八条の六第十七号の二の二において同じ。）を除いたものをいう。次項及び同号において同じ。）を提供しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-64-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、金融商品取引業者等は、取引情報蓄積機関又は指定外国取引情報蓄積機関に対し、災害その他内閣府令で定めるやむを得ない理由により非清算集中等取引情報を提供することができない場合には、内閣府令で定めるところにより、非清算集中等取引情報について内閣府令で定める事項に関する記録を作成し、これを保存し、内閣府令で定めるところにより、その保存する非清算集中等取引情報を内閣総理大臣に報告しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

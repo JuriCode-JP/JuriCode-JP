@@ -45,5 +45,4 @@ parent_section:
 
 ### 第八百十七条
 
-<!-- segment: junyou id: minpou-art-817-p1 applies_provisions: 第七百六十九条 -->
 第七百六十九条の規定は、離縁について準用する。

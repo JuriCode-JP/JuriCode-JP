@@ -37,5 +37,4 @@ parent_section:
 
 ### 第一条
 
-<!-- segment: simple id: kenpou-art-1-p1 -->
 天皇は、日本国の象徴であり日本国民統合の象徴であつて、この地位は、主権の存する日本国民の総意に基く。

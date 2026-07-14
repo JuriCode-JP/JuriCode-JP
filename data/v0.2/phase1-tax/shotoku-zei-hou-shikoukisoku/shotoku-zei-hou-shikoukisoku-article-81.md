@@ -23,6 +23,31 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: shotoku-zei-hou-shikoukisoku-art-81-p1-kou-1
+    type: kou
+    text: 一　国内に居所を有する個人　当該個人の居所地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-81-p1-kou-2
+    type: kou
+    text: 二　恒久的施設を有する非居住者（前号に掲げる者を除く。）　当該非居住者の恒久的施設を通じて行う事業に係る事務所、事業所その他これらに準ずるもの（これらが二以上あるときは、そのうち主たるものとする。）の所在地
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-81-p1-kou-3
+    type: kou
+    text: 三　恒久的施設を有しない非居住者（第一号に掲げる者を除く。）　当該非居住者の国外にある住所地又は居所地
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-81-p1-kou-4
+    type: kou
+    text: 四　恒久的施設を有する外国法人　当該外国法人の法人税法第十七条第一号（外国法人の納税地）に規定する事務所、事業所その他これらに準ずるもの（これらが二以上あるときはそのうち主たるものとし、当該外国法人が令第三百四条第二号（外国法人が課税の特例の適用を受けるための要件）に規定する登記をしているときは当該登記をしている事務所、事業所その他これらに準ずるものとする。）の所在地
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-81-p1-kou-5
+    type: kou
+    text: 五　恒久的施設を有しない外国法人　当該外国法人の国外にある本店又は主たる事務所の所在地
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -41,5 +66,14 @@ parent_section:
 
 ### 第八十一条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-81-p1-hashira -->
 法第二百二十四条第一項（利子、配当等の受領者の告知）に規定する財務省令で定める場所は、同項に規定する支払を受ける者（国内に住所を有する個人及び国内に本店又は主たる事務所を有する法人を除く。）の次の各号に掲げる区分に応じ、当該各号に定める場所とする。
+
+一　国内に居所を有する個人　当該個人の居所地
+
+二　恒久的施設を有する非居住者（前号に掲げる者を除く。）　当該非居住者の恒久的施設を通じて行う事業に係る事務所、事業所その他これらに準ずるもの（これらが二以上あるときは、そのうち主たるものとする。）の所在地
+
+三　恒久的施設を有しない非居住者（第一号に掲げる者を除く。）　当該非居住者の国外にある住所地又は居所地
+
+四　恒久的施設を有する外国法人　当該外国法人の法人税法第十七条第一号（外国法人の納税地）に規定する事務所、事業所その他これらに準ずるもの（これらが二以上あるときはそのうち主たるものとし、当該外国法人が令第三百四条第二号（外国法人が課税の特例の適用を受けるための要件）に規定する登記をしているときは当該登記をしている事務所、事業所その他これらに準ずるものとする。）の所在地
+
+五　恒久的施設を有しない外国法人　当該外国法人の国外にある本店又は主たる事務所の所在地

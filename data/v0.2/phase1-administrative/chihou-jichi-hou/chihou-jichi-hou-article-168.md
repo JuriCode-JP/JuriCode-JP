@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百六十八条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-168-p1 -->
 普通地方公共団体に会計管理者一人を置く。
 
 ### 第百六十八条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-168-p2 -->
 会計管理者は、普通地方公共団体の長の補助機関である職員のうちから、普通地方公共団体の長が命ずる。

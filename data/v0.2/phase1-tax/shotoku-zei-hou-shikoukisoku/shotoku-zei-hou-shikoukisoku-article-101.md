@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百一条
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-101-p1 -->
 削除

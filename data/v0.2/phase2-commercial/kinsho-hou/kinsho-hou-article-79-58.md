@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-58-p1
+    type: simple
+    text: 一般顧客である個人が、認定金融商品取引業者に対して有する補償対象債権（有価証券に係るものに限る。以下この項において同じ。）に係る第七十九条の五十六第一項の支払を受けたときは、その支払を受けた時に、その支払を受けた金額により、当該個人から当該支払をした基金に対し当該支払に係る補償対象債権（当該補償対象債権のうち当該支払をしたことにより当該基金が取得した部分に限る。）に係る有価証券の譲渡があつたものとみなして、所得税法（昭和四十年法律第三十三号）その他の所得税に関する法令の規定を適用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-58-p2
+    type: simple
+    text: 前項の規定の適用がある場合における租税特別措置法（昭和三十二年法律第二十六号）第四条の二及び第四条の三の規定の特例の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

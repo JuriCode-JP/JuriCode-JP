@@ -59,13 +59,10 @@ parent_section:
 
 ### 第二百八十九条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-289-p1 -->
 死刑又は無期若しくは長期三年を超える拘禁刑に当たる事件を審理する場合には、弁護人がなければ開廷することはできない。
 
 ### 第二百八十九条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-289-p2 -->
-<!-- segment: simple id: keiji-soshou-hou-art-289-p3 -->
 弁護人がなければ開廷することができない場合において、弁護人が出頭しないとき若しくは在廷しなくなつたとき、又は弁護人がないときは、裁判長は、職権で弁護人を付さなければならない。
 
 ### 第二百八十九条第三項

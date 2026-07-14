@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-13-2-p1
+    type: simple
+    text: 市町村は、別に法律の定めるところにより、その住民につき、住民たる地位に関する正確な記録を常に整備しておかなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

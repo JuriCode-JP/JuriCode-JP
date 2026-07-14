@@ -45,6 +45,4 @@ parent_section:
 
 ### 第百五十六条
 
-<!-- segment: honbun id: chihou-zei-hou-art-156-p1-honbun -->
-自動車税の納期は、五月中において、当該道府県の条例で定める。<!-- segment: tadashi id: chihou-zei-hou-art-156-p1-tadashi -->
-ただし、特別の事情がある場合には、これと異なる納期を定めることができる。
+自動車税の納期は、五月中において、当該道府県の条例で定める。ただし、特別の事情がある場合には、これと異なる納期を定めることができる。

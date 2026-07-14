@@ -66,20 +66,16 @@ parent_section:
 
 ### 第百四十条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-140-p1 -->
 委員会に、専門の事項を調査させるため、専門委員を置くことができる。
 
 ### 第百四十条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-140-p2 -->
 専門委員は、委員会の申出に基づいて内閣総理大臣が任命する。
 
 ### 第百四十条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-140-p3 -->
 専門委員は、当該専門の事項に関する調査が終了したときは、解任されるものとする。
 
 ### 第百四十条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-140-p4 -->
 専門委員は、非常勤とする。

@@ -14,14 +14,42 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-2-2-p1-hashira
+    type: hashira
+    text: 法第三十一条の三第三項の区域管理者が行う区域の管理に関する業務は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-149-2-2-p1-kou-1
+    type: kou
+    text: 一　法第三十一条の五第一項第一号に規定する区域管理者が有する権限に係る業務
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-149-2-2-p1-kou-2
+    type: kou
+    text: 二　第百四十九条の四第二項の規定による帳簿の記載
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-2-2-p2-hashira
+    type: hashira
+    text: 法第三十一条の三第三項の区域管理者が遵守すべき事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-149-2-2-p2-kou-1
+    type: kou
+    text: 一　保健衛生上支障を生ずるおそれがないように、その業務に関し配置員その他の従業者を監督し、医薬品その他の物品を管理し、その他その区域の業務につき、必要な注意をすること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-149-2-2-p2-kou-2
+    type: kou
+    text: 二　法第三十一条の三第二項の規定により配置販売業者に対して述べる意見を記載した書面の写しを三年間保存すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,6 +68,14 @@ parent_section:
 
 法第三十一条の三第三項の区域管理者が行う区域の管理に関する業務は、次のとおりとする。
 
+一　法第三十一条の五第一項第一号に規定する区域管理者が有する権限に係る業務
+
+二　第百四十九条の四第二項の規定による帳簿の記載
+
 ### 第百四十九条の二の二第二項
 
 法第三十一条の三第三項の区域管理者が遵守すべき事項は、次のとおりとする。
+
+一　保健衛生上支障を生ずるおそれがないように、その業務に関し配置員その他の従業者を監督し、医薬品その他の物品を管理し、その他その区域の業務につき、必要な注意をすること。
+
+二　法第三十一条の三第二項の規定により配置販売業者に対して述べる意見を記載した書面の写しを三年間保存すること。

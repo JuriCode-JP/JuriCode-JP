@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第百四十四条の三第二項に規定する自動車の内燃機関の用に供することができると認められる炭化水素油で政令で定めるものは、次に掲げる規格を有する炭化水素油とし、金属圧延の用に供する炭化水素油その他の炭化水素油で総務大臣が指定するものを除くものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-43-3-p1-kou-1
+    type: kou
+    text: 一　温度十五度における比重が〇・八七六二を超えないこと。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-43-3-p1-kou-2
+    type: kou
+    text: 二　分留性状九十パーセント留出温度が二百六十七度を超えないこと。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-43-3-p1-kou-3
+    type: kou
+    text: 三　残留炭素分が〇・二パーセントを超えないこと。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +74,18 @@ parent_section:
 
 ### 第四十三条の三第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-43-3-p1-hashira -->
 法第百四十四条の三第二項に規定する自動車の内燃機関の用に供することができると認められる炭化水素油で政令で定めるものは、次に掲げる規格を有する炭化水素油とし、金属圧延の用に供する炭化水素油その他の炭化水素油で総務大臣が指定するものを除くものとする。
+
+一　温度十五度における比重が〇・八七六二を超えないこと。
+
+二　分留性状九十パーセント留出温度が二百六十七度を超えないこと。
+
+三　残留炭素分が〇・二パーセントを超えないこと。
 
 ### 第四十三条の三第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-43-3-p2 -->
 前項の規格を有する炭化水素油には、揮発油税法（昭和三十二年法律第五十五号）第二条第一項に規定する揮発油（同法第六条において揮発油とみなされるものを含み、同法第十六条又は第十六条の二に規定する揮発油のうち灯油に該当するものを除く。）を含まないものとする。
 
 ### 第四十三条の三第三項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-43-3-p3 -->
 第四十三条第二項の規定は、第一項の規格について準用する。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百三十一条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-231-p1 -->
 法第六十八条の十七第二号の厚生労働省令で定める表示は、白地に黒枠、黒字をもつて記載する「特生物」の文字とする。

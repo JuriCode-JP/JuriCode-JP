@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-24-p1
+    type: simple
+    text: 法第六十八条の十三第四項の規定により厚生労働大臣に対して行う同条第一項の情報の整理の結果の通知は、様式第九十八の五による通知書によつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-24-p2
+    type: simple
+    text: 法第六十八条の十五第四項の規定により厚生労働大臣に対して行う同条第二項の調査の結果の通知は、様式第九十八の四による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

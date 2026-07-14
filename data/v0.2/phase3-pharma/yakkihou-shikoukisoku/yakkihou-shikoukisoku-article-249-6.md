@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-6-p1
+    type: simple
+    text: 法第七十五条の五の十一第二項の規定により延滞金を併せて徴収する場合において、事業者の納付した金額がその延滞金の額の計算の基礎となる課徴金の額に達するまでは、その納付した金額は、まずその計算の基礎となる課徴金に充てられたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

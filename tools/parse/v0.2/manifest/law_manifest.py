@@ -299,4 +299,6 @@ def write_law_manifest(manifest: LawManifest, output_path: Path) -> None:
     """
     data = manifest.model_dump(mode="json")
     text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
-    safe_write_text(output_path, text)
+    # newline="\n" 必須: 既定 (None) は OS ネイティブ = Windows で CRLF になり、
+    # git 追跡ファイル (manifest) に CRLF が入る (既知の事故源)。
+    safe_write_text(output_path, text, newline="\n")

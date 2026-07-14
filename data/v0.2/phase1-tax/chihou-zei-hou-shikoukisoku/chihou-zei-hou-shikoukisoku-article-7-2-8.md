@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-8-p1
+    type: simple
+    text: 道府県知事は、法第七十二条の百十三第二項の規定による通知があつた場合においては、速やかに、当該通知があつた日及び当該通知に係る徴収取扱費基礎額（政令第三十五条の十七第一項に規定する徴収取扱費基礎額をいう。）により算定した徴収取扱費（法第七十二条の百十三第一項に規定する徴収取扱費をいう。）の額を国に通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-8-p2
+    type: simple
+    text: 道府県は、前項の徴収取扱費の額を国が発行する納入告知書に基づき国庫に納付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

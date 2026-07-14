@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合において、請負人が既にした仕事の結果のうち可分な部分の給付によって注文者が利益を受けるときは、その部分を仕事の完成とみなす。この場合において、請負人は、注文者が受ける利益の割合に応じて報酬を請求することができる。
     modality: kanou_kenri
+  - id: minpou-art-634-p1-kou-1
+    type: kou
+    text: 一　注文者の責めに帰することができない事由によって仕事を完成することができなくなったとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-634-p1-kou-2
+    type: kou
+    text: 二　請負が仕事の完成前に解除されたとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第六百三十四条
 
-<!-- segment: hashira id: minpou-art-634-p1-hashira -->
 次に掲げる場合において、請負人が既にした仕事の結果のうち可分な部分の給付によって注文者が利益を受けるときは、その部分を仕事の完成とみなす。この場合において、請負人は、注文者が受ける利益の割合に応じて報酬を請求することができる。
+
+一　注文者の責めに帰することができない事由によって仕事を完成することができなくなったとき。
+
+二　請負が仕事の完成前に解除されたとき。

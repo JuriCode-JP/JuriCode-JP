@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-141-p1 -->
 検証をするについて必要があるときは、司法警察職員に補助をさせることができる。

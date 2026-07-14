@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-192-2-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、内閣府令で定めるところにより、この法律又はこの法律に基づく命令に違反する行為（以下この条において「法令違反行為」という。）を行つた者の氏名その他法令違反行為による被害の発生若しくは拡大を防止し、又は取引の公正を確保するために必要な事項を一般に公表することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

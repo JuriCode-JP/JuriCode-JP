@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-19-p1 -->
 個人情報取扱事業者は、違法又は不当な行為を助長し、又は誘発するおそれがある方法により個人情報を利用してはならない。

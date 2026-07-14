@@ -13,25 +13,53 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-252-2-p1-honbun
+    type: honbun
+    text: 共有物の管理者は、共有物の管理に関する行為をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-252-2-p1-tadashi
+    type: tadashi
+    text: ただし、共有者の全員の同意を得なければ、共有物に変更（その形状又は効用の著しい変更を伴わないものを除く。次項において同じ。）を加えることができない。
+    modality: kanou_negative
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-252-2-p2
+    type: simple
+    text: 共有物の管理者が共有者を知ることができず、又はその所在を知ることができないときは、裁判所は、共有物の管理者の請求により、当該共有者以外の共有者の同意を得て共有物に変更を加えることができる旨の裁判をすることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-252-2-p3
+    type: simple
+    text: 共有物の管理者は、共有者が共有物の管理に関する事項を決した場合には、これに従ってその職務を行わなければならない。
+    modality: gimu
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-252-2-p4-honbun
+    type: honbun
+    text: 前項の規定に違反して行った共有物の管理者の行為は、共有者に対してその効力を生じない。
+    modality: unspecified
+    references:
+    - 前項
+  - id: minpou-art-252-2-p4-tadashi
+    type: tadashi
+    text: ただし、共有者は、これをもって善意の第三者に対抗することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

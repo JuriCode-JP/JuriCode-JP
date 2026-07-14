@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-18-p1
+    type: simple
+    text: 個人の行う事業に対する事業税の徴収については、普通徴収の方法によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

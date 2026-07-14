@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-106-6-p1
+    type: tokusoku
+    text: 第百四条の四第二項の規定により取り消された免許について免許情報記録個人番号カードのみを有していた者に対し、同条第三項の規定により免許を与えるときは、第九十二条第一項の規定にかかわらず、第百六条の四第二項の規定による免許情報記録の書換えをもつて、当該免許を与えたものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第九十二条
 cases: []
 amendments: []
 tags:

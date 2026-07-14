@@ -16,22 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-3-p1
+    type: simple
+    text: 地方団体の長は、徴収の猶予をしたときは、当該徴収の猶予をした期間内は、当該徴収の猶予に係る地方団体の徴収金について、新たに督促及び滞納処分（交付要求を除く。）をすることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-3-p2
+    type: simple
+    text: 地方団体の長は、徴収の猶予をした場合において、当該徴収の猶予に係る地方団体の徴収金について差し押さえた財産があるときは、当該徴収の猶予を受けた者の申請により、その差押えを解除することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-3-p3
+    type: tokusoku
+    text: 地方団体の長は、徴収の猶予をした場合において、当該徴収の猶予に係る地方団体の徴収金について差し押さえた財産のうちに果実を生ずるもの又は有価証券、債権若しくは無体財産権等（国税徴収法第七十二条第一項に規定する無体財産権等をいう。第十六条の四第十項において同じ。）があるときは、第一項の規定にかかわらず、その取得した果実又は第三債務者等から給付を受けた財産で金銭以外のものについて滞納処分を執行し、その財産に係る換価代金等（同法第百二十九条第一項に規定する換価代金等をいう。第十九条の四第四号において同じ。）を当該徴収の猶予に係る地方団体の徴収金に充てることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-3-p4
+    type: tokusoku
+    text: 前項の場合において、同項の第三債務者等から給付を受けた財産のうちに金銭があるときは、第一項の規定にかかわらず、当該金銭を当該徴収の猶予に係る地方団体の徴収金に充てることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

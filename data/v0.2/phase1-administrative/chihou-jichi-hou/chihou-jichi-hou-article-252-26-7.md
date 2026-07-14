@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-7-p1
+    type: simple
+    text: 都道府県知事は、国民の安全に重大な影響を及ぼす事態が発生し、又は発生するおそれがある場合において、当該都道府県の区域内の市町村の実施する生命等の保護の措置が的確かつ迅速に講ぜられるようにするため特に必要があると認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援することを求めることができる場合を除き、市町村長又は市町村の委員会若しくは委員に対し、他の市町村長又は他の市町村の委員会若しくは委員を応援することを求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-7-p2
+    type: simple
+    text: 都道府県知事は、前項に規定する場合において、同項の規定による求めのみによつては同項の生命等の保護の措置に係る応援が円滑に実施されないと認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援すべきことを指示することができる場合を除き、市町村長又は市町村の委員会若しくは委員に対し、他の市町村長又は他の市町村の委員会若しくは委員を応援すべきことを指示することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-7-p3
+    type: simple
+    text: 前二項の規定による求め又は指示に係る応援を受ける市町村長又は市町村の委員会若しくは委員は、これらの規定の生命等の保護の措置の実施について、当該応援に従事する者を指揮する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

@@ -52,10 +52,8 @@ parent_section:
 
 ### 第三十四条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-34-p1 -->
 審判官は、証拠調べをする場合には、合議体の構成員に命じて証拠調べをさせることができる。
 
 ### 第三十四条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-34-p2 -->
 前項の規定により合議体の構成員に証拠調べをさせる場合においては、審判長がその審判官を指定する。

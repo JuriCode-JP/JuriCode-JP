@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百八十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-387-p1 -->
 控訴審では、弁護士以外の者を弁護人に選任することはできない。

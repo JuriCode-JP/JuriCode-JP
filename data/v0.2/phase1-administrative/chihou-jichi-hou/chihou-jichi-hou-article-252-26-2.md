@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-2-p1
+    type: simple
+    text: 第七条第一項又は第三項の規定により中核市に指定された市の区域の全部を含む区域をもつて市を設置する処分について同項の規定により総務大臣に届出又は申請があつた場合は、第二百五十二条の二十四第一項の関係市からの申出があつたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

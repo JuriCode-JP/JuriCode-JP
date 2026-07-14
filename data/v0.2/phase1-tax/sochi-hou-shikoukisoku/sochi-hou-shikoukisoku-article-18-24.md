@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-24-p1-kou-1
+    type: kou
+    text: 一　総収入金額については、当該組合事業又は信託から生ずる不動産所得に係る賃貸料その他の収入の別
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-24-p1-kou-2
+    type: kou
+    text: 二　必要経費については、当該組合事業又は信託から生ずる不動産所得に係る減価償却費、貸倒金、借入金利子及びその他の経費の別
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第十八条の二十四第一項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-24-p1-hashira -->
 その年において組合事業（法第四十一条の四の二第二項第二号に規定する組合事業をいう。以下この条において同じ。）又は信託から生ずる不動産所得を有する個人は、所得税法第百二十条第六項の規定により確定申告書に添付すべき同項の書類のほか、当該組合事業又は信託に係る次に掲げる項目別の金額その他参考となるべき事項を記載した施行令第二十六条の六の二第六項の明細書を確定申告書に添付しなければならない。
+
+一　総収入金額については、当該組合事業又は信託から生ずる不動産所得に係る賃貸料その他の収入の別
+
+二　必要経費については、当該組合事業又は信託から生ずる不動産所得に係る減価償却費、貸倒金、借入金利子及びその他の経費の別
 
 ### 第十八条の二十四第二項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-24-p2 -->
 施行令第二十六条の六の二第六項に規定する個人は、同項の明細書を各組合契約（法第四十一条の四の二第二項第一号に規定する組合契約をいう。）に係る組合事業又は信託ごとに作成するものとする。

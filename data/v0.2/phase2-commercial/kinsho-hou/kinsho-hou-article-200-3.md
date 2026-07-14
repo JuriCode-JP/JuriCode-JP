@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-200-3-p1
+    type: simple
+    text: 第百八十五条第二項又は第百八十五条の四第三項において準用する民事訴訟法第二百一条第一項の規定により宣誓した参考人又は鑑定人が虚偽の陳述又は鑑定をしたときは、三月以上十年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-200-3-p2
+    type: simple
+    text: 前項の罪を犯した者が、審判手続終了前であつて、かつ、犯罪の発覚する前に自白したときは、その刑を減軽又は免除することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

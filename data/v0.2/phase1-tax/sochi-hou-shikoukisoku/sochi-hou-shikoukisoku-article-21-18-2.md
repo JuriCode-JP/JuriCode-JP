@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-21-18-2-p1
+    type: simple
+    text: 法第六十一条の二第一項に規定する財務省令で定めるものは、農業経営基盤強化促進法第十九条第八項の規定による公告（以下この項において「公告」という。）があつた同条第一項に規定する地域計画（これを変更した旨の公告があつたときは、その変更後のもの）に、農業経営基盤強化促進法施行規則第十七条の規定によりその名称が記載されている認定農地所有適格法人（法第六十一条の二第一項に規定する認定農地所有適格法人をいう。）とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-21-18-2-p2
+    type: simple
+    text: 法第六十一条の二第一項に規定する財務省令で定める交付金又は補助金は、農業経営基盤強化促進法施行規則第二十五条の二第三号に掲げる交付金とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-21-18-2-p3
+    type: simple
+    text: 施行令第三十七条の二第一項に規定する財務省令で定めるところにより証明がされた金額は、法第六十一条の二第一項の規定の適用を受けようとする事業年度の確定申告書等に、農林水産大臣の同項に規定する認定計画に記載された施行令第三十七条の二第一項各号に掲げる固定資産の取得に充てるための金額である旨を証する書類又はその写しを添付することにより証明がされたものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

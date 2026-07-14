@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-30-p1
+    type: simple
+    text: 外部監査人（包括外部監査人及び個別外部監査人をいう。以下本章において同じ。）は、監査を実施するに当たつては、監査委員にその旨を通知する等相互の連絡を図るとともに、監査委員の監査の実施に支障を来さないよう配慮しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-30-p2
+    type: simple
+    text: 監査委員は、監査を実施するに当たつては、外部監査人の監査の実施に支障を来さないよう配慮しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-108-4-p1
+    type: simple
+    text: 削除
+    modality: unspecified
 cases: []
 amendments: []
 tags:

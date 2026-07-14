@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百二十八条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-128-p1 -->
 行政機関の長等は、行政機関等における個人情報、仮名加工情報又は匿名加工情報の取扱いに関する苦情の適切かつ迅速な処理に努めなければならない。

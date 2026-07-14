@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-65-p1
+    type: simple
+    text: 内閣総理大臣は、第六十六条の六十三第一項若しくは第三項若しくは前条の規定により第六十六条の五十の登録を取り消し、又は第六十六条の六十三第一項の規定により業務の全部若しくは一部の停止を命じたときは、内閣府令で定めるところにより、その旨を公告しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-416-p1 -->
 訂正の判決は、弁論を経ないでもこれをすることができる。

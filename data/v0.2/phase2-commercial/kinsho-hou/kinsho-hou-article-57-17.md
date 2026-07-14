@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-17-p1
+    type: simple
+    text: 内閣総理大臣は、対象特別金融商品取引業者の業務の健全かつ適切な運営に資するため、最終指定親会社が当該最終指定親会社及びその子法人等の経営の健全性を判断するための基準として、当該最終指定親会社及びその子法人等の保有する資産等に照らし当該最終指定親会社及びその子法人等の自己資本の充実の状況が適当であるかどうかの基準その他の最終指定親会社及びその子法人等の経営の健全性の状況を表示する基準を定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-17-p2
+    type: simple
+    text: 最終指定親会社は、最終指定親会社になつた日から起算して政令で定める期間が経過した日の属する最終指定親会社四半期（一月から三月まで、四月から六月まで、七月から九月まで及び十月から十二月までの各区分による期間をいう。以下この条において同じ。）以降、最終指定親会社四半期ごとに、内閣府令で定めるところにより、当該最終指定親会社四半期の末日における前項に規定する基準を用いて表示される経営の健全性の状況（次項及び第五十七条の二十一第一項から第三項までにおいて単に「経営の健全性の状況」という。）を記載した書面を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-17-p3
+    type: simple
+    text: 最終指定親会社は、最終指定親会社になつた日から起算して政令で定める期間が経過した日の属する最終指定親会社四半期以降、最終指定親会社四半期ごとに、当該最終指定親会社四半期の末日から起算して政令で定める期間を経過した日から三月間、内閣府令で定めるところにより、経営の健全性の状況を記載した書面を対象特別金融商品取引業者の全ての営業所又は事務所に備え置き、公衆の縦覧に供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

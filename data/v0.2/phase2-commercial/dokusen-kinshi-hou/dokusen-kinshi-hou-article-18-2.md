@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-18-2-p1
+    type: simple
+    text: この章において「違反行為期間」とは、第二十条の二から第二十条の六までに規定する違反行為のうちいずれかの違反行為をした事業者に係る当該違反行為をした日（当該事業者に対し当該違反行為について第四十七条第一項第一号、第三号又は第四号に掲げる処分が最初に行われた日（当該事業者に対し当該処分が行われなかつたときは、当該事業者が当該違反行為について事前通知（第二十条の二から第二十条の六までの規定により課徴金の納付を命ずる場合において、第六十二条第四項において読み替えて準用する第五十条第一項の規定により公正取引委員会が第二十条の二から第二十条の六までに規定する違反行為のうちいずれかの違反行為をした事業者に対してする通知をいう。次項において同じ。）を受けた日）の十年前の日前であるときは、同日）から当該違反行為がなくなる日までの期間をいう。
+    modality: teigi
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-18-2-p2
+    type: simple
+    text: この章において「調査開始日」とは、第二十条の二から第二十条の五までに規定する違反行為のうちいずれかの違反行為に係る事件について第四十七条第一項第一号、第三号又は第四号に掲げる処分が最初に行われた日（当該処分が行われなかつたときは、当該違反行為をした事業者が当該違反行為について事前通知を受けた日）をいう。
+    modality: teigi
 cases: []
 amendments: []
 tags:

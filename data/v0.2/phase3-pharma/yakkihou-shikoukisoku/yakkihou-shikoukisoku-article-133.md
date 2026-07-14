@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十三条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-133-p1 -->
 法第二十三条の十七第二項第三号に規定する厚生労働省令で定める方法は、当該電磁的記録に記録された事項を紙面又は出力装置の映像面に表示する方法とする。

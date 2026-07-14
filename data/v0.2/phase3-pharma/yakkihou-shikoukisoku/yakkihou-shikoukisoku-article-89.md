@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第十七条第九項の医薬品製造管理者が行う医薬品の製造の管理のために必要な業務は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-89-p1-kou-1
+    type: kou
+    text: 一　医薬品及び医薬部外品の製造管理及び品質管理の基準に関する省令（平成十六年厚生労働省令第百七十九号）により医薬品製造管理者が行うこととされた業務
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-89-p1-kou-2
+    type: kou
+    text: 二　法第十八条の二第三項第一号に規定する医薬品製造管理者が有する権限に係る業務
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,16 @@ paragraphs:
     type: hashira
     text: 法第十七条第九項の医薬品製造管理者が遵守すべき事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-89-p2-kou-1
+    type: kou
+    text: 一　製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-89-p2-kou-2
+    type: kou
+    text: 二　法第十七条第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,10 +66,16 @@ parent_section:
 
 ### 第八十九条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-89-p1-hashira -->
 法第十七条第九項の医薬品製造管理者が行う医薬品の製造の管理のために必要な業務は、次のとおりとする。
+
+一　医薬品及び医薬部外品の製造管理及び品質管理の基準に関する省令（平成十六年厚生労働省令第百七十九号）により医薬品製造管理者が行うこととされた業務
+
+二　法第十八条の二第三項第一号に規定する医薬品製造管理者が有する権限に係る業務
 
 ### 第八十九条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-89-p2-hashira -->
 法第十七条第九項の医薬品製造管理者が遵守すべき事項は、次のとおりとする。
+
+一　製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+
+二　法第十七条第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。

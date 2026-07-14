@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第七十四条の四第五項ただし書（当該職員の酒税に関する調査等に係る質問検査権）の規定により蒸留機（配管装置を含む。）及び酒類の輸送管（流量計を含む。）につき封を施すことができる箇所は、次に掲げる箇所とする。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-1
+    type: kou
+    text: 一　各部の接続部分
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-2
+    type: kou
+    text: 二　留出液のたれ口
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-3
+    type: kou
+    text: 三　留出液の試験採取口
+    modality: unspecified
+    item_number: 3
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げるもののほか、蒸留物を取り出すことができる箇所
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第三十条の二
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-hashira -->
 法第七十四条の四第五項ただし書（当該職員の酒税に関する調査等に係る質問検査権）の規定により蒸留機（配管装置を含む。）及び酒類の輸送管（流量計を含む。）につき封を施すことができる箇所は、次に掲げる箇所とする。
+
+一　各部の接続部分
+
+二　留出液のたれ口
+
+三　留出液の試験採取口
+
+四　前三号に掲げるもののほか、蒸留物を取り出すことができる箇所

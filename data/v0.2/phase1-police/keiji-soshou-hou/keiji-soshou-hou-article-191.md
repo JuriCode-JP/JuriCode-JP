@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百九十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-191-p1 -->
 検察官は、必要と認めるときは、自ら犯罪を捜査することができる。
 
 ### 第百九十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-191-p2 -->
 検察事務官は、検察官の指揮を受け、捜査をしなければならない。

@@ -13,15 +13,54 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-63-2-p1-honbun
+    type: honbun
+    text: 医療機器（次項に規定する医療機器を除く。）は、その容器又は被包に、電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて厚生労働省令で定めるものにより、第六十八条の二第一項の規定により公表された同条第二項に規定する注意事項等情報を入手するために必要な番号、記号その他の符号が記載されていなければならない。
+    modality: gimu
+    references:
+    - 次項
+  - id: yakkihou-art-63-2-p1-tadashi
+    type: tadashi
+    text: ただし、厚生労働省令で別段の定めをしたときは、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-63-2-p2-hashira
+    type: hashira
+    text: 主として一般消費者の生活の用に供されることが目的とされている医療機器その他の厚生労働省令で定める医療機器は、これに添付する文書又はその容器若しくは被包に、当該医療機器に関する最新の論文その他により得られた知見に基づき、次に掲げる事項が記載されていなければならない。ただし、厚生労働省令で別段の定めをしたときは、この限りでない。
+    modality: jogai
+  - id: yakkihou-art-63-2-p2-kou-1
+    type: kou
+    text: 一　使用方法その他使用及び取扱い上の必要な注意
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-63-2-p2-kou-2
+    type: kou
+    text: 二　厚生労働大臣の指定する医療機器にあつては、その保守点検に関する事項
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-63-2-p2-kou-3
+    type: kou
+    text: 三　第四十一条第三項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-63-2-p2-kou-4
+    type: kou
+    text: 四　第四十二条第二項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-art-63-2-p2-kou-5
+    type: kou
+    text: 五　前各号に掲げるもののほか、厚生労働省令で定める事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -45,3 +84,13 @@ parent_section:
 ### 第六十三条の二第二項
 
 主として一般消費者の生活の用に供されることが目的とされている医療機器その他の厚生労働省令で定める医療機器は、これに添付する文書又はその容器若しくは被包に、当該医療機器に関する最新の論文その他により得られた知見に基づき、次に掲げる事項が記載されていなければならない。ただし、厚生労働省令で別段の定めをしたときは、この限りでない。
+
+一　使用方法その他使用及び取扱い上の必要な注意
+
+二　厚生労働大臣の指定する医療機器にあつては、その保守点検に関する事項
+
+三　第四十一条第三項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+
+四　第四十二条第二項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+
+五　前各号に掲げるもののほか、厚生労働省令で定める事項

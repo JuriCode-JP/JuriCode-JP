@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百九条
 
-<!-- segment: simple id: roudou-kijun-hou-art-109-p1 -->
 使用者は、労働者名簿、賃金台帳及び雇入れ、解雇、災害補償、賃金その他労働関係に関する重要な書類を五年間保存しなければならない。

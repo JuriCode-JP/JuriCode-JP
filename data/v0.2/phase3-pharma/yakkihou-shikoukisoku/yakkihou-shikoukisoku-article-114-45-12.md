@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-12-p1
+    type: simple
+    text: 医療機器（人工知能関連技術を活用したものを除く。）に係る法第二十三条の二の十の二第六項の厚生労働省令で定める変更は、医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律関係手数料令（平成十七年政令第九十一号）第十二条第一項第一号イ（５）から（９）までに掲げる変更とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-12-p2
+    type: simple
+    text: 医療機器（人工知能関連技術を活用したものに限る。）に係る法第二十三条の二の十の二第六項の厚生労働省令で定める変更は、医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律関係手数料令第十二条第一項第一号イ（５）から（９）までに掲げる変更とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-12-p3
+    type: simple
+    text: 体外診断用医薬品に係る法第二十三条の二の十の二第六項の厚生労働省令で定める変更は、医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律関係手数料令第十二条第一項第一号ロ（１）及び（４）から（６）までに掲げる変更とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

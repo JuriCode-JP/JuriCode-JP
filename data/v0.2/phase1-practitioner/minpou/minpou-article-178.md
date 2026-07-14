@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十八条
 
-<!-- segment: simple id: minpou-art-178-p1 -->
 動産に関する物権の譲渡は、その動産の引渡しがなければ、第三者に対抗することができない。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-12-4-p1
+    type: simple
+    text: 国家公安委員会に、犯罪被害者等給付金の支給等による犯罪被害者等の支援に関する法律（昭和五十五年法律第三十六号）、オウム真理教犯罪被害者等を救済するための給付金の支給に関する法律（平成二十年法律第八十号）及び国外犯罪被害弔慰金等の支給に関する法律（平成二十八年法律第七十三号）の規定による裁定に係る審査請求について専門の事項を調査審議させるため、専門委員若干人を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-12-4-p2
+    type: simple
+    text: 専門委員の任命、任期その他専門委員に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

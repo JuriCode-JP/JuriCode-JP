@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 開示請求は、次に掲げる事項を記載した書面（第三項において「開示請求書」という。）を行政機関の長等に提出してしなければならない。
     modality: gimu
+  - id: kojin-jouhou-hogo-hou-art-77-p1-kou-1
+    type: kou
+    text: 一　開示請求をする者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-77-p1-kou-2
+    type: kou
+    text: 二　開示請求に係る保有個人情報が記録されている行政文書等の名称その他の開示請求に係る保有個人情報を特定するに足りる事項
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +41,8 @@ paragraphs:
     text: 前項の場合において、開示請求をする者は、政令で定めるところにより、開示請求に係る保有個人情報の本人であること（前条第二項の規定による開示請求にあっては、開示請求に係る保有個人情報の本人の代理人であること）を示す書類を提示し、又は提出しなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -67,16 +77,16 @@ parent_section:
 
 ### 第七十七条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-77-p1-hashira -->
 開示請求は、次に掲げる事項を記載した書面（第三項において「開示請求書」という。）を行政機関の長等に提出してしなければならない。
+
+一　開示請求をする者の氏名及び住所又は居所
+
+二　開示請求に係る保有個人情報が記録されている行政文書等の名称その他の開示請求に係る保有個人情報を特定するに足りる事項
 
 ### 第七十七条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-77-p2 -->
 前項の場合において、開示請求をする者は、政令で定めるところにより、開示請求に係る保有個人情報の本人であること（前条第二項の規定による開示請求にあっては、開示請求に係る保有個人情報の本人の代理人であること）を示す書類を提示し、又は提出しなければならない。
 
 ### 第七十七条第三項
 
-<!-- segment: zen_dan id: kojin-jouhou-hogo-hou-art-77-p3-zen -->
-行政機関の長等は、開示請求書に形式上の不備があると認めるときは、開示請求をした者（以下この節において「開示請求者」という。）に対し、相当の期間を定めて、その補正を求めることができる。<!-- segment: kou_dan id: kojin-jouhou-hogo-hou-art-77-p3-kou depends_on: kojin-jouhou-hogo-hou-art-77-p3-zen -->
-この場合において、行政機関の長等は、開示請求者に対し、補正の参考となる情報を提供するよう努めなければならない。
+行政機関の長等は、開示請求書に形式上の不備があると認めるときは、開示請求をした者（以下この節において「開示請求者」という。）に対し、相当の期間を定めて、その補正を求めることができる。この場合において、行政機関の長等は、開示請求者に対し、補正の参考となる情報を提供するよう努めなければならない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十一条
 
-<!-- segment: simple id: chihou-jichi-hou-art-11-p1 -->
 日本国民たる普通地方公共団体の住民は、この法律の定めるところにより、その属する普通地方公共団体の選挙に参与する権利を有する。

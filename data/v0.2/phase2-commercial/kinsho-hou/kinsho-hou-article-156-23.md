@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-23-p1
+    type: simple
+    text: 証券金融会社は、資本金の額が次条第一項に規定する業務を行うため必要かつ適当なものとして政令で定める金額以上の株式会社でなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

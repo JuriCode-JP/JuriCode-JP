@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-3-p1
+    type: simple
+    text: 免責的債務引受の引受人は、債務者に対して求償権を取得しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

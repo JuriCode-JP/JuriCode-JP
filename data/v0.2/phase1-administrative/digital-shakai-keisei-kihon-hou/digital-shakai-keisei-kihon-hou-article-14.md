@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十四条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-14-p1 -->
 地方公共団体は、基本理念にのっとり、デジタル社会の形成に関し、国との適切な役割分担を踏まえて、その地方公共団体の区域の特性を生かした自主的な施策を策定し、及び実施する責務を有する。

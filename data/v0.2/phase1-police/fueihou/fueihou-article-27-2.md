@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-27-2-p1
+    type: simple
+    text: 前条第一項の届出書を提出した者（同条第四項ただし書の規定により同項の書面の交付がされなかつた者を除く。）は、当該店舗型性風俗特殊営業以外の店舗型性風俗特殊営業を営む目的をもつて、広告又は宣伝をしてはならない。
+    modality: gimu_negative
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-27-2-p2
+    type: simple
+    text: 前項に規定する者以外の者は、店舗型性風俗特殊営業を営む目的をもつて、広告又は宣伝をしてはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

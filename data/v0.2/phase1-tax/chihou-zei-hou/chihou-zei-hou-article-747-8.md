@@ -16,32 +16,62 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-8-p1
+    type: simple
+    text: 特定徴収金の納付又は納入に関する事務（以下この章において「納付等事務」という。）を適切かつ確実に遂行することができる者として政令で定める者のうち機構が総務省令で定めるところにより指定するもの（以下この章において「機構指定納付受託者」という。）は、総務省令で定めるところにより、特定徴収金を納付し、又は納入しようとする者の委託を受けて、納付等事務を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-8-p2
+    type: simple
+    text: 機構は、前項の規定による指定をしたときは、機構指定納付受託者の名称、住所又は事務所の所在地その他総務省令で定める事項を総務大臣及び各地方団体に通知するとともに、遅滞なく、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-8-p3
+    type: simple
+    text: 機構指定納付受託者は、その名称、住所又は事務所の所在地を変更しようとするときは、総務省令で定めるところにより、あらかじめ、その旨を機構に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-8-p4
+    type: simple
+    text: 機構は、前項の規定による届出があつたときは、当該届出に係る事項を総務大臣及び各地方団体に通知するとともに、遅滞なく、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-8-p5
+    type: simple
+    text: 地方団体は、第一項の規定による指定に関し必要があると認めるときは、機構に対し意見を述べることができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-8-p6
+    type: simple
+    text: 地方団体が前項の規定により意見を述べたときは、機構は、当該意見を尊重して必要な措置をとるようにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

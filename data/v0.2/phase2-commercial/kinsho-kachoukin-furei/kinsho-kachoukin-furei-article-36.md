@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-36-p1 -->
 参考人審問の申出は、参考人を指定し、かつ、審問に要する見込みの時間を明らかにしてしなければならない。

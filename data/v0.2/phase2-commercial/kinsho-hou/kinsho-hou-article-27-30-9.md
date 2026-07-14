@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-9-p1-zen
+    type: zen_dan
+    text: 第十五条第二項から第四項まで（同条第六項（第二十三条の十二第三項（第二十七条において準用する場合を含む。）及び第二十七条において準用する場合を含む。）、第二十三条の十二第三項（第二十七条において準用する場合を含む。）及び第二十七条において準用する場合を含む。）の規定により目論見書を交付しなければならない者又は第二十三条の十二第七項（第二十七条において準用する場合を含む。）に規定する書類を交付する者は、内閣府令で定める場合には、当該目論見書又は当該書類の交付に代えて、当該目論見書又は当該書類に記載された事項を電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて内閣府令で定めるものにより提供することができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-27-30-9-p1-kou
+    type: kou_dan
+    text: この場合において、これらの事項を提供した者は、当該目論見書又は当該書類を交付したものとみなす。
+    modality: unspecified
+    depends_on: kinsho-hou-art-27-30-9-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-9-p2
+    type: junyou
+    text: 前項の規定は、第二十三条の十三第二項又は第五項の規定により交付しなければならない書面、第二十七条の九第三項又は第四項（これらの規定を第二十七条の二十二の二第二項において準用する場合を含む。）の規定により交付しなければならない公開買付説明書（第二十七条の九第一項（第二十七条の二十二の二第二項において準用する場合を含む。）に規定する公開買付説明書をいい、その訂正した公開買付説明書を含む。）及び第二十七条の二十四の規定により交付しなければならない通知書について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

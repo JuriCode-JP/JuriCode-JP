@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-4-p1
+    type: simple
+    text: 令第四十一条の五第二項の旅費（同条第一項第一号に規定するものに限る。）の額に相当する額（以下「旅費相当額」という。）を計算する場合において、法第二十三条の十六第二項第七号の検査のため、当該検査に係る事務所の所在地に出張する職員の旅費法第二条第四号の在勤官署の所在地は、東京都千代田区霞が関一丁目二番二号とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

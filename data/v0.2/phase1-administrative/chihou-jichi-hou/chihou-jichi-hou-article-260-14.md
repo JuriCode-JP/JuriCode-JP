@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-14-p1
+    type: simple
+    text: 認可地縁団体の代表者は、必要があると認めるときは、いつでも臨時総会を招集することができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-14-p2-honbun
+    type: honbun
+    text: 総構成員の五分の一以上から会議の目的である事項を示して請求があつたときは、認可地縁団体の代表者は、臨時総会を招集しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-260-14-p2-tadashi
+    type: tadashi
+    text: ただし、総構成員の五分の一の割合については、規約でこれと異なる割合を定めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

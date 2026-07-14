@@ -201,3 +201,23 @@ def test_golden_180_empty_cell_preserved() -> None:
     assert grid, "180 の grid が空"
     # いずれかの行に空セルが存在する (罫線結合を値複製していない証跡)
     assert any("" in row for row in grid), "空セルが維持されていない = 列潰れ"
+
+
+def test_table_cells_do_not_leak_ruby_readings() -> None:
+    """表セルにルビの読み (<Rt>) を混ぜない (法令本文の改変になる).
+
+    実際の欠陥: expand_virtual_grid が `"".join(cell.itertext())` でセル文字列を
+    作っていたため、`<Ruby>濾<Rt>ろ</Rt></Ruby>過` が「濾ろ過」、
+    `<Ruby>凝<Rt>ぎよう</Rt></Ruby>集` が「音波凝ぎよう集」になっていた
+    (地方税法施行規則 16-6 等)。同じ table_core 内に Rt を除外する
+    get_text_recursive がありながら、セルだけが素の itertext を通っていた。
+    """
+    row = ET.fromstring(
+        "<TableRow>"
+        "<TableColumn><Sentence>ばいじんを<Ruby>濾<Rt>ろ</Rt></Ruby>過し、"
+        "音波<Ruby>凝<Rt>ぎよう</Rt></Ruby>集する装置</Sentence></TableColumn>"
+        "</TableRow>"
+    )
+    cell = expand_virtual_grid([row])[0][0]
+    assert cell == "ばいじんを濾過し、音波凝集する装置"
+    assert "ろ" not in cell and "ぎよう" not in cell

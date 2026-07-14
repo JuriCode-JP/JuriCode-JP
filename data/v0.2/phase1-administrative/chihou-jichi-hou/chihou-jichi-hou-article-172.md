@@ -76,21 +76,16 @@ parent_section:
 
 ### 第百七十二条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-172-p1 -->
 前十一条に定める者を除くほか、普通地方公共団体に職員を置く。
 
 ### 第百七十二条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-172-p2 -->
 前項の職員は、普通地方公共団体の長がこれを任免する。
 
 ### 第百七十二条第三項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-172-p3-honbun -->
-第一項の職員の定数は、条例でこれを定める。<!-- segment: tadashi id: chihou-jichi-hou-art-172-p3-tadashi -->
-ただし、臨時又は非常勤の職については、この限りでない。
+第一項の職員の定数は、条例でこれを定める。ただし、臨時又は非常勤の職については、この限りでない。
 
 ### 第百七十二条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-172-p4 -->
 第一項の職員に関する任用、人事評価、給与、勤務時間その他の勤務条件、分限及び懲戒、服務、退職管理、研修、福祉及び利益の保護その他身分取扱いに関しては、この法律に定めるものを除くほか、地方公務員法の定めるところによる。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -24,6 +24,16 @@ paragraphs:
     override_flag: true
     override_target:
     - 第六十一条
+  - id: sochi-hou-art-31-4-p1-kou-1
+    type: kou
+    text: 一　その土地等の取得に要した金額と改良費の額との合計額
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-art-31-4-p1-kou-2
+    type: kou
+    text: 二　その建物等の取得に要した金額と設備費及び改良費の額との合計額につき所得税法第三十八条第二項の規定を適用した場合に同項の規定により取得費とされる金額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -56,10 +66,12 @@ parent_section:
 
 ### 第三十一条の四第一項
 
-<!-- segment: tokusoku id: sochi-hou-art-31-4-p1 override_flag: true override_target: 第六十一条 -->
 個人が昭和二十七年十二月三十一日以前から引き続き所有していた土地等又は建物等を譲渡した場合における長期譲渡所得の金額の計算上収入金額から控除する取得費は、所得税法第三十八条及び第六十一条の規定にかかわらず、当該収入金額の百分の五に相当する金額とする。ただし、当該金額がそれぞれ次の各号に掲げる金額に満たないことが証明された場合には、当該各号に掲げる金額とする。
+
+一　その土地等の取得に要した金額と改良費の額との合計額
+
+二　その建物等の取得に要した金額と設備費及び改良費の額との合計額につき所得税法第三十八条第二項の規定を適用した場合に同項の規定により取得費とされる金額
 
 ### 第三十一条の四第二項
 
-<!-- segment: junyou id: sochi-hou-art-31-4-p2 -->
 第三十条第二項の規定は、前項の規定を適用する場合について準用する。この場合において、同条第二項本文中「山林」とあるのは「第三十一条の四第一項に規定する土地等又は建物等（以下この項において「土地建物等」という。）」と、同項ただし書中「山林」とあるのは「土地建物等」と読み替えるものとする。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-8-p1
+    type: simple
+    text: 弁護人が公判前整理手続期日に出頭しないとき、又は在席しなくなつたときは、裁判長は、職権で弁護人を付さなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-8-p2
+    type: simple
+    text: 弁護人が公判前整理手続期日に出頭しないおそれがあるときは、裁判所は、職権で弁護人を付することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

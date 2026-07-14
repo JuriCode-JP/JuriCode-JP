@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-859-3-p1
+    type: simple
+    text: 成年後見人は、成年被後見人に代わって、その居住の用に供する建物又はその敷地について、売却、賃貸、賃貸借の解除又は抵当権の設定その他これらに準ずる処分をするには、家庭裁判所の許可を得なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-10-p1
+    type: simple
+    text: 国外運転免許証の交付を受けた者は、当該国外運転免許証の有効期間が満了し、又は当該国外運転免許証が失効したとき（当該国外運転免許証の有効期間が満了した時又は当該国外運転免許証が失効した時に本邦外の地域にある者については、本邦に帰国したとき。）は、すみやかに、当該国外運転免許証をその住所地を管轄する公安委員会に返納しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-10-p2
+    type: simple
+    text: 国外運転免許証の交付を受けた者は、当該国外運転免許証の効力が停止されたとき（当該国外運転免許証の効力が停止された時に本邦外の地域にあり、かつ、当該国外運転免許証の効力の停止の期間中に本邦に帰国した者については、帰国したとき。）は、すみやかに、当該国外運転免許証をその者の住所地を管轄する公安委員会に提出しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-10-p3
+    type: simple
+    text: 前項の規定により国外運転免許証の提出を受けた公安委員会は、当該国外運転免許証の効力の停止の期間が満了した場合においてその提出者から返還の請求があつたときは、直ちに当該国外運転免許証を返還しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-107-10-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百二十一条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -54,3 +72,5 @@ parent_section:
 ### 第百七条の十第三項
 
 前項の規定により国外運転免許証の提出を受けた公安委員会は、当該国外運転免許証の効力の停止の期間が満了した場合においてその提出者から返還の請求があつたときは、直ちに当該国外運転免許証を返還しなければならない。
+
+（罰則　第一項及び第二項については第百二十一条第一項第十号）

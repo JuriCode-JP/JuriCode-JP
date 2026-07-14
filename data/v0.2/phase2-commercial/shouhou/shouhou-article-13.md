@@ -41,5 +41,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: shouhou-art-13-p1 -->
 前条第一項の規定に違反した者は、百万円以下の過料に処する。

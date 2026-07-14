@@ -34,5 +34,4 @@ tags:
 
 ### 第三十六条
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-36-p1 -->
 電子文書法第四条第一項の主務省令で定める作成は、法第七百四十七条の十一第一項の規定に基づく書面の作成とする。

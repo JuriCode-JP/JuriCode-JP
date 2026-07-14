@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-7-p1
+    type: simple
+    text: 法第七十五条の五の十二第一項の規定による課徴金納付命令の執行の命令は、文書をもつて行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-7-p2
+    type: simple
+    text: 前項の命令書の謄本は、課徴金納付命令の執行を受ける者に送達しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

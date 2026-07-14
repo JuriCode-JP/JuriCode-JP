@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-3-2-p1
+    type: simple
+    text: 法律行為の当事者が意思表示をした時に意思能力を有しなかったときは、その法律行為は、無効とする。
+    modality: koka_mukou
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-20-7-p1
+    type: junyou
+    text: 第七条の二第三項並びに第七条の八第一項から第四項まで及び第六項の規定は、第二十条の二から前条までに規定する違反行為が行われた場合について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

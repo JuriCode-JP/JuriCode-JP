@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-14-p1
+    type: simple
+    text: 自主規制委員会を招集するには、自主規制委員長は、自主規制委員会の日の一週間（これを下回る期間を自主規制委員会で定めた場合にあつては、その期間）前までに、各自主規制委員に対してその通知を発しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-14-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、自主規制委員会は、自主規制委員の全員の同意があるときは、招集の手続を経ることなく開催することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-14-p3
+    type: simple
+    text: 特定株式会社金融商品取引所の執行役、取締役、会計参与又は会計監査人は、自主規制委員会の要求があつたときは、当該自主規制委員会に出席し、当該自主規制委員会が求めた事項について説明をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

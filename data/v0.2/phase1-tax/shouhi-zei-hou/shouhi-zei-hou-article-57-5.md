@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-5-p1
+    type: simple
+    text: 適格請求書発行事業者以外の者は第一号に掲げる書類及び第三号に掲げる電磁的記録（第一号に掲げる書類の記載事項に係るものに限る。）を、適格請求書発行事業者は第二号に掲げる書類及び第三号に掲げる電磁的記録（第二号に掲げる書類の記載事項に係るものに限る。）を、それぞれ他の者に対して交付し、又は提供してはならない。
+    modality: gimu_negative
+  - id: shouhi-zei-hou-art-57-5-p1-kou-1
+    type: kou
+    text: 一　適格請求書発行事業者が作成した適格請求書又は適格簡易請求書であると誤認されるおそれのある表示をした書類
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-art-57-5-p1-kou-2
+    type: kou
+    text: 二　偽りの記載をした適格請求書又は適格簡易請求書
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-art-57-5-p1-kou-3
+    type: kou
+    text: 三　第一号に掲げる書類の記載事項又は前号に掲げる書類の記載事項に係る電磁的記録
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments:
 - effective_date: '2023-10-01'
@@ -38,3 +57,9 @@ parent_section:
 ### 第五十七条の五
 
 適格請求書発行事業者以外の者は第一号に掲げる書類及び第三号に掲げる電磁的記録（第一号に掲げる書類の記載事項に係るものに限る。）を、適格請求書発行事業者は第二号に掲げる書類及び第三号に掲げる電磁的記録（第二号に掲げる書類の記載事項に係るものに限る。）を、それぞれ他の者に対して交付し、又は提供してはならない。
+
+一　適格請求書発行事業者が作成した適格請求書又は適格簡易請求書であると誤認されるおそれのある表示をした書類
+
+二　偽りの記載をした適格請求書又は適格簡易請求書
+
+三　第一号に掲げる書類の記載事項又は前号に掲げる書類の記載事項に係る電磁的記録

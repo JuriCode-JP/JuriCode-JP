@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六条の十六
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-6-16-p1 -->
 法第十七条の六第一項第三号に規定する政令で定める理由は、前条第二項に規定する理由とする。

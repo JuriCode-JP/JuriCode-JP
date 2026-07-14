@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-27-4-p1
+    type: simple
+    text: 法第四十一条の十八第二項に規定する総所得金額、退職所得金額及び山林所得金額の合計額の百分の四十に相当する金額は、法第八条の四第三項第三号、第二十八条の四第五項第二号、第三十一条第三項第三号（法第三十二条第四項において準用する場合を含む。）、第三十七条の十第六項第五号（法第三十七条の十一第六項及び第三十七条の十二第七項において準用する場合を含む。）又は第四十一条の十四第二項第四号の規定の適用がある場合には、これらの規定により読み替えられた所得税法第七十八条第一項第一号に規定する百分の四十に相当する金額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-27-4-p2
+    type: simple
+    text: 法第四十一条の十八第二項の規定による控除をすべき金額は、同条第一項に規定する指定期間内の年分の所得税法第九十二条第一項に規定する所得税額から控除する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

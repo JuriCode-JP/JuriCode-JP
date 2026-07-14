@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-14-4-p1
+    type: simple
+    text: 市町村長は、法第三百二十一条の八第五十五項に規定する仮装経理法人税割額を還付する場合には、法人の市町村民税の確定申告書（同項に規定する法人の市町村民税の確定申告書をいう。以下この項において同じ。）の同条第五十五項に規定する提出期限（当該提出期限後に法人の市町村民税の確定申告書の提出があつた場合にはその提出の日とし、同項の決定があつた場合にはその決定の日とする。）の翌日からその還付のための支出を決定し、又は前条の規定による充当をする日（同日前に充当をするのに適することとなつた日があるときは、その日）までの期間の日数に応じ、年七・三パーセントの割合を乗じて計算した金額をその還付し、又は充当すべき金額に加算しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-14-4-p2-zen
+    type: zen_dan
+    text: 法第十七条の四第二項（第一号を除く。）の規定は前項の規定による期間について、法第二十条の四の二第二項及び第五項の規定は前項の規定による仮装経理法人税割額に加算すべき金額について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: chihou-zei-hou-shikkourei-art-48-14-4-p2-kou
+    type: kou_dan
+    text: この場合において、法第十七条の四第二項（第一号を除く。）中「過誤納金」とあり、及び法第二十条の四の二第二項中「税額」とあるのは、「仮装経理法人税割額」と読み替えるものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-shikkourei-art-48-14-4-p2-zen
 cases: []
 amendments: []
 tags:

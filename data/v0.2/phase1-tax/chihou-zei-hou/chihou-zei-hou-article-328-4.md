@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-4-p1
+    type: simple
+    text: 市町村は、分離課税に係る所得割の徴収については、特別徴収の方法によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-47-p1
+    type: simple
+    text: 基金の役員若しくは職員若しくは審議会の委員又はこれらの職にあつた者は、その職務に関して知り得た秘密を漏らし、又は盗用してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-47-p2
+    type: simple
+    text: 基金の役員若しくは職員若しくは審議会の委員又はこれらの職にあつた者は、その職務に関して知り得た情報を、基金の業務の用に供する目的以外に利用してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

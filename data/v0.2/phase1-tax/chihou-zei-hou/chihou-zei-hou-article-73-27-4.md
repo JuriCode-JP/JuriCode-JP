@@ -16,27 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-4-p1
+    type: simple
+    text: 道府県は、譲渡担保権者が譲渡担保財産の取得（第七十三条の二第二項本文の規定が適用されるものを除く。）をした場合において、当該譲渡担保財産により担保される債権の消滅により当該譲渡担保財産の設定の日から二年以内に譲渡担保権者から譲渡担保財産の設定者に当該譲渡担保財産を移転したときは、譲渡担保権者による当該譲渡担保財産の取得に対する不動産取得税に係る地方団体の徴収金に係る納税義務を免除するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-4-p2
+    type: simple
+    text: 道府県は、不動産の取得に対して課する不動産取得税を賦課徴収する場合において、当該不動産の取得者から、当該道府県の条例で定めるところにより、当該不動産取得税について前項の規定の適用があるべき旨の申告があり、当該申告が真実であると認められるときは、当該取得の日から二年以内の期間を限つて、当該不動産に係る不動産取得税額を徴収猶予するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-4-p3
+    type: junyou
+    text: 第七十三条の二十五第二項及び第三項並びに第七十三条の二十六の規定は、前項の規定による徴収猶予について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-4-p4
+    type: simple
+    text: 道府県は、不動産の取得に対して課する不動産取得税に係る地方団体の徴収金を徴収した場合において、当該不動産取得税について第一項の規定の適用があることとなつたときは、当該譲渡担保権者の申請に基づいて、当該地方団体の徴収金を還付するものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-4-p5
+    type: junyou
+    text: 第七十三条の二第九項及び第十項の規定は、前項の規定による還付をする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

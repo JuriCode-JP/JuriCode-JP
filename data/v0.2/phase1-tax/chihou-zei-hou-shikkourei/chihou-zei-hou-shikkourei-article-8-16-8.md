@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-8-16-8-p1
+    type: simple
+    text: 法人税法第七十一条第一項（同法第七十二条第一項の規定が適用される場合に限る。）の規定により法人税に係る申告書を提出する義務がある法人について法第五十三条第十一項の規定を適用する場合における同条第十二項の規定の適用については、同項中「当該事業年度終了の日」とあるのは、「第一項に規定する六月経過日の前日」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

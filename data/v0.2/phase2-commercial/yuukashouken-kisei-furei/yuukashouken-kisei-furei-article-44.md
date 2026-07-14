@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十四条
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-44-p1 -->
 法第百六十五条の二第十二項の組合利益関係書類の写しは、関東財務局に備え置き、公衆の縦覧に供するものとする。

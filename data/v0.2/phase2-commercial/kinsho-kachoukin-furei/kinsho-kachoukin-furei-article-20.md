@@ -59,15 +59,12 @@ parent_section:
 
 ### 第二十条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-20-p1 -->
 第二回以後の審判手続の期日は、審判長が指定する。
 
 ### 第二十条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-20-p2 -->
 前項の審判手続の期日は、やむを得ない事由がある場合でなければ、変更することができない。
 
 ### 第二十条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-20-p3 -->
 第一項の審判手続の期日の呼出しは、呼出状の送達、当該事件について出頭した者に対する期日の告知その他相当と認める方法によってする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-10-p1
+    type: simple
+    text: 薬局開設者は、その薬局で調剤に従事する薬剤師が処方箋中に疑わしい点があると認める場合には、その薬局で調剤に従事する薬剤師をして、その処方箋を交付した医師、歯科医師又は獣医師に問い合わせて、その疑わしい点を確かめた後でなければ、これによつて調剤させてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

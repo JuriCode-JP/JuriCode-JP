@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: この節において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
     modality: unspecified
+  - id: souzoku-zei-hou-shikkourei-art-4-7-p1-kou-1
+    type: kou
+    text: 一　特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書　それぞれ法第二十一条の四第一項に規定する特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書をいう。
+    modality: teigi
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-4-7-p1-kou-2
+    type: kou
+    text: 二　特定障害者扶養信託契約　法第二十一条の四第二項に規定する特定障害者扶養信託契約をいう。
+    modality: teigi
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第四条の七
 
-<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-4-7-p1-hashira -->
 この節において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
+
+一　特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書　それぞれ法第二十一条の四第一項に規定する特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書をいう。
+
+二　特定障害者扶養信託契約　法第二十一条の四第二項に規定する特定障害者扶養信託契約をいう。

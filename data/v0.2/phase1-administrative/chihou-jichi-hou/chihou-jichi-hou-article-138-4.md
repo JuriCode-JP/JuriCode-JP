@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-4-p1
+    type: simple
+    text: 普通地方公共団体にその執行機関として普通地方公共団体の長の外、法律の定めるところにより、委員会又は委員を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-4-p2
+    type: simple
+    text: 普通地方公共団体の委員会は、法律の定めるところにより、法令又は普通地方公共団体の条例若しくは規則に違反しない限りにおいて、その権限に属する事務に関し、規則その他の規程を定めることができる。
+    modality: kanou_kenri
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-4-p3-honbun
+    type: honbun
+    text: 普通地方公共団体は、法律又は条例の定めるところにより、執行機関の附属機関として自治紛争処理委員、審査会、審議会、調査会その他の調停、審査、諮問又は調査のための機関を置くことができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-138-4-p3-tadashi
+    type: tadashi
+    text: ただし、政令で定める執行機関については、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

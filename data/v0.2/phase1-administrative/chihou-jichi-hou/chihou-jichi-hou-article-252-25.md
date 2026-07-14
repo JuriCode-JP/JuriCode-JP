@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-25-p1
+    type: junyou
+    text: 第二百五十二条の二十一の規定は、第二百五十二条の二十二第一項の規定による中核市の指定があつた場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

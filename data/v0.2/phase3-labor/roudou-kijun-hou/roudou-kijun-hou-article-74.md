@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十四条
 
-<!-- segment: simple id: roudou-kijun-hou-art-74-p1 -->
 削除

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-14-p1
+    type: simple
+    text: 特定贈与者から相続又は遺贈により財産を取得した者及び当該特定贈与者に係る相続時精算課税適用者の相続税の計算についての第十五条の規定の適用については、同条第一項中「（第十九条」とあるのは「（第十九条、第二十一条の十五又は第二十一条の十六」と、「同条」とあるのは「これら」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

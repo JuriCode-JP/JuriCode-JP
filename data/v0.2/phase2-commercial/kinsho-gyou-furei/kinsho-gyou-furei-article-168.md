@@ -21,6 +21,51 @@ paragraphs:
     type: hashira
     text: 第百五十七条第一項第十四号の現先取引勘定元帳には商品有価証券のうち現先取引に係るものについて、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-168-p1-kou-1
+    type: kou
+    text: 一　受渡年月日
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-168-p1-kou-2
+    type: kou
+    text: 二　約定年月日
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-168-p1-kou-3
+    type: kou
+    text: 三　銘柄
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-168-p1-kou-4
+    type: kou
+    text: 四　相手方の氏名又は名称
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-168-p1-kou-5
+    type: kou
+    text: 五　スタート又はエンドの別
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-168-p1-kou-6
+    type: kou
+    text: 六　借方又は貸方の区分
+    modality: unspecified
+    item_number: 6
+  - id: kinsho-gyou-furei-art-168-p1-kou-7
+    type: kou
+    text: 七　数量、単価、経過利息、金額及び現先レート
+    modality: unspecified
+    item_number: 7
+  - id: kinsho-gyou-furei-art-168-p1-kou-8
+    type: kou
+    text: 八　借方の残数量及び残金額
+    modality: unspecified
+    item_number: 8
+  - id: kinsho-gyou-furei-art-168-p1-kou-9
+    type: kou
+    text: 九　貸方の残数量及び残金額
+    modality: unspecified
+    item_number: 9
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +108,30 @@ parent_section:
 
 ### 第百六十八条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-168-p1-hashira -->
 第百五十七条第一項第十四号の現先取引勘定元帳には商品有価証券のうち現先取引に係るものについて、次に掲げる事項を記載しなければならない。
+
+一　受渡年月日
+
+二　約定年月日
+
+三　銘柄
+
+四　相手方の氏名又は名称
+
+五　スタート又はエンドの別
+
+六　借方又は貸方の区分
+
+七　数量、単価、経過利息、金額及び現先レート
+
+八　借方の残数量及び残金額
+
+九　貸方の残数量及び残金額
 
 ### 第百六十八条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-168-p2 -->
 前項の現先取引勘定元帳の作成に当たっては、現先取引の経過を個別に記載しなければならない。
 
 ### 第百六十八条第三項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-168-p3 -->
 前二項の規定にかかわらず、第一項第八号及び第九号に掲げる事項については、月末又は期末以外は記載を省略することができる。

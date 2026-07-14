@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第九条第一項第九号（非課税所得）に規定する政令で定める資産は、生活に通常必要な動産のうち、次に掲げるもの（一個又は一組の価額が三十万円を超えるものに限る。）以外のものとする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-25-p1-kou-1
+    type: kou
+    text: 一　貴石、半貴石、貴金属、真珠及びこれらの製品、べつこう製品、さんご製品、こはく製品、ぞうげ製品並びに七宝製品
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-25-p1-kou-2
+    type: kou
+    text: 二　書画、こつとう及び美術工芸品
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-25-p1-hashira -->
 法第九条第一項第九号（非課税所得）に規定する政令で定める資産は、生活に通常必要な動産のうち、次に掲げるもの（一個又は一組の価額が三十万円を超えるものに限る。）以外のものとする。
+
+一　貴石、半貴石、貴金属、真珠及びこれらの製品、べつこう製品、さんご製品、こはく製品、ぞうげ製品並びに七宝製品
+
+二　書画、こつとう及び美術工芸品

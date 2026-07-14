@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第七十八条第二項第二号（寄附金控除）の財務大臣の指定は、次に掲げる事項を審査して行うものとする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-216-p1-kou-1
+    type: kou
+    text: 一　寄附金を募集しようとする法人又は団体の行う事業の内容及び寄附金の使途
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-216-p1-kou-2
+    type: kou
+    text: 二　寄附金の募集の目的及び目標額並びにその募集の区域及び対象
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-216-p1-kou-3
+    type: kou
+    text: 三　寄附金の募集期間
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-216-p1-kou-4
+    type: kou
+    text: 四　募集した寄附金の管理の方法
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikkourei-art-216-p1-kou-5
+    type: kou
+    text: 五　寄附金の募集に要する経費
+    modality: unspecified
+    item_number: 5
+  - id: shotoku-zei-hou-shikkourei-art-216-p1-kou-6
+    type: kou
+    text: 六　その他当該指定のために必要な事項
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +80,20 @@ parent_section:
 
 ### 第二百十六条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-216-p1-hashira -->
 法第七十八条第二項第二号（寄附金控除）の財務大臣の指定は、次に掲げる事項を審査して行うものとする。
+
+一　寄附金を募集しようとする法人又は団体の行う事業の内容及び寄附金の使途
+
+二　寄附金の募集の目的及び目標額並びにその募集の区域及び対象
+
+三　寄附金の募集期間
+
+四　募集した寄附金の管理の方法
+
+五　寄附金の募集に要する経費
+
+六　その他当該指定のために必要な事項
 
 ### 第二百十六条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-216-p2 -->
 財務大臣は、前項の指定をしたときは、これを告示する。

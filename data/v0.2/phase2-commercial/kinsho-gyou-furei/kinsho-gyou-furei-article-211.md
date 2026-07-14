@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百十一条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-211-p1 -->
 令第十七条の三第一号ホに規定する金融機関のうち内閣府令で定めるものは、銀行とする。

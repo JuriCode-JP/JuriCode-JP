@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百三十五条
 
-<!-- segment: simple id: minpou-art-635-p1 -->
 削除

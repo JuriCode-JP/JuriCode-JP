@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-19-p1-honbun
+    type: honbun
+    text: 前条の規定により自主規制業務の委託を受けた自主規制法人は、当該委託を受けた自主規制業務を他の者に委託することができない。
+    modality: kanou_negative
+    references:
+    - 前条
+  - id: kinsho-hou-art-102-19-p1-tadashi
+    type: tadashi
+    text: ただし、委託金融商品取引所（自主規制法人に自主規制業務を委託した金融商品取引所をいう。以下この章において同じ。）の同意を得て、特定業務を他の者に委託する場合においては、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-19-p2
+    type: junyou
+    text: 第八十五条第五項の規定は、自主規制法人が前項ただし書の規定により特定業務を委託する場合について準用する。この場合において、同条第五項中「前項」とあるのは、「第百二条の十九第一項ただし書」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

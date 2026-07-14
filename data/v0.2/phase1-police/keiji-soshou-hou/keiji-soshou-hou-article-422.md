@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百二十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-422-p1 -->
 即時抗告の提起期間は、三日とする。

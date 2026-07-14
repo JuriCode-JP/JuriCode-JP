@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 国外に居住することとなつた個人が次の各号のいずれかに該当する場合には、その者は、国内に住所を有しない者と推定する。
     modality: unspecified
+  - id: shotoku-zei-hou-shikkourei-art-15-p1-kou-1
+    type: kou
+    text: 一　その者が国外において、継続して一年以上居住することを通常必要とする職業を有すること。
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-15-p1-kou-2
+    type: kou
+    text: 二　その者が外国の国籍を有し又は外国の法令によりその外国に永住する許可を受けており、かつ、その者が国内において生計を一にする配偶者その他の親族を有しないことその他国内におけるその者の職業及び資産の有無等の状況に照らし、その者が再び国内に帰り、主として国内に居住するものと推測するに足りる事実がないこと。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第十五条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-15-p1-hashira -->
 国外に居住することとなつた個人が次の各号のいずれかに該当する場合には、その者は、国内に住所を有しない者と推定する。
+
+一　その者が国外において、継続して一年以上居住することを通常必要とする職業を有すること。
+
+二　その者が外国の国籍を有し又は外国の法令によりその外国に永住する許可を受けており、かつ、その者が国内において生計を一にする配偶者その他の親族を有しないことその他国内におけるその者の職業及び資産の有無等の状況に照らし、その者が再び国内に帰り、主として国内に居住するものと推測するに足りる事実がないこと。
 
 ### 第十五条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-15-p2 -->
 前項の規定により国内に住所を有しない者と推定される個人と生計を一にする配偶者その他その者の扶養する親族が国外に居住する場合には、これらの者も国内に住所を有しない者と推定する。

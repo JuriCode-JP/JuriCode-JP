@@ -16,47 +16,108 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p1
+    type: simple
+    text: 第二十九条の登録を受けようとする者が第一種金融商品取引業のうち第一種少額電子募集取扱業務のみを行おうとする場合における第一種少額電子募集取扱業務についての第二十九条の二第一項第六号及び第二項第一号の規定の適用については、同条第一項第六号中「その旨」とあるのは「その旨（第一種金融商品取引業のうち第二十九条の四の二第九項に規定する第一種少額電子募集取扱業務のみを行う場合にあつては、その旨を含む。）」と、同条第二項第一号中「第五号ハ」とあるのは「第五号ハ、第六号イ」とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p2
+    type: simple
+    text: 前条第一項第五号ハ及び第六号イの規定（これらの規定を第三十一条第五項において準用する場合を含む。）は、前項の場合又は第三十一条第四項の変更登録を受けようとする者が第一種金融商品取引業のうち第一種少額電子募集取扱業務のみを行おうとする場合における第一種少額電子募集取扱業務については、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p3
+    type: tokusoku
+    text: 第一種少額電子募集取扱業者（投資運用業を行う者を除く。次項において同じ。）は、第三十五条第三項の規定にかかわらず、同条第二項各号に掲げる業務を行うこととなつた旨を内閣総理大臣に届け出ることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第三十五条
+    references:
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p4
+    type: tokusoku
+    text: 第一種少額電子募集取扱業者は、金融商品取引業並びに第三十五条第一項及び第二項の規定により行う業務以外の業務を行う場合には、同条第四項の規定にかかわらず、内閣総理大臣の承認を受けることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第四項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p5
+    type: simple
+    text: 第三十六条の二第一項の規定は、第一種少額電子募集取扱業者が第一種少額電子募集取扱業務を行う場合については、適用しない。
+    modality: jogai
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p6
+    type: simple
+    text: 第四十六条の五及び第四十六条の六の規定は、第一種少額電子募集取扱業者については、適用しない。
+    modality: jogai
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p7
+    type: simple
+    text: 第一種少額電子募集取扱業者が第一種少額電子募集取扱業務を行う場合における第二十七条の二第四項（第二十七条の二十二の二第二項において準用する場合を含む。）、第二十七条の二十六第一項及び第六十六条の二第一項第四号の規定の適用については、これらの規定中「第一種金融商品取引業」とあるのは「第一種金融商品取引業（第二十九条の四の二第九項に規定する第一種少額電子募集取扱業務を除く。）」と、第二十七条の二十六第一項中「同条第四項」とあるのは「第二十八条第四項」とする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p8
+    type: simple
+    text: 第三項から前項までの「第一種少額電子募集取扱業者」とは、登録申請書に第一種金融商品取引業のうち第一種少額電子募集取扱業務のみを行う旨を記載して第二十九条の登録又は第三十一条第四項の変更登録を受けた者をいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 9
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-2-p9-hashira
+    type: hashira
+    text: 第一項、第二項、第五項及び前二項の「第一種少額電子募集取扱業務」とは、電子募集取扱業務（次に掲げる有価証券（金融商品取引所に上場されていないものに限り、政令で定めるものを除く。以下この項において同じ。）の募集の取扱い又は私募の取扱いであつて、当該有価証券の発行価額の総額及び当該有価証券を取得する者が払い込む額が少額であるものとして政令で定める要件を満たすものに限る。以下この項において同じ。）又は電子募集取扱業務に関して顧客から金銭の預託を受けることをいう。
+    modality: teigi
+    references:
+    - 前二項
+  - id: kinsho-hou-art-29-4-2-p9-kou-1
+    type: kou
+    text: 一　第二条第一項第九号に掲げる有価証券
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-29-4-2-p9-kou-2
+    type: kou
+    text: 二　第二条第二項の規定により有価証券とみなされる同項第五号又は第六号に掲げる権利（電子記録移転権利に該当するものに限る。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -110,3 +171,7 @@ parent_section:
 ### 第二十九条の四の二第九項
 
 第一項、第二項、第五項及び前二項の「第一種少額電子募集取扱業務」とは、電子募集取扱業務（次に掲げる有価証券（金融商品取引所に上場されていないものに限り、政令で定めるものを除く。以下この項において同じ。）の募集の取扱い又は私募の取扱いであつて、当該有価証券の発行価額の総額及び当該有価証券を取得する者が払い込む額が少額であるものとして政令で定める要件を満たすものに限る。以下この項において同じ。）又は電子募集取扱業務に関して顧客から金銭の預託を受けることをいう。
+
+一　第二条第一項第九号に掲げる有価証券
+
+二　第二条第二項の規定により有価証券とみなされる同項第五号又は第六号に掲げる権利（電子記録移転権利に該当するものに限る。）

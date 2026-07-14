@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-15-p1
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の十の二第九項の規定により機構に同条第一項の確認を行わせることとしたときは、令第三十七条の三十に規定する医療機器又は体外診断用医薬品に係る法第二十三条の二の十の二第一項の確認の申請者は、機構に当該確認の申請をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-15-p2
+    type: simple
+    text: 前項の申請は、様式第六十三の十九の九による申請書を当該申請に係る品目の法第二十三条の二の十の二第一項の確認の申請書に添付して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

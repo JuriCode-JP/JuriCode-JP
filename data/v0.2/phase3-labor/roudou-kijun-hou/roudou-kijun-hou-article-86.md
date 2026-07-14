@@ -51,10 +51,8 @@ parent_section:
 
 ### 第八十六条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-86-p1 -->
 前条の規定による審査及び仲裁の結果に不服のある者は、労働者災害補償保険審査官の審査又は仲裁を申し立てることができる。
 
 ### 第八十六条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-86-p2 -->
 前条第三項の規定は、前項の規定により審査又は仲裁の申立てがあつた場合に、これを準用する。

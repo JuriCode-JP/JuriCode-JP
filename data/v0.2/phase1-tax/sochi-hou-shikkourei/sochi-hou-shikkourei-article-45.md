@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第八十五条第一項に規定する政令で定める物品は、次に掲げる物品とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-45-p1-kou-1
+    type: kou
+    text: 一　酒類及び製造たばこ
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-45-p1-kou-2
+    type: kou
+    text: 二　関税法（昭和二十九年法律第六十一号）第二条第一項第九号及び第十号に規定する船用品及び機用品（前号に掲げる物品を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -46,10 +56,12 @@ parent_section:
 
 ### 第四十五条第一項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-45-p1-hashira -->
 法第八十五条第一項に規定する政令で定める物品は、次に掲げる物品とする。
+
+一　酒類及び製造たばこ
+
+二　関税法（昭和二十九年法律第六十一号）第二条第一項第九号及び第十号に規定する船用品及び機用品（前号に掲げる物品を除く。）
 
 ### 第四十五条第二項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-45-p2 -->
 法第八十五条第一項に規定する政令で定める船舶は、漁業法（昭和二十四年法律第二百六十七号）第三十六条第一項の許可を受けた船舶であつて母船式漁業（製造設備、冷蔵設備その他の処理設備を有する母船及びこれと一体となつて漁業に従事する船舶により行う漁業をいう。）に従事するもののうち財務省令で定めるものとする。

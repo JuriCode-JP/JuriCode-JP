@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-103-4-p1
+    type: simple
+    text: 内閣総理大臣は、前条第一項の対象議決権保有届出書のうちに虚偽の記載があり、又は記載すべき事項の記載が欠けている疑いがあると認めるときは、当該対象議決権保有届出書の提出者に対し参考となるべき報告若しくは資料の提出を命じ、又は当該職員にその者の書類その他の物件の検査（当該対象議決権保有届出書の記載に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

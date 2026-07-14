@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百九十二条
 
-<!-- segment: simple id: minpou-art-792-p1 -->
 二十歳に達した者は、養子をすることができる。

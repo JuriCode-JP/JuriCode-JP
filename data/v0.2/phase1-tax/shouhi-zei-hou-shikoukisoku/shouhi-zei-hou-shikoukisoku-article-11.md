@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第九条第四項に規定する届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p1-kou-1
+    type: kou
+    text: 一　届出者の氏名又は名称（代表者の氏名を含む。以下この章において同じ。）、納税地（納税地と住所等とが異なる場合には、納税地及び住所等。以下この号において同じ。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p1-kou-2
+    type: kou
+    text: 二　届出者の行う事業の内容
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p1-kou-3
+    type: kou
+    text: 三　法第九条第四項に規定する翌課税期間の初日の年月日
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p1-kou-4
+    type: kou
+    text: 四　前号に規定する翌課税期間の基準期間における課税売上高（法第九条第一項に規定する基準期間における課税売上高をいう。以下この条において同じ。）
+    modality: unspecified
+    item_number: 4
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +55,31 @@ paragraphs:
     type: hashira
     text: 法第九条第五項に規定する同条第四項の規定の適用を受けることをやめようとする旨の届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p2-kou-1
+    type: kou
+    text: 一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p2-kou-2
+    type: kou
+    text: 二　法第九条第四項に規定する翌課税期間の初日の年月日
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p2-kou-3
+    type: kou
+    text: 三　法第九条第八項に規定する課税期間の末日の翌日の年月日
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p2-kou-4
+    type: kou
+    text: 四　前号に規定する翌日の属する課税期間の基準期間における課税売上高
+    modality: unspecified
+    item_number: 4
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p2-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +89,21 @@ paragraphs:
     type: hashira
     text: 法第九条第五項に規定する事業を廃止した旨の届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p3-kou-1
+    type: kou
+    text: 一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p3-kou-2
+    type: kou
+    text: 二　事業を廃止した年月日
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p3-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: true
@@ -48,6 +113,32 @@ paragraphs:
     type: hashira
     text: 令第二十条の二第三項に規定する財務省令で定める事項は、次の各号に掲げる区分に応じ当該各号に定める事項とする。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p4-kou-1
+    type: kou
+    text: '一　令第二十条の二第一項の承認を受けようとする事業者　次に掲げる事項
+
+      イ　申請者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+      ロ　申請者の行う事業の内容
+
+      ハ　法第九条第四項の規定の適用を受けようとする課税期間の基準期間における課税売上高
+
+      ニ　その他参考となるべき事項'
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-11-p4-kou-2
+    type: kou
+    text: '二　令第二十条の二第二項の承認を受けようとする事業者　次に掲げる事項
+
+      イ　申請者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+      ロ　法第九条第四項に規定する翌課税期間の初日の年月日
+
+      ハ　法第九条第四項の規定の適用を受けることをやめようとする課税期間の基準期間における課税売上高
+
+      ニ　その他参考となるべき事項'
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -64,20 +155,62 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-11-p1-hashira -->
 法第九条第四項に規定する届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の氏名又は名称（代表者の氏名を含む。以下この章において同じ。）、納税地（納税地と住所等とが異なる場合には、納税地及び住所等。以下この号において同じ。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+二　届出者の行う事業の内容
+
+三　法第九条第四項に規定する翌課税期間の初日の年月日
+
+四　前号に規定する翌課税期間の基準期間における課税売上高（法第九条第一項に規定する基準期間における課税売上高をいう。以下この条において同じ。）
+
+五　その他参考となるべき事項
 
 ### 第十一条第二項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-11-p2-hashira -->
 法第九条第五項に規定する同条第四項の規定の適用を受けることをやめようとする旨の届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+二　法第九条第四項に規定する翌課税期間の初日の年月日
+
+三　法第九条第八項に規定する課税期間の末日の翌日の年月日
+
+四　前号に規定する翌日の属する課税期間の基準期間における課税売上高
+
+五　その他参考となるべき事項
 
 ### 第十一条第三項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-11-p3-hashira -->
 法第九条第五項に規定する事業を廃止した旨の届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+二　事業を廃止した年月日
+
+三　その他参考となるべき事項
 
 ### 第十一条第四項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-11-p4-hashira -->
 令第二十条の二第三項に規定する財務省令で定める事項は、次の各号に掲げる区分に応じ当該各号に定める事項とする。
+
+一　令第二十条の二第一項の承認を受けようとする事業者　次に掲げる事項
+
+　イ　申請者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+　ロ　申請者の行う事業の内容
+
+　ハ　法第九条第四項の規定の適用を受けようとする課税期間の基準期間における課税売上高
+
+　ニ　その他参考となるべき事項
+
+二　令第二十条の二第二項の承認を受けようとする事業者　次に掲げる事項
+
+　イ　申請者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+　ロ　法第九条第四項に規定する翌課税期間の初日の年月日
+
+　ハ　法第九条第四項の規定の適用を受けることをやめようとする課税期間の基準期間における課税売上高
+
+　ニ　その他参考となるべき事項

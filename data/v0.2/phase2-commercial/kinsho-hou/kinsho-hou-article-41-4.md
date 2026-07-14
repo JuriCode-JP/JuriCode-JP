@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-41-4-p1
+    type: simple
+    text: 金融商品取引業者等は、有価証券等管理業務として行う場合その他政令で定める場合を除くほか、その行う投資助言業務に関して、いかなる名目によるかを問わず、顧客から金銭若しくは有価証券の預託を受け、又は当該金融商品取引業者等と密接な関係を有する者として政令で定める者に顧客の金銭若しくは有価証券を預託させてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

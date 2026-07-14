@@ -26,6 +26,21 @@ paragraphs:
     - 第四項
     references:
     - 前条
+  - id: kaisha-hou-art-239-p1-kou-1
+    type: kou
+    text: 一　その委任に基づいて募集事項の決定をすることができる募集新株予約権の内容及び数の上限
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-239-p1-kou-2
+    type: kou
+    text: 二　前号の募集新株予約権につき金銭の払込みを要しないこととする場合には、その旨
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-239-p1-kou-3
+    type: kou
+    text: 三　前号に規定する場合以外の場合には、募集新株予約権の払込金額の下限
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -37,6 +52,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kaisha-hou-art-239-p2-kou-1
+    type: kou
+    text: 一　前項第二号に規定する場合において、金銭の払込みを要しないこととすることが当該者に特に有利な条件であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-239-p2-kou-2
+    type: kou
+    text: 二　前項第三号に規定する場合において、同号の払込金額の下限が当該者に特に有利な金額であるとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -85,21 +110,26 @@ parent_section:
 
 ### 第二百三十九条第一項
 
-<!-- segment: tokusoku id: kaisha-hou-art-239-p1 override_flag: true override_target: 第四項 -->
 前条第二項及び第四項の規定にかかわらず、株主総会においては、その決議によって、募集事項の決定を取締役（取締役会設置会社にあっては、取締役会）に委任することができる。この場合においては、次に掲げる事項を定めなければならない。
+
+一　その委任に基づいて募集事項の決定をすることができる募集新株予約権の内容及び数の上限
+
+二　前号の募集新株予約権につき金銭の払込みを要しないこととする場合には、その旨
+
+三　前号に規定する場合以外の場合には、募集新株予約権の払込金額の下限
 
 ### 第二百三十九条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-239-p2-hashira -->
 次に掲げる場合には、取締役は、前項の株主総会において、第一号の条件又は第二号の金額で募集新株予約権を引き受ける者の募集をすることを必要とする理由を説明しなければならない。
+
+一　前項第二号に規定する場合において、金銭の払込みを要しないこととすることが当該者に特に有利な条件であるとき。
+
+二　前項第三号に規定する場合において、同号の払込金額の下限が当該者に特に有利な金額であるとき。
 
 ### 第二百三十九条第三項
 
-<!-- segment: simple id: kaisha-hou-art-239-p3 -->
 第一項の決議は、割当日が当該決議の日から一年以内の日である前条第一項の募集についてのみその効力を有する。
 
 ### 第二百三十九条第四項
 
-<!-- segment: honbun id: kaisha-hou-art-239-p4-honbun -->
-種類株式発行会社において、募集新株予約権の目的である株式の種類の全部又は一部が譲渡制限株式であるときは、当該募集新株予約権に関する募集事項の決定の委任は、前条第四項の定款の定めがある場合を除き、当該種類株主総会の決議がなければ、その効力を生じない。<!-- segment: tadashi id: kaisha-hou-art-239-p4-tadashi -->
-ただし、当該種類株主総会において議決権を行使することができる種類株主が存しない場合は、この限りでない。
+種類株式発行会社において、募集新株予約権の目的である株式の種類の全部又は一部が譲渡制限株式であるときは、当該募集新株予約権に関する募集事項の決定の委任は、前条第四項の定款の定めがある場合を除き、当該種類株主総会の決議がなければ、その効力を生じない。ただし、当該種類株主総会において議決権を行使することができる種類株主が存しない場合は、この限りでない。

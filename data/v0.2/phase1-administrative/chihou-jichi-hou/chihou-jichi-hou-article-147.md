@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百四十七条
 
-<!-- segment: simple id: chihou-jichi-hou-art-147-p1 -->
 普通地方公共団体の長は、当該普通地方公共団体を統轄し、これを代表する。

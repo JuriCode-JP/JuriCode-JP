@@ -16,17 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-2-p1
+    type: simple
+    text: 認可協会は、金融商品取引業者でなければ、これを設立することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-2-p2
+    type: simple
+    text: 金融商品取引業者は、認可協会を設立しようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-2-p3-hashira
+    type: hashira
+    text: 次の各号に掲げる者は、当該各号に定める業務を行う範囲において、前二項、第六十八条第一項及び第二項、第七十八条第一項、第七十九条の七第一項並びに第七十九条の十一の規定の適用については、金融商品取引業者とみなす。
+    modality: unspecified
+    references:
+    - 前二項
+  - id: kinsho-hou-art-67-2-p3-kou-1
+    type: kou
+    text: 一　登録金融機関　登録金融機関業務
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-67-2-p3-kou-2
+    type: kou
+    text: 二　金融商品取引業又は登録金融機関業務に類するものとして内閣府令で定める業務を行う者　当該業務
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -56,3 +80,7 @@ parent_section:
 ### 第六十七条の二第三項
 
 次の各号に掲げる者は、当該各号に定める業務を行う範囲において、前二項、第六十八条第一項及び第二項、第七十八条第一項、第七十九条の七第一項並びに第七十九条の十一の規定の適用については、金融商品取引業者とみなす。
+
+一　登録金融機関　登録金融機関業務
+
+二　金融商品取引業又は登録金融機関業務に類するものとして内閣府令で定める業務を行う者　当該業務

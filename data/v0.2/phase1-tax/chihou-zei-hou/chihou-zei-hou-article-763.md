@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七百六十三条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-763-p1 -->
 機構は、法人とする。
 
 ### 第七百六十三条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-763-p2 -->
 機構の住所は、その主たる事務所の所在地にあるものとする。

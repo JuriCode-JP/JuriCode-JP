@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-6-p1
+    type: simple
+    text: 法第二十三条第一項第四号の二イ（１）に規定する総務省令で定める剰余金は、会社計算規則（平成十八年法務省令第十三号）第二十九条第二項第一号に規定する額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-6-p2-hashira
+    type: hashira
+    text: 法第二十三条第一項第四号の二イ（３）に規定する剰余金として計上したもので総務省令で定めるものは、次の各号に掲げる場合の区分に応じ、それぞれ当該各号に定める額とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-6-p2-kou-1
+    type: kou
+    text: 一　会社法（平成十七年法律第八十六号）第四百四十七条の規定により資本金の額を減少した場合　会社計算規則第二十七条第一項第一号に規定する額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-6-p2-kou-2
+    type: kou
+    text: 二　会社法第四百四十八条の規定により準備金の額を減少した場合　会社計算規則第二十七条第一項第二号に規定する額
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-6-p3
+    type: simple
+    text: 前項各号に定める額は、会社法第四百五十二条の規定により損失の塡補に充てた日以前一年間において剰余金として計上した額に限るものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-6-p4
+    type: simple
+    text: 法第二十三条第一項第四号の二イ（３）に規定する総務省令で定める損失は、会社法第四百五十二条の規定により損失の塡補に充てた日における会社計算規則第二十九条に規定するその他利益剰余金の額が零を下回る場合における当該零を下回る額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -50,6 +78,10 @@ tags:
 ### 第一条の九の六第二項
 
 法第二十三条第一項第四号の二イ（３）に規定する剰余金として計上したもので総務省令で定めるものは、次の各号に掲げる場合の区分に応じ、それぞれ当該各号に定める額とする。
+
+一　会社法（平成十七年法律第八十六号）第四百四十七条の規定により資本金の額を減少した場合　会社計算規則第二十七条第一項第一号に規定する額
+
+二　会社法第四百四十八条の規定により準備金の額を減少した場合　会社計算規則第二十七条第一項第二号に規定する額
 
 ### 第一条の九の六第三項
 

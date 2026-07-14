@@ -16,32 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-17-p1
+    type: simple
+    text: 厚生労働大臣は、第二十三条の二の五第一項に規定する医療機器又は体外診断用医薬品であつて本邦に輸出されるものにつき、外国においてその製造等をする者から申請があつたときは、品目ごとに、その者が第三項の規定により選任した医療機器又は体外診断用医薬品の製造販売業者に製造販売をさせることについての承認を与えることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-17-p2
+    type: simple
+    text: 申請者が、第七十五条の二の二第一項の規定によりその受けた承認の全部又は一部を取り消され、取消しの日から三年を経過していない者であるときは、前項の承認を与えないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-17-p3
+    type: simple
+    text: 第一項の承認を受けようとする者は、本邦内において当該承認に係る医療機器又は体外診断用医薬品による保健衛生上の危害の発生の防止に必要な措置をとらせるため、医療機器又は体外診断用医薬品の製造販売業者（当該承認に係る品目の種類に応じた製造販売業の許可を受けている者に限る。）を当該承認の申請の際選任しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-17-p4
+    type: tokusoku
+    text: 第一項の承認を受けた者（以下「外国製造医療機器等特例承認取得者」という。）が前項の規定により選任した医療機器又は体外診断用医薬品の製造販売業者（以下「選任外国製造医療機器等製造販売業者」という。）は、第二十三条の二の五第一項の規定にかかわらず、当該承認に係る品目の製造販売をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-17-p5
+    type: simple
+    text: 第一項の承認については、第二十三条の二の五第二項（第一号を除く。）及び第三項から第十五項まで並びに第二十三条の二の六から第二十三条の二の七までの規定を準用する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-17-p6
+    type: simple
+    text: 前項において準用する第二十三条の二の五第十三項の承認については、同条第十五項、第二十三条の二の六、第二十三条の二の六の二及び第二十三条の二の七の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

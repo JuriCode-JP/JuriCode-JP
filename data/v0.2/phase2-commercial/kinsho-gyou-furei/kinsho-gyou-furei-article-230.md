@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百三十条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-230-p1 -->
 法第六十条の八第三項の規定による公告は、官報により行うものとする。

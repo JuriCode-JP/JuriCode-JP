@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-41-3-p1-honbun
+    type: honbun
+    text: 金融商品取引業者等は、その行う投資助言業務に関して、顧客を相手方とし、又は顧客のために第二条第八項第一号から第四号までに掲げる行為をしてはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-41-3-p1-tadashi
+    type: tadashi
+    text: ただし、第一種金融商品取引業として行う場合その他政令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

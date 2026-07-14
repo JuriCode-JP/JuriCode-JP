@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-113-p1
+    type: simple
+    text: 道府県は、国が貨物割の賦課徴収に関する事務を行うために要する費用を補償するため、政令で定めるところにより、徴収取扱費を国に支払わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-113-p2
+    type: simple
+    text: 国は、政令で定めるところにより、前項の徴収取扱費の算定に関し必要な事項を道府県知事に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-113-p3
+    type: simple
+    text: 道府県知事は、前項の規定による通知があつた場合においては、その通知があつた日から三十日以内に、第一項の徴収取扱費を支払うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

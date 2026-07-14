@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-35-p1 -->
 裁判所は、裁判所の規則の定めるところにより、被告人又は被疑者の弁護人の数を制限することができる。但し、被告人の弁護人については、特別の事情のあるときに限る。

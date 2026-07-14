@@ -16,52 +16,111 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p1
+    type: simple
+    text: 前条第六項の通知に係る同条第一項の市町村長の処分に不服がある関係市町村長は、道府県知事（関係市町村が二以上の道府県に係るときは、総務大臣）に対し、決定を求める旨を申し出ることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p2
+    type: simple
+    text: 道府県知事又は総務大臣は、前項の申出を受けた場合においては、その申出を受けた日から三十日以内に、その決定をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p3
+    type: simple
+    text: 道府県知事又は総務大臣は、前項の決定をした場合においては、遅滞なく、その旨を関係市町村長及び当該納税者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p4
+    type: simple
+    text: 第二項の規定による道府県知事の決定に不服がある市町村長は、前項の通知を受けた日から三十日以内に総務大臣に裁決を求める旨を申し出ることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p5-zen
+    type: zen_dan
+    text: 第三項の通知を郵便又は信書便をもつて発送した場合においてその到達した日が明らかでないときは、その発送した日から四日を経過した日をもつて同項の通知を受けた日とみなす。
+    modality: unspecified
+    references:
+    - 同項
+  - id: chihou-zei-hou-art-321-15-p5-kou
+    type: kou_dan
+    text: この場合において、市町村長が到達した日を立証し得るときは、その立証に係る日をもつて通知を受けた日とみなす。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-321-15-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p6
+    type: simple
+    text: 第四項の申出に関する書類を郵便又は信書便をもつて差し出す場合においては、送付に要した日数は、同項の期間に算入しない。
+    modality: unspecified
+    references:
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p7
+    type: simple
+    text: 総務大臣は、第四項の申出を受けた場合においては、その日から六十日以内にその裁決をしなければならない。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p8
+    type: simple
+    text: 総務大臣は、前項の裁決をした場合においては、遅滞なく、その旨を関係市町村長及び当該納税者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p9
+    type: simple
+    text: 総務大臣は、第二項の決定又は第七項の裁決をしようとするときは、地方財政審議会の意見を聴かなければならない。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-15-p10
+    type: simple
+    text: 第二項の規定による総務大臣の決定又は第七項の規定による総務大臣の裁決について違法があると認める市町村長は、その決定又は裁決の通知を受けた日から三十日以内に裁判所に出訴することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -48,8 +48,6 @@ parent_section:
 
 ### 第九条第一項
 
-<!-- segment: simple id: jouhou-koukai-hou-art-9-p1 -->
-<!-- segment: simple id: jouhou-koukai-hou-art-9-p2 -->
 行政機関の長は、開示請求に係る行政文書の全部又は一部を開示するときは、その旨の決定をし、開示請求者に対し、その旨及び開示の実施に関し政令で定める事項を書面により通知しなければならない。
 
 ### 第九条第二項

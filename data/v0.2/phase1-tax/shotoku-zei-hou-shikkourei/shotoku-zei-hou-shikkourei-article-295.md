@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百九十五条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-295-p1 -->
 法第百六十八条（更正及び決定）において準用する法第二編第八章（更正及び決定）の規定の適用に係る事項については、前編第八章（更正及び決定）の規定を準用する。

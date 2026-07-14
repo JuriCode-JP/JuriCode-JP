@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-2-p1
+    type: simple
+    text: 第八十三条第一項の規定により読み替えて適用される第二十三条の二十二第一項の許可を受けた者でなければ、動物用再生医療等製品（専ら動物のために使用されることが目的とされている再生医療等製品をいう。以下同じ。）の製造をしてはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-2-p2
+    type: simple
+    text: 前項の規定は、試験研究の目的で使用するために製造をする場合その他の農林水産省令で定める場合には、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第七十条の十二第二項に規定する財務省令で定める書類は、次に掲げる事項を記載した書類及び物納に充てようとする同条第一項に規定する特定登録美術品（以下この条において「特定登録美術品」という。）に係る美術品の美術館における公開の促進に関する法律施行規則（平成十年文部省令第四十三号）第十七条に規定する評価価格通知書（当該物納の許可の申請に係る相続があつたことにより、同令第十六条第一項の規定による申請を行つた個人に対し通知されたものに限る。）の写しとする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-1
+    type: kou
+    text: 一　物納に充てようとする特定登録美術品について美術品の美術館における公開の促進に関する法律施行規則第十六条第一項の規定による価格の評価の申請を行つた個人の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-2
+    type: kou
+    text: 二　当該特定登録美術品の名称、員数及び種類
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-3
+    type: kou
+    text: 三　当該特定登録美術品の寸法、重量、材質その他の特徴
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-4
+    type: kou
+    text: 四　当該特定登録美術品につき相続税の課税価格に算入した価額
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-5
+    type: kou
+    text: 五　美術品の美術館における公開の促進に関する法律施行規則第三条の美術品登録簿に記載された当該特定登録美術品の登録年月日及び登録番号
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-6
+    type: kou
+    text: 六　その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -37,5 +67,16 @@ parent_section:
 
 ### 第二十三条の十七
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-23-17-p1-hashira -->
 法第七十条の十二第二項に規定する財務省令で定める書類は、次に掲げる事項を記載した書類及び物納に充てようとする同条第一項に規定する特定登録美術品（以下この条において「特定登録美術品」という。）に係る美術品の美術館における公開の促進に関する法律施行規則（平成十年文部省令第四十三号）第十七条に規定する評価価格通知書（当該物納の許可の申請に係る相続があつたことにより、同令第十六条第一項の規定による申請を行つた個人に対し通知されたものに限る。）の写しとする。
+
+一　物納に充てようとする特定登録美術品について美術品の美術館における公開の促進に関する法律施行規則第十六条第一項の規定による価格の評価の申請を行つた個人の氏名及び住所又は居所
+
+二　当該特定登録美術品の名称、員数及び種類
+
+三　当該特定登録美術品の寸法、重量、材質その他の特徴
+
+四　当該特定登録美術品につき相続税の課税価格に算入した価額
+
+五　美術品の美術館における公開の促進に関する法律施行規則第三条の美術品登録簿に記載された当該特定登録美術品の登録年月日及び登録番号
+
+六　その他参考となるべき事項

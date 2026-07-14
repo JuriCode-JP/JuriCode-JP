@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百八十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-283-p1 -->
 被告人が法人である場合には、代理人を出頭させることができる。

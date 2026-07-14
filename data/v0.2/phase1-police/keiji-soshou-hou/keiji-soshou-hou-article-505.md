@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-505-p1 -->
 罰金又は科料を完納することができない場合における労役場留置の執行については、刑の執行に関する規定を準用する。

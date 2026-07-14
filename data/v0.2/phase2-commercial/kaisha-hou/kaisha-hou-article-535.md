@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 特別清算開始の命令があった場合には、清算株式会社が次に掲げる行為をするには、裁判所の許可を得なければならない。ただし、第五百二十七条第一項の規定により監督委員が選任されているときは、これに代わる監督委員の同意を得なければならない。
     modality: gimu
+  - id: kaisha-hou-art-535-p1-kou-1
+    type: kou
+    text: 一　財産の処分（次条第一項各号に掲げる行為を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-535-p1-kou-2
+    type: kou
+    text: 二　借財
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-535-p1-kou-3
+    type: kou
+    text: 三　訴えの提起
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-535-p1-kou-4
+    type: kou
+    text: 四　和解又は仲裁合意（仲裁法（平成十五年法律第百三十八号）第二条第一項に規定する仲裁合意をいう。）
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-535-p1-kou-5
+    type: kou
+    text: 五　権利の放棄
+    modality: unspecified
+    item_number: 5
+  - id: kaisha-hou-art-535-p1-kou-6
+    type: kou
+    text: 六　その他裁判所の指定する行為
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: true
@@ -36,6 +66,16 @@ paragraphs:
     references:
     - 前項
     - 同項
+  - id: kaisha-hou-art-535-p2-kou-1
+    type: kou
+    text: 一　最高裁判所規則で定める額以下の価額を有するものに関するとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-535-p2-kou-2
+    type: kou
+    text: 二　前号に掲げるもののほか、裁判所が前項の許可を要しないものとしたものに関するとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: true
   has_items: false
@@ -71,16 +111,28 @@ parent_section:
 
 ### 第五百三十五条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-535-p1-hashira -->
 特別清算開始の命令があった場合には、清算株式会社が次に掲げる行為をするには、裁判所の許可を得なければならない。ただし、第五百二十七条第一項の規定により監督委員が選任されているときは、これに代わる監督委員の同意を得なければならない。
+
+一　財産の処分（次条第一項各号に掲げる行為を除く。）
+
+二　借財
+
+三　訴えの提起
+
+四　和解又は仲裁合意（仲裁法（平成十五年法律第百三十八号）第二条第一項に規定する仲裁合意をいう。）
+
+五　権利の放棄
+
+六　その他裁判所の指定する行為
 
 ### 第五百三十五条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-535-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、同項第一号から第五号までに掲げる行為については、次に掲げる場合には、同項の許可を要しない。
+
+一　最高裁判所規則で定める額以下の価額を有するものに関するとき。
+
+二　前号に掲げるもののほか、裁判所が前項の許可を要しないものとしたものに関するとき。
 
 ### 第五百三十五条第三項
 
-<!-- segment: honbun id: kaisha-hou-art-535-p3-honbun -->
-第一項の許可又はこれに代わる監督委員の同意を得ないでした行為は、無効とする。<!-- segment: tadashi id: kaisha-hou-art-535-p3-tadashi -->
-ただし、これをもって善意の第三者に対抗することができない。
+第一項の許可又はこれに代わる監督委員の同意を得ないでした行為は、無効とする。ただし、これをもって善意の第三者に対抗することができない。

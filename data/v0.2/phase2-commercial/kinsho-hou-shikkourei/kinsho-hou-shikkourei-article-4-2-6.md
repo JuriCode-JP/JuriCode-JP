@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-6-p1
+    type: simple
+    text: 法第二十四条の四の三第一項（法第二十七条において準用する場合を含む。以下この条において同じ。）の規定において確認書について法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-6-p2
+    type: simple
+    text: 法第二十四条の四の三第二項（法第二十七条において準用する場合を含む。以下この項において同じ。）において法第二十四条の四の三第一項において準用する法第七条第一項、第九条第一項又は第十条第一項の規定により確認書の訂正確認書（法第二十四条の四の三第一項に規定する訂正確認書をいう。以下同じ。）が提出された場合について法の規定を準用する場合における法第二十四条の四の三第二項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-6-p3
+    type: simple
+    text: 法第二十四条の四の三第三項（法第二十七条において準用する場合を含む。以下この項において同じ。）において法第二十四条の四の三第一項において準用する法第七条第一項、第九条第一項又は第十条第一項の規定により外国会社が提出した確認書の訂正確認書を提出する場合について法の規定を準用する場合における法第二十四条の四の三第三項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

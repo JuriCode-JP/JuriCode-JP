@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-9-p1
+    type: simple
+    text: 指図証券の債務者は、その債務の履行について期限の定めがあるときであっても、その期限が到来した後に所持人がその証券を提示してその履行の請求をした時から遅滞の責任を負う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

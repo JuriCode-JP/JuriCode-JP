@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十七条
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-57-p1 -->
 青色申告法人は、各事業年度終了の日現在において、その業種、業態及び規模等の実情により、おおむね別表二十五に掲げる科目に従い貸借対照表及び損益計算書を作成しなければならない。

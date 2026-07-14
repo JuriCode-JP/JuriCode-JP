@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四条
 
-<!-- segment: simple id: keihou-art-204-p1 -->
 人の身体を傷害した者は、十五年以下の拘禁刑又は五十万円以下の罰金に処する。

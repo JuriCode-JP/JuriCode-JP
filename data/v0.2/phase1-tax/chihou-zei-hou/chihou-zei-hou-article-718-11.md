@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-11-p1
+    type: simple
+    text: 第七百十八条の二から前条までに定めるもののほか、年金保険者の市町村に対する国民健康保険税額の通知その他国民健康保険税の特別徴収に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-7-p1
+    type: simple
+    text: 法第七十二条の四十九の十二第十二項第一号に規定する政令で定めるものは、その者のその年における個人の事業の所得の計算上生じた損失の金額のうち、その年において生じた同号に規定する被災事業用資産特定災害損失合計額に達するまでの金額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-7-p2
+    type: simple
+    text: 法第七十二条の四十九の十二第十二項第二号に規定する政令で定めるものは、その者の同条第九項に規定する特定非常災害発生年における個人の事業の所得の計算上生じた損失の金額のうち、当該特定非常災害発生年において生じた同条第七項に規定する被災事業用資産の損失の金額に達するまでの金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-4-p1
+    type: simple
+    text: 法第八条の二第二項の規定により、薬局開設者が当該薬局の所在地の都道府県知事に報告を行わなければならない事項は、別表第一第一の項第一号に掲げる基本情報及び同項第三号（３）に掲げる事項とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-4-p2
+    type: simple
+    text: 前項の報告は、第十一条の二に規定する方法により行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五十条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-50-p1 -->
 採用試験による職員の採用については、人事院規則の定めるところにより、採用候補者名簿を作成するものとする。

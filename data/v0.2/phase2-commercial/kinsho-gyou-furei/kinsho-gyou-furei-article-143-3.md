@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-143-3-p1
+    type: simple
+    text: 顧客区分管理信託の方法により管理する場合にあっては、金融商品取引業者等は、個別顧客区分管理金額及び顧客区分管理必要額を毎日算定しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-143-3-p2
+    type: simple
+    text: 第百四十三条第一項第二号ハ及びニに掲げる方法により管理する場合にあっては、金融商品取引業者等は、特定業者等に預託した保証金について、定期的にその金額の確認を行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

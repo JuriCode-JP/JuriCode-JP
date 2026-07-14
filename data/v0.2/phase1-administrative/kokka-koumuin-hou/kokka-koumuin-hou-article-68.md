@@ -61,15 +61,12 @@ parent_section:
 
 ### 第六十八条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-68-p1 -->
 職員に対して給与の支払をなす者は、先づ受給者につき給与簿を作成しなければならない。
 
 ### 第六十八条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-68-p2 -->
 給与簿は、何時でも人事院の職員が検査し得るようにしておかなければならない。
 
 ### 第六十八条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-68-p3 -->
 前二項に定めるものを除いては、給与簿に関し必要な事項は、人事院規則でこれを定める。

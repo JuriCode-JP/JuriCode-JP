@@ -23,6 +23,41 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-1
+    type: kou
+    text: 一　申請者の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-2
+    type: kou
+    text: 二　当該保税地域の所在地
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-3
+    type: kou
+    text: 三　当該特定石炭の数量
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-4
+    type: kou
+    text: 四　当該特定石炭の用途
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-5
+    type: kou
+    text: 五　引取りの年月日
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-6
+    type: kou
+    text: 六　引取先に移入する者の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 6
+  - id: sochi-hou-shikkourei-art-48-10-p1-kou-7
+    type: kou
+    text: 七　引取先の所在地及び名称
+    modality: unspecified
+    item_number: 7
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +67,31 @@ paragraphs:
     type: hashira
     text: 法第九十条の四の二第一項の規定により石油石炭税の免除を受けた特定石炭をその免除に係る用途に供する者は、次に掲げる事項を帳簿に記載しなければならない。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-48-10-p2-kou-1
+    type: kou
+    text: 一　移入した当該特定石炭の数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-48-10-p2-kou-2
+    type: kou
+    text: 二　消費した当該特定石炭の数量及び消費の年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-48-10-p2-kou-3
+    type: kou
+    text: 三　貯蔵している当該特定石炭の数量
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-48-10-p2-kou-4
+    type: kou
+    text: 四　当該特定石炭を消費して製造した物品の品名及び品名ごとの数量
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikkourei-art-48-10-p2-kou-5
+    type: kou
+    text: 五　当該特定石炭を法第九十条の四の二第一項の規定による免除に係る用途以外の用途に供し、又は譲り渡したときは、その事実
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: true
@@ -41,6 +101,21 @@ paragraphs:
     type: hashira
     text: 法第九十条の四の二第一項の規定により石油石炭税の免除を受けた特定石炭の販売業者は、次に掲げる事項を帳簿に記載しなければならない。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-48-10-p3-kou-1
+    type: kou
+    text: 一　購入した当該特定石炭の数量及び用途、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-48-10-p3-kou-2
+    type: kou
+    text: 二　販売した当該特定石炭の数量及び用途、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-48-10-p3-kou-3
+    type: kou
+    text: 三　返品した当該特定石炭の数量及び用途、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: true
@@ -50,6 +125,31 @@ paragraphs:
     type: hashira
     text: 法第九十条の四の二第四項ただし書の承認を受けようとする者は、次に掲げる事項を記載した申請書を当該特定石炭の所在場所の所轄税関長に提出しなければならない。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-48-10-p4-kou-1
+    type: kou
+    text: 一　申請者の住所又は居所及び氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-48-10-p4-kou-2
+    type: kou
+    text: 二　当該特定石炭の所在場所又は使用場所の所在地及び名称
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-48-10-p4-kou-3
+    type: kou
+    text: 三　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする特定石炭の数量
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-48-10-p4-kou-4
+    type: kou
+    text: 四　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする理由
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikkourei-art-48-10-p4-kou-5
+    type: kou
+    text: 五　当該特定石炭の引取りにつき法第九十条の四の二第一項の承認を受けた税関及びその年月日並びに当該承認に係る承認書の番号
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -66,20 +166,56 @@ parent_section:
 
 ### 第四十八条の十第一項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-48-10-p1-hashira -->
 法第九十条の四の二第一項の承認を受けて特定石炭（同項に規定する特定石炭をいう。以下この条において同じ。）を保税地域から引き取ろうとする者は、次に掲げる事項を記載した申請書に、当該引き取ろうとする石炭が特定石炭に該当するものである旨の経済産業大臣の証明書を添えて、これを当該税関長に提出しなければならない。
+
+一　申請者の住所又は居所及び氏名又は名称
+
+二　当該保税地域の所在地
+
+三　当該特定石炭の数量
+
+四　当該特定石炭の用途
+
+五　引取りの年月日
+
+六　引取先に移入する者の住所又は居所及び氏名又は名称
+
+七　引取先の所在地及び名称
 
 ### 第四十八条の十第二項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-48-10-p2-hashira -->
 法第九十条の四の二第一項の規定により石油石炭税の免除を受けた特定石炭をその免除に係る用途に供する者は、次に掲げる事項を帳簿に記載しなければならない。
+
+一　移入した当該特定石炭の数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
+
+二　消費した当該特定石炭の数量及び消費の年月日
+
+三　貯蔵している当該特定石炭の数量
+
+四　当該特定石炭を消費して製造した物品の品名及び品名ごとの数量
+
+五　当該特定石炭を法第九十条の四の二第一項の規定による免除に係る用途以外の用途に供し、又は譲り渡したときは、その事実
 
 ### 第四十八条の十第三項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-48-10-p3-hashira -->
 法第九十条の四の二第一項の規定により石油石炭税の免除を受けた特定石炭の販売業者は、次に掲げる事項を帳簿に記載しなければならない。
+
+一　購入した当該特定石炭の数量及び用途、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
+
+二　販売した当該特定石炭の数量及び用途、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
+
+三　返品した当該特定石炭の数量及び用途、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
 
 ### 第四十八条の十第四項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-48-10-p4-hashira -->
 法第九十条の四の二第四項ただし書の承認を受けようとする者は、次に掲げる事項を記載した申請書を当該特定石炭の所在場所の所轄税関長に提出しなければならない。
+
+一　申請者の住所又は居所及び氏名又は名称
+
+二　当該特定石炭の所在場所又は使用場所の所在地及び名称
+
+三　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする特定石炭の数量
+
+四　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする理由
+
+五　当該特定石炭の引取りにつき法第九十条の四の二第一項の承認を受けた税関及びその年月日並びに当該承認に係る承認書の番号

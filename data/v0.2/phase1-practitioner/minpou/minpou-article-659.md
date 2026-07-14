@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百五十九条
 
-<!-- segment: simple id: minpou-art-659-p1 -->
 無報酬の受寄者は、自己の財産に対するのと同一の注意をもって、寄託物を保管する義務を負う。

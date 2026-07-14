@@ -14,69 +14,242 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p1-hashira
+    type: hashira
+    text: 法第四十五条の三の二第一項第四号及び第三百十七条の三の二第一項第四号に規定する総務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p1-kou-1
+    type: kou
+    text: 一　給与所得者の扶養親族等申告書を提出する者（第三号において「申告者」という。）の氏名、住所及び個人番号（個人番号を有しない者にあつては、氏名及び住所）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p1-kou-2
+    type: kou
+    text: 二　申告対象配偶者（退職手当等に係る所得を有するものに限る。以下この号、第三項及び第四項において同じ。）の住所及び個人番号並びにその合計所得金額の見積額（個人番号を有しない者にあつては、住所及びその合計所得金額の見積額）並びに国外居住者である申告対象配偶者である場合には、その旨
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p1-kou-3
+    type: kou
+    text: 三　扶養親族（年齢十六歳未満の者又は退職手当等に係る所得を有する者に限る。以下この号、第三項及び第四項において同じ。）の住所、申告者との続柄及び個人番号並びにその合計所得金額の見積額（個人番号を有しない者にあつては、住所及び申告者との続柄並びにその合計所得金額の見積額）並びに国外居住者である扶養親族である場合には、その旨
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p1-kou-4
+    type: kou
+    text: 四　特定親族（退職手当等に係る所得を有するものに限る。以下この号、第三項及び第四項において同じ。）の住所、申告者との続柄及び個人番号並びにその合計所得金額の見積額（個人番号を有しない者にあつては、住所及び申告者との続柄並びにその合計所得金額の見積額）並びに国外居住者である特定親族である場合には、その旨
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p2-hashira
+    type: hashira
+    text: 法第四十五条の三の二第三項及び第三百十七条の三の二第三項に規定する総務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p2-kou-1
+    type: kou
+    text: 一　給与所得者の扶養親族等異動申告書を提出する者の氏名、住所及び個人番号（個人番号を有しない者にあつては、氏名及び住所）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p2-kou-2
+    type: kou
+    text: 二　その他参考となるべき事項
+    modality: unspecified
+    item_number: 2
 - number: 3
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p3-hashira
+    type: hashira
+    text: 給与所得者の扶養親族等申告書又は給与所得者の扶養親族等異動申告書（以下この条において「給与所得者の扶養親族等申告書等」という。）の提出を受ける給与支払者が、当該給与所得者の扶養親族等申告書等に記載されるべき申告対象配偶者、扶養親族、特定親族又は当該給与所得者の扶養親族等申告書等を提出する者（以下この項及び次項第一号において「提出する者」という。）の氏名及び個人番号その他の事項を記載した帳簿（当該給与所得者の扶養親族等申告書等の提出の前に、当該提出する者から次に掲げる申告書の提出を受けて作成されたものに限る。）を備えているときは、当該提出する者は、前二項の規定にかかわらず、当該給与支払者に提出する給与所得者の扶養親族等申告書等には、当該帳簿に記載されている個人番号の記載を要しないものとする。ただし、当該給与所得者の扶養親族等申告書等に記載すべき氏名又は個人番号が当該帳簿に記載されている申告対象配偶者、扶養親族又は提出する者の氏名又は個人番号と異なるときは、この限りでない。
+    modality: jogai
+    references:
+    - 前二項
+    - 次項
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p3-kou-1
+    type: kou
+    text: 一　給与所得者の扶養親族等申告書等
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p3-kou-2
+    type: kou
+    text: 二　第二条の三の五第一項に規定する公的年金等受給者の扶養親族等申告書
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p3-kou-3
+    type: kou
+    text: 三　法第五十条の七第一項及び第三百二十八条の七第一項の規定による申告書（第二条の四から第二条の五の二までにおいて「退職所得申告書」という。）
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p4-hashira
+    type: hashira
+    text: 給与支払者が前項の規定により帳簿を作成する場合には、その者は、当該帳簿に次に掲げる事項を記載しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p4-kou-1
+    type: kou
+    text: 一　前項各号に掲げる申告書に記載された同項に規定する申告対象配偶者、扶養親族、特定親族又は提出する者の氏名、住所及び個人番号
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p4-kou-2
+    type: kou
+    text: 二　前号の申告書の提出を受けた年月及び当該申告書の名称
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p4-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p5
+    type: simple
+    text: 給与支払者は、前項の帳簿を、最後に第三項の規定の適用を受けて提出された給与所得者の扶養親族等申告書等に係る前条第二項ただし書の規定による期限まで保存しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p6
+    type: simple
+    text: 第三項の規定の適用を受けて給与所得者の扶養親族等申告書等を提出した者が当該給与所得者の扶養親族等申告書等に記載すべき氏名、住所又は個人番号を変更した場合には、その者は、遅滞なく、当該給与所得者の扶養親族等申告書等を受理した給与支払者に、変更前の氏名、住所又は個人番号及び変更後の氏名、住所又は個人番号を記載した届出書を提出しなければならない。当該届出書を提出した後、再び当該届出書に記載した氏名、住所又は個人番号を変更した場合も、同様とする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p7
+    type: simple
+    text: 第四項の規定により同項の帳簿を作成した給与支払者は、前項の届出書を受理した場合には、当該帳簿の第四項各号に掲げる事項を、当該届出書に記載されている事項に訂正しておかなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p8
+    type: simple
+    text: 給与支払者は、その受理をした第六項に規定する届出書を、当該受理をした日の属する年の翌年から三年間保存しなければならない。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p9
+    type: simple
+    text: 給与所得者の扶養親族等申告書及び給与所得者の扶養親族等異動申告書を受理した給与支払者は、当該申告書に、当該給与支払者の個人番号又は法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第十六項に規定する法人番号をいう。以下道府県民税及び市町村民税について同じ。）を付記するものとする。
+    modality: gimu
 - number: 10
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p10-honbun
+    type: honbun
+    text: 国外居住者に係る第一項第二号又は第三号に掲げる事項を記載した給与所得者の扶養親族等申告書等を提出した者（法第四十五条の三の二第二項及び第三百十七条の三の二第二項の規定により当該記載に代えて異動がない旨の記載をした者を含む。）が当該申告書に係る法第四十五条の三の二第一項及び第三項並びに第三百十七条の三の二第一項及び第三項に規定する提出期限の属する年の翌年の四月一日の属する年度分の個人の道府県民税及び市町村民税につき当該国外居住者に係る障害者控除額、配偶者控除額又は配偶者特別控除額の控除を受けようとする場合には、当該提出した者は、当該国外居住者に係る所得税法施行規則第四十七条の二第五項及び第六項に規定する書類を同年の三月十五日までに市町村長に提出しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p10-tadashi
+    type: tadashi
+    text: ただし、所得税法の規定に基づいて所得税の確定申告書に添付し、若しくは税務署長に提示し、若しくは同法第百九十四条第五項、第百九十五条第五項若しくは第百九十五条の二第二項の規定により提出し、若しくは提示し、又は第二条の二第四項の規定により同項に規定する申告書に添付し、若しくは市町村長に提示し、若しくは第二条の三第三項の規定により市町村長に提出した当該国外居住者に係るものについては、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 11
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p11-hashira
+    type: hashira
+    text: 国外居住者に係る第一項第三号又は第四号に掲げる事項を記載した給与所得者の扶養親族等申告書等を提出した者（法第四十五条の三の二第二項及び第三百十七条の三の二第二項の規定により当該記載に代えて異動がない旨の記載をした者を含む。）が当該申告書に係る法第四十五条の三の二第一項及び第三項並びに第三百十七条の三の二第一項及び第三項に規定する提出期限の属する年の翌年の四月一日の属する年度分の個人の道府県民税及び市町村民税につき当該国外居住者に係る扶養控除額又は特定親族特別控除額の控除を受けようとする場合には、当該提出した者は、次の各号に掲げる場合の区分に応じ当該各号に定める書類を同年の三月十五日までに市町村長に提出しなければならない。ただし、所得税法の規定に基づいて所得税の確定申告書に添付し、若しくは税務署長に提示し、若しくは同法第百九十四条第五項、第百九十五条第五項若しくは第百九十五条の三第二項の規定により提出し、若しくは提示し、又は第二条の二第五項の規定により同項に規定する申告書に添付し、若しくは市町村長に提示し、若しくは第二条の三第四項の規定により市町村長に提出した当該国外居住者に係るものについては、この限りでない。
+    modality: jogai
+    references:
+    - 同項
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p11-kou-1
+    type: kou
+    text: '一　次号及び第三号に掲げる場合以外の場合　当該国外居住者に係る次に掲げる書類
+
+      イ　所得税法施行規則第四十七条の二第七項に規定する書類
+
+      ロ　所得税法施行規則第四十七条の二第八項に規定する書類'
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p11-kou-2
+    type: kou
+    text: '二　当該国外居住者が法第三十四条第一項第十一号ロ（１）及び第三百十四条の二第一項第十一号ロ（１）に掲げる者に該当するものとして扶養控除額の控除を受けようとする場合　当該国外居住者に係る次に掲げる書類
+
+      イ　前号イに掲げる書類
+
+      ロ　前号ロに掲げる書類
+
+      ハ　所得税法施行規則第四十七条の二第九項に規定する書類'
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p11-kou-3
+    type: kou
+    text: '三　当該国外居住者が法第三十四条第一項第十一号ロ（３）及び第三百十四条の二第一項第十一号ロ（３）に掲げる者に該当するものとして扶養控除額の控除を受けようとする場合　当該国外居住者に係る次に掲げる書類
+
+      イ　第一号イに掲げる書類
+
+      ロ　所得税法施行規則第四十七条の二第十項に規定する書類'
+    modality: unspecified
+    item_number: 3
 - number: 12
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p12-honbun
+    type: honbun
+    text: 控除対象外国外扶養親族に係る第一項第三号に掲げる事項を記載した給与所得者の扶養親族等申告書等を提出した者（法第四十五条の三の二第二項及び第三百十七条の三の二第二項の規定により当該記載に代えて異動がない旨の記載をした者を含む。）が当該申告書に係る法第四十五条の三の二第一項及び第三項並びに第三百十七条の三の二第一項及び第三項に規定する提出期限の属する年の翌年の四月一日の属する年度分の個人の道府県民税及び市町村民税に係る非課税限度額制度適用者である場合には、当該提出した者は、当該控除対象外国外扶養親族に係る国外扶養親族証明書類を同年の三月十五日までに市町村長に提出しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p12-tadashi
+    type: tadashi
+    text: ただし、第二条の二第六項の規定により同項に規定する申告書に添付し、若しくは市町村長に提示し、又は第二条の三第五項の規定により市町村長に提出した当該控除対象外国外扶養親族に係る国外扶養親族証明書類については、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-3-p13
+    type: simple
+    text: 前三項の規定による書類の提出については、これらの規定の給与所得者の扶養親族等申告書等を受理した給与支払者を経由して提出することを妨げない。
+    modality: jogai
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:
@@ -92,17 +265,43 @@ tags:
 
 法第四十五条の三の二第一項第四号及び第三百十七条の三の二第一項第四号に規定する総務省令で定める事項は、次に掲げる事項とする。
 
+一　給与所得者の扶養親族等申告書を提出する者（第三号において「申告者」という。）の氏名、住所及び個人番号（個人番号を有しない者にあつては、氏名及び住所）
+
+二　申告対象配偶者（退職手当等に係る所得を有するものに限る。以下この号、第三項及び第四項において同じ。）の住所及び個人番号並びにその合計所得金額の見積額（個人番号を有しない者にあつては、住所及びその合計所得金額の見積額）並びに国外居住者である申告対象配偶者である場合には、その旨
+
+三　扶養親族（年齢十六歳未満の者又は退職手当等に係る所得を有する者に限る。以下この号、第三項及び第四項において同じ。）の住所、申告者との続柄及び個人番号並びにその合計所得金額の見積額（個人番号を有しない者にあつては、住所及び申告者との続柄並びにその合計所得金額の見積額）並びに国外居住者である扶養親族である場合には、その旨
+
+四　特定親族（退職手当等に係る所得を有するものに限る。以下この号、第三項及び第四項において同じ。）の住所、申告者との続柄及び個人番号並びにその合計所得金額の見積額（個人番号を有しない者にあつては、住所及び申告者との続柄並びにその合計所得金額の見積額）並びに国外居住者である特定親族である場合には、その旨
+
+五　その他参考となるべき事項
+
 ### 第二条の三の三第二項
 
 法第四十五条の三の二第三項及び第三百十七条の三の二第三項に規定する総務省令で定める事項は、次に掲げる事項とする。
+
+一　給与所得者の扶養親族等異動申告書を提出する者の氏名、住所及び個人番号（個人番号を有しない者にあつては、氏名及び住所）
+
+二　その他参考となるべき事項
 
 ### 第二条の三の三第三項
 
 給与所得者の扶養親族等申告書又は給与所得者の扶養親族等異動申告書（以下この条において「給与所得者の扶養親族等申告書等」という。）の提出を受ける給与支払者が、当該給与所得者の扶養親族等申告書等に記載されるべき申告対象配偶者、扶養親族、特定親族又は当該給与所得者の扶養親族等申告書等を提出する者（以下この項及び次項第一号において「提出する者」という。）の氏名及び個人番号その他の事項を記載した帳簿（当該給与所得者の扶養親族等申告書等の提出の前に、当該提出する者から次に掲げる申告書の提出を受けて作成されたものに限る。）を備えているときは、当該提出する者は、前二項の規定にかかわらず、当該給与支払者に提出する給与所得者の扶養親族等申告書等には、当該帳簿に記載されている個人番号の記載を要しないものとする。ただし、当該給与所得者の扶養親族等申告書等に記載すべき氏名又は個人番号が当該帳簿に記載されている申告対象配偶者、扶養親族又は提出する者の氏名又は個人番号と異なるときは、この限りでない。
 
+一　給与所得者の扶養親族等申告書等
+
+二　第二条の三の五第一項に規定する公的年金等受給者の扶養親族等申告書
+
+三　法第五十条の七第一項及び第三百二十八条の七第一項の規定による申告書（第二条の四から第二条の五の二までにおいて「退職所得申告書」という。）
+
 ### 第二条の三の三第四項
 
 給与支払者が前項の規定により帳簿を作成する場合には、その者は、当該帳簿に次に掲げる事項を記載しなければならない。
+
+一　前項各号に掲げる申告書に記載された同項に規定する申告対象配偶者、扶養親族、特定親族又は提出する者の氏名、住所及び個人番号
+
+二　前号の申告書の提出を受けた年月及び当該申告書の名称
+
+三　その他参考となるべき事項
 
 ### 第二条の三の三第五項
 
@@ -131,6 +330,26 @@ tags:
 ### 第二条の三の三第十一項
 
 国外居住者に係る第一項第三号又は第四号に掲げる事項を記載した給与所得者の扶養親族等申告書等を提出した者（法第四十五条の三の二第二項及び第三百十七条の三の二第二項の規定により当該記載に代えて異動がない旨の記載をした者を含む。）が当該申告書に係る法第四十五条の三の二第一項及び第三項並びに第三百十七条の三の二第一項及び第三項に規定する提出期限の属する年の翌年の四月一日の属する年度分の個人の道府県民税及び市町村民税につき当該国外居住者に係る扶養控除額又は特定親族特別控除額の控除を受けようとする場合には、当該提出した者は、次の各号に掲げる場合の区分に応じ当該各号に定める書類を同年の三月十五日までに市町村長に提出しなければならない。ただし、所得税法の規定に基づいて所得税の確定申告書に添付し、若しくは税務署長に提示し、若しくは同法第百九十四条第五項、第百九十五条第五項若しくは第百九十五条の三第二項の規定により提出し、若しくは提示し、又は第二条の二第五項の規定により同項に規定する申告書に添付し、若しくは市町村長に提示し、若しくは第二条の三第四項の規定により市町村長に提出した当該国外居住者に係るものについては、この限りでない。
+
+一　次号及び第三号に掲げる場合以外の場合　当該国外居住者に係る次に掲げる書類
+
+　イ　所得税法施行規則第四十七条の二第七項に規定する書類
+
+　ロ　所得税法施行規則第四十七条の二第八項に規定する書類
+
+二　当該国外居住者が法第三十四条第一項第十一号ロ（１）及び第三百十四条の二第一項第十一号ロ（１）に掲げる者に該当するものとして扶養控除額の控除を受けようとする場合　当該国外居住者に係る次に掲げる書類
+
+　イ　前号イに掲げる書類
+
+　ロ　前号ロに掲げる書類
+
+　ハ　所得税法施行規則第四十七条の二第九項に規定する書類
+
+三　当該国外居住者が法第三十四条第一項第十一号ロ（３）及び第三百十四条の二第一項第十一号ロ（３）に掲げる者に該当するものとして扶養控除額の控除を受けようとする場合　当該国外居住者に係る次に掲げる書類
+
+　イ　第一号イに掲げる書類
+
+　ロ　所得税法施行規則第四十七条の二第十項に規定する書類
 
 ### 第二条の三の三第十二項
 

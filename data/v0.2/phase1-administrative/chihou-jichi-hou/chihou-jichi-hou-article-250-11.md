@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-11-p1
+    type: simple
+    text: 委員会は、委員長が招集する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-11-p2
+    type: simple
+    text: 委員会は、委員長及び二人以上の委員の出席がなければ、会議を開き、議決をすることができない。
+    modality: kanou_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-11-p3
+    type: simple
+    text: 委員会の議事は、出席者の過半数でこれを決し、可否同数のときは、委員長の決するところによる。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-11-p4
+    type: simple
+    text: 委員長に事故がある場合の第二項の規定の適用については、前条第三項に規定する委員は、委員長とみなす。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

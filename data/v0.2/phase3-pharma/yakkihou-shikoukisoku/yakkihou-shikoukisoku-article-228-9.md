@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-9-p1
+    type: simple
+    text: 再生医療等製品については、第二百十条の二、第二百十三条、第二百十四条第一項及び第三項、第二百十七条第一項、第二百十八条並びに第二百十八条の二の二から第二百十八条の二の四まで（同条第一項の表に係る部分を除く。）の規定を準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-9-p2
+    type: simple
+    text: 前項の場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

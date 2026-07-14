@@ -16,7 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-23-p1-zen
+    type: zen_dan
+    text: 法第六十八条の十三第三項の規定により機構に対して行う報告については、第二百二十八条の二十及び前条の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-228-23-p1-kou
+    type: kou_dan
+    text: この場合において、第二百二十八条の二十中「厚生労働大臣」とあるのは「機構」と、前条第一項中「第六十八条の十一」とあるのは「第六十八条の十三第三項」と、「厚生労働大臣（令第八十条の規定により当該権限に属する事務を都道府県知事が行うこととされている場合にあつては、都道府県知事。以下この条において同じ。）」とあるのは「機構」と、同条第二項及び第三項中「厚生労働大臣」とあるのは「機構」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: yakkihou-shikoukisoku-art-228-23-p1-zen
 cases: []
 amendments: []
 tags:

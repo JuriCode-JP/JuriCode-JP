@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百九十四条
 
-<!-- segment: simple id: chihou-zei-hou-art-794-p1 -->
 機構の運営に要する費用は、定款で定めるところにより、地方団体が負担する。

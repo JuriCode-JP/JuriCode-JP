@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-142-2-p1
+    type: simple
+    text: 法第四十三条の二の二に規定する内閣府令で定めるものは、法第三十五条第一項第九号に掲げる行為に係る業務（商品関連市場デリバティブ取引取次ぎ等（法第四十三条の二の二に規定する商品関連市場デリバティブ取引取次ぎ等をいう。以下同じ。）に係るものに限る。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

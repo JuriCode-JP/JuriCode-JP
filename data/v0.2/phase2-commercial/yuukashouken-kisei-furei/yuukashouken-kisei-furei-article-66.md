@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十六条
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-66-p1 -->
 令第四十三条の十第三項に規定する内閣府令で定める財務局長又は財務支局長は、関東財務局長とする。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百九十条
 
-<!-- segment: simple id: chihou-jichi-hou-art-190-p1 -->
 選挙管理委員会の議事は、出席委員の過半数を以てこれを決する。可否同数のときは、委員長の決するところによる。

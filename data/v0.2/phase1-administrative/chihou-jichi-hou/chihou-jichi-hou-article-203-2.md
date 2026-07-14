@@ -16,27 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-203-2-p1
+    type: simple
+    text: 普通地方公共団体は、その委員会の非常勤の委員、非常勤の監査委員、自治紛争処理委員、審査会、審議会及び調査会等の委員その他の構成員、専門委員、監査専門委員、投票管理者、開票管理者、選挙長、投票立会人、開票立会人及び選挙立会人その他普通地方公共団体の非常勤の職員（短時間勤務職員及び地方公務員法第二十二条の二第一項第二号に掲げる職員を除く。）に対し、報酬を支給しなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-203-2-p2-honbun
+    type: honbun
+    text: 前項の者に対する報酬は、その勤務日数に応じてこれを支給する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-203-2-p2-tadashi
+    type: tadashi
+    text: ただし、条例で特別の定めをした場合は、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-203-2-p3
+    type: simple
+    text: 第一項の者は、職務を行うため要する費用の弁償を受けることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-203-2-p4
+    type: simple
+    text: 普通地方公共団体は、条例で、第一項の者のうち地方公務員法第二十二条の二第一項第一号に掲げる職員に対し、期末手当又は勤勉手当を支給することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-203-2-p5
+    type: simple
+    text: 報酬、費用弁償、期末手当及び勤勉手当の額並びにその支給方法は、条例でこれを定めなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

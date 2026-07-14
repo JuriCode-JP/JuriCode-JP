@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百三十一条
 
-<!-- segment: simple id: chihou-jichi-hou-art-131-p1 -->
 議場の秩序を乱し又は会議を妨害するものがあるときは、議員は、議長の注意を喚起することができる。

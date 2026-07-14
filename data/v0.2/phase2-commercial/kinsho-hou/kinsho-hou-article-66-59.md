@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-59-p1
+    type: simple
+    text: 高速取引行為者は、事業年度ごとに、内閣府令で定めるところにより、事業報告書を作成し、毎事業年度経過後三月以内に、これを内閣総理大臣に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

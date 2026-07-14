@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十一条の七
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-51-7-p1 -->
 削除

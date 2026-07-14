@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十五条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-55-p1 -->
 認定個人情報保護団体は、認定業務の実施に際して知り得た情報を認定業務の用に供する目的以外に利用してはならない。

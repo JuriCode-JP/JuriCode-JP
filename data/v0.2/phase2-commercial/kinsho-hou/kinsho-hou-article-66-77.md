@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-77-p1
+    type: simple
+    text: 投資運用関係業務受託業者は、委託者のため忠実にその業務を遂行しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-77-p2
+    type: simple
+    text: 投資運用関係業務受託業者は、委託者に対し、善良な管理者の注意をもつてその業務を遂行しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

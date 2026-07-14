@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-11-p1
+    type: simple
+    text: 認定投資者保護団体（以下この節において「認定団体」という。）は、当該認定団体の構成員である金融商品取引業者若しくは金融商品仲介業者又は認定業務の対象となることについて同意を得た金融商品取引業者、金融商品仲介業者その他内閣府令で定める者を対象事業者（当該認定団体の業務の対象となる金融商品取引業者、金融商品仲介業者その他内閣府令で定める者をいう。以下この節において同じ。）としなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-11-p2
+    type: simple
+    text: 認定団体は、対象事業者の名簿を公衆の縦覧に供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

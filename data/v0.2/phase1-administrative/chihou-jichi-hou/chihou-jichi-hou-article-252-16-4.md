@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-16-4-p1
+    type: simple
+    text: 第二百五十二条の十六の二の規定により普通地方公共団体が他の普通地方公共団体又は他の普通地方公共団体の長若しくは同種の委員会若しくは委員の名において管理し及び執行した事務の管理及び執行は、当該他の普通地方公共団体の長又は同種の委員会若しくは委員が管理し及び執行したものとしての効力を有する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -32,6 +32,21 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kinsho-hou-art-140-p2-kou-1
+    type: kou
+    text: 一　名称又は商号
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-140-p2-kou-2
+    type: kou
+    text: 二　事務所又は本店、支店その他の営業所の所在の場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-140-p2-kou-3
+    type: kou
+    text: 三　役員の氏名又は名称及び会員等の商号又は名称
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -65,15 +80,18 @@ parent_section:
 
 ### 第百四十条第一項
 
-<!-- segment: simple id: kinsho-hou-art-140-p1 -->
 金融商品取引所を全部又は一部の当事者とする合併（合併後存続する者又は合併により設立される者が金融商品取引所であるものに限る。）は、内閣総理大臣の認可を受けなければ、その効力を生じない。
 
 ### 第百四十条第二項
 
-<!-- segment: hashira id: kinsho-hou-art-140-p2-hashira -->
 前項の認可を受けようとする者は、合併後存続する金融商品取引所又は合併により設立する金融商品取引所（以下この目において「合併後金融商品取引所」と総称する。）について、次に掲げる事項を記載した合併認可申請書を内閣総理大臣に提出しなければならない。
+
+一　名称又は商号
+
+二　事務所又は本店、支店その他の営業所の所在の場所
+
+三　役員の氏名又は名称及び会員等の商号又は名称
 
 ### 第百四十条第三項
 
-<!-- segment: simple id: kinsho-hou-art-140-p3 -->
 前項の合併認可申請書には、合併契約の内容を記載し、又は記録した書面又は電磁的記録（内閣府令で定めるものに限る。以下この項において同じ。）、合併後金融商品取引所の定款、業務規程、受託契約準則その他の内閣府令で定める書面又は電磁的記録を添付しなければならない。

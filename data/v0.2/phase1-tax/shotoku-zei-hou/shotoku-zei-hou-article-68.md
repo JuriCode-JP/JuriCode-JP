@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六十八条
 
-<!-- segment: simple id: shotoku-zei-hou-art-68-p1 -->
 この節に定めるもののほか、各種所得の範囲及び各種所得の金額の計算に関し必要な事項は、政令で定める。

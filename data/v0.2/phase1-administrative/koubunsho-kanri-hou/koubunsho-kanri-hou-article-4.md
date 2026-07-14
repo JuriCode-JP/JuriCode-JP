@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 行政機関の職員は、第一条の目的の達成に資するため、当該行政機関における経緯も含めた意思決定に至る過程並びに当該行政機関の事務及び事業の実績を合理的に跡付け、又は検証することができるよう、処理に係る事案が軽微なものである場合を除き、次に掲げる事項その他の事項について、文書を作成しなければならない。
     modality: gimu
+  - id: koubunsho-kanri-hou-art-4-p1-kou-1
+    type: kou
+    text: 一　法令の制定又は改廃及びその経緯
+    modality: unspecified
+    item_number: 1
+  - id: koubunsho-kanri-hou-art-4-p1-kou-2
+    type: kou
+    text: 二　前号に定めるもののほか、閣議、関係行政機関の長で構成される会議又は省議（これらに準ずるものを含む。）の決定又は了解及びその経緯
+    modality: unspecified
+    item_number: 2
+  - id: koubunsho-kanri-hou-art-4-p1-kou-3
+    type: kou
+    text: 三　複数の行政機関による申合せ又は他の行政機関若しくは地方公共団体に対して示す基準の設定及びその経緯
+    modality: unspecified
+    item_number: 3
+  - id: koubunsho-kanri-hou-art-4-p1-kou-4
+    type: kou
+    text: 四　個人又は法人の権利義務の得喪及びその経緯
+    modality: unspecified
+    item_number: 4
+  - id: koubunsho-kanri-hou-art-4-p1-kou-5
+    type: kou
+    text: 五　職員の人事に関する事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第四条
 
-<!-- segment: hashira id: koubunsho-kanri-hou-art-4-p1-hashira -->
 行政機関の職員は、第一条の目的の達成に資するため、当該行政機関における経緯も含めた意思決定に至る過程並びに当該行政機関の事務及び事業の実績を合理的に跡付け、又は検証することができるよう、処理に係る事案が軽微なものである場合を除き、次に掲げる事項その他の事項について、文書を作成しなければならない。
+
+一　法令の制定又は改廃及びその経緯
+
+二　前号に定めるもののほか、閣議、関係行政機関の長で構成される会議又は省議（これらに準ずるものを含む。）の決定又は了解及びその経緯
+
+三　複数の行政機関による申合せ又は他の行政機関若しくは地方公共団体に対して示す基準の設定及びその経緯
+
+四　個人又は法人の権利義務の得喪及びその経緯
+
+五　職員の人事に関する事項

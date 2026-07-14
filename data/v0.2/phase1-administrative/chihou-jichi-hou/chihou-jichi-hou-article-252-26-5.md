@@ -16,22 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-5-p1
+    type: simple
+    text: 各大臣は、国民の安全に重大な影響を及ぼす事態が発生し、又は発生するおそれがある場合において、当該国民の安全に重大な影響を及ぼす事態の規模及び態様、当該国民の安全に重大な影響を及ぼす事態に係る地域の状況その他の当該国民の安全に重大な影響を及ぼす事態に関する状況を勘案して、その担任する事務に関し、生命等の保護の措置の的確かつ迅速な実施を確保するため特に必要があると認めるときは、他の法律の規定に基づき当該生命等の保護の措置に関し必要な指示をすることができる場合を除き、閣議の決定を経て、その必要な限度において、普通地方公共団体に対し、当該普通地方公共団体の事務の処理について当該生命等の保護の措置の的確かつ迅速な実施を確保するため講ずべき措置に関し、必要な指示をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-5-p2
+    type: simple
+    text: 各大臣は、前項の規定により普通地方公共団体に対して指示をしようとするときは、あらかじめ、当該指示に係る同項に規定する国民の安全に重大な影響を及ぼす事態に関する状況を適切に把握し、当該普通地方公共団体の事務の処理について同項の生命等の保護の措置の的確かつ迅速な実施を確保するため講ずべき措置の検討を行うため、第二百五十二条の二十六の三第一項又は第二項の規定による当該普通地方公共団体に対する資料又は意見の提出の求めその他の適切な措置を講ずるように努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-5-p3
+    type: simple
+    text: 市町村に対する第一項の指示は、都道府県知事その他の都道府県の執行機関を通じてすることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-5-p4
+    type: simple
+    text: 各大臣は、第一項の指示をしたときは、その旨及びその内容を国会に報告するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

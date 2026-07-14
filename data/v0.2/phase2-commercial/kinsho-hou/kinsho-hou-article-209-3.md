@@ -13,15 +13,27 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-3-p1-honbun
+    type: honbun
+    text: 第百九十八条の二第一項の規定による没収は、不法財産又は混和財産が犯人以外の者に帰属しない場合に限る。
+    modality: unspecified
+  - id: kinsho-hou-art-209-3-p1-tadashi
+    type: tadashi
+    text: ただし、犯人以外の者が、犯罪の後情を知つて当該不法財産又は混和財産を取得した場合（法令上の義務の履行として提供されたものを収受した場合又は契約（債権者において相当の財産上の利益を提供すべきものに限る。）の時に当該契約に係る債務の履行が不法財産若しくは混和財産によつて行われることの情を知らないでした当該契約に係る債務の履行として提供されたものを収受した場合を除く。）は、当該不法財産又は混和財産が犯人以外の者に帰属する場合であつても、これを没収することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-3-p2
+    type: simple
+    text: 地上権、抵当権その他の権利がその上に存在する財産を第百九十八条の二第一項又は第二百条の二の規定により没収する場合において、犯人以外の者が犯罪の前に当該権利を取得したとき、又は犯人以外の者が犯罪の後情を知らないで当該権利を取得したときは、これを存続させるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

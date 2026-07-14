@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第二条第二十二号（定義）に規定する政令で定める資産は、棚卸資産、有価証券、資金決済に関する法律第二条第十四項（定義）に規定する暗号資産及び繰延資産以外の資産のうち次に掲げるものとする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-12-p1-kou-1
+    type: kou
+    text: 一　土地（土地の上に存する権利を含む。）
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-12-p1-kou-2
+    type: kou
+    text: 二　次条各号に掲げる資産
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-12-p1-kou-3
+    type: kou
+    text: 三　電話加入権
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikkourei-art-12-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げる資産に準ずるもの
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-12-p1-hashira -->
 法第二条第二十二号（定義）に規定する政令で定める資産は、棚卸資産、有価証券、資金決済に関する法律第二条第十四項（定義）に規定する暗号資産及び繰延資産以外の資産のうち次に掲げるものとする。
+
+一　土地（土地の上に存する権利を含む。）
+
+二　次条各号に掲げる資産
+
+三　電話加入権
+
+四　前三号に掲げる資産に準ずるもの

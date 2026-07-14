@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十二条の二
 
-<!-- segment: simple id: sochi-hou-art-62-2-p1 -->
 削除

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-136-2-p1
+    type: simple
+    text: 法第二十三条の八第一項及び第三項、法第二十三条の十五第二項、法第二十三条の十六第四項並びに法第二十三条の十八第三項の規定による公示は、厚生労働省のホームページに掲載する方法により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

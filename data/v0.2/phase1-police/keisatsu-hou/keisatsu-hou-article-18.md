@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十八条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-18-p1 -->
 警察庁に、次長一人を置く。
 
 ### 第十八条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-18-p2 -->
 次長は、長官を助け、庁務を整理し、各部局及び機関の事務を監督する。

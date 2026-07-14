@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四条
 
-<!-- segment: simple id: chihou-jichi-hou-art-104-p1 -->
 普通地方公共団体の議会の議長は、議場の秩序を保持し、議事を整理し、議会の事務を統理し、議会を代表する。

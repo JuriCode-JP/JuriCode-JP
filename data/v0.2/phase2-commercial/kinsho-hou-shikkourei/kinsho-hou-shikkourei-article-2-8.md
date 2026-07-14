@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-2-8-p1
+    type: simple
+    text: 法第三条第二号に規定する政令で定めるものは、医療法（昭和二十三年法律第二百五号）に規定する社会医療法人債券とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

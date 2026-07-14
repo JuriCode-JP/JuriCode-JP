@@ -59,7 +59,7 @@ paragraphs:
     applies_provisions:
     - 第十九条
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -87,26 +87,20 @@ parent_section:
 
 ### 第二十条第一項
 
-<!-- segment: zen_dan id: shakuchi-shakka-hou-art-20-p1-zen -->
-第三者が賃借権の目的である土地の上の建物を競売又は公売により取得した場合において、その第三者が賃借権を取得しても借地権設定者に不利となるおそれがないにもかかわらず、借地権設定者がその賃借権の譲渡を承諾しないときは、裁判所は、その第三者の申立てにより、借地権設定者の承諾に代わる許可を与えることができる。<!-- segment: kou_dan id: shakuchi-shakka-hou-art-20-p1-kou depends_on: shakuchi-shakka-hou-art-20-p1-zen -->
-この場合において、当事者間の利益の衡平を図るため必要があるときは、借地条件を変更し、又は財産上の給付を命ずることができる。
+第三者が賃借権の目的である土地の上の建物を競売又は公売により取得した場合において、その第三者が賃借権を取得しても借地権設定者に不利となるおそれがないにもかかわらず、借地権設定者がその賃借権の譲渡を承諾しないときは、裁判所は、その第三者の申立てにより、借地権設定者の承諾に代わる許可を与えることができる。この場合において、当事者間の利益の衡平を図るため必要があるときは、借地条件を変更し、又は財産上の給付を命ずることができる。
 
 ### 第二十条第二項
 
-<!-- segment: junyou id: shakuchi-shakka-hou-art-20-p2 -->
 前条第二項から第六項までの規定は、前項の申立てがあった場合に準用する。
 
 ### 第二十条第三項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-20-p3 -->
 第一項の申立ては、建物の代金を支払った後二月以内に限り、することができる。
 
 ### 第二十条第四項
 
-<!-- segment: junyou id: shakuchi-shakka-hou-art-20-p4 applies_provisions: 第十九条 -->
 民事調停法（昭和二十六年法律第二百二十二号）第十九条の規定は、同条に規定する期間内に第一項の申立てをした場合に準用する。
 
 ### 第二十条第五項
 
-<!-- segment: junyou id: shakuchi-shakka-hou-art-20-p5 -->
 前各項の規定は、転借地権者から競売又は公売により建物を取得した第三者と借地権設定者との間について準用する。ただし、借地権設定者が第二項において準用する前条第三項の申立てをするには、借地権者の承諾を得なければならない。

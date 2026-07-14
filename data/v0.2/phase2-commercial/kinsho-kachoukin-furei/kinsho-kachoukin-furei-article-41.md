@@ -79,25 +79,20 @@ parent_section:
 
 ### 第四十一条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-41-p1 -->
 参考人の宣誓は、審問の前にさせなければならない。
 
 ### 第四十一条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-41-p2 -->
 宣誓は、起立して厳粛に行わなければならない。
 
 ### 第四十一条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-41-p3 -->
 審判長は、参考人に宣誓書を朗読させ、かつ、これに署名させなければならない。参考人が宣誓書を朗読することができないときは、審判長は、審判手続の事務を行う職員にこれを朗読させなければならない。
 
 ### 第四十一条第四項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-41-p4 -->
 前項の宣誓書には、良心に従って真実を述べ、何事も隠さず、また、何事も付け加えないことを誓う旨を記載しなければならない。
 
 ### 第四十一条第五項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-41-p5 -->
 審判長は、宣誓の前に、宣誓の趣旨を説明し、かつ、虚偽陳述の罰を告げなければならない。

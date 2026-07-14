@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-3-p1
+    type: simple
+    text: 罰金の裁判を告知した裁判所は、当該裁判が確定した者について、罰金を完納することができないおそれがあると認めるとき（その者が受けた第三百四十五条の二の規定による決定が効力を失つていないときを除く。）は、拘置状を発する場合を除き、検察官の請求により、決定で、裁判所の許可を受けなければ本邦から出国してはならないことを命ずるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第十六条の四第二項の文書には、次の各号に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-12-p1-kou-1
+    type: kou
+    text: 一　法第十六条の四第一項の規定により決定した金額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-12-p1-kou-2
+    type: kou
+    text: 二　前号の金額の決定の基因となつた地方団体の徴収金の年度及び税目
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -97,35 +107,32 @@ parent_section:
 
 ### 第六条の十二第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-6-12-p1-hashira -->
 法第十六条の四第二項の文書には、次の各号に掲げる事項を記載しなければならない。
+
+一　法第十六条の四第一項の規定により決定した金額
+
+二　前号の金額の決定の基因となつた地方団体の徴収金の年度及び税目
 
 ### 第六条の十二第二項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-6-12-p2 -->
 第六条の十の規定は、法第十六条の四第三項又は第四項第一号の規定により提供する法第十六条第一項各号に掲げる担保の提供手続について準用する。
 
 ### 第六条の十二第三項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-6-12-p3 -->
 前条第四項の規定は、法第十六条の四第三項又は第四項第一号の規定により提供する担保としての金銭の提供手続について準用する。
 
 ### 第六条の十二第四項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-6-12-p4 -->
 法第十六条の四第三項又は第四項第一号の規定により担保として金銭を提供した者は、同条第一項に規定する地方団体の徴収金の納付し、又は納入すべき額が確定したときは、その金銭をもつてその地方団体の徴収金の納付又は納入に充てることができる。
 
 ### 第六条の十二第五項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-6-12-p5 -->
 前項の規定により担保として提供した金銭をもつて地方団体の徴収金の納付又は納入に充てようとする者は、その旨を記載した文書を地方団体の長に提出しなければならない。
 
 ### 第六条の十二第六項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-6-12-p6 -->
 前項の文書の提出があつたときは、その担保として提供された金銭の額（その額が納付し、又は納入すべき地方団体の徴収金の額をこえるときは、その地方団体の徴収金の額）に相当する地方団体の徴収金を徴収したものとみなす。
 
 ### 第六条の十二第七項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-6-12-p7 -->
 前各項の規定は、法第十六条の四第十二項において準用する同条第一項から第十一項までの規定による保全差押えに関する手続について準用する。

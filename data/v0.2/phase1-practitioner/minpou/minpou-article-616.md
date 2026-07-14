@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百十六条
 
-<!-- segment: junyou id: minpou-art-616-p1 -->
 第五百九十四条第一項の規定は、賃貸借について準用する。

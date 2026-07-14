@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kokka-koumuin-hou-art-79-p1
     type: simple
     text: 職員が、左の各号の一に該当する場合又は人事院規則で定めるその他の場合においては、その意に反して、これを休職することができる。
     modality: kanou_kenri
+  - id: kokka-koumuin-hou-art-79-p1-kou-1
+    type: kou
+    text: 一　心身の故障のため、長期の休養を要する場合
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-79-p1-kou-2
+    type: kou
+    text: 二　刑事事件に関し起訴された場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第七十九条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-79-p1 -->
 職員が、左の各号の一に該当する場合又は人事院規則で定めるその他の場合においては、その意に反して、これを休職することができる。
+
+一　心身の故障のため、長期の休養を要する場合
+
+二　刑事事件に関し起訴された場合

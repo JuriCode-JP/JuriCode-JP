@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百十六条
 
-<!-- segment: simple id: kaisha-hou-art-716-p1 -->
 社債権者集会は、この法律に規定する事項及び社債権者の利害に関する事項について決議をすることができる。

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-75-3-p1
+    type: simple
+    text: 国税通則法第十一条（災害等による期限の延長）の規定により通算法人の第七十四条第一項（確定申告）の規定による申告書の提出期限が延長された場合には、政令で定めるところにより、他の通算法人についても、同法第十一条の規定により同項の規定による申告書の提出期限が延長されたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments:
 - effective_date: '2020-04-01'

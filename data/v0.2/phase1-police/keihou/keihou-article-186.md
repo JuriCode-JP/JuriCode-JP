@@ -39,7 +39,7 @@ parent_section:
   hen: 2
   hen_name_ja: 第二編　罪
   shou: 23
-  shou_name_ja: 第二十三章　賭と博及び富くじに関する罪
+  shou_name_ja: 第二十三章　賭博及び富くじに関する罪
 ---
 
 # 刑法 第186条(（常習賭博及び賭博場開張等図利）)
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百八十六条第一項
 
-<!-- segment: simple id: keihou-art-186-p1 -->
 常習として賭博をした者は、三年以下の拘禁刑に処する。
 
 ### 第百八十六条第二項
 
-<!-- segment: simple id: keihou-art-186-p2 -->
 賭博場を開張し、又は博徒を結合して利益を図った者は、三月以上五年以下の拘禁刑に処する。

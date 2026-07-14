@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-479-2-p1
+    type: simple
+    text: 拘禁刑以上の刑に処する判決の宣告を受けた者について、刑法第十一条第二項の規定による拘置若しくは拘禁刑の執行が開始されたとき、又は当該判決に係る刑の執行を受けることがなくなつたときは、当該者に対しては、第三百四十二条の二（第四百四条（第四百十四条において準用する場合を含む。以下この章において同じ。）において準用する場合を含む。第四百八十五条の二において同じ。）の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

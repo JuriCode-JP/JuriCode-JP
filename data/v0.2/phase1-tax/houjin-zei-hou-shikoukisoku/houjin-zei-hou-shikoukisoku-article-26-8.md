@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第百十八条の六第七項（短期売買商品等の一単位当たりの帳簿価額の算出の方法及びその選定の手続等）において準用する令第三十条第二項（棚卸資産の評価の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-26-8-p1-kou-1
+    type: kou
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-26-8-p1-kou-2
+    type: kou
+    text: 二　その一単位当たりの帳簿価額の算出の方法を変更しようとする法第六十一条第一項（短期売買商品等の譲渡損益及び時価評価損益）に規定する短期売買商品等の令第百十八条の六第四項に規定する種類等及び区分
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-26-8-p1-kou-3
+    type: kou
+    text: 三　現によつている一単位当たりの帳簿価額の算出の方法及びその方法を採用した日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-26-8-p1-kou-4
+    type: kou
+    text: 四　採用しようとする新たな一単位当たりの帳簿価額の算出の方法
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-26-8-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第二十六条の八
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-26-8-p1-hashira -->
 令第百十八条の六第七項（短期売買商品等の一単位当たりの帳簿価額の算出の方法及びその選定の手続等）において準用する令第三十条第二項（棚卸資産の評価の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　その一単位当たりの帳簿価額の算出の方法を変更しようとする法第六十一条第一項（短期売買商品等の譲渡損益及び時価評価損益）に規定する短期売買商品等の令第百十八条の六第四項に規定する種類等及び区分
+
+三　現によつている一単位当たりの帳簿価額の算出の方法及びその方法を採用した日
+
+四　採用しようとする新たな一単位当たりの帳簿価額の算出の方法
+
+五　その他参考となるべき事項

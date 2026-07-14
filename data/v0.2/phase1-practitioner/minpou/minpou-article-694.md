@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百九十四条
 
-<!-- segment: junyou id: minpou-art-694-p1 -->
 この節の規定は、終身定期金の遺贈について準用する。

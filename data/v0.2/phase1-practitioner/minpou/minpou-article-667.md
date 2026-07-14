@@ -50,10 +50,8 @@ parent_section:
 
 ### 第六百六十七条第一項
 
-<!-- segment: simple id: minpou-art-667-p1 -->
 組合契約は、各当事者が出資をして共同の事業を営むことを約することによって、その効力を生ずる。
 
 ### 第六百六十七条第二項
 
-<!-- segment: simple id: minpou-art-667-p2 -->
 出資は、労務をその目的とすることができる。

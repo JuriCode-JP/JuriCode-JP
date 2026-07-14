@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-16-p1
+    type: simple
+    text: 法第九条の五の規定による掲示のうち、薬剤師不在時間に係るものは、当該薬局内の見やすい場所及び当該薬局の外側の見やすい場所に掲示することにより行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

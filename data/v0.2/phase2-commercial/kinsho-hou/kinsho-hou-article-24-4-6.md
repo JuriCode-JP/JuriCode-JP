@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-6-p1
+    type: junyou
+    text: 第二十二条の規定は、内部統制報告書（その訂正報告書を含む。）のうちに重要な事項について虚偽の記載があり、又は記載すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載が欠けている場合について準用する。この場合において、同条第一項中「当該有価証券届出書の届出者が発行者である有価証券を募集若しくは売出しによらないで取得した者」とあるのは、「当該内部統制報告書（その訂正報告書を含む。）の提出者が発行者である有価証券を取得した者」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第二十二条
 cases: []
 amendments: []
 tags:

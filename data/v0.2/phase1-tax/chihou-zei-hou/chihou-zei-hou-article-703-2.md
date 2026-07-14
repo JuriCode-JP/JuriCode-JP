@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-703-2-p1
+    type: simple
+    text: 市町村は、共同作業場、共同倉庫、共同集荷場、汚物処理施設その他これらに類する施設に要する費用に充てるため、当該施設に因り特に利益を受ける者に対し、共同施設税を課することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-703-2-p2
+    type: simple
+    text: 共同施設税の課税額（数年にわたつて課する場合においては、各年の課税額の総額）は、当該納税者が前項の施設に因り特に受ける利益の限度をこえることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

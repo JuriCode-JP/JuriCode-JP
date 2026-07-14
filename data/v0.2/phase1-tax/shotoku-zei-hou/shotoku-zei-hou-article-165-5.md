@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-5-p1
+    type: simple
+    text: 非居住者が第百六十五条第二項第二号（総合課税に係る所得税の課税標準、税額等の計算）の規定の適用を受ける場合において、同号に規定する政令で定めるところにより配分した金額（以下この条において「配賦経費」という。）につき、その配分に関する計算の基礎となる書類その他の財務省令で定める書類の保存がないときは、その書類の保存がなかつた配賦経費については、その非居住者の各年分の恒久的施設帰属所得につき第百六十五条第一項の規定により準じて計算する不動産所得の金額、事業所得の金額、山林所得の金額若しくは雑所得の金額又は一時所得の金額の計算上、必要経費又は支出した金額に算入しない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-5-p2
+    type: simple
+    text: 税務署長は、配賦経費の全部又は一部につき前項の書類の保存がない場合においても、その保存がなかつたことについてやむを得ない事情があると認めるときは、当該書類の提出があつた場合に限り、その書類の保存がなかつた配賦経費につき同項の規定を適用しないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

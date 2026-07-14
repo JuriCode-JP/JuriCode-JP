@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-154-2-p1
+    type: simple
+    text: 第八十条から前条までの規定を実施するための手続その他必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

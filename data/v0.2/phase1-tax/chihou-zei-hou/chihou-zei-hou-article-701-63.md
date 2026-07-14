@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-63-p1-honbun
+    type: honbun
+    text: 納税者が納期限（更正又は決定があつた場合には、不足税額の納期限。以下本条及び第七百一条の六十五第三項において同じ。）までに事業所税に係る地方団体の徴収金を完納しない場合には、指定都市等の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。
+    modality: gimu
+    references:
+    - 本条
+  - id: chihou-zei-hou-art-701-63-p1-tadashi
+    type: tadashi
+    text: ただし、繰上徴収をする場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-63-p2
+    type: simple
+    text: 特別の事情がある指定都市等においては、当該指定都市等の条例で、前項に規定する期間と異なる期間を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

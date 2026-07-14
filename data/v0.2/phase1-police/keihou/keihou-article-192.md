@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百九十二条
 
-<!-- segment: simple id: keihou-art-192-p1 -->
 検視を経ないで変死者を葬った者は、十万円以下の罰金又は科料に処する。

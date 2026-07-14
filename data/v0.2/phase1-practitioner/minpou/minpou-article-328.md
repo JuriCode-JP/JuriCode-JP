@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百二十八条
 
-<!-- segment: simple id: minpou-art-328-p1 -->
 不動産の売買の先取特権は、不動産の代価及びその利息に関し、その不動産について存在する。

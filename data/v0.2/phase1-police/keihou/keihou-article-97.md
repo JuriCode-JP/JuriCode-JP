@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九十七条
 
-<!-- segment: simple id: keihou-art-97-p1 -->
 法令により拘禁された者が逃走したときは、三年以下の拘禁刑に処する。

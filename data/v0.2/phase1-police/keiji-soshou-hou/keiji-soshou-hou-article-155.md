@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百五十五条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-155-p1 -->
 宣誓の趣旨を理解することができない者は、宣誓をさせないで、これを尋問しなければならない。
 
 ### 第百五十五条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-155-p2 -->
 前項に掲げる者が宣誓をしたときでも、その供述は、証言としての効力を妨げられない。

@@ -13,30 +13,56 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-37-p1-honbun
+    type: honbun
+    text: 役員は、定款の定めるところにより、総会において選任し、又は解任する。
+    modality: unspecified
+  - id: kinsho-hou-art-79-37-p1-tadashi
+    type: tadashi
+    text: ただし、設立当時の役員は、創立総会において選任する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-37-p2
+    type: simple
+    text: 前項の規定による基金の役員の選任（設立当時の役員の選任を除く。）及び解任は、内閣総理大臣及び財務大臣の認可を受けなければ、その効力を生じない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-37-p3
+    type: simple
+    text: 役員の任期は、二年以内において定款の定める期間とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-37-p4
+    type: simple
+    text: 役員は、再任されることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-37-p5
+    type: simple
+    text: 内閣総理大臣及び財務大臣は、不正の手段により役員となつた者のあることが判明したとき、又は役員が法令、法令に基づく行政官庁の処分若しくは定款に違反したときは、基金に対し、当該役員の解任を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

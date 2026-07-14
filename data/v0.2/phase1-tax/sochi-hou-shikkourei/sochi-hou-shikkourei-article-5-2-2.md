@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-2-2-p1
+    type: simple
+    text: 法第九条の八に規定する政令で定める支払の取扱者は、同条各号に掲げる配当等の支払を受ける者の当該配当等の受領の媒介、取次ぎ又は代理（業務として又は業務に関連して国内においてするものに限る。）をする者で財務省令で定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

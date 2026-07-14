@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-12-p1-hashira
+    type: hashira
+    text: 法第四十二条の三第一項に規定する政令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-16-12-p1-kou-1
+    type: kou
+    text: 一　他の金融商品取引業者等（投資運用業を行う者に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-16-12-p1-kou-2
+    type: kou
+    text: 二　外国の法令に準拠して設立された法人で外国において投資運用業を行う者（法第二十九条の二第一項第五号に規定する業務の種別のうち、投資助言・代理業以外のものについて法第二十九条の登録を受けた者を除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十六条の十二
 
 法第四十二条の三第一項に規定する政令で定める者は、次に掲げる者とする。
+
+一　他の金融商品取引業者等（投資運用業を行う者に限る。）
+
+二　外国の法令に準拠して設立された法人で外国において投資運用業を行う者（法第二十九条の二第一項第五号に規定する業務の種別のうち、投資助言・代理業以外のものについて法第二十九条の登録を受けた者を除く。）

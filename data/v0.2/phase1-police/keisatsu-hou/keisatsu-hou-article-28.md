@@ -23,13 +23,28 @@ paragraphs:
     modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keisatsu-hou-art-28-p2
     type: simple
     text: 科学警察研究所は、左に掲げる事務をつかさどる。
     modality: unspecified
+  - id: keisatsu-hou-art-28-p2-kou-1
+    type: kou
+    text: 一　科学捜査についての研究及び実験並びにこれらを応用する鑑定及び検査に関すること。
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-28-p2-kou-2
+    type: kou
+    text: 二　少年の非行防止その他犯罪の防止についての研究及び実験に関すること。
+    modality: unspecified
+    item_number: 2
+  - id: keisatsu-hou-art-28-p2-kou-3
+    type: kou
+    text: 三　交通事故の防止その他交通警察についての研究及び実験に関すること。
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -66,20 +81,22 @@ parent_section:
 
 ### 第二十八条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-28-p1 -->
 警察庁に、科学警察研究所を附置する。
 
 ### 第二十八条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-28-p2 -->
 科学警察研究所は、左に掲げる事務をつかさどる。
+
+一　科学捜査についての研究及び実験並びにこれらを応用する鑑定及び検査に関すること。
+
+二　少年の非行防止その他犯罪の防止についての研究及び実験に関すること。
+
+三　交通事故の防止その他交通警察についての研究及び実験に関すること。
 
 ### 第二十八条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-28-p3 -->
 科学警察研究所に、所長を置く。
 
 ### 第二十八条第四項
 
-<!-- segment: simple id: keisatsu-hou-art-28-p4 -->
 科学警察研究所の位置及び内部組織は、内閣府令で定める。

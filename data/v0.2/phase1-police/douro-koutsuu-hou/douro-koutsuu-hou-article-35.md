@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -38,6 +38,10 @@ paragraphs:
     references:
     - 前条
     - 前項
+  - id: douro-koutsuu-hou-art-35-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第三号、同条第三項　第二項については第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -56,10 +60,10 @@ parent_section:
 
 ### 第三十五条第一項
 
-<!-- segment: tokusoku id: douro-koutsuu-hou-art-35-p1 override_flag: true override_target: 第四項 -->
 車両（特定小型原動機付自転車等及び右折につき一般原動機付自転車が前条第五項本文の規定によることとされる交差点において左折又は右折をする一般原動機付自転車を除く。）は、車両通行帯の設けられた道路において、道路標識等により交差点で進行する方向に関する通行の区分が指定されているときは、同条第一項、第二項及び第四項の規定にかかわらず、当該通行の区分に従い当該車両通行帯を通行しなければならない。ただし、第四十条の規定に従うため、又は道路の損壊、道路工事その他の障害のためやむを得ないときは、この限りでない。
 
 ### 第三十五条第二項
 
-<!-- segment: junyou id: douro-koutsuu-hou-art-35-p2 -->
 前条第六項の規定は、車両が前項の通行の区分に従い通行するため進路を変更しようとして手又は方向指示器による合図をした場合について準用する。
+
+（罰則　第一項については第百二十条第一項第三号、同条第三項　第二項については第百二十条第一項第二号）

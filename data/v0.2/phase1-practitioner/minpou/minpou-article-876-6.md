@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-6-p1
+    type: simple
+    text: 補助は、補助開始の審判によって開始する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

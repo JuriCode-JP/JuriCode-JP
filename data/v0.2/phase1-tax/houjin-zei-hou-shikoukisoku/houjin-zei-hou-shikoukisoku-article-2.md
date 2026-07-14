@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法人税法施行令（昭和四十年政令第九十七号。以下「令」という。）第二条第二項（公益法人等に該当する農業協同組合連合会の要件等）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-2-p1-kou-1
+    type: kou
+    text: 一　申請をする農業協同組合連合会（以下この条において「申請法人」という。）の名称及び主たる事務所の所在地
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-2-p1-kou-2
+    type: kou
+    text: 二　申請法人が設置する病院又は診療所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-2-p1-kou-3
+    type: kou
+    text: 三　申請法人が農業協同組合法（昭和二十二年法律第百三十二号）第十条第一項第十二号（老人の福祉に関する施設）に掲げる事業を行う場合には、その設置する老人の福祉に関する施設の名称及び所在地
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-2-p1-kou-4
+    type: kou
+    text: 四　申請法人の理事の氏名及び住所
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-2-p1-kou-5
+    type: kou
+    text: 五　申請法人の行う事業の概要
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikoukisoku-art-2-p1-kou-6
+    type: kou
+    text: 六　その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +80,20 @@ parent_section:
 
 ### 第二条第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-2-p1-hashira -->
 法人税法施行令（昭和四十年政令第九十七号。以下「令」という。）第二条第二項（公益法人等に該当する農業協同組合連合会の要件等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする農業協同組合連合会（以下この条において「申請法人」という。）の名称及び主たる事務所の所在地
+
+二　申請法人が設置する病院又は診療所の名称及び所在地
+
+三　申請法人が農業協同組合法（昭和二十二年法律第百三十二号）第十条第一項第十二号（老人の福祉に関する施設）に掲げる事業を行う場合には、その設置する老人の福祉に関する施設の名称及び所在地
+
+四　申請法人の理事の氏名及び住所
+
+五　申請法人の行う事業の概要
+
+六　その他参考となるべき事項
 
 ### 第二条第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-2-p2 -->
 令第二条第二項に規定する財務省令で定める書類は、定款の写し（当該定款が同項に規定する申請書の提出をする日前一年以内に変更をしたものである場合には、当該変更に関する農業協同組合法第四十四条第二項（定款の変更）に規定する行政庁の認可に係る書類の写し又は同条第四項の規定により行政庁に届け出た書類の写しを含む。）並びに同日の属する事業年度の直前の事業年度の損益計算書、貸借対照表、剰余金又は損失の処分表及び事業報告書とする。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-9-p1
+    type: simple
+    text: 薬局開設者は、医師、歯科医師又は獣医師の処方箋によらない場合には、その薬局で調剤に従事する薬剤師に販売又は授与の目的で調剤させてはならない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-9-p2
+    type: simple
+    text: 薬局開設者は、処方箋に記載された医薬品につき、その処方箋を交付した医師、歯科医師又は獣医師の同意を得た場合を除き、その薬局で調剤に従事する薬剤師にこれを変更して調剤させてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

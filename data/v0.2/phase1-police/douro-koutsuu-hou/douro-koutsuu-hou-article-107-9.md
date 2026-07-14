@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-9-p1
+    type: simple
+    text: 国外運転免許証は、当該国外運転免許証に係る免許が失効し、又は取り消されたときは、その効力を失う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-9-p2
+    type: simple
+    text: 国外運転免許証は、当該国外運転免許証に係る免許の効力が停止されたときは、当該停止の期間、その効力が停止されるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

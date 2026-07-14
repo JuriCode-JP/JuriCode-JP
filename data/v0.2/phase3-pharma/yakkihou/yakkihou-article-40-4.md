@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-4-p1
+    type: simple
+    text: 医療機器の販売業者、貸与業者又は修理業者は、医療機器を一般に購入し、譲り受け、借り受け、若しくは使用し、又は医療機器プログラムの電気通信回線を通じた提供を受ける者に対し、医療機器の適正な使用のために必要な情報を提供するよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

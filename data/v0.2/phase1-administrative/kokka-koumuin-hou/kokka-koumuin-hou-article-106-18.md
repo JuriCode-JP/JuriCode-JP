@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-18-p1
+    type: simple
+    text: 委員会は、第百六条の四第九項の届出、第百六条の十六の報告又はその他の事由により職員又は職員であつた者に再就職等規制違反行為を行つた疑いがあると思料するときは、任命権者に対し、当該再就職等規制違反行為に関する調査を行うよう求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-18-p2
+    type: junyou
+    text: 前条第二項及び第三項の規定は、前項の規定により行われる調査について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

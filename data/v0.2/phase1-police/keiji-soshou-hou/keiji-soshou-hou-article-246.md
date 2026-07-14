@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-246-p1 -->
 司法警察員は、犯罪の捜査をしたときは、この法律に特別の定のある場合を除いては、速やかに書類及び証拠物とともに事件を検察官に送致しなければならない。但し、検察官が指定した事件については、この限りでない。

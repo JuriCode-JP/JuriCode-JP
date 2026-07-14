@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十一条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-71-p1 -->
 法第十四条の十第二項の規定により厚生労働大臣に対して行う製造販売の届出の受理に係る通知は、様式第四十一による通知書によつて行うものとする。

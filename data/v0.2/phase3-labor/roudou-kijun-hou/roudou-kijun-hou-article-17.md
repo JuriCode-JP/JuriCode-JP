@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: simple id: roudou-kijun-hou-art-17-p1 -->
 使用者は、前借金その他労働することを条件とする前貸の債権と賃金を相殺してはならない。

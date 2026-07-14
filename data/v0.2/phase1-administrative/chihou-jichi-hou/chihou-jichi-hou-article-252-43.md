@@ -16,47 +16,108 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p1
+    type: simple
+    text: 第二百四十二条第一項の請求に係る監査について監査委員の監査に代えて契約に基づく監査によることができることを条例により定める普通地方公共団体の住民は、同項の請求をする場合において、特に必要があると認めるときは、政令で定めるところにより、その理由を付して、併せて監査委員の監査に代えて個別外部監査契約に基づく監査によることを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p2-zen
+    type: zen_dan
+    text: 監査委員は、前項の規定により個別外部監査契約に基づく監査によることが求められた第二百四十二条第一項の請求（以下この条において「住民監査請求に係る個別外部監査の請求」という。）があつた場合において、当該住民監査請求に係る個別外部監査の請求について、監査委員の監査に代えて個別外部監査契約に基づく監査によることが相当であると認めるときは、個別外部監査契約に基づく監査によることを決定し、当該住民監査請求に係る個別外部監査の請求があつた日から二十日以内に、その旨を当該普通地方公共団体の長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-252-43-p2-kou
+    type: kou_dan
+    text: この場合において、監査委員は、当該通知をした旨を、当該住民監査請求に係る個別外部監査の請求に係る請求人に直ちに通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-43-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p3
+    type: junyou
+    text: 第二百五十二条の三十九第五項から第十一項までの規定は、前項前段の規定による通知があつた場合について準用する。この場合において、同条第五項中「事務の監査の請求に係る個別外部監査の請求について監査委員の監査に代えて個別外部監査契約に基づく監査によることについて議会の議決を経た」とあるのは「第二百五十二条の四十三第二項前段の規定による通知があつた」と、「事務の監査の請求に係る個別外部監査の請求に係る」とあるのは「同項に規定する住民監査請求に係る個別外部監査の請求に係る」と、同条第七項中「第三項」とあるのは「第二百五十二条の四十三第二項の規定による監査委員の監査に代えて個別外部監査契約に基づく監査によることの決定」と、同条第八項第一号中「事務の監査の請求に係る個別外部監査の請求」とあるのは「第二百五十二条の四十三第二項に規定する住民監査請求に係る個別外部監査の請求」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p4
+    type: simple
+    text: 前項において準用する第二百五十二条の三十九第五項の個別外部監査契約を締結した者は、当該個別外部監査契約で定める個別外部監査契約の期間内に、住民監査請求に係る個別外部監査の請求に係る事項について監査を行い、かつ、監査の結果に関する報告を決定するとともに、これを監査委員に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p5
+    type: simple
+    text: 第二項前段の規定による通知があつた場合における第二百四十二条第五項から第七項まで及び第十一項並びに第二百四十二条の二第一項及び第二項の規定の適用については、第二百四十二条第五項中「第一項の規定による請求」とあるのは「第二百五十二条の四十三第四項の規定による監査の結果に関する報告の提出」と、「監査を行い」とあるのは「当該監査の結果に関する報告に基づき」と、「請求人に通知する」とあるのは「同条第二項に規定する住民監査請求に係る個別外部監査の請求に係る請求人（以下この条において「請求人」という。）に通知する」と、同条第六項中「監査委員の監査」とあるのは「請求に理由があるかどうかの決定」と、「第一項の規定による」とあるのは「第二百五十二条の四十三第二項に規定する住民監査請求に係る個別外部監査の」と、「六十日」とあるのは「九十日」と、同条第七項中「監査委員は、第五項」とあるのは「第二百五十二条の四十三第三項において準用する第二百五十二条の三十九第五項の個別外部監査契約を締結した者は、第二百五十二条の四十三第四項」と、同条第十一項中「第四項の規定による勧告、第五項」とあるのは「第五項」と、「監査及び勧告並びに前項の規定による意見」とあるのは「請求に理由があるかどうかの決定及び勧告」と、第二百四十二条の二第一項中「前条第一項の規定による」とあるのは「第二百五十二条の四十三第二項に規定する住民監査請求に係る個別外部監査の」と、「同条第五項の規定による監査委員の監査の結果」とあるのは「前条第五項の規定による請求に理由がない旨の決定」と、「監査若しくは」とあるのは「請求に理由がない旨の決定若しくは」と、「同条第一項」とあるのは「第二百五十二条の四十三第二項に規定する住民監査請求に係る個別外部監査」と、同条第二項第一号中「の監査の結果」とあるのは「の請求に理由がない旨の決定」と、「当該監査の結果」とあるのは「当該請求に理由がない旨」と、同項第三号中「六十日」とあるのは「九十日」と、「監査又は」とあるのは「当該請求に理由がない旨の決定又は」とする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p6
+    type: junyou
+    text: 第二百五十二条の三十八第一項、第二項及び第五項の規定は、住民監査請求に係る個別外部監査の請求に係る事項についての個別外部監査人の監査について準用する。この場合において、同条第二項中「包括外部監査対象団体」とあるのは、「個別外部監査契約を締結した普通地方公共団体」と読み替えるものとする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p7
+    type: simple
+    text: 個別外部監査人は、第五項において読み替えて適用する第二百四十二条第七項の規定による陳述の聴取を行う場合又は関係のある当該普通地方公共団体の長その他の執行機関若しくは職員の陳述の聴取を行う場合において、必要があると認めるときは、監査委員と協議して、関係のある当該普通地方公共団体の長その他の執行機関若しくは職員又は請求人を立ち会わせることができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p8
+    type: simple
+    text: 前項の規定による協議は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-43-p9-zen
+    type: zen_dan
+    text: 住民監査請求に係る個別外部監査の請求があつた場合において、監査委員が当該住民監査請求に係る個別外部監査の請求があつた日から二十日以内に、当該普通地方公共団体の長に第二項前段の規定による通知を行わないときは、当該住民監査請求に係る個別外部監査の請求は、初めから第一項の規定により個別外部監査契約に基づく監査によることが求められていない第二百四十二条第一項の請求であつたものとみなす。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-252-43-p9-kou
+    type: kou_dan
+    text: この場合において、監査委員は、同条第五項の規定による通知を行うときに、併せて当該普通地方公共団体の長に第二項前段の規定による通知を行わなかつた理由を書面により当該住民監査請求に係る個別外部監査の請求に係る請求人に通知するとともに、これを公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-43-p9-zen
 cases: []
 amendments: []
 tags:

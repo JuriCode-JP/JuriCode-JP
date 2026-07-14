@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-3-p1
+    type: simple
+    text: 区域管理者は、保健衛生上支障を生ずるおそれがないように、その業務に関し配置員を監督し、医薬品その他の物品を管理し、その他その区域の業務につき、必要な注意をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-3-p2
+    type: simple
+    text: 区域管理者は、保健衛生上支障を生ずるおそれがないように、その区域の業務につき、配置販売業者に対し、必要な意見を書面により述べなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-3-p3
+    type: simple
+    text: 区域管理者が行う区域の管理に関する業務及び区域管理者が遵守すべき事項については、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

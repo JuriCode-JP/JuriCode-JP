@@ -45,5 +45,4 @@ parent_section:
 
 ### 第六百九十二条
 
-<!-- segment: junyou id: minpou-art-692-p1 applies_provisions: 第五百三十三条 -->
 第五百三十三条の規定は、前条の場合について準用する。

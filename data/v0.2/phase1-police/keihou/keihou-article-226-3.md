@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-226-3-p1
+    type: simple
+    text: 略取され、誘拐され、又は売買された者を所在国外に移送した者は、二年以上の有期拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-9-p1
+    type: simple
+    text: 第三百二十一条の八第一項に規定する法人税法第七十一条第一項の規定による法人税に係る申告書（同法第七十二条第一項各号に掲げる事項を記載したものに限る。）又は同法第百四十四条の三第一項の規定による法人税に係る申告書（同法第百四十四条の四第一項各号に掲げる事項を記載したものに限る。）を提出する義務がある法人が第三百二十一条の八第一項の申告書又はこれに係る同条第三十四項の申告書に虚偽の記載をして提出した場合において、法人の代表者（法人課税信託の受託者である個人を含む。）、代理人、使用人その他の従業者でその違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-9-p2
+    type: simple
+    text: 法人の代表者又は代理人、使用人その他の従業者がその法人の業務に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

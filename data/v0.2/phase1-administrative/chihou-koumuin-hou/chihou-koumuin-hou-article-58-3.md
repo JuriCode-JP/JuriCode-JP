@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-58-3-p1
+    type: simple
+    text: 任命権者は、第二十五条第四項に規定する等級及び職員の職の属する職制上の段階ごとに、職員の数を、毎年、地方公共団体の長に報告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-58-3-p2
+    type: simple
+    text: 地方公共団体の長は、毎年、前項の規定による報告を取りまとめ、公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

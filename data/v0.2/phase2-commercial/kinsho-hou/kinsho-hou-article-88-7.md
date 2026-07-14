@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-7-p1
+    type: simple
+    text: 発起人は、創立総会の終了後遅滞なく、その事務を理事長となる者に引き継がなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,9 +14,58 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-27-p1-hashira
+    type: hashira
+    text: 令第三十七条の十九に規定する法第二十三条の二の五第一項及び第十三項の承認に関する台帳に記載する事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-1
+    type: kou
+    text: 一　承認番号及び承認年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-2
+    type: kou
+    text: 二　承認を受けた者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-3
+    type: kou
+    text: 三　承認を受けた者の製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-4
+    type: kou
+    text: 四　当該品目の製造所の名称
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-5
+    type: kou
+    text: 五　当該品目の製造所が受けている製造業者の登録番号又は医療機器等外国製造業者の登録番号
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-6
+    type: kou
+    text: 六　当該品目の名称
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-7
+    type: kou
+    text: 七　当該品目の形状、構造及び原理
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-8
+    type: kou
+    text: 八　当該品目の使用目的又は効果
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-114-27-p1-kou-9
+    type: kou
+    text: 九　当該品目の使用方法
+    modality: unspecified
+    item_number: 9
 cases: []
 amendments: []
 tags:
@@ -36,3 +85,21 @@ parent_section:
 ### 第百十四条の二十七
 
 令第三十七条の十九に規定する法第二十三条の二の五第一項及び第十三項の承認に関する台帳に記載する事項は、次のとおりとする。
+
+一　承認番号及び承認年月日
+
+二　承認を受けた者の氏名及び住所
+
+三　承認を受けた者の製造販売業の許可の種類及び許可番号
+
+四　当該品目の製造所の名称
+
+五　当該品目の製造所が受けている製造業者の登録番号又は医療機器等外国製造業者の登録番号
+
+六　当該品目の名称
+
+七　当該品目の形状、構造及び原理
+
+八　当該品目の使用目的又は効果
+
+九　当該品目の使用方法

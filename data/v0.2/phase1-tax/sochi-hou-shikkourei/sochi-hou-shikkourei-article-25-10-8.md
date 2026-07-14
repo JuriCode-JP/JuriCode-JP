@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-25-10-8-p1
+    type: simple
+    text: 特定口座を開設している居住者又は恒久的施設を有する非居住者が死亡したときは、その者の相続人は、当該特定口座につきその相続の開始があつたことを知つた日以後遅滞なく、当該特定口座が開設されている金融商品取引業者等の営業所の長に、その旨その他財務省令で定める事項を記載した届出書（以下この条、次条第五項並びに第二十五条の十の十一第二項第五号及び第六項第三号において「特定口座開設者死亡届出書」という。）の提出（当該特定口座開設者死亡届出書の提出に代えて行う電磁的方法による当該特定口座開設者死亡届出書に記載すべき事項の提供を含む。同条第二項第五号及び第六項第三号において同じ。）をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

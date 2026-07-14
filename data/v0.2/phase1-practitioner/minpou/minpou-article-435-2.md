@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-435-2-p1-honbun
+    type: honbun
+    text: 第四百三十二条から前条までに規定する場合を除き、連帯債権者の一人の行為又は一人について生じた事由は、他の連帯債権者に対してその効力を生じない。
+    modality: unspecified
+    references:
+    - 前条
+  - id: minpou-art-435-2-p1-tadashi
+    type: tadashi
+    text: ただし、他の連帯債権者の一人及び債務者が別段の意思を表示したときは、当該他の連帯債権者に対する効力は、その意思に従う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

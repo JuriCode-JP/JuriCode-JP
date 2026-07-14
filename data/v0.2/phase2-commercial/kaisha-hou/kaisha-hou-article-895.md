@@ -47,5 +47,4 @@ parent_section:
 
 ### 第八百九十五条
 
-<!-- segment: junyou id: kaisha-hou-art-895-p1 applies_provisions: 前条 -->
 前条の規定は、調査委員について準用する。

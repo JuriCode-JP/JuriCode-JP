@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-69-p1-hashira
+    type: hashira
+    text: 令第四十三条の二十二に規定する法第二十三条の三十七第一項及び同条第五項において準用する法第二十三条の二十五第十三項の承認に関する台帳に記載する事項は、第百三十七条の三十各号（第三号を除く。）に掲げる事項のほか、次に掲げる事項を記載するものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-69-p1-kou-1
+    type: kou
+    text: 一　選任外国製造再生医療等製品製造販売業者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-69-p1-kou-2
+    type: kou
+    text: 二　当該選任外国製造再生医療等製品製造販売業者の受けている製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第百三十七条の六十九
 
 令第四十三条の二十二に規定する法第二十三条の三十七第一項及び同条第五項において準用する法第二十三条の二十五第十三項の承認に関する台帳に記載する事項は、第百三十七条の三十各号（第三号を除く。）に掲げる事項のほか、次に掲げる事項を記載するものとする。
+
+一　選任外国製造再生医療等製品製造販売業者の氏名及び住所
+
+二　当該選任外国製造再生医療等製品製造販売業者の受けている製造販売業の許可の種類及び許可番号

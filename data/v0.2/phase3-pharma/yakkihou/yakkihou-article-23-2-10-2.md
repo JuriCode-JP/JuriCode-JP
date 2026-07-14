@@ -14,64 +14,158 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p1-hashira
+    type: hashira
+    text: 第二十三条の二の五第一項の承認を受けた者は、厚生労働省令で定めるところにより、厚生労働大臣に申し出て、当該承認を受けた品目について承認された事項の一部の変更に係る計画（以下この条において「変更計画」という。）が、次の各号のいずれにも該当する旨の確認を受けることができる。これを変更しようとするときも、同様とする。
+    modality: gimu
+  - id: yakkihou-art-23-2-10-2-p1-kou-1
+    type: kou
+    text: 一　当該変更計画に定められた変更が、性能、製造方法その他の厚生労働省令で定める事項の変更であること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-2-10-2-p1-kou-2
+    type: kou
+    text: 二　第四十二条第一項又は第二項の規定により定められた基準に適合しないこととなる変更その他の厚生労働省令で定める変更に該当しないこと。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-23-2-10-2-p1-kou-3
+    type: kou
+    text: '三　当該変更計画に従つた変更が行われた場合に、当該変更計画に係る医療機器又は体外診断用医薬品が、次のイからハまでのいずれにも該当しないこと。
+
+      イ　当該医療機器又は体外診断用医薬品が、その変更前の承認に係る効果又は性能を有すると認められないこと。
+
+      ロ　当該医療機器が、その効果又は性能に比して著しく有害な作用を有することにより、医療機器として使用価値がないと認められること。
+
+      ハ　イ又はロに掲げる場合のほか、医療機器又は体外診断用医薬品として不適当なものとして、厚生労働省令で定める場合に該当すること。'
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p2
+    type: simple
+    text: 前項の確認においては、変更計画（同項後段の規定による変更があつたときは、その変更後のもの。以下この条において同じ。）の確認を受けようとする者が提出する資料に基づき、当該変更計画に係る医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査を行うものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p3
+    type: simple
+    text: 第一項の確認を受けようとする者又は同項の確認を受けた者は、その確認に係る変更計画に従つて第二十三条の二の五の承認を受けた事項の一部の変更を行う医療機器又は体外診断用医薬品が同条第二項第四号の政令で定めるものであり、かつ、当該変更が製造管理又は品質管理の方法に影響を与えるおそれがある変更として厚生労働省令で定めるものであるときは、厚生労働省令で定めるところにより、その変更を行う医療機器又は体外診断用医薬品の製造所における製造管理又は品質管理の方法が、同号の厚生労働省令で定める基準に適合している旨の確認を受けなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p4
+    type: simple
+    text: 前項の確認においては、その変更を行う医療機器又は体外診断用医薬品の製造所における製造管理又は品質管理の方法が、第二十三条の二の五第二項第四号の厚生労働省令で定める基準に適合しているかどうかについて、書面による調査又は実地の調査を行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p5
+    type: simple
+    text: 厚生労働大臣は、第一項の確認を受けた変更計画が同項各号のいずれかに該当していなかつたことが判明したとき、第三項の確認を受けた製造管理若しくは品質管理の方法が第二十三条の二の五第二項第四号の厚生労働省令で定める基準に適合していなかつたことが判明したとき、又は偽りその他不正の手段により第一項若しくは第三項の確認を受けたことが判明したときは、その確認を取り消さなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p6
+    type: simple
+    text: 第一項の確認を受けた者（その行おうとする変更が第三項の厚生労働省令で定めるものであるときは、第一項及び第三項の確認を受けた者に限る。）は、第二十三条の二の五の承認を受けた医療機器又は体外診断用医薬品に係る承認された事項の一部について第一項の確認を受けた変更計画に従つた変更（製造方法の変更その他の厚生労働省令で定める変更に限る。）を行う日の厚生労働省令で定める日数前までに、厚生労働省令で定めるところにより、厚生労働大臣に当該変更を行う旨を届け出たときは、同条第十三項の厚生労働大臣の承認を受けることを要しない。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p7
+    type: simple
+    text: 厚生労働大臣は、前項の規定による届出があつた場合において、その届出に係る変更が第一項の確認を受けた変更計画に従つた変更であると認められないときは、その届出を受理した日から前項の厚生労働省令で定める日数以内に限り、その届出をした者に対し、その届出に係る変更の中止その他必要な措置を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p8
+    type: tokusoku
+    text: 厚生労働大臣は、第一項の確認を受けた者が第二十三条の二の五の承認を受けた医療機器又は体外診断用医薬品に係る同項の確認を受けた変更計画に従つた変更（第六項に規定する製造方法の変更その他の厚生労働省令で定める変更のみを行う場合を除く。）について同条第十三項の承認の申請を行つた場合には、同項において準用する同条第五項の規定にかかわらず、同項に規定する品質、有効性及び安全性に関する調査に代えて、当該変更計画に従つた変更であるかどうかについての書面による調査又は実地の調査を行うことができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第五項
+    references:
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p9
+    type: simple
+    text: 厚生労働大臣は、機構に、第二十三条の二の七第一項の政令で定める医療機器又は体外診断用医薬品についての第一項及び第三項の確認を行わせることができる。
+    modality: kanou_kenri
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p10
+    type: junyou
+    text: 第二十三条の二の七第二項、第三項、第六項及び第七項の規定並びに第五項の規定は、前項の規定により機構に第一項及び第三項の確認を行わせることとした場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p11
+    type: tokusoku
+    text: 厚生労働大臣が第二十三条の二の七第一項の規定により機構に審査を行わせることとしたときは、同項の政令で定める医療機器又は体外診断用医薬品についての第六項の規定による届出は、同項の規定にかかわらず、機構に行わなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-10-2-p12
+    type: simple
+    text: 機構は、前項の規定による届出を受理したときは、直ちに、当該届出の状況を厚生労働省令で定めるところにより厚生労働大臣に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -91,6 +185,18 @@ parent_section:
 ### 第二十三条の二の十の二第一項
 
 第二十三条の二の五第一項の承認を受けた者は、厚生労働省令で定めるところにより、厚生労働大臣に申し出て、当該承認を受けた品目について承認された事項の一部の変更に係る計画（以下この条において「変更計画」という。）が、次の各号のいずれにも該当する旨の確認を受けることができる。これを変更しようとするときも、同様とする。
+
+一　当該変更計画に定められた変更が、性能、製造方法その他の厚生労働省令で定める事項の変更であること。
+
+二　第四十二条第一項又は第二項の規定により定められた基準に適合しないこととなる変更その他の厚生労働省令で定める変更に該当しないこと。
+
+三　当該変更計画に従つた変更が行われた場合に、当該変更計画に係る医療機器又は体外診断用医薬品が、次のイからハまでのいずれにも該当しないこと。
+
+　イ　当該医療機器又は体外診断用医薬品が、その変更前の承認に係る効果又は性能を有すると認められないこと。
+
+　ロ　当該医療機器が、その効果又は性能に比して著しく有害な作用を有することにより、医療機器として使用価値がないと認められること。
+
+　ハ　イ又はロに掲げる場合のほか、医療機器又は体外診断用医薬品として不適当なものとして、厚生労働省令で定める場合に該当すること。
 
 ### 第二十三条の二の十の二第二項
 

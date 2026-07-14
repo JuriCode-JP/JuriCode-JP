@@ -39,6 +39,21 @@ paragraphs:
     type: hashira
     text: 法第六十六条の八第二項に規定する内閣府令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-265-p3-kou-1
+    type: kou
+    text: 一　金融商品仲介業者である旨
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-265-p3-kou-2
+    type: kou
+    text: 二　登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-265-p3-kou-3
+    type: kou
+    text: 三　所属金融商品取引業者等の商号又は名称
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: true
@@ -48,6 +63,16 @@ paragraphs:
     type: hashira
     text: 法第六十六条の八第二項ただし書に規定する内閣府令で定める場合は、次に掲げる場合とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-265-p4-kou-1
+    type: kou
+    text: 一　その常時使用する従業員の数が二十人以下である場合
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-265-p4-kou-2
+    type: kou
+    text: 二　そのウェブサイトがない場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -66,20 +91,26 @@ parent_section:
 
 ### 第二百六十五条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-265-p1 -->
 法第六十六条の八第一項に規定する内閣府令で定める様式は、別紙様式第二十五号に定めるものとする。
 
 ### 第二百六十五条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-265-p2 -->
 金融商品仲介業者は、法第六十六条の八第二項の規定による閲覧に供する措置をするときは、当該金融商品仲介業者のウェブサイトに掲載する方法によりしなければならない。
 
 ### 第二百六十五条第三項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-265-p3-hashira -->
 法第六十六条の八第二項に規定する内閣府令で定める事項は、次に掲げる事項とする。
+
+一　金融商品仲介業者である旨
+
+二　登録番号
+
+三　所属金融商品取引業者等の商号又は名称
 
 ### 第二百六十五条第四項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-265-p4-hashira -->
 法第六十六条の八第二項ただし書に規定する内閣府令で定める場合は、次に掲げる場合とする。
+
+一　その常時使用する従業員の数が二十人以下である場合
+
+二　そのウェブサイトがない場合

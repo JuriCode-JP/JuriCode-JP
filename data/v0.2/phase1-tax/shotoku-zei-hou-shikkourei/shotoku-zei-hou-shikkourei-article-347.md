@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三百四十七条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-347-p1 -->
 法第二百二十四条の四（信託受益権の譲渡の対価の受領者の告知）に規定する法人税法別表第一（公共法人の表）に掲げる法人その他の政令で定めるものは、公共法人等とする。

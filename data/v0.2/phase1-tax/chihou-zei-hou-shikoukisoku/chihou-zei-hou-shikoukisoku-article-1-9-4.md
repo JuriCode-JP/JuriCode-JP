@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-4-p1
+    type: simple
+    text: 法第二十条の十一の三に規定する総務省令で定める事項は、同条に規定する口座管理機関の加入者（同条に規定する加入者をいう。次条第二項において同じ。）の顧客番号又は口座番号並びに法第二十条の十一の三に規定する社債等の種類、銘柄及びその銘柄ごとの数又は金額とする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

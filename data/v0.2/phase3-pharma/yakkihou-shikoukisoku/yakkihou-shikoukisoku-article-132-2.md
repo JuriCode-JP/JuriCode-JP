@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-2-p1
+    type: simple
+    text: 法第二十三条の十六第五項の規定により厚生労働大臣に対して行う検査又は質問の結果の通知は、様式第七十五の二による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

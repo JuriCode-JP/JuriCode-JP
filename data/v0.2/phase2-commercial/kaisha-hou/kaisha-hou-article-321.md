@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百二十一条
 
-<!-- segment: simple id: kaisha-hou-art-321-p1 -->
 種類株主総会は、この法律に規定する事項及び定款で定めた事項に限り、決議をすることができる。

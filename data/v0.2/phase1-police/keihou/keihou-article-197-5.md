@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-197-5-p1
+    type: simple
+    text: 犯人又は情を知った第三者が収受した賄賂は、没収する。その全部又は一部を没収することができないときは、その価額を追徴する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

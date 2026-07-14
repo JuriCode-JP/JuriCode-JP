@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の方法により、財産上不法の利益を得、又は他人にこれを得させた者も、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -51,10 +51,8 @@ parent_section:
 
 ### 第二百四十六条第一項
 
-<!-- segment: simple id: keihou-art-246-p1 -->
 人を欺いて財物を交付させた者は、十年以下の拘禁刑に処する。
 
 ### 第二百四十六条第二項
 
-<!-- segment: simple id: keihou-art-246-p2 -->
 前項の方法により、財産上不法の利益を得、又は他人にこれを得させた者も、同項と同様とする。

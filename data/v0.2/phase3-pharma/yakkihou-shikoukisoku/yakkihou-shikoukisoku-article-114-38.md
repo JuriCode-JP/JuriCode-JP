@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-38-p1
+    type: simple
+    text: 法第二十三条の二の七第六項の規定により厚生労働大臣に対して行う医療機器等審査等の結果の通知は、様式第六十三の十六による通知書によつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-38-p2
+    type: simple
+    text: 法第二十三条の二の七第六項の規定により厚生労働大臣に対して行う法第二十三条の二の五第六項若しくは第八項（これらの規定を同条第十三項において準用する場合を含む。）又は第二十三条の二の六の三第二項（医療機器又は体外診断用医薬品の品質管理又は製造管理の方法についての調査に係る部分に限り、法第二十三条の二の八第二項において準用する場合を含む。）の規定による調査の結果の通知は、様式第六十三の十二による通知書によつて行うものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-38-p3
+    type: simple
+    text: 法第二十三条の二の七第六項の規定により厚生労働大臣に対して行う法第二十三条の二の五第十四項の規定による届出の状況の通知は、様式第二十九による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

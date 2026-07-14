@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-5-p1
+    type: simple
+    text: 鉱物の掘採事業と精錬事業とを一貫して行う法人が納付すべき事業税の課税標準とすべき付加価値額及び所得は、これらの事業を通じて算定した付加価値額及び所得に、課税標準の算定期間中におけるこれらの事業の生産品について収入すべき金額から課税標準の算定期間中において掘採した鉱物について法人が納付すべき鉱産税の課税標準である鉱物の価格を控除した金額を当該生産品について収入すべき金額で除して得た数値を、それぞれ乗じて得た額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-5-p2
+    type: tokusoku
+    text: 前項の法人が鉱物の掘採事業に係る付加価値額及び所得と精錬事業に係る付加価値額及び所得とを区分することができる場合においては、当該法人の精錬事業に係る事業税の課税標準とすべき付加価値額及び所得は、同項の規定にかかわらず、その区分して計算した付加価値額及び所得とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-5-p3
+    type: simple
+    text: 前項の場合においては、その区分計算の方法について、事務所又は事業所所在地の道府県知事（二以上の道府県において事務所又は事業所を設けて事業を行う法人にあつては、主たる事務所又は事業所所在地の道府県知事）の承認を受けなければならない。その区分計算の方法を変更しようとする場合においても、また、同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

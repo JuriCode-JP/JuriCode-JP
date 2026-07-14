@@ -112,42 +112,32 @@ parent_section:
 
 ### 第百三十八条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-138-p1 -->
 都道府県の議会に事務局を置く。
 
 ### 第百三十八条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-138-p2 -->
 市町村の議会に条例の定めるところにより、事務局を置くことができる。
 
 ### 第百三十八条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-138-p3 -->
 事務局に事務局長、書記その他の職員を置く。
 
 ### 第百三十八条第四項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-138-p4-honbun -->
-事務局を置かない市町村の議会に書記長、書記その他の職員を置く。<!-- segment: tadashi id: chihou-jichi-hou-art-138-p4-tadashi -->
-ただし、町村においては、書記長を置かないことができる。
+事務局を置かない市町村の議会に書記長、書記その他の職員を置く。ただし、町村においては、書記長を置かないことができる。
 
 ### 第百三十八条第五項
 
-<!-- segment: simple id: chihou-jichi-hou-art-138-p5 -->
 事務局長、書記長、書記その他の職員は、議長がこれを任免する。
 
 ### 第百三十八条第六項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-138-p6-honbun -->
-事務局長、書記長、書記その他の常勤の職員の定数は、条例でこれを定める。<!-- segment: tadashi id: chihou-jichi-hou-art-138-p6-tadashi -->
-ただし、臨時の職については、この限りでない。
+事務局長、書記長、書記その他の常勤の職員の定数は、条例でこれを定める。ただし、臨時の職については、この限りでない。
 
 ### 第百三十八条第七項
 
-<!-- segment: simple id: chihou-jichi-hou-art-138-p7 -->
 事務局長及び書記長は議長の命を受け、書記その他の職員は上司の指揮を受けて、議会に関する事務に従事する。
 
 ### 第百三十八条第八項
 
-<!-- segment: simple id: chihou-jichi-hou-art-138-p8 -->
 事務局長、書記長、書記その他の職員に関する任用、人事評価、給与、勤務時間その他の勤務条件、分限及び懲戒、服務、退職管理、研修、福祉及び利益の保護その他身分取扱いに関しては、この法律に定めるものを除くほか、地方公務員法の定めるところによる。

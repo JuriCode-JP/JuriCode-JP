@@ -50,6 +50,4 @@ parent_section:
 
 ### 第五百七十二条
 
-<!-- segment: zen_dan id: kaisha-hou-art-572-p1-zen -->
-協定の実行上必要があるときは、協定の内容を変更することができる。<!-- segment: kou_dan id: kaisha-hou-art-572-p1-kou depends_on: kaisha-hou-art-572-p1-zen -->
-この場合においては、第五百六十三条から前条までの規定を準用する。
+協定の実行上必要があるときは、協定の内容を変更することができる。この場合においては、第五百六十三条から前条までの規定を準用する。

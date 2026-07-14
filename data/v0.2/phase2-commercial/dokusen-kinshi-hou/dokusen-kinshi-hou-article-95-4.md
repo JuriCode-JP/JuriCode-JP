@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-95-4-p1
+    type: simple
+    text: 裁判所は、十分な理由があると認めるときは、第八十九条第一項第二号又は第九十条に規定する刑の言渡しと同時に、事業者団体の解散を宣告することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-95-4-p2
+    type: simple
+    text: 前項の規定により解散が宣告された場合には、他の法令の規定又は定款その他の定めにかかわらず、事業者団体は、その宣告により解散する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

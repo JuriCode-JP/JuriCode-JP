@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十八条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-58-p1 -->
 削除

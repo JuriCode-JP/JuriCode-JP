@@ -50,5 +50,4 @@ parent_section:
 
 ### 第六条
 
-<!-- segment: tokusoku id: houjin-zei-hou-art-6-p1 override_flag: true override_target: 前条 -->
 内国法人である公益法人等又は人格のない社団等の各事業年度の所得のうち収益事業から生じた所得以外の所得については、前条の規定にかかわらず、各事業年度の所得に対する法人税を課さない。

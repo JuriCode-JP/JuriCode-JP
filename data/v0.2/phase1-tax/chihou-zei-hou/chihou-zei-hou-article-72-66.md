@@ -13,20 +13,34 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-66-p1
+    type: simple
+    text: 納税者が納期限（法人の行う事業に対する事業税について更正又は決定があつた場合においては、不足税額の納期限をいう。以下法人の行う事業に対する事業税について同じ。）までに事業税に係る地方団体の徴収金を完納しない場合においては、道府県の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。但し、繰上徴収をする場合においては、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-66-p2
+    type: simple
+    text: 第十五条の四第一項の規定によつて徴収猶予をした事業税に係る地方団体の徴収金については、前項本文の規定にかかわらず、その徴収猶予をした期間内にこれを完納しない場合でなければ、督促状を発することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-66-p3
+    type: simple
+    text: 特別の事情がある道府県においては、当該道府県の条例で第一項に規定する期間と異なる期間を定めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

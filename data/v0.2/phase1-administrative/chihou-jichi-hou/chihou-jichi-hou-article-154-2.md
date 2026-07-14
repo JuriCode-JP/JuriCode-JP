@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-154-2-p1
+    type: simple
+    text: 普通地方公共団体の長は、その管理に属する行政庁の処分が法令、条例又は規則に違反すると認めるときは、その処分を取り消し、又は停止することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

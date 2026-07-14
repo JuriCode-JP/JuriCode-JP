@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-507-p1 -->
 検察官及び検察事務官は、裁判の執行に関する調査のため必要があるときは、管轄区域外で職務を行うことができる。

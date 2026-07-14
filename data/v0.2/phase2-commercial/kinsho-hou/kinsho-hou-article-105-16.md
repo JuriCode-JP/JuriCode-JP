@@ -16,32 +16,77 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-16-p1
+    type: simple
+    text: 特定株式会社金融商品取引所は、自主規制委員会の日から十年間、前条第三項の議事録をその本店に備え置かなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-16-p2-hashira
+    type: hashira
+    text: 当該株式会社金融商品取引所の取締役は、次に掲げるものの閲覧及び謄写をすることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-105-16-p2-kou-1
+    type: kou
+    text: 一　前項の議事録が書面をもつて作成されているときは、当該書面
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-105-16-p2-kou-2
+    type: kou
+    text: 二　前項の議事録が電磁的記録をもつて作成されているときは、当該電磁的記録に記録された事項を内閣府令で定める方法により表示したもの
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-16-p3
+    type: simple
+    text: 当該株式会社金融商品取引所の株主は、その権利を行使するため必要があるときは、裁判所の許可を得て、第一項の議事録について前項各号に掲げるものの閲覧又は謄写の請求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-16-p4
+    type: junyou
+    text: 前項の規定は、当該株式会社金融商品取引所の債権者が自主規制委員の責任を追及するため必要があるとき及び当該株式会社金融商品取引所を子会社とする者の株主又は会員がその権利を行使するため必要があるときについて準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-16-p5
+    type: simple
+    text: 裁判所は、第三項（前項において準用する場合を含む。以下この項及び次項において同じ。）の請求に係る閲覧又は謄写をすることにより、当該株式会社金融商品取引所、当該株式会社金融商品取引所を子会社とする者又は当該株式会社金融商品取引所の子会社に著しい損害を及ぼすおそれがあると認めるときは、第三項の許可をすることができない。
+    modality: kanou_negative
+    references:
+    - 次項
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-16-p6
+    type: junyou
+    text: 会社法第八百六十八条第一項、第八百六十九条、第八百七十条第二項（第一号に係る部分に限る。）、第八百七十条の二、第八百七十一条本文、第八百七十二条（第五号に係る部分に限る。）、第八百七十二条の二、第八百七十三条本文、第八百七十五条及び第八百七十六条の規定は、第三項の許可について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第八百七十六条
 cases: []
 amendments: []
 tags:
@@ -69,6 +114,10 @@ parent_section:
 ### 第百五条の十六第二項
 
 当該株式会社金融商品取引所の取締役は、次に掲げるものの閲覧及び謄写をすることができる。
+
+一　前項の議事録が書面をもつて作成されているときは、当該書面
+
+二　前項の議事録が電磁的記録をもつて作成されているときは、当該電磁的記録に記録された事項を内閣府令で定める方法により表示したもの
 
 ### 第百五条の十六第三項
 

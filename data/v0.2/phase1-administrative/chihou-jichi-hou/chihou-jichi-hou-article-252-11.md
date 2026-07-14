@@ -16,27 +16,54 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-11-p1
+    type: simple
+    text: 普通地方公共団体が共同設置する委員会又は委員の事務を補助する職員は、第二百五十二条の九第四項又は第五項の規定により共同設置する委員会の委員（教育委員会にあつては、教育長及び委員）又は委員が属するものとみなされる普通地方公共団体（以下この条において「規約で定める普通地方公共団体」という。）の長の補助機関である職員をもつて充て、普通地方公共団体が共同設置する附属機関の庶務は、規約で定める普通地方公共団体の執行機関においてこれをつかさどるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-11-p2
+    type: simple
+    text: 普通地方公共団体が共同設置する委員会若しくは委員又は附属機関に要する経費は、関係普通地方公共団体がこれを負担し、規約で定める普通地方公共団体の歳入歳出予算にこれを計上して支出するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-11-p3
+    type: simple
+    text: 普通地方公共団体が共同設置する委員会が徴収する手数料その他の収入は、規約で定める普通地方公共団体の収入とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-11-p4-zen
+    type: zen_dan
+    text: 普通地方公共団体が共同設置する委員会が行う関係普通地方公共団体の財務に関する事務の執行及び関係普通地方公共団体の経営に係る事業の管理の通常の監査は、規約で定める普通地方公共団体の監査委員が毎会計年度少なくとも一回以上期日を定めてこれを行うものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-11-p4-kou
+    type: kou_dan
+    text: この場合において、規約で定める普通地方公共団体の監査委員は、第百九十九条第九項の規定による監査の結果に関する報告を他の関係普通地方公共団体の長に提出するとともに、これを公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-11-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-11-p5
+    type: simple
+    text: 前項の場合において、規約で定める普通地方公共団体の監査委員は、第百九十九条第九項の規定による監査の結果に関する報告の決定について、各監査委員の意見が一致しないことにより、同条第十二項の合議により決定することができない事項がある場合には、その旨及び当該事項についての各監査委員の意見を他の関係普通地方公共団体の長に提出するとともに、これらを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-9-p1
+    type: simple
+    text: 法第二十四条の四の六（法第二十七条において準用する場合を含む。以下この条において同じ。）において内部統制報告書（その訂正報告書を含む。）のうちに重要な事項について虚偽の記載があり、又は記載すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載が欠けている場合について法の規定を準用する場合における法第二十四条の四の六の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

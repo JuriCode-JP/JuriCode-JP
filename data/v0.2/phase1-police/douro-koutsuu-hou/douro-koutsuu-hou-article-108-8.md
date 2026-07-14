@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-8-p1
+    type: simple
+    text: 公安委員会は、指定講習機関が第百八条の四第一項各号に規定する基準に適合しなくなつたと認めるときは、当該指定講習機関に対し、同項各号に規定する基準に適合するため必要な措置を採るべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-8-p2
+    type: simple
+    text: 公安委員会は、前項に定めるもののほか、特定講習を適正かつ確実に行うことを確保するため必要があると認めるときは、指定講習機関に対し、特定講習の業務に関し監督上必要な命令をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

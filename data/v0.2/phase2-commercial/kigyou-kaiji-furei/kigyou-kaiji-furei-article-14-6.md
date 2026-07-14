@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-6-p1-honbun
+    type: honbun
+    text: 法第二十三条の六第一項（法第二十七条において準用する場合を含む。）に規定する内閣府令で定める期間は、発行登録をしようとする者の選択により、一年間又は二年間とする。
+    modality: gimu
+  - id: kigyou-kaiji-furei-art-14-6-p1-tadashi
+    type: tadashi
+    text: ただし、コマーシャル・ペーパーの募集又は売出しの登録の場合にあつては一年間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

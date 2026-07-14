@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十七条
 
-<!-- segment: simple id: souzoku-zei-hou-art-67-p1 -->
 地方公共団体は、相続税又は贈与税の付加税を課することができない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-4-2-p1
+    type: simple
+    text: 法第四十一条の三の三第一項の規定による控除をすべき金額は、令和六年分の所得税法第九十二条第一項に規定する所得税額から控除する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -56,10 +56,8 @@ parent_section:
 
 ### 第八十条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-art-80-p1 -->
 居住者が寡婦である場合には、その者のその年分の総所得金額、退職所得金額又は山林所得金額から二十七万円を控除する。
 
 ### 第八十条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-art-80-p2 -->
 前項の規定による控除は、寡婦控除という。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-412-2-p1
+    type: simple
+    text: 債務の履行が契約その他の債務の発生原因及び取引上の社会通念に照らして不能であるときは、債権者は、その債務の履行を請求することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-412-2-p2
+    type: simple
+    text: 契約に基づく債務の履行がその契約の成立の時に不能であったことは、第四百十五条の規定によりその履行の不能によって生じた損害の賠償を請求することを妨げない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

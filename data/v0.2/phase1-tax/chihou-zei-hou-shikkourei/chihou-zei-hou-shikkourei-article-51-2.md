@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第十四号に規定する商工会議所又は日本商工会議所が商工会議所法第九条又は第六十五条に規定する事業の用に供する固定資産及び商工会又は都道府県商工会連合会若しくは全国商工会連合会が商工会法第十一条又は第五十五条の八第一項若しくは第二項に規定する事業の用に供する固定資産で政令で定めるものは、これらの事業の用に供する固定資産のうち次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-2-p1-kou-1
+    type: kou
+    text: 一　宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-2-p1-kou-2
+    type: kou
+    text: 二　他の者に貸し付けている固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-51-2-p1-kou-3
+    type: kou
+    text: 三　職員の福利及び厚生の用に供する固定資産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第五十一条の二
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-51-2-p1-hashira -->
 法第三百四十八条第二項第十四号に規定する商工会議所又は日本商工会議所が商工会議所法第九条又は第六十五条に規定する事業の用に供する固定資産及び商工会又は都道府県商工会連合会若しくは全国商工会連合会が商工会法第十一条又は第五十五条の八第一項若しくは第二項に規定する事業の用に供する固定資産で政令で定めるものは、これらの事業の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　宿舎の用に供する固定資産
+
+二　他の者に貸し付けている固定資産
+
+三　職員の福利及び厚生の用に供する固定資産

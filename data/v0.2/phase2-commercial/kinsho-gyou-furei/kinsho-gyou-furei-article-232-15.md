@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-232-15-p1
+    type: simple
+    text: 法第六十条の十四第二項において準用する法第六十条の八第三項の規定による公告は、官報により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

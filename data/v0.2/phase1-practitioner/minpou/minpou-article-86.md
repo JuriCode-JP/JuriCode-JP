@@ -48,10 +48,8 @@ parent_section:
 
 ### 第八十六条第一項
 
-<!-- segment: simple id: minpou-art-86-p1 -->
 土地及びその定着物は、不動産とする。
 
 ### 第八十六条第二項
 
-<!-- segment: simple id: minpou-art-86-p2 -->
 不動産以外の物は、すべて動産とする。

@@ -16,12 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-8-p1
+    type: simple
+    text: 再生医療等製品の販売業者は、再生医療等製品の販売又は授与の業務に係る適正な管理（以下「再生医療等製品の適正管理」という。）を確保するため、指針の策定、従事者に対する研修の実施その他必要な措置を講じなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-8-p2-hashira
+    type: hashira
+    text: 前項に掲げる再生医療等製品の販売業者が講じなければならない措置には、次に掲げる事項を含むものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-196-8-p2-kou-1
+    type: kou
+    text: 一　従事者から再生医療等製品の販売業者への事故報告の体制の整備
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-196-8-p2-kou-2
+    type: kou
+    text: 二　再生医療等製品の適正管理のための業務に関する手順書の作成及び当該手順書に基づく業務の実施
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-196-8-p2-kou-3
+    type: kou
+    text: 三　再生医療等製品の適正管理のために必要となる情報の収集その他再生医療等製品の適正管理の確保を目的とした改善のための方策の実施
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,3 +68,9 @@ parent_section:
 ### 第百九十六条の八第二項
 
 前項に掲げる再生医療等製品の販売業者が講じなければならない措置には、次に掲げる事項を含むものとする。
+
+一　従事者から再生医療等製品の販売業者への事故報告の体制の整備
+
+二　再生医療等製品の適正管理のための業務に関する手順書の作成及び当該手順書に基づく業務の実施
+
+三　再生医療等製品の適正管理のために必要となる情報の収集その他再生医療等製品の適正管理の確保を目的とした改善のための方策の実施

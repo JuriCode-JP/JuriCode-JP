@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-26-2-p1
+    type: simple
+    text: 法第七百一条の三十四第三項第十号に規定する政令で定める保護施設は、生活保護法第三十八条第二項に規定する救護施設、同条第三項に規定する更生施設、同条第四項に規定する医療保護施設、同条第五項に規定する授産施設及び同条第六項に規定する宿所提供施設とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

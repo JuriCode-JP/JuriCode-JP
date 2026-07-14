@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-317-5-p1
+    type: simple
+    text: 市町村は、市町村民税の納税義務者が第三百十七条の二第一項若しくは第二項の規定により提出すべき申告書を正当な理由がなくて提出しなかつた場合又は同条第八項若しくは第九項の規定により申告すべき事項について正当な理由がなくて申告をしなかつた場合においては、その者に対し、当該市町村の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-238-4-p1
+    type: simple
+    text: 金融庁長官、特例業務届出管轄財務局長等又は管轄財務局長等は、特例業務届出者又は金融商品取引業者等（法第六十三条の三第一項の規定による届出をした者をいい、同条第二項において準用する法第六十三条の二第三項第二号に該当する旨の同項の規定による届出をした者を除く。第二百四十四条第一項を除き、以下この節において同じ。）に係る別紙様式第二十号の二に記載されている事項を金融庁若しくは当該特例業務届出者若しくは金融商品取引業者等の本店等の所在地を管轄する財務局（当該所在地が福岡財務支局の管轄区域内にある場合にあっては福岡財務支局、国内に営業所又は事務所を有しない場合にあっては関東財務局）に備え置いて公衆の縦覧に供し、又はインターネットの利用その他の方法により公表するものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-238-4-p2
+    type: simple
+    text: 法第六十三条第五項（法第六十三条の三第二項において準用する場合を含む。）に規定する内閣府令で定める事項は、別紙様式第二十号の二に記載されている事項とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

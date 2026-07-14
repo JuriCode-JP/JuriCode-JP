@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百八十二条
 
-<!-- segment: simple id: chihou-zei-hou-art-182-p1 -->
 鉱区税の納期は、五月中において、当該道府県の条例で定める。但し、特別の事情がある場合においては、これと異なる納期を定めることができる。

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-25-p1
+    type: simple
+    text: 裁判所は、証拠の開示の必要性の程度並びに証拠の開示によつて生じるおそれのある弊害の内容及び程度その他の事情を考慮して、必要と認めるときは、第三百十六条の十四第一項（第三百十六条の二十一第四項において準用する場合を含む。）の規定による開示をすべき証拠については検察官の請求により、第三百十六条の十八（第三百十六条の二十二第四項において準用する場合を含む。）の規定による開示をすべき証拠については被告人又は弁護人の請求により、決定で、当該証拠の開示の時期若しくは方法を指定し、又は条件を付することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-25-p2
+    type: simple
+    text: 裁判所は、前項の請求について決定をするときは、相手方の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-25-p3
+    type: simple
+    text: 第一項の請求についてした決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

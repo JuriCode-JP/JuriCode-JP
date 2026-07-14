@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: yakkihou-shikoukisoku-art-136-p1
     type: simple
     text: 登録認証機関は、法第二十三条の十八第四項に規定する場合には、次の事項を行わなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-136-p1-kou-1
+    type: kou
+    text: 一　基準適合性認証の業務を厚生労働大臣に引き継ぐこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-136-p1-kou-2
+    type: kou
+    text: 二　基準適合性認証の業務に関する帳簿及び書類（電磁的記録を含む。）を厚生労働大臣に引き継ぐこと。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-136-p1-kou-3
+    type: kou
+    text: 三　その他厚生労働大臣が必要と認める事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -51,10 +66,14 @@ parent_section:
 
 ### 第百三十六条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-136-p1 -->
 登録認証機関は、法第二十三条の十八第四項に規定する場合には、次の事項を行わなければならない。
+
+一　基準適合性認証の業務を厚生労働大臣に引き継ぐこと。
+
+二　基準適合性認証の業務に関する帳簿及び書類（電磁的記録を含む。）を厚生労働大臣に引き継ぐこと。
+
+三　その他厚生労働大臣が必要と認める事項
 
 ### 第百三十六条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-136-p2 -->
 厚生労働大臣が法第二十三条の十八第二項の規定により機構に基準適合性認証の業務の全部又は一部を行わせることとした場合における前項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。

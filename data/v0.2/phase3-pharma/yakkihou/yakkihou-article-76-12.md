@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-12-p1
+    type: simple
+    text: 国は、指定薬物等の薬物の濫用の防止及び取締りに資する調査研究の推進に努めるものとする。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

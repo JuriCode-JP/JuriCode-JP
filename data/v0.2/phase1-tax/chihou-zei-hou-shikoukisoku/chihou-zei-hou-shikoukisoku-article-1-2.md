@@ -39,5 +39,4 @@ tags:
 
 ### 第一条の二
 
-<!-- segment: tokusoku id: chihou-zei-hou-shikoukisoku-art-1-2-p1 override_flag: true override_target: 前条 -->
 法第七百三十四条第二項第二号の規定により都がその特別区の存する区域内において法人に対して課する都民税については、前条の規定にかかわらず、第十条の二の十一の規定を準用する。

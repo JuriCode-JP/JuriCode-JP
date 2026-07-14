@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第四十九条第二項の規定により、同条第一項に規定する医薬品の販売又は授与に関して帳簿に記載しなければならない事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-209-p1-kou-1
+    type: kou
+    text: 一　品名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-209-p1-kou-2
+    type: kou
+    text: 二　数量
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-209-p1-kou-3
+    type: kou
+    text: 三　販売又は授与の年月日
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-209-p1-kou-4
+    type: kou
+    text: 四　処方箋を交付した医師、歯科医師又は獣医師の氏名及びその者の住所又はその者の勤務する病院若しくは診療所若しくは家畜診療施設の名称及び所在地
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-209-p1-kou-5
+    type: kou
+    text: 五　購入者又は譲受人の氏名及び住所
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,5 +62,14 @@ parent_section:
 
 ### 第二百九条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-209-p1-hashira -->
 法第四十九条第二項の規定により、同条第一項に規定する医薬品の販売又は授与に関して帳簿に記載しなければならない事項は、次のとおりとする。
+
+一　品名
+
+二　数量
+
+三　販売又は授与の年月日
+
+四　処方箋を交付した医師、歯科医師又は獣医師の氏名及びその者の住所又はその者の勤務する病院若しくは診療所若しくは家畜診療施設の名称及び所在地
+
+五　購入者又は譲受人の氏名及び住所

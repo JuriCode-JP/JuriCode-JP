@@ -13,20 +13,44 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-3-p1-honbun
+    type: honbun
+    text: 自動車（大型自動二輪車及び普通自動二輪車を除く。以下この条において同じ。）の運転者は、道路運送車両法第三章及びこれに基づく命令の規定により当該自動車に備えなければならないこととされている座席ベルト（以下「座席ベルト」という。）を装着しないで自動車を運転してはならない。
+    modality: gimu_negative
+  - id: douro-koutsuu-hou-art-71-3-p1-tadashi
+    type: tadashi
+    text: ただし、疾病のため座席ベルトを装着することが療養上適当でない者が自動車を運転するとき、緊急自動車の運転者が当該緊急自動車を運転するとき、その他政令で定めるやむを得ない理由があるときは、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-3-p2-honbun
+    type: honbun
+    text: 自動車の運転者は、座席ベルトを装着しない者を運転者席以外の乗車装置（当該乗車装置につき座席ベルトを備えなければならないこととされているものに限る。以下この項において同じ。）に乗車させて自動車を運転してはならない。
+    modality: gimu_negative
+  - id: douro-koutsuu-hou-art-71-3-p2-tadashi
+    type: tadashi
+    text: ただし、幼児（適切に座席ベルトを装着させるに足りる座高を有するものを除く。以下この条において同じ。）を当該乗車装置に乗車させるとき、疾病のため座席ベルトを装着させることが療養上適当でない者を当該乗車装置に乗車させるとき、その他政令で定めるやむを得ない理由があるときは、この限りでない。
+    modality: jogai
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-3-p3-honbun
+    type: honbun
+    text: 自動車の運転者は、幼児用補助装置（幼児を乗車させる際座席ベルトに代わる機能を果たさせるため座席に固定して用いる補助装置であつて、道路運送車両法第三章及びこれに基づく命令の規定に適合し、かつ、幼児の発育の程度に応じた形状を有するものをいう。以下この項において同じ。）を使用しない幼児を乗車させて自動車を運転してはならない。
+    modality: gimu_negative
+  - id: douro-koutsuu-hou-art-71-3-p3-tadashi
+    type: tadashi
+    text: ただし、疾病のため幼児用補助装置を使用させることが療養上適当でない幼児を乗車させるとき、その他政令で定めるやむを得ない理由があるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

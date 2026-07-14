@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-20-p1
+    type: junyou
+    text: 第二款（記名式所持人払証券）の規定は、無記名証券について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

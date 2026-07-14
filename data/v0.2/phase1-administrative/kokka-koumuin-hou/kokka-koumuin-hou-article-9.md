@@ -40,8 +40,8 @@ paragraphs:
     text: 国会は、前項の場合においては、同項に規定する書面の写を訴追に係る人事官に送付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -94,35 +94,28 @@ parent_section:
 
 ### 第九条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p1 -->
 人事官の弾劾の裁判は、最高裁判所においてこれを行う。
 
 ### 第九条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p2 -->
 国会は、人事官の弾劾の訴追をしようとするときは、訴追の事由を記載した書面を最高裁判所に提出しなければならない。
 
 ### 第九条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p3 -->
 国会は、前項の場合においては、同項に規定する書面の写を訴追に係る人事官に送付しなければならない。
 
 ### 第九条第四項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p4 -->
 最高裁判所は、第二項の書面を受理した日から三十日以上九十日以内の間において裁判開始の日を定め、その日の三十日以前までに、国会及び訴追に係る人事官に、これを通知しなければならない。
 
 ### 第九条第五項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p5 -->
 最高裁判所は、裁判開始の日から百日以内に判決を行わなければならない。
 
 ### 第九条第六項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p6 -->
 人事官の弾劾の裁判の手続は、裁判所規則でこれを定める。
 
 ### 第九条第七項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-9-p7 -->
 裁判に要する費用は、国庫の負担とする。

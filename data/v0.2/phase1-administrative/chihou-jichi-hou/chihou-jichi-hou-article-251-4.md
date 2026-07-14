@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-4-p1
+    type: simple
+    text: この法律に規定するもののほか、自治紛争処理委員の調停、審査及び勧告並びに処理方策の提示に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

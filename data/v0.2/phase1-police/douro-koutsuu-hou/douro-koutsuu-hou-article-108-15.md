@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-15-p1
+    type: simple
+    text: 事故例調査に従事する分析センターの職員は、事故例調査を行うために関係者に協力を求めるに当たつては、その生活又は業務の平穏に支障を及ぼさないように配慮しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-15-p2
+    type: simple
+    text: 事故例調査に従事する分析センターの職員は、その身分を示す証票を携帯し、関係者の請求があつたときは、これを提示しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

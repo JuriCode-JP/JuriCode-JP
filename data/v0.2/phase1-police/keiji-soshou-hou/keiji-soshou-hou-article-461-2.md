@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-461-2-p1
+    type: simple
+    text: 検察官は、略式命令の請求に際し、被疑者に対し、あらかじめ、略式手続を理解させるために必要な事項を説明し、通常の規定に従い審判を受けることができる旨を告げた上、略式手続によることについて異議がないかどうかを確めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-461-2-p2
+    type: simple
+    text: 被疑者は、略式手続によることについて異議がないときは、書面でその旨を明らかにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

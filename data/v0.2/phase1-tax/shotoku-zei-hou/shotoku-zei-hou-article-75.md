@@ -32,6 +32,21 @@ paragraphs:
     modality: teigi
     references:
     - 前項
+  - id: shotoku-zei-hou-art-75-p2-kou-1
+    type: kou
+    text: 一　小規模企業共済法（昭和四十年法律第百二号）第二条第二項（定義）に規定する共済契約（政令で定めるものを除く。）に基づく掛金
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-art-75-p2-kou-2
+    type: kou
+    text: 二　確定拠出年金法（平成十三年法律第八十八号）第三条第三項第七号の二（規約の承認）に規定する企業型年金加入者掛金又は同法第五十五条第二項第四号（規約の承認）に規定する個人型年金加入者掛金
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-art-75-p2-kou-3
+    type: kou
+    text: 三　第九条第一項第三号ハ（年金等の非課税）に規定する政令で定める共済制度に係る契約に基づく掛金
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -61,15 +76,18 @@ parent_section:
 
 ### 第七十五条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-art-75-p1 -->
 居住者が、各年において、小規模企業共済等掛金を支払つた場合には、その支払つた金額を、その者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する。
 
 ### 第七十五条第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-art-75-p2-hashira -->
 前項に規定する小規模企業共済等掛金とは、次に掲げる掛金をいう。
+
+一　小規模企業共済法（昭和四十年法律第百二号）第二条第二項（定義）に規定する共済契約（政令で定めるものを除く。）に基づく掛金
+
+二　確定拠出年金法（平成十三年法律第八十八号）第三条第三項第七号の二（規約の承認）に規定する企業型年金加入者掛金又は同法第五十五条第二項第四号（規約の承認）に規定する個人型年金加入者掛金
+
+三　第九条第一項第三号ハ（年金等の非課税）に規定する政令で定める共済制度に係る契約に基づく掛金
 
 ### 第七十五条第三項
 
-<!-- segment: simple id: shotoku-zei-hou-art-75-p3 -->
 第一項の規定による控除は、小規模企業共済等掛金控除という。

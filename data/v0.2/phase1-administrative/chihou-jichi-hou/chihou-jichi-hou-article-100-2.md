@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-100-2-p1
+    type: simple
+    text: 普通地方公共団体の議会は、議案の審査又は当該普通地方公共団体の事務に関する調査のために必要な専門的事項に係る調査を学識経験を有する者等にさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

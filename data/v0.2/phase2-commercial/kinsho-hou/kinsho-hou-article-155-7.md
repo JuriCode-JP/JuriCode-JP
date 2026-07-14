@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-7-p1
+    type: simple
+    text: 外国金融商品取引所は、第百五十五条の二第一項各号に掲げる事項又は同条第二項第二号に掲げる書類に記載した業務の内容若しくは方法について変更があつた場合、業務規則について重要な変更があつた場合その他内閣府令で定める場合には、その日から二週間以内に、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keihou-art-77-p1
     type: simple
     text: 国の統治機構を破壊し、又はその領土において国権を排除して権力を行使し、その他憲法の定める統治の基本秩序を壊乱することを目的として暴動をした者は、内乱の罪とし、次の区別に従って処断する。
     modality: unspecified
+  - id: keihou-art-77-p1-kou-1
+    type: kou
+    text: 一　首謀者は、死刑又は無期拘禁刑に処する。
+    modality: gimu_kei
+    item_number: 1
+  - id: keihou-art-77-p1-kou-2
+    type: kou
+    text: 二　謀議に参与し、又は群衆を指揮した者は無期又は三年以上の拘禁刑に処し、その他諸般の職務に従事した者は一年以上十年以下の拘禁刑に処する。
+    modality: gimu_kei
+    item_number: 2
+  - id: keihou-art-77-p1-kou-3
+    type: kou
+    text: 三　付和随行し、その他単に暴動に参加した者は、三年以下の拘禁刑に処する。
+    modality: gimu_kei
+    item_number: 3
 - number: 2
   has_proviso: true
   has_items: false
@@ -56,11 +71,14 @@ parent_section:
 
 ### 第七十七条第一項
 
-<!-- segment: simple id: keihou-art-77-p1 -->
 国の統治機構を破壊し、又はその領土において国権を排除して権力を行使し、その他憲法の定める統治の基本秩序を壊乱することを目的として暴動をした者は、内乱の罪とし、次の区別に従って処断する。
+
+一　首謀者は、死刑又は無期拘禁刑に処する。
+
+二　謀議に参与し、又は群衆を指揮した者は無期又は三年以上の拘禁刑に処し、その他諸般の職務に従事した者は一年以上十年以下の拘禁刑に処する。
+
+三　付和随行し、その他単に暴動に参加した者は、三年以下の拘禁刑に処する。
 
 ### 第七十七条第二項
 
-<!-- segment: honbun id: keihou-art-77-p2-honbun -->
-前項の罪の未遂は、罰する。<!-- segment: tadashi id: keihou-art-77-p2-tadashi -->
-ただし、同項第三号に規定する者については、この限りでない。
+前項の罪の未遂は、罰する。ただし、同項第三号に規定する者については、この限りでない。

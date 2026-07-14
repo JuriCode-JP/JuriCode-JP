@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-281-6-p1
+    type: simple
+    text: 裁判所は、審理に二日以上を要する事件については、できる限り、連日開廷し、継続して審理を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-281-6-p2
+    type: simple
+    text: 訴訟関係人は、期日を厳守し、審理に支障を来さないようにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

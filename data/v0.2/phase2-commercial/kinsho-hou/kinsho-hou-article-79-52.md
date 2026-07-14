@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-52-p1
+    type: simple
+    text: 基金は、その業務を行うため必要があるときは、その会員である金融商品取引業者に対し、当該金融商品取引業者の業務又は財産の状況に関し、参考となるべき報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-52-p2
+    type: simple
+    text: 前項の規定によりその業務又は財産の状況に関し参考となるべき報告又は資料の提出を求められた金融商品取引業者は、遅滞なく、報告又は資料の提出をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-52-p3
+    type: simple
+    text: 内閣総理大臣は、基金から要請があつた場合において、基金が業務を行うため特に必要があると認めるときは、基金に対し、資料を交付し、又はこれを閲覧させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -14,64 +14,155 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p1-hashira
+    type: hashira
+    text: 道府県知事は、第七十二条の二第一項第一号イに掲げる法人が次の各号のいずれかに該当する場合において、当該道府県の事業税（第七十二条の二十五、第七十二条の二十八又は第七十二条の二十九の規定により申告納付する付加価値割、資本割及び所得割に限る。）を納付することが困難であると認めるときは、当該法人の申請に基づき、当該事業税の納期限の翌日から三年以内の期間を限り、当該事業税の全部又は一部の徴収を猶予することができる。この場合においては、その金額を適宜分割して納付すべき期限を定めることを妨げない。
+    modality: jogai
+  - id: chihou-zei-hou-art-72-38-2-p1-kou-1
+    type: kou
+    text: 一　当該事業税の申告書に係る事業年度終了の日の翌日から起算して三年前の日の属する事業年度から当該事業税の申告書に係る事業年度までの各事業年度の所得がない法人で政令で定めるもの
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-38-2-p1-kou-2
+    type: kou
+    text: 二　当該事業税の申告書に係る事業年度（その終了の日が当該法人の設立の日から起算して五年を経過した日よりも前である事業年度に限る。）の所得がない法人で政令で定めるもの
+    modality: unspecified
+    item_number: 2
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p2-honbun
+    type: honbun
+    text: 道府県知事は、前項の規定により徴収を猶予する場合には、その猶予に係る金額に相当する担保で第十六条第一項各号に掲げるものを、政令で定めるところにより徴しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-72-38-2-p2-tadashi
+    type: tadashi
+    text: ただし、担保を徴することができない特別の事情がある場合は、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p3
+    type: simple
+    text: 第一項の申請は、当該事業税の申告書を提出する際、道府県の条例の定めるところによつて、併せてしなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p4
+    type: simple
+    text: 第一項の規定は、同項第一号の法人にあつては当該事業税の申告書に係る事業年度終了の日の翌日から起算して三年前の日の属する事業年度から、同項第二号の法人にあつては設立の日の属する事業年度から、それぞれ当該事業税の申告書に係る事業年度の前事業年度までの各事業年度について第七十二条の二十五、第七十二条の二十八又は第七十二条の二十九の規定により提出すべき申告書（第八項において「確定申告書」という。）を提出している場合であつて、当該事業税の申告書をその提出期限までに提出したときに限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p5-honbun
+    type: honbun
+    text: 道府県知事は、第一項の規定により徴収を猶予した場合において、その猶予をした期間内にその猶予をした金額を納付することができないやむを得ない理由があると認めるときは、当該法人の申請により、三年以内の期間を限りその期間を延長することができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-72-38-2-p5-tadashi
+    type: tadashi
+    text: ただし、その期間は、既に当該法人につき同項の規定により徴収を猶予した期間と合わせて六年を超えることができない。
+    modality: kanou_negative
+    references:
+    - 同項
 - number: 6
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p6-hashira
+    type: hashira
+    text: 道府県知事は、第七十二条の二第一項第一号イに掲げる法人が次の各号のいずれかに該当する場合において、当該道府県の事業税（第七十二条の二十六の規定により申告納付する付加価値割、資本割及び所得割に限る。）を納付することが困難であると認めるときは、当該法人の申請に基づき、当該事業税の納期限の翌日から三年以内の期間を限り、当該事業税の全部又は一部の徴収を猶予することができる。この場合においては、その金額を適宜分割して納付すべき期限を定めることを妨げない。
+    modality: jogai
+  - id: chihou-zei-hou-art-72-38-2-p6-kou-1
+    type: kou
+    text: 一　当該事業税の申告書に係る事業年度開始の日から起算して三年前の日の属する事業年度から当該事業税の申告書に係る事業年度の前事業年度までの各事業年度の所得がない法人のうち、六月経過日の前日の現況により当該事業税の申告書に係る事業年度の所得がないと見込まれる法人で政令で定めるもの
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-38-2-p6-kou-2
+    type: kou
+    text: 二　六月経過日の前日の現況により当該事業税の申告書に係る事業年度（六月経過日の前日が当該法人の設立の日から起算して五年を経過した日よりも前である事業年度に限る。）の所得がないと見込まれる法人で政令で定めるもの
+    modality: unspecified
+    item_number: 2
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p7
+    type: junyou
+    text: 第二項から第五項までの規定は、前項の規定による徴収の猶予について準用する。この場合において、第四項中「事業年度終了の日の翌日」とあるのは、「事業年度開始の日」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p8
+    type: simple
+    text: 道府県知事は、第一項又は第六項の規定により事業税について徴収の猶予を受けた法人が当該事業税の申告書に係る事業年度後の各事業年度について確定申告書をその提出期限までに提出しなかつたときは、その徴収の猶予を取り消し、その猶予に係る事業税を一時に徴収することができる。
+    modality: kanou_kenri
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p9
+    type: simple
+    text: 道府県知事は、第六項の規定により事業税について徴収の猶予を受けた法人が当該事業年度において第七十二条の二十八の規定により提出すべき申告書をその提出期限までに提出しなかつたとき、又は当該法人の当該事業年度の所得があるときは、当該徴収の猶予に係る事業税の全部についてその徴収の猶予を取り消し、これを直ちに徴収しなければならない。
+    modality: gimu
 - number: 10
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p10-honbun
+    type: honbun
+    text: 第一項又は第六項の規定による徴収の猶予をした場合（前項の規定により徴収の猶予を取り消した場合を除く。）には、その猶予をした事業税に係る延滞金額のうち、当該徴収の猶予をした期間（延滞金が年十四・六パーセントの割合により計算される期間に限る。次項において同じ。）に対応する部分の金額の二分の一に相当する金額は、免除する。
+    modality: unspecified
+    references:
+    - 次項
+    - 前項
+  - id: chihou-zei-hou-art-72-38-2-p10-tadashi
+    type: tadashi
+    text: ただし、第八項の規定又は第十二項において準用する第十五条の三第一項の規定による取消しの基因となるべき事実が生じた場合には、その生じた日以後の期間に対応する部分の金額については、道府県知事は、その免除をしないことができる。
+    modality: kanou_kenri
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p11
+    type: simple
+    text: 道府県知事は、第九項の規定により徴収の猶予を取り消した場合には、その猶予をした事業税に係る延滞金額のうち、当該徴収の猶予をした期間に対応する部分の金額の二分の一に相当する金額を免除することができる。
+    modality: kanou_kenri
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-2-p12
+    type: simple
+    text: 第十五条の二の二、第十五条の二の三第一項、第十五条の三及び第十五条の九第二項並びに第十六条の二第一項から第三項までの規定は第一項又は第六項の規定による徴収の猶予について、第十一条、第十六条第三項、第十六条の二第四項並びに第十六条の五第一項及び第二項の規定は第二項（第七項において準用する場合を含む。）の規定による担保について、それぞれ準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -94,6 +185,10 @@ parent_section:
 
 道府県知事は、第七十二条の二第一項第一号イに掲げる法人が次の各号のいずれかに該当する場合において、当該道府県の事業税（第七十二条の二十五、第七十二条の二十八又は第七十二条の二十九の規定により申告納付する付加価値割、資本割及び所得割に限る。）を納付することが困難であると認めるときは、当該法人の申請に基づき、当該事業税の納期限の翌日から三年以内の期間を限り、当該事業税の全部又は一部の徴収を猶予することができる。この場合においては、その金額を適宜分割して納付すべき期限を定めることを妨げない。
 
+一　当該事業税の申告書に係る事業年度終了の日の翌日から起算して三年前の日の属する事業年度から当該事業税の申告書に係る事業年度までの各事業年度の所得がない法人で政令で定めるもの
+
+二　当該事業税の申告書に係る事業年度（その終了の日が当該法人の設立の日から起算して五年を経過した日よりも前である事業年度に限る。）の所得がない法人で政令で定めるもの
+
 ### 第七十二条の三十八の二第二項
 
 道府県知事は、前項の規定により徴収を猶予する場合には、その猶予に係る金額に相当する担保で第十六条第一項各号に掲げるものを、政令で定めるところにより徴しなければならない。ただし、担保を徴することができない特別の事情がある場合は、この限りでない。
@@ -113,6 +208,10 @@ parent_section:
 ### 第七十二条の三十八の二第六項
 
 道府県知事は、第七十二条の二第一項第一号イに掲げる法人が次の各号のいずれかに該当する場合において、当該道府県の事業税（第七十二条の二十六の規定により申告納付する付加価値割、資本割及び所得割に限る。）を納付することが困難であると認めるときは、当該法人の申請に基づき、当該事業税の納期限の翌日から三年以内の期間を限り、当該事業税の全部又は一部の徴収を猶予することができる。この場合においては、その金額を適宜分割して納付すべき期限を定めることを妨げない。
+
+一　当該事業税の申告書に係る事業年度開始の日から起算して三年前の日の属する事業年度から当該事業税の申告書に係る事業年度の前事業年度までの各事業年度の所得がない法人のうち、六月経過日の前日の現況により当該事業税の申告書に係る事業年度の所得がないと見込まれる法人で政令で定めるもの
+
+二　六月経過日の前日の現況により当該事業税の申告書に係る事業年度（六月経過日の前日が当該法人の設立の日から起算して五年を経過した日よりも前である事業年度に限る。）の所得がないと見込まれる法人で政令で定めるもの
 
 ### 第七十二条の三十八の二第七項
 

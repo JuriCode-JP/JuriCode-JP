@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-8-p1
+    type: simple
+    text: 教育委員会は、別に法律の定めるところにより、学校その他の教育機関を管理し、学校の組織編制、教育課程、教科書その他の教材の取扱及び教育職員の身分取扱に関する事務を行い、並びに社会教育その他教育、学術及び文化に関する事務を管理し及びこれを執行する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

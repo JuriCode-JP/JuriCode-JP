@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第二十一条の四第二項に規定する政令で定める財産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-1
+    type: kou
+    text: 一　金銭
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-2
+    type: kou
+    text: 二　有価証券
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-3
+    type: kou
+    text: 三　金銭債権
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-4
+    type: kou
+    text: 四　立木及び当該立木の生立する土地（当該立木とともに信託されるものに限る。）
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-5
+    type: kou
+    text: 五　継続的に相当の対価を得て他人に使用させる不動産
+    modality: unspecified
+    item_number: 5
+  - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-6
+    type: kou
+    text: 六　特定障害者扶養信託契約に基づく信託の受益者である特定障害者の居住の用に供する不動産（当該特定障害者扶養信託契約に基づいて前各号に掲げる財産のいずれかとともに信託されるものに限る。）
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第四条の十一
 
-<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-4-11-p1-hashira -->
 法第二十一条の四第二項に規定する政令で定める財産は、次に掲げるものとする。
+
+一　金銭
+
+二　有価証券
+
+三　金銭債権
+
+四　立木及び当該立木の生立する土地（当該立木とともに信託されるものに限る。）
+
+五　継続的に相当の対価を得て他人に使用させる不動産
+
+六　特定障害者扶養信託契約に基づく信託の受益者である特定障害者の居住の用に供する不動産（当該特定障害者扶養信託契約に基づいて前各号に掲げる財産のいずれかとともに信託されるものに限る。）

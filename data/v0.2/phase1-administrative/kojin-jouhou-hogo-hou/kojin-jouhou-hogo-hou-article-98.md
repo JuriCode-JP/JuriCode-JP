@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 何人も、自己を本人とする保有個人情報が次の各号のいずれかに該当すると思料するときは、この法律の定めるところにより、当該保有個人情報を保有する行政機関の長等に対し、当該各号に定める措置を請求することができる。ただし、当該保有個人情報の利用の停止、消去又は提供の停止（以下この節において「利用停止」という。）に関して他の法令の規定により特別の手続が定められているときは、この限りでない。
     modality: jogai
+  - id: kojin-jouhou-hogo-hou-art-98-p1-kou-1
+    type: kou
+    text: 一　第六十一条第二項の規定に違反して保有されているとき、第六十三条の規定に違反して取り扱われているとき、第六十四条の規定に違反して取得されたものであるとき、又は第六十九条第一項及び第二項の規定に違反して利用されているとき　当該保有個人情報の利用の停止又は消去
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-98-p1-kou-2
+    type: kou
+    text: 二　第六十九条第一項及び第二項又は第七十一条第一項の規定に違反して提供されているとき　当該保有個人情報の提供の停止
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +71,16 @@ parent_section:
 
 ### 第九十八条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-98-p1-hashira -->
 何人も、自己を本人とする保有個人情報が次の各号のいずれかに該当すると思料するときは、この法律の定めるところにより、当該保有個人情報を保有する行政機関の長等に対し、当該各号に定める措置を請求することができる。ただし、当該保有個人情報の利用の停止、消去又は提供の停止（以下この節において「利用停止」という。）に関して他の法令の規定により特別の手続が定められているときは、この限りでない。
+
+一　第六十一条第二項の規定に違反して保有されているとき、第六十三条の規定に違反して取り扱われているとき、第六十四条の規定に違反して取得されたものであるとき、又は第六十九条第一項及び第二項の規定に違反して利用されているとき　当該保有個人情報の利用の停止又は消去
+
+二　第六十九条第一項及び第二項又は第七十一条第一項の規定に違反して提供されているとき　当該保有個人情報の提供の停止
 
 ### 第九十八条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-98-p2 -->
 代理人は、本人に代わって前項の規定による利用停止の請求（以下この節及び第百二十七条において「利用停止請求」という。）をすることができる。
 
 ### 第九十八条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-98-p3 -->
 利用停止請求は、保有個人情報の開示を受けた日から九十日以内にしなければならない。

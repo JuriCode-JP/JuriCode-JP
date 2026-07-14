@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四条
 
-<!-- segment: simple id: minpou-art-4-p1 -->
 年齢十八歳をもって、成年とする。

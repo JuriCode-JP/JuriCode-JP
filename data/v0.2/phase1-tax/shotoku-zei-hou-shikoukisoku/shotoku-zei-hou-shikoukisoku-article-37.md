@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第五十八条第三項（固定資産の交換の場合の譲渡所得の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-37-p1-kou-1
+    type: kou
+    text: 一　法第五十八条第一項に規定する取得資産及び譲渡資産の種類、数量及び用途
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-37-p1-kou-2
+    type: kou
+    text: 二　法第五十八条第一項に規定する交換の相手方の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-37-p1-kou-3
+    type: kou
+    text: 三　前号の交換がされた年月日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-37-p1-kou-4
+    type: kou
+    text: 四　第一号の取得資産及び譲渡資産の取得の年月日
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-37-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -41,5 +66,14 @@ parent_section:
 
 ### 第三十七条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-37-p1-hashira -->
 法第五十八条第三項（固定資産の交換の場合の譲渡所得の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第五十八条第一項に規定する取得資産及び譲渡資産の種類、数量及び用途
+
+二　法第五十八条第一項に規定する交換の相手方の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
+
+三　前号の交換がされた年月日
+
+四　第一号の取得資産及び譲渡資産の取得の年月日
+
+五　その他参考となるべき事項

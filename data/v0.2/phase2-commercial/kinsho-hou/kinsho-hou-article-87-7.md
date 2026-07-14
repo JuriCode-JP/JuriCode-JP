@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-7-p1
+    type: simple
+    text: 内閣総理大臣は、前条第二項の規定により、仮取締役、仮会計参与、仮監査役、仮代表取締役、仮執行役又は仮代表執行役を選任したときは、当該株式会社金融商品取引所の本店の所在地の登記所にその旨の登記を嘱託しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-7-p2
+    type: simple
+    text: 前項の規定により内閣総理大臣が登記を嘱託するときは、嘱託書に、当該登記の原因となる事由に係る処分を行つたことを証する書面を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

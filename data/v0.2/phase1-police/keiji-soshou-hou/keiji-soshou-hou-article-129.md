@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百二十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-129-p1 -->
 検証については、身体の検査、死体の解剖、墳墓の発掘、物の破壊その他必要な処分をすることができる。

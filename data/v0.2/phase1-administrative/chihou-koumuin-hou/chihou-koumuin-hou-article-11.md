@@ -78,25 +78,20 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-11-p1 -->
 人事委員会又は公平委員会は、三人の委員が出席しなければ会議を開くことができない。
 
 ### 第十一条第二項
 
-<!-- segment: tokusoku id: chihou-koumuin-hou-art-11-p2 override_flag: true override_target: 前項 -->
 人事委員会又は公平委員会は、会議を開かなければ公務の運営又は職員の福祉若しくは利益の保護に著しい支障が生ずると認められる十分な理由があるときは、前項の規定にかかわらず、二人の委員が出席すれば会議を開くことができる。
 
 ### 第十一条第三項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-11-p3 -->
 人事委員会又は公平委員会の議事は、出席委員の過半数で決する。
 
 ### 第十一条第四項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-11-p4 -->
 人事委員会又は公平委員会の議事は、議事録として記録して置かなければならない。
 
 ### 第十一条第五項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-11-p5 -->
 前各項に定めるものを除くほか、人事委員会又は公平委員会の議事に関し必要な事項は、人事委員会又は公平委員会が定める。

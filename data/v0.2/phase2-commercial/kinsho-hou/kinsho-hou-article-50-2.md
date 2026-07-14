@@ -14,64 +14,172 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p1-hashira
+    type: hashira
+    text: 金融商品取引業者等が次の各号のいずれかに該当することとなつたときは、当該各号に定める者は、その日から三十日以内に、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+  - id: kinsho-hou-art-50-2-p1-kou-1
+    type: kou
+    text: 一　金融商品取引業者である個人が死亡したとき　その相続人
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-50-2-p1-kou-2
+    type: kou
+    text: 二　金融商品取引業等を廃止したとき　その法人又は個人
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-50-2-p1-kou-3
+    type: kou
+    text: 三　金融商品取引業者等である法人が合併により消滅したとき　その法人を代表する役員であつた者
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-50-2-p1-kou-4
+    type: kou
+    text: 四　金融商品取引業者等である法人が破産手続開始の決定により解散したとき　その破産管財人
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-50-2-p1-kou-5
+    type: kou
+    text: 五　金融商品取引業者等である法人が合併及び破産手続開始の決定以外の理由により解散したとき　その清算人
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-art-50-2-p1-kou-6
+    type: kou
+    text: 六　金融商品取引業者等である法人が分割により事業の全部又は一部を承継させたとき　その法人
+    modality: unspecified
+    item_number: 6
+  - id: kinsho-hou-art-50-2-p1-kou-7
+    type: kou
+    text: 七　事業の全部又は一部を譲渡したとき　その法人又は個人
+    modality: unspecified
+    item_number: 7
+  - id: kinsho-hou-art-50-2-p1-kou-8
+    type: kou
+    text: 八　金融商品取引業者（第一種金融商品取引業を行う者に限る。第十一項及び第十二項において同じ。）が金融サービスの提供及び利用環境の整備等に関する法律第十二条の登録（有価証券等仲介業務の種別に係るものに限る。第十一項及び第十二項において同じ。）又は同法第十六条第一項の変更登録（有価証券等仲介業務の種別の追加に係るものに限る。第十一項及び第十二項において同じ。）を受けたとき　当該登録又は変更登録を受けた者
+    modality: unspecified
+    item_number: 8
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p2
+    type: simple
+    text: 金融商品取引業者等が前項第一号から第七号までのいずれかに該当することとなつたとき（同項第六号にあつては分割により事業の全部を承継させたとき、同項第七号にあつては事業の全部を譲渡したときに限る。）は、当該金融商品取引業者等の第二十九条又は第三十三条の二の登録は、その効力を失う。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p3
+    type: simple
+    text: 金融商品取引業者である個人（投資助言業務を行う者に限る。）が死亡した場合においては、相続人は被相続人の死亡後六十日間（当該期間内に第二十九条の四第一項の規定による登録の拒否の処分があつたとき、又は次項の規定により読み替えて適用する第五十二条第一項の規定により金融商品取引業（投資助言業務に限る。以下この項から第五項までにおいて同じ。）の廃止を命じられたときは、当該処分のあつた日又は当該廃止を命じられた日までの間。以下この項において「継続業務期間」という。）は、引き続き金融商品取引業を行うことができる。相続人が継続業務期間内に第二十九条の登録（当該相続人が金融商品取引業者である場合にあつては、第三十一条第四項の変更登録。以下この項において同じ。）の申請をした場合において、当該継続業務期間を経過したときは、その申請について登録又は登録の拒否の処分があるまでの間も、同様とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p4-zen
+    type: zen_dan
+    text: 前項の規定により引き続き金融商品取引業を行うことができる場合においては、相続人を金融商品取引業者（投資助言業務を行う者に限る。）とみなして、第三十六条から第三十六条の三まで、第三十七条、第三十七条の三、第三十七条の四、第三十七条の六から第三十八条の二まで、第四十条、第四十一条から第四十一条の五まで、第四十四条から第四十四条の三まで、第四十五条、第四十七条から第四十七条の三まで、第四十九条第三項、第四十九条の四、第四十九条の五、次条、第五十二条第一項（第一号又は第七号から第十号までに係る部分に限る。）、第四項若しくは第五項又は第五十六条の二（第一項、第三項又は第四項に限る。）の規定（これらの規定に係る罰則を含む。）を適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 次条
+  - id: kinsho-hou-art-50-2-p4-kou
+    type: kou_dan
+    text: この場合において、第五十二条第一項中「第二十九条の登録を取り消し」とあるのは、「金融商品取引業の廃止を命じ」とする。
+    modality: gimu
+    depends_on: kinsho-hou-art-50-2-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p5
+    type: simple
+    text: 前項の規定により読み替えて適用する第五十二条第一項の規定により金融商品取引業の廃止が命じられた場合における第二十九条の四第一項の規定の適用については、当該廃止を命じられた相続人を第五十二条第一項の規定により第二十九条の登録を取り消された者と、当該廃止を命じられた日を同項の規定による同条の登録の取消しの日とみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p6
+    type: simple
+    text: 金融商品取引業者等は、金融商品取引業等（投資助言・代理業を除く。第八項及び第五十六条第一項において同じ。）の廃止をし、合併（当該金融商品取引業者等が合併により消滅する場合の当該合併に限る。）をし、合併及び破産手続開始の決定以外の理由による解散をし、分割による事業の全部若しくは一部の承継をさせ、又は事業の全部若しくは一部の譲渡をしようとするときは、その日の三十日前までに、内閣府令で定めるところにより、その旨を公告するとともに、全ての営業所又は事務所の公衆の目につきやすい場所に掲示しなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p7
+    type: simple
+    text: 金融商品取引業者等は、前項の規定による公告をしたときは、直ちに、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p8
+    type: simple
+    text: 金融商品取引業者等は、第六項の規定による公告をした場合（合併、分割による事業の全部又は一部の承継及び事業の全部又は一部の譲渡に係る公告をした場合を除く。）においては、当該金融商品取引業者等が行つた有価証券の売買その他の取引及びデリバティブ取引等（第五十六条及び第五十七条の九において「顧客取引」という。）を、速やかに結了し、かつ、金融商品取引業等に関し顧客から預託を受けた財産及びその計算において自己が占有する財産を、遅滞なく返還しなければならない。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p9
+    type: junyou
+    text: 会社法第九百四十条第一項（第一号に係る部分に限る。）及び第三項の規定は、金融商品取引業者等（会社に限る。）が電子公告（同法第二条第三十四号に規定する電子公告をいう。以下同じ。）により第六項の規定による公告をする場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p10
+    type: junyou
+    text: 会社法第九百四十条第一項（第一号に係る部分に限る。）及び第三項、第九百四十一条、第九百四十六条、第九百四十七条、第九百五十一条第二項、第九百五十三条並びに第九百五十五条の規定は、金融商品取引業者等（外国会社に限る。）が電子公告により第六項の規定による公告をする場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第九百五十五条
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p11
+    type: simple
+    text: 金融商品取引業者（第一種金融商品取引業のみを行う者に限る。）が第六十六条の登録を受けたとき、又は金融サービスの提供及び利用環境の整備等に関する法律第十二条の登録若しくは同法第十六条第一項の変更登録を受けたときは、当該金融商品取引業者の第二十九条の登録は、その効力を失う。
+    modality: unspecified
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-50-2-p12
+    type: simple
+    text: 金融商品取引業者（第一種金融商品取引業のみを行う者を除く。）が第六十六条の登録を受けたとき、又は金融サービスの提供及び利用環境の整備等に関する法律第十二条の登録若しくは同法第十六条第一項の変更登録を受けたときは、当該金融商品取引業者は、第一種金融商品取引業を行わない旨の第三十一条第四項の変更登録を受けたものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -91,6 +199,22 @@ parent_section:
 ### 第五十条の二第一項
 
 金融商品取引業者等が次の各号のいずれかに該当することとなつたときは、当該各号に定める者は、その日から三十日以内に、その旨を内閣総理大臣に届け出なければならない。
+
+一　金融商品取引業者である個人が死亡したとき　その相続人
+
+二　金融商品取引業等を廃止したとき　その法人又は個人
+
+三　金融商品取引業者等である法人が合併により消滅したとき　その法人を代表する役員であつた者
+
+四　金融商品取引業者等である法人が破産手続開始の決定により解散したとき　その破産管財人
+
+五　金融商品取引業者等である法人が合併及び破産手続開始の決定以外の理由により解散したとき　その清算人
+
+六　金融商品取引業者等である法人が分割により事業の全部又は一部を承継させたとき　その法人
+
+七　事業の全部又は一部を譲渡したとき　その法人又は個人
+
+八　金融商品取引業者（第一種金融商品取引業を行う者に限る。第十一項及び第十二項において同じ。）が金融サービスの提供及び利用環境の整備等に関する法律第十二条の登録（有価証券等仲介業務の種別に係るものに限る。第十一項及び第十二項において同じ。）又は同法第十六条第一項の変更登録（有価証券等仲介業務の種別の追加に係るものに限る。第十一項及び第十二項において同じ。）を受けたとき　当該登録又は変更登録を受けた者
 
 ### 第五十条の二第二項
 

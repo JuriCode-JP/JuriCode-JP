@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十八条の四
 
-<!-- segment: simple id: sochi-hou-art-88-4-p1 -->
 削除

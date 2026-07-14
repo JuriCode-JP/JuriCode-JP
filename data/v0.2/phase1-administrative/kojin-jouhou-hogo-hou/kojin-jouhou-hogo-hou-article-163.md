@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 委員会は、次に掲げる場合には、公示送達をすることができる。
     modality: kanou_kenri
+  - id: kojin-jouhou-hogo-hou-art-163-p1-kou-1
+    type: kou
+    text: 一　送達を受けるべき者の住所、居所その他送達をすべき場所が知れない場合
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-163-p1-kou-2
+    type: kou
+    text: 二　外国（本邦の域外にある国又は地域をいう。以下同じ。）においてすべき送達について、前条において読み替えて準用する民事訴訟法第百八条の規定によることができず、又はこれによっても送達をすることができないと認めるべき場合
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-163-p1-kou-3
+    type: kou
+    text: 三　前条において読み替えて準用する民事訴訟法第百八条の規定により外国の管轄官庁に嘱託を発した後六月を経過してもその送達を証する書面の送付がない場合
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +85,22 @@ parent_section:
 
 ### 第百六十三条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-163-p1-hashira -->
 委員会は、次に掲げる場合には、公示送達をすることができる。
+
+一　送達を受けるべき者の住所、居所その他送達をすべき場所が知れない場合
+
+二　外国（本邦の域外にある国又は地域をいう。以下同じ。）においてすべき送達について、前条において読み替えて準用する民事訴訟法第百八条の規定によることができず、又はこれによっても送達をすることができないと認めるべき場合
+
+三　前条において読み替えて準用する民事訴訟法第百八条の規定により外国の管轄官庁に嘱託を発した後六月を経過してもその送達を証する書面の送付がない場合
 
 ### 第百六十三条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-163-p2 -->
 公示送達は、送達をすべき書類を送達を受けるべき者にいつでも交付すべき旨を委員会の掲示場に掲示することにより行う。
 
 ### 第百六十三条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-163-p3 -->
 公示送達は、前項の規定による掲示を始めた日から二週間を経過することによって、その効力を生ずる。
 
 ### 第百六十三条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-163-p4 -->
 外国においてすべき送達についてした公示送達にあっては、前項の期間は、六週間とする。

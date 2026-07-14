@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 清算人の職務は、次のとおりとする。
     modality: gimu
+  - id: minpou-art-688-p1-kou-1
+    type: kou
+    text: 一　現務の結了
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-688-p1-kou-2
+    type: kou
+    text: 二　債権の取立て及び債務の弁済
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-688-p1-kou-3
+    type: kou
+    text: 三　残余財産の引渡し
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +76,18 @@ parent_section:
 
 ### 第六百八十八条第一項
 
-<!-- segment: hashira id: minpou-art-688-p1-hashira -->
 清算人の職務は、次のとおりとする。
+
+一　現務の結了
+
+二　債権の取立て及び債務の弁済
+
+三　残余財産の引渡し
 
 ### 第六百八十八条第二項
 
-<!-- segment: simple id: minpou-art-688-p2 -->
 清算人は、前項各号に掲げる職務を行うために必要な一切の行為をすることができる。
 
 ### 第六百八十八条第三項
 
-<!-- segment: simple id: minpou-art-688-p3 -->
 残余財産は、各組合員の出資の価額に応じて分割する。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-3-2-p1
+    type: simple
+    text: 地方団体の長は、この法律で定めるその権限の一部を、当該地方団体の条例の定めるところによつて、地方自治法（昭和二十二年法律第六十七号）第百五十五条第一項の規定によつて設ける支庁若しくは地方事務所、同法第二百五十二条の二十第一項の規定によつて設ける市の区の事務所、同法第二百五十二条の二十の二第一項の規定によつて設ける市の総合区の事務所又は同法第百五十六条第一項の規定によつて条例で設ける税務に関する事務所の長に委任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

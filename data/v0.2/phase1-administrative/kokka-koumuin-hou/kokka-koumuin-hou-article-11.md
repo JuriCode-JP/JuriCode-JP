@@ -55,15 +55,12 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-11-p1 -->
 人事院総裁は、人事官の中から、内閣が、これを命ずる。
 
 ### 第十一条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-11-p2 -->
 人事院総裁は、院務を総理し、人事院を代表する。
 
 ### 第十一条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-11-p3 -->
 人事院総裁に事故のあるとき、又は人事院総裁が欠けたときは、先任の人事官が、その職務を代行する。

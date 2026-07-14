@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-115-2-p1
+    type: simple
+    text: 普通地方公共団体の議会は、会議において、予算その他重要な議案、請願等について公聴会を開き、真に利害関係を有する者又は学識経験を有する者等から意見を聴くことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-115-2-p2
+    type: simple
+    text: 普通地方公共団体の議会は、会議において、当該普通地方公共団体の事務に関する調査又は審査のため必要があると認めるときは、参考人の出頭を求め、その意見を聴くことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

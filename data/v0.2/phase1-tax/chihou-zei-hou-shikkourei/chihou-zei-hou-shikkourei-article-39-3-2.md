@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-39-3-2-p1
+    type: simple
+    text: 法第七十三条の二十四第五項に規定する政令で定める場合は、当該土地を取得した時において土地の利用につき法令による制限があり住宅を新築することができない場合その他当該土地を取得した時において住宅を新築することができないことにつき真にやむを得ない理由がある場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

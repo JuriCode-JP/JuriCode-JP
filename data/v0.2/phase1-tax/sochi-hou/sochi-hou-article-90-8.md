@@ -42,5 +42,4 @@ parent_section:
 
 ### 第九十条の八
 
-<!-- segment: tokusoku id: sochi-hou-art-90-8-p1 override_flag: true override_target: 第十一条 -->
 航空機燃料税法第二条第一号に規定する航空機に、令和五年四月一日から令和十年三月三十一日までの間に積み込まれる航空機燃料に係る航空機燃料税の税率は、同法第十一条の規定にかかわらず、航空機燃料一キロリットルにつき一万八千円とする。

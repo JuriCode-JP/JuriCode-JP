@@ -57,15 +57,12 @@ parent_section:
 
 ### 第五十四条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-54-p1 -->
 警視庁に警視庁警察学校を、道府県警察本部に道府県警察学校を附置する。
 
 ### 第五十四条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-54-p2 -->
 警視庁警察学校及び府県警察学校は、警察職員に対し、新任者に対する教育訓練その他所要の教育訓練を行う。
 
 ### 第五十四条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-54-p3 -->
 道警察学校は、警察職員に対し、新任者に対する教育訓練、幹部として必要な教育訓練その他所要の教育訓練を行う。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十条の三
 
-<!-- segment: simple id: shouhi-zei-hou-shikkourei-art-70-3-p1 -->
 登録を受けようとする法第五十七条の二第五項第一号に規定する特定国外事業者は、同条第二項の申請書に財務省令で定める書類を添付して提出するものとする。

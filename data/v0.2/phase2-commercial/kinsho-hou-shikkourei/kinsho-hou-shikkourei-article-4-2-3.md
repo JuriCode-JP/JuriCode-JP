@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-3-p1
+    type: simple
+    text: 法第二十四条第十三項（法第二十四条の七第五項（同条第六項において準用する場合を含む。）において準用し、及びこれらの規定を法第二十七条において準用する場合を含む。）に規定する政令で定める期間は、法第二十四条第十二項の規定による通知があつた日を起算日として、同条第一項の規定による有価証券報告書を同項の規定により提出することとした場合に提出すべきこととなる期間の末日又は当該起算日から一月を経過する日のいずれか遅い日までの期間とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

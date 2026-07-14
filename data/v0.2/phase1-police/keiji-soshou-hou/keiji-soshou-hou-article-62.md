@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-62-p1 -->
 被告人の召喚、勾引又は勾留は、召喚状、勾引状又は勾留状を発してこれをしなければならない。

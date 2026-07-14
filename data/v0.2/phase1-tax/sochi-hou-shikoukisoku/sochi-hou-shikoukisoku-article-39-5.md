@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十九条の五
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-39-5-p1 -->
 法第九十条の三の四第一項の表の第二号の下欄に規定する財務省令で定める用途は、遊覧の用とする。

@@ -16,22 +16,48 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-15-p1
+    type: simple
+    text: 厚生労働大臣は、機構に、再生医療等製品（専ら動物のために使用されることが目的とされているものを除く。以下この条において同じ。）又は当該再生医療等製品の原料若しくは材料のうち政令で定めるものについての前条第三項に規定する情報の整理を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-15-p2
+    type: simple
+    text: 厚生労働大臣は、前条第二項の報告又は措置を行うため必要があると認めるときは、機構に、再生医療等製品又は当該再生医療等製品の原料若しくは材料についての同条第三項の規定による調査を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-15-p3
+    type: tokusoku
+    text: 厚生労働大臣が第一項の規定により機構に情報の整理を行わせることとしたときは、同項の政令で定める再生医療等製品又は当該再生医療等製品の原料若しくは材料に係る前条第一項の規定による報告をしようとする者は、同項の規定にかかわらず、厚生労働省令で定めるところにより、機構に報告しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-15-p4
+    type: simple
+    text: 機構は、第一項の規定による情報の整理又は第二項の規定による調査を行つたときは、遅滞なく、当該情報の整理又は調査の結果を厚生労働省令で定めるところにより、厚生労働大臣に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

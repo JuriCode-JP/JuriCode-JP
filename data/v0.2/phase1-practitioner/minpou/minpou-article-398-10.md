@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-10-p1
+    type: simple
+    text: 元本の確定前に根抵当権者を分割をする会社とする分割があったときは、根抵当権は、分割の時に存する債権のほか、分割をした会社及び分割により設立された会社又は当該分割をした会社がその事業に関して有する権利義務の全部又は一部を当該会社から承継した会社が分割後に取得する債権を担保する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-10-p2
+    type: simple
+    text: 元本の確定前にその債務者を分割をする会社とする分割があったときは、根抵当権は、分割の時に存する債務のほか、分割をした会社及び分割により設立された会社又は当該分割をした会社がその事業に関して有する権利義務の全部又は一部を当該会社から承継した会社が分割後に負担する債務を担保する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-10-p3
+    type: junyou
+    text: 前条第三項から第五項までの規定は、前二項の場合について準用する。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:

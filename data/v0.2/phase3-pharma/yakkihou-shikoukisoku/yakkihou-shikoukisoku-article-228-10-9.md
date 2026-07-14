@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-9-p1
+    type: simple
+    text: 法第六十八条の二の四第三項の規定により厚生労働大臣に対して行う通知は、様式第九十七の二による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

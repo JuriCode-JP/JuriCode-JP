@@ -14,14 +14,67 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-14-p1-hashira
+    type: hashira
+    text: 法第百七十四条第五項第一号に規定する内閣府令で定める者は、次の各号に掲げる者とする。
+    modality: gimu
+  - id: kinsho-kachoukin-furei-art-1-14-p1-kou-1
+    type: kou
+    text: 一　違反者の親会社
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-1-14-p1-kou-2
+    type: kou
+    text: 二　違反者の子会社
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-1-14-p1-kou-3
+    type: kou
+    text: 三　違反者と同一の親会社をもつ会社等
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-1-14-p1-kou-4
+    type: kou
+    text: 四　違反者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、違反者が支配していないことが明らかであると認められる会社を除く。）
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-14-p2-hashira
+    type: hashira
+    text: 法第百七十四条第五項第二号に規定する内閣府令で定める者は、次の各号に掲げる者とする。
+    modality: gimu
+  - id: kinsho-kachoukin-furei-art-1-14-p2-kou-1
+    type: kou
+    text: 一　違反者（個人に限る。）の親族
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-1-14-p2-kou-2
+    type: kou
+    text: 二　違反者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-1-14-p2-kou-3
+    type: kou
+    text: 三　違反者の役員等
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-1-14-p2-kou-4
+    type: kou
+    text: 四　前三号に掲げる者以外の者で違反者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-kachoukin-furei-art-1-14-p2-kou-5
+    type: kou
+    text: 五　前三号に掲げる者と生計を一にするこれらの者の親族
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -40,6 +93,24 @@ parent_section:
 
 法第百七十四条第五項第一号に規定する内閣府令で定める者は、次の各号に掲げる者とする。
 
+一　違反者の親会社
+
+二　違反者の子会社
+
+三　違反者と同一の親会社をもつ会社等
+
+四　違反者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、違反者が支配していないことが明らかであると認められる会社を除く。）
+
 ### 第一条の十四第二項
 
 法第百七十四条第五項第二号に規定する内閣府令で定める者は、次の各号に掲げる者とする。
+
+一　違反者（個人に限る。）の親族
+
+二　違反者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+
+三　違反者の役員等
+
+四　前三号に掲げる者以外の者で違反者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
+
+五　前三号に掲げる者と生計を一にするこれらの者の親族

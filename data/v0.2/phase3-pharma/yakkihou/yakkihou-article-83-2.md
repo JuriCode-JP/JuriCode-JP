@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-p1
+    type: simple
+    text: 前条第一項の規定により読み替えて適用される第十三条第一項の許可（医薬品の製造業に係るものに限る。）又は第二十三条の二の三第一項の登録（体外診断用医薬品の製造業に係るものに限る。）を受けた者でなければ、動物用医薬品（専ら動物のために使用されることが目的とされている医薬品をいう。以下同じ。）の製造をしてはならない。
+    modality: gimu_negative
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-p2
+    type: simple
+    text: 前項の規定は、試験研究の目的で使用するために製造をする場合その他の農林水産省令で定める場合には、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

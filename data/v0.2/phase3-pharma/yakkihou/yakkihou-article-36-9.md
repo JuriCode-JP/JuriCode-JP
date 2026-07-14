@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-9-p1-hashira
+    type: hashira
+    text: 薬局開設者、店舗販売業者又は配置販売業者は、厚生労働省令で定めるところにより、一般用医薬品につき、次の各号に掲げる区分に応じ、当該各号に定める者に販売させ、又は授与させなければならない。
+    modality: gimu
+  - id: yakkihou-art-36-9-p1-kou-1
+    type: kou
+    text: 一　第一類医薬品　薬剤師
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-36-9-p1-kou-2
+    type: kou
+    text: 二　第二類医薬品及び第三類医薬品　薬剤師又は登録販売者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第三十六条の九
 
 薬局開設者、店舗販売業者又は配置販売業者は、厚生労働省令で定めるところにより、一般用医薬品につき、次の各号に掲げる区分に応じ、当該各号に定める者に販売させ、又は授与させなければならない。
+
+一　第一類医薬品　薬剤師
+
+二　第二類医薬品及び第三類医薬品　薬剤師又は登録販売者

@@ -16,32 +16,70 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-3-p1-zen
+    type: zen_dan
+    text: 人事委員会を置く地方公共団体においては、任命権者は、人事委員会規則で定めるところにより、常時勤務を要する職に欠員を生じた場合において、緊急のとき、臨時の職に関するとき、又は採用候補者名簿（第二十一条の四第四項において読み替えて準用する第二十一条第一項に規定する昇任候補者名簿を含む。）がないときは、人事委員会の承認を得て、六月を超えない期間で臨時的任用を行うことができる。
+    modality: kanou_kenri
+  - id: chihou-koumuin-hou-art-22-3-p1-kou
+    type: kou_dan
+    text: この場合において、任命権者は、人事委員会の承認を得て、当該臨時的任用を六月を超えない期間で更新することができるが、再度更新することはできない。
+    modality: kanou_negative
+    depends_on: chihou-koumuin-hou-art-22-3-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-3-p2
+    type: simple
+    text: 前項の場合において、人事委員会は、臨時的に任用される者の資格要件を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-3-p3
+    type: simple
+    text: 人事委員会は、前二項の規定に違反する臨時的任用を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-3-p4-zen
+    type: zen_dan
+    text: 人事委員会を置かない地方公共団体においては、任命権者は、地方公共団体の規則で定めるところにより、常時勤務を要する職に欠員を生じた場合において、緊急のとき、又は臨時の職に関するときは、六月を超えない期間で臨時的任用を行うことができる。
+    modality: kanou_kenri
+  - id: chihou-koumuin-hou-art-22-3-p4-kou
+    type: kou_dan
+    text: この場合において、任命権者は、当該臨時的任用を六月を超えない期間で更新することができるが、再度更新することはできない。
+    modality: kanou_negative
+    depends_on: chihou-koumuin-hou-art-22-3-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-3-p5
+    type: simple
+    text: 臨時的任用は、正式任用に際して、いかなる優先権をも与えるものではない。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-3-p6
+    type: simple
+    text: 前各項に定めるもののほか、臨時的に任用された職員に対しては、この法律を適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

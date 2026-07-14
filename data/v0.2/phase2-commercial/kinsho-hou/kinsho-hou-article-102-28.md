@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-28-p1
+    type: simple
+    text: 理事は、理事長に対し、理事会の目的である事項及び招集の理由を示して理事会の招集を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

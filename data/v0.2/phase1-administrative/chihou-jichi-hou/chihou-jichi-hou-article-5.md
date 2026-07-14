@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-5-p1 -->
 普通地方公共団体の区域は、従来の区域による。
 
 ### 第五条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-5-p2 -->
 都道府県は、市町村を包括する。

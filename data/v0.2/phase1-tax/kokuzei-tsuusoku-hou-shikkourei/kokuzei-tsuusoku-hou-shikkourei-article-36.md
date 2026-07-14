@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-36-p1 -->
 法第九十八条第四項（裁決）の担当審判官及び参加審判官の議決は、これらの者の過半数の意見による。

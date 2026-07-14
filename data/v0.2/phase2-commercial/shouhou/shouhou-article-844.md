@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百四十四条
 
-<!-- segment: simple id: shouhou-art-844-p1 -->
 船舶先取特権と他の先取特権とが競合する場合には、船舶先取特権は、他の先取特権に優先する。

@@ -48,6 +48,4 @@ parent_section:
 
 ### 第六百二十条
 
-<!-- segment: zen_dan id: minpou-art-620-p1-zen -->
-賃貸借の解除をした場合には、その解除は、将来に向かってのみその効力を生ずる。<!-- segment: kou_dan id: minpou-art-620-p1-kou depends_on: minpou-art-620-p1-zen -->
-この場合においては、損害賠償の請求を妨げない。
+賃貸借の解除をした場合には、その解除は、将来に向かってのみその効力を生ずる。この場合においては、損害賠償の請求を妨げない。

@@ -14,14 +14,51 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-12-p1
+    type: simple
+    text: 店舗型電話異性紹介営業を営もうとする者は、営業所ごとに、当該営業所の所在地を管轄する公安委員会に、次の事項を記載した届出書を提出しなければならない。
+    modality: gimu
+  - id: fueihou-art-31-12-p1-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-31-12-p1-kou-2
+    type: kou
+    text: 二　営業所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-31-12-p1-kou-3
+    type: kou
+    text: 三　第二条第九項に規定する電気通信設備を識別するための電話番号
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-31-12-p1-kou-4
+    type: kou
+    text: 四　営業所の構造及び設備（第二条第九項に規定する電気通信設備を含む。）の概要
+    modality: unspecified
+    item_number: 4
+  - id: fueihou-art-31-12-p1-kou-5
+    type: kou
+    text: 五　営業所における業務の実施を統括管理する者の氏名及び住所
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-12-p2
+    type: junyou
+    text: 第二十七条第二項から第五項までの規定は、前項の規定による届出書の提出について準用する。この場合において、同条第二項中「同項各号（第三号を除く。）」とあるのは「第三十一条の十二第一項各号」と、同条第三項中「前二項」とあるのは「第三十一条の十二第一項又は同条第二項において準用する前項」と、同条第四項中「第一項又は第二項」とあるのは「第三十一条の十二第一項又は同条第二項において準用する第二項」と、同項ただし書中「第二十八条第一項」とあるのは「第三十一条の十三第一項において準用する第二十八条第一項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前二項
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -43,6 +80,16 @@ parent_section:
 ### 第三十一条の十二第一項
 
 店舗型電話異性紹介営業を営もうとする者は、営業所ごとに、当該営業所の所在地を管轄する公安委員会に、次の事項を記載した届出書を提出しなければならない。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　営業所の名称及び所在地
+
+三　第二条第九項に規定する電気通信設備を識別するための電話番号
+
+四　営業所の構造及び設備（第二条第九項に規定する電気通信設備を含む。）の概要
+
+五　営業所における業務の実施を統括管理する者の氏名及び住所
 
 ### 第三十一条の十二第二項
 

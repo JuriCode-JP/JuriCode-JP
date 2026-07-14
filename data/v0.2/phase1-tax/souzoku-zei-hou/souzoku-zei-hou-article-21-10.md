@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-10-p1
+    type: simple
+    text: 相続時精算課税適用者が特定贈与者からの贈与により取得した財産については、特定贈与者ごとにその年中において贈与により取得した財産の価額を合計し、それぞれの合計額をもつて、贈与税の課税価格とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

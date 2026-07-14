@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-129-2-p1
+    type: simple
+    text: 第百二十八条第一項及び前条第一項に規定する期間の末日が日曜日その他政令で定める日に当たるときは、これらの日の翌日を当該期間の末日とみなす。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

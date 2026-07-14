@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百三十条
 
-<!-- segment: simple id: kaisha-hou-art-330-p1 -->
 株式会社と役員及び会計監査人との関係は、委任に関する規定に従う。

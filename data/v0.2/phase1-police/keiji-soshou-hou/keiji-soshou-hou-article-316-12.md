@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-12-p1
+    type: simple
+    text: 公判前整理手続期日には、裁判所書記官を立ち会わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-12-p2
+    type: simple
+    text: 公判前整理手続期日における手続については、裁判所の規則の定めるところにより、公判前整理手続調書を作成しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

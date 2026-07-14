@@ -16,27 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-2-p1
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国際最低課税額等報告事項等（当該対象会計年度以後の各対象会計年度において除外会社等（前条第十四号ヘに掲げる除外会社等に限る。以下この項及び次項において同じ。）に該当する会社等についてこの項の規定の適用を受けようとする旨を含むものに限る。以下この項において同じ。）若しくはグループ国内最低課税額報告事項等（当該対象会計年度以後の各対象会計年度において除外会社等に該当する会社等についてこの項の規定の適用を受けようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国際最低課税額等報告事項等に相当する事項若しくは当該グループ国内最低課税額報告事項等に相当する事項の提供がある場合（第百五十条の三第三項又は第六項（特定多国籍企業グループ等に係る報告事項等の提供）の規定の適用がある場合に限る。）には、当該対象会計年度以後の各対象会計年度において当該会社等は除外会社等に該当しないものとして、この法律の規定を適用する。
+    modality: unspecified
+    references:
+    - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-2-p2
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国際最低課税額等報告事項等（当該対象会計年度以後の各対象会計年度において除外会社等に該当する会社等について前項の規定の適用を受けることをやめようとする旨を含むものに限る。以下この項において同じ。）若しくはグループ国内最低課税額報告事項等（当該対象会計年度以後の各対象会計年度において除外会社等に該当する会社等について前項の規定の適用を受けることをやめようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国際最低課税額等報告事項等に相当する事項若しくは当該グループ国内最低課税額報告事項等に相当する事項の提供がある場合（第百五十条の三第三項又は第六項の規定の適用がある場合に限る。）には、当該会社等については、当該対象会計年度以後の各対象会計年度において、前項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-2-p3
+    type: simple
+    text: 第一項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに前項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-2-p4
+    type: simple
+    text: 第二項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに第一項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-2-p5
+    type: simple
+    text: 各対象会計年度の前対象会計年度において第一項の規定に相当する我が国以外の国又は地域の租税に関する法令の規定の適用があつた場合における同項の規定の適用その他前各項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments:
 - effective_date: '2024-04-01'

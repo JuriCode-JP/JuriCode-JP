@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-10-p1
+    type: simple
+    text: 普通地方公共団体の長又は委員会若しくは委員は、前条の規定によるあつせんがあつたときは、その所掌事務の遂行に著しい支障のない限り、適任と認める職員を派遣しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

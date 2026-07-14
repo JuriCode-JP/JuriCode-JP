@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-117-3-p1
+    type: simple
+    text: 第六十八条（共同危険行為等の禁止）の規定に違反した者は、二年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

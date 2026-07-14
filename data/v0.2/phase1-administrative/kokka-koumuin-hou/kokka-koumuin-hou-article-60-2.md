@@ -13,25 +13,49 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-60-2-p1-honbun
+    type: honbun
+    text: 任命権者は、年齢六十年に達した日以後にこの法律の規定により退職（臨時的職員その他の法律により任期を定めて任用される職員及び常時勤務を要しない官職を占める職員が退職する場合を除く。）をした者（以下この条及び第八十二条第二項において「年齢六十年以上退職者」という。）又は年齢六十年に達した日以後に自衛隊法（昭和二十九年法律第百六十五号）の規定により退職（自衛官及び同法第四十四条の六第三項各号に掲げる隊員が退職する場合を除く。）をした者（以下この項及び第三項において「自衛隊法による年齢六十年以上退職者」という。）を、人事院規則で定めるところにより、従前の勤務実績その他の人事院規則で定める情報に基づく選考により、短時間勤務の官職（当該官職を占める職員の一週間当たりの通常の勤務時間が、常時勤務を要する官職でその職務が当該短時間勤務の官職と同種の官職を占める職員の一週間当たりの通常の勤務時間に比し短い時間である官職をいう。以下この項及び第三項において同じ。）（一般職の職員の給与に関する法律別表第十一に規定する指定職俸給表の適用を受ける職員が占める官職及びこれに準ずる行政執行法人の官職として人事院規則で定める官職（第四項及び第六節第一款第二目においてこれらの官職を「指定職」という。）を除く。以下この項及び第三項において同じ。）に採用することができる。
+    modality: kanou_kenri
+  - id: kokka-koumuin-hou-art-60-2-p1-tadashi
+    type: tadashi
+    text: ただし、年齢六十年以上退職者又は自衛隊法による年齢六十年以上退職者がこれらの者を採用しようとする短時間勤務の官職に係る定年退職日相当日（短時間勤務の官職を占める職員が、常時勤務を要する官職でその職務が当該短時間勤務の官職と同種の官職を占めているものとした場合における第八十一条の六第一項に規定する定年退職日をいう。次項及び第三項において同じ。）を経過した者であるときは、この限りでない。
+    modality: jogai
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-60-2-p2
+    type: simple
+    text: 前項の規定により採用された職員（以下この条及び第八十二条第二項において「定年前再任用短時間勤務職員」という。）の任期は、採用の日から定年退職日相当日までとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-60-2-p3
+    type: simple
+    text: 任命権者は、年齢六十年以上退職者又は自衛隊法による年齢六十年以上退職者のうちこれらの者を採用しようとする短時間勤務の官職に係る定年退職日相当日を経過していない者以外の者を当該短時間勤務の官職に採用することができず、定年前再任用短時間勤務職員のうち当該定年前再任用短時間勤務職員を昇任し、降任し、又は転任しようとする短時間勤務の官職に係る定年退職日相当日を経過していない定年前再任用短時間勤務職員以外の職員を当該短時間勤務の官職に昇任し、降任し、又は転任することができない。
+    modality: kanou_negative
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-60-2-p4
+    type: simple
+    text: 任命権者は、定年前再任用短時間勤務職員を、指定職又は指定職以外の常時勤務を要する官職に昇任し、降任し、又は転任することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

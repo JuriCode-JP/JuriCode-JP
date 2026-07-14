@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-33-p1
+    type: simple
+    text: 内閣総理大臣は、第百五十六条の二十九の規定による命令のほか、証券金融会社の業務の運営又は財産の状況に関し、公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該証券金融会社に対し、業務の内容若しくは方法の変更その他業務の運営又は財産の状況の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-33-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による命令をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

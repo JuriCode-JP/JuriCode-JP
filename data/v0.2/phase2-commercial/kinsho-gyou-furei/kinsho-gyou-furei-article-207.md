@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百七条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-207-p1 -->
 法第五十四条の二（登録金融機関にあっては、同条第二号を除く。）の規定による公告は、官報により行うものとする。

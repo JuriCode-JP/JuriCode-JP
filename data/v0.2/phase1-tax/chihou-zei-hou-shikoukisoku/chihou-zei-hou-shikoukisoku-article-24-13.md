@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の十三
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-13-p1 -->
 削除

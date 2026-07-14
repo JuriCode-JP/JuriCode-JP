@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-6-p1
+    type: simple
+    text: 自主規制委員の任期は、選定後一年以内に終了する事業年度のうち最終のものに関する定時株主総会の終結の時までとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-6-p2
+    type: simple
+    text: 自主規制委員は、四回に限り再選されることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

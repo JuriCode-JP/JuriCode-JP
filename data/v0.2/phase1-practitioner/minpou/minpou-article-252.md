@@ -23,8 +23,8 @@ paragraphs:
     modality: gimu
     references:
     - 次項
-    - 次条
     - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: true
@@ -34,6 +34,16 @@ paragraphs:
     type: hashira
     text: 裁判所は、次の各号に掲げるときは、当該各号に規定する他の共有者以外の共有者の請求により、当該他の共有者以外の共有者の持分の価格に従い、その過半数で共有物の管理に関する事項を決することができる旨の裁判をすることができる。
     modality: kanou_kenri
+  - id: minpou-art-252-p2-kou-1
+    type: kou
+    text: 一　共有者が他の共有者を知ることができず、又はその所在を知ることができないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-252-p2-kou-2
+    type: kou
+    text: 二　共有者が他の共有者に対し相当の期間を定めて共有物の管理に関する事項を決することについて賛否を明らかにすべき旨を催告した場合において、当該他の共有者がその期間内に賛否を明らかにしないとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -56,6 +66,26 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前三項
+  - id: minpou-art-252-p4-kou-1
+    type: kou
+    text: 一　樹木の栽植又は伐採を目的とする山林の賃借権等　十年
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-252-p4-kou-2
+    type: kou
+    text: 二　前号に掲げる賃借権等以外の土地の賃借権等　五年
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-252-p4-kou-3
+    type: kou
+    text: 三　建物の賃借権等　三年
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-252-p4-kou-4
+    type: kou
+    text: 四　動産の賃借権等　六箇月
+    modality: unspecified
+    item_number: 4
 - number: 5
   has_proviso: false
   has_items: false
@@ -85,25 +115,32 @@ parent_section:
 
 ### 第二百五十二条第一項
 
-<!-- segment: simple id: minpou-art-252-p1 -->
 共有物の管理に関する事項（次条第一項に規定する共有物の管理者の選任及び解任を含み、共有物に前条第一項に規定する変更を加えるものを除く。次項において同じ。）は、各共有者の持分の価格に従い、その過半数で決する。共有物を使用する共有者があるときも、同様とする。
 
 ### 第二百五十二条第二項
 
-<!-- segment: hashira id: minpou-art-252-p2-hashira -->
 裁判所は、次の各号に掲げるときは、当該各号に規定する他の共有者以外の共有者の請求により、当該他の共有者以外の共有者の持分の価格に従い、その過半数で共有物の管理に関する事項を決することができる旨の裁判をすることができる。
+
+一　共有者が他の共有者を知ることができず、又はその所在を知ることができないとき。
+
+二　共有者が他の共有者に対し相当の期間を定めて共有物の管理に関する事項を決することについて賛否を明らかにすべき旨を催告した場合において、当該他の共有者がその期間内に賛否を明らかにしないとき。
 
 ### 第二百五十二条第三項
 
-<!-- segment: simple id: minpou-art-252-p3 -->
 前二項の規定による決定が、共有者間の決定に基づいて共有物を使用する共有者に特別の影響を及ぼすべきときは、その承諾を得なければならない。
 
 ### 第二百五十二条第四項
 
-<!-- segment: hashira id: minpou-art-252-p4-hashira -->
 共有者は、前三項の規定により、共有物に、次の各号に掲げる賃借権その他の使用及び収益を目的とする権利（以下この項において「賃借権等」という。）であって、当該各号に定める期間を超えないものを設定することができる。
+
+一　樹木の栽植又は伐採を目的とする山林の賃借権等　十年
+
+二　前号に掲げる賃借権等以外の土地の賃借権等　五年
+
+三　建物の賃借権等　三年
+
+四　動産の賃借権等　六箇月
 
 ### 第二百五十二条第五項
 
-<!-- segment: simple id: minpou-art-252-p5 -->
 各共有者は、前各項の規定にかかわらず、保存行為をすることができる。

@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第二百二十一条の四第五項（国外事業所等に帰せられるべき純資産に対応する負債の利子）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-40-14-p1-kou-1
+    type: kou
+    text: 一　令第二百二十一条の四第四項の規定の適用を受けようとする居住者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-40-14-p1-kou-2
+    type: kou
+    text: 二　令第二百二十一条の四第四項の規定の適用を受けようとする最初の年
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-40-14-p1-kou-3
+    type: kou
+    text: 三　令第二百二十一条の四第四項に規定する一定の日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-40-14-p1-kou-4
+    type: kou
+    text: 四　令第二百二十一条の四第四項に規定する確定申告期限までに同項に規定する危険勘案資産額を計算することが困難である理由
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-40-14-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第四十条の十四
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-40-14-p1-hashira -->
 令第二百二十一条の四第五項（国外事業所等に帰せられるべき純資産に対応する負債の利子）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第二百二十一条の四第四項の規定の適用を受けようとする居住者の氏名及び住所
+
+二　令第二百二十一条の四第四項の規定の適用を受けようとする最初の年
+
+三　令第二百二十一条の四第四項に規定する一定の日
+
+四　令第二百二十一条の四第四項に規定する確定申告期限までに同項に規定する危険勘案資産額を計算することが困難である理由
+
+五　その他参考となるべき事項

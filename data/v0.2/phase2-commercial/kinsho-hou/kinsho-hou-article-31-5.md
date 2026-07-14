@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-31-5-p1
+    type: simple
+    text: 会社法第三百三十一条第二項ただし書（同法第三百三十五条第一項において準用する場合を含む。）、第三百三十二条第二項（同法第三百三十四条第一項において準用する場合を含む。）、第三百三十六条第二項及び第四百二条第五項ただし書の規定は、金融商品取引業者（第一種金融商品取引業又は投資運用業を行う者に限る。）については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

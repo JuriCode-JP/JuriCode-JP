@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-22-5-p1
+    type: simple
+    text: 当該徴税吏員は、法第二十二条の十五の規定により作成する領置目録、差押目録又は記録命令付差押目録に、領置、差押え又は記録命令付差押えをした物件の品名及び数量、その日時及び場所並びに当該物件の所持者の氏名及び住所又は居所を記載しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

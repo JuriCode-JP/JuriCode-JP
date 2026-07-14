@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-14-p1
+    type: simple
+    text: 法第四十二条の七第二項ただし書に規定する政令で定める数は、四百九十九とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

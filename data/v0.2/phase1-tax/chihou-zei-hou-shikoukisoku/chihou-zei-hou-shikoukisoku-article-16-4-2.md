@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-2-p1
+    type: simple
+    text: 法第四百八十五条の十三第一項の市町村に納付された当該年度の市町村たばこ税の額に相当する額は、地方自治法第二百三十三条第一項の規定により調製すべき市町村の決算に係る市町村たばこ税の額に相当する額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,19 +14,50 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-10-p1-hashira
+    type: hashira
+    text: 主たる債務者は、事業のために負担する債務を主たる債務とする保証又は主たる債務の範囲に事業のために負担する債務が含まれる根保証の委託をするときは、委託を受ける者に対し、次に掲げる事項に関する情報を提供しなければならない。
+    modality: gimu
+  - id: minpou-art-465-10-p1-kou-1
+    type: kou
+    text: 一　財産及び収支の状況
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-465-10-p1-kou-2
+    type: kou
+    text: 二　主たる債務以外に負担している債務の有無並びにその額及び履行状況
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-465-10-p1-kou-3
+    type: kou
+    text: 三　主たる債務の担保として他に提供し、又は提供しようとするものがあるときは、その旨及びその内容
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-10-p2
+    type: simple
+    text: 主たる債務者が前項各号に掲げる事項に関して情報を提供せず、又は事実と異なる情報を提供したために委託を受けた者がその事項について誤認をし、それによって保証契約の申込み又はその承諾の意思表示をした場合において、主たる債務者がその事項に関して情報を提供せず又は事実と異なる情報を提供したことを債権者が知り又は知ることができたときは、保証人は、保証契約を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-10-p3
+    type: simple
+    text: 前二項の規定は、保証をする者が法人である場合には、適用しない。
+    modality: jogai
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:
@@ -52,6 +83,12 @@ parent_section:
 ### 第四百六十五条の十第一項
 
 主たる債務者は、事業のために負担する債務を主たる債務とする保証又は主たる債務の範囲に事業のために負担する債務が含まれる根保証の委託をするときは、委託を受ける者に対し、次に掲げる事項に関する情報を提供しなければならない。
+
+一　財産及び収支の状況
+
+二　主たる債務以外に負担している債務の有無並びにその額及び履行状況
+
+三　主たる債務の担保として他に提供し、又は提供しようとするものがあるときは、その旨及びその内容
 
 ### 第四百六十五条の十第二項
 

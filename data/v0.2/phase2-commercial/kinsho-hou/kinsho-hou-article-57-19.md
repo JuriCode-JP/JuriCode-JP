@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-19-p1
+    type: simple
+    text: 内閣総理大臣は、指定親会社の業務又は当該指定親会社及びその子法人等の財産の状況に照らして公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該指定親会社に対し、対象特別金融商品取引業者の業務の運営又は財産の状況の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-19-p2
+    type: simple
+    text: 内閣総理大臣は、指定親会社に対し前項の規定による命令をした場合において、当該命令に係る措置の実施の状況に照らして特に必要があると認めるときは、対象特別金融商品取引業者に対し、その業務の運営又は財産の状況の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-14-p1-honbun
+    type: honbun
+    text: 法第六十六条の九十一の規定により読み替えて適用する法第六十六条の八十二に規定する政令で定める期間は、三月とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-18-4-14-p1-tadashi
+    type: tadashi
+    text: ただし、外国法人又は外国に住所を有する個人である投資運用関係業務受託業者が、その本国の法令又は慣行により、その事業年度経過後三月以内に事業報告書を提出することができないと認められる場合には、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

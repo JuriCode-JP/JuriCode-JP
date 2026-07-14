@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-163-5-p1
+    type: simple
+    text: 第百六十三条の二及び前条第一項の罪の未遂は、罰する。
+    modality: gimu_kei
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

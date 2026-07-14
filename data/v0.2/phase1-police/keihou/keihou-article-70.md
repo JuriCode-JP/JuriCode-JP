@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七十条
 
-<!-- segment: simple id: keihou-art-70-p1 -->
 拘禁刑又は拘留を減軽することにより一日に満たない端数が生じたときは、これを切り捨てる。

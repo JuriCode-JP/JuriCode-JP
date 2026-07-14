@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十四条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-34-p1 -->
 審理員は、審査請求人若しくは参加人の申立てにより又は職権で、適当と認める者に、参考人としてその知っている事実の陳述を求め、又は鑑定を求めることができる。

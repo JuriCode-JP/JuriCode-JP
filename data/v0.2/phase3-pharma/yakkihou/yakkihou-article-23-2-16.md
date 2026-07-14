@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-16-p1
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造販売業者は、その事業を廃止し、休止し、若しくは休止した事業を再開したとき、又は医療機器等総括製造販売責任者その他厚生労働省令で定める事項を変更したときは、三十日以内に、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-16-p2
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造業者又は医療機器等外国製造業者は、その製造所を廃止し、休止し、若しくは休止した製造所を再開したとき、又は医療機器責任技術者、体外診断用医薬品製造管理者その他厚生労働省令で定める事項を変更したときは、三十日以内に、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

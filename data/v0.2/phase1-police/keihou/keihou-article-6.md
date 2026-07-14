@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六条
 
-<!-- segment: simple id: keihou-art-6-p1 -->
 犯罪後の法律によって刑の変更があったときは、その軽いものによる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-24-p1
+    type: simple
+    text: 免税証は、これを他人に譲り渡し、又は他人から譲り受けてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

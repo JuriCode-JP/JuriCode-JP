@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-12-p1
+    type: simple
+    text: 法第二十三条の三十二の二第六項の厚生労働省令で定める日数は、四十日（変更計画について最後に法第二十三条の三十二の二第一項の規定による確認を受けてから、第百三十七条の四十八の七第一項の規定による届出を行つていない場合は、二十日）（日曜日、国民の祝日に関する法律に規定する休日、十二月二十九日から翌年の一月三日までの日及び土曜日は、算入しない。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

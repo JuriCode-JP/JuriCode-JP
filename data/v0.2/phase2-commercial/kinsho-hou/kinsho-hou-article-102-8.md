@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-8-p1
+    type: simple
+    text: 自主規制法人は、主たる事務所の所在地において、設立の登記をすることにより成立する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-8-p2
+    type: simple
+    text: 前項の場合を除くほか、この法律の規定により登記すべき事項は、登記をした後でなければ、これをもつて第三者に対抗することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

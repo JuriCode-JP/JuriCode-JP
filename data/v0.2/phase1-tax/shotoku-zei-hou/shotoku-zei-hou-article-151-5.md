@@ -16,32 +16,72 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-151-5-p1
+    type: simple
+    text: 第百二十五条第一項（年の中途で死亡した場合の確定申告）の規定による申告書の提出期限後に生じた次条第一項に規定する遺産分割等の事由（以下この条において「遺産分割等の事由」という。）により第六十条の三第一項（贈与等により非居住者に資産が移転した場合の譲渡所得等の特例）の規定が適用されたため新たに第百二十五条第一項の規定による申告書を提出すべき要件に該当することとなつた居住者の相続人は、当該遺産分割等の事由が生じた日から四月以内に、当該居住者の死亡の日の属する年分の期限後申告書を提出し、かつ、当該期限内に当該期限後申告書の提出により納付すべき税額を納付しなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-151-5-p2
+    type: simple
+    text: 遺産分割等の事由が生じたことにより第六十条の三第一項の規定が適用されたため新たに第百二十五条第二項の規定による申告書を提出することができる要件に該当することとなつた居住者の相続人は、当該遺産分割等の事由が生じた後に、当該居住者の死亡の日の属する年分の同項の規定による申告書を提出することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-151-5-p3
+    type: simple
+    text: 第百二十五条第三項の規定による申告書の提出期限後に生じた遺産分割等の事由により第六十条の三第一項の規定が適用されたため新たに第百二十五条第三項の規定による申告書を提出することができる要件に該当することとなつた居住者の相続人は、当該居住者の死亡の日の属する年分の期限後申告書を提出することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-151-5-p4
+    type: simple
+    text: 第一項の規定により期限後申告書を提出すべき者が当該期限後申告書を提出しなかつた場合には、納税地の所轄税務署長は、当該期限後申告書に記載すべきであつた所得金額、所得税の額その他の事項につき決定を行う。
+    modality: unspecified
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-151-5-p5-hashira
+    type: hashira
+    text: 第一項の規定による期限後申告書及び前項の決定に対する国税通則法の規定の適用については、次に定めるところによる。
+    modality: unspecified
+    references:
+    - 前項
+  - id: shotoku-zei-hou-art-151-5-p5-kou-1
+    type: kou
+    text: 一　当該期限後申告書で第一項に規定する提出期限内に提出されたものについては、これを国税通則法第十七条第二項（期限内申告）に規定する期限内申告書とみなす。
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-art-151-5-p5-kou-2
+    type: kou
+    text: 二　当該期限後申告書で第一項に規定する提出期限後に提出されたもの及び当該決定については、国税通則法第二章から第七章まで（国税の納付義務の確定等）の規定中「法定申告期限」とあり、及び「法定納期限」とあるのは、「所得税法第百五十一条の五第一項（遺産分割等があつた場合の期限後申告等の特例）に規定する期限後申告書の提出期限」とする。
+    modality: gimu
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-151-5-p6
+    type: simple
+    text: 第一項から第三項までの規定による申告書を提出することによる還付金の国に対する請求権は、遺産分割等の事由が生じた日から五年間行使しないことによつて、時効により消滅する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -77,6 +117,10 @@ parent_section:
 ### 第百五十一条の五第五項
 
 第一項の規定による期限後申告書及び前項の決定に対する国税通則法の規定の適用については、次に定めるところによる。
+
+一　当該期限後申告書で第一項に規定する提出期限内に提出されたものについては、これを国税通則法第十七条第二項（期限内申告）に規定する期限内申告書とみなす。
+
+二　当該期限後申告書で第一項に規定する提出期限後に提出されたもの及び当該決定については、国税通則法第二章から第七章まで（国税の納付義務の確定等）の規定中「法定申告期限」とあり、及び「法定納期限」とあるのは、「所得税法第百五十一条の五第一項（遺産分割等があつた場合の期限後申告等の特例）に規定する期限後申告書の提出期限」とする。
 
 ### 第百五十一条の五第六項
 

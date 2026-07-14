@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-14-p1
+    type: simple
+    text: 租税特別措置法（昭和三十二年法律第二十六号）第四条の二第一項に規定する勤労者財産形成住宅貯蓄契約又はその履行につき、勤労者財産形成促進法第六条第四項第一号ロ又はハに定める要件に該当しないこととなる事実が生じた場合であつて、当該事実が補償対象債権に係る支払（法第七十九条の五十八第一項の支払をいう。次項において同じ。）により生じたものであるときにおける租税特別措置法第四条の二第二項及び第九項の規定の適用については、当該事実は、同条第二項に規定する政令で定める場合及び同条第九項に規定する事実に該当しないものとみなす。
+    modality: unspecified
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-14-p2
+    type: simple
+    text: 租税特別措置法第四条の三第一項に規定する勤労者財産形成年金貯蓄契約又はその履行につき、勤労者財産形成促進法第六条第二項第一号ロ又はハに定める要件に該当しないこととなる事実が生じた場合であつて、当該事実が補償対象債権に係る支払により生じたものであるときにおける租税特別措置法第四条の三第二項及び第十項の規定の適用については、当該事実は、同条第二項に規定する政令で定める場合及び同条第十項に規定する事実に該当しないものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

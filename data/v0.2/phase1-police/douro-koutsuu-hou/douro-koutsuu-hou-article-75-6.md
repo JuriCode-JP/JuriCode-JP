@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-6-p1-honbun
+    type: honbun
+    text: 自動車（緊急自動車を除く。）は、本線車道に入ろうとする場合（本線車道から他の本線車道に入ろうとする場合にあつては、道路標識等により指定された本線車道に入ろうとする場合に限る。）において、当該本線車道を通行する自動車があるときは、当該自動車の進行妨害をしてはならない。
+    modality: gimu_negative
+  - id: douro-koutsuu-hou-art-75-6-p1-tadashi
+    type: tadashi
+    text: ただし、当該交差点において、交通整理が行なわれているときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-6-p2
+    type: simple
+    text: 緊急自動車以外の自動車は、緊急自動車が本線車道に入ろうとしている場合又はその通行している本線車道から出ようとしている場合においては、当該緊急自動車の通行を妨げてはならない。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-75-6-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +61,5 @@ parent_section:
 ### 第七十五条の六第二項
 
 緊急自動車以外の自動車は、緊急自動車が本線車道に入ろうとしている場合又はその通行している本線車道から出ようとしている場合においては、当該緊急自動車の通行を妨げてはならない。
+
+（罰則　第百二十条第一項第二号）

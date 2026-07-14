@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-714-5-p1
+    type: simple
+    text: 二以上の社債管理補助者があるときは、社債管理補助者は、各自、その権限に属する行為をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-714-5-p2
+    type: simple
+    text: 社債管理補助者が社債権者に生じた損害を賠償する責任を負う場合において、他の社債管理補助者も当該損害を賠償する責任を負うときは、これらの者は、連帯債務者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第三十八条第一項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-38-p1 -->
 施行令第四十七条第九号又は第十号に規定する財務省令で定める装置は、金属性反応管による原料分解装置とする。
 
 ### 第三十八条第二項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-38-p2 -->
 施行令第四十七条第十一号に規定する財務省令で定める装置は、金属性反応管による原料分解装置又は金属性触媒を使用する断続式原料分解装置とする。

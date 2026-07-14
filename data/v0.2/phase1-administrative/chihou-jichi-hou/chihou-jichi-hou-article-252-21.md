@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-p1
+    type: simple
+    text: 法律又はこれに基づく政令に定めるもののほか、第二百五十二条の十九第一項の規定による指定都市の指定があつた場合において必要な事項は、政令でこれを定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

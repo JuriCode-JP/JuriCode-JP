@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-11-p1
+    type: simple
+    text: 法第三十条の四第二号に規定する政令で定める金額は、三億円とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-11-p2
+    type: simple
+    text: 申請者が外国法人である場合において、法第三十条の四第二号の資本金の額及び同条第三号の純財産額を本邦通貨に換算するときは、法第三十条第一項の認可の申請の時における外国為替相場によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

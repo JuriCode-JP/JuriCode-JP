@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-204-2-p1
+    type: simple
+    text: 普通地方公共団体は、いかなる給与その他の給付も法律又はこれに基づく条例に基づかずには、これをその議会の議員、第二百三条の二第一項の者及び前条第一項の者に支給することができない。
+    modality: kanou_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

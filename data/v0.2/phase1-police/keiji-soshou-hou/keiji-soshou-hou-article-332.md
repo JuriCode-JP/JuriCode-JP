@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百三十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-332-p1 -->
 簡易裁判所は、地方裁判所において審判するのを相当と認めるときは、決定で管轄地方裁判所にこれを移送しなければならない。

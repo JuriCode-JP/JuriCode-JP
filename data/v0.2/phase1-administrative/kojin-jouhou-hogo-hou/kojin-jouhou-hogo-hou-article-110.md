@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: kojin-jouhou-hogo-hou-art-110-p1-kou-1
+    type: kou
+    text: 一　第百十二条第一項の提案の募集をする個人情報ファイルである旨
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-110-p1-kou-2
+    type: kou
+    text: 二　第百十二条第一項の提案を受ける組織の名称及び所在地
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第百十条
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-110-p1-hashira -->
 行政機関の長等は、当該行政機関の長等の属する行政機関等が保有している個人情報ファイルが第六十条第三項各号のいずれにも該当すると認めるときは、当該個人情報ファイルについては、個人情報ファイル簿に次に掲げる事項を記載しなければならない。この場合における当該個人情報ファイルについての第七十五条第一項の規定の適用については、同項中「第十号」とあるのは、「第十号並びに第百十条各号」とする。
+
+一　第百十二条第一項の提案の募集をする個人情報ファイルである旨
+
+二　第百十二条第一項の提案を受ける組織の名称及び所在地

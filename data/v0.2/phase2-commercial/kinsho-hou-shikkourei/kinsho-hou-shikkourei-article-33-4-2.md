@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-4-2-p1
+    type: simple
+    text: 法第百六十七条第五項第二号に規定する新株予約権に準ずるものとして政令で定める権利は、投資信託及び投資法人に関する法律に規定する新投資口予約権とし、同号に規定する株券に準ずるものとして政令で定める有価証券は、同法に規定する投資証券とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

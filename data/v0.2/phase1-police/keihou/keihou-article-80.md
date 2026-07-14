@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八十条
 
-<!-- segment: simple id: keihou-art-80-p1 -->
 前二条の罪を犯した者であっても、暴動に至る前に自首したときは、その刑を免除する。

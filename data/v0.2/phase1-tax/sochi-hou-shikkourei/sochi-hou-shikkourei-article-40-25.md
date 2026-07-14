@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第七十一条の十六第一項に規定する政令で定める無線設備は、電波法（昭和二十五年法律第百三十一号）第二条第四号に規定する無線設備（以下この項において「無線設備」という。）のうち次に掲げるすべての要件を満たすものとする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-40-25-p1-kou-1
+    type: kou
+    text: 一　電波法第二条第一号に規定する電波を空間へ放射する無線設備で財務省令で定めるものに該当するものであること。
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-40-25-p1-kou-2
+    type: kou
+    text: 二　当該無線設備の用に供されている土地等の利用に相当の制約を伴うものであること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第四十条の二十五第一項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-40-25-p1-hashira -->
 法第七十一条の十六第一項に規定する政令で定める無線設備は、電波法（昭和二十五年法律第百三十一号）第二条第四号に規定する無線設備（以下この項において「無線設備」という。）のうち次に掲げるすべての要件を満たすものとする。
+
+一　電波法第二条第一号に規定する電波を空間へ放射する無線設備で財務省令で定めるものに該当するものであること。
+
+二　当該無線設備の用に供されている土地等の利用に相当の制約を伴うものであること。
 
 ### 第四十条の二十五第二項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-25-p2 -->
 法第七十一条の十六第一項に規定する政令で定める土地等は、同項に規定する特定の放送用施設の用以外の用にも供されている土地等に係る面積の当該特定の放送用施設の用に供されている土地等に係る面積に対する割合が十分の一未満であるものとする。

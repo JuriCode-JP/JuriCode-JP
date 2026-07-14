@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-5-p1
+    type: simple
+    text: 金融商品会員制法人の解散の登記の申請書には、解散の事由を証する書面及び理事長又は金融商品会員制法人を代表する理事が清算人でない場合においては、金融商品会員制法人を代表する清算人であることを証する書面を添付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-5-p2
+    type: simple
+    text: 金融商品会員制法人が第八十条第一項の免許の取消しの処分により解散する場合における解散の登記は、内閣総理大臣の嘱託によつてする。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

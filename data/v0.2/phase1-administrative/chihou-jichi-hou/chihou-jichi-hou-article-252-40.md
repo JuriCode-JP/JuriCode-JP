@@ -16,32 +16,73 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-40-p1-zen
+    type: zen_dan
+    text: 第九十八条第二項の請求に係る監査について監査委員の監査に代えて契約に基づく監査によることができることを条例により定める普通地方公共団体の議会は、同項の請求をする場合において、特に必要があると認めるときは、その理由を付して、併せて監査委員の監査に代えて個別外部監査契約に基づく監査によることを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: chihou-jichi-hou-art-252-40-p1-kou
+    type: kou_dan
+    text: この場合においては、あらかじめ監査委員の意見を聴かなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-40-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-40-p2
+    type: simple
+    text: 前項の規定により個別外部監査契約に基づく監査によることが求められた第九十八条第二項の請求（以下本条において「議会からの個別外部監査の請求」という。）については、監査委員は、当該議会からの個別外部監査の請求に係る事項についての監査及び監査の結果に関する報告は行わない。
+    modality: unspecified
+    references:
+    - 本条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-40-p3
+    type: simple
+    text: 議会からの個別外部監査の請求があつたときは、監査委員は、直ちにその旨を当該普通地方公共団体の長に通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-40-p4
+    type: junyou
+    text: 前条第五項から第十一項までの規定は、前項の規定による通知があつた場合について準用する。この場合において、同条第五項中「事務の監査の請求に係る個別外部監査の請求について監査委員の監査に代えて個別外部監査契約に基づく監査によることについて議会の議決を経た」とあるのは「次条第三項の規定による通知があつた」と、「事務の監査の請求に係る個別外部監査の請求に係る」とあるのは「同条第二項に規定する議会からの個別外部監査の請求に係る」と、同条第七項中「第三項」とあるのは「次条第一項」と、同条第八項第一号中「事務の監査の請求に係る個別外部監査の請求」とあるのは「次条第二項に規定する議会からの個別外部監査の請求」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+    - 次条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-40-p5
+    type: simple
+    text: 前項において準用する前条第五項の個別外部監査契約を締結した者は、当該個別外部監査契約で定める個別外部監査契約の期間内に、議会からの個別外部監査の請求に係る事項につき監査しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-40-p6
+    type: junyou
+    text: 第百九十九条第二項後段、第二百五十二条の三十七第五項及び第二百五十二条の三十八の規定は、議会からの個別外部監査の請求に係る事項についての個別外部監査人の監査について準用する。この場合において、第二百五十二条の三十七第五項並びに第二百五十二条の三十八第二項、第四項及び第六項中「包括外部監査対象団体」とあるのは、「個別外部監査契約を締結した普通地方公共団体」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

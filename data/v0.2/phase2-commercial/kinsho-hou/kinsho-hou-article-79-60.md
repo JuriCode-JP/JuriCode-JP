@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-60-p1
+    type: simple
+    text: 基金は、金融機関等の更生手続の特例等に関する法律の規定による行為を行うほか、一般顧客が通知金融商品取引業者に対して有する債権（当該一般顧客の顧客資産に係るものに限る。）の実現を保全するために必要があると認めるときは、その必要の限度において、当該一般顧客のため、当該債権の実現を保全するために必要な一切の裁判上又は裁判外の行為を行う権限を有する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-60-p2
+    type: simple
+    text: 基金は、一般顧客のために、公平かつ誠実に前項の行為をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-60-p3
+    type: simple
+    text: 基金は、一般顧客に対し、善良な管理者の注意をもつて第一項の行為をしなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-60-p4
+    type: simple
+    text: 基金は、第一項の規定により裁判上の行為をする場合には、当該行為により代理する一般顧客に対し、あらかじめ当該行為の内容を通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-60-p5
+    type: simple
+    text: 前項の規定による通知を受けた一般顧客は、基金に対して基金の代理権を消滅させる旨を通知することにより当該代理権を消滅させて、自ら当該通知に係る裁判上の行為をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

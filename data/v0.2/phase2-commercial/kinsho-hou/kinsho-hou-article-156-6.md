@@ -16,27 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-6-p1
+    type: simple
+    text: 金融商品取引清算機関は、業務方法書の定めるところにより、金融商品債務引受業対象業者（第二条第二十八項に規定する金融商品債務引受業対象業者をいう。以下この項において同じ。）以外の者を相手方として、金融商品債務引受業対象業者以外の者が行う対象取引（同条第二十八項に規定する対象取引をいう。以下この章において同じ。）に基づく債務を、引受け、更改その他の方法により負担することを業として行うことができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-6-p2-honbun
+    type: honbun
+    text: 金融商品取引清算機関は、金融商品債務引受業等及びこれに附帯する業務のほか、他の業務を行うことができない。
+    modality: kanou_negative
+  - id: kinsho-hou-art-156-6-p2-tadashi
+    type: tadashi
+    text: ただし、金融商品債務引受業に関連する業務又は商品取引債務引受業等（商品先物取引法第百七十条第二項に規定する商品取引債務引受業等をいう。以下同じ。）及びこれに附帯する業務で、当該金融商品取引清算機関が金融商品債務引受業を適正かつ確実に行うにつき支障を生ずるおそれがないと認められるものについて、内閣府令で定めるところにより、内閣総理大臣の承認を受けたときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-6-p3
+    type: simple
+    text: 金融商品取引清算機関は、前項ただし書の承認を受けた業務を廃止したときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-6-p4
+    type: simple
+    text: 内閣総理大臣は、第二項ただし書の承認に条件を付することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-6-p5
+    type: simple
+    text: 前項の条件は、公益又は投資者保護のため必要な最小限度のものでなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

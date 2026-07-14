@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-8-p1
+    type: simple
+    text: 外国金融商品取引清算機関は、特定の清算参加者に対し不当な差別的取扱いをしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

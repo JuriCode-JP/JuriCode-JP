@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-48-p1
+    type: simple
+    text: 株式等譲渡所得割の課税標準は、特定株式等譲渡所得金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

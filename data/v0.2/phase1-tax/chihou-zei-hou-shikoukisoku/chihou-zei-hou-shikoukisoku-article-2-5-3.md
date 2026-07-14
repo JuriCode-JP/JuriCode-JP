@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-5-3-p1
+    type: simple
+    text: 退職手当等の支払をする者は、退職手当等の支払を受ける者の各人別に、第五号の十四様式及び第五号の十四の二様式による特別徴収票を作成し、第五号の十四様式による特別徴収票を退職手当等の支払を受けるべき日の属する年の一月一日現在におけるその者の住所所在地の市町村長に提出し、第五号の十四の二様式による特別徴収票を退職手当等の支払を受ける者に交付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-5-3-p2
+    type: simple
+    text: 前項の場合において、法第三百二十八条の五第二項の規定により徴収すべき分離課税に係る所得割の額がないときは、特別徴収票は、退職手当等の支払を受ける者の請求がない場合に限り、退職手当等の支払を受ける者に交付することを要しない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-18-p1 -->
 法第九条第一項第一号（非課税所得）に規定する政令で定める利子は、年一パーセントを超える利率の利子を付された当座預金の利子とする。

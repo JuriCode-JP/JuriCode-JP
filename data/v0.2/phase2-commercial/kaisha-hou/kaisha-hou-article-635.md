@@ -22,7 +22,7 @@ paragraphs:
     text: 合同会社が持分の払戻しにより社員に対して交付する金銭等の帳簿価額（以下この款において「持分払戻額」という。）が当該持分の払戻しをする日における剰余金額を超える場合には、当該合同会社の債権者は、当該合同会社に対し、持分の払戻しについて異議を述べることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,8 +32,18 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前項
+  - id: kaisha-hou-art-635-p2-kou-1
+    type: kou
+    text: 一　当該剰余金額を超える持分の払戻しの内容
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-635-p2-kou-2
+    type: kou
+    text: 二　債権者が一定の期間内に異議を述べることができる旨
+    modality: unspecified
+    item_number: 2
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -91,24 +101,22 @@ parent_section:
 
 ### 第六百三十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-635-p1 -->
 合同会社が持分の払戻しにより社員に対して交付する金銭等の帳簿価額（以下この款において「持分払戻額」という。）が当該持分の払戻しをする日における剰余金額を超える場合には、当該合同会社の債権者は、当該合同会社に対し、持分の払戻しについて異議を述べることができる。
 
 ### 第六百三十五条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-635-p2-hashira -->
 前項に規定する場合には、合同会社は、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第二号の期間は、一箇月（持分払戻額が当該合同会社の純資産額として法務省令で定める方法により算定される額を超える場合にあっては、二箇月）を下ることができない。
+
+一　当該剰余金額を超える持分の払戻しの内容
+
+二　債権者が一定の期間内に異議を述べることができる旨
 
 ### 第六百三十五条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-635-p3 override_flag: true override_target: 前項 -->
-前項の規定にかかわらず、合同会社が同項の規定による公告を、官報のほか、第九百三十九条第一項の規定による定款の定めに従い、同項第二号又は第三号に掲げる公告方法によりするときは、前項の規定による各別の催告は、することを要しない。<!-- segment: tadashi id: kaisha-hou-art-635-p5-tadashi -->
-ただし、持分払戻額が当該合同会社の純資産額として法務省令で定める方法により算定される額を超える場合は、この限りでない。
+前項の規定にかかわらず、合同会社が同項の規定による公告を、官報のほか、第九百三十九条第一項の規定による定款の定めに従い、同項第二号又は第三号に掲げる公告方法によりするときは、前項の規定による各別の催告は、することを要しない。ただし、持分払戻額が当該合同会社の純資産額として法務省令で定める方法により算定される額を超える場合は、この限りでない。
 
 ### 第六百三十五条第四項
 
-<!-- segment: simple id: kaisha-hou-art-635-p4 -->
-<!-- segment: honbun id: kaisha-hou-art-635-p5-honbun -->
 債権者が第二項第二号の期間内に異議を述べなかったときは、当該債権者は、当該持分の払戻しについて承認をしたものとみなす。
 
 ### 第六百三十五条第五項

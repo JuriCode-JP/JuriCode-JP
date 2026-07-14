@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-26-p1
+    type: simple
+    text: 法第六十三条の十第四項の規定により届出を行う者は、解散の年月日及び理由を記載した届出書を、当該届出に係る海外投資家等特例業務届出者が令第四十二条第二項の規定により金融庁長官の指定を受けた海外投資家等特例業務届出者の場合にあっては金融庁長官、それ以外の海外投資家等特例業務届出者の場合にあっては当該海外投資家等特例業務届出者の本店等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあっては、福岡財務支局長）に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-26-p2
+    type: simple
+    text: 前項の届出書は、英語で記載することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

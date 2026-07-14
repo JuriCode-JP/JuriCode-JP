@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-203-7-p1
+    type: simple
+    text: 居住者が前条第一項に規定する公的年金等の支払を受ける場合において、その年中に支払を受けるべき当該公的年金等の額がその年最初に当該公的年金等の支払を受けるべき日の前日の現況において政令で定める金額に満たないときは、当該公的年金等については、第二百三条の二（源泉徴収義務）の規定による所得税の徴収及び納付は、要しないものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments:
 - effective_date: '2020-04-01'

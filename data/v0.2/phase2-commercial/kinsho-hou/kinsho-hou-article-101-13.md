@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-13-p1
+    type: simple
+    text: 組織変更時発行株式の引受人（第百一条の九第三号の財産（以下この目において「現物出資財産」という。）を給付する者を除く。）は、同条第四号の期日に、会員金融商品取引所が定めた銀行等（会社法第三十四条第二項に規定する銀行等をいう。）の払込みの取扱いの場所において、それぞれの組織変更時発行株式の払込金額の全額を払い込まなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-13-p2
+    type: simple
+    text: 組織変更時発行株式の引受人（現物出資財産を給付する者に限る。）は、第百一条の九第四号の期日に、それぞれの組織変更時発行株式の払込金額の全額に相当する現物出資財産を給付しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-13-p3
+    type: simple
+    text: 組織変更時発行株式の引受人は、第一項の規定による払込み又は前項の規定による給付（以下この目において「出資の履行」という。）をする債務と会員金融商品取引所に対する債権とを相殺することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-13-p4
+    type: simple
+    text: 出資の履行をすることにより組織変更時発行株式の株主となる権利の譲渡は、組織変更後株式会社金融商品取引所に対抗することができない。
+    modality: kanou_negative
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-13-p5
+    type: simple
+    text: 組織変更時発行株式の引受人は、出資の履行をしないときは、当該出資の履行をすることにより組織変更時発行株式の株主となる権利を失う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

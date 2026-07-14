@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-78-p1
+    type: simple
+    text: 投資運用関係業務受託業者は、その行う投資運用関係業務受託業を適確に遂行するため、内閣府令で定めるところにより、業務管理体制を整備しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

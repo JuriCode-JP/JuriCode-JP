@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-3-p1
+    type: simple
+    text: 令第四十一条の五第二項の旅費（同条第一項第一号に規定する法第二十三条の十六第二項第七号の職員に係るものに限る。）の額に相当する額（第百三十二条の五第三項において「職員旅費相当額」という。）は、国家公務員等の旅費に関する法律（昭和二十五年法律第百十四号。以下「旅費法」という。）の規定により計算した旅費の額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-3-p2
+    type: simple
+    text: 令第四十一条の五第二項の旅費（同条第一項第一号に規定する法第二十三条の十六第五項の規定により機構に同条第二項第七号の検査を行わせる場合における機構の職員に係るものに限る。）の額に相当する額（第百三十二条の五第四項において「機構職員旅費相当額」という。）は、旅費法の規定の例により計算した旅費の額とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-3-p3
+    type: simple
+    text: 前二項の場合において、法第二十三条の十六第二項第七号の検査のため当該検査に係る事務所の所在地に出張する職員は、一般職の職員の給与に関する法律（昭和二十五年法律第九十五号）第六条第一項第一号イに規定する行政職俸給表（一）による職務の級が四級である者であるものとしてその旅費の額を計算するものとする。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

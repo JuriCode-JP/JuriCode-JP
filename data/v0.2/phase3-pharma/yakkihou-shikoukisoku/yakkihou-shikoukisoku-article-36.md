@@ -30,8 +30,23 @@ paragraphs:
     type: hashira
     text: 法第十三条の三第三項において準用する法第十三条第三項第六号の厚生労働省令で定める事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-36-p2-kou-1
+    type: kou
+    text: 一　製造所の名称及び所在地
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-36-p2-kou-2
+    type: kou
+    text: 二　認定の区分
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-36-p2-kou-3
+    type: kou
+    text: 三　製造所の責任者の氏名及び住所
+    modality: unspecified
+    item_number: 3
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -39,6 +54,31 @@ paragraphs:
     type: hashira
     text: 第一項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際厚生労働大臣に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
     modality: jogai
+  - id: yakkihou-shikoukisoku-art-36-p3-kou-1
+    type: kou
+    text: 一　製造所の責任者の履歴書
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-36-p3-kou-2
+    type: kou
+    text: 二　製造品目の一覧表及び製造工程に関する書類
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-36-p3-kou-3
+    type: kou
+    text: 三　製造所の構造設備に関する書類
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-36-p3-kou-4
+    type: kou
+    text: 四　放射性医薬品を取り扱おうとするとき（厚生労働大臣が定める数量又は濃度以下の放射性医薬品を取り扱おうとするときを除く。）は、放射性医薬品の種類及び放射性医薬品を取り扱うために必要な設備の概要を記載した書類
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-36-p3-kou-5
+    type: kou
+    text: 五　当該外国製造業者が存する国が医薬品、医薬部外品又は化粧品の製造販売業の許可、製造業の許可、製造販売の承認の制度又はこれに相当する制度を有する場合においては、当該国の政府機関等が発行する当該制度に係る許可証等の写し
+    modality: unspecified
+    item_number: 5
 - number: 4
   has_proviso: false
   has_items: false
@@ -64,19 +104,31 @@ parent_section:
 
 ### 第三十六条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-36-p1 -->
 法第十三条の三第一項の医薬品等外国製造業者の認定を受けようとする者は、同条第三項において準用する法第十三条第三項の規定により、様式第十八による申請書（正副二通）を提出することによつて行うものとする。
 
 ### 第三十六条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-36-p2-hashira -->
-<!-- segment: simple id: yakkihou-shikoukisoku-art-36-p4 -->
 法第十三条の三第三項において準用する法第十三条第三項第六号の厚生労働省令で定める事項は、次のとおりとする。
+
+一　製造所の名称及び所在地
+
+二　認定の区分
+
+三　製造所の責任者の氏名及び住所
 
 ### 第三十六条第三項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-36-p3-hashira -->
 第一項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際厚生労働大臣に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
+
+一　製造所の責任者の履歴書
+
+二　製造品目の一覧表及び製造工程に関する書類
+
+三　製造所の構造設備に関する書類
+
+四　放射性医薬品を取り扱おうとするとき（厚生労働大臣が定める数量又は濃度以下の放射性医薬品を取り扱おうとするときを除く。）は、放射性医薬品の種類及び放射性医薬品を取り扱うために必要な設備の概要を記載した書類
+
+五　当該外国製造業者が存する国が医薬品、医薬部外品又は化粧品の製造販売業の許可、製造業の許可、製造販売の承認の制度又はこれに相当する制度を有する場合においては、当該国の政府機関等が発行する当該制度に係る許可証等の写し
 
 ### 第三十六条第四項
 

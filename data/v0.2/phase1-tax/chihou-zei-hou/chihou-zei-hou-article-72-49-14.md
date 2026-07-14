@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-14-p1
+    type: simple
+    text: 事業を行う個人については、当該個人の事業の所得の計算上二百九十万円を控除する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-14-p2
+    type: simple
+    text: 前項の場合において、事業を行つた期間が一年に満たないときは、同項に規定する控除額は、二百九十万円に当該年において事業を行つた月数を乗じて得た額を十二で除して算定した金額とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-14-p3
+    type: simple
+    text: 前項の月数は、暦に従い計算し、一月に満たない端数を生じたときは、一月とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

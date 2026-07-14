@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百十九条
 
-<!-- segment: simple id: minpou-art-519-p1 -->
 債権者が債務者に対して債務を免除する意思を表示したときは、その債権は、消滅する。

@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-6-p1-zen
+    type: zen_dan
+    text: 普通地方公共団体の長又は委員会若しくは委員は、国民の安全に重大な影響を及ぼす事態が発生し、又は発生するおそれがある場合において、生命等の保護の措置を的確かつ迅速に講ずるため必要があると認めるときは、他の法律の規定に基づき当該生命等の保護の措置について応援を求めることができる場合を除き、他の普通地方公共団体の長又は委員会若しくは委員に対し、応援を求めることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-26-6-p1-kou
+    type: kou_dan
+    text: この場合において、応援を求められた普通地方公共団体の長又は委員会若しくは委員は、正当な理由がない限り、当該求めに応じなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-26-6-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-6-p2
+    type: simple
+    text: 前項の応援を求めた普通地方公共団体の長又は委員会若しくは委員は、同項の生命等の保護の措置の実施について、当該応援に従事する者を指揮する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-hashira
+    type: hashira
+    text: 法第六十八条の二の六第二項の厚生労働省令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-1
+    type: kou
+    text: 一　医学医術に関する学術団体
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-2
+    type: kou
+    text: 二　診療又は調剤に関する学識経験者の団体その他の医薬関係者の団体
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-3
+    type: kou
+    text: 三　私立学校法（昭和二十四年法律第二百七十号）第三条に規定する学校法人
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-4
+    type: kou
+    text: 四　国立大学法人法（平成十五年法律第百十二号）第二条第一項に規定する国立大学法人
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-5
+    type: kou
+    text: 五　地方独立行政法人法（平成十五年法律第百十八号）第六十八条第一項に規定する公立大学法人
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-6
+    type: kou
+    text: 六　独立行政法人通則法（平成十一年法律第百三号）第二条第一項に規定する独立行政法人（医療分野の研究開発に資する業務を行うものに限る。）
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第二百二十八条の十の十一
 
 法第六十八条の二の六第二項の厚生労働省令で定める者は、次に掲げる者とする。
+
+一　医学医術に関する学術団体
+
+二　診療又は調剤に関する学識経験者の団体その他の医薬関係者の団体
+
+三　私立学校法（昭和二十四年法律第二百七十号）第三条に規定する学校法人
+
+四　国立大学法人法（平成十五年法律第百十二号）第二条第一項に規定する国立大学法人
+
+五　地方独立行政法人法（平成十五年法律第百十八号）第六十八条第一項に規定する公立大学法人
+
+六　独立行政法人通則法（平成十一年法律第百三号）第二条第一項に規定する独立行政法人（医療分野の研究開発に資する業務を行うものに限る。）

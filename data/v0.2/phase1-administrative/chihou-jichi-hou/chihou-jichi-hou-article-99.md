@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十九条
 
-<!-- segment: simple id: chihou-jichi-hou-art-99-p1 -->
 普通地方公共団体の議会は、当該普通地方公共団体の公益に関する事件につき意見書を国会又は関係行政庁に提出することができる。

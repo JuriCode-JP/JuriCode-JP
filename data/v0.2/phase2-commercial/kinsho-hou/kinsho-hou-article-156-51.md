@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-51-p1
+    type: simple
+    text: 紛争解決手続によつては金融商品取引業等業務関連紛争の当事者間に和解が成立する見込みがないことを理由に紛争解決委員が当該紛争解決手続を終了した場合において、当該紛争解決手続の申立てをした当該金融商品取引業等業務関連紛争の当事者がその旨の通知を受けた日から一月以内に当該紛争解決手続の目的となつた請求について訴えを提起したときは、時効の完成猶予に関しては、当該紛争解決手続における請求の時に、訴えの提起があつたものとみなす。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-51-p2
+    type: simple
+    text: 指定紛争解決機関の紛争解決等業務の廃止が第百五十六条の六十第一項の規定により認可され、又は第百五十六条の三十九第一項の規定による指定が第百五十六条の六十一第一項の規定により取り消され、かつ、その認可又は取消しの日に紛争解決手続が実施されていた金融商品取引業等業務関連紛争がある場合において、当該紛争解決手続の申立てをした当該金融商品取引業等業務関連紛争の当事者が第百五十六条の六十第三項若しくは第百五十六条の六十一第三項の規定による通知を受けた日又は当該認可若しくは取消しを知つた日のいずれか早い日から一月以内に当該紛争解決手続の目的となつた請求について訴えを提起したときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

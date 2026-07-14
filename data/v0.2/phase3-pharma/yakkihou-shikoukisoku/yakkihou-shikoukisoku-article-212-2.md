@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-212-2-p1
+    type: simple
+    text: 医療の用に供するガス類その他これに類する医薬品であつて、その容器又は被包に、法第五十二条第一項に規定する符号を記載することが、その使用状況からみて適当でないものについては、当該医薬品に添付する文書に法第五十二条第一項に規定する符号が記載されている場合には、当該符号が当該医薬品の容器又は被包に記載されていることを要しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

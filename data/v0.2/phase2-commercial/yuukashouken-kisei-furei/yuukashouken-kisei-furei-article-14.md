@@ -31,8 +31,8 @@ paragraphs:
     text: 令第二十六条の四第六項において準用する同条第一項本文に規定する内閣府令で定める価格は、空売りに係る有価証券につき当該空売りが行われる私設取引システムを開設する法第三十条第一項の認可を受けた金融商品取引業者が当該空売り前の直近に公表した当該私設取引システムにおける売付け及び買付けの気配（当該気配に基づく価格が前項に定める売買価格の決定方法で用いられるものに限る。）を提示する金融商品取引業者等が出した最も高い買付けの気配の価格（次項において「直近公表最良買い気配価格」という。）とする。
     modality: gimu
     references:
-    - 前項
     - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -100,12 +100,6 @@ parent_section:
 
 ### 第十四条第一項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p1 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p2 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p3 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p4 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p5 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p6 -->
 令第二十六条の四第六項において準用する同条第一項に規定する内閣府令で定める売買価格の決定方法は、定義府令第十七条第二号に掲げる方法又はこれに類似する方法とする。
 
 ### 第十四条第二項
@@ -130,5 +124,4 @@ parent_section:
 
 ### 第十四条第七項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-14-p7 -->
 令第二十六条の四第六項において読み替えて準用する同条第一項第二号に規定する内閣府令で定める一の取引所金融商品市場又は店頭売買有価証券市場は、毎月末日から起算して過去六月間の有価証券の売買高（金融商品取引所の業務規程に定める売買立会によらない売買又はシステム売買が行われていない時間帯における売買に係るものを除く。）が最も多い取引所金融商品市場（当該取引所金融商品市場がないときは、過去六月間の当該有価証券以外の有価証券の売買高の合計が最も多い取引所金融商品市場）又は店頭売買有価証券市場（当該店頭売買有価証券市場がないときは、過去六月間の当該有価証券以外の有価証券の売買高の合計が最も多い店頭売買有価証券市場）とする。

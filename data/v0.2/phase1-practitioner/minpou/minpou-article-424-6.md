@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-6-p1
+    type: simple
+    text: 債権者は、受益者に対する詐害行為取消請求において、債務者がした行為の取消しとともに、その行為によって受益者に移転した財産の返還を請求することができる。受益者がその財産の返還をすることが困難であるときは、債権者は、その価額の償還を請求することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-6-p2
+    type: simple
+    text: 債権者は、転得者に対する詐害行為取消請求において、債務者がした行為の取消しとともに、転得者が転得した財産の返還を請求することができる。転得者がその財産の返還をすることが困難であるときは、債権者は、その価額の償還を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

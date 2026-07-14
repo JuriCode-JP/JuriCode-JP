@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-9-6-p1
+    type: simple
+    text: 受益者等の有する信託に関する権利が当該信託に関する権利の全部でない場合における第九条の二第一項の規定の適用、同条第五項に規定する信託財産の給付を受けることとされている者に該当するか否かの判定その他この節の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

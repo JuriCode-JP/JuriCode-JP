@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-12-p1
+    type: simple
+    text: 法第七十六条の六の二第三項の告示は、同条第一項の規定による禁止又は同条第二項の規定による禁止の解除に係る物品の名称、形状、包装について行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

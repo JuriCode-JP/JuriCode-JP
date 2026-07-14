@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-14-p1
+    type: simple
+    text: 法第五十七条の五第二項の規定による届出は、毎四半期経過後五十日以内に、第百八十条第二項及び第三項の規定に準じて記載した書面を金融庁長官に提出してしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

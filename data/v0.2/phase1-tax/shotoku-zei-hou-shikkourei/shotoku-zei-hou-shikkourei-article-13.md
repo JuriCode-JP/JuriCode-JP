@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-13-p1 -->
 法第三条第一項（居住者及び非居住者の区分）に規定する政令で定める者は、日本の国籍を有する者で、現に国外に居住し、かつ、その地に永住すると認められるものとする。

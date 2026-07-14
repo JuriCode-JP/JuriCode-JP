@@ -13,15 +13,27 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-14-p1-honbun
+    type: honbun
+    text: 根抵当権の共有者は、それぞれその債権額の割合に応じて弁済を受ける。
+    modality: unspecified
+  - id: minpou-art-398-14-p1-tadashi
+    type: tadashi
+    text: ただし、元本の確定前に、これと異なる割合を定め、又はある者が他の者に先立って弁済を受けるべきことを定めたときは、その定めに従う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-14-p2
+    type: simple
+    text: 根抵当権の共有者は、他の共有者の同意を得て、第三百九十八条の十二第一項の規定によりその権利を譲り渡すことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

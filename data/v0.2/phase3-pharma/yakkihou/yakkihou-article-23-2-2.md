@@ -14,14 +14,36 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-2-p1-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当するときは、前条第一項の許可を与えないことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: yakkihou-art-23-2-2-p1-kou-1
+    type: kou
+    text: 一　申請に係る医療機器又は体外診断用医薬品の製造管理又は品質管理に係る業務を行う体制が、厚生労働省令で定める基準に適合しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-2-2-p1-kou-2
+    type: kou
+    text: 二　申請に係る医療機器又は体外診断用医薬品の製造販売後安全管理の方法が、厚生労働省令で定める基準に適合しないとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-2-p2
+    type: junyou
+    text: 第五条（第三号に係る部分に限る。）の規定は、前条第一項の許可について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -41,6 +63,10 @@ parent_section:
 ### 第二十三条の二の二第一項
 
 次の各号のいずれかに該当するときは、前条第一項の許可を与えないことができる。
+
+一　申請に係る医療機器又は体外診断用医薬品の製造管理又は品質管理に係る業務を行う体制が、厚生労働省令で定める基準に適合しないとき。
+
+二　申請に係る医療機器又は体外診断用医薬品の製造販売後安全管理の方法が、厚生労働省令で定める基準に適合しないとき。
 
 ### 第二十三条の二の二第二項
 

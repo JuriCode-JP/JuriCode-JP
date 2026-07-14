@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-3-p1
+    type: simple
+    text: 卸売販売業者は、営業所に当該営業所の管理に関する事項を記録するための帳簿を備えなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-3-p2
+    type: simple
+    text: 医薬品営業所管理者は、試験検査、不良品の処理その他当該営業所の管理に関する事項を、前項の帳簿に記載しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-3-p3
+    type: simple
+    text: 卸売販売業者は、第一項の帳簿を、最終の記載の日から三年間、保存しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

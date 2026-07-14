@@ -37,5 +37,4 @@ parent_section:
 
 ### 第九十三条
 
-<!-- segment: simple id: roudou-kijun-hou-art-93-p1 -->
 労働契約と就業規則との関係については、労働契約法（平成十九年法律第百二十八号）第十二条の定めるところによる。

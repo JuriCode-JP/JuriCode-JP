@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百十九条
 
-<!-- segment: simple id: chihou-jichi-hou-art-119-p1 -->
 会期中に議決に至らなかつた事件は、後会に継続しない。

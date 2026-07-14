@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-11-p1
+    type: simple
+    text: 当該徴税吏員は、臨検、捜索、差押え又は記録命令付差押えの許可状を、これらの処分を受ける者に提示しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

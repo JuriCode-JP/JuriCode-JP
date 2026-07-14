@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百六十八条
 
-<!-- segment: simple id: chihou-zei-hou-art-468-p1 -->
 たばこ税の税率は、千本につき六千五百五十二円とする。

@@ -13,25 +13,47 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-2-p1-honbun
+    type: honbun
+    text: 任命権者は、管理監督職（地方自治法第二百四条第二項に規定する管理職手当を支給される職員の職及びこれに準ずる職であつて条例で定める職をいう。以下この節において同じ。）を占める職員でその占める管理監督職に係る管理監督職勤務上限年齢に達している職員について、異動期間（当該管理監督職勤務上限年齢に達した日の翌日から同日以後における最初の四月一日までの間をいう。以下この節において同じ。）（第二十八条の五第一項から第四項までの規定により延長された期間を含む。以下この項において同じ。）に、管理監督職以外の職又は管理監督職勤務上限年齢が当該職員の年齢を超える管理監督職（以下この項及び第四項においてこれらの職を「他の職」という。）への降任又は転任（降給を伴う転任に限る。）をするものとする。
+    modality: gimu
+  - id: chihou-koumuin-hou-art-28-2-p1-tadashi
+    type: tadashi
+    text: ただし、異動期間に、この法律の他の規定により当該職員について他の職への昇任、降任若しくは転任をした場合又は第二十八条の七第一項の規定により当該職員を管理監督職を占めたまま引き続き勤務させることとした場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-2-p2
+    type: simple
+    text: 前項の管理監督職勤務上限年齢は、条例で定めるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-2-p3
+    type: simple
+    text: 管理監督職及び管理監督職勤務上限年齢を定めるに当たつては、国及び他の地方公共団体の職員との間に権衡を失しないように適当な考慮が払われなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-2-p4
+    type: simple
+    text: 第一項本文の規定による他の職への降任又は転任（以下この節及び第四十九条第一項ただし書において「他の職への降任等」という。）を行うに当たつて任命権者が遵守すべき基準に関する事項その他の他の職への降任等に関し必要な事項は、条例で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

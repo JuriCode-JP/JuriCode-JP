@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-7-p1
+    type: simple
+    text: 公判前整理手続期日に検察官又は弁護人が出頭しないときは、その期日の手続を行うことができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

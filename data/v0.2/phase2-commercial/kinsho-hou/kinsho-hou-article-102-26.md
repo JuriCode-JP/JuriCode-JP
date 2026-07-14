@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-26-p1
+    type: simple
+    text: 理事は、必要があると認めるときは、委託金融商品取引所の取締役会又は理事会に出席し、意見を述べることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

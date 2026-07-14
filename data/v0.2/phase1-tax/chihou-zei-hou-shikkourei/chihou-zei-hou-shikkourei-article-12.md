@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-12-p1 -->
 法第七十二条の二第九項第三号に規定する事業で政令で定めるものは、薪炭製造業とする。

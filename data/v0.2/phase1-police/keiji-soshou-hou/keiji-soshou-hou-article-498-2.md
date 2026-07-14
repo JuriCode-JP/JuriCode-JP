@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-498-2-p1
+    type: simple
+    text: 不正に作られた電磁的記録又は没収された電磁的記録に係る記録媒体を返還し、又は交付する場合には、当該電磁的記録を消去し、又は当該電磁的記録が不正に利用されないようにする処分をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-498-2-p2
+    type: simple
+    text: 不正に作られた電磁的記録に係る記録媒体が公務所に属する場合において、当該電磁的記録に係る記録媒体が押収されていないときは、不正に作られた部分を公務所に通知して相当な処分をさせなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

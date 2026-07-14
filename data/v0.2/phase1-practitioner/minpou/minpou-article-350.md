@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百五十条
 
-<!-- segment: junyou id: minpou-art-350-p1 applies_provisions: 第三百四条 -->
 第二百九十六条から第三百条まで及び第三百四条の規定は、質権について準用する。

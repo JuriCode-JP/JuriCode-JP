@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百五十五条
 
-<!-- segment: simple id: minpou-art-355-p1 -->
 同一の動産について数個の質権が設定されたときは、その質権の順位は、設定の前後による。

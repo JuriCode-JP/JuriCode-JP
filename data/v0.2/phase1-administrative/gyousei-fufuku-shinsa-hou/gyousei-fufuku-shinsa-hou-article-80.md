@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八十条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-80-p1 -->
 この法律に定めるもののほか、審査会に関し必要な事項は、政令で定める。

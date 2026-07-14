@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-27-p1
+    type: simple
+    text: 法第二十三条の二十五第十三項の再生医療等製品の製造販売の承認事項の一部変更の承認の申請は、様式第七十五の三による申請書（正本一通及び副本二通）を提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-27-p2
+    type: simple
+    text: 法第二十三条の二十八第一項の規定により法第二十三条の二十五第十三項の承認を申請しようとするときは、前項の申請書に、第百三十七条の二十一第二項第二号に掲げる書類を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-4-p1
+    type: simple
+    text: 一部事務組合の管理者（前条第二項の規定により管理者に代えて理事会を置く第二百八十五条の一部事務組合にあつては、理事会。第二百九十一条第一項及び第二項において同じ。）は、当該一部事務組合の議会の議決すべき事件のうち政令で定める重要なものについて当該議会の議決を求めようとするときは、あらかじめ、これを当該一部事務組合の構成団体の長に通知しなければならない。当該議決の結果についても、同様とする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

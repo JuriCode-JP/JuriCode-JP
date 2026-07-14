@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-10-p1-hashira
+    type: hashira
+    text: 法第七十六条の六第二項の規定による命令は、次に掲げる事項を記載した禁止命令書により行うものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-249-10-p1-kou-1
+    type: kou
+    text: 一　製造し、輸入し、販売し、授与し、販売若しくは授与の目的で陳列し、又は広告すること（以下この条及び次条において「製造等」という。）を禁止される者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-249-10-p1-kou-2
+    type: kou
+    text: 二　製造等を禁止する物品の名称及び形状
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-249-10-p1-kou-3
+    type: kou
+    text: 三　製造等を禁止する理由
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第二百四十九条の十
 
 法第七十六条の六第二項の規定による命令は、次に掲げる事項を記載した禁止命令書により行うものとする。
+
+一　製造し、輸入し、販売し、授与し、販売若しくは授与の目的で陳列し、又は広告すること（以下この条及び次条において「製造等」という。）を禁止される者の氏名及び住所
+
+二　製造等を禁止する物品の名称及び形状
+
+三　製造等を禁止する理由

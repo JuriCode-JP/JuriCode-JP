@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十九条
 
-<!-- segment: simple id: keihou-art-59-p1 -->
 三犯以上の者についても、再犯の例による。

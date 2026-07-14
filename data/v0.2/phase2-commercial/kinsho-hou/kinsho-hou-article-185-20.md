@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-20-p1
+    type: simple
+    text: 内閣総理大臣が第一節又は第二節の規定によつてする決定その他の処分（同節の規定によつて審判官がする処分を含む。）については、行政手続法第二章及び第三章の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-51-p1
+    type: simple
+    text: 道府県は、鳥獣の保護及び狩猟に関する行政の実施に要する費用に充てるため、当該道府県知事の狩猟者の登録を受ける者に対し、狩猟税を課するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

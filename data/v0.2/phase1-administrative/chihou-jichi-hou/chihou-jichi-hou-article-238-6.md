@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-6-p1
+    type: simple
+    text: 旧来の慣行により市町村の住民中特に公有財産を使用する権利を有する者があるときは、その旧慣による。その旧慣を変更し、又は廃止しようとするときは、市町村の議会の議決を経なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-6-p2
+    type: simple
+    text: 前項の公有財産をあらたに使用しようとする者があるときは、市町村長は、議会の議決を経て、これを許可することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

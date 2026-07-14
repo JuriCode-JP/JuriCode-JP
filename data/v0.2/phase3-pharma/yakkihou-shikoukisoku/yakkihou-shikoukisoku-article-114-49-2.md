@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-49-2-p1-hashira
+    type: hashira
+    text: 体外診断用医薬品の製造販売業者は、法第二十三条の二の十四第一項ただし書第二号の規定により、薬剤師を置くことが著しく困難であると認められる場合には、体外診断用医薬品の製造管理及び品質管理並びに製造販売後安全管理について、薬剤師に代え、次の各号のいずれかに掲げる技術者をもつて行わせることができる。
+    modality: kanou_kenri
+  - id: yakkihou-shikoukisoku-art-114-49-2-p1-kou-1
+    type: kou
+    text: 一　大学等で、薬学又は化学に関する専門の課程を修了した者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-49-2-p1-kou-2
+    type: kou
+    text: 二　厚生労働大臣が前号に掲げる者と同等以上の知識経験を有すると認めた者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-49-2-p2
+    type: simple
+    text: 前項に掲げる場合に、体外診断用医薬品の製造管理及び品質管理並びに製造販売後安全管理について、薬剤師に代え、前項各号のいずれかに掲げる技術者をもつて行わせることができる期間は、医療機器等総括製造販売責任者として技術者を置いた日から起算して五年とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +61,10 @@ parent_section:
 ### 第百十四条の四十九の二第一項
 
 体外診断用医薬品の製造販売業者は、法第二十三条の二の十四第一項ただし書第二号の規定により、薬剤師を置くことが著しく困難であると認められる場合には、体外診断用医薬品の製造管理及び品質管理並びに製造販売後安全管理について、薬剤師に代え、次の各号のいずれかに掲げる技術者をもつて行わせることができる。
+
+一　大学等で、薬学又は化学に関する専門の課程を修了した者
+
+二　厚生労働大臣が前号に掲げる者と同等以上の知識経験を有すると認めた者
 
 ### 第百十四条の四十九の二第二項
 

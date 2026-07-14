@@ -13,25 +13,56 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-44-3-p1-honbun
+    type: honbun
+    text: 長官権限のうち、第三十八条の二第一項の規定により委員会に委任された法第二十六条（法第二十七条において準用する場合を含む。）の規定による権限は、資本金の額、基金の総額若しくは出資の総額が五十億円未満の内国会社又はその発行するいずれの有価証券も金融商品取引所に上場されていない内国会社（内閣府令で定めるものを除く。）に関するものにあつては当該内国会社の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に、その他の者に関するものにあつては内閣府令で定める財務局長又は財務支局長に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-44-3-p1-tadashi
+    type: tadashi
+    text: ただし、委員会が自らその権限を行うことを妨げない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-44-3-p2-honbun
+    type: honbun
+    text: 長官権限のうち、第三十八条の二第一項の規定により委員会に委任された法第二十七条の二十二第一項（法第二十七条の二十二の二第二項において準用する場合を含む。）、第二項及び第三項（法第二十七条の二十二の二第二項において準用する場合を含む。）の規定による権限は、内閣府令で定める財務局長又は財務支局長に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-44-3-p2-tadashi
+    type: tadashi
+    text: ただし、委員会が自らその権限を行うことを妨げない。
+    modality: jogai
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-44-3-p3-honbun
+    type: honbun
+    text: 長官権限のうち、第三十八条の二第一項の規定により委員会に委任された法第二十七条の三十、第二十七条の三十五及び第二十七条の三十七の規定による権限は、居住者に関するものにあつては当該居住者の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に、非居住者に関するものにあつては関東財務局長に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-44-3-p3-tadashi
+    type: tadashi
+    text: ただし、委員会が自らその権限を行うことを妨げない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-44-3-p4
+    type: simple
+    text: 前項に規定する権限のうち、居住者に係るものについては、同項に規定する財務局長又は福岡財務支局長のほか、内閣府令で定める財務局長又は財務支局長も行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

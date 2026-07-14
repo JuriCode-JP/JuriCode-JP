@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-7-p1
+    type: simple
+    text: 法第二十三条の七第一項（法第二十七条において準用する場合を含む。）の規定により発行登録を取り下げようとする発行登録者は、内国会社にあつては第十一号の四様式、外国会社にあつては第十四号の三様式により発行登録取下届出書を作成し、財務局長等に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

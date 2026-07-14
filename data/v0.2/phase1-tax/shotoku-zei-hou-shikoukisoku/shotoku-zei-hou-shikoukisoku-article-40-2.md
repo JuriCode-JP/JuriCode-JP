@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 令第百九十七条第一項（収入及び費用の帰属時期の特例を受けるための手続等）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p1-kou-1
+    type: kou
+    text: 一　令第百九十七条第一項に規定する届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p1-kou-2
+    type: kou
+    text: 二　その者が令第百九十五条各号（小規模事業者の要件）に掲げる要件に該当する事実
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p1-kou-3
+    type: kou
+    text: 三　前条第一項各号に規定する前年十二月三十一日における同項第一号の売掛金等の額並びに同項第二号の引当金及び準備金の金額
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p1-kou-4
+    type: kou
+    text: 四　その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,21 @@ paragraphs:
     type: hashira
     text: 令第百九十七条第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p2-kou-1
+    type: kou
+    text: 一　令第百九十七条第二項に規定する届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p2-kou-2
+    type: kou
+    text: 二　前項の届出書に記載した同項第三号に掲げる事項
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-40-2-p2-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -50,10 +85,22 @@ parent_section:
 
 ### 第四十条の二第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-40-2-p1-hashira -->
 令第百九十七条第一項（収入及び費用の帰属時期の特例を受けるための手続等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第百九十七条第一項に規定する届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　その者が令第百九十五条各号（小規模事業者の要件）に掲げる要件に該当する事実
+
+三　前条第一項各号に規定する前年十二月三十一日における同項第一号の売掛金等の額並びに同項第二号の引当金及び準備金の金額
+
+四　その他参考となるべき事項
 
 ### 第四十条の二第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-40-2-p2-hashira -->
 令第百九十七条第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第百九十七条第二項に規定する届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　前項の届出書に記載した同項第三号に掲げる事項
+
+三　その他参考となるべき事項

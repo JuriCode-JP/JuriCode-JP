@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-5-5-p1
+    type: simple
+    text: 政令第三十七条の五の二第二項第二号に規定する総務省令で定める施設は、ショルダー、ランプ車両通行帯、場周道路、保安道路及び航空貨物、航空機燃料、航空機装備品又は航空機部品の輸送の用に供する道路並びに同項第一号の施設に隣接する緑地帯とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-5-5-p2
+    type: simple
+    text: 政令第三十七条の五の二第四項第二号に規定する総務省令で定める施設は、ショルダー、ランプ車両通行帯、場周道路、保安道路及び航空貨物、航空機燃料、航空機装備品又は航空機部品の輸送の用に供する道路並びに同項第一号の施設に隣接する緑地帯（都市計画法（昭和四十三年法律第百号）第七条第三項の市街化調整区域内にあるものに限る。）とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

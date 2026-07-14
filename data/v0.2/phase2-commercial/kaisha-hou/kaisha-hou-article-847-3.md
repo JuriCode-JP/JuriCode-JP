@@ -13,55 +13,136 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p1-honbun
+    type: honbun
+    text: 六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き株式会社の最終完全親会社等（当該株式会社の完全親会社等であって、その完全親会社等がないものをいう。以下この節において同じ。）の総株主（株主総会において決議をすることができる事項の全部につき議決権を行使することができない株主を除く。）の議決権の百分の一（これを下回る割合を定款で定めた場合にあっては、その割合）以上の議決権を有する株主又は当該最終完全親会社等の発行済株式（自己株式を除く。）の百分の一（これを下回る割合を定款で定めた場合にあっては、その割合）以上の数の株式を有する株主は、当該株式会社に対し、書面その他の法務省令で定める方法により、特定責任に係る責任追及等の訴え（以下この節において「特定責任追及の訴え」という。）の提起を請求することができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-847-3-p1-tadashi
+    type: tadashi
+    text: ただし、次のいずれかに該当する場合は、この限りでない。
+    modality: jogai
+  - id: kaisha-hou-art-847-3-p1-kou-1
+    type: kou
+    text: 一　特定責任追及の訴えが当該株主若しくは第三者の不正な利益を図り又は当該株式会社若しくは当該最終完全親会社等に損害を加えることを目的とする場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-847-3-p1-kou-2
+    type: kou
+    text: 二　当該特定責任の原因となった事実によって当該最終完全親会社等に損害が生じていない場合
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p2-hashira
+    type: hashira
+    text: 前項に規定する「完全親会社等」とは、次に掲げる株式会社をいう。
+    modality: teigi
+    references:
+    - 前項
+  - id: kaisha-hou-art-847-3-p2-kou-1
+    type: kou
+    text: 一　完全親会社
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-847-3-p2-kou-2
+    type: kou
+    text: 二　株式会社の発行済株式の全部を他の株式会社及びその完全子会社等（株式会社がその株式又は持分の全部を有する法人をいう。以下この条及び第八百四十九条第三項において同じ。）又は他の株式会社の完全子会社等が有する場合における当該他の株式会社（完全親会社を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p3
+    type: simple
+    text: 前項第二号の場合において、同号の他の株式会社及びその完全子会社等又は同号の他の株式会社の完全子会社等が他の法人の株式又は持分の全部を有する場合における当該他の法人は、当該他の株式会社の完全子会社等とみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p4
+    type: simple
+    text: 第一項に規定する「特定責任」とは、当該株式会社の発起人等の責任の原因となった事実が生じた日において最終完全親会社等及びその完全子会社等（前項の規定により当該完全子会社等とみなされるものを含む。次項及び第八百四十九条第三項において同じ。）における当該株式会社の株式の帳簿価額が当該最終完全親会社等の総資産額として法務省令で定める方法により算定される額の五分の一（これを下回る割合を定款で定めた場合にあっては、その割合）を超える場合における当該発起人等の責任をいう（第十項及び同条第七項において同じ。）。
+    modality: unspecified
+    references:
+    - 次項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p5
+    type: simple
+    text: 最終完全親会社等が、発起人等の責任の原因となった事実が生じた日において最終完全親会社等であった株式会社をその完全子会社等としたものである場合には、前項の規定の適用については、当該最終完全親会社等であった株式会社を同項の最終完全親会社等とみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p6
+    type: simple
+    text: 公開会社でない最終完全親会社等における第一項の規定の適用については、同項中「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き株式会社」とあるのは、「株式会社」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p7
+    type: simple
+    text: 株式会社が第一項の規定による請求の日から六十日以内に特定責任追及の訴えを提起しないときは、当該請求をした最終完全親会社等の株主は、株式会社のために、特定責任追及の訴えを提起することができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p8
+    type: simple
+    text: 株式会社は、第一項の規定による請求の日から六十日以内に特定責任追及の訴えを提起しない場合において、当該請求をした最終完全親会社等の株主又は当該請求に係る特定責任追及の訴えの被告となることとなる発起人等から請求を受けたときは、当該請求をした者に対し、遅滞なく、特定責任追及の訴えを提起しない理由を書面その他の法務省令で定める方法により通知しなければならない。
+    modality: gimu
 - number: 9
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p9
+    type: tokusoku
+    text: 第一項及び第七項の規定にかかわらず、同項の期間の経過により株式会社に回復することができない損害が生ずるおそれがある場合には、第一項に規定する株主は、株式会社のために、直ちに特定責任追及の訴えを提起することができる。ただし、同項ただし書に規定する場合は、この限りでない。
+    modality: jogai
+    override_flag: true
+    override_target:
+    - 第七項
+    references:
+    - 同項
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-847-3-p10
+    type: simple
+    text: 株式会社に最終完全親会社等がある場合において、特定責任を免除するときにおける第五十五条、第百三条第三項、第百二十条第五項、第四百二十四条（第四百八十六条第四項において準用する場合を含む。）、第四百六十二条第三項ただし書、第四百六十四条第二項及び第四百六十五条第二項の規定の適用については、これらの規定中「総株主」とあるのは、「総株主及び株式会社の第八百四十七条の三第一項に規定する最終完全親会社等の総株主」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -84,9 +165,17 @@ parent_section:
 
 六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き株式会社の最終完全親会社等（当該株式会社の完全親会社等であって、その完全親会社等がないものをいう。以下この節において同じ。）の総株主（株主総会において決議をすることができる事項の全部につき議決権を行使することができない株主を除く。）の議決権の百分の一（これを下回る割合を定款で定めた場合にあっては、その割合）以上の議決権を有する株主又は当該最終完全親会社等の発行済株式（自己株式を除く。）の百分の一（これを下回る割合を定款で定めた場合にあっては、その割合）以上の数の株式を有する株主は、当該株式会社に対し、書面その他の法務省令で定める方法により、特定責任に係る責任追及等の訴え（以下この節において「特定責任追及の訴え」という。）の提起を請求することができる。ただし、次のいずれかに該当する場合は、この限りでない。
 
+一　特定責任追及の訴えが当該株主若しくは第三者の不正な利益を図り又は当該株式会社若しくは当該最終完全親会社等に損害を加えることを目的とする場合
+
+二　当該特定責任の原因となった事実によって当該最終完全親会社等に損害が生じていない場合
+
 ### 第八百四十七条の三第二項
 
 前項に規定する「完全親会社等」とは、次に掲げる株式会社をいう。
+
+一　完全親会社
+
+二　株式会社の発行済株式の全部を他の株式会社及びその完全子会社等（株式会社がその株式又は持分の全部を有する法人をいう。以下この条及び第八百四十九条第三項において同じ。）又は他の株式会社の完全子会社等が有する場合における当該他の株式会社（完全親会社を除く。）
 
 ### 第八百四十七条の三第三項
 

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 合計所得金額が二千五百万円以下である居住者については、その者のその年分の総所得金額、退職所得金額又は山林所得金額から次の各号に掲げる場合の区分に応じ当該各号に定める金額を控除する。
     modality: unspecified
+  - id: shotoku-zei-hou-art-86-p1-kou-1
+    type: kou
+    text: 一　その居住者の合計所得金額が二千三百五十万円以下である場合　五十八万円
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-art-86-p1-kou-2
+    type: kou
+    text: 二　その居住者の合計所得金額が二千三百五十万円を超え二千四百万円以下である場合　四十八万円
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-art-86-p1-kou-3
+    type: kou
+    text: 三　その居住者の合計所得金額が二千四百万円を超え二千四百五十万円以下である場合　三十二万円
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-art-86-p1-kou-4
+    type: kou
+    text: 四　その居住者の合計所得金額が二千四百五十万円を超え二千五百万円以下である場合　十六万円
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -56,10 +76,16 @@ parent_section:
 
 ### 第八十六条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-art-86-p1-hashira -->
 合計所得金額が二千五百万円以下である居住者については、その者のその年分の総所得金額、退職所得金額又は山林所得金額から次の各号に掲げる場合の区分に応じ当該各号に定める金額を控除する。
+
+一　その居住者の合計所得金額が二千三百五十万円以下である場合　五十八万円
+
+二　その居住者の合計所得金額が二千三百五十万円を超え二千四百万円以下である場合　四十八万円
+
+三　その居住者の合計所得金額が二千四百万円を超え二千四百五十万円以下である場合　三十二万円
+
+四　その居住者の合計所得金額が二千四百五十万円を超え二千五百万円以下である場合　十六万円
 
 ### 第八十六条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-art-86-p2 -->
 前項の規定による控除は、基礎控除という。

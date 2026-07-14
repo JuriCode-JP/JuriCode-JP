@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-21-p1
+    type: simple
+    text: 内閣総理大臣は、第六十六条の十九第二項の規定により第六十六条の登録がその効力を失つたとき、又は前条第一項の規定により第六十六条の登録を取り消したときは、当該登録を抹消しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

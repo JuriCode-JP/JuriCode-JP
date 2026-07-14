@@ -16,42 +16,91 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p1
+    type: simple
+    text: 免許証等の更新を受けようとする者のうち当該更新を受ける日において優良運転者又は一般運転者に該当するもの（第百一条第三項の規定により当該更新を受ける日において優良運転者又は一般運転者に該当することとなる旨を記載した書面の送付を受けた者に限る。）は、同条第一項の規定による更新申請書の提出を、その者の住所地を管轄する公安委員会以外の公安委員会（以下「経由地公安委員会」という。）を経由して行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p2
+    type: simple
+    text: 前項の規定による経由地公安委員会を経由して行う更新申請書の提出は、次項の規定による申出をする場合を除き、当該免許証等の有効期間が満了する日の直前のその者の誕生日までに行わなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p3
+    type: simple
+    text: 免許情報記録の有効期間の更新を受けようとする者は、第一項の規定による経由地公安委員会を経由して行う更新申請書の提出に併せて第百一条の四の二第三項の規定による免許情報記録の書換えを当該経由地公安委員会において受けたい旨を申し出ることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p4
+    type: simple
+    text: 第一項の規定により更新申請書を受理した経由地公安委員会は、その者について、速やかに適性検査を行わなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p5-zen
+    type: zen_dan
+    text: 経由地公安委員会は、第一項の規定により受理した更新申請書の内容（第三項の規定による申出があつた場合には、その旨を含む。）及び前項の規定による適性検査の結果をその者の住所地を管轄する公安委員会に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-101-2-2-p5-kou
+    type: kou_dan
+    text: この場合において、その者の住所地を管轄する公安委員会は、第百一条第五項の規定による適性検査を行わないものとする。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-101-2-2-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p6
+    type: simple
+    text: 経由地公安委員会は、当該免許証等の更新を受けようとする者が次条第一項の規定により経由地公安委員会が行う第百八条の二第一項第十一号に掲げる講習を受けたときは、その旨をその者の住所地を管轄する公安委員会に通知するものとする。
+    modality: gimu
+    references:
+    - 次条
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p7-zen
+    type: zen_dan
+    text: 第五項の規定による通知を受けた公安委員会は、当該通知に係る適性検査の結果のみによつては当該免許証等の更新を受けようとする者が自動車等を運転することが支障がないかどうかを判断できないときは、その者について適性検査を行うものとする。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-101-2-2-p7-kou
+    type: kou_dan
+    text: この場合において、当該公安委員会は、その者に適性検査を受けるべき旨を通知しなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-101-2-2-p7-zen
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-2-p8
+    type: simple
+    text: 第三項の申出の手続について必要な事項は、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

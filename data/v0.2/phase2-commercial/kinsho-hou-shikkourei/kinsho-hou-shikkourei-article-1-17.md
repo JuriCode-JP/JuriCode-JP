@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-17-p1
+    type: simple
+    text: 法第二条第二十四項第二号に規定する政令で定めるものは、外国為替及び外国貿易法第六条第一項第七号に規定する支払手段（通貨に該当するものを除く。）、同項第十一号に規定する証券及び同項第十三号に規定する債権並びに資金決済に関する法律第二条第五項に規定する電子決済手段（法第二条第二十四項第三号の二に規定する内閣府令で定めるものを除く。）とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

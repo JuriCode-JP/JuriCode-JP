@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百二十条
 
-<!-- segment: simple id: keihou-art-220-p1 -->
 不法に人を逮捕し、又は監禁した者は、三月以上七年以下の拘禁刑に処する。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-10-3-p1
+    type: simple
+    text: 合併又は分割（以下この条において「合併等」という。）を無効とする判決が確定した場合には、当該合併等をした法人は、合併後存続する法人若しくは合併により設立した法人又は分割により事業を承継した法人の当該合併等の日以後に納付し、又は納入する義務の成立した地方団体の徴収金について、連帯して納付し、又は納入する義務を負う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

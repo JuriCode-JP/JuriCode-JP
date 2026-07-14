@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十三条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-53-p1 -->
 裁判所は、事実の調査をしたときは、特に必要がないと認める場合を除き、その旨を当事者及び利害関係参加人に通知しなければならない。

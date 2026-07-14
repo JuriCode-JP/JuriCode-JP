@@ -53,8 +53,8 @@ paragraphs:
     text: 前条第一項第五号イに掲げる事項についての定めがある場合には、組織変更をする株式会社の株主は、効力発生日に、同項第六号に掲げる事項についての定めに従い、同項第五号イの社債の社債権者となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -93,8 +93,6 @@ parent_section:
 
 ### 第七百四十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-745-p1 -->
-<!-- segment: simple id: kaisha-hou-art-745-p2 -->
 組織変更をする株式会社は、効力発生日に、持分会社となる。
 
 ### 第七百四十五条第二項
@@ -103,20 +101,16 @@ parent_section:
 
 ### 第七百四十五条第三項
 
-<!-- segment: simple id: kaisha-hou-art-745-p3 -->
 組織変更をする株式会社の株主は、効力発生日に、前条第一項第三号に掲げる事項についての定めに従い、組織変更後持分会社の社員となる。
 
 ### 第七百四十五条第四項
 
-<!-- segment: simple id: kaisha-hou-art-745-p4 -->
 前条第一項第五号イに掲げる事項についての定めがある場合には、組織変更をする株式会社の株主は、効力発生日に、同項第六号に掲げる事項についての定めに従い、同項第五号イの社債の社債権者となる。
 
 ### 第七百四十五条第五項
 
-<!-- segment: simple id: kaisha-hou-art-745-p5 -->
 組織変更をする株式会社の新株予約権は、効力発生日に、消滅する。
 
 ### 第七百四十五条第六項
 
-<!-- segment: simple id: kaisha-hou-art-745-p6 -->
 前各項の規定は、第七百七十九条の規定による手続が終了していない場合又は組織変更を中止した場合には、適用しない。

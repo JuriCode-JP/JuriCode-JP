@@ -54,10 +54,8 @@ parent_section:
 
 ### 第二百三条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-203-p1 -->
 法第五十条第二項に規定する議決権の過半数の保有の判定に当たって、保有する議決権には、他人の名義によって所有する株式又は出資に係る議決権及び第三十五条第一項各号に掲げる場合における株式又は出資に係る議決権を含むものとする。
 
 ### 第二百三条第二項
 
-<!-- segment: tokusoku id: kinsho-gyou-furei-art-203-p2 override_flag: true override_target: 同項 -->
 前項の保有する議決権からは、同項の規定にかかわらず、第三十五条第二項各号に掲げる株式又は出資に係る議決権を除くものとする。

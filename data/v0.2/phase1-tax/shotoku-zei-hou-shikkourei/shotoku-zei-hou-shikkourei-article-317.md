@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: shotoku-zei-hou-shikkourei-art-317-p1
     type: simple
     text: 法第百九十五条第一項（従たる給与についての扶養控除等申告書）に規定する政令で定めるところにより計算した金額は、第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-317-p1-kou-1
+    type: kou
+    text: 一　その年中に主たる給与等の支払者から支払を受ける給与等の金額の見積額を法第二十八条第二項（給与所得の金額）に規定する給与等の収入金額とみなして計算した場合における同項に規定する給与所得の金額
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-317-p1-kou-2
+    type: kou
+    text: 二　前号に規定する給与等の金額の見積額から控除されるべき法第七十四条第二項（社会保険料控除）に規定する社会保険料の額の見積額及び法第七十五条第二項（小規模企業共済等掛金控除）に規定する小規模企業共済等掛金の額の見積額の合計額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第三百十七条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-317-p1 -->
 法第百九十五条第一項（従たる給与についての扶養控除等申告書）に規定する政令で定めるところにより計算した金額は、第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
+
+一　その年中に主たる給与等の支払者から支払を受ける給与等の金額の見積額を法第二十八条第二項（給与所得の金額）に規定する給与等の収入金額とみなして計算した場合における同項に規定する給与所得の金額
+
+二　前号に規定する給与等の金額の見積額から控除されるべき法第七十四条第二項（社会保険料控除）に規定する社会保険料の額の見積額及び法第七十五条第二項（小規模企業共済等掛金控除）に規定する小規模企業共済等掛金の額の見積額の合計額

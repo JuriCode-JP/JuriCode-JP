@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-62-p1
+    type: simple
+    text: 道府県知事は、天災その他特別の事情がある場合において個人の行う事業に対する事業税の減免を必要とすると認める者、貧困により生活のため公私の扶助を受ける者その他特別の事情がある者に限り、当該道府県の条例の定めるところにより、個人の行う事業に対する事業税を減免することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

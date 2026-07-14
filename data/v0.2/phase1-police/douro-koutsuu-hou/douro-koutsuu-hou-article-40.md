@@ -34,6 +34,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-40-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -52,10 +56,10 @@ parent_section:
 
 ### 第四十条第一項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-40-p1 -->
 交差点又はその附近において、緊急自動車が接近してきたときは、路面電車は交差点を避けて、車両（緊急自動車を除く。以下この条において同じ。）は交差点を避け、かつ、道路の左側（一方通行となつている道路においてその左側に寄ることが緊急自動車の通行を妨げることとなる場合にあつては、道路の右側。次項において同じ。）に寄つて一時停止しなければならない。
 
 ### 第四十条第二項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-40-p2 -->
 前項以外の場所において、緊急自動車が接近してきたときは、車両は、道路の左側に寄つて、これに進路を譲らなければならない。
+
+（罰則　第百二十条第一項第二号）

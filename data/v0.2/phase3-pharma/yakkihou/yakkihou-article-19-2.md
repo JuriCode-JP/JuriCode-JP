@@ -16,32 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-2-p1
+    type: simple
+    text: 厚生労働大臣は、第十四条第一項に規定する医薬品、医薬部外品又は化粧品であつて本邦に輸出されるものにつき、外国においてその製造等をする者から申請があつたときは、品目ごとに、その者が第三項の規定により選任した医薬品、医薬部外品又は化粧品の製造販売業者に製造販売をさせることについての承認を与えることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-2-p2
+    type: simple
+    text: 申請者が、第七十五条の二の二第一項の規定によりその受けた承認の全部又は一部を取り消され、取消しの日から三年を経過していない者であるときは、前項の承認を与えないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-2-p3
+    type: simple
+    text: 第一項の承認を受けようとする者は、本邦内において当該承認に係る医薬品、医薬部外品又は化粧品による保健衛生上の危害の発生の防止に必要な措置をとらせるため、医薬品、医薬部外品又は化粧品の製造販売業者（当該承認に係る品目の種類に応じた製造販売業の許可を受けている者に限る。）を当該承認の申請の際選任しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-2-p4
+    type: tokusoku
+    text: 第一項の承認を受けた者（以下「外国製造医薬品等特例承認取得者」という。）が前項の規定により選任した医薬品、医薬部外品又は化粧品の製造販売業者（以下「選任外国製造医薬品等製造販売業者」という。）は、第十四条第一項の規定にかかわらず、当該承認に係る品目の製造販売をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十四条
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-2-p5
+    type: simple
+    text: 第一項の承認については、第十四条第二項（第一号を除く。）及び第三項から第十五項まで並びに第十四条の二の二から第十四条の二の三までの規定を準用する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-2-p6
+    type: simple
+    text: 前項において準用する第十四条第十三項の承認については、同条第十五項、第十四条の二の二及び第十四条の二の三の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

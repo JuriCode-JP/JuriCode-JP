@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikkourei-art-83-4-p1
@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: houjin-zei-hou-shikkourei-art-83-4-p1-kou-1
+    type: kou
+    text: 一　当該固定資産の取得又は改良をするために要した金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-83-4-p1-kou-2
+    type: kou
+    text: 二　当該賦課に基づいて納付された金額のうち前号に掲げる金額に達するまでの金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -47,5 +57,8 @@ parent_section:
 
 ### 第八十三条の四
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-83-4-p1 -->
 法第四十六条第一項（非出資組合が賦課金で取得した固定資産等の圧縮額の損金算入）に規定する政令で定めるところにより計算した金額は、同項の賦課に基づいて納付された日における同項に規定する固定資産の帳簿価額（改良の場合にあつては、その改良に係る部分の帳簿価額）に第一号に掲げる金額のうちに第二号に掲げる金額の占める割合を乗じて計算した金額とする。
+
+一　当該固定資産の取得又は改良をするために要した金額
+
+二　当該賦課に基づいて納付された金額のうち前号に掲げる金額に達するまでの金額

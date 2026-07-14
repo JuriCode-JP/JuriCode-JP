@@ -23,6 +23,26 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 次条
+  - id: chihou-zei-hou-art-298-p1-kou-1
+    type: kou
+    text: 一　納税義務者又は納税義務があると認められる者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-298-p1-kou-2
+    type: kou
+    text: 二　前号に規定する者に金銭又は物品を給付する義務があると認められる者
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-298-p1-kou-3
+    type: kou
+    text: 三　給与支払報告書を提出する義務がある者及び特別徴収義務者
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-298-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げる者以外の者で当該市町村民税の賦課徴収に関し直接関係があると認められる者
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -84,25 +104,28 @@ parent_section:
 
 ### 第二百九十八条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-art-298-p1-hashira -->
 市町村の徴税吏員は、市町村民税の賦課徴収に関する調査のために必要がある場合においては、次に掲げる者に質問し、又は第一号から第三号までの者の事業に関する帳簿書類（その作成又は保存に代えて電磁的記録（電子的方式、磁気的方式その他の人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。）の作成又は保存がされている場合における当該電磁的記録を含む。次条第一項第一号及び第二号において同じ。）その他の物件を検査し、若しくは当該物件（その写しを含む。）の提示若しくは提出を求めることができる。
+
+一　納税義務者又は納税義務があると認められる者
+
+二　前号に規定する者に金銭又は物品を給付する義務があると認められる者
+
+三　給与支払報告書を提出する義務がある者及び特別徴収義務者
+
+四　前三号に掲げる者以外の者で当該市町村民税の賦課徴収に関し直接関係があると認められる者
 
 ### 第二百九十八条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-298-p2 -->
 前項の場合においては、当該徴税吏員は、その身分を証明する証票を携帯し、関係人の請求があつたときは、これを呈示しなければならない。
 
 ### 第二百九十八条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-298-p3 -->
 市町村の徴税吏員は、政令で定めるところにより、第一項の規定により提出を受けた物件を留め置くことができる。
 
 ### 第二百九十八条第四項
 
-<!-- segment: tokusoku id: chihou-zei-hou-art-298-p4 override_flag: true override_target: 第一項 -->
 市町村民税に係る滞納処分に関する調査については、第一項の規定にかかわらず、第三百三十一条第六項の定めるところによる。
 
 ### 第二百九十八条第五項
 
-<!-- segment: simple id: chihou-zei-hou-art-298-p5 -->
 第一項又は第三項の規定による市町村の徴税吏員の権限は、犯罪捜査のために認められたものと解釈してはならない。

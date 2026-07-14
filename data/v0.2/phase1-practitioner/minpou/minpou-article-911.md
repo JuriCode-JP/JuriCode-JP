@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百十一条
 
-<!-- segment: simple id: minpou-art-911-p1 -->
 各共同相続人は、他の共同相続人に対して、売主と同じく、その相続分に応じて担保の責任を負う。

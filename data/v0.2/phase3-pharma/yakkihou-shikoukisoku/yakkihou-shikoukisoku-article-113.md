@@ -42,6 +42,4 @@ parent_section:
 
 ### 第百十三条
 
-<!-- segment: zen_dan id: yakkihou-shikoukisoku-art-113-p1-zen -->
-医薬品、医薬部外品又は化粧品の製造販売業者又は製造業者については、第十五条の十の規定を準用する。<!-- segment: kou_dan id: yakkihou-shikoukisoku-art-113-p1-kou depends_on: yakkihou-shikoukisoku-art-113-p1-zen -->
-この場合において、「薬剤師若しくは登録販売者」とあるのは、「薬剤師」と読み替えるものとする。
+医薬品、医薬部外品又は化粧品の製造販売業者又は製造業者については、第十五条の十の規定を準用する。この場合において、「薬剤師若しくは登録販売者」とあるのは、「薬剤師」と読み替えるものとする。

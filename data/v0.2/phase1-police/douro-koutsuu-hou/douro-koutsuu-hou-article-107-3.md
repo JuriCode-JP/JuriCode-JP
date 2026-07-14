@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-3-p1
+    type: junyou
+    text: 国際運転免許証等を所持する者は、自動車等を運転するときは、当該自動車等に係る国際運転免許証等を携帯していなければならない。第九十五条第二項の規定は、この場合について準用する。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-107-3-supplnote-1
+    type: supplnote
+    text: （罰則　前段については第百二十一条第一項第十二号、同条第三項　後段については第百二十条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -36,3 +44,5 @@ parent_section:
 ### 第百七条の三
 
 国際運転免許証等を所持する者は、自動車等を運転するときは、当該自動車等に係る国際運転免許証等を携帯していなければならない。第九十五条第二項の規定は、この場合について準用する。
+
+（罰則　前段については第百二十一条第一項第十二号、同条第三項　後段については第百二十条第一項第十号）

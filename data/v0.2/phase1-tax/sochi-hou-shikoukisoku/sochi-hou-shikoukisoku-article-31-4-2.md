@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-31-4-2-p1
+    type: simple
+    text: 法第八十三条の二の規定の適用を受けようとする者が、申請により登記を受けようとする場合には、その登記の申請書に、当該登記が同条の規定に該当するものであることについての市町村長の証明書で、当該登記に係る土地又は建物の所有権、地上権又は賃借権の取得が同条に規定する居住誘導区域等権利設定等促進計画に基づくものであること並びに当該居住誘導区域等権利設定等促進計画に係る都市再生特別措置法第百九条の九の規定による公告があつた日及び当該取得の日の記載があるものを添付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-31-4-2-p2
+    type: simple
+    text: 法第八十三条の二の規定の適用を受けようとする者が、市町村長の嘱託により登記を受けようとする場合には、市町村長に対する登記の嘱託の請求書に同条の規定の適用を受けようとする旨を記載し、当該登記の嘱託書に前項の市町村長の証明書を添付して当該登記の嘱託をすべき旨の請求をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-4-p1
+    type: simple
+    text: 地方団体の徴収金を納付し、又は納入すべき者が当該地方団体外に住所、居所、家屋敷、事務所若しくは事業所を有し、又はその者の財産が当該地方団体外に在る場合においては、当該地方団体は、その者の住所、居所、家屋敷、事務所若しくは事業所又はその者の財産の所在地の地方団体にその徴収を嘱託することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-4-p2
+    type: simple
+    text: 前項の場合における徴収は、嘱託を受けた地方団体における徴収の例による。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-4-p3
+    type: simple
+    text: 第一項の規定によつて徴収を嘱託した場合においては、嘱託に係る事務及び送金に要する費用は、嘱託を受けた地方団体の負担とし、嘱託に係る事務に伴う督促手数料及び滞納処分費は、嘱託を受けた地方団体の収入とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

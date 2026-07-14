@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七十四条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-74-p1 -->
 還付金等に係る国に対する請求権は、その請求をすることができる日から五年間行使しないことによつて、時効により消滅する。
 
 ### 第七十四条第二項
 
-<!-- segment: junyou id: kokuzei-tsuusoku-hou-art-74-p2 -->
 第七十二条第二項及び第三項（国税の徴収権の消滅時効の絶対的効力等）の規定は、前項の場合について準用する。

@@ -54,11 +54,8 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-29-p1 -->
 審判長は、準備書面の提出又は証拠の申出をすることができる期間を定めることができる。
 
 ### 第二十九条第二項
 
-<!-- segment: honbun id: kinsho-kachoukin-furei-art-29-p2-honbun -->
-前項の期間を経過したときは、指定職員又は被審人若しくはその代理人は、新たな主張の提出をし、又は新たな証拠の申出をすることができない。<!-- segment: tadashi id: kinsho-kachoukin-furei-art-29-p2-tadashi -->
-ただし、審判長が相当と認める場合は、この限りでない。
+前項の期間を経過したときは、指定職員又は被審人若しくはその代理人は、新たな主張の提出をし、又は新たな証拠の申出をすることができない。ただし、審判長が相当と認める場合は、この限りでない。

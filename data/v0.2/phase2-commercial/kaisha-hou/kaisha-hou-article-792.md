@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 第四百四十五条第四項、第四百五十八条及び第二編第五章第六節の規定は、次に掲げる行為については、適用しない。
     modality: jogai
+  - id: kaisha-hou-art-792-p1-kou-1
+    type: kou
+    text: 一　第七百五十八条第八号イ又は第七百六十条第七号イの株式の取得
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-792-p1-kou-2
+    type: kou
+    text: 二　第七百五十八条第八号ロ又は第七百六十条第七号ロの剰余金の配当
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -45,5 +55,8 @@ parent_section:
 
 ### 第七百九十二条
 
-<!-- segment: hashira id: kaisha-hou-art-792-p1-hashira -->
 第四百四十五条第四項、第四百五十八条及び第二編第五章第六節の規定は、次に掲げる行為については、適用しない。
+
+一　第七百五十八条第八号イ又は第七百六十条第七号イの株式の取得
+
+二　第七百五十八条第八号ロ又は第七百六十条第七号ロの剰余金の配当

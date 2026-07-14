@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-46-p1
+    type: simple
+    text: 軽油引取税の特別徴収義務者又は納税者は、第百四十四条の十四第二項、第百四十四条の十八又は第百四十四条の二十二第四項（第百四十四条の二十五第五項において準用する場合を含む。）の納期限後にその納入金を納入し、又はその税金を納付する場合においては、当該納入金額又は税額に、これらの規定の納期限の翌日から納入又は納付の日までの期間の日数に応じ、年十四・六パーセント（当該納期限（第百四十四条の二十九第一項の規定により徴収を猶予した税額にあつては、当該猶予した期間の末日）の翌日から一月を経過する日までの期間については、年七・三パーセント）の割合を乗じて計算した金額に相当する延滞金額を加算して納入し、又は納付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-46-p2
+    type: simple
+    text: 道府県知事は、軽油引取税の特別徴収義務者又は納税者が第百四十四条の十四第二項又は第百四十四条の十八の納期限までに納入金を納入しなかつたこと又は税金を納付しなかつたことについてやむを得ない理由があると認める場合においては、前項の延滞金額を減免することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-96-3-p1
+    type: simple
+    text: 偽計又は威力を用いて、立入り、占有者の確認その他の強制執行の行為を妨害した者は、三年以下の拘禁刑若しくは二百五十万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-96-3-p2
+    type: simple
+    text: 強制執行の申立てをさせず又はその申立てを取り下げさせる目的で、申立権者又はその代理人に対して暴行又は脅迫を加えた者も、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-232-3-p1
+    type: simple
+    text: 法第六十条の十四第二項において準用する法第六十条の二第一項第十一号に規定する内閣府令で定める事項は、電子店頭デリバティブ取引等業務と同種類の業務を開始した日とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

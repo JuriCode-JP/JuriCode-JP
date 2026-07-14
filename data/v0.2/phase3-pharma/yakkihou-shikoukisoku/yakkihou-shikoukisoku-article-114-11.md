@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-11-p1
+    type: simple
+    text: 令第三十七条の九第二項の申請書は、様式第三によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

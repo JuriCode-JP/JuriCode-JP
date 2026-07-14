@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-12-p1
+    type: simple
+    text: 高速取引行為者が外国法人又は外国に住所を有する個人である場合について、法の規定の適用に当たつての法第六十六条の六十八の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

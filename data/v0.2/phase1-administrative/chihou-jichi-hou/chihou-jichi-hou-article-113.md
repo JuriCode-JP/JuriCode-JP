@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百十三条
 
-<!-- segment: simple id: chihou-jichi-hou-art-113-p1 -->
 普通地方公共団体の議会は、議員の定数の半数以上の議員が出席しなければ、会議を開くことができない。但し、第百十七条の規定による除斥のため半数に達しないとき、同一の事件につき再度招集してもなお半数に達しないとき、又は招集に応じても出席議員が定数を欠き議長において出席を催告してもなお半数に達しないとき若しくは半数に達してもその後半数に達しなくなつたときは、この限りでない。

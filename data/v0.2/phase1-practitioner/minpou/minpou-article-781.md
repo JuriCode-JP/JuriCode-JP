@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七百八十一条第一項
 
-<!-- segment: simple id: minpou-art-781-p1 -->
 認知は、戸籍法の定めるところにより届け出ることによってする。
 
 ### 第七百八十一条第二項
 
-<!-- segment: simple id: minpou-art-781-p2 -->
 認知は、遺言によっても、することができる。

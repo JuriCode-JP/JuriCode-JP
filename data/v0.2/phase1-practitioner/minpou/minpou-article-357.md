@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百五十七条
 
-<!-- segment: simple id: minpou-art-357-p1 -->
 不動産質権者は、管理の費用を支払い、その他不動産に関する負担を負う。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-3-p1
+    type: simple
+    text: 指図証券の譲渡については、その指図証券の性質に応じ、手形法（昭和七年法律第二十号）中裏書の方式に関する規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

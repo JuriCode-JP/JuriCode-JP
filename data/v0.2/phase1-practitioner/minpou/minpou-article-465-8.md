@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-8-p1
+    type: junyou
+    text: 第四百六十五条の六第一項及び第二項並びに前条の規定は、事業のために負担した貸金等債務を主たる債務とする保証契約又は主たる債務の範囲に事業のために負担する貸金等債務が含まれる根保証契約の保証人の主たる債務者に対する求償権に係る債務を主たる債務とする保証契約について準用する。主たる債務の範囲にその求償権に係る債務が含まれる根保証契約も、同様とする。
+    modality: gimu
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-8-p2
+    type: simple
+    text: 前項の規定は、保証人になろうとする者が法人である場合には、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

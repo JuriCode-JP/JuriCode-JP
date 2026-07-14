@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-3-p1
+    type: simple
+    text: 法第八十七条の六第二項に規定する書類は前条第三項第二号ロに規定する書類とし、法第八十七条の六第二項に規定する電磁的記録は前条第五項の規定により国税庁長官に提供した酒類購入記録情報（同条第十一項後段の規定により提供を受けた酒類購入記録情報又は交付を受けた同項に規定する書類を含む。）とする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

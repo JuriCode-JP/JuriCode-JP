@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-255-4-p1
+    type: simple
+    text: 法律の定めるところにより異議の申出、審査請求、再審査請求又は審査の申立てをすることができる場合を除くほか、普通地方公共団体の事務についてこの法律の規定により普通地方公共団体の機関がした処分により違法に権利を侵害されたとする者は、その処分があつた日から二十一日以内に、都道府県の機関がした処分については総務大臣、市町村の機関がした処分については都道府県知事に審決の申請をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

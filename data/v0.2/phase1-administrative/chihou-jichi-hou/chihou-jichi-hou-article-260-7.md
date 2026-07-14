@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-7-p1
+    type: simple
+    text: 認可地縁団体の代表者の代表権に加えた制限は、善意の第三者に対抗することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

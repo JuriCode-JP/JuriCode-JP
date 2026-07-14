@@ -14,19 +14,107 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-3-p1-hashira
+    type: hashira
+    text: 前条の免許を受けようとする者は、国内における代表者を定め、次に掲げる事項を記載した免許申請書を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-156-20-3-p1-kou-1
+    type: kou
+    text: 一　商号又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-20-3-p1-kou-2
+    type: kou
+    text: 二　資本金の額又は出資の総額
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-156-20-3-p1-kou-3
+    type: kou
+    text: 三　本店又は主たる事務所の所在の場所
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-156-20-3-p1-kou-4
+    type: kou
+    text: 四　国内に事務所があるときは、その所在の場所
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-156-20-3-p1-kou-5
+    type: kou
+    text: 五　役員の役職名及び氏名
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-art-156-20-3-p1-kou-6
+    type: kou
+    text: 六　国内における代表者の氏名及び国内の住所
+    modality: unspecified
+    item_number: 6
+  - id: kinsho-hou-art-156-20-3-p1-kou-7
+    type: kou
+    text: 七　金融商品債務引受業等及びこれに附帯する業務以外の業務を行うときは、その業務の内容
+    modality: unspecified
+    item_number: 7
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-3-p2-hashira
+    type: hashira
+    text: 前項の免許申請書には、次に掲げる書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-156-20-3-p2-kou-1
+    type: kou
+    text: 一　次条第二項第一号から第四号までに掲げる要件に該当しない旨を誓約する書面
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-20-3-p2-kou-2
+    type: kou
+    text: 二　定款（これに準ずるものを含む。以下この章において同じ。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-156-20-3-p2-kou-3
+    type: kou
+    text: 三　業務方法書
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-156-20-3-p2-kou-4
+    type: kou
+    text: 四　貸借対照表及び損益計算書
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-156-20-3-p2-kou-5
+    type: kou
+    text: 五　収支の見込みを記載した書類
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-art-156-20-3-p2-kou-6
+    type: kou
+    text: 六　未決済債務等（第百五十六条の二十の九第一項に規定する未決済債務等をいう。次条第一項第五号において同じ。）の決済を行うために必要な担保の徴求の方法その他の当該決済の仕組み及び当該決済の業務を行うための設備、人員その他の体制の概要を記載した書類
+    modality: unspecified
+    item_number: 6
+  - id: kinsho-hou-art-156-20-3-p2-kou-7
+    type: kou
+    text: 七　前各号に掲げるもののほか、内閣府令で定める書類
+    modality: unspecified
+    item_number: 7
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-3-p3
+    type: simple
+    text: 前項の場合において、定款若しくは貸借対照表が電磁的記録で作成されているとき、又は損益計算書について書面に代えて電磁的記録の作成がされているときは、書類に代えて電磁的記録（内閣府令で定めるものに限る。）を添付することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -47,9 +135,37 @@ parent_section:
 
 前条の免許を受けようとする者は、国内における代表者を定め、次に掲げる事項を記載した免許申請書を内閣総理大臣に提出しなければならない。
 
+一　商号又は名称
+
+二　資本金の額又は出資の総額
+
+三　本店又は主たる事務所の所在の場所
+
+四　国内に事務所があるときは、その所在の場所
+
+五　役員の役職名及び氏名
+
+六　国内における代表者の氏名及び国内の住所
+
+七　金融商品債務引受業等及びこれに附帯する業務以外の業務を行うときは、その業務の内容
+
 ### 第百五十六条の二十の三第二項
 
 前項の免許申請書には、次に掲げる書類を添付しなければならない。
+
+一　次条第二項第一号から第四号までに掲げる要件に該当しない旨を誓約する書面
+
+二　定款（これに準ずるものを含む。以下この章において同じ。）
+
+三　業務方法書
+
+四　貸借対照表及び損益計算書
+
+五　収支の見込みを記載した書類
+
+六　未決済債務等（第百五十六条の二十の九第一項に規定する未決済債務等をいう。次条第一項第五号において同じ。）の決済を行うために必要な担保の徴求の方法その他の当該決済の仕組み及び当該決済の業務を行うための設備、人員その他の体制の概要を記載した書類
+
+七　前各号に掲げるもののほか、内閣府令で定める書類
 
 ### 第百五十六条の二十の三第三項
 

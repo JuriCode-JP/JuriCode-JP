@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-18-p1
+    type: simple
+    text: 即決裁判手続の申立てがあつた場合において、被告人に弁護人がないときは、裁判長は、できる限り速やかに、職権で弁護人を付さなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

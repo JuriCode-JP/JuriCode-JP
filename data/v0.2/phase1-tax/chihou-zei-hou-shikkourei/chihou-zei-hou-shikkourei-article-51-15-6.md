@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-15-6-p1-hashira
+    type: hashira
+    text: 法第三百四十八条第二項第四十号に規定する政令で定める家屋は、次に掲げる要件に該当する寄宿舎とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-15-6-p1-kou-1
+    type: kou
+    text: 一　専ら学校教育法第一条に規定する学校の学生又は生徒（同条に規定する学校において修学する外国人留学生を含む。次号において「学生等」という。）を入居させることを目的として設置されたものであること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-15-6-p1-kou-2
+    type: kou
+    text: 二　学生等の居室の用に供する部分の床面積の合計を当該寄宿舎の定員の数値で除して得た床面積が二十平方メートルを超えないものであること。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-51-15-6-p1-kou-3
+    type: kou
+    text: 三　寮費その他これに類する入居の対価が総務省令で定める基準に適合するものであること。
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-51-15-6-p1-kou-4
+    type: kou
+    text: 四　当該寄宿舎の全部又は一部が旅館業法第二条第一項に規定する旅館業の用に供されているものでないこと。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -36,3 +60,11 @@ parent_section:
 ### 第五十一条の十五の六
 
 法第三百四十八条第二項第四十号に規定する政令で定める家屋は、次に掲げる要件に該当する寄宿舎とする。
+
+一　専ら学校教育法第一条に規定する学校の学生又は生徒（同条に規定する学校において修学する外国人留学生を含む。次号において「学生等」という。）を入居させることを目的として設置されたものであること。
+
+二　学生等の居室の用に供する部分の床面積の合計を当該寄宿舎の定員の数値で除して得た床面積が二十平方メートルを超えないものであること。
+
+三　寮費その他これに類する入居の対価が総務省令で定める基準に適合するものであること。
+
+四　当該寄宿舎の全部又は一部が旅館業法第二条第一項に規定する旅館業の用に供されているものでないこと。

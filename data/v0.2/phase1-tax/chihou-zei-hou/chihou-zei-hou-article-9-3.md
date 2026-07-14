@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-9-3-p1
+    type: simple
+    text: 法人が合併した場合には、合併後存続する法人又は合併により設立した法人は、合併により消滅した法人（以下本章において「被合併法人」という。）に課されるべき、又は被合併法人が納付し、若しくは納入すべき地方団体の徴収金を納付し、又は納入しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-9-3-p2
+    type: simple
+    text: 前項の規定によつて承継する義務は、当該義務に係る申告又は報告の義務を含むものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

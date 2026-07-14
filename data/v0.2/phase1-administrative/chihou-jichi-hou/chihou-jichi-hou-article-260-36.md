@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-36-p1-zen
+    type: zen_dan
+    text: 裁判所は、第二百六十条の二十五の規定により清算人を選任した場合には、認可地縁団体が当該清算人に対して支払う報酬の額を定めることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-260-36-p1-kou
+    type: kou_dan
+    text: この場合においては、裁判所は、当該清算人（監事を置く認可地縁団体にあつては、当該清算人及び監事）の陳述を聴かなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-260-36-p1-zen
 cases: []
 amendments: []
 tags:

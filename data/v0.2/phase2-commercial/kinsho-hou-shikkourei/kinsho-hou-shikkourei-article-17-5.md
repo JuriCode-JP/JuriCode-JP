@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-5-p1
+    type: simple
+    text: 法第五十九条の二第二項及び第六十条の二第二項（法第六十条の十四第二項において準用する場合を含む。）に規定する資本金の額又は出資の総額は、発行済株式の発行価額（その発行価額のうち資本金として計上しないこととした額を除く。）の総額及び株式を発行しないで準備金の額を減少し資本金として計上した額（これらの額に準ずる額を含む。）を合計して計算するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-6-p1
+    type: simple
+    text: 配置販売業者は、薬剤師、登録販売者又は一般従事者（その区域において実務に従事する薬剤師又は登録販売者以外の者をいう。第百四十九条の十二第一項において同じ。）であることが容易に判別できるようその区域に勤務する従事者に名札を付けさせることその他必要な措置を講じなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-6-p2
+    type: simple
+    text: 配置販売業者は、研修中の登録販売者が付ける前項の名札については、その旨が容易に判別できるよう必要な表記をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-6-p3
+    type: simple
+    text: 配置販売業者は、研修中の登録販売者については、薬剤師又は登録販売者（研修中の登録販売者を除く。）の管理及び指導の下に実務に従事させなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

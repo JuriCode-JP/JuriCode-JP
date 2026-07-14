@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-16-p1
+    type: simple
+    text: 金融商品取引清算機関は、内閣総理大臣の認可を受けて、連携清算機関等（他の金融商品取引清算機関、外国金融商品取引清算機関又は外国の法令に準拠して設立された法人で外国において金融商品債務引受業と同種類の業務を行う者をいう。以下同じ。）と連携金融商品債務引受業務（第百五十六条の六十二第一号に掲げる取引以外の対象取引に係る清算参加者の債務を第三者に負担させ、当該対象取引に係る清算参加者の相手方の債務は自らが負担する行為として内閣府令で定める行為を業として行うことをいう。以下同じ。）に関する契約を締結して連携金融商品債務引受業務を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-16-p2
+    type: simple
+    text: 前項の認可は、金融商品取引清算機関が連携金融商品債務引受業務に関する契約を締結する連携清算機関等ごとに受けなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-16-p3
+    type: simple
+    text: 前二節の規定にかかわらず、第一項の認可を受けた金融商品取引清算機関（以下この節において「認可金融商品取引清算機関」という。）と連携金融商品債務引受業務に関する契約を締結した連携清算機関等（金融商品取引清算機関又は外国金融商品取引清算機関以外の者に限る。）は、当該連携金融商品債務引受業務に係る金融商品債務引受業を行うことができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-16-p4
+    type: junyou
+    text: 第三十条の二の規定は、第一項の認可について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

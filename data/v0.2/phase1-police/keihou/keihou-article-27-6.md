@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-27-6-p1
+    type: simple
+    text: 前二条の規定により刑の一部の執行猶予の言渡しを取り消したときは、執行猶予中の他の拘禁刑についても、その猶予の言渡しを取り消さなければならない。
+    modality: gimu
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

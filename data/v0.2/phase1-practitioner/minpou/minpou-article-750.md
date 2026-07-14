@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百五十条
 
-<!-- segment: simple id: minpou-art-750-p1 -->
 夫婦は、婚姻の際に定めるところに従い、夫又は妻の氏を称する。

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次に掲げる株式会社は、取締役会を置かなければならない。
     modality: gimu
+  - id: kaisha-hou-art-327-p1-kou-1
+    type: kou
+    text: 一　公開会社
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-327-p1-kou-2
+    type: kou
+    text: 二　監査役会設置会社
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-327-p1-kou-3
+    type: kou
+    text: 三　監査等委員会設置会社
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-327-p1-kou-4
+    type: kou
+    text: 四　指名委員会等設置会社
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: true
   has_items: false
@@ -90,20 +110,22 @@ parent_section:
 
 ### 第三百二十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-327-p1-hashira -->
 次に掲げる株式会社は、取締役会を置かなければならない。
+
+一　公開会社
+
+二　監査役会設置会社
+
+三　監査等委員会設置会社
+
+四　指名委員会等設置会社
 
 ### 第三百二十七条第二項
 
-<!-- segment: honbun id: kaisha-hou-art-327-p2-honbun -->
-取締役会設置会社（<!-- segment: simple id: kaisha-hou-art-327-p4 -->
-<!-- segment: simple id: kaisha-hou-art-327-p5 -->
-監査等委員会設置会社及び指名委員会等設置会社を除く。）は、監査役を置かなければならない。<!-- segment: tadashi id: kaisha-hou-art-327-p2-tadashi -->
-ただし、公開会社でない会計参与設置会社については、この限りでない。
+取締役会設置会社（監査等委員会設置会社及び指名委員会等設置会社を除く。）は、監査役を置かなければならない。ただし、公開会社でない会計参与設置会社については、この限りでない。
 
 ### 第三百二十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-327-p3 -->
 会計監査人設置会社（監査等委員会設置会社及び指名委員会等設置会社を除く。）は、監査役を置かなければならない。
 
 ### 第三百二十七条第四項
@@ -116,5 +138,4 @@ parent_section:
 
 ### 第三百二十七条第六項
 
-<!-- segment: simple id: kaisha-hou-art-327-p6 -->
 指名委員会等設置会社は、監査等委員会を置いてはならない。

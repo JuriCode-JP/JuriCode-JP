@@ -45,5 +45,4 @@ parent_section:
 
 ### 第二百四十五条
 
-<!-- segment: junyou id: minpou-art-245-p1 applies_provisions: 前二条 -->
 前二条の規定は、所有者を異にする物が混和して識別することができなくなった場合について準用する。

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第三十二条の三第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-32-3-p1 -->
 答弁書は、正本並びに当該答弁書を送付すべき審査請求人及び参加人の数に相当する通数の副本を提出しなければならない。
 
 ### 第三十二条の三第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-32-3-p2 -->
 法第九十三条第三項（答弁書の提出等）の規定による答弁書の送付は、答弁書の副本によつてする。

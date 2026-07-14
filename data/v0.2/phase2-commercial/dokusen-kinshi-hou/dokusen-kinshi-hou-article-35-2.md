@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-35-2-p1
+    type: simple
+    text: 公正取引委員会の事務総局の地方機関として、所要の地に地方事務所を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-35-2-p2
+    type: simple
+    text: 前項の地方事務所の名称、位置及び管轄区域は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-35-2-p3
+    type: simple
+    text: 第一項の地方事務所には、所要の地にその支所を置き、地方事務所の事務を分掌させることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-35-2-p4
+    type: simple
+    text: 前項の支所の名称、位置及び管轄区域は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

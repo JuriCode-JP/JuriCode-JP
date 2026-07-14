@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-10-p1
+    type: simple
+    text: 厚生労働大臣が第十四条の二の三第一項の規定により機構に審査を行わせることとしたときは、医薬品（専ら動物のために使用されることが目的とされているものを除く。）、医薬部外品（専ら動物のために使用されることが目的とされているものを除く。）又は化粧品のうち政令で定めるものについての前条の規定による届出をしようとする者は、同条の規定にかかわらず、厚生労働省令で定めるところにより、機構に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-10-p2
+    type: simple
+    text: 機構は、前項の規定による届出を受理したときは、厚生労働省令で定めるところにより、厚生労働大臣にその旨を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

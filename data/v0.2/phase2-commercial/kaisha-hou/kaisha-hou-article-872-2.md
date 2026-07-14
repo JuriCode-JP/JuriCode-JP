@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-872-2-p1-zen
+    type: zen_dan
+    text: 裁判所は、第八百七十条第二項各号に掲げる裁判に対する即時抗告があったときは、申立人及び当該各号に定める者（抗告人を除く。）に対し、抗告状の写しを送付しなければならない。
+    modality: gimu
+  - id: kaisha-hou-art-872-2-p1-kou
+    type: kou_dan
+    text: この場合においては、第八百七十条の二第二項及び第三項の規定を準用する。
+    modality: unspecified
+    depends_on: kaisha-hou-art-872-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-872-2-p2
+    type: junyou
+    text: 第八百七十条の二第五項から第八項までの規定は、前項の即時抗告があった場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

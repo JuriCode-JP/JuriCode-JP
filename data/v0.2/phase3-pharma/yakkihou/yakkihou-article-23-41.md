@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-41-p1
+    type: simple
+    text: 第二十三条の二十第一項の許可若しくは同条第四項の許可の更新の申請又は第二十三条の三十六第一項の規定による届出は、申請者又は届出者の住所地の都道府県知事を経由して行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-41-p2
+    type: simple
+    text: 第二十三条の二十二第一項若しくは第八項の許可、同条第四項（同条第九項において準用する場合を含む。）の許可の更新若しくは第二十三条の三十四第五項の承認の申請又は第二十三条の三十六第二項の規定による届出は、製造所の所在地の都道府県知事を経由して行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

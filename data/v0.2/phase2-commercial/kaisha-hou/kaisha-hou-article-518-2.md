@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-518-2-p1
+    type: simple
+    text: 協定債権者は、共助対象外国租税の請求権をもって特別清算の手続に参加するには、租税条約等実施特例法第十一条第一項に規定する共助実施決定を得なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

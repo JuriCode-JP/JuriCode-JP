@@ -14,9 +14,25 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-11-2-p1-hashira
+    type: hashira
+    text: 薬局開設者又は店舗販売業者は、法第三十六条の五第三項の規定により、特定要指導医薬品につき、前条各号に掲げるもののほか、次に定めるところにより、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師に対面により販売させ、又は授与させなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-158-11-2-p1-kou-1
+    type: kou
+    text: 一　当該特定要指導医薬品が、その適正な使用のために薬剤師の対面による販売又は授与が行われることが特に必要とされた理由を踏まえた対応を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-158-11-2-p1-kou-2
+    type: kou
+    text: 二　前号のほか、当該特定要指導医薬品の販売又は授与の際に留意すべき事項に基づき、販売又は授与を行うこと。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +50,7 @@ parent_section:
 ### 第百五十八条の十一の二
 
 薬局開設者又は店舗販売業者は、法第三十六条の五第三項の規定により、特定要指導医薬品につき、前条各号に掲げるもののほか、次に定めるところにより、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師に対面により販売させ、又は授与させなければならない。
+
+一　当該特定要指導医薬品が、その適正な使用のために薬剤師の対面による販売又は授与が行われることが特に必要とされた理由を踏まえた対応を行うこと。
+
+二　前号のほか、当該特定要指導医薬品の販売又は授与の際に留意すべき事項に基づき、販売又は授与を行うこと。

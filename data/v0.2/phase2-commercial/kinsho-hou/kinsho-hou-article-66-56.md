@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-56-p1
+    type: simple
+    text: 高速取引行為者は、自己の名義をもつて、他人に高速取引行為を行わせてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

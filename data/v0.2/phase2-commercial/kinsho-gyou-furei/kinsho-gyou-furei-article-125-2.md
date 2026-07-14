@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-125-2-p1
+    type: simple
+    text: 法第四十条の三の三に規定する内閣府令で定めるものは、当該貸付事業等権利に係る出資対象事業を行う者に対し、同条に規定する契約その他の法律行為により、当該貸付事業等権利を有する者に対して当該出資対象事業の状況について定期的に適切な情報を提供することが義務付けられているものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

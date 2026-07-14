@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-17-3-p1-hashira
+    type: hashira
+    text: 令第百三十三条の二第二項及び第七項第二号ロ（一括償却資産の損金算入）に規定する財務省令で定める要件は、次に掲げる要件とする。
+    modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-27-17-3-p1-kou-1
+    type: kou
+    text: 一　令第百三十三条の二第二項及び第七項第二号ロに規定する移転する事業の用に供するために取得した減価償却資産又はこれらの規定に規定する移転する資産に係るものであること。
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-27-17-3-p1-kou-2
+    type: kou
+    text: 二　前号の要件を満たすことを明らかにする書類を保存していること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,3 +54,7 @@ parent_section:
 ### 第二十七条の十七の三
 
 令第百三十三条の二第二項及び第七項第二号ロ（一括償却資産の損金算入）に規定する財務省令で定める要件は、次に掲げる要件とする。
+
+一　令第百三十三条の二第二項及び第七項第二号ロに規定する移転する事業の用に供するために取得した減価償却資産又はこれらの規定に規定する移転する資産に係るものであること。
+
+二　前号の要件を満たすことを明らかにする書類を保存していること。

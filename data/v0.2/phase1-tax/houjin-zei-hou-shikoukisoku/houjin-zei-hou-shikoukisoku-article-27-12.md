@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第六十一条の九第一項第二号（外貨建有価証券の期末換算の方法）に規定する財務省令で定めるものは、次に掲げる有価証券とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-27-12-p1-kou-1
+    type: kou
+    text: 一　その償還が外国通貨で行われる債券
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-27-12-p1-kou-2
+    type: kou
+    text: 二　残余財産の分配が外国通貨で行われる株式
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-27-12-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げる有価証券に準ずる有価証券
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第二十七条の十二
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-27-12-p1-hashira -->
 法第六十一条の九第一項第二号（外貨建有価証券の期末換算の方法）に規定する財務省令で定めるものは、次に掲げる有価証券とする。
+
+一　その償還が外国通貨で行われる債券
+
+二　残余財産の分配が外国通貨で行われる株式
+
+三　前二号に掲げる有価証券に準ずる有価証券

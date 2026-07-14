@@ -57,15 +57,12 @@ parent_section:
 
 ### 第三十四条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-34-p1 -->
 警察庁に、警察官、皇宮護衛官、事務官、技官その他所要の職員を置く。
 
 ### 第三十四条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-34-p2 -->
 皇宮護衛官は、皇宮警察本部に置く。
 
 ### 第三十四条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-34-p3 -->
 長官は警察官とし、警察庁の次長、官房長、局長及び部長、管区警察局長その他政令で定める職は警察官をもつて、皇宮警察本部長は皇宮護衛官をもつて充てる。

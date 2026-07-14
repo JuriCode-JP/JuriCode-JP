@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-13-p1
+    type: simple
+    text: 法第二十七条の二十二の三第五項において準用する法第二十七条の五の規定に違反して上場株券等の買付け等をした場合について、法第二十七条の二十二の三第八項において法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

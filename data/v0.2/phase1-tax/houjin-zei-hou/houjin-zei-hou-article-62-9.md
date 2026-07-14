@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-9-p1
+    type: simple
+    text: 内国法人が自己を株式交換等完全子法人又は株式移転完全子法人とする株式交換等又は株式移転（適格株式交換等及び適格株式移転並びに株式交換又は株式移転の直前に当該内国法人と当該株式交換に係る株式交換完全親法人又は当該株式移転に係る他の株式移転完全子法人との間に完全支配関係があつた場合における当該株式交換及び株式移転を除く。以下この項において「非適格株式交換等」という。）を行つた場合には、当該内国法人が当該非適格株式交換等の直前の時において有する時価評価資産（固定資産、土地（土地の上に存する権利を含み、固定資産に該当するものを除く。）、有価証券、金銭債権及び繰延資産で政令で定めるもの以外のものをいう。）の評価益の額（当該非適格株式交換等の直前の時の価額がその時の帳簿価額を超える場合のその超える部分の金額をいう。）又は評価損の額（当該非適格株式交換等の直前の時の帳簿価額がその時の価額を超える場合のその超える部分の金額をいう。）は、当該非適格株式交換等の日の属する事業年度の所得の金額の計算上、益金の額又は損金の額に算入する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-9-p2
+    type: simple
+    text: 前項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments:
 - effective_date: '2022-04-01'

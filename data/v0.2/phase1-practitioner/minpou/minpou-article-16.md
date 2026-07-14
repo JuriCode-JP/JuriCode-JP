@@ -41,5 +41,4 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: simple id: minpou-art-16-p1 -->
 補助開始の審判を受けた者は、被補助人とし、これに補助人を付する。

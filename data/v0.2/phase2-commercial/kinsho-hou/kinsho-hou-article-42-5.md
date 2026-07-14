@@ -13,10 +13,22 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-42-5-p1-honbun
+    type: honbun
+    text: 金融商品取引業者等は、有価証券等管理業務として行う場合その他政令で定める場合を除くほか、その行う投資運用業（第二条第八項第十二号に掲げる行為を行う業務に限る。以下この条及び次条において同じ。）に関して、いかなる名目によるかを問わず、顧客から金銭若しくは有価証券の預託を受け、又は当該金融商品取引業者等と密接な関係を有する者として政令で定める者に顧客の金銭若しくは有価証券を預託させてはならない。
+    modality: unspecified
+    references:
+    - 次条
+  - id: kinsho-hou-art-42-5-p1-tadashi
+    type: tadashi
+    text: ただし、当該金融商品取引業者等がその行う投資運用業に関し、顧客のために同項第一号から第四号までに掲げる行為又は商品関連市場デリバティブ取引を行う場合において、これらの行為による取引の決済のために必要なときは、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

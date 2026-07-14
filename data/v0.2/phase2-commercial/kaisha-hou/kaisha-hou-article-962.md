@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九百六十二条
 
-<!-- segment: simple id: kaisha-hou-art-962-p1 -->
 前二条の罪の未遂は、罰する。

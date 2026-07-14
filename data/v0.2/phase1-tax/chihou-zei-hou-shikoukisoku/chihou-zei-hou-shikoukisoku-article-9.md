@@ -34,5 +34,4 @@ tags:
 
 ### 第九条
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-9-p1 -->
 法第百五十九条に規定する総務省令で定める方法は、道府県知事又は地方税共同機構から得た納付情報により納付する方法とする。

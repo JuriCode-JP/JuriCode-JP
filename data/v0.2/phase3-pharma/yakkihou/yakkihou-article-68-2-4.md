@@ -16,17 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-2-4-p1
+    type: simple
+    text: 厚生労働大臣は、機構に、医薬品（専ら動物のために使用されることが目的とされているものを除く。次項において同じ。）若しくは医療機器（専ら動物のために使用されることが目的とされているものを除く。同項において同じ。）であつて前条第一項の厚生労働大臣が指定するもの又は再生医療等製品（専ら動物のために使用されることが目的とされているものを除く。次項において同じ。）についての前条第一項の規定による届出の受理に係る事務を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-2-4-p2
+    type: tokusoku
+    text: 厚生労働大臣が前項の規定により機構に届出の受理に係る事務を行わせることとしたときは、医薬品若しくは医療機器であつて前条第一項の厚生労働大臣が指定するもの又は再生医療等製品についての同項の規定による届出は、同項の規定にかかわらず、厚生労働省令で定めるところにより、機構に行わなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前条
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-2-4-p3
+    type: simple
+    text: 機構は、前項の規定による届出を受理したときは、厚生労働省令で定めるところにより、厚生労働大臣にその旨を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

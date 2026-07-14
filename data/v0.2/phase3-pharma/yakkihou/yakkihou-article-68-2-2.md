@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-2-2-p1
+    type: simple
+    text: 医薬品、医療機器又は再生医療等製品の製造販売業者は、厚生労働省令で定めるところにより、当該医薬品、医療機器若しくは再生医療等製品を購入し、借り受け、若しくは譲り受け、又は医療機器プログラムを電気通信回線を通じて提供を受けようとする者に対し、前条第二項に規定する注意事項等情報の提供を行うために必要な体制を整備しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

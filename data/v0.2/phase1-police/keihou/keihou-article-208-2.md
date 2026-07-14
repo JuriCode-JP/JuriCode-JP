@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-208-2-p1
+    type: simple
+    text: 二人以上の者が他人の生命、身体又は財産に対し共同して害を加える目的で集合した場合において、凶器を準備して又はその準備があることを知って集合した者は、二年以下の拘禁刑又は三十万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-208-2-p2
+    type: simple
+    text: 前項の場合において、凶器を準備して又はその準備があることを知って人を集合させた者は、三年以下の拘禁刑に処する。
+    modality: gimu_kei
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

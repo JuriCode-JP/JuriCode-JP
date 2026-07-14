@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-9-p1
+    type: simple
+    text: 法第八十七条の六第四項ただし書の承認を受けようとする者は、消費税法施行規則第九条に規定する申請書で、当該酒類の税率の適用区分及び当該区分ごとの数量を付記したものに申請者の旅券等の写しを添付して、これを同項ただし書に規定する税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

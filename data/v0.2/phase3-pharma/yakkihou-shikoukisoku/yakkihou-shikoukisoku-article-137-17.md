@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-17-p1
+    type: simple
+    text: 法第二十三条の二十三第四項の規定による調査の結果の通知は、地方厚生局長に対し、様式第十七による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

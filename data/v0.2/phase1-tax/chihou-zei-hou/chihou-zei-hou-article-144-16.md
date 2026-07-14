@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-16-p1
+    type: simple
+    text: 道府県知事は、前条第一項の登録の申請を受理した場合には、その申請をした者のうち当該道府県内に事務所又は事業所を有するものに対し、当該道府県の条例で定めるところにより、その者の当該道府県内に所在する事務所又は事業所ごとに、その者が軽油引取税を徴収すべき義務を課せられた者であることを証する総務省令で定める証票を交付しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-16-p2
+    type: simple
+    text: 前項の証票の交付を受けた者は、これを事務所又は事業所の公衆の見やすい箇所に掲示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-16-p3
+    type: simple
+    text: 第一項の証票は、他人に貸し付け、又は譲り渡してはならない。
+    modality: gimu_negative
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-16-p4
+    type: simple
+    text: 第一項の証票の交付を受けた者は、軽油引取税の特別徴収の義務が消滅した場合又は事務所若しくは事業所を廃止した場合には、その消滅し、又は廃止した日から十日以内にその証票を道府県知事に返さなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-483-2-p1
+    type: simple
+    text: 拘禁刑以上の刑に処する判決が確定した後における第三百四十二条の二から第三百四十二条の七まで（これらの規定を第四百四条において準用する場合を含む。以下この条において同じ。）の規定の適用については、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句とし、第三百四十二条の五第一項ただし書の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

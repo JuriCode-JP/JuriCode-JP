@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百三十一条
 
-<!-- segment: simple id: minpou-art-731-p1 -->
 婚姻は、十八歳にならなければ、することができない。

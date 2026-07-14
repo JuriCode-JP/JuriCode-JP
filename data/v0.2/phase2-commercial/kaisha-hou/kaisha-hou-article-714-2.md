@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-714-2-p1-honbun
+    type: honbun
+    text: 会社は、第七百二条ただし書に規定する場合には、社債管理補助者を定め、社債権者のために、社債の管理の補助を行うことを委託することができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-714-2-p1-tadashi
+    type: tadashi
+    text: ただし、当該社債が担保付社債である場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

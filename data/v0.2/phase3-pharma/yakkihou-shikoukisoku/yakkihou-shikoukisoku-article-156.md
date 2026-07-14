@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五十六条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-156-p1 -->
 法第三十六条の二第一項の厚生労働省令で定める卸売販売業者が遵守すべき事項は、次条から第百五十八条の六までに定めるものとする。

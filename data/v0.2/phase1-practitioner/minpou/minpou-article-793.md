@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百九十三条
 
-<!-- segment: simple id: minpou-art-793-p1 -->
 尊属又は年長者は、これを養子とすることができない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十三条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-133-p1 -->
 委員会の委員長及び委員は、独立してその職権を行う。

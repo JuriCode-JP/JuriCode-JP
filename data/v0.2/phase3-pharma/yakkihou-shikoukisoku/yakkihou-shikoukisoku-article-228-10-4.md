@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-4-p1
+    type: simple
+    text: 特定保守管理医療機器（法第六十三条の二第二項に規定する厚生労働省令で定める医療機器を除く。）に関する法第六十八条の二第二項第二号ホの厚生労働省令で定める事項は、保守点検に関する事項とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

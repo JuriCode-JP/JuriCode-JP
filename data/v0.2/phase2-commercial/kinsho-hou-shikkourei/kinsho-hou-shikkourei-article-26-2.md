@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-2-p1
+    type: simple
+    text: 法第百六十二条第一項第一号に規定する政令で定める場合は、その有している有価証券（借り入れているものを除く。）の売付け後遅滞なく当該有価証券を提供できることが明らかでない場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

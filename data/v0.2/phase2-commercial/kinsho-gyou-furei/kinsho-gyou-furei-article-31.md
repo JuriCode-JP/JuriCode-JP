@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第三十一条の四第一項及び第二項の規定による届出（これらの規定に規定する退任した場合に係るものを除く。）は、次に掲げる事項を記載した届出書を所管金融庁長官等に提出して行わなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-31-p1-kou-1
+    type: kou
+    text: 一　氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-31-p1-kou-2
+    type: kou
+    text: 二　金融商品取引業者の商号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-31-p1-kou-3
+    type: kou
+    text: 三　金融商品取引業者における役職名
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-31-p1-kou-4
+    type: kou
+    text: 四　兼職先の商号
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-31-p1-kou-5
+    type: kou
+    text: 五　兼職先における役職名及び代表権の有無
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-31-p1-kou-6
+    type: kou
+    text: 六　就任年月日及び任期
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: true
@@ -33,6 +63,31 @@ paragraphs:
     references:
     - 前項
     - 同項
+  - id: kinsho-gyou-furei-art-31-p2-kou-1
+    type: kou
+    text: 一　氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-31-p2-kou-2
+    type: kou
+    text: 二　金融商品取引業者の商号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-31-p2-kou-3
+    type: kou
+    text: 三　金融商品取引業者における役職名
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-31-p2-kou-4
+    type: kou
+    text: 四　変更の内容
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-31-p2-kou-5
+    type: kou
+    text: 五　変更年月日
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: true
@@ -42,6 +97,36 @@ paragraphs:
     type: hashira
     text: 法第三十一条の四第一項及び第二項の規定による届出（これらの規定に規定する退任した場合に係るものに限る。）は、次に掲げる事項を記載した届出書を所管金融庁長官等に提出して行わなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-31-p3-kou-1
+    type: kou
+    text: 一　氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-31-p3-kou-2
+    type: kou
+    text: 二　金融商品取引業者の商号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-31-p3-kou-3
+    type: kou
+    text: 三　金融商品取引業者における役職名
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-31-p3-kou-4
+    type: kou
+    text: 四　兼職をしていた会社の商号
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-31-p3-kou-5
+    type: kou
+    text: 五　兼職をしていた会社における役職名及び代表権の有無
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-31-p3-kou-6
+    type: kou
+    text: 六　退任年月日
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -62,15 +147,46 @@ parent_section:
 
 ### 第三十一条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-31-p1-hashira -->
-<!-- segment: hashira id: kinsho-gyou-furei-art-31-p3-hashira -->
 法第三十一条の四第一項及び第二項の規定による届出（これらの規定に規定する退任した場合に係るものを除く。）は、次に掲げる事項を記載した届出書を所管金融庁長官等に提出して行わなければならない。
+
+一　氏名
+
+二　金融商品取引業者の商号
+
+三　金融商品取引業者における役職名
+
+四　兼職先の商号
+
+五　兼職先における役職名及び代表権の有無
+
+六　就任年月日及び任期
 
 ### 第三十一条第二項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-31-p2-hashira -->
 前項の場合において、同項第四号又は第五号に掲げる事項に変更があったときは、次に掲げる事項を記載した兼職変更届出書を所管金融庁長官等に提出しなければならない。
+
+一　氏名
+
+二　金融商品取引業者の商号
+
+三　金融商品取引業者における役職名
+
+四　変更の内容
+
+五　変更年月日
 
 ### 第三十一条第三項
 
 法第三十一条の四第一項及び第二項の規定による届出（これらの規定に規定する退任した場合に係るものに限る。）は、次に掲げる事項を記載した届出書を所管金融庁長官等に提出して行わなければならない。
+
+一　氏名
+
+二　金融商品取引業者の商号
+
+三　金融商品取引業者における役職名
+
+四　兼職をしていた会社の商号
+
+五　兼職をしていた会社における役職名及び代表権の有無
+
+六　退任年月日

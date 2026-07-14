@@ -21,7 +21,6 @@ Why 専用モジュールにしたか (briefing は extract_table_from_xml へ�
 from __future__ import annotations
 
 import argparse
-import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -45,19 +44,8 @@ if str(_SHARED_SRC) not in sys.path:
 
 from extract_table_from_xml import build_law_abbrev_to_id_phase  # noqa: E402
 from juricode_shared import safe_write_text  # noqa: E402
+from juricode_shared.headings import JA_SECTION_RE, PARAGRAPH_HEADING_RE  # noqa: E402
 from table_core import table_to_grid_safe  # noqa: E402
-
-# verify.py:34-46 / canonical_hash.py と文字列一致させた項見出し正規表現。
-JA_SECTION_RE = re.compile(
-    r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)",
-    re.DOTALL,
-)
-PARAGRAPH_HEADING_RE = re.compile(
-    r"^###\s+第[一二三四五六七八九十百千0-9]+条"
-    r"(?:の[一二三四五六七八九十百千0-9]+)*"
-    r"(?:第([一二三四五六七八九十百千0-9]+)項)?\s*$",
-    re.MULTILINE,
-)
 
 
 def resolve_article_and_paragraph(ts: Any, parent_map: dict[Any, Any]) -> tuple[str, int]:
@@ -231,7 +219,8 @@ def process_law(
             continue
         updated += 1
         if not dry_run:
-            safe_write_text(md_path, new_text)
+            # newline="\n" 必須 (既定は Windows で CRLF になり git 追跡 md を汚す)
+            safe_write_text(md_path, new_text, newline="\n")
     return updated, warnings
 
 

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-24-p1
+    type: simple
+    text: 警察庁及び都道府県警察は、分析センターに対し、国家公安委員会規則で定めるところにより、その事業の円滑な運営が図られるように必要な配慮を加えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

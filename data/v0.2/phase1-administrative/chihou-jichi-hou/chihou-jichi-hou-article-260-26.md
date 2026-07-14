@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-26-p1
+    type: simple
+    text: 重要な事由があるときは、裁判所は、利害関係人若しくは検察官の請求により又は職権で、認可地縁団体の清算人を解任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

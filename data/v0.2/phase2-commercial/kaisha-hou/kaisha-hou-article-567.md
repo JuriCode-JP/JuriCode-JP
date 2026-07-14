@@ -24,6 +24,16 @@ paragraphs:
     override_flag: true
     override_target:
     - 第五百五十四条
+  - id: kaisha-hou-art-567-p1-kou-1
+    type: kou
+    text: 一　出席した議決権者の過半数の同意
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-567-p1-kou-2
+    type: kou
+    text: 二　議決権者の議決権の総額の三分の二以上の議決権を有する者の同意
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,10 +67,12 @@ parent_section:
 
 ### 第五百六十七条第一項
 
-<!-- segment: tokusoku id: kaisha-hou-art-567-p1 override_flag: true override_target: 第五百五十四条 -->
 第五百五十四条第一項の規定にかかわらず、債権者集会において協定を可決するには、次に掲げる同意のいずれもがなければならない。
+
+一　出席した議決権者の過半数の同意
+
+二　議決権者の議決権の総額の三分の二以上の議決権を有する者の同意
 
 ### 第五百六十七条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-567-p2 -->
 第五百五十四条第二項の規定は、前項第一号の規定の適用について準用する。

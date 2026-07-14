@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十七条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-37-p1 -->
 第三十一条、第三十四条及び第三十五条の規定に反する特約で建物の賃借人又は転借人に不利なものは、無効とする。

@@ -41,6 +41,26 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前項
+  - id: kaisha-hou-art-482-p3-kou-1
+    type: kou
+    text: 一　支配人の選任及び解任
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-482-p3-kou-2
+    type: kou
+    text: 二　支店の設置、移転及び廃止
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-482-p3-kou-3
+    type: kou
+    text: 三　第二百九十八条第一項各号（第三百二十五条において準用する場合を含む。）に掲げる事項
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-482-p3-kou-4
+    type: kou
+    text: 四　清算人の職務の執行が法令及び定款に適合することを確保するための体制その他清算株式会社の業務の適正を確保するために必要なものとして法務省令で定める体制の整備
+    modality: unspecified
+    item_number: 4
 - number: 4
   has_proviso: false
   has_items: false
@@ -74,20 +94,24 @@ parent_section:
 
 ### 第四百八十二条第一項
 
-<!-- segment: simple id: kaisha-hou-art-482-p1 -->
 清算人は、清算株式会社（清算人会設置会社を除く。以下この条において同じ。）の業務を執行する。
 
 ### 第四百八十二条第二項
 
-<!-- segment: simple id: kaisha-hou-art-482-p2 -->
 清算人が二人以上ある場合には、清算株式会社の業務は、定款に別段の定めがある場合を除き、清算人の過半数をもって決定する。
 
 ### 第四百八十二条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-482-p3-hashira -->
 前項の場合には、清算人は、次に掲げる事項についての決定を各清算人に委任することができない。
+
+一　支配人の選任及び解任
+
+二　支店の設置、移転及び廃止
+
+三　第二百九十八条第一項各号（第三百二十五条において準用する場合を含む。）に掲げる事項
+
+四　清算人の職務の執行が法令及び定款に適合することを確保するための体制その他清算株式会社の業務の適正を確保するために必要なものとして法務省令で定める体制の整備
 
 ### 第四百八十二条第四項
 
-<!-- segment: junyou id: kaisha-hou-art-482-p4 -->
 第三百五十三条から第三百五十七条（第三項を除く。）まで、第三百六十条並びに第三百六十一条第一項及び第四項の規定は、清算人（同条の規定については、第四百七十八条第二項から第四項までの規定により裁判所が選任したものを除く。）について準用する。この場合において、第三百五十三条中「第三百四十九条第四項」とあるのは「第四百八十三条第六項において準用する第三百四十九条第四項」と、第三百五十四条中「代表取締役」とあるのは「代表清算人（第四百八十三条第一項に規定する代表清算人をいう。）」と、第三百六十条第三項中「監査役設置会社、監査等委員会設置会社又は指名委員会等設置会社」とあるのは「監査役設置会社」と読み替えるものとする。

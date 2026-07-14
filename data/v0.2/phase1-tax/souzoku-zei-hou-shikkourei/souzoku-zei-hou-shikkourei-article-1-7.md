@@ -48,10 +48,8 @@ parent_section:
 
 ### 第一条の七第一項
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-1-7-p1 -->
 法第九条の二第五項に規定する政令で定めるものは、信託の目的に反しないことが明らかである場合に限り信託の変更をすることができる権限とする。
 
 ### 第一条の七第二項
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-1-7-p2 -->
 法第九条の二第五項に規定する信託の変更をする権限には、他の者との合意により信託の変更をすることができる権限を含むものとする。

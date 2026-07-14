@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十二条第十一項及び第三百十三条第十一項に規定する総務省令で定める書類は、次の各号に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-1-12-p1-kou-1
+    type: kou
+    text: 一　所得税法施行令（昭和四十年政令第九十六号）第百六十七条の四に掲げる事項を記載した特定支出に関する明細書
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-1-12-p1-kou-2
+    type: kou
+    text: 二　所得税法施行令第百六十七条の五に規定する書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,5 +44,8 @@ tags:
 
 ### 第一条の十二
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-1-12-p1-hashira -->
 法第三十二条第十一項及び第三百十三条第十一項に規定する総務省令で定める書類は、次の各号に掲げるものとする。
+
+一　所得税法施行令（昭和四十年政令第九十六号）第百六十七条の四に掲げる事項を記載した特定支出に関する明細書
+
+二　所得税法施行令第百六十七条の五に規定する書類

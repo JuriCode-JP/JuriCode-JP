@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる者は、当該各号に定める募集社債の社債権者となる。
     modality: unspecified
+  - id: kaisha-hou-art-680-p1-kou-1
+    type: kou
+    text: 一　申込者　会社の割り当てた募集社債
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-680-p1-kou-2
+    type: kou
+    text: 二　前条の契約により募集社債の総額を引き受けた者　その者が引き受けた募集社債
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第六百八十条
 
-<!-- segment: hashira id: kaisha-hou-art-680-p1-hashira -->
 次の各号に掲げる者は、当該各号に定める募集社債の社債権者となる。
+
+一　申込者　会社の割り当てた募集社債
+
+二　前条の契約により募集社債の総額を引き受けた者　その者が引き受けた募集社債

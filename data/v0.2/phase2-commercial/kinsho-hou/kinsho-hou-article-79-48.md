@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-48-p1
+    type: simple
+    text: 基金の役員及び職員並びに審議会の委員は、刑法その他の罰則の適用については、法令により公務に従事する職員とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

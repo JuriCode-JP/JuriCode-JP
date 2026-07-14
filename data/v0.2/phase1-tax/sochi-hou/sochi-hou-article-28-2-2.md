@@ -13,25 +13,53 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-28-2-2-p1-honbun
+    type: honbun
+    text: 青色申告書を提出する個人が、当該個人について策定された債務処理に関する計画で一般に公表された債務処理を行うための手続に関する準則に基づき策定されていることその他の政令で定める要件を満たすもの（次項において「債務処理計画」という。）に基づきその有する債務の免除を受けた場合（当該免除により受ける経済的な利益の価額について所得税法第四十四条の二第一項の規定の適用を受ける場合を除く。）において、当該個人の不動産所得、事業所得又は山林所得を生ずべき事業の用に供される減価償却資産その他これに準ずる資産で政令で定めるもの（以下この条において「対象資産」という。）の価額について当該準則に定められた方法により評定が行われているときは、その対象資産の損失の額として政令で定める金額は、その免除を受けた日の属する年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上、必要経費に算入する。
+    modality: unspecified
+    references:
+    - 次項
+  - id: sochi-hou-art-28-2-2-p1-tadashi
+    type: tadashi
+    text: ただし、当該必要経費に算入する金額は、この項の規定を適用しないで計算した当該年分の不動産所得の金額、事業所得の金額又は山林所得の金額を限度とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-28-2-2-p2
+    type: simple
+    text: 前項の規定は、確定申告書に、同項の規定の適用を受ける旨の記載があり、かつ、同項の規定による不動産所得の金額、事業所得の金額又は山林所得の金額の計算、対象資産の種類その他財務省令で定める事項を記載した明細書及び債務処理計画に関する書類として財務省令で定める書類の添付がある場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-28-2-2-p3
+    type: simple
+    text: 税務署長は、確定申告書の提出がなかつた場合又は前項の記載若しくは添付がない確定申告書の提出があつた場合においても、その提出又は記載若しくは添付がなかつたことについてやむを得ない事情があると認めるときは、当該記載をした書類並びに同項の明細書及び財務省令で定める書類の提出があつた場合に限り、第一項の規定を適用することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-28-2-2-p4
+    type: simple
+    text: 第一項の規定の適用を受けた個人が対象資産について行うべき所得税法第四十九条第一項に規定する償却費の計算、その者が対象資産を譲渡した場合における譲渡所得の金額の計算その他対象資産に係る同法の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

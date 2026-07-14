@@ -14,14 +14,52 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-18-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、前条第二項の規定による認可の申請があつた場合においては、その申請が次に掲げる基準に適合するかどうかを審査しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-101-18-p1-kou-1
+    type: kou
+    text: 一　組織変更後株式会社金融商品取引所の定款、業務規程及び受託契約準則の規定が法令に適合し、かつ、取引所金融商品市場における有価証券の売買及び市場デリバティブ取引を公正かつ円滑にし、並びに投資者を保護するために十分であること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-101-18-p1-kou-2
+    type: kou
+    text: 二　組織変更後株式会社金融商品取引所が取引所金融商品市場を適切に運営するに足りる人的構成を有するものであること。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-101-18-p1-kou-3
+    type: kou
+    text: 三　組織変更後株式会社金融商品取引所が金融商品取引所としてこの法律の規定に適合するように組織されるものであること。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-18-p2-hashira
+    type: hashira
+    text: 内閣総理大臣は、前項の規定により審査した結果、その申請が同項の基準に適合していると認めたときは、次の各号のいずれかに該当する場合を除いて、組織変更を認可しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+  - id: kinsho-hou-art-101-18-p2-kou-1
+    type: kou
+    text: 一　組織変更後株式会社金融商品取引所の役員のうちに第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者があるとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-101-18-p2-kou-2
+    type: kou
+    text: 二　組織変更認可申請書又はその添付書類のうちに重要な事項について虚偽の記載があるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,6 +84,16 @@ parent_section:
 
 内閣総理大臣は、前条第二項の規定による認可の申請があつた場合においては、その申請が次に掲げる基準に適合するかどうかを審査しなければならない。
 
+一　組織変更後株式会社金融商品取引所の定款、業務規程及び受託契約準則の規定が法令に適合し、かつ、取引所金融商品市場における有価証券の売買及び市場デリバティブ取引を公正かつ円滑にし、並びに投資者を保護するために十分であること。
+
+二　組織変更後株式会社金融商品取引所が取引所金融商品市場を適切に運営するに足りる人的構成を有するものであること。
+
+三　組織変更後株式会社金融商品取引所が金融商品取引所としてこの法律の規定に適合するように組織されるものであること。
+
 ### 第百一条の十八第二項
 
 内閣総理大臣は、前項の規定により審査した結果、その申請が同項の基準に適合していると認めたときは、次の各号のいずれかに該当する場合を除いて、組織変更を認可しなければならない。
+
+一　組織変更後株式会社金融商品取引所の役員のうちに第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者があるとき。
+
+二　組織変更認可申請書又はその添付書類のうちに重要な事項について虚偽の記載があるとき。

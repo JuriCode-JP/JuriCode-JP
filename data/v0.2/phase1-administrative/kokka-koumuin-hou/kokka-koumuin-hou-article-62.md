@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十二条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-62-p1 -->
 職員の給与は、その官職の職務と責任に応じてこれをなす。

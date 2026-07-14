@@ -16,27 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-14-p1
+    type: simple
+    text: 委員会は、自治事務に関する国の関与について前条第一項の規定による審査の申出があつた場合においては、審査を行い、相手方である国の行政庁の行つた国の関与が違法でなく、かつ、普通地方公共団体の自主性及び自立性を尊重する観点から不当でないと認めるときは、理由を付してその旨を当該審査の申出をした普通地方公共団体の長その他の執行機関及び当該国の行政庁に通知するとともに、これを公表し、当該国の行政庁の行つた国の関与が違法又は普通地方公共団体の自主性及び自立性を尊重する観点から不当であると認めるときは、当該国の行政庁に対し、理由を付し、かつ、期間を示して、必要な措置を講ずべきことを勧告するとともに、当該勧告の内容を当該普通地方公共団体の長その他の執行機関に通知し、かつ、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-14-p2
+    type: simple
+    text: 委員会は、法定受託事務に関する国の関与について前条第一項の規定による審査の申出があつた場合においては、審査を行い、相手方である国の行政庁の行つた国の関与が違法でないと認めるときは、理由を付してその旨を当該審査の申出をした普通地方公共団体の長その他の執行機関及び当該国の行政庁に通知するとともに、これを公表し、当該国の行政庁の行つた国の関与が違法であると認めるときは、当該国の行政庁に対し、理由を付し、かつ、期間を示して、必要な措置を講ずべきことを勧告するとともに、当該勧告の内容を当該普通地方公共団体の長その他の執行機関に通知し、かつ、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-14-p3
+    type: simple
+    text: 委員会は、前条第二項の規定による審査の申出があつた場合においては、審査を行い、当該審査の申出に理由がないと認めるときは、理由を付してその旨を当該審査の申出をした普通地方公共団体の長その他の執行機関及び相手方である国の行政庁に通知するとともに、これを公表し、当該審査の申出に理由があると認めるときは、当該国の行政庁に対し、理由を付し、かつ、期間を示して、必要な措置を講ずべきことを勧告するとともに、当該勧告の内容を当該普通地方公共団体の長その他の執行機関に通知し、かつ、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-14-p4
+    type: simple
+    text: 委員会は、前条第三項の規定による審査の申出があつたときは、当該審査の申出に係る協議について当該協議に係る普通地方公共団体がその義務を果たしているかどうかを審査し、理由を付してその結果を当該審査の申出をした普通地方公共団体の長その他の執行機関及び相手方である国の行政庁に通知するとともに、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-14-p5
+    type: simple
+    text: 前各項の規定による審査及び勧告は、審査の申出があつた日から九十日以内に行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

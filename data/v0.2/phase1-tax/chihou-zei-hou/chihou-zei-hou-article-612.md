@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百十二条
 
-<!-- segment: simple id: chihou-zei-hou-art-612-p1 -->
 市町村の徴税吏員は、督促状を発した場合には、当該市町村の条例の定めるところによつて、手数料を徴収することができる。

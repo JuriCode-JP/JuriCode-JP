@@ -16,22 +16,54 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-11-p1
+    type: simple
+    text: 監査等委員会設置会社は、監査等委員会の日から十年間、前条第三項の議事録をその本店に備え置かなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-11-p2-hashira
+    type: hashira
+    text: 監査等委員会設置会社の株主は、その権利を行使するため必要があるときは、裁判所の許可を得て、次に掲げる請求をすることができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-399-11-p2-kou-1
+    type: kou
+    text: 一　前項の議事録が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-399-11-p2-kou-2
+    type: kou
+    text: 二　前項の議事録が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-11-p3
+    type: junyou
+    text: 前項の規定は、監査等委員会設置会社の債権者が取締役又は会計参与の責任を追及するため必要があるとき及び親会社社員がその権利を行使するため必要があるときについて準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-11-p4
+    type: simple
+    text: 裁判所は、第二項（前項において準用する場合を含む。以下この項において同じ。）の請求に係る閲覧又は謄写をすることにより、当該監査等委員会設置会社又はその親会社若しくは子会社に著しい損害を及ぼすおそれがあると認めるときは、第二項の許可をすることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -59,6 +91,10 @@ parent_section:
 ### 第三百九十九条の十一第二項
 
 監査等委員会設置会社の株主は、その権利を行使するため必要があるときは、裁判所の許可を得て、次に掲げる請求をすることができる。
+
+一　前項の議事録が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+
+二　前項の議事録が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
 
 ### 第三百九十九条の十一第三項
 

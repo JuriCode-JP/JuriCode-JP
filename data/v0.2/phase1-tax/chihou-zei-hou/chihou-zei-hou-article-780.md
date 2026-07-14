@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百八十条
 
-<!-- segment: simple id: chihou-zei-hou-art-780-p1 -->
 機構の職員は、理事長が任命する。

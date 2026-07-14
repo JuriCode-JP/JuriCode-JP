@@ -16,22 +16,57 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-2-p1-zen
+    type: zen_dan
+    text: 市町村の廃置分合があつた場合（次条第一項本文の規定に該当する場合を除く。）においては、当該廃置分合により消滅した市町村（以下この条において「消滅市町村」という。）に係る地方団体の徴収金の徴収を目的とする権利（以下この条において「消滅市町村の徴収金に係る権利」という。）は、当該消滅市町村の地域が新たに属することとなつた市町村（以下この条において「承継市町村」という。）の区域によつて、当該承継市町村が承継する。
+    modality: unspecified
+    references:
+    - 次条
+  - id: chihou-zei-hou-art-8-2-p1-kou
+    type: kou_dan
+    text: この場合において、消滅市町村の徴収金に係る権利について、消滅市町村がした賦課徴収その他の手続及び消滅市町村に対してした申告、審査請求その他の手続は、それぞれ承継市町村がした賦課徴収その他の手続及び承継市町村に対してした申告、審査請求その他の手続とみなす。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-8-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-2-p2
+    type: simple
+    text: 前項の規定によつて消滅市町村の徴収金に係る権利を承継する承継市町村が二以上ある場合において、当該承継市町村がそれぞれ承継すべき当該消滅市町村の徴収金に係る権利について当該承継市町村の長の間において意見を異にし、その協議がととのわないときは、道府県知事（当該承継市町村が二以上の道府県の区域にわたる場合においては、総務大臣）に対し、その決定を求める旨を申し出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-2-p3
+    type: junyou
+    text: 前条第二項から第十項までの規定は、前項の申出及び当該申出に係る道府県知事又は総務大臣の決定について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-2-p4-zen
+    type: zen_dan
+    text: 前三項の規定によつて承継市町村が消滅市町村の徴収金に係る権利を承継する場合においては、当該承継市町村が条例で別段の定めをしない限り、その承継すべき当該消滅市町村に係る地方団体の徴収金の賦課徴収に関しては、当該消滅市町村に係る地方団体の徴収金の賦課徴収に関して定められている消滅市町村の条例、規則その他の定めの例によるものとする。
+    modality: gimu
+    references:
+    - 前三項
+  - id: chihou-zei-hou-art-8-2-p4-kou
+    type: kou_dan
+    text: この場合において、承継市町村が第五条第三項の規定によつて課する普通税又は同条第七項の規定によつて課する目的税（以下本項において「法定外税」という。）を課することとしており、かつ、当該承継市町村が承継する当該消滅市町村に係る地方団体の徴収金のうちにこれらと課税客体を同じくする同種の法定外税があるため、同種の法定外税を重複して課することとなるときは、当該消滅市町村に係る法定外税の納税義務者に対しては、当該承継市町村は、当該承継市町村の条例の定めるところによつて、これらの法定外税のうちいずれか一を課するものとしなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-8-2-p4-zen
 cases: []
 amendments: []
 tags:

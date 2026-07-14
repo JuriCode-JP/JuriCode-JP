@@ -44,6 +44,4 @@ parent_section:
 
 ### 第七百四条
 
-<!-- segment: zen_dan id: minpou-art-704-p1-zen -->
-悪意の受益者は、その受けた利益に利息を付して返還しなければならない。<!-- segment: kou_dan id: minpou-art-704-p1-kou depends_on: minpou-art-704-p1-zen -->
-この場合において、なお損害があるときは、その賠償の責任を負う。
+悪意の受益者は、その受けた利益に利息を付して返還しなければならない。この場合において、なお損害があるときは、その賠償の責任を負う。

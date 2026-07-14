@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-88-p1
+    type: simple
+    text: 特定金融指標算出者は、特定金融指標算出業務の休止又は廃止をしようとするときは、内閣府令で定めるところにより、あらかじめ、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

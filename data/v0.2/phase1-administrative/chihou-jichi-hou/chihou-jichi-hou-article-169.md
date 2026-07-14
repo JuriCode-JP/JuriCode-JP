@@ -54,10 +54,8 @@ parent_section:
 
 ### 第百六十九条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-169-p1 -->
 普通地方公共団体の長、副知事若しくは副市町村長又は監査委員と親子、夫婦又は兄弟姉妹の関係にある者は、会計管理者となることができない。
 
 ### 第百六十九条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-169-p2 -->
 会計管理者は、前項に規定する関係が生じたときは、その職を失う。

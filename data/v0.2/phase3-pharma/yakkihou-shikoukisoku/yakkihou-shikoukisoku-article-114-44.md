@@ -16,17 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-44-p1
+    type: simple
+    text: 法第二十三条の二の十第一項において準用する法第二十三条の二の七第一項の規定により機構に法第二十三条の二の九第三項の規定による確認又は同条第五項の規定による調査（以下この条及び次条において「医療機器等確認等」という。）を行わせることとしたときは、令第三十七条の三十二に規定する医療機器又は体外診断用医薬品に係る法第二十三条の二の九第一項の使用成績に関する評価の申請者は、機構に当該医療機器等確認等の申請をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-44-p2
+    type: simple
+    text: 前項の申請は、様式第六十三の十八による申請書を当該申請に係る品目の法第二十三条の二の九第一項の使用成績に関する評価の申請書に添付して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-44-p3-zen
+    type: zen_dan
+    text: 法第二十三条の二の十第一項において準用する法第二十三条の二の七第一項の規定により機構が行う医療機器等確認等については、第百十四条の四十第四項の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-44-p3-kou
+    type: kou_dan
+    text: この場合において、同項中「第一項及び前項において準用する第百十四条の十九第四項に規定するもののほか、厚生労働大臣が当該」とあるのは「機構が」と、「使用成績に関する評価」とあるのは「法第二十三条の二の九第三項の規定による確認又は同条第五項の規定による調査」と、「厚生労働大臣に」とあるのは「機構を経由して厚生労働大臣に」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+    depends_on: yakkihou-shikoukisoku-art-114-44-p3-zen
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-10-p1
+    type: simple
+    text: 登録認証機関は、基準適合性認証の業務に関する規程（以下「業務規程」という。）を定め、基準適合性認証の業務の開始前に、厚生労働大臣の認可を受けなければならない。これを変更しようとするときも、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-10-p2
+    type: simple
+    text: 業務規程には、基準適合性認証の実施方法、基準適合性認証に関する料金その他の厚生労働省令で定める事項を定めておかなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-10-p3
+    type: simple
+    text: 厚生労働大臣は、第一項の認可をした業務規程が基準適合性認証の公正な実施上不適当となつたと認めるときは、登録認証機関（本邦にある登録認証機関の事業所において基準適合性認証の業務を行う場合における当該登録認証機関に限る。第二十三条の十一の二から第二十三条の十四まで及び第六十九条第七項において同じ。）に対し、その業務規程を変更すべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

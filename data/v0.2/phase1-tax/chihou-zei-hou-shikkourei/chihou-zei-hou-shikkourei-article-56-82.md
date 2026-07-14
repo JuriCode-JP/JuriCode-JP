@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第七百一条の七十三第九号に規定する市街地開発事業その他の都市環境の整備及び改善に必要な事業で政令で定めるものは、次に掲げる事業とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-56-82-p1-kou-1
+    type: kou
+    text: 一　都市計画法第十二条第一項各号に掲げる事業
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-56-82-p1-kou-2
+    type: kou
+    text: 二　市場、と畜場又は火葬場の整備事業
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-56-82-p1-kou-3
+    type: kou
+    text: 三　一団地の住宅施設（住宅に附帯する通路その他の施設を含む。）の整備事業
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-56-82-p1-kou-4
+    type: kou
+    text: 四　流通業務団地の整備事業
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第五十六条の八十二
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-56-82-p1-hashira -->
 法第七百一条の七十三第九号に規定する市街地開発事業その他の都市環境の整備及び改善に必要な事業で政令で定めるものは、次に掲げる事業とする。
+
+一　都市計画法第十二条第一項各号に掲げる事業
+
+二　市場、と畜場又は火葬場の整備事業
+
+三　一団地の住宅施設（住宅に附帯する通路その他の施設を含む。）の整備事業
+
+四　流通業務団地の整備事業

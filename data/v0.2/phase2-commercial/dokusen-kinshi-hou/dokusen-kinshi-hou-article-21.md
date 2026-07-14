@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-21-p1 -->
 この法律の規定は、著作権法、特許法、実用新案法、意匠法又は商標法による権利の行使と認められる行為にはこれを適用しない。

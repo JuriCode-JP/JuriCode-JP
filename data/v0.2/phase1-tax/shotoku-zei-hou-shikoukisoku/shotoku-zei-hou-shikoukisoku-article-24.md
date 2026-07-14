@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第百二十条の三第二項（減価償却資産の特別な償却の方法）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-24-p1-kou-1
+    type: kou
+    text: 一　令第百二十条の三第二項に規定する申請書を提出する者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-24-p1-kou-2
+    type: kou
+    text: 二　その採用しようとする償却の方法が令第百三十二条第一項各号（年の中途で業務の用に供した減価償却資産等の償却費の特例）のイ又はロに掲げる償却の方法のいずれに類するかの別
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-24-p1-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第二十四条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-24-p1-hashira -->
 令第百二十条の三第二項（減価償却資産の特別な償却の方法）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第百二十条の三第二項に規定する申請書を提出する者の氏名及び住所
+
+二　その採用しようとする償却の方法が令第百三十二条第一項各号（年の中途で業務の用に供した減価償却資産等の償却費の特例）のイ又はロに掲げる償却の方法のいずれに類するかの別
+
+三　その他参考となるべき事項

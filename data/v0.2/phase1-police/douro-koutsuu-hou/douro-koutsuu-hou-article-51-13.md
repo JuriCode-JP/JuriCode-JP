@@ -14,14 +14,57 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-13-p1-hashira
+    type: hashira
+    text: 公安委員会は、次の各号のいずれにも該当する者に対し、駐車監視員資格者証を交付する。
+    modality: tetsuduki
+  - id: douro-koutsuu-hou-art-51-13-p1-kou-1
+    type: kou
+    text: '一　次のいずれかに該当する者
+
+      イ　公安委員会が国家公安委員会規則で定めるところにより放置車両の確認等に関する技能及び知識に関して行う講習を受け、その課程を修了した者
+
+      ロ　公安委員会が国家公安委員会規則で定めるところにより放置車両の確認等に関しイに掲げる者と同等以上の技能及び知識を有すると認める者'
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-51-13-p1-kou-2
+    type: kou
+    text: '二　次のいずれにも該当しない者
+
+      イ　十八歳未満の者
+
+      ロ　第五十一条の八第三項第二号イからヘまでのいずれかに該当する者
+
+      ハ　次項第二号又は第三号に該当して同項の規定により駐車監視員資格者証の返納を命ぜられ、その返納の日から起算して二年を経過しない者'
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-13-p2-hashira
+    type: hashira
+    text: 公安委員会は、駐車監視員資格者証の交付を受けた者が次の各号のいずれかに該当すると認めるときは、その者に係る駐車監視員資格者証の返納を命ずることができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-51-13-p2-kou-1
+    type: kou
+    text: 一　第五十一条の八第三項第二号イからヘまでのいずれかに該当するに至つたとき。
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-51-13-p2-kou-2
+    type: kou
+    text: 二　偽りその他不正の手段により駐車監視員資格者証の交付を受けたとき。
+    modality: unspecified
+    item_number: 2
+  - id: douro-koutsuu-hou-art-51-13-p2-kou-3
+    type: kou
+    text: 三　前条第五項の規定に違反し、又は放置車両の確認等に関し不正な行為をし、その情状が駐車監視員として不適当であると認められるとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -42,6 +85,26 @@ parent_section:
 
 公安委員会は、次の各号のいずれにも該当する者に対し、駐車監視員資格者証を交付する。
 
+一　次のいずれかに該当する者
+
+　イ　公安委員会が国家公安委員会規則で定めるところにより放置車両の確認等に関する技能及び知識に関して行う講習を受け、その課程を修了した者
+
+　ロ　公安委員会が国家公安委員会規則で定めるところにより放置車両の確認等に関しイに掲げる者と同等以上の技能及び知識を有すると認める者
+
+二　次のいずれにも該当しない者
+
+　イ　十八歳未満の者
+
+　ロ　第五十一条の八第三項第二号イからヘまでのいずれかに該当する者
+
+　ハ　次項第二号又は第三号に該当して同項の規定により駐車監視員資格者証の返納を命ぜられ、その返納の日から起算して二年を経過しない者
+
 ### 第五十一条の十三第二項
 
 公安委員会は、駐車監視員資格者証の交付を受けた者が次の各号のいずれかに該当すると認めるときは、その者に係る駐車監視員資格者証の返納を命ずることができる。
+
+一　第五十一条の八第三項第二号イからヘまでのいずれかに該当するに至つたとき。
+
+二　偽りその他不正の手段により駐車監視員資格者証の交付を受けたとき。
+
+三　前条第五項の規定に違反し、又は放置車両の確認等に関し不正な行為をし、その情状が駐車監視員として不適当であると認められるとき。

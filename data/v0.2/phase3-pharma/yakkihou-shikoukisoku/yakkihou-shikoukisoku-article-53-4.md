@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-4-p1
+    type: simple
+    text: 法第十四条第一項の承認を受けた者は、当該承認に係る医薬品、医薬部外品又は化粧品の製造業者に対し、法第十四条第六項若しくは第八項、法第十四条の二第二項又は第十四条の二の二の二第二項（医薬品の製造所における製造管理又は品質管理の方法についての調査に係る部分に限り、法第十四条の三第二項において準用する場合を含む。）の調査に関し報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-4-p2
+    type: simple
+    text: 前項の規定により報告又は資料の提出を求められた者は、遅滞なく、これを報告し、又は提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

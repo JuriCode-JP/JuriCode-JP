@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-78-p1
+    type: simple
+    text: 取引情報蓄積機関は、第百五十六条の七十二第一項ただし書の承認を受けた業務を開始したときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-78-p2
+    type: simple
+    text: 第百五十六条の六十九の認可を受けた取引情報蓄積機関の代表者及び常務に従事する役員が当該認可を受けた法人の代表者となり、若しくは常務に従事し、又は当該認可を受けた事業を開始したときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-78-p3
+    type: simple
+    text: 取引情報蓄積機関は、定款（これに準ずるものを含む。）を変更したときその他内閣府令で定めるときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

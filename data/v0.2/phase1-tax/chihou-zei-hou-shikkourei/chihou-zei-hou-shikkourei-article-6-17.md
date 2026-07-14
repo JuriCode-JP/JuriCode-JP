@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第二十条の四の二第一項ただし書に規定する政令で定める地方税は、次に掲げる地方税とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-1
+    type: kou
+    text: 一　利子等に係る道府県民税
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-2
+    type: kou
+    text: 二　特定配当等に係る道府県民税
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-3
+    type: kou
+    text: 三　特定株式等譲渡所得金額に係る道府県民税
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-4
+    type: kou
+    text: 四　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,51 @@ paragraphs:
     type: hashira
     text: 法第二十条の四の二第三項ただし書に規定する政令で定める地方税は、次に掲げる地方税とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-1
+    type: kou
+    text: 一　利子等に係る道府県民税
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-2
+    type: kou
+    text: 二　特定配当等に係る道府県民税
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-3
+    type: kou
+    text: 三　特定株式等譲渡所得金額に係る道府県民税
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-4
+    type: kou
+    text: 四　道府県たばこ税
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-5
+    type: kou
+    text: 五　ゴルフ場利用税
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-6
+    type: kou
+    text: 六　軽油引取税
+    modality: unspecified
+    item_number: 6
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-7
+    type: kou
+    text: 七　市町村たばこ税
+    modality: unspecified
+    item_number: 7
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-8
+    type: kou
+    text: 八　入湯税
+    modality: unspecified
+    item_number: 8
+  - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-9
+    type: kou
+    text: 九　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
+    modality: unspecified
+    item_number: 9
 cases: []
 amendments: []
 tags:
@@ -46,10 +111,34 @@ parent_section:
 
 ### 第六条の十七第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-6-17-p1-hashira -->
 法第二十条の四の二第一項ただし書に規定する政令で定める地方税は、次に掲げる地方税とする。
+
+一　利子等に係る道府県民税
+
+二　特定配当等に係る道府県民税
+
+三　特定株式等譲渡所得金額に係る道府県民税
+
+四　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
 
 ### 第六条の十七第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-6-17-p2-hashira -->
 法第二十条の四の二第三項ただし書に規定する政令で定める地方税は、次に掲げる地方税とする。
+
+一　利子等に係る道府県民税
+
+二　特定配当等に係る道府県民税
+
+三　特定株式等譲渡所得金額に係る道府県民税
+
+四　道府県たばこ税
+
+五　ゴルフ場利用税
+
+六　軽油引取税
+
+七　市町村たばこ税
+
+八　入湯税
+
+九　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの

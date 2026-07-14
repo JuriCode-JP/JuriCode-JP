@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-95-2-p1
+    type: simple
+    text: 第八十九条第一項第一号、第九十条第一号若しくは第三号又は第九十一条の違反があつた場合においては、その違反の計画を知り、その防止に必要な措置を講ぜず、又はその違反行為を知り、その是正に必要な措置を講じなかつた当該法人（第九十条第一号又は第三号の違反があつた場合における当該法人で事業者団体に該当するものを除く。）の代表者に対しても、各本条の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 本条
 cases: []
 amendments: []
 tags:

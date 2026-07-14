@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-85-p1
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造販売業者については、第三条及び第十八条の規定を準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-85-p2-zen
+    type: zen_dan
+    text: 医療機器又は体外診断用医薬品の製造業者については、第三条及び第十八条の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-85-p2-kou
+    type: kou_dan
+    text: この場合において、第三条中「許可証」とあるのは「登録証」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-114-85-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-85-p3
+    type: simple
+    text: 登録医療機器等外国製造業者については、第十八条の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 予算は、次の各号に掲げる事項に関する定めから成るものとする。
     modality: gimu
+  - id: chihou-jichi-hou-art-215-p1-kou-1
+    type: kou
+    text: 一　歳入歳出予算
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-215-p1-kou-2
+    type: kou
+    text: 二　継続費
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-215-p1-kou-3
+    type: kou
+    text: 三　繰越明許費
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-215-p1-kou-4
+    type: kou
+    text: 四　債務負担行為
+    modality: unspecified
+    item_number: 4
+  - id: chihou-jichi-hou-art-215-p1-kou-5
+    type: kou
+    text: 五　地方債
+    modality: unspecified
+    item_number: 5
+  - id: chihou-jichi-hou-art-215-p1-kou-6
+    type: kou
+    text: 六　一時借入金
+    modality: unspecified
+    item_number: 6
+  - id: chihou-jichi-hou-art-215-p1-kou-7
+    type: kou
+    text: 七　歳出予算の各項の経費の金額の流用
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -41,5 +76,18 @@ parent_section:
 
 ### 第二百十五条
 
-<!-- segment: hashira id: chihou-jichi-hou-art-215-p1-hashira -->
 予算は、次の各号に掲げる事項に関する定めから成るものとする。
+
+一　歳入歳出予算
+
+二　継続費
+
+三　繰越明許費
+
+四　債務負担行為
+
+五　地方債
+
+六　一時借入金
+
+七　歳出予算の各項の経費の金額の流用

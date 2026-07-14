@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百九十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-294-p1 -->
 公判期日における訴訟の指揮は、裁判長がこれを行う。

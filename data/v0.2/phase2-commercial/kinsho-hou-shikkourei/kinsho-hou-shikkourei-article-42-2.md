@@ -13,25 +13,60 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-42-2-p1-hashira
+    type: hashira
+    text: 長官権限のうち次に掲げるものは、居住者に関するものにあつては当該居住者の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に、非居住者に関するものにあつては関東財務局長に委任する。ただし、第三号に掲げる権限は、金融庁長官が自ら行うことを妨げない。
+    modality: jogai
+  - id: kinsho-hou-shikkourei-art-42-2-p1-kou-1
+    type: kou
+    text: 一　法第三十二条第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）の規定による対象議決権保有届出書の受理
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-42-2-p1-kou-2
+    type: kou
+    text: 二　法第三十二条第三項並びに第三十二条の三第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）及び第二項の規定による届出の受理
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-42-2-p1-kou-3
+    type: kou
+    text: 三　法第五十六条の二第二項及び第五十七条の二十六第二項の規定による報告及び資料の提出の命令並びに検査（第三十八条の二第二項の規定により委員会に委任されたものを除く。）
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-42-2-p2
+    type: simple
+    text: 長官権限のうち法第三十二条の二第一項（法第三十二条の四において準用する場合を含む。）、第二項及び第三項の規定による命令の権限（特別金融商品取引業者及び金融庁長官の指定する金融商品取引業者に係るものを除く。）は、金融商品取引業者の本店等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-42-2-p3
+    type: simple
+    text: 第一項第三号に掲げる権限は、同項に規定する財務局長又は福岡財務支局長のほか、金融商品取引業者の本店等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）も行うことができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-42-2-p4
+    type: simple
+    text: 第一項第三号に掲げる権限で居住者である金融商品取引業者、金融商品取引業者を子会社とする持株会社又は指定親会社（法第五十七条の十二第三項に規定する指定親会社をいう。以下同じ。）の主要株主（法第二十九条の四第二項に規定する主要株主をいう。）の本店又は主たる事務所以外の営業所又は事務所（以下この項において「従たる事務所等」という。）に関するものについては、第一項及び前項に規定する財務局長又は福岡財務支局長のほか、当該従たる事務所等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地が国外にある場合にあつては関東財務局長）も行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -49,6 +84,12 @@ parent_section:
 ### 第四十二条の二第一項
 
 長官権限のうち次に掲げるものは、居住者に関するものにあつては当該居住者の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に、非居住者に関するものにあつては関東財務局長に委任する。ただし、第三号に掲げる権限は、金融庁長官が自ら行うことを妨げない。
+
+一　法第三十二条第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）の規定による対象議決権保有届出書の受理
+
+二　法第三十二条第三項並びに第三十二条の三第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）及び第二項の規定による届出の受理
+
+三　法第五十六条の二第二項及び第五十七条の二十六第二項の規定による報告及び資料の提出の命令並びに検査（第三十八条の二第二項の規定により委員会に委任されたものを除く。）
 
 ### 第四十二条の二第二項
 

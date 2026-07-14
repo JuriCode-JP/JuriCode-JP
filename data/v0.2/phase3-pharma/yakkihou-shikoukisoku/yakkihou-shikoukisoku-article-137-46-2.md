@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-46-2-p1
+    type: simple
+    text: 法第二十三条の三十一第一項の規定による公示は、官報に掲載する方法により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

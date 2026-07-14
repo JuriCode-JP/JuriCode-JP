@@ -16,42 +16,81 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p1-zen
+    type: zen_dan
+    text: 都市計画税の賦課徴収は、固定資産税の賦課徴収の例によるものとし、特別の事情がある場合を除くほか、固定資産税の賦課徴収とあわせて行うものとする。
+    modality: gimu
+  - id: chihou-zei-hou-art-702-8-p1-kou
+    type: kou_dan
+    text: この場合において、第十七条の四の規定に基く還付加算金、第三百六十五条第二項の規定に基く納期前の納付に対する報奨金又は第三百六十八条若しくは第三百六十九条の規定に基く延滞金の計算については、都市計画税及び固定資産税の額の合算額によつて当該各条の規定を適用するものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-702-8-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p2
+    type: simple
+    text: 都市計画税の賦課徴収に関する修正の申出及び審査請求並びに出訴については、固定資産税の賦課徴収に関する修正の申出及び審査請求並びに出訴の例によるものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p3
+    type: simple
+    text: 都市計画税の納税義務者は、都市計画税に係る地方団体の徴収金を、固定資産税に係る地方団体の徴収金の納付の例により納付するものとし、特別の事情がある場合を除くほか、固定資産税に係る地方団体の徴収金とあわせて納付しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p4
+    type: simple
+    text: 第一項前段の規定によつて都市計画税を固定資産税とあわせて賦課徴収する場合において、都市計画税及び固定資産税に係る地方団体の徴収金の納付があつたときは、その納付額から督促手数料及び滞納処分費を控除した額を都市計画税及び固定資産税の額にあん分した額に相当する都市計画税又は固定資産税に係る地方団体の徴収金の納付があつたものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p5
+    type: simple
+    text: 第一項前段の規定によつて都市計画税を固定資産税とあわせて賦課徴収する場合においては、当該都市計画税の賦課徴収に用いる納税通知書、納期限変更告知書、督促状その他の文書は、固定資産税の賦課徴収に用いるそれらの文書とあわせて作成するものとする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p6
+    type: simple
+    text: 第一項前段の規定によつて都市計画税を固定資産税とあわせて賦課徴収する場合において、市町村長が当該固定資産税の納期限を延長したときは、当該納税者に係る都市計画税の納期限についても、同一期間延長されたものとする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p7
+    type: simple
+    text: 第一項前段の規定によつて都市計画税を固定資産税とあわせて賦課徴収する場合において、市町村長が第三百六十七条、第三百六十八条第三項又は第三百六十九条第二項の規定によつて固定資産税又は当該固定資産税に係る延滞金額を減免したときは、当該納税者に係る都市計画税又は当該都市計画税に係る延滞金額についても、当該固定資産税又は当該固定資産税に係る延滞金額に対する減免額の割合と同じ割合によつて減免されたものとする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-8-p8
+    type: junyou
+    text: 第三百五十八条、第三百七十四条から第三百七十六条までの規定は、第一項の規定によつて固定資産税の賦課徴収の例により賦課徴収を行う都市計画税について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第三百七十四条から第三百七十六条まで
 cases: []
 amendments: []
 tags:

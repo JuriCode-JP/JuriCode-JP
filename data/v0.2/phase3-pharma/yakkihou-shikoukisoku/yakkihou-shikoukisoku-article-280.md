@@ -46,8 +46,6 @@ parent_section:
 
 ### 第二百八十条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-280-p1 -->
-<!-- segment: simple id: yakkihou-shikoukisoku-art-280-p2 -->
 法第八十条の四第四項の規定により厚生労働大臣に対して行う同条第一項の情報の整理の結果の通知は、様式第百十八による通知書によつて行うものとする。
 
 ### 第二百八十条第二項

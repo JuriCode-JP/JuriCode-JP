@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-16-p1
+    type: simple
+    text: 法第二十三条の二十三第一項の規定により機構に法第二十三条の二十二第七項（同条第九項において準用する場合を含む。）の調査を行わせることとしたときは、令第四十三条の十五に規定する再生医療等製品に係る法第二十三条の二十二第一項若しくは第八項の許可又は同条第四項の許可の更新の申請者は、機構に当該調査の申請をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-16-p2
+    type: simple
+    text: 前項の申請は、様式第十六による申請書を当該申請に係る品目の法第二十三条の二十二第一項若しくは第八項の許可又は同条第四項の許可の更新の申請書に添付して、地方厚生局長を経由して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

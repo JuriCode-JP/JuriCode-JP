@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-459-2-p1-zen
+    type: zen_dan
+    text: 保証人が主たる債務者の委託を受けて保証をした場合において、主たる債務の弁済期前に債務の消滅行為をしたときは、その保証人は、主たる債務者に対し、主たる債務者がその当時利益を受けた限度において求償権を有する。
+    modality: unspecified
+  - id: minpou-art-459-2-p1-kou
+    type: kou_dan
+    text: この場合において、主たる債務者が債務の消滅行為の日以前に相殺の原因を有していたことを主張するときは、保証人は、債権者に対し、その相殺によって消滅すべきであった債務の履行を請求することができる。
+    modality: kanou_kenri
+    depends_on: minpou-art-459-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-459-2-p2
+    type: simple
+    text: 前項の規定による求償は、主たる債務の弁済期以後の法定利息及びその弁済期以後に債務の消滅行為をしたとしても避けることができなかった費用その他の損害の賠償を包含する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-459-2-p3
+    type: simple
+    text: 第一項の求償権は、主たる債務の弁済期以後でなければ、これを行使することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

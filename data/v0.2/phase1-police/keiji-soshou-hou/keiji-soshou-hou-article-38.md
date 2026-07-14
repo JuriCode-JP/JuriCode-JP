@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-38-p1 -->
 この法律の規定に基づいて裁判所若しくは裁判長又は裁判官が付すべき弁護人は、弁護士の中からこれを選任しなければならない。
 
 ### 第三十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-38-p2 -->
 前項の規定により選任された弁護人は、旅費、日当、宿泊料及び報酬を請求することができる。

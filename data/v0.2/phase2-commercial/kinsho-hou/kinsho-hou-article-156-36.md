@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-36-p1-hashira
+    type: hashira
+    text: 次に掲げる事項は、内閣総理大臣の認可を受けなければ、その効力を生じない。
+    modality: unspecified
+  - id: kinsho-hou-art-156-36-p1-kou-1
+    type: kou
+    text: 一　証券金融会社の業務（第百五十六条の二十四第一項に規定する業務に限る。）の廃止又は解散の決議
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-36-p1-kou-2
+    type: kou
+    text: 二　証券金融会社を当事者とする合併、分割又は事業の全部若しくは一部の譲渡若しくは譲受け
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第百五十六条の三十六
 
 次に掲げる事項は、内閣総理大臣の認可を受けなければ、その効力を生じない。
+
+一　証券金融会社の業務（第百五十六条の二十四第一項に規定する業務に限る。）の廃止又は解散の決議
+
+二　証券金融会社を当事者とする合併、分割又は事業の全部若しくは一部の譲渡若しくは譲受け

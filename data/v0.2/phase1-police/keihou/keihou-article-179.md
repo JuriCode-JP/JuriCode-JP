@@ -48,8 +48,6 @@ parent_section:
 
 ### 第百七十九条第一項
 
-<!-- segment: simple id: keihou-art-179-p1 -->
-<!-- segment: simple id: keihou-art-179-p2 -->
 十八歳未満の者に対し、その者を現に監護する者であることによる影響力があることに乗じてわいせつな行為をした者は、第百七十六条第一項の例による。
 
 ### 第百七十九条第二項

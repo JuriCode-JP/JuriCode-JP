@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 軽自動車税について、次の各号に掲げる用語の意義は、それぞれ当該各号に定めるところによる。
     modality: unspecified
+  - id: chihou-zei-hou-art-442-p1-kou-1
+    type: kou
+    text: 一　軽自動車等　原動機付自転車、軽自動車、小型特殊自動車及び二輪の小型自動車をいう。
+    modality: teigi
+    item_number: 1
+  - id: chihou-zei-hou-art-442-p1-kou-2
+    type: kou
+    text: 二　原動機付自転車　道路運送車両法第二条第三項に規定する原動機付自転車のうち、原動機により陸上を移動させることを目的として製作したものをいう。
+    modality: teigi
+    item_number: 2
+  - id: chihou-zei-hou-art-442-p1-kou-3
+    type: kou
+    text: 三　軽自動車　道路運送車両法第三条に規定する軽自動車をいう。
+    modality: teigi
+    item_number: 3
+  - id: chihou-zei-hou-art-442-p1-kou-4
+    type: kou
+    text: 四　小型特殊自動車　道路運送車両法第三条に規定する小型特殊自動車をいう。
+    modality: teigi
+    item_number: 4
+  - id: chihou-zei-hou-art-442-p1-kou-5
+    type: kou
+    text: 五　二輪の小型自動車　道路運送車両法第三条に規定する小型自動車のうち、二輪のもの（側車付二輪自動車を含む。）をいう。
+    modality: teigi
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -41,5 +66,14 @@ parent_section:
 
 ### 第四百四十二条
 
-<!-- segment: hashira id: chihou-zei-hou-art-442-p1-hashira -->
 軽自動車税について、次の各号に掲げる用語の意義は、それぞれ当該各号に定めるところによる。
+
+一　軽自動車等　原動機付自転車、軽自動車、小型特殊自動車及び二輪の小型自動車をいう。
+
+二　原動機付自転車　道路運送車両法第二条第三項に規定する原動機付自転車のうち、原動機により陸上を移動させることを目的として製作したものをいう。
+
+三　軽自動車　道路運送車両法第三条に規定する軽自動車をいう。
+
+四　小型特殊自動車　道路運送車両法第三条に規定する小型特殊自動車をいう。
+
+五　二輪の小型自動車　道路運送車両法第三条に規定する小型自動車のうち、二輪のもの（側車付二輪自動車を含む。）をいう。

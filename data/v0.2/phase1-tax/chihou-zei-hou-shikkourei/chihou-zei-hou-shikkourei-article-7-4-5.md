@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-4-5-p1
+    type: simple
+    text: 法第二十五条第一項第二号に規定する農業協同組合連合会で政令で定めるものは、法人税法別表第二に規定する農業協同組合連合会に該当する農業協同組合連合会とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第七十五条の二第三項（確定申告書の提出期限の延長の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-36-2-p1-kou-1
+    type: kou
+    text: 一　申請をする内国法人の名称、納税地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-36-2-p1-kou-2
+    type: kou
+    text: 二　代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-36-2-p1-kou-3
+    type: kou
+    text: 三　当該申告書に係る事業年度終了の日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-36-2-p1-kou-4
+    type: kou
+    text: 四　法第七十五条の二第一項各号の指定を受けようとする場合には、その指定を受けようとする月数の期間その提出期限の延長を必要とする理由
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-36-2-p1-kou-5
+    type: kou
+    text: 五　法第七十五条の二第一項各号の指定に係る月数の変更をしようとする場合には、その変更後の月数の期間その提出期限の延長を必要とする理由
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikoukisoku-art-36-2-p1-kou-6
+    type: kou
+    text: 六　その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -43,5 +73,16 @@ parent_section:
 
 ### 第三十六条の二
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-36-2-p1-hashira -->
 法第七十五条の二第三項（確定申告書の提出期限の延長の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号
+
+二　代表者の氏名
+
+三　当該申告書に係る事業年度終了の日
+
+四　法第七十五条の二第一項各号の指定を受けようとする場合には、その指定を受けようとする月数の期間その提出期限の延長を必要とする理由
+
+五　法第七十五条の二第一項各号の指定に係る月数の変更をしようとする場合には、その変更後の月数の期間その提出期限の延長を必要とする理由
+
+六　その他参考となるべき事項

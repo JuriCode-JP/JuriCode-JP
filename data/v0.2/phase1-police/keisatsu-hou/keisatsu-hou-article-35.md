@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十五条
 
-<!-- segment: simple id: keisatsu-hou-art-35-p1 -->
 削除

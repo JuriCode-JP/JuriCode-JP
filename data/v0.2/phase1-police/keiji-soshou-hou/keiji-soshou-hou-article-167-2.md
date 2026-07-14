@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-167-2-p1
+    type: simple
+    text: 勾留中の被告人に対し鑑定留置状が執行されたときは、被告人が留置されている間、勾留は、その執行を停止されたものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-167-2-p2
+    type: simple
+    text: 前項の場合において、前条第一項の処分が取り消され又は留置の期間が満了したときは、第九十八条の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

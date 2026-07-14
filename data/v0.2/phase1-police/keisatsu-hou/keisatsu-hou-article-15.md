@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: keisatsu-hou-art-15-p1 -->
 国家公安委員会に、警察庁を置く。

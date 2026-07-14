@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-6-p1
+    type: simple
+    text: 委員会の委員は、独立してその職権を行う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-54-p1
+    type: simple
+    text: 指定都市等は、第七百一条の五十二の規定により申告をすべき者が同条の規定によつて申告すべき事項について正当な理由がなくて申告をしなかつた場合には、その者に対し、当該指定都市等の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

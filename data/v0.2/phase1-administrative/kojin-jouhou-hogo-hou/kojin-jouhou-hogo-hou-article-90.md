@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 何人も、自己を本人とする保有個人情報（次に掲げるものに限る。第九十八条第一項において同じ。）の内容が事実でないと思料するときは、この法律の定めるところにより、当該保有個人情報を保有する行政機関の長等に対し、当該保有個人情報の訂正（追加又は削除を含む。以下この節において同じ。）を請求することができる。ただし、当該保有個人情報の訂正に関して他の法令の規定により特別の手続が定められているときは、この限りでない。
     modality: jogai
+  - id: kojin-jouhou-hogo-hou-art-90-p1-kou-1
+    type: kou
+    text: 一　開示決定に基づき開示を受けた保有個人情報
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-90-p1-kou-2
+    type: kou
+    text: 二　開示決定に係る保有個人情報であって、第八十八条第一項の他の法令の規定により開示を受けたもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +71,16 @@ parent_section:
 
 ### 第九十条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-90-p1-hashira -->
 何人も、自己を本人とする保有個人情報（次に掲げるものに限る。第九十八条第一項において同じ。）の内容が事実でないと思料するときは、この法律の定めるところにより、当該保有個人情報を保有する行政機関の長等に対し、当該保有個人情報の訂正（追加又は削除を含む。以下この節において同じ。）を請求することができる。ただし、当該保有個人情報の訂正に関して他の法令の規定により特別の手続が定められているときは、この限りでない。
+
+一　開示決定に基づき開示を受けた保有個人情報
+
+二　開示決定に係る保有個人情報であって、第八十八条第一項の他の法令の規定により開示を受けたもの
 
 ### 第九十条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-90-p2 -->
 代理人は、本人に代わって前項の規定による訂正の請求（以下この節及び第百二十七条において「訂正請求」という。）をすることができる。
 
 ### 第九十条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-90-p3 -->
 訂正請求は、保有個人情報の開示を受けた日から九十日以内にしなければならない。

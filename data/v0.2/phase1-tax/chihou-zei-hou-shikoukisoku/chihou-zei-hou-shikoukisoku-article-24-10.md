@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の十
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-10-p1 -->
 政令第五十六条の四十六に規定する総務省令で定める労働者の詰所は、労働者詰所及び現場事務所とする。

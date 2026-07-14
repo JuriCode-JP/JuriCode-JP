@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: kenpou-art-42-p1 -->
 国会は、衆議院及び参議院の両議院でこれを構成する。

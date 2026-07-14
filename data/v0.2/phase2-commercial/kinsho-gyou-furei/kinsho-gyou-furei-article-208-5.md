@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-5-p1-hashira
+    type: hashira
+    text: 法第五十七条の二第二項第二号に掲げる書類は、次に掲げる様式に定める事項を記載して作成するものとする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-208-5-p1-kou-1
+    type: kou
+    text: 一　別紙様式第十七号の二
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-208-5-p1-kou-2
+    type: kou
+    text: 二　別紙様式第十七号の三
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +52,7 @@ parent_section:
 ### 第二百八条の五
 
 法第五十七条の二第二項第二号に掲げる書類は、次に掲げる様式に定める事項を記載して作成するものとする。
+
+一　別紙様式第十七号の二
+
+二　別紙様式第十七号の三

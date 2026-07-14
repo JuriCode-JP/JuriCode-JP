@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-9-p1
+    type: simple
+    text: 法第六十六条の五十三第五号ロに規定する政令で定める金額は、千万円とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-9-p2
+    type: simple
+    text: 申請者が外国法人である場合において、法第六十六条の五十三第五号ロの資本金の額又は出資の総額を本邦通貨に換算するときは、法第六十六条の五十の登録の申請の時における外国為替相場によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

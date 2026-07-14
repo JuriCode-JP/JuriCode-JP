@@ -13,40 +13,99 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p1-honbun
+    type: honbun
+    text: 再生医療等製品の販売業の許可を受けた者でなければ、業として、再生医療等製品を販売し、授与し、又は販売若しくは授与の目的で貯蔵し、若しくは陳列してはならない。
+    modality: gimu_negative
+  - id: yakkihou-art-40-5-p1-tadashi
+    type: tadashi
+    text: ただし、再生医療等製品の製造販売業者がその製造等をし、又は輸入した再生医療等製品を再生医療等製品の製造販売業者、製造業者又は販売業者に、厚生労働大臣が指定する再生医療等製品の製造販売業者がその製造等をし、又は輸入した当該再生医療等製品を医師、歯科医師若しくは獣医師又は病院、診療所若しくは飼育動物診療施設の開設者に、再生医療等製品の製造業者がその製造した再生医療等製品を再生医療等製品の製造販売業者又は製造業者に、それぞれ販売し、授与し、又はその販売若しくは授与の目的で貯蔵し、若しくは陳列するときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p2
+    type: simple
+    text: 前項の許可は、営業所ごとに、その営業所の所在地の都道府県知事が与える。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p3-hashira
+    type: hashira
+    text: 第一項の許可を受けようとする者は、厚生労働省令で定めるところにより、次の各号に掲げる事項を記載した申請書をその営業所の所在地の都道府県知事に提出しなければならない。
+    modality: gimu
+  - id: yakkihou-art-40-5-p3-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-40-5-p3-kou-2
+    type: kou
+    text: 二　その営業所の構造設備の概要
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-40-5-p3-kou-3
+    type: kou
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-40-5-p3-kou-4
+    type: kou
+    text: 四　次条第一項に規定する再生医療等製品営業所管理者の氏名
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-art-40-5-p3-kou-5
+    type: kou
+    text: 五　第五項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    modality: unspecified
+    item_number: 5
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p4
+    type: simple
+    text: その営業所の構造設備が、厚生労働省令で定める基準に適合しないときは、第一項の許可を与えないことができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p5
+    type: junyou
+    text: 第五条（第三号に係る部分に限る。）の規定は、第一項の許可について準用する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p6
+    type: simple
+    text: 第一項の許可は、六年ごとにその更新を受けなければ、その期間の経過によつて、その効力を失う。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-5-p7
+    type: simple
+    text: 第一項の許可を受けた者は、当該許可に係る営業所については、業として、再生医療等製品を、再生医療等製品の製造販売業者、製造業者若しくは販売業者又は病院、診療所若しくは飼育動物診療施設の開設者その他厚生労働省令で定める者以外の者に対し、販売し、又は授与してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:
@@ -74,6 +133,16 @@ parent_section:
 ### 第四十条の五第三項
 
 第一項の許可を受けようとする者は、厚生労働省令で定めるところにより、次の各号に掲げる事項を記載した申請書をその営業所の所在地の都道府県知事に提出しなければならない。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　その営業所の構造設備の概要
+
+三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
+
+四　次条第一項に規定する再生医療等製品営業所管理者の氏名
+
+五　第五項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
 
 ### 第四十条の五第四項
 

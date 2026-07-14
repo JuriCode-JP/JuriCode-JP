@@ -55,10 +55,8 @@ parent_section:
 
 ### 第七十二条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-72-p1 -->
 審査会は、委員のうちから、審査会が指名する者三人をもって構成する合議体で、審査請求に係る事件について調査審議する。
 
 ### 第七十二条第二項
 
-<!-- segment: tokusoku id: gyousei-fufuku-shinsa-hou-art-72-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、審査会が定める場合においては、委員の全員をもって構成する合議体で、審査請求に係る事件について調査審議する。

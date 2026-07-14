@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第七百三条の三第一項に規定する道路、水路その他の公共施設で政令で定めるものは、次に掲げる公共施設とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-56-85-p1-kou-1
+    type: kou
+    text: 一　幅員十二メートル未満の道路
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-56-85-p1-kou-2
+    type: kou
+    text: 二　公共下水道以外の排水路
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-56-85-p1-kou-3
+    type: kou
+    text: 三　敷地面積が〇・五ヘクタール未満の公園、緑地又は広場
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第五十六条の八十五
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-56-85-p1-hashira -->
 法第七百三条の三第一項に規定する道路、水路その他の公共施設で政令で定めるものは、次に掲げる公共施設とする。
+
+一　幅員十二メートル未満の道路
+
+二　公共下水道以外の排水路
+
+三　敷地面積が〇・五ヘクタール未満の公園、緑地又は広場

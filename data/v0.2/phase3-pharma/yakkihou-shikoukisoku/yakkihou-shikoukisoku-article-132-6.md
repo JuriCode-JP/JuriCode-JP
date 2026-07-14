@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-6-p1
+    type: simple
+    text: 令第四十一条の五第二項の旅費（同条第一項第二号に規定するものに限る。）及び通訳料（法第二十三条の十六第二項第七号の職員に同行する通訳人に係るものに限る。）の額に相当する額は、会計法（昭和二十二年法律第三十五号）その他の会計に関する法令に規定する手続に従い締結した旅費及び通訳料（以下この条において「旅費等」という。）に係る契約に基づき支払うべき旅費等の額により計算するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-6-p2
+    type: simple
+    text: 令第四十一条の五第二項の旅費（同条第一項第二号に規定するものに限る。）及び通訳料（法第二十三条の十六第五項の規定により機構に同条第二項第七号の検査を行わせる場合における機構の職員に同行する通訳人に係るものに限る。）の額に相当する額は、会計法その他の会計に関する法令に規定する手続の例に従い締結した旅費等に係る契約に基づき支払うべき旅費等の額により計算するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

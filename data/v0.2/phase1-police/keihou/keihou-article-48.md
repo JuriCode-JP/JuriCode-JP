@@ -52,11 +52,8 @@ parent_section:
 
 ### 第四十八条第一項
 
-<!-- segment: honbun id: keihou-art-48-p1-honbun -->
-罰金と他の刑とは、併科する。<!-- segment: tadashi id: keihou-art-48-p1-tadashi -->
-ただし、第四十六条第一項の場合は、この限りでない。
+罰金と他の刑とは、併科する。ただし、第四十六条第一項の場合は、この限りでない。
 
 ### 第四十八条第二項
 
-<!-- segment: simple id: keihou-art-48-p2 -->
 併合罪のうちの二個以上の罪について罰金に処するときは、それぞれの罪について定めた罰金の多額の合計以下で処断する。

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-14-p1
+    type: simple
+    text: 厚生労働大臣が法第二十三条の三十二の二第八項の規定により機構に同条第一項の確認を行わせることとしたときは、令第四十三条の三十五に規定する再生医療等製品に係る法第二十三条の三十二の二第一項の確認の申請者は、機構に当該確認の申請をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-14-p2
+    type: simple
+    text: 前項の申請は、様式第七十五の十四の九による申請書を当該申請に係る品目の法第二十三条の三十二の二第一項の確認の申請書に添付して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

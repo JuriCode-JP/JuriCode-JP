@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-6-p1
+    type: simple
+    text: 都道府県知事は、登録販売者試験に合格した者に、当該試験に合格したことを通知するとともに、合格した者の受験番号を公示する。
+    modality: tetsuduki
 cases: []
 amendments: []
 tags:

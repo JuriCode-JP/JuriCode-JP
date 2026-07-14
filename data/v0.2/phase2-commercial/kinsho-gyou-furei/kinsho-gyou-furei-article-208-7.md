@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-7-p1-zen
+    type: zen_dan
+    text: 第二百八条の三第一項の規定は令第十七条の二の三第二項に規定する内閣府令で定めるものについて、第二百八条の三第二項から第四項までの規定は親会社が外国会社である特別金融商品取引業者が令第十七条の二の三第二項ただし書の承認を受けようとする場合について、それぞれ準用する。
+    modality: unspecified
+  - id: kinsho-gyou-furei-art-208-7-p1-kou
+    type: kou_dan
+    text: この場合において、第二百八条の三第二項第五号中「同じ。）」とあるのは「同じ。）以後親会社があることとなった日」と、同条第四項中「届出日」とあるのは「届出日以後親会社があることとなった日」と読み替えるものとする。
+    modality: gimu
+    depends_on: kinsho-gyou-furei-art-208-7-p1-zen
 cases: []
 amendments: []
 tags:

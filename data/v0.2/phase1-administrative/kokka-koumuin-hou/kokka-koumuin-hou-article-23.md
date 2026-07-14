@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十三条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-23-p1 -->
 人事院は、この法律の目的達成上、法令の制定又は改廃に関し意見があるときは、その意見を国会及び内閣に同時に申し出なければならない。

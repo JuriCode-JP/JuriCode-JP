@@ -50,10 +50,8 @@ parent_section:
 
 ### 第十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-14-p1 -->
 裁判所は、管轄権を有しないときでも、急速を要する場合には、事実発見のため必要な処分をすることができる。
 
 ### 第十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-14-p2 -->
 前項の規定は、受命裁判官にこれを準用する。

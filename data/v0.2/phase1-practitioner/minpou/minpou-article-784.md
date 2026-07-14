@@ -45,6 +45,4 @@ parent_section:
 
 ### 第七百八十四条
 
-<!-- segment: honbun id: minpou-art-784-p1-honbun -->
-認知は、出生の時にさかのぼってその効力を生ずる。<!-- segment: tadashi id: minpou-art-784-p1-tadashi -->
-ただし、第三者が既に取得した権利を害することはできない。
+認知は、出生の時にさかのぼってその効力を生ずる。ただし、第三者が既に取得した権利を害することはできない。

@@ -52,13 +52,28 @@ paragraphs:
     modality: gimu
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-963-p5
     type: simple
     text: 第九百六十条第一項第三号から第七号までに掲げる者が、次のいずれかに該当する場合にも、第一項と同様とする。
     modality: gimu
+  - id: kaisha-hou-art-963-p5-kou-1
+    type: kou
+    text: 一　何人の名義をもってするかを問わず、株式会社の計算において不正にその株式を取得したとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-963-p5-kou-2
+    type: kou
+    text: 二　法令又は定款の規定に違反して、剰余金の配当をしたとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-963-p5-kou-3
+    type: kou
+    text: 三　株式会社の目的の範囲外において、投機取引のために株式会社の財産を処分したとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -75,25 +90,26 @@ parent_section:
 
 ### 第九百六十三条第一項
 
-<!-- segment: simple id: kaisha-hou-art-963-p1 -->
 第九百六十条第一項第一号又は第二号に掲げる者が、第三十四条第一項若しくは第六十三条第一項の規定による払込み若しくは給付について、又は第二十八条各号に掲げる事項について、裁判所又は創立総会若しくは種類創立総会に対し、虚偽の申述を行い、又は事実を隠蔽したときは、五年以下の拘禁刑若しくは五百万円以下の罰金に処し、又はこれを併科する。
 
 ### 第九百六十三条第二項
 
-<!-- segment: simple id: kaisha-hou-art-963-p2 -->
 第九百六十条第一項第三号から第五号までに掲げる者が、第百九十九条第一項第三号又は第二百三十六条第一項第三号に掲げる事項について、裁判所又は株主総会若しくは種類株主総会に対し、虚偽の申述を行い、又は事実を隠蔽したときも、前項と同様とする。
 
 ### 第九百六十三条第三項
 
-<!-- segment: simple id: kaisha-hou-art-963-p3 -->
 検査役が、第二十八条各号、第百九十九条第一項第三号又は第二百三十六条第一項第三号に掲げる事項について、裁判所に対し、虚偽の申述を行い、又は事実を隠蔽したときも、第一項と同様とする。
 
 ### 第九百六十三条第四項
 
-<!-- segment: simple id: kaisha-hou-art-963-p4 -->
 第九十四条第一項の規定により選任された者が、第三十四条第一項若しくは第六十三条第一項の規定による払込み若しくは給付について、又は第二十八条各号に掲げる事項について、創立総会に対し、虚偽の申述を行い、又は事実を隠蔽したときも、第一項と同様とする。
 
 ### 第九百六十三条第五項
 
-<!-- segment: simple id: kaisha-hou-art-963-p5 -->
 第九百六十条第一項第三号から第七号までに掲げる者が、次のいずれかに該当する場合にも、第一項と同様とする。
+
+一　何人の名義をもってするかを問わず、株式会社の計算において不正にその株式を取得したとき。
+
+二　法令又は定款の規定に違反して、剰余金の配当をしたとき。
+
+三　株式会社の目的の範囲外において、投機取引のために株式会社の財産を処分したとき。

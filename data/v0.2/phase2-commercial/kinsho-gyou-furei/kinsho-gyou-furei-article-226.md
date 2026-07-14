@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百二十六条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-226-p1 -->
 法第六十条の六において準用する法第四十六条の三第一項に規定する事業報告書は、別紙様式第十九号により作成しなければならない。

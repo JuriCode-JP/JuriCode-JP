@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-11-p1
+    type: simple
+    text: 監督者が選任されている場合において、第九十六条第一項（第一号、第二号及び第五号（第九十五条の四第二項の規定による出頭をしなかつたことにより適用される場合に限る。）に係る部分に限る。）の規定により保釈又は勾留の執行停止を取り消すときは、裁判所は、決定で、監督保証金の全部又は一部を没取することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

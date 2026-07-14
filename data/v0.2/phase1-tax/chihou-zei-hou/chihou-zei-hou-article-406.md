@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 固定資産評価員は、次に掲げる職を兼ねることができない。
     modality: kanou_negative
+  - id: chihou-zei-hou-art-406-p1-kou-1
+    type: kou
+    text: 一　国会議員及び地方団体の議会の議員
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-406-p1-kou-2
+    type: kou
+    text: 二　農業委員会の委員
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-406-p1-kou-3
+    type: kou
+    text: 三　固定資産評価審査委員会の委員
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第四百六条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-art-406-p1-hashira -->
 固定資産評価員は、次に掲げる職を兼ねることができない。
+
+一　国会議員及び地方団体の議会の議員
+
+二　農業委員会の委員
+
+三　固定資産評価審査委員会の委員
 
 ### 第四百六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-406-p2 -->
 固定資産評価員は、当該市町村に対して請負をし、又は当該市町村において経費を負担する事業について当該市町村の長若しくは当該市町村の長の委任を受けた者に対して請負をする者及びその支配人又は主として同一の行為をする法人の無限責任社員、取締役、執行役若しくは監査役又はこれらに準ずべき者、支配人及び清算人であることができない。

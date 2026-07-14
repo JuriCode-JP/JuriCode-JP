@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-6-p1-honbun
+    type: honbun
+    text: 認可地縁団体の代表者は、認可地縁団体のすべての事務について、認可地縁団体を代表する。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-260-6-p1-tadashi
+    type: tadashi
+    text: ただし、規約の規定に反することはできず、また、総会の決議に従わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

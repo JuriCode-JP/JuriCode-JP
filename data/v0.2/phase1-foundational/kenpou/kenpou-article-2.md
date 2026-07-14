@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: kenpou-art-2-p1 -->
 皇位は、世襲のものであつて、国会の議決した皇室典範の定めるところにより、これを継承する。

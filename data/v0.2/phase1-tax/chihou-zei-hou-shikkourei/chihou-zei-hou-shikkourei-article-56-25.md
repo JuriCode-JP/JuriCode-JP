@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十六条の二十五
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-25-p1 -->
 法第七百一条の三十四第三項第四号に規定する公衆浴場で政令で定めるものは、物価統制令第四条の規定に基づき道府県知事が入浴料金を定める公衆浴場とする。

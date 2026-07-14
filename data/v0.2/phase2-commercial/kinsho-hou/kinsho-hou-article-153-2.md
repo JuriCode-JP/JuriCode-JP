@@ -14,9 +14,25 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-153-2-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、第八十五条第一項の認可を受けて委託された自主規制業務が次の各号のいずれかに該当するときは、委託金融商品取引所に対し、同項の認可を取り消し、その委託の方法の変更若しくはその委託の一部若しくは全部の禁止を命じ、又はその他監督上必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: kinsho-hou-art-153-2-p1-kou-1
+    type: kou
+    text: 一　委託契約の内容が、受託自主規制法人における自主規制業務の適正な実施を確保するためには不十分であると認めるに至つた場合
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-153-2-p1-kou-2
+    type: kou
+    text: 二　その他受託自主規制法人による自主規制業務が、自主規制業務の履行の状況として適当と認められない場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +52,7 @@ parent_section:
 ### 第百五十三条の二
 
 内閣総理大臣は、第八十五条第一項の認可を受けて委託された自主規制業務が次の各号のいずれかに該当するときは、委託金融商品取引所に対し、同項の認可を取り消し、その委託の方法の変更若しくはその委託の一部若しくは全部の禁止を命じ、又はその他監督上必要な措置をとることを命ずることができる。
+
+一　委託契約の内容が、受託自主規制法人における自主規制業務の適正な実施を確保するためには不十分であると認めるに至つた場合
+
+二　その他受託自主規制法人による自主規制業務が、自主規制業務の履行の状況として適当と認められない場合

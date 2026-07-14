@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十七条
 
-<!-- segment: simple id: keihou-art-67-p1 -->
 法律上刑を加重し、又は減軽する場合であっても、酌量減軽をすることができる。

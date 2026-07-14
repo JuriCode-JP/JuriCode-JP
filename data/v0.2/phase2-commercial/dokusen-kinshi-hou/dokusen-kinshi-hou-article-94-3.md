@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-94-3-p1
+    type: simple
+    text: 秘密保持命令に違反した者は、五年以下の拘禁刑若しくは五百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-94-3-p2
+    type: simple
+    text: 前項の罪は、告訴がなければ公訴を提起することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-94-3-p3
+    type: simple
+    text: 第一項の罪は、日本国外において同項の罪を犯した者にも適用する。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

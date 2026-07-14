@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 株式会社の定款には、次に掲げる事項を記載し、又は記録しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-27-p1-kou-1
+    type: kou
+    text: 一　目的
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-27-p1-kou-2
+    type: kou
+    text: 二　商号
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-27-p1-kou-3
+    type: kou
+    text: 三　本店の所在地
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-27-p1-kou-4
+    type: kou
+    text: 四　設立に際して出資される財産の価額又はその最低額
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-27-p1-kou-5
+    type: kou
+    text: 五　発起人の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -41,5 +66,14 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: hashira id: kaisha-hou-art-27-p1-hashira -->
 株式会社の定款には、次に掲げる事項を記載し、又は記録しなければならない。
+
+一　目的
+
+二　商号
+
+三　本店の所在地
+
+四　設立に際して出資される財産の価額又はその最低額
+
+五　発起人の氏名又は名称及び住所

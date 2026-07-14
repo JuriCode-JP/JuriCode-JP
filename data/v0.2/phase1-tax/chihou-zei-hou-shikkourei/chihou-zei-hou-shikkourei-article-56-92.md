@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十六条の九十二
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-92-p1 -->
 法第七百三十三条の二第三号に規定する政令で定める給付は、労働基準法又は船員法の規定によつて給付を受ける災害補償とする。

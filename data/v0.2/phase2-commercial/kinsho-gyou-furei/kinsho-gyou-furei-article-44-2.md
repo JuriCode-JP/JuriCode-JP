@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-44-2-p1
+    type: simple
+    text: 法第三十三条の八第一項の規定により読み替えて適用する法第三十三条の三第一項に規定する内閣府令で定める事項は、投資運用関係業務を投資運用関係業務受託業者に委託する場合において、法第三十三条の八第一項の規定により読み替えて適用する法第三十三条の五第一項第三号イただし書に定めるその業務の監督を適切に行う能力を有する役員又は使用人を確保するときは、その旨及び当該役員又は使用人の氏名又は名称とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

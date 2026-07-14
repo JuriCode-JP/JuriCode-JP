@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-10-p1 -->
 国は、個人情報の取扱いに関し事業者と本人との間に生じた苦情の適切かつ迅速な処理を図るために必要な措置を講ずるものとする。

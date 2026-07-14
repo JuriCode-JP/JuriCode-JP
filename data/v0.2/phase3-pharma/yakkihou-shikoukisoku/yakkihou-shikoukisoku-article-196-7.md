@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-7-p1-honbun
+    type: honbun
+    text: 再生医療等製品の販売業者は、再生医療等製品営業所管理者が再生医療等製品の適切な管理のために必要と認める再生医療等製品の試験検査を、再生医療等製品営業所管理者に行わせなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-196-7-p1-tadashi
+    type: tadashi
+    text: ただし、当該再生医療等製品の営業所の設備及び器具を用いて試験検査を行うことが困難であると再生医療等製品営業所管理者が認めた場合には、再生医療等製品の販売業者は、当該販売業者の他の試験検査設備又は登録試験検査機関を利用して試験検査を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-7-p2
+    type: simple
+    text: 再生医療等製品の販売業者は、前項ただし書により試験検査を行つた場合は、再生医療等製品営業所管理者に試験検査の結果を確認させなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

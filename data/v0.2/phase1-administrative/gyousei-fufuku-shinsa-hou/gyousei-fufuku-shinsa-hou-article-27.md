@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-27-p1 -->
 審査請求人は、裁決があるまでは、いつでも審査請求を取り下げることができる。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-27-p2 -->
 審査請求の取下げは、書面でしなければならない。

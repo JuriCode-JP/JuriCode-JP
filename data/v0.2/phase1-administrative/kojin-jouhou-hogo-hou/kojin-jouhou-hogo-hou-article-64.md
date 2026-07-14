@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十四条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-64-p1 -->
 行政機関の長等は、偽りその他不正の手段により個人情報を取得してはならない。

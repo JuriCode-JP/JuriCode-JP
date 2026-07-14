@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合には、保険者は、その事実が生じた時以後に発生した事故によって生じた損害を塡補する責任を負わない。ただし、当該事実が当該事故の発生に影響を及ぼさなかったとき、又は保険契約者若しくは被保険者の責めに帰することができない事由によるものであるときは、この限りでない。
     modality: jogai
+  - id: shouhou-art-823-p1-kou-1
+    type: kou
+    text: 一　被保険者が発航又は航海の継続を怠ったとき。
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-823-p1-kou-2
+    type: kou
+    text: 二　被保険者が航路を変更したとき。
+    modality: unspecified
+    item_number: 2
+  - id: shouhou-art-823-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののほか、保険契約者又は被保険者が危険を著しく増加させたとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第八百二十三条
 
-<!-- segment: hashira id: shouhou-art-823-p1-hashira -->
 次に掲げる場合には、保険者は、その事実が生じた時以後に発生した事故によって生じた損害を塡補する責任を負わない。ただし、当該事実が当該事故の発生に影響を及ぼさなかったとき、又は保険契約者若しくは被保険者の責めに帰することができない事由によるものであるときは、この限りでない。
+
+一　被保険者が発航又は航海の継続を怠ったとき。
+
+二　被保険者が航路を変更したとき。
+
+三　前二号に掲げるもののほか、保険契約者又は被保険者が危険を著しく増加させたとき。

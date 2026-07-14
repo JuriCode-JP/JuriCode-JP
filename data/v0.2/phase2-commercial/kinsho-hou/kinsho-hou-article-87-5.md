@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-87-5-p1
+    type: simple
+    text: 金融商品取引所の役員は、二以上の金融商品取引所の役員の地位を占めてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

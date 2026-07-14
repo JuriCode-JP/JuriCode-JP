@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-105-p1 -->
 職員は、職員としては、法律、命令、規則又は指令による職務を担当する以外の義務を負わない。

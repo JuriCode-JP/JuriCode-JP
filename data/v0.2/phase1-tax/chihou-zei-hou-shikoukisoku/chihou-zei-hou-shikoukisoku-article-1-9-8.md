@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-8-p1-hashira
+    type: hashira
+    text: 法第二十三条第一項第十二号ハ及び第二百九十二条第一項第十二号ハに規定する総務省令で定める者は、次の各号に掲げる場合の区分に応じ当該各号に定める者とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-8-p1-kou-1
+    type: kou
+    text: 一　その者が住民票に世帯主と記載されている者である場合　その者と同一の世帯に属する者の住民票に世帯主との続柄が世帯主の未届の夫又は未届の妻である旨その他の世帯主と事実上婚姻関係と同様の事情にあると認められる続柄である旨の記載がされた者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-1-9-8-p1-kou-2
+    type: kou
+    text: 二　その者が住民票に世帯主と記載されている者でない場合　その者の住民票に世帯主との続柄が世帯主の未届の夫又は未届の妻である旨その他の世帯主と事実上婚姻関係と同様の事情にあると認められる続柄である旨の記載がされているときのその世帯主
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -31,3 +45,7 @@ tags:
 ### 第一条の九の八
 
 法第二十三条第一項第十二号ハ及び第二百九十二条第一項第十二号ハに規定する総務省令で定める者は、次の各号に掲げる場合の区分に応じ当該各号に定める者とする。
+
+一　その者が住民票に世帯主と記載されている者である場合　その者と同一の世帯に属する者の住民票に世帯主との続柄が世帯主の未届の夫又は未届の妻である旨その他の世帯主と事実上婚姻関係と同様の事情にあると認められる続柄である旨の記載がされた者
+
+二　その者が住民票に世帯主と記載されている者でない場合　その者の住民票に世帯主との続柄が世帯主の未届の夫又は未届の妻である旨その他の世帯主と事実上婚姻関係と同様の事情にあると認められる続柄である旨の記載がされているときのその世帯主

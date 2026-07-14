@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 権限の定めのない代理人は、次に掲げる行為のみをする権限を有する。
     modality: unspecified
+  - id: minpou-art-103-p1-kou-1
+    type: kou
+    text: 一　保存行為
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-103-p1-kou-2
+    type: kou
+    text: 二　代理の目的である物又は権利の性質を変えない範囲内において、その利用又は改良を目的とする行為
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第百三条
 
-<!-- segment: hashira id: minpou-art-103-p1-hashira -->
 権限の定めのない代理人は、次に掲げる行為のみをする権限を有する。
+
+一　保存行為
+
+二　代理の目的である物又は権利の性質を変えない範囲内において、その利用又は改良を目的とする行為

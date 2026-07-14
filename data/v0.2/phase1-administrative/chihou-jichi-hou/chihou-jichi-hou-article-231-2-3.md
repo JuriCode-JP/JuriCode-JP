@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-3-p1
+    type: simple
+    text: 歳入等の納付に関する事務（以下「納付事務」という。）を適切かつ確実に遂行することができる者として政令で定める者のうち普通地方公共団体の長が総務省令で定めるところにより指定するもの（以下「指定納付受託者」という。）は、総務省令で定めるところにより、歳入等を納付しようとする者の委託を受けて、納付事務を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-3-p2
+    type: simple
+    text: 普通地方公共団体の長は、前項の規定による指定をしたときは、指定納付受託者の名称、住所又は事務所の所在地、指定納付受託者が行う納付事務に係る歳入等その他総務省令で定める事項を告示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-3-p3
+    type: simple
+    text: 指定納付受託者は、その名称、住所又は事務所の所在地を変更しようとするときは、総務省令で定めるところにより、あらかじめ、その旨を普通地方公共団体の長に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-3-p4
+    type: simple
+    text: 普通地方公共団体の長は、前項の規定による届出があつたときは、当該届出に係る事項を告示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-3-p1
+    type: tokusoku
+    text: 外国指定高度管理医療機器製造等事業者が第二十三条の二の二十三第一項の認証を受けた場合にあつては、その選任する指定高度管理医療機器等の製造販売業者は、同項の規定にかかわらず、当該認証に係る品目の製造販売をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-3-p2
+    type: simple
+    text: 外国指定高度管理医療機器製造等事業者は、前項の規定により選任した製造販売業者を変更したとき、又は選任した製造販売業者の氏名若しくは名称その他厚生労働省令で定める事項に変更があつたときは、三十日以内に当該認証をした登録認証機関に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

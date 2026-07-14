@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-42-2-3-p1
+    type: simple
+    text: 法第七十五条に規定する建築後使用されたことのある住宅用家屋のうち政令で定めるものは、第四十二条第一項に規定する家屋とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-42-2-3-p2
+    type: junyou
+    text: 第四十二条第二項の規定は、前項の規定の適用について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

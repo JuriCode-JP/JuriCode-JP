@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 社債管理者は、社債権者集会の決議によらなければ、次に掲げる行為をしてはならない。ただし、第二号に掲げる行為については、第六百七十六条第八号に掲げる事項についての定めがあるときは、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-706-p1-kou-1
+    type: kou
+    text: 一　当該社債の全部についてするその支払の猶予、その債務若しくはその債務の不履行によって生じた責任の免除又は和解（次号に掲げる行為を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-706-p1-kou-2
+    type: kou
+    text: 二　当該社債の全部についてする訴訟行為又は破産手続、再生手続、更生手続若しくは特別清算に関する手続に属する行為（前条第一項の行為を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -75,21 +85,20 @@ parent_section:
 
 ### 第七百六条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-706-p1-hashira -->
 社債管理者は、社債権者集会の決議によらなければ、次に掲げる行為をしてはならない。ただし、第二号に掲げる行為については、第六百七十六条第八号に掲げる事項についての定めがあるときは、この限りでない。
+
+一　当該社債の全部についてするその支払の猶予、その債務若しくはその債務の不履行によって生じた責任の免除又は和解（次号に掲げる行為を除く。）
+
+二　当該社債の全部についてする訴訟行為又は破産手続、再生手続、更生手続若しくは特別清算に関する手続に属する行為（前条第一項の行為を除く。）
 
 ### 第七百六条第二項
 
-<!-- segment: simple id: kaisha-hou-art-706-p2 -->
 社債管理者は、前項ただし書の規定により社債権者集会の決議によらずに同項第二号に掲げる行為をしたときは、遅滞なく、その旨を公告し、かつ、知れている社債権者には、各別にこれを通知しなければならない。
 
 ### 第七百六条第三項
 
-<!-- segment: honbun id: kaisha-hou-art-706-p3-honbun -->
-前項の規定による公告は、社債発行会社における公告の方法によりしなければならない。<!-- segment: tadashi id: kaisha-hou-art-706-p3-tadashi -->
-ただし、その方法が電子公告であるときは、その公告は、官報に掲載する方法でしなければならない。
+前項の規定による公告は、社債発行会社における公告の方法によりしなければならない。ただし、その方法が電子公告であるときは、その公告は、官報に掲載する方法でしなければならない。
 
 ### 第七百六条第四項
 
-<!-- segment: simple id: kaisha-hou-art-706-p4 -->
 社債管理者は、その管理の委託を受けた社債につき第一項各号に掲げる行為をするために必要があるときは、裁判所の許可を得て、社債発行会社の業務及び財産の状況を調査することができる。

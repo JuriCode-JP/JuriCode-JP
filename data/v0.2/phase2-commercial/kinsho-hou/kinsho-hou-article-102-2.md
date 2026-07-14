@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-2-p1
+    type: simple
+    text: 自主規制法人は、法人とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-2-p2
+    type: simple
+    text: 自主規制法人は、その名称のうちに自主規制法人という文字を用いなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-2-p3
+    type: simple
+    text: 自主規制法人でない者は、その名称のうちに自主規制法人であると誤認されるおそれのある文字を用いてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

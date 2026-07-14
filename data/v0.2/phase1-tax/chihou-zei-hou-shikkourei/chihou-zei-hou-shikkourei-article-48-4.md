@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十八条の四第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-4-p1 -->
 法第三百十三条第十項に規定するたな卸をすべきものとして政令で定める資産は、第七条の十各号に掲げる資産とする。
 
 ### 第四十八条の四第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-4-p2 -->
 法第三百十三条第十項に規定する固定資産に準ずる資産で政令で定めるものは、第七条の十の二に規定する資産とする。

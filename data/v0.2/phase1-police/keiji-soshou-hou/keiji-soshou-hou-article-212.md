@@ -23,13 +23,33 @@ paragraphs:
     modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-212-p2
     type: simple
     text: 左の各号の一にあたる者が、罪を行い終つてから間がないと明らかに認められるときは、これを現行犯人とみなす。
     modality: unspecified
+  - id: keiji-soshou-hou-art-212-p2-kou-1
+    type: kou
+    text: 一　犯人として追呼されているとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-212-p2-kou-2
+    type: kou
+    text: 二　贓物又は明らかに犯罪の用に供したと思われる兇器その他の物を所持しているとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-212-p2-kou-3
+    type: kou
+    text: 三　身体又は被服に犯罪の顕著な証跡があるとき。
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-212-p2-kou-4
+    type: kou
+    text: 四　誰何されて逃走しようとするとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -48,10 +68,16 @@ parent_section:
 
 ### 第二百十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-212-p1 -->
 現に罪を行い、又は現に罪を行い終つた者を現行犯人とする。
 
 ### 第二百十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-212-p2 -->
 左の各号の一にあたる者が、罪を行い終つてから間がないと明らかに認められるときは、これを現行犯人とみなす。
+
+一　犯人として追呼されているとき。
+
+二　贓物又は明らかに犯罪の用に供したと思われる兇器その他の物を所持しているとき。
+
+三　身体又は被服に犯罪の顕著な証跡があるとき。
+
+四　誰何されて逃走しようとするとき。

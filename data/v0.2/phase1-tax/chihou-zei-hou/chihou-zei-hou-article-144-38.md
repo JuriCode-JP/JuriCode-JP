@@ -14,29 +14,65 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-p1-hashira
+    type: hashira
+    text: 総務大臣は、軽油引取税の徴収について適正な運営を図るため必要があると認める場合においては、その指定する職員（以下この条から第百四十四条の三十九までにおいて「総務省指定職員」という。）をして、次に掲げる者に質問させ、又はこれらの者の事業に関する帳簿書類その他の物件を検査させ、若しくは当該物件（その写しを含む。）の提示若しくは提出を求めさせることができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-144-38-p1-kou-1
+    type: kou
+    text: 一　元売業者又は元売業者の指定の申請を行つた者その他第百四十四条の七第一項各号に該当すると認められる者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-144-38-p1-kou-2
+    type: kou
+    text: 二　前号の者から軽油その他の石油製品の引取りを行う者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-p2
+    type: simple
+    text: 前項の場合においては、当該総務省指定職員は、軽油その他の石油製品について必要最少限度の数量を見本品として採取することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-p3
+    type: simple
+    text: 前二項の場合においては、当該総務省指定職員は、その身分を証明する証票を携帯し、関係人の請求があつたときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-p4
+    type: simple
+    text: 総務省指定職員は、政令で定めるところにより、第一項の規定により提出を受けた物件を留め置くことができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-p5
+    type: simple
+    text: 第一項、第二項又は前項に規定する総務省指定職員の権限は、犯罪捜査のために認められたものと解釈してはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -58,6 +94,10 @@ parent_section:
 ### 第百四十四条の三十八第一項
 
 総務大臣は、軽油引取税の徴収について適正な運営を図るため必要があると認める場合においては、その指定する職員（以下この条から第百四十四条の三十九までにおいて「総務省指定職員」という。）をして、次に掲げる者に質問させ、又はこれらの者の事業に関する帳簿書類その他の物件を検査させ、若しくは当該物件（その写しを含む。）の提示若しくは提出を求めさせることができる。
+
+一　元売業者又は元売業者の指定の申請を行つた者その他第百四十四条の七第一項各号に該当すると認められる者
+
+二　前号の者から軽油その他の石油製品の引取りを行う者
 
 ### 第百四十四条の三十八第二項
 

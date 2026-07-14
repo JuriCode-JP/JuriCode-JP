@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-10-p1
+    type: simple
+    text: 前条の臨時選挙管理委員に対する給与は、当該普通地方公共団体の選挙管理委員に対する給与の例によりこれを定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

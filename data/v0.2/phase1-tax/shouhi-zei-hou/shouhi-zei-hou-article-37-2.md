@@ -16,42 +16,105 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p1-zen
+    type: zen_dan
+    text: 災害その他やむを得ない理由が生じたことにより被害を受けた事業者（第九条第一項本文の規定により消費税を納める義務が免除される事業者及び前条第一項の規定の適用を受ける事業者を除く。）が、当該被害を受けたことにより、当該災害その他やむを得ない理由の生じた日の属する課税期間（その基準期間における課税売上高が五千万円を超える課税期間及び分割等に係る課税期間を除く。以下この項、次項及び第五項において「選択被災課税期間」という。）につき同条第一項の規定の適用を受けることが必要となつた場合において、当該選択被災課税期間につき同項の規定の適用を受けることについてその納税地を所轄する税務署長の承認を受けたときは、当該事業者は同項の規定による届出書を当該承認を受けた選択被災課税期間の初日の前日に当該税務署長に提出したものとみなす。
+    modality: unspecified
+    references:
+    - 次項
+    - 前条
+    - 同項
+  - id: shouhi-zei-hou-art-37-2-p1-kou
+    type: kou_dan
+    text: この場合においては、同条第三項の規定は、適用しない。
+    modality: jogai
+    depends_on: shouhi-zei-hou-art-37-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p2
+    type: simple
+    text: 前項の承認を受けようとする事業者は、前条第一項の規定の適用を受けることが必要となつた事情その他財務省令で定める事項を記載した申請書を、前項に規定する災害その他やむを得ない理由のやんだ日から二月以内（当該災害その他やむを得ない理由のやんだ日がその申請に係る選択被災課税期間の末日の翌日以後に到来する場合には、当該選択被災課税期間に係る第四十五条第一項の規定による申告書の提出期限まで）に、その納税地を所轄する税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p3
+    type: simple
+    text: 税務署長は、前項の申請書の提出があつた場合において、その申請に係る同項の事情が相当でないと認めるときは、その申請を却下する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p4
+    type: simple
+    text: 税務署長は、第二項の申請書の提出があつた場合において、その申請につき承認又は却下の処分をするときは、その申請をした事業者に対し、書面によりその旨を通知する。
+    modality: tetsuduki
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p5-honbun
+    type: honbun
+    text: 第二項の申請書の提出があつた場合において、その申請に係る選択被災課税期間の末日の翌日から二月を経過する日までに承認又は却下の処分がなかつたときは、その日においてその承認があつたものとみなす。
+    modality: unspecified
+  - id: shouhi-zei-hou-art-37-2-p5-tadashi
+    type: tadashi
+    text: ただし、同項に規定する災害その他やむを得ない理由のやんだ日がその申請に係る選択被災課税期間の末日の翌日以後に到来する場合は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p6-zen
+    type: zen_dan
+    text: 災害その他やむを得ない理由が生じたことにより被害を受けた事業者（前条第一項の規定の適用を受ける事業者に限る。）が、当該被害を受けたことにより、当該災害その他やむを得ない理由の生じた日の属する課税期間（当該課税期間の翌課税期間以後の課税期間のうち政令で定める課税期間を含む。以下この項において「不適用被災課税期間」という。）につき同条第一項の規定の適用を受けることの必要がなくなつた場合において、当該不適用被災課税期間につき同項の規定の適用を受けることをやめることについてその納税地を所轄する税務署長の承認を受けたときは、当該事業者は同条第五項の規定による届出書を当該承認を受けた不適用被災課税期間の初日の前日に当該税務署長に提出したものとみなす。
+    modality: unspecified
+    references:
+    - 前条
+    - 同項
+  - id: shouhi-zei-hou-art-37-2-p6-kou
+    type: kou_dan
+    text: この場合においては、同条第六項の規定は、適用しない。
+    modality: jogai
+    depends_on: shouhi-zei-hou-art-37-2-p6-zen
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p7
+    type: junyou
+    text: 第二項から第五項までの規定は、前項の規定の適用がある場合について準用する。この場合において、第二項中「前項」とあるのは「第六項」と、「受けることが必要となつた」とあるのは「受けることの必要がなくなつた」と、「選択被災課税期間」とあるのは「不適用被災課税期間」と、第五項中「選択被災課税期間」とあるのは「不適用被災課税期間」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-37-2-p8
+    type: simple
+    text: 第一項又は第六項の承認を受けた事業者が、その承認前に第四十三条第一項各号に掲げる事項を記載した申告書を提出している場合その他の場合における第一項又は第六項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

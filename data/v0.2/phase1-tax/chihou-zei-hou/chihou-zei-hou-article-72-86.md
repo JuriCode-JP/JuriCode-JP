@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-86-p1
+    type: simple
+    text: 譲渡割の徴収については、申告納付の方法によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

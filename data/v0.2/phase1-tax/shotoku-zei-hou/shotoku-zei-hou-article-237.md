@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百三十七条
 
-<!-- segment: simple id: shotoku-zei-hou-art-237-p1 -->
 地方公共団体は、所得税の附加税を課することができない。

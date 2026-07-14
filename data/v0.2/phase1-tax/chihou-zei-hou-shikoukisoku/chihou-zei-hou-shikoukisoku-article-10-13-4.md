@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-13-4-p1
+    type: simple
+    text: 政令第五十一条の十六に規定する総務省令で定める市街地の区域は、東京都の特別区の存する区域並びに稲城市の区域、府中市の区域、国分寺市の区域、小平市の区域、東村山市の区域、所沢市の区域、さいたま市の区域、川崎市の区域、横浜市の区域及び松戸市の区域（都市計画法第七条第二項の市街化区域に限る。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

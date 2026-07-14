@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百七条
 
-<!-- segment: junyou id: shouhou-art-807-p1 -->
 この章の規定は、非航海船又は非航海船内にある積荷その他の物を救助する場合について準用する。

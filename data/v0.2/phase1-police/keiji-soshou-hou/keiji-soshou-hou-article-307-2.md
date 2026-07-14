@@ -13,20 +13,40 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-307-2-p1-honbun
+    type: honbun
+    text: 検察官、被告人又は弁護人の請求により、電磁的記録の取調べをするについては、裁判長は、証拠となる事項に応じ、その取調べを請求した者に、その内容を朗読させ、表示させ、又は再生させなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-307-2-p1-tadashi
+    type: tadashi
+    text: ただし、裁判長は、自らこれらの措置をとり、又は陪席の裁判官若しくは裁判所書記官にこれらの措置をとらせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-307-2-p2
+    type: simple
+    text: 裁判所が職権で電磁的記録の取調べをするについては、裁判長は、自ら前項に規定する措置をとり、又は陪席の裁判官若しくは裁判所書記官にこれらの措置をとらせなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-307-2-p3
+    type: junyou
+    text: 第三百五条第三項及び第四項の規定は、前二項の規定による措置について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

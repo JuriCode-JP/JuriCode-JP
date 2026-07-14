@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-267-2-p1
+    type: simple
+    text: 裁判所は、第二百六十六条第二号の決定をした場合において、同一の事件について、検察審査会法（昭和二十三年法律第百四十七号）第二条第一項第一号に規定する審査を行う検察審査会又は同法第四十一条の六第一項の起訴議決をした検察審査会（同法第四十一条の九第一項の規定により公訴の提起及びその維持に当たる者が指定された後は、その者）があるときは、これに当該決定をした旨を通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

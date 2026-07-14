@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 代理人によって占有をする場合には、占有権は、次に掲げる事由によって消滅する。
     modality: unspecified
+  - id: minpou-art-204-p1-kou-1
+    type: kou
+    text: 一　本人が代理人に占有をさせる意思を放棄したこと。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-204-p1-kou-2
+    type: kou
+    text: 二　代理人が本人に対して以後自己又は第三者のために占有物を所持する意思を表示したこと。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-204-p1-kou-3
+    type: kou
+    text: 三　代理人が占有物の所持を失ったこと。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第二百四条第一項
 
-<!-- segment: hashira id: minpou-art-204-p1-hashira -->
 代理人によって占有をする場合には、占有権は、次に掲げる事由によって消滅する。
+
+一　本人が代理人に占有をさせる意思を放棄したこと。
+
+二　代理人が本人に対して以後自己又は第三者のために占有物を所持する意思を表示したこと。
+
+三　代理人が占有物の所持を失ったこと。
 
 ### 第二百四条第二項
 
-<!-- segment: simple id: minpou-art-204-p2 -->
 占有権は、代理権の消滅のみによっては、消滅しない。

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第四十五条の二第一項に規定する届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p1-kou-1
+    type: kou
+    text: 一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p1-kou-2
+    type: kou
+    text: 二　事業年度の開始及び終了の日
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p1-kou-3
+    type: kou
+    text: 三　法第四十五条の二第一項の規定の適用を受けようとする最初の課税期間の初日及び末日の年月日
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p1-kou-4
+    type: kou
+    text: 四　その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,31 @@ paragraphs:
     type: hashira
     text: 法第四十五条の二第二項に規定する同条第一項の規定の適用を受けることをやめようとする旨の届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p2-kou-1
+    type: kou
+    text: 一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p2-kou-2
+    type: kou
+    text: 二　事業年度の開始及び終了の日
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p2-kou-3
+    type: kou
+    text: 三　法第四十五条の二第一項の規定の適用を受けることとなつた課税期間の初日及び末日の年月日
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p2-kou-4
+    type: kou
+    text: 四　法第四十五条の二第一項の規定の適用を受けることをやめようとする課税期間の初日及び末日の年月日
+    modality: unspecified
+    item_number: 4
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p2-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +84,21 @@ paragraphs:
     type: hashira
     text: 法第四十五条の二第二項に規定する事業を廃止した旨の届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p3-kou-1
+    type: kou
+    text: 一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p3-kou-2
+    type: kou
+    text: 二　事業を廃止した年月日
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-23-2-p3-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -55,15 +115,36 @@ parent_section:
 
 ### 第二十三条の二第一項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-23-2-p1-hashira -->
 法第四十五条の二第一項に規定する届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+
+二　事業年度の開始及び終了の日
+
+三　法第四十五条の二第一項の規定の適用を受けようとする最初の課税期間の初日及び末日の年月日
+
+四　その他参考となるべき事項
 
 ### 第二十三条の二第二項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-23-2-p2-hashira -->
 法第四十五条の二第二項に規定する同条第一項の規定の適用を受けることをやめようとする旨の届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+
+二　事業年度の開始及び終了の日
+
+三　法第四十五条の二第一項の規定の適用を受けることとなつた課税期間の初日及び末日の年月日
+
+四　法第四十五条の二第一項の規定の適用を受けることをやめようとする課税期間の初日及び末日の年月日
+
+五　その他参考となるべき事項
 
 ### 第二十三条の二第三項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-23-2-p3-hashira -->
 法第四十五条の二第二項に規定する事業を廃止した旨の届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+
+二　事業を廃止した年月日
+
+三　その他参考となるべき事項

@@ -57,15 +57,12 @@ parent_section:
 
 ### 第七百七十三条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-773-p1 -->
 理事長及び監事は、代表者会議が任命する。
 
 ### 第七百七十三条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-773-p2 -->
 副理事長及び理事は、理事長が代表者会議の同意を得て任命する。
 
 ### 第七百七十三条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-773-p3 -->
 代表者会議又は理事長が役員を任命したときは、遅滞なく、その氏名及び住所を総務大臣に届け出なければならない。

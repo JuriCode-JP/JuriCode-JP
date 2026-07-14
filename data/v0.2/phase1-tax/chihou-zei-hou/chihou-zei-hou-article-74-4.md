@@ -16,22 +16,60 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-4-p1
+    type: simple
+    text: たばこ税の課税標準は、第七十四条の二第一項の売渡し又は同条第二項の売渡し若しくは消費等（第三項第二号イにおいて「売渡し等」という。）に係る製造たばこの本数とする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-4-p2-honbun
+    type: honbun
+    text: 前項の製造たばこ（加熱式たばこを除く。）の本数は、紙巻たばこの本数によるものとし、次の表の上欄に掲げる製造たばこの本数の算定については、同欄の区分に応じ、それぞれ同表の下欄に定める重量をもつて紙巻たばこの一本に換算するものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-74-4-p2-tadashi
+    type: tadashi
+    text: ただし、一本当たりの重量が一グラム未満の葉巻たばこの本数の算定については、当該葉巻たばこの一本をもつて紙巻たばこの一本に換算するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-4-p3-hashira
+    type: hashira
+    text: 加熱式たばこに係る第一項の製造たばこの本数は、次に掲げる方法により換算した紙巻たばこの本数の合計数によるものとする。
+    modality: gimu
+  - id: chihou-zei-hou-art-74-4-p3-kou-1
+    type: kou
+    text: 一　加熱式たばこの重量（フィルターその他の総務省令で定めるものに係る部分の重量を除く。）の〇・四グラムをもつて紙巻たばこの〇・五本に換算する方法
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-74-4-p3-kou-2
+    type: kou
+    text: '二　次に掲げる加熱式たばこの区分に応じ、それぞれ次に定める金額の紙巻たばこの一本の金額に相当する金額として政令で定めるところにより計算した金額をもつて紙巻たばこの〇・五本に換算する方法
+
+      イ　売渡し等の時における小売定価（たばこ事業法第三十三条第一項又は第二項の認可を受けた小売定価をいう。）が定められている加熱式たばこ　当該小売定価に相当する金額（消費税法の規定により課されるべき消費税に相当する金額及び第三節の規定により課されるべき地方消費税に相当する金額を除く。）
+
+      ロ　イに掲げるもの以外の加熱式たばこ　たばこ税法（昭和五十九年法律第七十二号）第十条第三項第二号ロ及び第四項の規定の例により算定した金額'
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-4-p4
+    type: simple
+    text: 前二項に定めるもののほか、これらの規定により重量又は金額を本数に換算する場合の計算その他これらの規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:
@@ -70,6 +108,14 @@ parent_section:
 ### 第七十四条の四第三項
 
 加熱式たばこに係る第一項の製造たばこの本数は、次に掲げる方法により換算した紙巻たばこの本数の合計数によるものとする。
+
+一　加熱式たばこの重量（フィルターその他の総務省令で定めるものに係る部分の重量を除く。）の〇・四グラムをもつて紙巻たばこの〇・五本に換算する方法
+
+二　次に掲げる加熱式たばこの区分に応じ、それぞれ次に定める金額の紙巻たばこの一本の金額に相当する金額として政令で定めるところにより計算した金額をもつて紙巻たばこの〇・五本に換算する方法
+
+　イ　売渡し等の時における小売定価（たばこ事業法第三十三条第一項又は第二項の認可を受けた小売定価をいう。）が定められている加熱式たばこ　当該小売定価に相当する金額（消費税法の規定により課されるべき消費税に相当する金額及び第三節の規定により課されるべき地方消費税に相当する金額を除く。）
+
+　ロ　イに掲げるもの以外の加熱式たばこ　たばこ税法（昭和五十九年法律第七十二号）第十条第三項第二号ロ及び第四項の規定の例により算定した金額
 
 ### 第七十四条の四第四項
 

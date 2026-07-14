@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十八条
 
-<!-- segment: simple id: keisatsu-hou-art-58-p1 -->
 本節に定めるものの外、都道府県警察の組織は、都道府県公安委員会規則で定める。

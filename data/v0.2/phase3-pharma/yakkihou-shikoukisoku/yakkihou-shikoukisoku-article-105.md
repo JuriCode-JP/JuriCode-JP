@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第十九条の三第一項の規定により変更の届出をしなければならない事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-105-p1-kou-1
+    type: kou
+    text: 一　選任外国製造医薬品等製造販売業者の氏名又は住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-105-p1-kou-2
+    type: kou
+    text: 二　選任外国製造医薬品等製造販売業者が受けている製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,16 +73,16 @@ parent_section:
 
 ### 第百五条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-105-p1-hashira -->
 法第十九条の三第一項の規定により変更の届出をしなければならない事項は、次のとおりとする。
+
+一　選任外国製造医薬品等製造販売業者の氏名又は住所
+
+二　選任外国製造医薬品等製造販売業者が受けている製造販売業の許可の種類及び許可番号
 
 ### 第百五条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-105-p2 -->
 法第十九条の三第一項の規定による選任外国製造医薬品等製造販売業者の変更の届出及び前項の届出は、品目ごとに様式第五十四による届書（正副二通）を提出することによつて行うものとする。
 
 ### 第百五条第三項
 
-<!-- segment: honbun id: yakkihou-shikoukisoku-art-105-p3-honbun -->
-前項の届書には、選任外国製造医薬品等製造販売業者が受けている製造販売業の許可証の写しを添えなければならない。<!-- segment: tadashi id: yakkihou-shikoukisoku-art-105-p3-tadashi -->
-ただし、申請等の行為の際当該許可証の写しが厚生労働大臣に提出されている場合においては、当該届書にその旨が付記されたときは、この限りでない。
+前項の届書には、選任外国製造医薬品等製造販売業者が受けている製造販売業の許可証の写しを添えなければならない。ただし、申請等の行為の際当該許可証の写しが厚生労働大臣に提出されている場合においては、当該届書にその旨が付記されたときは、この限りでない。

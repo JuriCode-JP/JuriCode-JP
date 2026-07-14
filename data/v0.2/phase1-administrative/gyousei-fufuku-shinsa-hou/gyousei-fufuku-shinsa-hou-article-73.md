@@ -59,15 +59,12 @@ parent_section:
 
 ### 第七十三条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-73-p1 -->
 審査会の事務を処理させるため、審査会に事務局を置く。
 
 ### 第七十三条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-73-p2 -->
 事務局に、事務局長のほか、所要の職員を置く。
 
 ### 第七十三条第三項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-73-p3 -->
 事務局長は、会長の命を受けて、局務を掌理する。

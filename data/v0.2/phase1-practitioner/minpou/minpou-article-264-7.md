@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-7-p1
+    type: simple
+    text: 所有者不明土地管理人は、所有者不明土地等から裁判所が定める額の費用の前払及び報酬を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-7-p2
+    type: simple
+    text: 所有者不明土地管理人による所有者不明土地等の管理に必要な費用及び報酬は、所有者不明土地等の所有者（その共有持分を有する者を含む。）の負担とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

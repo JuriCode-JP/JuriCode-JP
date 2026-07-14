@@ -19,7 +19,7 @@ paragraphs:
   segments:
   - id: minpou-art-730-p1
     type: simple
-    text: 直系血族及び同居の親族は、互いに扶たすけ合わなければならない。
+    text: 直系血族及び同居の親族は、互いに扶け合わなければならない。
     modality: gimu
 cases: []
 amendments: []
@@ -33,11 +33,10 @@ parent_section:
   shou_name_ja: 第一章　総則
 ---
 
-# 民法 第730条(（親族間の扶たすけ合い）)
+# 民法 第730条(（親族間の扶け合い）)
 
 ## 原文 (日本語)
 
 ### 第七百三十条
 
-<!-- segment: simple id: minpou-art-730-p1 -->
-直系血族及び同居の親族は、互いに扶たすけ合わなければならない。
+直系血族及び同居の親族は、互いに扶け合わなければならない。

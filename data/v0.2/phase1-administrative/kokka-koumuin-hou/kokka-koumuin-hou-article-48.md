@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十八条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-48-p1 -->
 採用試験は、人事院規則の定めるところにより、人事院の定める試験機関が、これを行う。

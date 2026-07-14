@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-43-3-p1
+    type: simple
+    text: 金融商品取引業者等は、その行うデリバティブ取引等（有価証券関連デリバティブ取引等又は商品関連市場デリバティブ取引若しくは商品関連市場デリバティブ取引取次ぎ等に該当するものを除く。次項において同じ。）に関し、第百十九条の規定により顧客から預託を受けた金銭又は有価証券その他の保証金又は有価証券については、内閣府令で定めるところにより、自己の固有財産と区分して管理しなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-43-3-p2
+    type: simple
+    text: 金融商品取引業者等は、その行うデリバティブ取引等に関し、顧客の計算に属する金銭及び金融商品の価額に相当する財産については、内閣府令で定めるところにより、管理しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

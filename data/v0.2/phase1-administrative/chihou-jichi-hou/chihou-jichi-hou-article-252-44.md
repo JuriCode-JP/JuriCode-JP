@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-44-p1
+    type: junyou
+    text: 第二百五十二条の三十五第二項、第四項及び第五項の規定は、個別外部監査人が第二百五十二条の二十九の規定により監査することができなくなつたと認められる場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

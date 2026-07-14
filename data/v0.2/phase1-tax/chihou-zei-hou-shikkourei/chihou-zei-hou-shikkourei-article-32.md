@@ -44,6 +44,4 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: zen_dan id: chihou-zei-hou-shikkourei-art-32-p1-zen -->
-法第七十二条の三十八の二第二項の規定により担保を徴する場合には、期限を指定して、その提供を命ずるものとする。<!-- segment: kou_dan id: chihou-zei-hou-shikkourei-art-32-p1-kou depends_on: chihou-zei-hou-shikkourei-art-32-p1-zen -->
-この場合においては、第六条の十並びに第六条の十一第一項及び第二項の規定を準用する。
+法第七十二条の三十八の二第二項の規定により担保を徴する場合には、期限を指定して、その提供を命ずるものとする。この場合においては、第六条の十並びに第六条の十一第一項及び第二項の規定を準用する。

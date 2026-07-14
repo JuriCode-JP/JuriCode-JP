@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-41-p1
+    type: simple
+    text: 内閣総理大臣は、信用格付業者の業務の運営の状況に関し、公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該信用格付業者に対し、業務の方法の変更その他業務の運営の状況の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

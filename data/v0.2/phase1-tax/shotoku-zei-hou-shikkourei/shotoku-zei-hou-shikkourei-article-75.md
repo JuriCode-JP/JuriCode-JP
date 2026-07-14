@@ -23,6 +23,21 @@ paragraphs:
     modality: koka_torikeshi
     references:
     - 前条
+  - id: shotoku-zei-hou-shikkourei-art-75-p1-kou-1
+    type: kou
+    text: 一　当該特定退職金共済団体の退職金共済規程のうち第七十三条第一項各号（特定退職金共済団体の要件）に掲げる要件に係る事項について前条第五項の規定による承認を受けないで変更をしたこと。
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-75-p1-kou-2
+    type: kou
+    text: 二　当該特定退職金共済団体の退職金共済事業につき第七十三条第一項第一号、第四号、第五号、第十号又は第十一号に掲げる要件に反する事実があること。
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-75-p1-kou-3
+    type: kou
+    text: 三　当該特定退職金共済団体の全ての被共済者につき第七十三条第一項第二号、第三号又は第六号から第八号までに掲げる要件に反する事実があること。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,8 +48,8 @@ paragraphs:
     text: 税務署長は、前項の規定による承認の取消しの処分をするときは、同項の特定退職金共済団体に対し、書面によりその旨を通知する。
     modality: tetsuduki
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -73,16 +88,18 @@ parent_section:
 
 ### 第七十五条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-75-p1-hashira -->
 税務署長は、特定退職金共済団体につき次に掲げる事実があると認めるときは、前条第三項本文の規定による承認を取り消すことができる。
+
+一　当該特定退職金共済団体の退職金共済規程のうち第七十三条第一項各号（特定退職金共済団体の要件）に掲げる要件に係る事項について前条第五項の規定による承認を受けないで変更をしたこと。
+
+二　当該特定退職金共済団体の退職金共済事業につき第七十三条第一項第一号、第四号、第五号、第十号又は第十一号に掲げる要件に反する事実があること。
+
+三　当該特定退職金共済団体の全ての被共済者につき第七十三条第一項第二号、第三号又は第六号から第八号までに掲げる要件に反する事実があること。
 
 ### 第七十五条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-75-p2 -->
 税務署長は、前項の規定による承認の取消しの処分をするときは、同項の特定退職金共済団体に対し、書面によりその旨を通知する。
 
 ### 第七十五条第三項
 
-<!-- segment: zen_dan id: shotoku-zei-hou-shikkourei-art-75-p3-zen -->
-特定退職金共済団体は、その行う退職金共済事業を廃止しようとするときは、その旨、その特定退職金共済団体の名称及び所在地並びに当該退職金共済事業を廃止しようとする年月日を記載した届出書を当該廃止しようとする日までに前条第一項の税務署長に提出しなければならない。<!-- segment: kou_dan id: shotoku-zei-hou-shikkourei-art-75-p3-kou depends_on: shotoku-zei-hou-shikkourei-art-75-p3-zen -->
-この場合において、当該届出書の提出があつたときは、同日において、当該特定退職金共済団体に係る同条第三項本文の規定による承認は、その効力を失うものとする。
+特定退職金共済団体は、その行う退職金共済事業を廃止しようとするときは、その旨、その特定退職金共済団体の名称及び所在地並びに当該退職金共済事業を廃止しようとする年月日を記載した届出書を当該廃止しようとする日までに前条第一項の税務署長に提出しなければならない。この場合において、当該届出書の提出があつたときは、同日において、当該特定退職金共済団体に係る同条第三項本文の規定による承認は、その効力を失うものとする。

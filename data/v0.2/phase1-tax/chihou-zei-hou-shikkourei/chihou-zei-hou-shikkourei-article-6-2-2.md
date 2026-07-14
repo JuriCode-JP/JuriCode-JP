@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-2-2-p1
+    type: simple
+    text: 法第十一条の十第一項に規定する政令で定める額は、同項に規定する自動車等の引渡しと同時にその代金の全額の受渡しを行うものとした場合の価額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-8-3-p1
+    type: simple
+    text: 法第七十条の七の三第二項の規定により読み替えて適用する同条第一項に規定する政令で定める者は、第四十条の八第五項各号に掲げる場合の区分に応じ当該各号に定める者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

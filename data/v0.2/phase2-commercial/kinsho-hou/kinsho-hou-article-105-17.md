@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-17-p1
+    type: simple
+    text: 特定株式会社金融商品取引所の執行役、取締役、会計参与又は会計監査人が自主規制委員全員に対して自主規制委員会に報告すべき事項を通知したときは、当該事項を自主規制委員会へ報告することを要しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

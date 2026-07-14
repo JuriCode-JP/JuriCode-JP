@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-16-p1
+    type: simple
+    text: 任命権者は、職員又は職員であつた者に再就職等規制違反行為（第百六条の二から第百六条の四までの規定に違反する行為をいう。以下同じ。）を行つた疑いがあると思料するときは、その旨を委員会に報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

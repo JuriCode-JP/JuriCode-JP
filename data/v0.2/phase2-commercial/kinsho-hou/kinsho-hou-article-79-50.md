@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-50-p1
+    type: simple
+    text: 基金は、あらかじめ内閣総理大臣及び財務大臣の認可を受けて、金融商品取引業協会（認可金融商品取引業協会又は第七十八条第二項に規定する認定金融商品取引業協会をいう。次項において同じ。）又は金融商品取引業者に対し、その業務の一部を委託することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-50-p2
+    type: simple
+    text: 前項に規定する認可があつたときは、金融商品取引業協会及び金融商品取引業者は、この法律又は他の法令の規定にかかわらず、当該認可に係る業務を受託し、当該業務を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

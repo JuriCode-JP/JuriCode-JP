@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-17-p1
+    type: simple
+    text: 不動産取得税の徴収については、普通徴収の方法によらなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-17-p2
+    type: simple
+    text: 不動産取得税を徴収しようとする場合において納税者に交付すべき納税通知書は、遅くとも、その納期限前十日までに納税者に交付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

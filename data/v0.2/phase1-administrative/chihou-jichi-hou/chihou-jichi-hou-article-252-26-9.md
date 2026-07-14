@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-9-p1
+    type: simple
+    text: 普通地方公共団体の長又は委員会若しくは委員は、国民の安全に重大な影響を及ぼす事態が発生し、又は発生するおそれがある場合において、生命等の保護の措置を的確かつ迅速に講ずるため必要があると認めるときは、他の法律の規定に基づき当該生命等の保護の措置について職員の派遣のあつせんを求めることができる場合を除き、当該国民の安全に重大な影響を及ぼす事態に関係のある事務を担任する各大臣又は都道府県知事に対し、第二百五十二条の十七第一項の規定による職員の派遣についてあつせんを求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-9-p2
+    type: junyou
+    text: 第二百五十二条の十七第三項の規定は、前項の規定によりあつせんを求めようとする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-9-p3
+    type: simple
+    text: 市町村長又は市町村の委員会若しくは委員が第一項の規定により各大臣に対しあつせんを求めるときは、都道府県知事を経由してするものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

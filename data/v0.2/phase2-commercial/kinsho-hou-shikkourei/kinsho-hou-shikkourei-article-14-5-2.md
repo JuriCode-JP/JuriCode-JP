@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-5-2-p1-hashira
+    type: hashira
+    text: 法第二十七条の二十三第二項に規定する政令で定めるものは、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-1
+    type: kou
+    text: 一　株券（議決権のない株式として内閣府令で定めるものに係る株券を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-2
+    type: kou
+    text: 二　新株予約権証券及び新株予約権付社債券（新株予約権として議決権のない株式のみを取得する権利のみを付与されているものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-3
+    type: kou
+    text: 三　外国の者の発行する証券又は証書で前二号に掲げる有価証券の性質を有するもの
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-4
+    type: kou
+    text: 四　投資証券等
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-5
+    type: kou
+    text: 五　新投資口予約権証券等
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第十四条の五の二
 
 法第二十七条の二十三第二項に規定する政令で定めるものは、次に掲げるものとする。
+
+一　株券（議決権のない株式として内閣府令で定めるものに係る株券を除く。）
+
+二　新株予約権証券及び新株予約権付社債券（新株予約権として議決権のない株式のみを取得する権利のみを付与されているものを除く。）
+
+三　外国の者の発行する証券又は証書で前二号に掲げる有価証券の性質を有するもの
+
+四　投資証券等
+
+五　新投資口予約権証券等

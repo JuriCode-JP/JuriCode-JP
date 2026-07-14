@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-4-2-2-p1
+    type: simple
+    text: 政令第二十二条第八号の総務省令で定めるものは、エネルギー供給事業者によるエネルギー源の環境適合利用及び化石エネルギー原料の有効な利用の促進に関する法律施行規則（平成二十二年経済産業省令第四十三号）第四条第一項第二号に規定する非化石証書（エネルギー源の環境適合利用に関する電気事業者の判断の基準（平成二十八年経済産業省告示第百十二号）１三に規定する非化石電源としての価値を有する電気として経済産業省が認定したものの量に係るものに限る。）とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-4-2-2-p2
+    type: simple
+    text: 政令第二十二条第八号に規定する総務省令で定める場合は、電気供給業を行う法人が同号の電気の供給に応じて前項に規定する非化石証書を使用する場合とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

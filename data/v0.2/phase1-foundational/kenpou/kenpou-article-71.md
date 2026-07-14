@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七十一条
 
-<!-- segment: simple id: kenpou-art-71-p1 -->
 前二条の場合には、内閣は、あらたに内閣総理大臣が任命されるまで引き続きその職務を行ふ。

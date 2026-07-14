@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-485-14-p1
+    type: simple
+    text: 市町村は、小売販売業者に対し、当該小売販売業者に売り渡した製造たばこに係るたばこ税額として当該小売販売業者に製造たばこの売渡しを行う卸売販売業者等から当該市町村に納付された、若しくは納付されるべきたばこ税額又は納付されることが見込まれるたばこ税額の見込額が一定の額以上であることを条件として、補助金、利子補給金その他相当の反対給付を受けない給付金の交付又は貸付金の貸付けを行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

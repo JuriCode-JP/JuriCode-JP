@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百六十条
 
-<!-- segment: simple id: minpou-art-960-p1 -->
 遺言は、この法律に定める方式に従わなければ、することができない。

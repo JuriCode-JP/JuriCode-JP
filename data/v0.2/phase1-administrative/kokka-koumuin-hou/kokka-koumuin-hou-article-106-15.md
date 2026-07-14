@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-15-p1
+    type: simple
+    text: 委員会の事務を処理させるため、委員会に事務局を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-15-p2
+    type: simple
+    text: 事務局に、事務局長のほか、所要の職員を置く。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-15-p3
+    type: simple
+    text: 事務局長は、委員長の命を受けて、局務を掌理する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

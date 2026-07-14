@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-137-2-p1
+    type: simple
+    text: 法第四十三条の二第一項第二号に規定する有価証券関連業を行う金融商品取引業者であって第一種金融商品取引業を行うことにつき法第二十九条の登録を受けた者を相手方として行う取引その他の取引の相手方の特性を勘案して内閣府令で定めるものは、令第一条の八の六第一項第二号イ又はロのいずれかに該当する者を相手方として行う取引とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

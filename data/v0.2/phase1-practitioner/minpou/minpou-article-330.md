@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 同一の動産について特別の先取特権が互いに競合する場合には、その優先権の順位は、次に掲げる順序に従う。この場合において、第二号に掲げる動産の保存の先取特権について数人の保存者があるときは、後の保存者が前の保存者に優先する。
     modality: unspecified
+  - id: minpou-art-330-p1-kou-1
+    type: kou
+    text: 一　不動産の賃貸、旅館の宿泊及び運輸の先取特権
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-330-p1-kou-2
+    type: kou
+    text: 二　動産の保存の先取特権
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-330-p1-kou-3
+    type: kou
+    text: 三　動産の売買、種苗又は肥料の供給、農業の労務及び工業の労務の先取特権
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +76,18 @@ parent_section:
 
 ### 第三百三十条第一項
 
-<!-- segment: hashira id: minpou-art-330-p1-hashira -->
 同一の動産について特別の先取特権が互いに競合する場合には、その優先権の順位は、次に掲げる順序に従う。この場合において、第二号に掲げる動産の保存の先取特権について数人の保存者があるときは、後の保存者が前の保存者に優先する。
+
+一　不動産の賃貸、旅館の宿泊及び運輸の先取特権
+
+二　動産の保存の先取特権
+
+三　動産の売買、種苗又は肥料の供給、農業の労務及び工業の労務の先取特権
 
 ### 第三百三十条第二項
 
-<!-- segment: simple id: minpou-art-330-p2 -->
 前項の場合において、第一順位の先取特権者は、その債権取得の時において第二順位又は第三順位の先取特権者があることを知っていたときは、これらの者に対して優先権を行使することができない。第一順位の先取特権者のために物を保存した者に対しても、同様とする。
 
 ### 第三百三十条第三項
 
-<!-- segment: simple id: minpou-art-330-p3 -->
 果実に関しては、第一の順位は農業の労務に従事する者に、第二の順位は種苗又は肥料の供給者に、第三の順位は土地の賃貸人に属する。

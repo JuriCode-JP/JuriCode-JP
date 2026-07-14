@@ -21,6 +21,46 @@ paragraphs:
     type: hashira
     text: 令第七十四条第一項（特定退職金共済団体の承認）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-1
+    type: kou
+    text: 一　令第七十四条第一項に規定する申請書を提出する法人の名称、主たる事務所の所在地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-2
+    type: kou
+    text: 二　前号の法人の代表者及びその法人の行う退職金共済事業の責任者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-3
+    type: kou
+    text: 三　前号の退職金共済事業を開始しようとする年月日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-4
+    type: kou
+    text: 四　第一号の申請書を提出する時において第二号の退職金共済事業に加入することの見込まれる事業主の数及び令第七十三条第一項第二号（特定退職金共済団体の要件）に規定する被共済者となることの見込まれるその雇用する使用人の数
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-5
+    type: kou
+    text: 五　第一号の法人が一般社団法人又は一般財団法人である場合には、令第七十三条第二項第五号に掲げる要件に該当することを明らかにする事項
+    modality: unspecified
+    item_number: 5
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-6
+    type: kou
+    text: 六　令第七十五条第一項（特定退職金共済団体の承認の取消し等）の規定により特定退職金共済団体の承認の取消しを受けた後再び第一号の申請書を提出する場合には、その取消しの通知を受けた年月日
+    modality: unspecified
+    item_number: 6
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-7
+    type: kou
+    text: 七　令第七十五条第三項に規定する届出書を提出した後再び第一号の申請書を提出する場合には、同項に規定する年月日
+    modality: unspecified
+    item_number: 7
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p1-kou-8
+    type: kou
+    text: 八　その他参考となるべき事項
+    modality: unspecified
+    item_number: 8
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +70,31 @@ paragraphs:
     type: hashira
     text: 令第七十四条第六項において準用する同条第一項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p2-kou-1
+    type: kou
+    text: 一　前項第一号及び第二号に掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p2-kou-2
+    type: kou
+    text: 二　令第七十四条第一項に規定する退職金共済規程を変更したい旨及びその内容（当該内容が令第七十三条第一項第七号に掲げる要件に関するものである場合にあつては、同号イからハまでに掲げる事項についての内容）
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p2-kou-3
+    type: kou
+    text: 三　前号の変更をしようとする事情及びその変更をしようとする年月日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p2-kou-4
+    type: kou
+    text: 四　令第七十四条第六項において準用する同条第一項に規定する申請書を提出する法人が一般社団法人又は一般財団法人である場合には、令第七十三条第二項第四号及び第五号に掲げる要件に該当することを明らかにする事項
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-19-p2-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,15 +124,38 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-19-p1-hashira -->
 令第七十四条第一項（特定退職金共済団体の承認）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第七十四条第一項に規定する申請書を提出する法人の名称、主たる事務所の所在地及び法人番号
+
+二　前号の法人の代表者及びその法人の行う退職金共済事業の責任者の氏名
+
+三　前号の退職金共済事業を開始しようとする年月日
+
+四　第一号の申請書を提出する時において第二号の退職金共済事業に加入することの見込まれる事業主の数及び令第七十三条第一項第二号（特定退職金共済団体の要件）に規定する被共済者となることの見込まれるその雇用する使用人の数
+
+五　第一号の法人が一般社団法人又は一般財団法人である場合には、令第七十三条第二項第五号に掲げる要件に該当することを明らかにする事項
+
+六　令第七十五条第一項（特定退職金共済団体の承認の取消し等）の規定により特定退職金共済団体の承認の取消しを受けた後再び第一号の申請書を提出する場合には、その取消しの通知を受けた年月日
+
+七　令第七十五条第三項に規定する届出書を提出した後再び第一号の申請書を提出する場合には、同項に規定する年月日
+
+八　その他参考となるべき事項
 
 ### 第十九条第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-19-p2-hashira -->
 令第七十四条第六項において準用する同条第一項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　前項第一号及び第二号に掲げる事項
+
+二　令第七十四条第一項に規定する退職金共済規程を変更したい旨及びその内容（当該内容が令第七十三条第一項第七号に掲げる要件に関するものである場合にあつては、同号イからハまでに掲げる事項についての内容）
+
+三　前号の変更をしようとする事情及びその変更をしようとする年月日
+
+四　令第七十四条第六項において準用する同条第一項に規定する申請書を提出する法人が一般社団法人又は一般財団法人である場合には、令第七十三条第二項第四号及び第五号に掲げる要件に該当することを明らかにする事項
+
+五　その他参考となるべき事項
 
 ### 第十九条第三項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-19-p3 -->
 特定退職金共済団体は、第一項第一号及び第二号に掲げる事項を変更するときは、遅滞なくその旨をその主たる事務所の所在地の所轄税務署長に届け出なければならない。

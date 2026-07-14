@@ -74,20 +74,16 @@ parent_section:
 
 ### 第六百九十七条第一項
 
-<!-- segment: simple id: shouhou-art-697-p1 -->
 船舶共有者は、船舶管理人を選任しなければならない。
 
 ### 第六百九十七条第二項
 
-<!-- segment: simple id: shouhou-art-697-p2 -->
 船舶共有者でない者を船舶管理人とするには、船舶共有者の全員の同意がなければならない。
 
 ### 第六百九十七条第三項
 
-<!-- segment: simple id: shouhou-art-697-p3 -->
 船舶共有者が船舶管理人を選任したときは、その登記をしなければならない。船舶管理人の代理権の消滅についても、同様とする。
 
 ### 第六百九十七条第四項
 
-<!-- segment: junyou id: shouhou-art-697-p4 applies_provisions: 第九条 -->
 第九条の規定は、前項の規定による登記について準用する。

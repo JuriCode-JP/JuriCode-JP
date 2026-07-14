@@ -16,27 +16,57 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-8-p1
+    type: simple
+    text: 道府県知事は、元売業者との間に締結された販売契約に基づいて当該元売業者から継続的に軽油の供給を受け、これを販売することを業とする者（その経営の基礎その他の事項を勘案して政令で定める要件に該当する者を除く。）で、当該道府県内に主たる事務所又は事業所を有するものを、その者の申請に基づき、仮特約業者として指定するものとする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-8-p2-honbun
+    type: honbun
+    text: 前項の規定による仮特約業者の指定の有効期間は、指定を受けた日から起算して一年とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-144-8-p2-tadashi
+    type: tadashi
+    text: ただし、仮特約業者が次条第一項の規定による特約業者の指定を受けたときは、当該仮特約業者の指定は、その効力を失う。
+    modality: unspecified
+    references:
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-8-p3
+    type: simple
+    text: 第一項の道府県知事は、仮特約業者が同項の政令で定める要件に該当することとなつたときその他政令で定める場合には、仮特約業者の指定を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-8-p4
+    type: simple
+    text: 第一項の道府県知事は、仮特約業者の指定又は指定の取消しを行つた場合には、その旨を関係道府県知事に通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-8-p5
+    type: simple
+    text: 前各項に定めるもののほか、仮特約業者の指定又は指定の取消しに関し必要な事項は、総務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

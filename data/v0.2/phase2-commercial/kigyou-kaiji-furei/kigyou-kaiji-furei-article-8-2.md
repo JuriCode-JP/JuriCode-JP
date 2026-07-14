@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-8-2-p1
+    type: simple
+    text: 法第五条第一項第二号に規定する内閣府令で定める要件は、当該会社が財務諸表等規則第八条第四項各号に掲げる会社等に該当することとなる場合の同項各号に規定する他の会社等に該当することとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-8-2-p2
+    type: simple
+    text: 法第五条第一項第二号に規定する内閣府令で定める会社その他の団体は、財務諸表等規則第一条第三項第五号に規定する会社等とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

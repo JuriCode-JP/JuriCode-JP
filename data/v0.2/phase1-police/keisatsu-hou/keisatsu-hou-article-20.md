@@ -66,20 +66,16 @@ parent_section:
 
 ### 第二十条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-20-p1 -->
 長官官房に官房長を、各局に局長を置く。
 
 ### 第二十条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-20-p2 -->
 官房長又は局長は、命を受け、長官官房の事務又は局務を掌理する。
 
 ### 第二十条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-20-p3 -->
 各部に、部長を置く。
 
 ### 第二十条第四項
 
-<!-- segment: simple id: keisatsu-hou-art-20-p4 -->
 部長は、命を受け、部務を掌理する。

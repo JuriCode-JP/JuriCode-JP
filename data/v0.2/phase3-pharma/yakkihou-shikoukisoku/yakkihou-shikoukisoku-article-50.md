@@ -32,6 +32,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-50-p2-kou-1
+    type: kou
+    text: 一　医薬品等適合性調査に係る品目の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-50-p2-kou-2
+    type: kou
+    text: 二　医薬品等適合性調査に係る製造所の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,15 +69,16 @@ parent_section:
 
 ### 第五十条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-50-p1 -->
 法第十四条第六項（同条第十三項において準用する場合を含む。）若しくは第八項又は第十四条の二の二の二第二項（医薬品の製造所における製造管理又は品質管理の方法についての調査に係る部分に限り、法第十四条の三第二項において準用する場合を含む。）の規定による調査（以下この章において「医薬品等適合性調査」という。）の申請は、様式第二十五による申請書を厚生労働大臣（令第八十条の規定により当該調査の権限に属する事務を都道府県知事が行うこととされた場合にあつては、都道府県知事）に提出することによつて行うものとする。
 
 ### 第五十条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-50-p2-hashira -->
 前項の申請書には、次に掲げる書類を添えなければならない。
+
+一　医薬品等適合性調査に係る品目の製造管理及び品質管理に関する資料
+
+二　医薬品等適合性調査に係る製造所の製造管理及び品質管理に関する資料
 
 ### 第五十条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-50-p3 -->
 厚生労働大臣が法第十四条の二の三第一項の規定により機構に医薬品等適合性調査を行わせることとした場合における第一項の規定の適用については、同項中「厚生労働大臣（令第八十条の規定により当該調査の権限に属する事務を都道府県知事が行うこととされた場合にあつては、都道府県知事）」とあるのは、「機構」とする。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九十四条
 
-<!-- segment: simple id: kinsho-hou-art-94-p1 -->
 会員は、定款の定めるところにより、金融商品会員制法人の承認を受けて脱退することができる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-4-p1
+    type: simple
+    text: 法第七十二条の四十九の十二第八項に規定する固定資産に準ずる資産で政令で定めるものは、不動産所得又は事業所得を生ずべき事業に係る所得税法第二条第一項第二十号に規定する繰延資産のうちまだ必要な経費に算入されていない部分とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

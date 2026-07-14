@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-40-p1 -->
 委員の任期は、三年とする。但し、補欠の委員は、前任者の残任期間在任する。
 
 ### 第四十条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-40-p2 -->
 委員は、二回に限り再任されることができる。

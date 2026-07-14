@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-5-p1
+    type: simple
+    text: たばこ税の税率は、千本につき千七十円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

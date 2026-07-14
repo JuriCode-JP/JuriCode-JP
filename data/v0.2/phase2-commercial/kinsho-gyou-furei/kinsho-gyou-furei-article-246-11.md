@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-11-p1
+    type: simple
+    text: 法第六十三条の九第一項の規定により届出を行う者は、別紙様式第二十一号の四により作成した海外投資家等特例業務に関する届出書に、当該届出書の写しを添付して、海外投資家等特例業務届出管轄財務局長等（当該届出を行う者の本店等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあっては、福岡財務支局長）をいう。以下同じ。）に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-11-p2
+    type: simple
+    text: 前項の届出書は、別紙様式第二十一号の四に準じて英語で作成することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

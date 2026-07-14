@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-9-p1
+    type: simple
+    text: 公安委員会は、別に法律の定めるところにより、都道府県警察を管理する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-9-p2
+    type: simple
+    text: 都道府県警察に、別に法律の定めるところにより、地方警務官、地方警務官以外の警察官その他の職員を置く。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合において、株主が不利益を受けるおそれがあるときは、株主は、株式会社に対し、第二百三十八条第一項の募集に係る新株予約権の発行をやめることを請求することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-247-p1-kou-1
+    type: kou
+    text: 一　当該新株予約権の発行が法令又は定款に違反する場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-247-p1-kou-2
+    type: kou
+    text: 二　当該新株予約権の発行が著しく不公正な方法により行われる場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二百四十七条
 
-<!-- segment: hashira id: kaisha-hou-art-247-p1-hashira -->
 次に掲げる場合において、株主が不利益を受けるおそれがあるときは、株主は、株式会社に対し、第二百三十八条第一項の募集に係る新株予約権の発行をやめることを請求することができる。
+
+一　当該新株予約権の発行が法令又は定款に違反する場合
+
+二　当該新株予約権の発行が著しく不公正な方法により行われる場合

@@ -55,15 +55,12 @@ parent_section:
 
 ### 第一条第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-1-p1 -->
 第二章において、租税特別措置法（以下「法」という。）第二条第一項各号に掲げる用語の意義は、当該各号に定めるところによる。
 
 ### 第一条第二項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-1-p2 -->
 第三章において、法第二条第二項各号に掲げる用語の意義は、当該各号に定めるところによる。
 
 ### 第一条第三項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-1-p3 -->
 第五章において、法第二条第四項各号に掲げる用語の意義は、当該各号に定めるところによる。

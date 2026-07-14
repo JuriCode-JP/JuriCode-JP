@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-500-4-p1-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当する場合には、第五百条の二の規定による予納がされた金額は、その予納をした者の請求により返還する。
+    modality: unspecified
+  - id: keiji-soshou-hou-art-500-4-p1-kou-1
+    type: kou
+    text: 一　第三十八条の二の規定により弁護人の選任が効力を失つたとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-500-4-p1-kou-2
+    type: kou
+    text: 二　訴訟手続が終了する場合において、被告人に訴訟費用の負担を命ずる裁判がなされなかつたとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-500-4-p1-kou-3
+    type: kou
+    text: 三　訴訟費用の負担を命ぜられた者が、訴訟費用の全部について、その裁判の執行の免除を受けたとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第五百条の四
 
 次の各号のいずれかに該当する場合には、第五百条の二の規定による予納がされた金額は、その予納をした者の請求により返還する。
+
+一　第三十八条の二の規定により弁護人の選任が効力を失つたとき。
+
+二　訴訟手続が終了する場合において、被告人に訴訟費用の負担を命ずる裁判がなされなかつたとき。
+
+三　訴訟費用の負担を命ぜられた者が、訴訟費用の全部について、その裁判の執行の免除を受けたとき。

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第二十一条第一項
 
-<!-- segment: simple id: kenpou-art-21-p1 -->
 集会、結社及び言論、出版その他一切の表現の自由は、これを保障する。
 
 ### 第二十一条第二項
 
-<!-- segment: simple id: kenpou-art-21-p2 -->
 検閲は、これをしてはならない。通信の秘密は、これを侵してはならない。

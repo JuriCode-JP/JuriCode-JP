@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 出願者は、令第五十九条の規定により試験品を検査機関に送付するときは、厚生労働大臣の定める数量の試験品を適当な容器に収め、これに次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-199-p1-kou-1
+    type: kou
+    text: 一　出願者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-199-p1-kou-2
+    type: kou
+    text: 二　医薬品、医療機器又は再生医療等製品の名称
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-199-p1-kou-3
+    type: kou
+    text: 三　製造番号又は製造記号
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-199-p1-kou-4
+    type: kou
+    text: 四　製造年月日
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-199-p1-kou-5
+    type: kou
+    text: 五　採取量
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,5 +62,14 @@ parent_section:
 
 ### 第百九十九条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-199-p1-hashira -->
 出願者は、令第五十九条の規定により試験品を検査機関に送付するときは、厚生労働大臣の定める数量の試験品を適当な容器に収め、これに次に掲げる事項を記載しなければならない。
+
+一　出願者の氏名
+
+二　医薬品、医療機器又は再生医療等製品の名称
+
+三　製造番号又は製造記号
+
+四　製造年月日
+
+五　採取量

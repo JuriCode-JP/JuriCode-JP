@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七十二条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-72-p1 -->
 削除

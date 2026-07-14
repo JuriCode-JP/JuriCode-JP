@@ -31,7 +31,7 @@ paragraphs:
     text: 勾留状を執行するには、これを被告人に示した上、できる限り速やかに、かつ、直接、指定された刑事施設に引致しなければならない。
     modality: gimu
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -59,15 +59,12 @@ parent_section:
 
 ### 第七十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-73-p1 -->
 勾引状を執行するには、これを被告人に示した上、できる限り速やかに且つ直接、指定された裁判所その他の場所に引致しなければならない。第六十六条第四項の勾引状については、これを発した裁判官に引致しなければならない。
 
 ### 第七十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-73-p2 -->
 勾留状を執行するには、これを被告人に示した上、できる限り速やかに、かつ、直接、指定された刑事施設に引致しなければならない。
 
 ### 第七十三条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-73-p3 -->
 勾引状又は勾留状を所持しないためこれを示すことができない場合において、急速を要するときは、前二項の規定にかかわらず、被告人に対し公訴事実の要旨及び令状が発せられている旨を告げて、その執行をすることができる。但し、令状は、できる限り速やかにこれを示さなければならない。

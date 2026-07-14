@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-147-p1
     type: simple
     text: 何人も、左に掲げる者が刑事訴追を受け、又は有罪判決を受ける虞のある証言を拒むことができる。
     modality: kanou_kenri
+  - id: keiji-soshou-hou-art-147-p1-kou-1
+    type: kou
+    text: 一　自己の配偶者、三親等内の血族若しくは二親等内の姻族又は自己とこれらの親族関係があつた者
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-147-p1-kou-2
+    type: kou
+    text: 二　自己の後見人、後見監督人又は保佐人
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-147-p1-kou-3
+    type: kou
+    text: 三　自己を後見人、後見監督人又は保佐人とする者
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第百四十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-147-p1 -->
 何人も、左に掲げる者が刑事訴追を受け、又は有罪判決を受ける虞のある証言を拒むことができる。
+
+一　自己の配偶者、三親等内の血族若しくは二親等内の姻族又は自己とこれらの親族関係があつた者
+
+二　自己の後見人、後見監督人又は保佐人
+
+三　自己を後見人、後見監督人又は保佐人とする者

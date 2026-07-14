@@ -47,6 +47,4 @@ parent_section:
 
 ### 第百六十三条
 
-<!-- segment: honbun id: chihou-jichi-hou-art-163-p1-honbun -->
-副知事及び副市町村長の任期は、四年とする。<!-- segment: tadashi id: chihou-jichi-hou-art-163-p1-tadashi -->
-ただし、普通地方公共団体の長は、任期中においてもこれを解職することができる。
+副知事及び副市町村長の任期は、四年とする。ただし、普通地方公共団体の長は、任期中においてもこれを解職することができる。

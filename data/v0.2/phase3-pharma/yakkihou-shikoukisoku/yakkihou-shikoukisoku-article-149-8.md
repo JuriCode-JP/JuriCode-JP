@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-8-p1
+    type: simple
+    text: 配置販売業者は、その直接の容器又は直接の被包に表示された使用の期限を超過した医薬品を、正当な理由なく、販売し、授与し、販売若しくは授与の目的で貯蔵し、若しくは陳列し、又は広告してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

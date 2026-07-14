@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 薬局であつて、その機能が、医師若しくは歯科医師又は薬剤師が診療又は調剤に従事する他の医療提供施設と連携し、薬剤の適正な使用の確保のために専門的な薬学的知見に基づく指導を実施するために必要な機能に関する次に掲げる要件に該当するものは、厚生労働省令で定めるがんその他の傷病の区分ごとに、その所在地の都道府県知事の認定を受けて専門医療機関連携薬局と称することができる。
     modality: kanou_kenri
+  - id: yakkihou-art-6-3-p1-kou-1
+    type: kou
+    text: 一　構造設備が、利用者の心身の状況に配慮する観点から必要なものとして厚生労働省令で定める基準に適合するものであること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-6-3-p1-kou-2
+    type: kou
+    text: 二　利用者の薬剤及び医薬品の使用に関する情報を他の医療提供施設と共有する体制が、厚生労働省令で定める基準に適合するものであること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-6-3-p1-kou-3
+    type: kou
+    text: 三　専門的な薬学的知見に基づく調剤及び指導の業務を行う体制が、厚生労働省令で定める基準に適合するものであること。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +47,31 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: yakkihou-art-6-3-p2-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-6-3-p2-kou-2
+    type: kou
+    text: 二　その薬局において専門的な薬学的知見に基づく調剤及び指導の業務を行うために必要なものとして厚生労働省令で定める要件を満たす薬剤師の氏名
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-6-3-p2-kou-3
+    type: kou
+    text: 三　その薬局の名称及び所在地
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-6-3-p2-kou-4
+    type: kou
+    text: 四　前項各号に掲げる事項の概要
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-art-6-3-p2-kou-5
+    type: kou
+    text: 五　その他厚生労働省令で定める事項
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
@@ -77,25 +117,36 @@ parent_section:
 
 ### 第六条の三第一項
 
-<!-- segment: hashira id: yakkihou-art-6-3-p1-hashira -->
 薬局であつて、その機能が、医師若しくは歯科医師又は薬剤師が診療又は調剤に従事する他の医療提供施設と連携し、薬剤の適正な使用の確保のために専門的な薬学的知見に基づく指導を実施するために必要な機能に関する次に掲げる要件に該当するものは、厚生労働省令で定めるがんその他の傷病の区分ごとに、その所在地の都道府県知事の認定を受けて専門医療機関連携薬局と称することができる。
+
+一　構造設備が、利用者の心身の状況に配慮する観点から必要なものとして厚生労働省令で定める基準に適合するものであること。
+
+二　利用者の薬剤及び医薬品の使用に関する情報を他の医療提供施設と共有する体制が、厚生労働省令で定める基準に適合するものであること。
+
+三　専門的な薬学的知見に基づく調剤及び指導の業務を行う体制が、厚生労働省令で定める基準に適合するものであること。
 
 ### 第六条の三第二項
 
-<!-- segment: hashira id: yakkihou-art-6-3-p2-hashira -->
 前項の認定を受けようとする者は、厚生労働省令で定めるところにより、次の各号に掲げる事項を記載した申請書をその薬局の所在地の都道府県知事に提出しなければならない。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　その薬局において専門的な薬学的知見に基づく調剤及び指導の業務を行うために必要なものとして厚生労働省令で定める要件を満たす薬剤師の氏名
+
+三　その薬局の名称及び所在地
+
+四　前項各号に掲げる事項の概要
+
+五　その他厚生労働省令で定める事項
 
 ### 第六条の三第三項
 
-<!-- segment: simple id: yakkihou-art-6-3-p3 -->
 第一項の認定を受けた者は、専門医療機関連携薬局と称するに当たつては、厚生労働省令で定めるところにより、同項に規定する傷病の区分を明示しなければならない。
 
 ### 第六条の三第四項
 
-<!-- segment: simple id: yakkihou-art-6-3-p4 -->
 専門医療機関連携薬局でないものは、これに専門医療機関連携薬局又はこれに紛らわしい名称を用いてはならない。
 
 ### 第六条の三第五項
 
-<!-- segment: simple id: yakkihou-art-6-3-p5 -->
 第一項の認定は、一年ごとにその更新を受けなければ、その期間の経過によつて、その効力を失う。

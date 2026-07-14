@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\363M50000040053.xml",
   "source_xml_sha256": "5407006825700a6dce5e5339919b58afc3f213a2f44805acee5724506546a2a5",
   "source_xml_bytes": 520343,
-  "source_fetched_at": "2026-06-23",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T05:48:29+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-14T01:44:34+00:00",
   "version_date": "1988-12-30",
   "article_count": 71,
   "articles": [
@@ -18,568 +18,568 @@
       "article_id": "shouhi-zei-hou-shikoukisoku-art-1-2",
       "article_number": "1-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-1-2.md",
-      "ja_text_sha256": "58869d95f206eb7742c8c606205485c804c198a1ef619d4e480f389b7ffa0bf7",
-      "ja_text_bytes": 350,
+      "ja_text_sha256": "65472f648ece82a770876e0f12d26630c5bb5df9913f4911776e3374a07ae2ae",
+      "ja_text_bytes": 777,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-1",
       "article_number": "1",
       "filename": "shouhi-zei-hou-shikoukisoku-article-1.md",
-      "ja_text_sha256": "dcca7adbac533300d09ba3de886248edef6ef2c541ee5bbf1dfcc5087cdca68f",
-      "ja_text_bytes": 2104,
+      "ja_text_sha256": "92ad7cf06bf829f146bd0ed262e6045971dbb5d0ec88266dae27f8a9fe431bc1",
+      "ja_text_bytes": 1906,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-2",
       "article_number": "10-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-2.md",
-      "ja_text_sha256": "143c551c7db13c130903ca0af240218af7da4ce42a75e1c6e52bdd283e6278ea",
-      "ja_text_bytes": 1772,
+      "ja_text_sha256": "f3a30558ef4c8723c7cea05926b8725108a7831823429b026d299c35d50ce137",
+      "ja_text_bytes": 6480,
       "paragraph_count": 8
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-3",
       "article_number": "10-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-3.md",
-      "ja_text_sha256": "9033f01ea00172781a13ddbdf92949b838ea3a888da641b65a5e3ac9ac8587d6",
-      "ja_text_bytes": 392,
+      "ja_text_sha256": "4eda2f95b09160f533d3c10fad2529fa13c603937c2e854adde78e886c57cb5b",
+      "ja_text_bytes": 1190,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-4",
       "article_number": "10-4",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-4.md",
-      "ja_text_sha256": "903f90c1f531ba3889587a9719649bcb4d0393f2849cd2b8df744c418fa5843f",
-      "ja_text_bytes": 1023,
+      "ja_text_sha256": "918968b88de54056c0027d03bce154b825208e3fd729f14beec171d96266f80a",
+      "ja_text_bytes": 954,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-5",
       "article_number": "10-5",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-5.md",
-      "ja_text_sha256": "a2344578a0c17864c2c8226b64a406526d61442b480446f06408fb037ea8bf2f",
-      "ja_text_bytes": 800,
+      "ja_text_sha256": "33d39c1e4679dc522cfb5d802babcb88ab812504c4c33a0833ba91bc0ea4aeca",
+      "ja_text_bytes": 662,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-6",
       "article_number": "10-6",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-6.md",
-      "ja_text_sha256": "6dacb961840f342cf98f9fe58c8f428ccd3be7e87f4a6c78795e954b4470becd",
-      "ja_text_bytes": 1951,
+      "ja_text_sha256": "11cf5efa2f8f990ce641c4a409ca959cd0f7d7ea8e62ddfe316a5de85cebff73",
+      "ja_text_bytes": 1609,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-7",
       "article_number": "10-7",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-7.md",
-      "ja_text_sha256": "4de36053f481ea61aa83df1beab513ca565b944b725ab35aeba98a6d50dc17e4",
-      "ja_text_bytes": 1190,
+      "ja_text_sha256": "21b551d88655b79f22894e920299f87bc968267edb2feaf2302dbc1ff4cb9a50",
+      "ja_text_bytes": 1898,
       "paragraph_count": 5
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-8",
       "article_number": "10-8",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-8.md",
-      "ja_text_sha256": "9d92737399f099388bce76d69a22883d4f5a3942f0fa8eecdde5f97e3cbee9ec",
-      "ja_text_bytes": 1026,
+      "ja_text_sha256": "c1644380dc087e16a42b0aa6a105143d7e00b273c789d1bd0c22ded26e48642b",
+      "ja_text_bytes": 2663,
       "paragraph_count": 4
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10-9",
       "article_number": "10-9",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10-9.md",
-      "ja_text_sha256": "1897237892908681bbcaf2eeda88e7b6d9875868b7778bb6d52a16f3ce3fae6c",
-      "ja_text_bytes": 682,
+      "ja_text_sha256": "03b551c477c700b5a45711f1bc031503231551709878d025ada08b33cfebaff2",
+      "ja_text_bytes": 3114,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-10",
       "article_number": "10",
       "filename": "shouhi-zei-hou-shikoukisoku-article-10.md",
-      "ja_text_sha256": "3c1d2fe03109f2faa54266214a7024be2b0b53af226a78ce5ebc4ceed4629e48",
-      "ja_text_bytes": 904,
+      "ja_text_sha256": "10a03f713005b81c2d4c4e2c9c4895a6c5b0f629fd94012ece6b16f6a69ceb49",
+      "ja_text_bytes": 6485,
       "paragraph_count": 4
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-11-2",
       "article_number": "11-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-11-2.md",
-      "ja_text_sha256": "27398bbd529ac9da367584f3fd1886b22e7e19c883d5b1c127a178154ad5d35f",
-      "ja_text_bytes": 408,
+      "ja_text_sha256": "237c337b9e5d0f05ade0dda2e06137886d1e705a725c83284777ddc241390ab8",
+      "ja_text_bytes": 339,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-11-3",
       "article_number": "11-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-11-3.md",
-      "ja_text_sha256": "34eb99fd931a828fa1d5814ae46656084f332b88225d710d95c064b9e2ade19a",
-      "ja_text_bytes": 192,
+      "ja_text_sha256": "8ed9244d880ec6eba515fe84179a9c7972ec96479571f9de025169ff4dcd659f",
+      "ja_text_bytes": 420,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-11-4",
       "article_number": "11-4",
       "filename": "shouhi-zei-hou-shikoukisoku-article-11-4.md",
-      "ja_text_sha256": "ec958673ecd86bdbfccb37b8db741d3a4ab3a2b39d5f867c7de6c1a6b695e814",
-      "ja_text_bytes": 225,
+      "ja_text_sha256": "c899f8462a769b82e69c459a57d9e66f4f90069a7dbc62cf605b3aa30049d91c",
+      "ja_text_bytes": 156,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-11-5",
       "article_number": "11-5",
       "filename": "shouhi-zei-hou-shikoukisoku-article-11-5.md",
-      "ja_text_sha256": "3a4b69badccaaaeb9915dab8dbc98cb04d8dd9a018d731fd61b56e40268a4252",
-      "ja_text_bytes": 989,
+      "ja_text_sha256": "198080eee7bf98dc272a31a13776cec8ca318ad51b0a1d9cfc1d3aa356754647",
+      "ja_text_bytes": 3222,
       "paragraph_count": 5
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-11",
       "article_number": "11",
       "filename": "shouhi-zei-hou-shikoukisoku-article-11.md",
-      "ja_text_sha256": "f24124b467eca9d8a78ce33b98202a650a968b18fd6f3577f78e5c0eafbc37e6",
-      "ja_text_bytes": 922,
+      "ja_text_sha256": "ebd2683dd2e2b312a1b20ffca91053e4270bc9158b5e437eab7a83976aeaa5c8",
+      "ja_text_bytes": 3181,
       "paragraph_count": 4
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-12",
       "article_number": "12",
       "filename": "shouhi-zei-hou-shikoukisoku-article-12.md",
-      "ja_text_sha256": "a69966ca9aab40085859f8d8a4d38137f5220b0ece47f639b37cf59c9420521c",
-      "ja_text_bytes": 4114,
+      "ja_text_sha256": "b4002b5416c2e799208fbc248aae28a52a12bba4f28b52e17d5b35d8a43d2175",
+      "ja_text_bytes": 5216,
       "paragraph_count": 8
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-13",
       "article_number": "13",
       "filename": "shouhi-zei-hou-shikoukisoku-article-13.md",
-      "ja_text_sha256": "8eff7f4b03682754bcdb67065ef34b7c391c72026c359a70ac016cc654f2785a",
-      "ja_text_bytes": 1666,
+      "ja_text_sha256": "8539ced20c76fc42b91029ffbbd8e6c1c447ec094e8426208fd7795a07e08778",
+      "ja_text_bytes": 3344,
       "paragraph_count": 5
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-14",
       "article_number": "14",
       "filename": "shouhi-zei-hou-shikoukisoku-article-14.md",
-      "ja_text_sha256": "708ed90417681ca92f5e8527222f3b2fb846267dff4b7c1d0679c9cc5727d7d5",
-      "ja_text_bytes": 199,
+      "ja_text_sha256": "f2b1757baa213b71306e92c4f63034e3e56eeee805618af88cac3a6a360be8cb",
+      "ja_text_bytes": 453,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15-2",
       "article_number": "15-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15-2.md",
-      "ja_text_sha256": "345ac5e427f5628ad296ba179ef138d0101fc76c706e547a19dd96a0bf572a56",
-      "ja_text_bytes": 789,
+      "ja_text_sha256": "0cddd401e7dc18c8e705180ee29c2c7b05881ed50ebdfc42d599ffd8c77ebd8b",
+      "ja_text_bytes": 1068,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15-3",
       "article_number": "15-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15-3.md",
-      "ja_text_sha256": "92a7021177eb75116058efd775bf1f862f23fee658bea667a8eddf61bb261b2c",
-      "ja_text_bytes": 615,
+      "ja_text_sha256": "cb5c42abe447ee8307d00bf226744dc6d58284afee3b08e20d91ee7e006c530b",
+      "ja_text_bytes": 546,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15-4",
       "article_number": "15-4",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15-4.md",
-      "ja_text_sha256": "c8d9d6e1056e4d85262025d1d46046b982ab1a8c6808f0c49c635980c547eb13",
-      "ja_text_bytes": 219,
+      "ja_text_sha256": "de2994a64938040a082d8cb94198301cfe673491ebc85794738fcb1ed74b426d",
+      "ja_text_bytes": 1434,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15-5",
       "article_number": "15-5",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15-5.md",
-      "ja_text_sha256": "229008dc67e1ccb95f6d7f06249db98f86741ced28431583ad5b2332c359cf7d",
-      "ja_text_bytes": 1296,
+      "ja_text_sha256": "37c51f25b8f37348649ed706f7e598f890b82b58a2091c5ccb0d46456f6db1bb",
+      "ja_text_bytes": 1112,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15-6",
       "article_number": "15-6",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15-6.md",
-      "ja_text_sha256": "a268be76f61374bd57ead8718c86819690bc36c88f6047b234b997c4b08c8b42",
-      "ja_text_bytes": 672,
+      "ja_text_sha256": "911f5e0fa683ae17b17310d4b6ed1736c17d19969ff3dcdef96bc7eb123546a6",
+      "ja_text_bytes": 603,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15-7",
       "article_number": "15-7",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15-7.md",
-      "ja_text_sha256": "d3d3cc2bd96b92997ff002b5a9eee4ca70b321b4e780fda6dfcadd32b6d2abd1",
-      "ja_text_bytes": 2579,
+      "ja_text_sha256": "d7736a60dd82f0f80f67bee6cc78ecb49dcb3853d33bdb689b0781397d49b102",
+      "ja_text_bytes": 8482,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-15",
       "article_number": "15",
       "filename": "shouhi-zei-hou-shikoukisoku-article-15.md",
-      "ja_text_sha256": "2d6e3346a038fd13a77419911a072d78c9584cf757affd85cf3c5f28af8612ba",
-      "ja_text_bytes": 508,
+      "ja_text_sha256": "cf96b04a59b26fb0014f487da0234d8e122c26a24514b60a1951e4f9c44df7be",
+      "ja_text_bytes": 1232,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-16",
       "article_number": "16",
       "filename": "shouhi-zei-hou-shikoukisoku-article-16.md",
-      "ja_text_sha256": "4d1f810dfd714fe76a673cad523be6fe1b91983a4273cf5afc7c3170c6f3d1f7",
-      "ja_text_bytes": 3554,
+      "ja_text_sha256": "49914c691fc5df63eaff5254e468e39b77bd8796775cc8126e20cb2a431697dc",
+      "ja_text_bytes": 3106,
       "paragraph_count": 6
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-17-2",
       "article_number": "17-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-17-2.md",
-      "ja_text_sha256": "880d72910b1b08ad3954bde008900d58a89f83fb44f863ed6cf01fcd9ef6f954",
-      "ja_text_bytes": 306,
+      "ja_text_sha256": "cc3ffa26cc201000b5e0b8649caf37f7f625535f2fb3646aadd8d20ba980f2c7",
+      "ja_text_bytes": 1606,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-17",
       "article_number": "17",
       "filename": "shouhi-zei-hou-shikoukisoku-article-17.md",
-      "ja_text_sha256": "7ffa2d1aa5714390848328dbbaa1f1598b6cdc10908a25a0e854c2aa377118f6",
-      "ja_text_bytes": 1420,
+      "ja_text_sha256": "7051c088832bfbcef8f373c5b0f35d27d70ac9317eb7d95a0a5d4f4ab5a872ff",
+      "ja_text_bytes": 3351,
       "paragraph_count": 5
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-18",
       "article_number": "18",
       "filename": "shouhi-zei-hou-shikoukisoku-article-18.md",
-      "ja_text_sha256": "38bd550e8e2f06befa15fb5909744391b4d0b9d9f99e5724fa053ac484c73203",
-      "ja_text_bytes": 187,
+      "ja_text_sha256": "908f6e57daa7a0d7930b5a3a7c80eb93b0deade122a32f3338db9fc863be2cd5",
+      "ja_text_bytes": 1711,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-19",
       "article_number": "19",
       "filename": "shouhi-zei-hou-shikoukisoku-article-19.md",
-      "ja_text_sha256": "d7cb64845a67d206d5d38d716011349142217f94cf37c4c794553530b969ac57",
-      "ja_text_bytes": 670,
+      "ja_text_sha256": "fe7d8c4e693ae3dcf53f243a89ab9047915d2833c01491ecf89c29ebb3848b10",
+      "ja_text_bytes": 603,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-2",
       "article_number": "2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-2.md",
-      "ja_text_sha256": "0e1e9847a4a67953cfb914cdda49f345ffb47397ae3c1d9c6bd166a752b6c746",
-      "ja_text_bytes": 573,
+      "ja_text_sha256": "b66bf2154a76a673a0dcffaa96662c3781bafc33e0e4c5bad817683b16d2e61c",
+      "ja_text_bytes": 507,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-20-2",
       "article_number": "20-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-20-2.md",
-      "ja_text_sha256": "957b1bbd841dc236eb6e6de908663cc4ef35f545220584710b07d3b48f2e2c6a",
-      "ja_text_bytes": 706,
+      "ja_text_sha256": "e4670645aca79d9ecb07a89fad57c69c24229f57a01fa8a4d0af99a60cb120fb",
+      "ja_text_bytes": 1669,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-20",
       "article_number": "20",
       "filename": "shouhi-zei-hou-shikoukisoku-article-20.md",
-      "ja_text_sha256": "9b4084f4730e0672a5fac633bbe8ae7e6f0bbb700cb2b74d4c3f8cdd5730c620",
-      "ja_text_bytes": 241,
+      "ja_text_sha256": "2f1f495fca4f0abd8c5f28e893210980729db8532c92daf297d17b4f5e2ad6ba",
+      "ja_text_bytes": 693,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-21",
       "article_number": "21",
       "filename": "shouhi-zei-hou-shikoukisoku-article-21.md",
-      "ja_text_sha256": "4c30eae10acc1900a6f920eff074ffa3faaa2bfbf6b99fb66a9565325ea78cdb",
-      "ja_text_bytes": 983,
+      "ja_text_sha256": "779c926d04fd545ba938504d8e3a033728d902c600846ac0656ba0549b5f1841",
+      "ja_text_bytes": 1897,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-22",
       "article_number": "22",
       "filename": "shouhi-zei-hou-shikoukisoku-article-22.md",
-      "ja_text_sha256": "6320979ea3d5d25ddc2506782dd2d26878d32e52d6bf76a0213e317a3a90c73e",
-      "ja_text_bytes": 1237,
+      "ja_text_sha256": "b78e67b5bab1ee645c06614fac4adf4427d5194cc989dcbf34f708954298eda7",
+      "ja_text_bytes": 3078,
       "paragraph_count": 4
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-23-2",
       "article_number": "23-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-23-2.md",
-      "ja_text_sha256": "c914735622b52eb7a4e7af810003d87337da5983817aaf99ffb0146648907b6c",
-      "ja_text_bytes": 724,
+      "ja_text_sha256": "c552b6e535d32f8e896d0af7f1d042783defab5ce4db3ea7c73443ad503b28b7",
+      "ja_text_bytes": 1540,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-23-3",
       "article_number": "23-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-23-3.md",
-      "ja_text_sha256": "16b0f86928cb256a27ec5d6efc291c03ffbe31b7afa48d49c0da6ffe0a1d21c8",
-      "ja_text_bytes": 1899,
+      "ja_text_sha256": "14eaf409f92a5ee2bf3271c28f453387819e3ec61eefb56e863f59e85b4b6b7f",
+      "ja_text_bytes": 1830,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-23-4",
       "article_number": "23-4",
       "filename": "shouhi-zei-hou-shikoukisoku-article-23-4.md",
-      "ja_text_sha256": "340f72e0a34fb56f754fc6adb7e16a91bec7c0487ee1ac01f4440b0a51f1488b",
-      "ja_text_bytes": 3234,
+      "ja_text_sha256": "93327e9c5b0255cefb475181f133c7d91bf6b9f1064ef2e46d5036e69e8d62b3",
+      "ja_text_bytes": 4660,
       "paragraph_count": 7
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-23-5",
       "article_number": "23-5",
       "filename": "shouhi-zei-hou-shikoukisoku-article-23-5.md",
-      "ja_text_sha256": "7b61a324dce53af8edfbd77be0d3aee0bea71d0628deccc8416886c495f03b74",
-      "ja_text_bytes": 718,
+      "ja_text_sha256": "811e3811a76336dd49995269d46bfd64d4a6d7d919aa55a7576d5599dbf28932",
+      "ja_text_bytes": 1195,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-23",
       "article_number": "23",
       "filename": "shouhi-zei-hou-shikoukisoku-article-23.md",
-      "ja_text_sha256": "ffe85cbb15cc4d040345a6adcd20604fcaf7391ca033ee7e567d203f762aeb58",
-      "ja_text_bytes": 994,
+      "ja_text_sha256": "245bebf157e76ccb62a23b3f36bc33ceedd84724982cf314119447a002e961dd",
+      "ja_text_bytes": 1786,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-24",
       "article_number": "24",
       "filename": "shouhi-zei-hou-shikoukisoku-article-24.md",
-      "ja_text_sha256": "a0cfcbd56a9376ecadd684b3e8db3d67716c9916be2eb0edc30492e242a4fa44",
-      "ja_text_bytes": 940,
+      "ja_text_sha256": "11b7d96ba9d53d8797f2f9515c91fef5b3564394a764b00f8a2d5b4d0cb84190",
+      "ja_text_bytes": 1283,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-25",
       "article_number": "25",
       "filename": "shouhi-zei-hou-shikoukisoku-article-25.md",
-      "ja_text_sha256": "410260e2438f3f9a2dcf828be01ebd4a8ce3b053c7f06d424fe2c33d6744f002",
-      "ja_text_bytes": 607,
+      "ja_text_sha256": "bd0f5240c00745e90c6579b72d987d5725f8dbd5be7e8a3a1e029ca73879eba8",
+      "ja_text_bytes": 1666,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-2",
       "article_number": "26-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-2.md",
-      "ja_text_sha256": "190def1e2f27c76a5dce508886a6923ca152d9d30e233e6abf46d9c6acd6fc59",
-      "ja_text_bytes": 831,
+      "ja_text_sha256": "f2f64e48f0e39e211830759a0945018017cfc63bf6f6c51fd9bb73b66d6a8f61",
+      "ja_text_bytes": 3006,
       "paragraph_count": 4
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-3",
       "article_number": "26-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-3.md",
-      "ja_text_sha256": "47f6ea5fc202831812232430c27c7f4eec5bfcced2c015f3212a6270108d82fd",
-      "ja_text_bytes": 183,
+      "ja_text_sha256": "52c9bf4e3a8213a26b3d9eec2fe959c162e4bb9c78f77c294864a3405e057e18",
+      "ja_text_bytes": 417,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-4",
       "article_number": "26-4",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-4.md",
-      "ja_text_sha256": "6e1bc7885557bed25607675c8dcf3b3607abda211a7b36ebb77139a3add4b809",
-      "ja_text_bytes": 195,
+      "ja_text_sha256": "1f39be13d49eb37286ac318e095c32037d823367a05465150eedc0537c2b684b",
+      "ja_text_bytes": 789,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-5",
       "article_number": "26-5",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-5.md",
-      "ja_text_sha256": "3fce97060cafdaf3fd4f658dba46eaaf066fb431c3796f10d5cd043f82ce58ed",
-      "ja_text_bytes": 1178,
+      "ja_text_sha256": "3eb7839792482d4ec4a8d61d2c59fa72d874c6b274042f5e86b920a87207ecde",
+      "ja_text_bytes": 1040,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-6",
       "article_number": "26-6",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-6.md",
-      "ja_text_sha256": "934f63eb703a57aa6209500e297f70fd3c55d791c8fe04287de170ac9461b881",
-      "ja_text_bytes": 237,
+      "ja_text_sha256": "520384039c64ce73ad0e772e7147dd1d326aa5ac9382a2c387c62915034fee98",
+      "ja_text_bytes": 792,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-7",
       "article_number": "26-7",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-7.md",
-      "ja_text_sha256": "4e2e04283290900bdd51de37df1d839ddc6327ebfc85e224584a9b705fdd8f9c",
-      "ja_text_bytes": 3078,
+      "ja_text_sha256": "49750e692ebc52b71f58666ec86df61361d86a279fe8d963c221e881f8885b99",
+      "ja_text_bytes": 2667,
       "paragraph_count": 4
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-8",
       "article_number": "26-8",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-8.md",
-      "ja_text_sha256": "7a797a69bb810814d94683dc542f10e5213799868b7ad53de9a9a9026dc9b091",
-      "ja_text_bytes": 1293,
+      "ja_text_sha256": "a0aebf07017cf28b426a490ca32e68fcbe4459ea6f46d0c2f65e20f2d98c21a8",
+      "ja_text_bytes": 1109,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26-9",
       "article_number": "26-9",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26-9.md",
-      "ja_text_sha256": "c21588ff3bcb524af3b4c544069b02d54ff2dd5513a707e08d060f34a4d6f534",
-      "ja_text_bytes": 613,
+      "ja_text_sha256": "3905eaccd35993db9247dc1a4d2c868c4bae9ae57a0232a5aa43e39ec66137f7",
+      "ja_text_bytes": 1804,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-26",
       "article_number": "26",
       "filename": "shouhi-zei-hou-shikoukisoku-article-26.md",
-      "ja_text_sha256": "ca60f0429336c835c207d765c737a13eb95ba5f97d2fe80229f6422d6c692f93",
-      "ja_text_bytes": 2149,
+      "ja_text_sha256": "89986f518cd86868cd8932c2323e2c6cae8cefe867c3c03beeb6d861b1cac9a8",
+      "ja_text_bytes": 9935,
       "paragraph_count": 6
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-27-2",
       "article_number": "27-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-27-2.md",
-      "ja_text_sha256": "75a99ca5fc0c01b954188b098475ada36b745ff62e4ade934241a8ee21e5ca1e",
-      "ja_text_bytes": 1136,
+      "ja_text_sha256": "61b6f14770775ffceb8eef8ad06246784a71ddbcf3c256630209c0a80dccec87",
+      "ja_text_bytes": 998,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-27-3",
       "article_number": "27-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-27-3.md",
-      "ja_text_sha256": "690bacadaf274164ad5df2031227accbb3340c8d2b912760929b16ac4c6a2535",
-      "ja_text_bytes": 441,
+      "ja_text_sha256": "d45b43f2ef19cefd138249205bf4d515d6c5364231354c4eef90a15afcb2702d",
+      "ja_text_bytes": 372,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-27",
       "article_number": "27",
       "filename": "shouhi-zei-hou-shikoukisoku-article-27.md",
-      "ja_text_sha256": "1f71ed6aba4ab4b598d256c6f65acd0c6cbaac984c08b470c8b34cd58661a866",
-      "ja_text_bytes": 4356,
+      "ja_text_sha256": "752d2ac188ecf6de54250a9cf3731e4300fbbb724c10a18d5224ba9eeb56c565",
+      "ja_text_bytes": 8214,
       "paragraph_count": 9
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-28",
       "article_number": "28",
       "filename": "shouhi-zei-hou-shikoukisoku-article-28.md",
-      "ja_text_sha256": "a14e26ab95b4d81e26df02a59a0628a49f9083d0a983bb4cdcd65cbc5c416ee9",
-      "ja_text_bytes": 376,
+      "ja_text_sha256": "75a7244e46e2c556a3c412ff3396c0e52732885f8d631a054b0f1f622a4b4830",
+      "ja_text_bytes": 902,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-29",
       "article_number": "29",
       "filename": "shouhi-zei-hou-shikoukisoku-article-29.md",
-      "ja_text_sha256": "7268b6d78a18ffff8e78043278073945f4b45b539919e0acfc75b7b6e5d12b33",
-      "ja_text_bytes": 2221,
+      "ja_text_sha256": "1dbec10522722c39cb19e27bfbd66c5a61e8eb0a623256d663fccf428b5b9272",
+      "ja_text_bytes": 2154,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-3-2",
       "article_number": "3-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-3-2.md",
-      "ja_text_sha256": "3d955977eb9c17d9740b340aad026eb40d6c2d86bc92e3c1fc8ad2728de6bd4a",
-      "ja_text_bytes": 416,
+      "ja_text_sha256": "af64bec98e199c4ae2405bc4d70f259b5196ddbd9ebfb29ad7ad0983d058db87",
+      "ja_text_bytes": 348,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-3",
       "article_number": "3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-3.md",
-      "ja_text_sha256": "ec47b38745bc5d2a1c69d0d88c541b0eafacc0d979e02ce2c91068047f5cf3ce",
-      "ja_text_bytes": 383,
+      "ja_text_sha256": "db0140ac1b6be089cf96269ea38d20bb6f495df4fbd4e372b733cfc118764c66",
+      "ja_text_bytes": 2570,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-30",
       "article_number": "30",
       "filename": "shouhi-zei-hou-shikoukisoku-article-30.md",
-      "ja_text_sha256": "49d5d905c580fd67b1b8f999b0efc19f5209b257f26b95dbcd1cc142647b3c2b",
-      "ja_text_bytes": 376,
+      "ja_text_sha256": "556d92d7beea09d8f71a978f737c4592a5742da8966938bdb06c4e6a82383892",
+      "ja_text_bytes": 947,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-31",
       "article_number": "31",
       "filename": "shouhi-zei-hou-shikoukisoku-article-31.md",
-      "ja_text_sha256": "652b4ebd7c4cbe3d7e94d73a285020c399f15d6e8d14cbe3a02f24329e386362",
-      "ja_text_bytes": 731,
+      "ja_text_sha256": "e24e549236d2cabaf9e05ede3b30580daf9267367ab596c6478792e1583a2e65",
+      "ja_text_bytes": 893,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-32",
       "article_number": "32",
       "filename": "shouhi-zei-hou-shikoukisoku-article-32.md",
-      "ja_text_sha256": "d622f3a980242b6c4438b8274987736fa7ebe690790fdce64407fc47f722d435",
-      "ja_text_bytes": 187,
+      "ja_text_sha256": "0a261609fc2d57a15a8af706d1b85630328b0aea3f63e0073fe391ba9d7538c6",
+      "ja_text_bytes": 576,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-4",
       "article_number": "4",
       "filename": "shouhi-zei-hou-shikoukisoku-article-4.md",
-      "ja_text_sha256": "6d5442c46135f2e4c8fd0f25e8911ca423d72e2e65a6b7f2d6756c9089ace2f0",
-      "ja_text_bytes": 192,
+      "ja_text_sha256": "530e6f73ed07e26e21e519c80f61d6e0babb19f4bf026c2262416fdfe034160f",
+      "ja_text_bytes": 828,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-5",
       "article_number": "5",
       "filename": "shouhi-zei-hou-shikoukisoku-article-5.md",
-      "ja_text_sha256": "e15093070153545efc2ac381011ea347fdff9864e888944f380a7ef9c6fa89ba",
-      "ja_text_bytes": 3545,
+      "ja_text_sha256": "3fcb66870875a80fe57d8f36ee26ed8f5ab5f214f1a6fec2f86ba140d3383a90",
+      "ja_text_bytes": 7024,
       "paragraph_count": 6
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-6-2",
       "article_number": "6-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-6-2.md",
-      "ja_text_sha256": "71b8467db42995c406913ee24f07ab117ec5cee31fb4572372285c0d3ce2b734",
-      "ja_text_bytes": 2344,
+      "ja_text_sha256": "51acd38c725acfb7697aea820c74e4fddf86473dee803e73dc143405278570ab",
+      "ja_text_bytes": 3373,
       "paragraph_count": 6
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-6-3",
       "article_number": "6-3",
       "filename": "shouhi-zei-hou-shikoukisoku-article-6-3.md",
-      "ja_text_sha256": "a0e946bcf920746c42c95fafd3aa9aeaf3910a759927456bfa3f5c78a445501b",
-      "ja_text_bytes": 188,
+      "ja_text_sha256": "2ed06aa98861154159759f4a4f75e03c1df3130667c11ba40175b4fc37acdad7",
+      "ja_text_bytes": 783,
       "paragraph_count": 1
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-6",
       "article_number": "6",
       "filename": "shouhi-zei-hou-shikoukisoku-article-6.md",
-      "ja_text_sha256": "ab7172e4c7a3877b3f7116dcddd6bca1b531c3be8bcc4843f043b006cc47b061",
-      "ja_text_bytes": 4231,
+      "ja_text_sha256": "87c24f19cb7240b4d680e39e395e97fc47abbc92a1820613a3855ee8ebc0c3e3",
+      "ja_text_bytes": 9356,
       "paragraph_count": 10
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-7-2",
       "article_number": "7-2",
       "filename": "shouhi-zei-hou-shikoukisoku-article-7-2.md",
-      "ja_text_sha256": "cae1c568c4cf1d6141e2264f5fe89ef1d23796c956fde18760ac1e02f89eb022",
-      "ja_text_bytes": 1546,
+      "ja_text_sha256": "d26557668704fe49b899dde79bfbe6d3804e0c6d5889213f3814ba2e209d952a",
+      "ja_text_bytes": 1277,
       "paragraph_count": 2
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-7",
       "article_number": "7",
       "filename": "shouhi-zei-hou-shikoukisoku-article-7.md",
-      "ja_text_sha256": "279c17e52d229d290d379d3999cdc6045de39e1920b75862242d33968b023bc8",
-      "ja_text_bytes": 3094,
+      "ja_text_sha256": "eada84d30d79505cd9eda2b66801a12f6a97f373a8a274ecbb2f656cd7037a27",
+      "ja_text_bytes": 2767,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-8",
       "article_number": "8",
       "filename": "shouhi-zei-hou-shikoukisoku-article-8.md",
-      "ja_text_sha256": "f5bbfecb801c289d24265ec461621f11cccdfafb04e86d694a09b497d4de4115",
-      "ja_text_bytes": 1063,
+      "ja_text_sha256": "8f9ec19ed19735d798bd771dfcc03bbf22640abbcf46b46fb515345a6d4e6558",
+      "ja_text_bytes": 2035,
       "paragraph_count": 3
     },
     {
       "article_id": "shouhi-zei-hou-shikoukisoku-art-9",
       "article_number": "9",
       "filename": "shouhi-zei-hou-shikoukisoku-article-9.md",
-      "ja_text_sha256": "39bf0972693be7d2a5c375f8c967ff6d070a2884877df0423a1e5bfffeb7478e",
-      "ja_text_bytes": 339,
+      "ja_text_sha256": "489a790a095ab30e715b7ae0dd7acd22cfb4b37aec7661746b9e58ded8436a69",
+      "ja_text_bytes": 1062,
       "paragraph_count": 1
     }
   ]

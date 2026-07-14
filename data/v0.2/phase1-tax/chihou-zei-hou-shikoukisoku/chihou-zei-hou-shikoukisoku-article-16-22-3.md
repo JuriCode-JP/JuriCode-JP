@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-22-3-p1
+    type: simple
+    text: 政令第五十四条の四十五第八項において準用する政令第五十四条の四十三第一項の規定による申請書の提出は、当該申請書に記載した事項についての事実を証する書類を添付してしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

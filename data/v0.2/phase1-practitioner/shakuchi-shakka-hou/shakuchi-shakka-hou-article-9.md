@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-9-p1 -->
 この節の規定に反する特約で借地権者に不利なものは、無効とする。

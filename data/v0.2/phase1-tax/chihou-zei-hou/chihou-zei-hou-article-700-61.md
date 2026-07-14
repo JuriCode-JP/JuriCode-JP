@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-61-p1
+    type: simple
+    text: 偽りその他不正の行為により狩猟税の全部又は一部を免れたときは、その違反行為をした者は、百万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-61-p2
+    type: simple
+    text: 前項に規定するもののほか、第七百条の五十六の規定により申告し、又は報告すべき事項について申告又は報告をしないことにより、狩猟税の全部又は一部を免れたときは、その違反行為をした者は、五十万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-61-p3
+    type: simple
+    text: 人の代理人又は使用人がその人の狩猟に関して、前二項の違反行為をした場合には、その行為者を罰するほか、その人に対し、当該各項の刑を科する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

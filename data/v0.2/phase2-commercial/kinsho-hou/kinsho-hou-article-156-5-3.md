@@ -16,12 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-3-p1
+    type: simple
+    text: 金融商品取引清算機関の総株主の議決権の百分の五を超える議決権（社債、株式等の振替に関する法律第百四十七条第一項又は第百四十八条第一項の規定により発行者に対抗することができない株式に係る議決権を含み、取得又は保有の態様その他の事情を勘案して内閣府令で定めるものを除く。以下この節において「対象議決権」という。）を保有することとなつた者は、内閣府令で定めるところにより、保有する当該対象議決権の数を当該金融商品取引清算機関の総株主の議決権の数で除して得た割合、保有の目的その他当該対象議決権に関し内閣府令で定める事項を記載した対象議決権保有届出書を、遅滞なく、内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-3-p2-hashira
+    type: hashira
+    text: 次の各号に掲げる場合における前項の規定の適用については、当該各号に定める対象議決権は、これを保有するものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+  - id: kinsho-hou-art-156-5-3-p2-kou-1
+    type: kou
+    text: 一　金銭の信託契約その他の契約又は法律の規定に基づき、金融商品取引清算機関の対象議決権を行使することができる権限又は当該議決権の行使について指図を行うことができる権限を有する場合　当該対象議決権
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-5-3-p2-kou-2
+    type: kou
+    text: 二　株式の所有関係、親族関係その他の政令で定める特別の関係にある者が金融商品取引清算機関の対象議決権を保有する場合　当該特別の関係にある者が保有する対象議決権
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -45,3 +65,7 @@ parent_section:
 ### 第百五十六条の五の三第二項
 
 次の各号に掲げる場合における前項の規定の適用については、当該各号に定める対象議決権は、これを保有するものとみなす。
+
+一　金銭の信託契約その他の契約又は法律の規定に基づき、金融商品取引清算機関の対象議決権を行使することができる権限又は当該議決権の行使について指図を行うことができる権限を有する場合　当該対象議決権
+
+二　株式の所有関係、親族関係その他の政令で定める特別の関係にある者が金融商品取引清算機関の対象議決権を保有する場合　当該特別の関係にある者が保有する対象議決権

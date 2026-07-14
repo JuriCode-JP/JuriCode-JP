@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,5 +48,4 @@ parent_section:
 
 ### 第三百条
 
-<!-- segment: tokusoku id: kaisha-hou-art-300-p1 override_flag: true override_target: 前条 -->
 前条の規定にかかわらず、株主総会は、株主の全員の同意があるときは、招集の手続を経ることなく開催することができる。ただし、第二百九十八条第一項第三号又は第四号に掲げる事項を定めた場合は、この限りでない。

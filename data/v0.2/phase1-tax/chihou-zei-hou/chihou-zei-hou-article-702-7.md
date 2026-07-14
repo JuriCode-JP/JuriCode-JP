@@ -13,15 +13,30 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-7-p1-honbun
+    type: honbun
+    text: 都市計画税の納期は、四月、七月、十二月及び二月中において、当該市町村の条例で定める。
+    modality: unspecified
+  - id: chihou-zei-hou-art-702-7-p1-tadashi
+    type: tadashi
+    text: ただし、特別の事情がある場合においては、これと異なる納期を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-7-p2
+    type: simple
+    text: 都市計画税額（次条第一項前段の規定によつて固定資産税をあわせて徴収する場合にあつては、都市計画税額と固定資産税額との合算額とする。）が市町村の条例で定める金額以下であるものについては、当該市町村は、前項の規定によつて定められた納期のうちいずれか一の納期において、その全額を徴収することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

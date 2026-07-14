@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十二条
 
-<!-- segment: simple id: yakkihou-art-22-p1 -->
 削除

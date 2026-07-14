@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十三条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-113-p1 -->
 削除

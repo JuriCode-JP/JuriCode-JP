@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: chihou-zei-hou-art-2-p1 -->
 地方団体は、この法律の定めるところによつて、地方税を賦課徴収することができる。

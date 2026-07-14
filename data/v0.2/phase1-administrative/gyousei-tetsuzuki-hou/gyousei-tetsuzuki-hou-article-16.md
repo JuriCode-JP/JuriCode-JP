@@ -68,20 +68,16 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-16-p1 -->
 前条第一項の通知を受けた者（同条第三項後段の規定により当該通知が到達したものとみなされる者を含む。以下「当事者」という。）は、代理人を選任することができる。
 
 ### 第十六条第二項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-16-p2 -->
 代理人は、各自、当事者のために、聴聞に関する一切の行為をすることができる。
 
 ### 第十六条第三項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-16-p3 -->
 代理人の資格は、書面で証明しなければならない。
 
 ### 第十六条第四項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-16-p4 -->
 代理人がその資格を失ったときは、当該代理人を選任した当事者は、書面でその旨を行政庁に届け出なければならない。

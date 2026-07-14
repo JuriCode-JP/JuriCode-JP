@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十二条の十二
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-52-12-p1 -->
 法第三百四十九条の三の二第二項第二号に規定する住居で政令で定めるものは、その全部が別荘の用に供される住居以外の住居とする。

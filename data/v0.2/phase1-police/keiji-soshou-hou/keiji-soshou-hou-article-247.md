@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-247-p1 -->
 公訴は、検察官がこれを行う。

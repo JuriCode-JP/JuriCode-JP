@@ -14,14 +14,57 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p1-hashira
+    type: hashira
+    text: 政令第四十八条の十四の五第三号に規定する総務省令で定めるものは、次に掲げるものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p1-kou-1
+    type: kou
+    text: 一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p1-kou-2
+    type: kou
+    text: 二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議による前号に準ずる内容の契約の締結
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p2-hashira
+    type: hashira
+    text: 法第三百二十一条の八第五十七項に規定する総務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p2-kou-1
+    type: kou
+    text: 一　請求をする法人の名称、主たる事務所又は事業所の所在地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p2-kou-2
+    type: kou
+    text: 二　請求をする法人の代表者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p2-kou-3
+    type: kou
+    text: 三　法第三百二十一条の八第五十六項に規定する事実の生じた日及び当該事実の詳細
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p2-kou-4
+    type: kou
+    text: 四　銀行又は郵便局において還付を受けようとするときは、当該銀行又は郵便局の名称及び所在地
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-7-p2-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,6 +80,20 @@ tags:
 
 政令第四十八条の十四の五第三号に規定する総務省令で定めるものは、次に掲げるものとする。
 
+一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+
+二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議による前号に準ずる内容の契約の締結
+
 ### 第十条の二の七第二項
 
 法第三百二十一条の八第五十七項に規定する総務省令で定める事項は、次に掲げる事項とする。
+
+一　請求をする法人の名称、主たる事務所又は事業所の所在地及び法人番号
+
+二　請求をする法人の代表者の氏名及び住所又は居所
+
+三　法第三百二十一条の八第五十六項に規定する事実の生じた日及び当該事実の詳細
+
+四　銀行又は郵便局において還付を受けようとするときは、当該銀行又は郵便局の名称及び所在地
+
+五　その他参考となるべき事項

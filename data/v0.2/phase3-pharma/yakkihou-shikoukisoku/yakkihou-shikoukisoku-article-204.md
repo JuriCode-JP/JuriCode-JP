@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百四条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-204-p1 -->
 法第四十四条第一項及び第二項に規定する毒薬及び劇薬は、別表第三のとおりとする。

@@ -16,27 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-6-p1
+    type: simple
+    text: 地域協議会に、会長及び副会長を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-6-p2
+    type: simple
+    text: 地域協議会の会長及び副会長の選任及び解任の方法は、条例で定める。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-6-p3
+    type: simple
+    text: 地域協議会の会長及び副会長の任期は、地域協議会の構成員の任期による。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-6-p4
+    type: simple
+    text: 地域協議会の会長は、地域協議会の事務を掌理し、地域協議会を代表する。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-6-p5
+    type: simple
+    text: 地域協議会の副会長は、地域協議会の会長に事故があるとき又は地域協議会の会長が欠けたときは、その職務を代理する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

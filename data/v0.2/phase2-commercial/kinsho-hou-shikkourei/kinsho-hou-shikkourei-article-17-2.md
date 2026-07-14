@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-p1
+    type: simple
+    text: 法第五十六条の三に規定する政令で定める部分は、内閣府令で定めるところにより算定される負債の額に相当する資産の額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第百五十一条第一項（青色申告の取りやめ等）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-66-p1-kou-1
+    type: kou
+    text: 一　法第百五十一条第一項の規定による届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-66-p1-kou-2
+    type: kou
+    text: 二　その他参考となるべき事項
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第六十六条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-66-p1-hashira -->
 法第百五十一条第一項（青色申告の取りやめ等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百五十一条第一項の規定による届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　その他参考となるべき事項

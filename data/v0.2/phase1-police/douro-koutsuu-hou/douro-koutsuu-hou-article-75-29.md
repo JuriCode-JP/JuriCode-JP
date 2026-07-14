@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-29-p1-zen
+    type: zen_dan
+    text: 公安委員会は、第七十五条の二十六第一項若しくは第七十五条の二十七第一項の規定による処分をしたとき、又は前条第三項の規定による報告を受けたときは、内閣府令で定める事項を国家公安委員会に報告しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: douro-koutsuu-hou-art-75-29-p1-kou
+    type: kou_dan
+    text: この場合において、国家公安委員会は、当該報告に係る事項を各公安委員会に通報するものとする。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-75-29-p1-zen
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-13-2-p1
+    type: simple
+    text: 法第五十七条の四の規定により特別金融商品取引業者が説明書類をインターネットの利用その他の方法により公表する場合には、投資者が常に容易に閲覧することができるよう公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,29 +14,76 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-8-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、取引所取引許可業者が次の各号のいずれかに該当するときは、当該取引所取引許可業者の第六十条第一項の許可を取り消し、六月以内の期間を定めて取引所取引業務の全部又は一部の停止を命じ、取引所取引業務の方法の変更を命じ、その他監督上必要な事項を命ずることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-60-8-p1-kou-1
+    type: kou
+    text: 一　第六十条の三第一項第一号（ハ及びヌを除く。）、第二号又は第三号に該当することとなつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-60-8-p1-kou-2
+    type: kou
+    text: 二　不正の手段により第六十条第一項の許可を受けたとき。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-60-8-p1-kou-3
+    type: kou
+    text: 三　取引所取引業務又はこれに付随する業務に関し法令（外国の法令を含む。）又は当該法令に基づく行政官庁の処分に違反したとき（第四十六条の六第二項の規定に違反したときを除く。）。
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-60-8-p1-kou-4
+    type: kou
+    text: 四　業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-60-8-p1-kou-5
+    type: kou
+    text: 五　第六十条第一項の許可に付した条件に違反したとき。
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-8-p2
+    type: simple
+    text: 内閣総理大臣は、取引所取引許可業者の国内における代表者（国内に事務所その他の施設がある場合にあつては、当該施設に駐在する役員を含む。）が、第二十九条の四第一項第二号イからリまでのいずれかに該当することとなつたとき、又は前項第三号若しくは第五号に該当する行為をしたときは、取引所取引許可業者に対して、当該国内における代表者の解任又は解職を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-8-p3
+    type: simple
+    text: 内閣総理大臣は、第一項の規定により第六十条第一項の許可を取り消し、又は業務の全部若しくは一部の停止を命じた場合には、内閣府令で定めるところにより、その旨を公告しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-8-p4
+    type: simple
+    text: 内閣総理大臣は、第一項又は第二項の規定に基づいて処分をすることとしたときには、書面により、その旨を取引所取引許可業者に通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-8-p5
+    type: simple
+    text: 内閣総理大臣は、第一項又は第二項の規定に基づいて処分をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -58,6 +105,16 @@ parent_section:
 ### 第六十条の八第一項
 
 内閣総理大臣は、取引所取引許可業者が次の各号のいずれかに該当するときは、当該取引所取引許可業者の第六十条第一項の許可を取り消し、六月以内の期間を定めて取引所取引業務の全部又は一部の停止を命じ、取引所取引業務の方法の変更を命じ、その他監督上必要な事項を命ずることができる。
+
+一　第六十条の三第一項第一号（ハ及びヌを除く。）、第二号又は第三号に該当することとなつたとき。
+
+二　不正の手段により第六十条第一項の許可を受けたとき。
+
+三　取引所取引業務又はこれに付随する業務に関し法令（外国の法令を含む。）又は当該法令に基づく行政官庁の処分に違反したとき（第四十六条の六第二項の規定に違反したときを除く。）。
+
+四　業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
+
+五　第六十条第一項の許可に付した条件に違反したとき。
 
 ### 第六十条の八第二項
 

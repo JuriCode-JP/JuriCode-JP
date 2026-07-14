@@ -19,7 +19,7 @@ paragraphs:
   segments:
   - id: keihou-art-62-p1
     type: simple
-    text: 正犯を幇ほう助した者は、従犯とする。
+    text: 正犯を幇助した者は、従犯とする。
     modality: gimu
 - number: 2
   has_proviso: false
@@ -42,16 +42,14 @@ parent_section:
   shou_name_ja: 第十一章　共犯
 ---
 
-# 刑法 第62条(（幇ほう助）)
+# 刑法 第62条(（幇助）)
 
 ## 原文 (日本語)
 
 ### 第六十二条第一項
 
-<!-- segment: simple id: keihou-art-62-p1 -->
-正犯を幇ほう助した者は、従犯とする。
+正犯を幇助した者は、従犯とする。
 
 ### 第六十二条第二項
 
-<!-- segment: simple id: keihou-art-62-p2 -->
 従犯を教唆した者には、従犯の刑を科する。

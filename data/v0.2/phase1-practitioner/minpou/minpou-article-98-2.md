@@ -13,10 +13,24 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-98-2-p1-hashira
+    type: hashira
+    text: 意思表示の相手方がその意思表示を受けた時に意思能力を有しなかったとき又は未成年者若しくは成年被後見人であったときは、その意思表示をもってその相手方に対抗することができない。ただし、次に掲げる者がその意思表示を知った後は、この限りでない。
+    modality: jogai
+  - id: minpou-art-98-2-p1-kou-1
+    type: kou
+    text: 一　相手方の法定代理人
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-98-2-p1-kou-2
+    type: kou
+    text: 二　意思能力を回復し、又は行為能力者となった相手方
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +52,7 @@ parent_section:
 ### 第九十八条の二
 
 意思表示の相手方がその意思表示を受けた時に意思能力を有しなかったとき又は未成年者若しくは成年被後見人であったときは、その意思表示をもってその相手方に対抗することができない。ただし、次に掲げる者がその意思表示を知った後は、この限りでない。
+
+一　相手方の法定代理人
+
+二　意思能力を回復し、又は行為能力者となった相手方

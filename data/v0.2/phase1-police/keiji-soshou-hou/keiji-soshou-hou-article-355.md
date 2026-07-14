@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百五十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-355-p1 -->
 原審における代理人又は弁護人は、被告人のため上訴をすることができる。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百六条
 
-<!-- segment: simple id: minpou-art-406-p1 -->
 債権の目的が数個の給付の中から選択によって定まるときは、その選択権は、債務者に属する。

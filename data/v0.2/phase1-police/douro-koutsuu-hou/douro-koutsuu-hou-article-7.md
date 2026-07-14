@@ -23,6 +23,10 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-7-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第二号、同条第三項、第百二十一条第一項第一号及び第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -39,5 +43,6 @@ parent_section:
 
 ### 第七条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-7-p1 -->
 道路を通行する歩行者等又は車両等は、信号機の表示する信号又は警察官等の手信号等（前条第一項後段の場合においては、当該手信号等）に従わなければならない。
+
+（罰則　第百十九条第一項第二号、同条第三項、第百二十一条第一項第一号及び第二号）

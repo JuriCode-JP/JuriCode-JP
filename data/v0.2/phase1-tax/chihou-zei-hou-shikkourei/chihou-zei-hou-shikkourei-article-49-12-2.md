@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-49-12-2-p1
+    type: simple
+    text: 法第三百四十八条第二項第十号の四に規定する政令で定める者は、学校法人及び社会福祉法人以外の者で就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律第三条第一項若しくは第三項の認定又は同法第十七条第一項の設置の認可を受けたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

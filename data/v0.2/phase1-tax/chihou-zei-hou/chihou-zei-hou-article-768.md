@@ -23,13 +23,23 @@ paragraphs:
     modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: chihou-zei-hou-art-768-p2
     type: simple
     text: 代表者会議は、第一号に掲げる委員及び第二号に掲げる委員各同数をもつて組織する。
     modality: unspecified
+  - id: chihou-zei-hou-art-768-p2-kou-1
+    type: kou
+    text: 一　都道府県知事、市長又は町村長のうちから、都道府県知事、市長又は町村長の全国的連合組織（地方自治法第二百六十三条の三第一項に規定する全国的連合組織で同項の規定による届出をしたものをいう。次号において同じ。）がそれぞれ選定する者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-768-p2-kou-2
+    type: kou
+    text: 二　都道府県知事、市長及び町村長以外で地方税、法律又は情報システムに関して高い識見を有するもののうちから、都道府県知事、市長又は町村長の全国的連合組織がそれぞれ又は共同して選定する者
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -88,31 +98,28 @@ parent_section:
 
 ### 第七百六十八条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-768-p1 -->
 機構に、機構の業務及び財務の方針を決定する機関として代表者会議を置く。
 
 ### 第七百六十八条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-768-p2 -->
 代表者会議は、第一号に掲げる委員及び第二号に掲げる委員各同数をもつて組織する。
+
+一　都道府県知事、市長又は町村長のうちから、都道府県知事、市長又は町村長の全国的連合組織（地方自治法第二百六十三条の三第一項に規定する全国的連合組織で同項の規定による届出をしたものをいう。次号において同じ。）がそれぞれ選定する者
+
+二　都道府県知事、市長及び町村長以外で地方税、法律又は情報システムに関して高い識見を有するもののうちから、都道府県知事、市長又は町村長の全国的連合組織がそれぞれ又は共同して選定する者
 
 ### 第七百六十八条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-768-p3 -->
 委員の定数は、六人以上十二人以内において定款で定める。
 
 ### 第七百六十八条第四項
 
-<!-- segment: honbun id: chihou-zei-hou-art-768-p4-honbun -->
-委員の任期は、三年以内において定款で定める期間とする。<!-- segment: tadashi id: chihou-zei-hou-art-768-p4-tadashi -->
-ただし、補欠の委員の任期は、前任者の残任期間とする。
+委員の任期は、三年以内において定款で定める期間とする。ただし、補欠の委員の任期は、前任者の残任期間とする。
 
 ### 第七百六十八条第五項
 
-<!-- segment: simple id: chihou-zei-hou-art-768-p5 -->
 委員は、再任されることができる。
 
 ### 第七百六十八条第六項
 
-<!-- segment: simple id: chihou-zei-hou-art-768-p6 -->
 第二項第一号に掲げる委員は、都道府県知事、市長又は町村長でなくなつたときは、その職を失うものとする。

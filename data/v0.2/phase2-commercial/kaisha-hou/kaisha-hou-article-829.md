@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる行為については、当該行為が存在しないことの確認を、訴えをもって請求することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-829-p1-kou-1
+    type: kou
+    text: 一　株式会社の成立後における株式の発行
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-829-p1-kou-2
+    type: kou
+    text: 二　自己株式の処分
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-829-p1-kou-3
+    type: kou
+    text: 三　新株予約権の発行
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第八百二十九条
 
-<!-- segment: hashira id: kaisha-hou-art-829-p1-hashira -->
 次に掲げる行為については、当該行為が存在しないことの確認を、訴えをもって請求することができる。
+
+一　株式会社の成立後における株式の発行
+
+二　自己株式の処分
+
+三　新株予約権の発行

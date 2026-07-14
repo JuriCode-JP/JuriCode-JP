@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-7-p1
+    type: simple
+    text: 免許（小型特殊免許、原付免許及び仮免許を除く。）を現に受けている者（第九十条第五項、第百三条第一項若しくは第四項、第百三条の二第一項、第百四条の二の三第一項若しくは第三項又は同条第五項において準用する第百三条第四項の規定により免許の効力が停止されている者を除く。）は、内閣府令で定める区分に従い、当該免許で運転することができることとされている自動車等に対応する条約附属書十に規定する自動車等に係る条約第二十四条第一項の運転免許証で公安委員会が発給するもの（以下「国外運転免許証」という。）の交付を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-7-p2
+    type: simple
+    text: 国外運転免許証の交付を受けようとする者は、その者の住所地を管轄する公安委員会に、その者が外国に渡航するものであることを証する書面を添えて、内閣府令で定める様式の交付申請書を提出しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-7-p3
+    type: simple
+    text: 公安委員会は、前項の申請があつたときは、運転することができる自動車等の種類を指定し、かつ、その旨を記載して当該国外運転免許証を交付するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-7-p4
+    type: simple
+    text: 前三項に規定するもののほか、国外運転免許証の様式その他国外運転免許証の交付について必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-17-p1
+    type: junyou
+    text: 第五百二十条の十三から前条までの規定は、記名式所持人払証券を目的とする質権の設定について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

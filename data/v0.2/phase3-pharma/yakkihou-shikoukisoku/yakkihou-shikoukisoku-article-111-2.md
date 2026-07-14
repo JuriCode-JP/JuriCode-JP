@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-111-2-p1-zen
+    type: zen_dan
+    text: 医薬品、医薬部外品又は化粧品の製造販売業者又は製造業者については、第十五条の九の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-111-2-p1-kou
+    type: kou_dan
+    text: この場合において、同条第一項中「登録販売者として」とあるのは、「第八十五条第二号、第八十五条の二第一項第三号若しくは第二項第三号、第八十六条第一号イ若しくは第二号ロ、第八十八条第一項第一号イ若しくは第二号ロ又は第九十一条第一項第三号若しくは第二項第三号に規定する」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-111-2-p1-zen
 cases: []
 amendments: []
 tags:

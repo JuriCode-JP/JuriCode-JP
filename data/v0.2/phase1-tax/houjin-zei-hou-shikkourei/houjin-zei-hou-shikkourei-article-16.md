@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第十七条第三号（外国法人の納税地）に規定する政令で定める場所は、次の各号に掲げる場合の区分に応じ当該各号に掲げる場所とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-16-p1-kou-1
+    type: kou
+    text: 一　法第十七条第一号又は第二号の規定により納税地を定められていた外国法人がこれらの規定のいずれにも該当しないこととなつた場合　その該当しないこととなつた時の直前において納税地であつた場所
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-16-p1-kou-2
+    type: kou
+    text: 二　前号に掲げる場合を除き、外国法人が国に対し法人税に関する法律の規定に基づく申告、請求その他の行為をする場合　その外国法人が選択した場所（これらの行為が二以上ある場合には、最初にその行為をした際選択した場所）
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-16-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げる場合以外の場合　麹町税務署の管轄区域内の場所
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-16-p1-hashira -->
 法第十七条第三号（外国法人の納税地）に規定する政令で定める場所は、次の各号に掲げる場合の区分に応じ当該各号に掲げる場所とする。
+
+一　法第十七条第一号又は第二号の規定により納税地を定められていた外国法人がこれらの規定のいずれにも該当しないこととなつた場合　その該当しないこととなつた時の直前において納税地であつた場所
+
+二　前号に掲げる場合を除き、外国法人が国に対し法人税に関する法律の規定に基づく申告、請求その他の行為をする場合　その外国法人が選択した場所（これらの行為が二以上ある場合には、最初にその行為をした際選択した場所）
+
+三　前二号に掲げる場合以外の場合　麹町税務署の管轄区域内の場所

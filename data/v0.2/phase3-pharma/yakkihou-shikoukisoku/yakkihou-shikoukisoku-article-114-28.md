@@ -16,17 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-28-p1
+    type: simple
+    text: 法第二十三条の二の五第六項若しくは第八項（これらの規定を同条第十三項において準用する場合を含む。）又は第二十三条の二の六の三第二項（医療機器又は体外診断用医薬品の製造管理又は品質管理の方法についての調査に係る部分に限り、法第二十三条の二の八第二項において準用する場合を含む。）の規定による調査（以下この章において「医療機器等適合性調査」という。）の申請は、様式第六十三の十一による申請書を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-28-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる書類を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-114-28-p2-kou-1
+    type: kou
+    text: 一　医療機器等適合性調査に係る品目の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-28-p2-kou-2
+    type: kou
+    text: 二　医療機器等適合性調査に係る製造販売業者及び全ての製造所（法第二十三条の二の三第一項に規定する製造所をいう。以下この章において同じ。）における製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-28-p3
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の七第一項の規定により機構に適合性調査を行わせることとした場合における第一項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -50,6 +76,10 @@ parent_section:
 ### 第百十四条の二十八第二項
 
 前項の申請書には、次に掲げる書類を添えなければならない。
+
+一　医療機器等適合性調査に係る品目の製造管理及び品質管理に関する資料
+
+二　医療機器等適合性調査に係る製造販売業者及び全ての製造所（法第二十三条の二の三第一項に規定する製造所をいう。以下この章において同じ。）における製造管理及び品質管理に関する資料
 
 ### 第百十四条の二十八第三項
 

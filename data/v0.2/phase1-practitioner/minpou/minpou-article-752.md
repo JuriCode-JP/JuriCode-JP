@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百五十二条
 
-<!-- segment: simple id: minpou-art-752-p1 -->
 夫婦は同居し、互いに協力し扶助しなければならない。

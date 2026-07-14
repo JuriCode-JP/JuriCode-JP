@@ -101,29 +101,22 @@ parent_section:
 
 ### 第二百三十三条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-233-p1 -->
 会計管理者は、毎会計年度、政令で定めるところにより、決算を調製し、出納の閉鎖後三箇月以内に、証書類その他政令で定める書類と併せて、普通地方公共団体の長に提出しなければならない。
 
 ### 第二百三十三条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-233-p2 -->
 普通地方公共団体の長は、決算及び前項の書類を監査委員の審査に付さなければならない。
 
 ### 第二百三十三条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-233-p3 -->
 普通地方公共団体の長は、前項の規定により監査委員の審査に付した決算を監査委員の意見を付けて次の通常予算を議する会議までに議会の認定に付さなければならない。
 
 ### 第二百三十三条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-233-p4 -->
 前項の規定による意見の決定は、監査委員の合議によるものとする。
 
 ### 第二百三十三条第五項
 
-<!-- segment: simple id: chihou-jichi-hou-art-233-p5 -->
-<!-- segment: simple id: chihou-jichi-hou-art-233-p6 -->
-<!-- segment: simple id: chihou-jichi-hou-art-233-p7 -->
 普通地方公共団体の長は、第三項の規定により決算を議会の認定に付するに当たつては、当該決算に係る会計年度における主要な施策の成果を説明する書類その他政令で定める書類を併せて提出しなければならない。
 
 ### 第二百三十三条第六項

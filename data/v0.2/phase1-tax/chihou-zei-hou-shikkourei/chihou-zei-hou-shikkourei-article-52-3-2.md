@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-3-2-p1-hashira
+    type: hashira
+    text: 法第三百四十九条の三第十項に規定する国立研究開発法人日本原子力研究開発機構が設置する国立研究開発法人日本原子力研究開発機構法第十七条第一項第一号から第三号までに規定する業務の用に供する設備で政令で定めるものは、これらの業務の用に供する設備のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-3-2-p1-kou-1
+    type: kou
+    text: 一　原子力発電施設の用に供する設備
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-3-2-p1-kou-2
+    type: kou
+    text: 二　発電用施設周辺地域整備法施行令第三条各号に規定する施設の用に供する設備
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第五十二条の三の二
 
 法第三百四十九条の三第十項に規定する国立研究開発法人日本原子力研究開発機構が設置する国立研究開発法人日本原子力研究開発機構法第十七条第一項第一号から第三号までに規定する業務の用に供する設備で政令で定めるものは、これらの業務の用に供する設備のうち次に掲げるもの以外のものとする。
+
+一　原子力発電施設の用に供する設備
+
+二　発電用施設周辺地域整備法施行令第三条各号に規定する施設の用に供する設備

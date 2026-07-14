@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-8-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、金融商品取引清算機関の主要株主（金融商品取引清算機関の保有基準割合以上の数の対象議決権の保有者であつて、第百五十六条の五の五第一項の認可を受けて設立され、又は同項若しくは同条第四項ただし書の認可を受けているものをいう。以下この節において同じ。）に対し当該金融商品取引清算機関の業務若しくは財産に関し参考となる報告若しくは資料の提出を命じ、又は当該職員に当該主要株主の書類その他の物件の検査（当該金融商品取引清算機関の業務又は財産に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

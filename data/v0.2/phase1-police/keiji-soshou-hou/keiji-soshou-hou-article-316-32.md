@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-32-p1
+    type: tokusoku
+    text: 公判前整理手続又は期日間整理手続に付された事件については、検察官及び被告人又は弁護人は、第二百九十八条第一項の規定にかかわらず、やむを得ない事由によつて公判前整理手続又は期日間整理手続において請求することができなかつたものを除き、当該公判前整理手続又は期日間整理手続が終わつた後には、証拠調べを請求することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第二百九十八条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-32-p2
+    type: simple
+    text: 前項の規定は、裁判所が、必要と認めるときに、職権で証拠調べをすることを妨げるものではない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

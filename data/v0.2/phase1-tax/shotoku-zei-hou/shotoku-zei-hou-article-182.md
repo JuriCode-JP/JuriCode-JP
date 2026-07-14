@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: shotoku-zei-hou-art-182-p1-kou-1
+    type: kou
+    text: 一　利子等　その金額に百分の十五の税率を乗じて計算した金額
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-art-182-p1-kou-2
+    type: kou
+    text: 二　配当等　その金額に百分の二十の税率を乗じて計算した金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第百八十二条
 
-<!-- segment: hashira id: shotoku-zei-hou-art-182-p1-hashira -->
 前条の規定により徴収すべき所得税の額は、次の各号の区分に応じ当該各号に掲げる金額とする。
+
+一　利子等　その金額に百分の十五の税率を乗じて計算した金額
+
+二　配当等　その金額に百分の二十の税率を乗じて計算した金額

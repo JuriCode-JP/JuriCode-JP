@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三十八条第一項の規定の適用を受けようとする事業者は、次に掲げる事項（売上げに係る対価の返還等が第七十条の十一各号に掲げる事業に係るものである場合には、第二号から第四号までに掲げる事項）を帳簿に整然と、かつ、明瞭に記録しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikkourei-art-58-2-p1-kou-1
+    type: kou
+    text: 一　売上げに係る対価の返還等を受けた者の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikkourei-art-58-2-p1-kou-2
+    type: kou
+    text: 二　売上げに係る対価の返還等を行つた年月日
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikkourei-art-58-2-p1-kou-3
+    type: kou
+    text: 三　売上げに係る対価の返還等に係る課税資産の譲渡等に係る資産又は役務の内容（当該売上げに係る対価の返還等に係る課税資産の譲渡等が軽減対象課税資産の譲渡等である場合には、資産の内容及び軽減対象課税資産の譲渡等である旨）
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikkourei-art-58-2-p1-kou-4
+    type: kou
+    text: 四　税率の異なるごとに区分した売上げに係る対価の返還等をした金額
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -62,15 +82,20 @@ parent_section:
 
 ### 第五十八条の二第一項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikkourei-art-58-2-p1-hashira -->
 法第三十八条第一項の規定の適用を受けようとする事業者は、次に掲げる事項（売上げに係る対価の返還等が第七十条の十一各号に掲げる事業に係るものである場合には、第二号から第四号までに掲げる事項）を帳簿に整然と、かつ、明瞭に記録しなければならない。
+
+一　売上げに係る対価の返還等を受けた者の氏名又は名称
+
+二　売上げに係る対価の返還等を行つた年月日
+
+三　売上げに係る対価の返還等に係る課税資産の譲渡等に係る資産又は役務の内容（当該売上げに係る対価の返還等に係る課税資産の譲渡等が軽減対象課税資産の譲渡等である場合には、資産の内容及び軽減対象課税資産の譲渡等である旨）
+
+四　税率の異なるごとに区分した売上げに係る対価の返還等をした金額
 
 ### 第五十八条の二第二項
 
-<!-- segment: simple id: shouhi-zei-hou-shikkourei-art-58-2-p2 -->
 前項に規定する事業者は、同項の規定により記録した帳簿を整理し、これをその閉鎖の日の属する課税期間の末日の翌日から二月（清算中の法人について残余財産が確定した場合には一月とする。次項において同じ。）を経過した日から七年間、当該事業者の納税地又はその取引に係る事務所、事業所その他これらに準ずるものの所在地に保存しなければならない。
 
 ### 第五十八条の二第三項
 
-<!-- segment: simple id: shouhi-zei-hou-shikkourei-art-58-2-p3 -->
 前項に規定する課税期間の末日の翌日から二月を経過した日から五年を経過した日以後の期間における同項の規定による保存は、財務大臣の定める方法によることができる。

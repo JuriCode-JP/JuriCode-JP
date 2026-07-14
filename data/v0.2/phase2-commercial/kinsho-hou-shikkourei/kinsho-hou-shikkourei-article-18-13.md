@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-13-p1
+    type: simple
+    text: 法第七十九条の五十六第一項並びに第七十九条の五十七第一項及び第三項の規定により基金が支払をすべき金額が、当該支払に係る補償対象債権の金額に満たないときは、基金は、当該補償対象債権のうち、基金が指定するものを取得するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

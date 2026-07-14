@@ -66,20 +66,16 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-29-p1 -->
 公正取引委員会は、委員長及び委員四人を以て、これを組織する。
 
 ### 第二十九条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-29-p2 -->
 委員長及び委員は、年齢が三十五年以上で、法律又は経済に関する学識経験のある者のうちから、内閣総理大臣が、両議院の同意を得て、これを任命する。
 
 ### 第二十九条第三項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-29-p3 -->
 委員長の任免は、天皇が、これを認証する。
 
 ### 第二十九条第四項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-29-p4 -->
 委員長及び委員は、これを官吏とする。

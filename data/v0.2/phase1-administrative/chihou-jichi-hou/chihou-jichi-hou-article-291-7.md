@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-7-p1
+    type: simple
+    text: 広域連合は、当該広域連合が設けられた後、速やかに、その議会の議決を経て、広域計画を作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-7-p2
+    type: simple
+    text: 広域計画は、第二百九十一条の二第一項又は第二項の規定により広域連合が新たに事務を処理することとされたとき（変更されたときを含む。）その他これを変更することが適当であると認められるときは、変更することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-7-p3
+    type: simple
+    text: 広域連合は、広域計画を変更しようとするときは、その議会の議決を経なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-7-p4
+    type: simple
+    text: 広域連合及び当該広域連合を組織する地方公共団体は、広域計画に基づいて、その事務を処理するようにしなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-7-p5
+    type: simple
+    text: 広域連合の長は、当該広域連合を組織する地方公共団体の事務の処理が広域計画の実施に支障があり又は支障があるおそれがあると認めるときは、当該広域連合の議会の議決を経て、当該広域連合を組織する地方公共団体に対し、当該広域計画の実施に関し必要な措置を講ずべきことを勧告することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-7-p6
+    type: simple
+    text: 広域連合の長は、前項の規定による勧告を行つたときは、当該勧告を受けた地方公共団体に対し、当該勧告に基づいて講じた措置について報告を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

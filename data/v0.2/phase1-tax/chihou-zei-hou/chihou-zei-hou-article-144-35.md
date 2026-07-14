@@ -16,42 +16,83 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p1
+    type: simple
+    text: 元売業者、特約業者及び軽油製造業者等は、毎月末日までに、前月の初日から末日までの間に行つた軽油の引取り、引渡し、納入、製造及び輸入に関する事実並びにその数量、前月の末日における軽油の在庫数量その他の総務省令で定める事項を、総務省令で定める道府県知事に報告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p2
+    type: simple
+    text: 前項に規定する者以外の者は、軽油の製造をした場合には、当該製造をした日から三十日以内に軽油の製造に関する事実及びその数量その他の総務省令で定める事項を、総務省令で定める道府県知事に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p3
+    type: simple
+    text: 前二項に規定する者は、これらの規定により報告した事項に異動を生じた場合には、遅滞なく、その旨をこれらの規定の道府県知事に報告しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p4
+    type: simple
+    text: 前三項の規定により報告を受けた道府県知事は、当該報告に係る事項を、速やかに関係道府県知事に通知するものとする。
+    modality: gimu
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p5
+    type: simple
+    text: 元売業者は、特約業者が当該元売業者から引取りを行つた軽油について当該特約業者の指図に基づき納入を行つた場合には、その納入に関する事実その他の総務省令で定める事項を、当該特約業者に通知しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p6
+    type: simple
+    text: 第百四十四条の二第一項又は第二項に規定する軽油の引取りを行つた者は、その事務所又は事業所ごとにその納入を受けた軽油の数量その他の総務省令で定める事項を記載した書類を、当該引取りに係る特別徴収義務者に対し提出しなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p7
+    type: simple
+    text: 前項の特別徴収義務者は、総務省令で定めるところにより、同項の規定により提出を受けた書類を保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-35-p8
+    type: simple
+    text: 前各項に定めるもののほか、これらの規定の報告、通知並びに書類の提出及び保存に関し必要な事項は、総務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

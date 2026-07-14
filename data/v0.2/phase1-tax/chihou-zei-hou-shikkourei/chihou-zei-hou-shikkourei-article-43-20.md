@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十三条の二十
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-43-20-p1 -->
 法第百四十四条の六十第一項の政令で定める率は、十分の九とする。

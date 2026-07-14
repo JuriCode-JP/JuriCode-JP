@@ -42,6 +42,4 @@ parent_section:
 
 ### 第二百七十九条
 
-<!-- segment: zen_dan id: yakkihou-shikoukisoku-art-279-p1-zen -->
-法第八十条の四第三項の規定により機構に対して行う報告については、第二百七十三条、第二百七十四条の二及び第二百七十五条の三の規定を準用する。<!-- segment: kou_dan id: yakkihou-shikoukisoku-art-279-p1-kou depends_on: yakkihou-shikoukisoku-art-279-p1-zen -->
-この場合において、これらの規定中「厚生労働大臣」とあるのは、「機構」と読み替えるものとする。
+法第八十条の四第三項の規定により機構に対して行う報告については、第二百七十三条、第二百七十四条の二及び第二百七十五条の三の規定を準用する。この場合において、これらの規定中「厚生労働大臣」とあるのは、「機構」と読み替えるものとする。

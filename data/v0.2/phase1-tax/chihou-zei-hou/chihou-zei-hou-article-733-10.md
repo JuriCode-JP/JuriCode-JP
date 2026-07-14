@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-10-p1
+    type: simple
+    text: 法定外目的税の納税義務者は、当該地方団体の条例の定めるところによつて、当該法定外目的税の賦課徴収に関し同条例で定める事項を申告し、又は報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

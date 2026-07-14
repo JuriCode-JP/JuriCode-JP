@@ -24,8 +24,8 @@ paragraphs:
     applies_provisions:
     - 第十六条
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -44,5 +44,4 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: junyou id: gyousei-tetsuzuki-hou-art-31-p1 applies_provisions: 第十六条 -->
 第十五条第三項及び第十六条の規定は、弁明の機会の付与について準用する。この場合において、第十五条第三項中「第一項」とあるのは「第三十条」と、「同項第三号及び第四号」とあるのは「同条第三号」と、第十六条第一項中「前条第一項」とあるのは「第三十条」と、「同条第三項後段」とあるのは「第三十一条において準用する第十五条第三項後段」と読み替えるものとする。

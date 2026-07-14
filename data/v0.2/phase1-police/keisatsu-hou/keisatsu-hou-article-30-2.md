@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-30-2-p1
+    type: tokusoku
+    text: 前条の規定にかかわらず、関東管区警察局は、全国を管轄区域として、警察庁の所掌事務のうち第五条第四項第十六号に掲げるものに係るものを分掌する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

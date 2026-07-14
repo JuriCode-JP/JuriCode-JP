@@ -41,5 +41,4 @@ parent_section:
 
 ### 第千二十六条
 
-<!-- segment: simple id: minpou-art-1026-p1 -->
 遺言者は、その遺言を撤回する権利を放棄することができない。

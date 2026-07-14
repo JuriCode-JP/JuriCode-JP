@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四百二十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-424-p1 -->
 抗告は、即時抗告を除いては、裁判の執行を停止する効力を有しない。但し、原裁判所は、決定で、抗告の裁判があるまで執行を停止することができる。
 
 ### 第四百二十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-424-p2 -->
 抗告裁判所は、決定で裁判の執行を停止することができる。

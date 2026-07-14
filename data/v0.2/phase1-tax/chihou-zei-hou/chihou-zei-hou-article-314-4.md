@@ -13,15 +13,27 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-314-4-p1-honbun
+    type: honbun
+    text: 法人税割の標準税率は、百分の六とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-314-4-p1-tadashi
+    type: tadashi
+    text: ただし、標準税率を超えて課する場合においても、百分の八・四を超えることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-314-4-p2
+    type: simple
+    text: 法人税割の税率は、第三百二十一条の八第一項に規定する法人税額の課税標準の算定期間の末日現在における税率による。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

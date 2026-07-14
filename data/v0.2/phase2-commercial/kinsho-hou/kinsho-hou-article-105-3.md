@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-3-p1
+    type: simple
+    text: 裁判所は、株式会社金融商品取引所の清算手続、破産手続、再生手続、更生手続又は承認援助手続において、内閣総理大臣に対し、意見を求め、又は検査若しくは調査を依頼することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-3-p2
+    type: simple
+    text: 内閣総理大臣は、前項に規定する手続において、必要があると認めるときは、裁判所に対し、意見を述べることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

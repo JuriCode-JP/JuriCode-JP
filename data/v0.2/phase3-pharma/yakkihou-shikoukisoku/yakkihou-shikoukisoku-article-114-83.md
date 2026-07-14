@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-83-p1
+    type: simple
+    text: 高度管理医療機器等の製造販売業者又は製造業者については、第百七十三条第一項の規定を準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-83-p2-zen
+    type: zen_dan
+    text: 体外診断用医薬品の製造販売業者又は製造業者については、第十四条第一項及び第四項の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-83-p2-kou
+    type: kou_dan
+    text: この場合において、同条第四項中「三年間、前項の書面を記載の日から二年間」とあるのは、「三年間」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    depends_on: yakkihou-shikoukisoku-art-114-83-p2-zen
 cases: []
 amendments: []
 tags:

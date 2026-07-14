@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-10-p1
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造業の登録証は、様式第六十三の三によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

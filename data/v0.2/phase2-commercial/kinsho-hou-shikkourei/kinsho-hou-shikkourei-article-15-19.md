@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-19-p1
+    type: simple
+    text: 法第三十三条第二項第五号に規定する政令で定める場合は、五十名以上の者を相手方として、同号ロに掲げる取引を行う場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-4-p1
+    type: simple
+    text: 薬局開設者は、医薬品を競売に付してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

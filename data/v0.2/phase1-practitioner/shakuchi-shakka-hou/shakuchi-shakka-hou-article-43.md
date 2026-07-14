@@ -57,15 +57,12 @@ parent_section:
 
 ### 第四十三条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-43-p1 -->
 裁判所は、当事者の申立てにより、当事者となる資格を有する者を第四十一条の事件の手続に参加させることができる。
 
 ### 第四十三条第二項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-43-p2 -->
 前項の申立ては、その趣旨及び理由を記載した書面でしなければならない。
 
 ### 第四十三条第三項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-43-p3 -->
 第一項の申立てを却下する裁判に対しては、即時抗告をすることができる。

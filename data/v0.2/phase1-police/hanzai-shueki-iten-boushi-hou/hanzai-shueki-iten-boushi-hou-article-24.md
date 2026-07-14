@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: この法律の規定により都道府県が処理することとされている事務のうち次に掲げる者に係るものは、地方自治法（昭和二十二年法律第六十七号）第二条第九項第一号に規定する第一号法定受託事務とする。
     modality: gimu
+  - id: hanzai-shueki-iten-boushi-hou-art-24-p1-kou-1
+    type: kou
+    text: 一　農業協同組合法第十条第一項第三号の事業を行う農業協同組合及び農業協同組合連合会
+    modality: unspecified
+    item_number: 1
+  - id: hanzai-shueki-iten-boushi-hou-art-24-p1-kou-2
+    type: kou
+    text: 二　水産業協同組合法第十一条第一項第四号の事業を行う漁業協同組合
+    modality: unspecified
+    item_number: 2
+  - id: hanzai-shueki-iten-boushi-hou-art-24-p1-kou-3
+    type: kou
+    text: 三　水産業協同組合法第八十七条第一項第四号の事業を行う漁業協同組合連合会
+    modality: unspecified
+    item_number: 3
+  - id: hanzai-shueki-iten-boushi-hou-art-24-p1-kou-4
+    type: kou
+    text: 四　水産業協同組合法第九十三条第一項第二号の事業を行う水産加工業協同組合
+    modality: unspecified
+    item_number: 4
+  - id: hanzai-shueki-iten-boushi-hou-art-24-p1-kou-5
+    type: kou
+    text: 五　水産業協同組合法第九十七条第一項第二号の事業を行う水産加工業協同組合連合会
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,5 +62,14 @@ parent_section:
 
 ### 第二十四条
 
-<!-- segment: hashira id: hanzai-shueki-iten-boushi-hou-art-24-p1-hashira -->
 この法律の規定により都道府県が処理することとされている事務のうち次に掲げる者に係るものは、地方自治法（昭和二十二年法律第六十七号）第二条第九項第一号に規定する第一号法定受託事務とする。
+
+一　農業協同組合法第十条第一項第三号の事業を行う農業協同組合及び農業協同組合連合会
+
+二　水産業協同組合法第十一条第一項第四号の事業を行う漁業協同組合
+
+三　水産業協同組合法第八十七条第一項第四号の事業を行う漁業協同組合連合会
+
+四　水産業協同組合法第九十三条第一項第二号の事業を行う水産加工業協同組合
+
+五　水産業協同組合法第九十七条第一項第二号の事業を行う水産加工業協同組合連合会

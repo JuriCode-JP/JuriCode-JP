@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 設立時取締役（設立しようとする株式会社が監査役設置会社である場合にあっては、設立時取締役及び設立時監査役。以下この条において同じ。）は、その選任後遅滞なく、次に掲げる事項を調査しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-93-p1-kou-1
+    type: kou
+    text: 一　第三十三条第十項第一号又は第二号に掲げる場合における現物出資財産等（同号に掲げる場合にあっては、同号の有価証券に限る。）について定款に記載され、又は記録された価額が相当であること。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-93-p1-kou-2
+    type: kou
+    text: 二　第三十三条第十項第三号に規定する証明が相当であること。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-93-p1-kou-3
+    type: kou
+    text: 三　発起人による出資の履行及び第六十三条第一項の規定による払込みが完了していること。
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-93-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げる事項のほか、株式会社の設立の手続が法令又は定款に違反していないこと。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +83,20 @@ parent_section:
 
 ### 第九十三条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-93-p1-hashira -->
 設立時取締役（設立しようとする株式会社が監査役設置会社である場合にあっては、設立時取締役及び設立時監査役。以下この条において同じ。）は、その選任後遅滞なく、次に掲げる事項を調査しなければならない。
+
+一　第三十三条第十項第一号又は第二号に掲げる場合における現物出資財産等（同号に掲げる場合にあっては、同号の有価証券に限る。）について定款に記載され、又は記録された価額が相当であること。
+
+二　第三十三条第十項第三号に規定する証明が相当であること。
+
+三　発起人による出資の履行及び第六十三条第一項の規定による払込みが完了していること。
+
+四　前三号に掲げる事項のほか、株式会社の設立の手続が法令又は定款に違反していないこと。
 
 ### 第九十三条第二項
 
-<!-- segment: simple id: kaisha-hou-art-93-p2 -->
 設立時取締役は、前項の規定による調査の結果を創立総会に報告しなければならない。
 
 ### 第九十三条第三項
 
-<!-- segment: simple id: kaisha-hou-art-93-p3 -->
 設立時取締役は、創立総会において、設立時株主から第一項の規定による調査に関する事項について説明を求められた場合には、当該事項について必要な説明をしなければならない。

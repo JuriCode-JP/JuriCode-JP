@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二十四条
 
-<!-- segment: simple id: sochi-hou-art-24-p1 -->
 削除

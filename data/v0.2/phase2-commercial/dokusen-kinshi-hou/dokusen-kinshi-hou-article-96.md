@@ -42,8 +42,8 @@ paragraphs:
     text: 公正取引委員会は、第一項の告発をするに当たり、その告発に係る犯罪について、前条第一項又は第百条第一項第一号の宣告をすることを相当と認めるときは、その旨を前項の文書に記載することができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
@@ -69,20 +69,16 @@ parent_section:
 
 ### 第九十六条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-96-p1 -->
 第八十九条から第九十一条までの罪は、公正取引委員会の告発を待つて、これを論ずる。
 
 ### 第九十六条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-96-p2 -->
 前項の告発は、文書をもつてこれを行う。
 
 ### 第九十六条第三項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-96-p3 -->
 公正取引委員会は、第一項の告発をするに当たり、その告発に係る犯罪について、前条第一項又は第百条第一項第一号の宣告をすることを相当と認めるときは、その旨を前項の文書に記載することができる。
 
 ### 第九十六条第四項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-96-p4 -->
 第一項の告発は、公訴の提起があつた後は、これを取り消すことができない。

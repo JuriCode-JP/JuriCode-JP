@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百七十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-374-p1 -->
 控訴をするには、申立書を第一審裁判所に差し出さなければならない。

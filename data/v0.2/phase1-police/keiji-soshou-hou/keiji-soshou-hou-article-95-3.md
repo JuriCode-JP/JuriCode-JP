@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-95-3-p1
+    type: simple
+    text: 裁判所の許可を受けないで指定された期間を超えて制限された住居を離れてはならない旨の条件を付されて保釈又は勾留の執行停止をされた被告人が、当該条件に係る住居を離れ、当該許可を受けないで、正当な理由がなく、当該期間を超えて当該住居に帰着しないときは、二年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-95-3-p2
+    type: simple
+    text: 前項の被告人が、裁判所の許可を受けて同項の住居を離れ、正当な理由がなく、当該住居を離れることができる期間として指定された期間を超えて当該住居に帰着しないときも、同項と同様とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

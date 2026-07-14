@@ -16,22 +16,52 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-9-p1
+    type: simple
+    text: 法第十四条の七の二第三項の確認（以下「医薬品等適合性確認」という。）の申請は、様式第三十七の五による申請書を厚生労働大臣（令第八十条の規定により当該確認の権限に属する事務を都道府県知事が行うこととされた場合にあつては、都道府県知事）に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-9-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる資料を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-68-9-p2-kou-1
+    type: kou
+    text: 一　医薬品等適合性確認に係る品目の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-68-9-p2-kou-2
+    type: kou
+    text: 二　医薬品等適合性確認に係る製造所の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-9-p3
+    type: simple
+    text: 厚生労働大臣（令第八十条の規定により当該確認の権限に属する事務を都道府県知事が行うこととされた場合にあつては、都道府県知事）は、医薬品等適合性確認をしたときは、様式第三十七の六による通知書を申請者に交付するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-9-p4
+    type: simple
+    text: 厚生労働大臣が法第十四条の七の二第八項の規定により機構に医薬品等適合性確認を行わせることとした場合における第一項及び前項の規定の適用については、これらの規定中「厚生労働大臣（令第八十条の規定により当該確認の権限に属する事務を都道府県知事が行うこととされた場合にあつては、都道府県知事）」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -53,6 +83,10 @@ parent_section:
 ### 第六十八条の九第二項
 
 前項の申請書には、次に掲げる資料を添えなければならない。
+
+一　医薬品等適合性確認に係る品目の製造管理及び品質管理に関する資料
+
+二　医薬品等適合性確認に係る製造所の製造管理及び品質管理に関する資料
 
 ### 第六十八条の九第三項
 

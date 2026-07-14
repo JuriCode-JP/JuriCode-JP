@@ -48,10 +48,8 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-6-p1 -->
 地方団体は、公益上その他の事由に因り課税を不適当とする場合においては、課税をしないことができる。
 
 ### 第六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-6-p2 -->
 地方団体は、公益上その他の事由に因り必要がある場合においては、不均一の課税をすることができる。

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる者は、第八百八十七条の規定により相続人となるべき者がない場合には、次に掲げる順序の順位に従って相続人となる。
     modality: unspecified
+  - id: minpou-art-889-p1-kou-1
+    type: kou
+    text: 一　被相続人の直系尊属。ただし、親等の異なる者の間では、その近い者を先にする。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-889-p1-kou-2
+    type: kou
+    text: 二　被相続人の兄弟姉妹
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第八百八十九条第一項
 
-<!-- segment: hashira id: minpou-art-889-p1-hashira -->
 次に掲げる者は、第八百八十七条の規定により相続人となるべき者がない場合には、次に掲げる順序の順位に従って相続人となる。
+
+一　被相続人の直系尊属。ただし、親等の異なる者の間では、その近い者を先にする。
+
+二　被相続人の兄弟姉妹
 
 ### 第八百八十九条第二項
 
-<!-- segment: junyou id: minpou-art-889-p2 -->
 第八百八十七条第二項の規定は、前項第二号の場合について準用する。

@@ -59,15 +59,12 @@ parent_section:
 
 ### 第六百二十一条第一項
 
-<!-- segment: simple id: kaisha-hou-art-621-p1 -->
 社員は、持分会社に対し、利益の配当を請求することができる。
 
 ### 第六百二十一条第二項
 
-<!-- segment: simple id: kaisha-hou-art-621-p2 -->
 持分会社は、利益の配当を請求する方法その他の利益の配当に関する事項を定款で定めることができる。
 
 ### 第六百二十一条第三項
 
-<!-- segment: simple id: kaisha-hou-art-621-p3 -->
 社員の持分の差押えは、利益の配当を請求する権利に対しても、その効力を有する。

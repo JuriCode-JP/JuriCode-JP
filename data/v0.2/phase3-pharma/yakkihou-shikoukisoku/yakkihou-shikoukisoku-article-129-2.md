@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-129-2-p1
+    type: simple
+    text: 厚生労働大臣は、法第二十三条の十第一項の認可をしたときは、認可を申請した者に認可証を交付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-129-2-p2
+    type: simple
+    text: 前項の認可証は、様式第七十四の二によるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

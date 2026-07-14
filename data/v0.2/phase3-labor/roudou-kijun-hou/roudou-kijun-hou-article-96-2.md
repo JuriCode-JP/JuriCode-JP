@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-96-2-p1
+    type: simple
+    text: 使用者は、常時十人以上の労働者を就業させる事業、厚生労働省令で定める危険な事業又は衛生上有害な事業の附属寄宿舎を設置し、移転し、又は変更しようとする場合においては、前条の規定に基づいて発する厚生労働省令で定める危害防止等に関する基準に従い定めた計画を、工事着手十四日前までに、行政官庁に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-96-2-p2
+    type: simple
+    text: 行政官庁は、労働者の安全及び衛生に必要であると認める場合においては、工事の着手を差し止め、又は計画の変更を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

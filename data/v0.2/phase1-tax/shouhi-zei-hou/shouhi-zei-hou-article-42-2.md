@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-42-2-p1
+    type: simple
+    text: 国税通則法第十一条（災害等による期限の延長）の規定による申告に関する期限の延長により、中間申告書（前条第一項、第四項又は第六項の規定による申告書をいう。以下この章において同じ。）の提出期限と当該中間申告書に係る課税期間の第四十五条第一項の規定による申告書の提出期限とが同一の日となる場合は、前条第一項本文、第四項本文又は第六項本文の規定にかかわらず、当該中間申告書を提出することを要しない。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

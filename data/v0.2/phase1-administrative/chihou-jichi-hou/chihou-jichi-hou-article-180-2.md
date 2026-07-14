@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-2-p1-honbun
+    type: honbun
+    text: 普通地方公共団体の長は、その権限に属する事務の一部を、当該普通地方公共団体の委員会又は委員と協議して、普通地方公共団体の委員会、委員会の委員長（教育委員会にあつては、教育長）、委員若しくはこれらの執行機関の事務を補助する職員若しくはこれらの執行機関の管理に属する機関の職員に委任し、又はこれらの執行機関の事務を補助する職員若しくはこれらの執行機関の管理に属する機関の職員をして補助執行させることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-180-2-p1-tadashi
+    type: tadashi
+    text: ただし、政令で定める普通地方公共団体の委員会又は委員については、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

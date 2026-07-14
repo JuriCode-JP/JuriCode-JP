@@ -16,72 +16,165 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p1
+    type: tokusoku
+    text: 指定都市は、その行政の円滑な運営を確保するため必要があると認めるときは、前条第一項の規定にかかわらず、市長の権限に属する事務のうち特定の区の区域内に関するものを第八項の規定により総合区長に執行させるため、条例で、当該区に代えて総合区を設け、総合区の事務所又は必要があると認めるときはその出張所を置くことができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p2
+    type: simple
+    text: 総合区の事務所又はその出張所の位置、名称及び所管区域並びに総合区の事務所が分掌する事務は、条例でこれを定めなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p3
+    type: simple
+    text: 総合区にその事務所の長として総合区長を置く。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p4
+    type: simple
+    text: 総合区長は、市長が議会の同意を得てこれを選任する。
+    modality: unspecified
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p5-honbun
+    type: honbun
+    text: 総合区長の任期は、四年とする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-20-2-p5-tadashi
+    type: tadashi
+    text: ただし、市長は、任期中においてもこれを解職することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p6
+    type: simple
+    text: 総合区の事務所の職員のうち、総合区長があらかじめ指定する者は、総合区長に事故があるとき又は総合区長が欠けたときは、その職務を代理する。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p7
+    type: junyou
+    text: 第百四十一条、第百四十二条、第百五十九条、第百六十四条、第百六十五条第二項、第百六十六条第一項及び第三項並びに第百七十五条第二項の規定は、総合区長について準用する。
+    modality: unspecified
 - number: 8
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p8-hashira
+    type: hashira
+    text: 総合区長は、総合区の区域に係る政策及び企画をつかさどるほか、法律若しくはこれに基づく政令又は条例により総合区長が執行することとされた事務及び市長の権限に属する事務のうち主として総合区の区域内に関するもので次に掲げるものを執行し、これらの事務の執行について当該指定都市を代表する。ただし、法律又はこれに基づく政令に特別の定めがある場合は、この限りでない。
+    modality: jogai
+  - id: chihou-jichi-hou-art-252-20-2-p8-kou-1
+    type: kou
+    text: 一　総合区の区域に住所を有する者の意見を反映させて総合区の区域のまちづくりを推進する事務（法律若しくはこれに基づく政令又は条例により市長が執行することとされたものを除く。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-252-20-2-p8-kou-2
+    type: kou
+    text: 二　総合区の区域に住所を有する者相互間の交流を促進するための事務（法律若しくはこれに基づく政令又は条例により市長が執行することとされたものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-252-20-2-p8-kou-3
+    type: kou
+    text: 三　社会福祉及び保健衛生に関する事務のうち総合区の区域に住所を有する者に対して直接提供される役務に関する事務（法律若しくはこれに基づく政令又は条例により市長が執行することとされたものを除く。）
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-252-20-2-p8-kou-4
+    type: kou
+    text: 四　前三号に掲げるもののほか、主として総合区の区域内に関する事務で条例で定めるもの
+    modality: unspecified
+    item_number: 4
 - number: 9
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p9-honbun
+    type: honbun
+    text: 総合区長は、総合区の事務所又はその出張所の職員（政令で定めるものを除く。）を任免する。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-252-20-2-p9-tadashi
+    type: tadashi
+    text: ただし、指定都市の規則で定める主要な職員を任免する場合においては、あらかじめ、市長の同意を得なければならない。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p10
+    type: simple
+    text: 総合区長は、歳入歳出予算のうち総合区長が執行する事務に係る部分に関し必要があると認めるときは、市長に対し意見を述べることができる。
+    modality: kanou_kenri
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p11
+    type: simple
+    text: 総合区に選挙管理委員会を置く。
+    modality: unspecified
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p12
+    type: junyou
+    text: 第四条第二項の規定は第二項の総合区の事務所又はその出張所の位置及び所管区域について、第百七十五条第二項の規定は総合区の事務所の出張所の長について、第二編第七章第三節中市の選挙管理委員会に関する規定は前項の選挙管理委員会について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p13
+    type: junyou
+    text: 前条第七項から第十項までの規定は、総合区について準用する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-20-2-p14
+    type: simple
+    text: 前各項に定めるもののほか、指定都市の総合区に関し必要な事項は、政令でこれを定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -131,6 +224,14 @@ parent_section:
 ### 第二百五十二条の二十の二第八項
 
 総合区長は、総合区の区域に係る政策及び企画をつかさどるほか、法律若しくはこれに基づく政令又は条例により総合区長が執行することとされた事務及び市長の権限に属する事務のうち主として総合区の区域内に関するもので次に掲げるものを執行し、これらの事務の執行について当該指定都市を代表する。ただし、法律又はこれに基づく政令に特別の定めがある場合は、この限りでない。
+
+一　総合区の区域に住所を有する者の意見を反映させて総合区の区域のまちづくりを推進する事務（法律若しくはこれに基づく政令又は条例により市長が執行することとされたものを除く。）
+
+二　総合区の区域に住所を有する者相互間の交流を促進するための事務（法律若しくはこれに基づく政令又は条例により市長が執行することとされたものを除く。）
+
+三　社会福祉及び保健衛生に関する事務のうち総合区の区域に住所を有する者に対して直接提供される役務に関する事務（法律若しくはこれに基づく政令又は条例により市長が執行することとされたものを除く。）
+
+四　前三号に掲げるもののほか、主として総合区の区域内に関する事務で条例で定めるもの
 
 ### 第二百五十二条の二十の二第九項
 

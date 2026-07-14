@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 非課税貯蓄申込書には、法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用を受けようとする旨及び次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-1
+    type: kou
+    text: 一　提出者の氏名、生年月日及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-2
+    type: kou
+    text: 二　障害者等に該当する事実
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-3
+    type: kou
+    text: 三　預貯金等のうち、提出者がその金融機関の営業所等を経由して提出した非課税貯蓄申告書に記載したものの種別
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-4
+    type: kou
+    text: 四　預入等をする前号の預貯金等で法第十条第一項の規定の適用を受けようとするものの金額（当該預貯金等が有価証券である場合には、その額面金額等）
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +86,22 @@ parent_section:
 
 ### 第三十四条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-34-p1-hashira -->
 非課税貯蓄申込書には、法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用を受けようとする旨及び次に掲げる事項を記載しなければならない。
+
+一　提出者の氏名、生年月日及び住所
+
+二　障害者等に該当する事実
+
+三　預貯金等のうち、提出者がその金融機関の営業所等を経由して提出した非課税貯蓄申告書に記載したものの種別
+
+四　預入等をする前号の預貯金等で法第十条第一項の規定の適用を受けようとするものの金額（当該預貯金等が有価証券である場合には、その額面金額等）
+
+五　その他参考となるべき事項
 
 ### 第三十四条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-34-p2 -->
 非課税貯蓄申込書は、法第十条第一項の規定の適用を受けようとする預貯金等の預入等をする都度、その預入等をする金融機関の営業所等に提出しなければならない。
 
 ### 第三十四条第三項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-34-p3 -->
 金融機関の営業所等は、個人の提出する非課税貯蓄申込書に記載された氏名、生年月日及び住所並びに障害者等に該当する事実と法第十条第二項の規定により提示又は送信を受けた同項に規定する書類又は署名用電子証明書等に記載又は記録がされた氏名、生年月日及び住所並びに障害者等に該当する事実並びにその者に係る非課税貯蓄申告書に記載された氏名、生年月日及び住所（第四十三条第一項（非課税貯蓄に関する異動申告書）に規定する申告書の提出があつた場合には、当該申告書に記載された変更後の氏名及び住所）とが異なるときは、当該非課税貯蓄申込書を受理してはならない。

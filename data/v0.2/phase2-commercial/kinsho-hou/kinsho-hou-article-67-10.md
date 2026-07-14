@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-10-p1
+    type: simple
+    text: 認可協会の住所は、その主たる事務所の所在地にあるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

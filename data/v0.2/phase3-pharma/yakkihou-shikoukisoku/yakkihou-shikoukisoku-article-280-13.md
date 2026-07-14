@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-13-p1
+    type: simple
+    text: 原薬等登録業者は、法第八十条の九第一項の規定による原薬等登録原簿の登録の抹消を受けたとき、又はその業務を廃止したときは、直ちに厚生労働大臣に原薬等登録原簿の登録証を返納しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-13-p2
+    type: simple
+    text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における前項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

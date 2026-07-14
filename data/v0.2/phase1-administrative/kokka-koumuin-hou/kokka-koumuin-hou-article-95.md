@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九十五条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-95-p1 -->
 人事院は、なるべくすみやかに、補償制度の研究を行い、その成果を国会及び内閣に提出するとともに、その計画を実施しなければならない。

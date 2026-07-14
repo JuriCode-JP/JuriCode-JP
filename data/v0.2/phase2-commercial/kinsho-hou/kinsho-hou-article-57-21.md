@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-21-p1
+    type: simple
+    text: 内閣総理大臣は、最終指定親会社及びその子法人等における経営の健全性の状況に照らして公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該最終指定親会社に対し、監督上必要な事項を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-21-p2
+    type: simple
+    text: 内閣総理大臣は、最終指定親会社に対し前項の規定による命令をした場合において、その日から三月を経過した日において当該最終指定親会社及びその子法人等の経営の健全性の状況が改善せず、かつ、改善する見込みがないと認められるときは、当該最終指定親会社に対し三月以内の期間を定めて対象特別金融商品取引業者の親会社でなくなるための措置その他必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-21-p3
+    type: simple
+    text: 前二項の規定による命令は、最終指定親会社及びその子法人等の経営の健全性の状況に係る区分に応じて行うものとし、内閣総理大臣は、当該区分及びこれに応じた命令の内容をあらかじめ定め、これを公示しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-21-p4
+    type: simple
+    text: 内閣総理大臣は、最終指定親会社に対し第一項の規定による命令をした場合において、当該命令に係る措置の実施の状況に照らして特に必要があると認めるときは、対象特別金融商品取引業者に対し、監督上必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

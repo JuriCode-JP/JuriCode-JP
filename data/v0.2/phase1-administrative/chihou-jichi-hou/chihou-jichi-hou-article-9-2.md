@@ -16,32 +16,61 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-2-p1
+    type: simple
+    text: 市町村の境界が判明でない場合において、その境界に関し争論がないときは、都道府県知事は、関係市町村の意見を聴いてこれを決定することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-2-p2
+    type: simple
+    text: 前項の規定による決定は、文書を以てこれをし、その理由を附けてこれを関係市町村に交付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-2-p3
+    type: simple
+    text: 第一項の意見については、関係市町村の議会の議決を経なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-2-p4
+    type: simple
+    text: 第一項の規定による都道府県知事の決定に不服があるときは、関係市町村は、決定書の交付を受けた日から三十日以内に裁判所に出訴することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-2-p5
+    type: simple
+    text: 第一項の規定による決定が確定したときは、都道府県知事は、直ちにその旨を総務大臣に届け出なければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-2-p6
+    type: simple
+    text: 前条第六項及び第七項の規定は、前項の規定による届出があつた市町村の境界の決定にこれを準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

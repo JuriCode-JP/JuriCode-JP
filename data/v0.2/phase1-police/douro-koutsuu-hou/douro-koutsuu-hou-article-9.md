@@ -23,6 +23,10 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-9-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第二号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -39,5 +43,6 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-9-p1 -->
 車両は、歩行者の通行の安全と円滑を図るため車両の通行が禁止されていることが道路標識等により表示されている道路（第十三条の二において「歩行者用道路」という。）を、前条第二項の許可を受け、又はその禁止の対象から除外されていることにより通行するときは、特に歩行者に注意して徐行しなければならない。
+
+（罰則　第百十九条第一項第二号、同条第三項）

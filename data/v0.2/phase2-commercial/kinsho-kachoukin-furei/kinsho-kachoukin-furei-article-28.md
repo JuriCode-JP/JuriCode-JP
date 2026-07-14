@@ -77,25 +77,20 @@ parent_section:
 
 ### 第二十八条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-28-p1 -->
 審判手続における主張は、書面で準備しなければならない。
 
 ### 第二十八条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-28-p2 -->
 準備書面は、これに記載した事項について相手方が準備をするのに必要な期間をおいて、審判官に提出しなければならない。
 
 ### 第二十八条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-28-p3 -->
 前項の準備書面は、二通（当該書面を送付すべき相手方の数が二以上であるときは、その数に一を加えた通数）を提出しなければならない。
 
 ### 第二十八条第四項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-28-p4 -->
 準備書面に引用した資料は、準備書面の各通に附属書類として添付しなければならない。
 
 ### 第二十八条第五項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-28-p5 -->
 審判手続の事務を行う職員は、審判官に提出された準備書面を、準備書面を提出した者の相手方に送付しなければならない。

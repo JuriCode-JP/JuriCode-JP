@@ -16,22 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-735-2-p1
+    type: simple
+    text: 社債発行会社、社債管理者、社債管理補助者又は社債権者が社債権者集会の目的である事項について（社債管理補助者にあっては、第七百十四条の七において準用する第七百十一条第一項の社債権者集会の同意をすることについて）提案をした場合において、当該提案につき議決権者の全員が書面又は電磁的記録により同意の意思表示をしたときは、当該提案を可決する旨の社債権者集会の決議があったものとみなす。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-735-2-p2
+    type: simple
+    text: 社債発行会社は、前項の規定により社債権者集会の決議があったものとみなされた日から十年間、同項の書面又は電磁的記録をその本店に備え置かなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-735-2-p3-hashira
+    type: hashira
+    text: 社債管理者、社債管理補助者及び社債権者は、社債発行会社の営業時間内は、いつでも、次に掲げる請求をすることができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-735-2-p3-kou-1
+    type: kou
+    text: 一　前項の書面の閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-735-2-p3-kou-2
+    type: kou
+    text: 二　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-735-2-p4
+    type: simple
+    text: 第一項の規定により社債権者集会の決議があったものとみなされる場合には、第七百三十二条から前条まで（第七百三十四条第二項を除く。）の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -59,6 +90,10 @@ parent_section:
 ### 第七百三十五条の二第三項
 
 社債管理者、社債管理補助者及び社債権者は、社債発行会社の営業時間内は、いつでも、次に掲げる請求をすることができる。
+
+一　前項の書面の閲覧又は謄写の請求
+
+二　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
 
 ### 第七百三十五条の二第四項
 

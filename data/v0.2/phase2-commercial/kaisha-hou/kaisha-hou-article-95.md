@@ -46,5 +46,4 @@ parent_section:
 
 ### 第九十五条
 
-<!-- segment: tokusoku id: kaisha-hou-art-95-p1 override_flag: true override_target: 第二項 -->
 第五十七条第一項の募集をする場合には、発起人は、第五十八条第一項第三号の期日又は同号の期間の初日のうち最も早い日以後は、第三十三条第九項並びに第三十七条第一項及び第二項の規定にかかわらず、定款の変更をすることができない。

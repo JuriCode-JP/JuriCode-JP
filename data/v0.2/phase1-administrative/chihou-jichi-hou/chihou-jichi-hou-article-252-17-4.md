@@ -16,37 +16,81 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p1
+    type: simple
+    text: 都道府県知事は、第二百五十二条の十七の二第一項の条例の定めるところにより市町村が処理することとされた事務のうち自治事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該市町村に対し、第二百四十五条の五第二項に規定する各大臣の指示がない場合であつても、同条第三項の規定により、当該自治事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p2-zen
+    type: zen_dan
+    text: 第二百五十二条の十七の二第一項の条例の定めるところにより市町村が処理することとされた事務のうち法定受託事務に対する第二百四十五条の八第十二項において準用する同条第一項から第十一項までの規定の適用については、同条第十二項において読み替えて準用する同条第二項から第四項まで、第六項、第八項及び第十一項中「都道府県知事」とあるのは、「各大臣」とする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-17-4-p2-kou
+    type: kou_dan
+    text: この場合においては、同条第十三項の規定は適用しない。
+    modality: jogai
+    depends_on: chihou-jichi-hou-art-252-17-4-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p3
+    type: simple
+    text: 第二百五十二条の十七の二第一項の条例の定めるところにより市町村が処理することとされた事務のうち自治事務の処理について第二百四十五条の五第三項の規定による是正の要求（第一項の規定による是正の要求を含む。）を行つた都道府県知事は、第二百五十二条第一項各号のいずれかに該当するときは、同項に規定する各大臣の指示がない場合であつても、同条第二項の規定により、訴えをもつて当該是正の要求を受けた市町村の不作為の違法の確認を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p4
+    type: simple
+    text: 第二百五十二条の十七の二第一項の条例の定めるところにより市町村が処理することとされた事務のうち法定受託事務に係る市町村長の処分についての第二百五十五条の二第一項の審査請求の裁決に不服がある者は、当該処分に係る事務を規定する法律又はこれに基づく政令を所管する各大臣に対して再審査請求をすることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p5-zen
+    type: zen_dan
+    text: 市町村長が第二百五十二条の十七の二第一項の条例の定めるところにより市町村が処理することとされた事務のうち法定受託事務に係る処分をする権限をその補助機関である職員又はその管理に属する行政機関の長に委任した場合において、委任を受けた職員又は行政機関の長がその委任に基づいてした処分につき、第二百五十五条の二第二項の再審査請求の裁決があつたときは、当該裁決に不服がある者は、再々審査請求をすることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-17-4-p5-kou
+    type: kou_dan
+    text: この場合において、再々審査請求は、当該処分に係る再審査請求若しくは審査請求の裁決又は当該処分を対象として、当該処分に係る事務を規定する法律又はこれに基づく政令を所管する各大臣に対してするものとする。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-17-4-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p6
+    type: simple
+    text: 前項の再々審査請求については、行政不服審査法第四章の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-4-p7
+    type: simple
+    text: 前項において準用する行政不服審査法の規定に基づく処分及びその不作為については、行政不服審査法第二条及び第三条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

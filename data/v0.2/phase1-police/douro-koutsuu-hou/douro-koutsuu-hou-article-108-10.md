@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-10-p1
+    type: simple
+    text: 指定講習機関は、公安委員会の許可を受けなければ、特定講習の全部又は一部を休止し、又は廃止してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

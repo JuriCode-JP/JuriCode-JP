@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-88-2-p1
+    type: simple
+    text: 法第七百三条の四第十一項に規定する政令で定める金額は、六十七万円とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-88-2-p2
+    type: simple
+    text: 法第七百三条の四第十九項に規定する政令で定める金額は、二十六万円とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-88-2-p3
+    type: simple
+    text: 法第七百三条の四第二十七項に規定する政令で定める金額は、十七万円とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-88-2-p4
+    type: simple
+    text: 法第七百三条の四第三十七項に規定する政令で定める金額は、三万円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

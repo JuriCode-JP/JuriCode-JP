@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百五十八条
 
-<!-- segment: simple id: houjin-zei-hou-art-158-p1 -->
 地方公共団体は、法人税の附加税を課することができない。

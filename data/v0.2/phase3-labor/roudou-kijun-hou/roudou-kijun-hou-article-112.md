@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十二条
 
-<!-- segment: simple id: roudou-kijun-hou-art-112-p1 -->
 この法律及びこの法律に基いて発する命令は、国、都道府県、市町村その他これに準ずべきものについても適用あるものとする。

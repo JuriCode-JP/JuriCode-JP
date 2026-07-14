@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百六十一条
 
-<!-- segment: simple id: kaisha-hou-art-561-p1 -->
 債権者集会の議事については、招集者は、法務省令で定めるところにより、議事録を作成しなければならない。

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第九十二条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-92-p1 -->
 就業規則は、法令又は当該事業場について適用される労働協約に反してはならない。
 
 ### 第九十二条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-92-p2 -->
 行政官庁は、法令又は労働協約に牴触する就業規則の変更を命ずることができる。

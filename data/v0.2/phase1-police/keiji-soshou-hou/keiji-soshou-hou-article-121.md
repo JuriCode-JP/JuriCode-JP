@@ -59,15 +59,12 @@ parent_section:
 
 ### 第百二十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-121-p1 -->
 運搬又は保管に不便な押収物については、看守者を置き、又は所有者その他の者に、その承諾を得て、これを保管させることができる。
 
 ### 第百二十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-121-p2 -->
 危険を生ずる虞がある押収物は、これを廃棄することができる。
 
 ### 第百二十一条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-121-p3 -->
 前二項の処分は、裁判所が特別の指示をした場合を除いては、差押状の執行をした者も、これをすることができる。

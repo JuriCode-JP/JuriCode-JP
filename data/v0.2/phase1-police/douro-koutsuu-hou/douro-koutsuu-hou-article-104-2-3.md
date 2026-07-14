@@ -16,42 +16,91 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p1-zen
+    type: zen_dan
+    text: 公安委員会は、第百二条第一項から第四項までの規定により適性検査を行い、又はこれらの規定による命令をする場合において、当該適性検査を受けるべき者（免許を受けた者に限る。）又は当該命令を受け診断書を提出することとされている者（免許を受けた者に限る。）が、自動車等の運転により交通事故を起こし、かつ、当該交通事故の状況から判断して、第百三条第一項第一号、第一号の二又は第三号のいずれかに該当する疑いがあると認められるときその他これに準ずるものとして政令で定めるときは、三月を超えない範囲内で期間を定めてその者の免許の効力を停止することができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-104-2-3-p1-kou
+    type: kou_dan
+    text: この場合において、当該処分を受けた者がこれらの規定に該当しないことが明らかとなつたときは、速やかに当該処分を解除しなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-104-2-3-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p2
+    type: simple
+    text: 公安委員会は、前項前段の規定により免許の効力を停止したときは、当該処分をした日から起算して五日以内に、当該処分を受けた者に対し弁明の機会を与えなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p3-honbun
+    type: honbun
+    text: 第百一条の七第二項の規定による通知を受けた者（免許を受けた者に限る。）が同条第三項の規定に違反して当該通知に係る認知機能検査等を受けないと認めるとき、同条第五項の規定による通知を受けた者（免許を受けた者に限る。）が同条第六項の規定に違反して当該通知に係る講習を受けないと認めるとき、第百二条第一項から第四項までの規定による命令を受けた者（免許を受けた者に限る。）が当該命令に違反したと認めるとき（第一項前段の規定による免許の効力の停止を受けた者にあつては、当該停止の期間が満了するまでの間に命令に応じないと認めるとき）又は同条第六項の規定による通知を受けた者（免許を受けた者に限る。）が同条第七項の規定に違反して当該通知に係る適性検査を受けないと認めるとき（第一項前段の規定による免許の効力の停止を受けた者にあつては、当該停止の期間が満了するまでの間に適性検査を受けないと認めるとき）は、第百一条の七第三項若しくは第六項に規定する期間が通算して一月となる日、第百二条第一項から第四項までに規定する期限の満了の日又は同条第七項の通知された期日におけるその者の住所地を管轄する公安委員会は、政令で定める基準に従い、その者の免許を取り消し、又は六月を超えない範囲内で期間を定めて免許の効力を停止することができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-104-2-3-p3-tadashi
+    type: tadashi
+    text: ただし、当該認知機能検査等を受けないこと、当該講習を受けないこと、当該命令に応じないこと又は当該適性検査を受けないことについてやむを得ない理由がある場合は、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p4
+    type: simple
+    text: 前項の規定による免許の効力の停止は、その者が当該認知機能検査等を受けたとき、当該講習を受けたとき、当該命令に応じたとき又は当該適性検査を受けたときは、その効力を失う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p5
+    type: junyou
+    text: 第百三条第三項、第四項及び第九項の規定は、第三項の規定により免許を取り消し、又は免許の効力を九十日（公安委員会が九十日を超えない範囲内においてこれと異なる期間を定めたときは、その期間。第七項において同じ。）以上停止しようとする場合について準用する。この場合において、同条第三項中「第百四条第一項の意見の聴取又は聴聞」とあるのは「聴聞」と、同条第四項中「第一項各号のいずれかに該当する場合（同項第五号に該当する者が第百二条の二の規定の適用を受ける者であるときは、その者が同条に規定する講習を受けないで同条の期間を経過した後に限る。）には、同項」とあるのは「第百一条の七第三項の規定に違反して当該通知に係る認知機能検査等を受けないと認めるとき、同条第六項の規定に違反して当該通知に係る講習を受けないと認めるとき、第百二条第一項から第四項までの規定による命令に違反したと認めるとき又は同条第七項の規定に違反して当該通知に係る適性検査を受けないと認めるときは、第百四条の二の三第三項」と、「停止することができるものとし、その者が第二項各号のいずれかに該当する場合には、その者の免許を取り消すことができるものとし」とあるのは「停止することができるものとし」と、「第一項又は第二項」とあるのは「同項」と、同条第九項中「第一項、第二項又は第四項」とあるのは「第百四条の二の三第三項又は同条第五項において準用する第四項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p6
+    type: junyou
+    text: 第四項の規定は、前項において準用する第百三条第四項の規定により免許の効力を停止した場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p7
+    type: junyou
+    text: 第百四条の二（第五項を除く。）の規定は、公安委員会が第三項の規定又は第五項において準用する第百三条第四項の規定により免許を取り消し、又は免許の効力を九十日以上停止しようとする場合について準用する。
+    modality: unspecified
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-3-p8
+    type: junyou
+    text: 第百三条第三項の規定は、第五項において準用する同条第四項の規定により免許を取り消し、又は免許の効力を停止しようとする場合について準用する。この場合において、同条第三項中「第百四条第一項の意見の聴取又は聴聞」とあるのは、「聴聞」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

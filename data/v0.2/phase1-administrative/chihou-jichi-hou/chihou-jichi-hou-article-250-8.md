@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-8-p1
+    type: simple
+    text: 委員会は、委員五人をもつて組織する。
+    modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-8-p2-honbun
+    type: honbun
+    text: 委員は、非常勤とする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-250-8-p2-tadashi
+    type: tadashi
+    text: ただし、そのうち二人以内は、常勤とすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

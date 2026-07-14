@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-11-p1
+    type: simple
+    text: 相続時精算課税適用者が特定贈与者からの贈与により取得した財産については、第二十一条の五から第二十一条の七までの規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

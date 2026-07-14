@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-31-2-p1
+    type: simple
+    text: 弁護人を選任しようとする被告人又は被疑者は、弁護士会に対し、弁護人の選任の申出をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-31-2-p2
+    type: simple
+    text: 弁護士会は、前項の申出を受けた場合は、速やかに、所属する弁護士の中から弁護人となろうとする者を紹介しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-31-2-p3
+    type: simple
+    text: 弁護士会は、前項の弁護人となろうとする者がないときは、当該申出をした者に対し、速やかに、その旨を通知しなければならない。同項の規定により紹介した弁護士が被告人又は被疑者がした弁護人の選任の申込みを拒んだときも、同様とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

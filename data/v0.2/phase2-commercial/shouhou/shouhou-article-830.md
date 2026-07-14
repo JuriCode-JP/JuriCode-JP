@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百三十条
 
-<!-- segment: junyou id: shouhou-art-830-p1 -->
 この章の規定は、相互保険について準用する。ただし、その性質がこれを許さないときは、この限りでない。

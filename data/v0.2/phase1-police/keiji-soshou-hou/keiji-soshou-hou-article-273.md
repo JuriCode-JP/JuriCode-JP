@@ -59,15 +59,12 @@ parent_section:
 
 ### 第二百七十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-273-p1 -->
 裁判長は、公判期日を定めなければならない。
 
 ### 第二百七十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-273-p2 -->
 公判期日には、被告人を召喚しなければならない。
 
 ### 第二百七十三条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-273-p3 -->
 公判期日は、これを検察官、弁護人及び補佐人に通知しなければならない。

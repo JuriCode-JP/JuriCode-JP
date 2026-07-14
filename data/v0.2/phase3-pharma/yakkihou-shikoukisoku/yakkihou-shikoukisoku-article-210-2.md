@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-210-2-p1
+    type: simple
+    text: 法第五十二条第一項（令第七十五条第六項の規定により読み替えて適用される場合を含む。）の厚生労働省令で定める情報通信の技術を利用する方法は、法第五十二条第一項に規定する符号（同項に規定する医薬品の容器又は被包に記載されたバーコード又は二次元コードをいう。以下同じ。）を用いて法第六十八条の二第一項の規定により同条第二項に規定する注意事項等情報が掲載されている機構のホームページを閲覧する方法とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

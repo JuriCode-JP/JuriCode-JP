@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-9-9-p1-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第三十六号に規定する日本司法支援センターが総合法律支援法（平成十六年法律第七十四号）第三十条第一項に規定する業務の用に供する不動産で政令で定めるものは、当該業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-9-9-p1-kou-1
+    type: kou
+    text: 一　事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-9-9-p1-kou-2
+    type: kou
+    text: 二　宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第三十七条の九の九
 
 法第七十三条の四第一項第三十六号に規定する日本司法支援センターが総合法律支援法（平成十六年法律第七十四号）第三十条第一項に規定する業務の用に供する不動産で政令で定めるものは、当該業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産

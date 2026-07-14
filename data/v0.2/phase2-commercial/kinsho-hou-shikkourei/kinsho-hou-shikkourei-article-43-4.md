@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-4-p1
+    type: simple
+    text: 長官権限のうち法第百二十一条及び第百二十六条第一項の規定による届出の受理の権限は、金融商品取引所の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-4-p2-honbun
+    type: honbun
+    text: 長官権限のうち法第百五十一条の規定による権限（法第百九十四条の七第二項第六号の規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）は、金融商品取引所の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-43-4-p2-tadashi
+    type: tadashi
+    text: ただし、金融庁長官が自らその権限を行うことを妨げない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-4-p3
+    type: simple
+    text: 前項に規定する権限で金融商品取引所の本店若しくは主たる事務所以外の支店その他の営業所若しくは事務所、当該金融商品取引所の子会社、当該金融商品取引所の商品取引参加者（法第百五十一条に規定する商品取引参加者をいう。第四十四条第十五項において同じ。）、当該金融商品取引所に上場されている有価証券の発行者又は当該金融商品取引所から業務の委託を受けた者（その者から委託（二以上の段階にわたる委託を含む。）を受けた者を含む。以下この項において同じ。）（以下この条において「支店等」という。）に関するものについては、前項に規定する財務局長又は福岡財務支局長のほか、当該支店等の所在地（業務の委託を受けた者が個人の場合にあつては、その住所又は居所）を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地が国外にある場合にあつては関東財務局長）も行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-4-p4
+    type: simple
+    text: 前項の規定により支店等に対して検査等を行つた財務局長又は福岡財務支局長は、当該金融商品取引所の本店若しくは主たる事務所又は当該支店等以外の支店等に対して検査等の必要を認めたときは、当該本店若しくは主たる事務所又は当該支店等以外の支店等に対し、検査等を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

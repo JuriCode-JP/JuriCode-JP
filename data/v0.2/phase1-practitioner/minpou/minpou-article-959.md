@@ -46,6 +46,4 @@ parent_section:
 
 ### 第九百五十九条
 
-<!-- segment: zen_dan id: minpou-art-959-p1-zen -->
-前条の規定により処分されなかった相続財産は、国庫に帰属する。<!-- segment: kou_dan id: minpou-art-959-p1-kou depends_on: minpou-art-959-p1-zen -->
-この場合においては、第九百五十六条第二項の規定を準用する。
+前条の規定により処分されなかった相続財産は、国庫に帰属する。この場合においては、第九百五十六条第二項の規定を準用する。

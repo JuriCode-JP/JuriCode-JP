@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-19-p1
+    type: simple
+    text: 第七十五条の五の二から前条までに定めるもののほか、課徴金納付命令に関し必要な事項は、厚生労働省令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

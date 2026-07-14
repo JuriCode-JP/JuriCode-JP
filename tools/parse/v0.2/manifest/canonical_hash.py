@@ -45,32 +45,23 @@ _V02_DIR = Path(__file__).resolve().parent.parent
 if str(_V02_DIR) not in sys.path:
     sys.path.insert(0, str(_V02_DIR))
 
+_SHARED_SRC = _PARSE_DIR.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared.headings import (  # noqa: E402
+    JA_SECTION_RE as _JA_SECTION_RE,
+)
+from juricode_shared.headings import (  # noqa: E402
+    PARAGRAPH_HEADING_RE as _PARAGRAPH_HEADING_RE,
+)
 from table_core import is_gfm_separator_line  # noqa: E402
 
-# ---------------------------------------------------------------------
-# Regex 定義 -- verify.py:33-46 と**文字列レベルで完全一致**を維持すること.
-# 1 文字違うと hash が変わって CI が落ちる. FU-405 で shared 化予定.
-# ---------------------------------------------------------------------
-
+# FU-554: 項見出し / 原文セクションの regex は juricode_shared.headings が単一の真実源。
+# 旧実装は verify.py と「文字列レベルで完全一致を維持せよ」というコメント運用だったが、
+# 生成側 (segment_parser) だけが枝番 1 段止まりで drift しており、コメント運用は破れていた。
 _FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
-"""Frontmatter デリミタ抽出 (verify.py:33 と一致)."""
-
-_JA_SECTION_RE = re.compile(
-    r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)",
-    re.DOTALL,
-)
-"""「## 原文 (日本語)」セクション本文の抽出 (verify.py:34-37 と一致)."""
-
-_PARAGRAPH_HEADING_RE = re.compile(
-    r"^###\s+第[一二三四五六七八九十百千0-9]+条"
-    # Allow 0 or more branch suffixes like "の二", "の三", "の二の三"
-    # (e.g. 刑法第三条の二, 刑法第二十六条の二の二)
-    r"(?:の[一二三四五六七八九十百千0-9]+)*"
-    # Optional paragraph number "第X項"
-    r"(?:第([一二三四五六七八九十百千0-9]+)項)?\s*$",
-    re.MULTILINE,
-)
-"""項見出し (verify.py:38-46 と一致). 枝番条 + 項番号付きにも対応."""
+"""Frontmatter デリミタ抽出 (verify.py と一致)."""
 
 
 def extract_ja_paragraphs(md_text: str) -> list[str]:

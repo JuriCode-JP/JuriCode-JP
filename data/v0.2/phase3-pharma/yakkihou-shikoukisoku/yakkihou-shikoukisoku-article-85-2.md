@@ -14,14 +14,62 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-85-2-p1-hashira
+    type: hashira
+    text: 医薬部外品の品質管理及び製造販売後安全管理を行う者に係る法第十七条第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-85-2-p1-kou-1
+    type: kou
+    text: 一　薬剤師
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-85-2-p1-kou-2
+    type: kou
+    text: 二　旧大学令（大正七年勅令第三百八十八号）に基づく大学、旧専門学校令（明治三十六年勅令第六十一号）に基づく専門学校又は学校教育法（昭和二十二年法律第二十六号）に基づく大学若しくは高等専門学校（以下「大学等」という。）で、薬学又は化学に関する専門の課程を修了した者
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-85-2-p1-kou-3
+    type: kou
+    text: 三　旧中等学校令（昭和十八年勅令第三十六号）に基づく中等学校（以下「旧制中学」という。）若しくは学校教育法に基づく高等学校（以下「高校」という。）又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した後、医薬品又は医薬部外品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-85-2-p1-kou-4
+    type: kou
+    text: 四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-85-2-p2-hashira
+    type: hashira
+    text: 化粧品の品質管理及び製造販売後安全管理を行う者に係る法第十七条第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-85-2-p2-kou-1
+    type: kou
+    text: 一　薬剤師
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-85-2-p2-kou-2
+    type: kou
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した者
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-85-2-p2-kou-3
+    type: kou
+    text: 三　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する科目を修得した後、医薬品、医薬部外品又は化粧品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-85-2-p2-kou-4
+    type: kou
+    text: 四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -40,6 +88,22 @@ parent_section:
 
 医薬部外品の品質管理及び製造販売後安全管理を行う者に係る法第十七条第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
 
+一　薬剤師
+
+二　旧大学令（大正七年勅令第三百八十八号）に基づく大学、旧専門学校令（明治三十六年勅令第六十一号）に基づく専門学校又は学校教育法（昭和二十二年法律第二十六号）に基づく大学若しくは高等専門学校（以下「大学等」という。）で、薬学又は化学に関する専門の課程を修了した者
+
+三　旧中等学校令（昭和十八年勅令第三十六号）に基づく中等学校（以下「旧制中学」という。）若しくは学校教育法に基づく高等学校（以下「高校」という。）又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した後、医薬品又は医薬部外品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+
+四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
+
 ### 第八十五条の二第二項
 
 化粧品の品質管理及び製造販売後安全管理を行う者に係る法第十七条第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+
+一　薬剤師
+
+二　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した者
+
+三　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する科目を修得した後、医薬品、医薬部外品又は化粧品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+
+四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者

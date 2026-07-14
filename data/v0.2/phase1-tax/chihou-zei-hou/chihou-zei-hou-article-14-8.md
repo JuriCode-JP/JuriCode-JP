@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-8-p1
+    type: tokusoku
+    text: 地方団体の徴収金につき徴した担保財産があるときは、前二条の規定にかかわらず、当該地方団体の徴収金は、その換価代金につき、他の地方団体の徴収金及び国税に先だつて徴収する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前二条
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

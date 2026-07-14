@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kokka-koumuin-hou-art-94-p1
@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kokka-koumuin-hou-art-94-p1-kou-1
+    type: kou
+    text: 一　公務上の負傷又は疾病に起因した活動不能の期間における経済的困窮に対する職員の保護に関する事項
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-94-p1-kou-2
+    type: kou
+    text: 二　公務上の負傷又は疾病に起因して、永久に、又は長期に所得能力を害せられた場合におけるその職員の受ける損害に対する補償に関する事項
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-94-p1-kou-3
+    type: kou
+    text: 三　公務上の負傷又は疾病に起因する職員の死亡の場合におけるその遺族又は職員の死亡当時その収入によつて生計を維持した者の受ける損害に対する補償に関する事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -45,5 +60,10 @@ parent_section:
 
 ### 第九十四条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-94-p1 -->
 前条の補償制度には、左の事項が定められなければならない。
+
+一　公務上の負傷又は疾病に起因した活動不能の期間における経済的困窮に対する職員の保護に関する事項
+
+二　公務上の負傷又は疾病に起因して、永久に、又は長期に所得能力を害せられた場合におけるその職員の受ける損害に対する補償に関する事項
+
+三　公務上の負傷又は疾病に起因する職員の死亡の場合におけるその遺族又は職員の死亡当時その収入によつて生計を維持した者の受ける損害に対する補償に関する事項

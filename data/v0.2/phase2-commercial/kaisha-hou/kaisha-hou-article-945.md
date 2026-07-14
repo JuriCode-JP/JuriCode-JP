@@ -33,8 +33,8 @@ paragraphs:
     applies_provisions:
     - 前三条
     references:
-    - 前項
     - 前三条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -55,10 +55,8 @@ parent_section:
 
 ### 第九百四十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-945-p1 -->
 登録は、三年を下らない政令で定める期間ごとにその更新を受けなければ、その期間の経過によって、その効力を失う。
 
 ### 第九百四十五条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-945-p2 applies_provisions: 前三条 -->
 前三条の規定は、前項の登録の更新について準用する。

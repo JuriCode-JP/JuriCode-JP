@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-105-2-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県労働局長は、この法律の目的を達成するために、労働者及び使用者に対して資料の提供その他必要な援助をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

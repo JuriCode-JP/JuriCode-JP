@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-6-p1
+    type: simple
+    text: 第四十八条の九の三第三項第一号の規定による納付又は納入をする場合には、市町村長は、当該納付又は納入に係る未納の個人の道府県民税、個人の市町村民税又は森林環境税についての延滞金を免除する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

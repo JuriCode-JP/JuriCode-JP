@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-4-p1
+    type: simple
+    text: 外国製造医薬品等特例承認取得者については、第十四条の四から第十四条の八の二まで及び第十八条第三項の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

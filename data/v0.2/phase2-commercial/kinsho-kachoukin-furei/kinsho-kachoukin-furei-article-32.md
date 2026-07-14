@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-32-p1 -->
 審判官は、職権で証拠調べをすることができる。

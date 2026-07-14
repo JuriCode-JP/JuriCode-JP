@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八条
 
-<!-- segment: simple id: minpou-art-8-p1 -->
 後見開始の審判を受けた者は、成年被後見人とし、これに成年後見人を付する。

@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-34-4-p1
+    type: simple
+    text: 国税の納付に関する事務（以下この項及び第三十四条の六第一項（納付受託者の帳簿保存等の義務）において「納付事務」という。）を適正かつ確実に実施することができると認められる者であり、かつ、政令で定める要件に該当する者として国税庁長官が指定するもの（以下第三十四条の六までにおいて「納付受託者」という。）は、国税を納付しようとする者の委託を受けて、納付事務を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-34-4-p2
+    type: simple
+    text: 国税庁長官は、前項の規定による指定をしたときは、納付受託者の名称、住所又は事務所の所在地その他財務省令で定める事項を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-34-4-p3
+    type: simple
+    text: 納付受託者は、その名称、住所又は事務所の所在地を変更しようとするときは、あらかじめ、その旨を国税庁長官に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-34-4-p4
+    type: simple
+    text: 国税庁長官は、前項の規定による届出があつたときは、当該届出に係る事項を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-10-p1
+    type: simple
+    text: 検査機関は、製造・試験記録等要約書の様式を作成又は変更したときは、当該作成又は変更の申請を行つた製造販売業者（前条の規定による変更の場合にあつては、当該様式に係る申請を行つた製造販売業者）に通知するものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

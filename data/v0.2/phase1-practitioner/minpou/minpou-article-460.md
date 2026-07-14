@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 保証人は、主たる債務者の委託を受けて保証をした場合において、次に掲げるときは、主たる債務者に対して、あらかじめ、求償権を行使することができる。
     modality: kanou_kenri
+  - id: minpou-art-460-p1-kou-1
+    type: kou
+    text: 一　主たる債務者が破産手続開始の決定を受け、かつ、債権者がその破産財団の配当に加入しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-460-p1-kou-2
+    type: kou
+    text: 二　債務が弁済期にあるとき。ただし、保証契約の後に債権者が主たる債務者に許与した期限は、保証人に対抗することができない。
+    modality: kanou_negative
+    item_number: 2
+  - id: minpou-art-460-p1-kou-3
+    type: kou
+    text: 三　保証人が過失なく債権者に弁済をすべき旨の裁判の言渡しを受けたとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -45,5 +60,10 @@ parent_section:
 
 ### 第四百六十条
 
-<!-- segment: hashira id: minpou-art-460-p1-hashira -->
 保証人は、主たる債務者の委託を受けて保証をした場合において、次に掲げるときは、主たる債務者に対して、あらかじめ、求償権を行使することができる。
+
+一　主たる債務者が破産手続開始の決定を受け、かつ、債権者がその破産財団の配当に加入しないとき。
+
+二　債務が弁済期にあるとき。ただし、保証契約の後に債権者が主たる債務者に許与した期限は、保証人に対抗することができない。
+
+三　保証人が過失なく債権者に弁済をすべき旨の裁判の言渡しを受けたとき。

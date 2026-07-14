@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-504-p1 -->
 第五百条、第五百一条及び第五百二条の申立てについてした決定に対しては、即時抗告をすることができる。

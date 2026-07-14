@@ -35,8 +35,8 @@ paragraphs:
     text: 申込者が前項の申込みに対して同項の期間内に承諾の通知を受けなかったときは、その申込みは、その効力を失う。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -59,11 +59,8 @@ parent_section:
 
 ### 第五百二十三条第一項
 
-<!-- segment: honbun id: minpou-art-523-p1-honbun -->
-承諾の期間を定めてした申込みは、撤回することができない。<!-- segment: tadashi id: minpou-art-523-p1-tadashi -->
-ただし、申込者が撤回をする権利を留保したときは、この限りでない。
+承諾の期間を定めてした申込みは、撤回することができない。ただし、申込者が撤回をする権利を留保したときは、この限りでない。
 
 ### 第五百二十三条第二項
 
-<!-- segment: simple id: minpou-art-523-p2 -->
 申込者が前項の申込みに対して同項の期間内に承諾の通知を受けなかったときは、その申込みは、その効力を失う。

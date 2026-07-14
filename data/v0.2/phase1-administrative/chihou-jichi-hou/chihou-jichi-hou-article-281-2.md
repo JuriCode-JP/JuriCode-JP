@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-281-2-p1
+    type: simple
+    text: 都は、特別区の存する区域において、特別区を包括する広域の地方公共団体として、第二条第五項において都道府県が処理するものとされている事務及び特別区に関する連絡調整に関する事務のほか、同条第三項において市町村が処理するものとされている事務のうち、人口が高度に集中する大都市地域における行政の一体性及び統一性の確保の観点から当該区域を通じて都が一体的に処理することが必要であると認められる事務を処理するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-281-2-p2
+    type: simple
+    text: 特別区は、基礎的な地方公共団体として、前項において特別区の存する区域を通じて都が一体的に処理するものとされているものを除き、一般的に、第二条第三項において市町村が処理するものとされている事務を処理するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-281-2-p3
+    type: simple
+    text: 都及び特別区は、その事務を処理するに当たつては、相互に競合しないようにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

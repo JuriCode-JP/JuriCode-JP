@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-285-2-p1
+    type: simple
+    text: 公益上必要がある場合においては、都道府県知事は、関係のある市町村及び特別区に対し、一部事務組合又は広域連合を設けるべきことを勧告することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-285-2-p2
+    type: simple
+    text: 都道府県知事は、第二百八十四条第三項の許可をしたときは直ちにその旨を公表するとともに、総務大臣に報告しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-285-2-p3
+    type: simple
+    text: 総務大臣は、第二百八十四条第三項の許可をしたときは直ちにその旨を告示するとともに、国の関係行政機関の長に通知し、前項の規定による報告を受けたときは直ちにその旨を国の関係行政機関の長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -31,7 +31,7 @@ paragraphs:
     text: 法廷は、裁判官及び裁判所書記が列席してこれを開く。
     modality: unspecified
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,15 +57,12 @@ parent_section:
 
 ### 第八十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-83-p1 -->
 勾留の理由の開示は、公開の法廷でこれをしなければならない。
 
 ### 第八十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-83-p2 -->
 法廷は、裁判官及び裁判所書記が列席してこれを開く。
 
 ### 第八十三条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-83-p3 -->
 被告人及びその弁護人が出頭しないときは、開廷することはできない。但し、被告人の出頭については、被告人が病気その他やむを得ない事由によつて出頭することができず且つ被告人に異議がないとき、弁護人の出頭については、被告人に異議がないときは、この限りでない。

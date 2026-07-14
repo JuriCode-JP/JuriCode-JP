@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百三十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-230-p1 -->
 犯罪により害を被つた者は、告訴をすることができる。

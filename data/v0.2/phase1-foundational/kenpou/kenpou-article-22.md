@@ -46,10 +46,8 @@ parent_section:
 
 ### 第二十二条第一項
 
-<!-- segment: simple id: kenpou-art-22-p1 -->
 何人も、公共の福祉に反しない限り、居住、移転及び職業選択の自由を有する。
 
 ### 第二十二条第二項
 
-<!-- segment: simple id: kenpou-art-22-p2 -->
 何人も、外国に移住し、又は国籍を離脱する自由を侵されない。

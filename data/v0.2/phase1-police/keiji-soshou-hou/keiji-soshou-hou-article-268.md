@@ -22,7 +22,7 @@ paragraphs:
     text: 裁判所は、第二百六十六条第二号の規定により事件がその裁判所の審判に付されたときは、その事件について公訴の維持にあたる者を弁護士の中から指定しなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -79,25 +79,20 @@ parent_section:
 
 ### 第二百六十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-268-p1 -->
 裁判所は、第二百六十六条第二号の規定により事件がその裁判所の審判に付されたときは、その事件について公訴の維持にあたる者を弁護士の中から指定しなければならない。
 
 ### 第二百六十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-268-p2 -->
 前項の指定を受けた弁護士は、事件について公訴を維持するため、裁判の確定に至るまで検察官の職務を行う。但し、検察事務官及び司法警察職員に対する捜査の指揮は、検察官に嘱託してこれをしなければならない。
 
 ### 第二百六十八条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-268-p3 -->
 前項の規定により検察官の職務を行う弁護士は、これを法令により公務に従事する職員とみなす。
 
 ### 第二百六十八条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-268-p4 -->
 裁判所は、第一項の指定を受けた弁護士がその職務を行うに適さないと認めるときその他特別の事情があるときは、何時でもその指定を取り消すことができる。
 
 ### 第二百六十八条第五項
 
-<!-- segment: simple id: keiji-soshou-hou-art-268-p5 -->
 第一項の指定を受けた弁護士には、政令で定める額の手当を給する。

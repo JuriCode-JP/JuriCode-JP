@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-5-p1
+    type: simple
+    text: 第七十七条の二第一項から第三項までの規定による指定を受けた者は、当該指定に係る希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品の試験研究又は製造若しくは輸入を中止しようとするときは、あらかじめ、その旨を厚生労働大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

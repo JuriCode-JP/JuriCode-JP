@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-25-p1 -->
 第十八条の規定による命令に違反したときは、当該違反行為をした者は、二年以下の拘禁刑若しくは三百万円以下の罰金に処し、又はこれを併科する。

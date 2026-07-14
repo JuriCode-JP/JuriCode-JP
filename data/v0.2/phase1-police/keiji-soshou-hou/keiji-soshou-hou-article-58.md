@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-58-p1
     type: simple
     text: 裁判所は、次の場合には、被告人を勾引することができる。
     modality: kanou_kenri
+  - id: keiji-soshou-hou-art-58-p1-kou-1
+    type: kou
+    text: 一　被告人が定まつた住居を有しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-58-p1-kou-2
+    type: kou
+    text: 二　被告人が、正当な理由がなく、召喚に応じないとき、又は応じないおそれがあるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第五十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-58-p1 -->
 裁判所は、次の場合には、被告人を勾引することができる。
+
+一　被告人が定まつた住居を有しないとき。
+
+二　被告人が、正当な理由がなく、召喚に応じないとき、又は応じないおそれがあるとき。

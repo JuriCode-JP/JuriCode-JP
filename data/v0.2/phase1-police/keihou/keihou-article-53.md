@@ -52,11 +52,8 @@ parent_section:
 
 ### 第五十三条第一項
 
-<!-- segment: honbun id: keihou-art-53-p1-honbun -->
-拘留又は科料と他の刑とは、併科する。<!-- segment: tadashi id: keihou-art-53-p1-tadashi -->
-ただし、第四十六条の場合は、この限りでない。
+拘留又は科料と他の刑とは、併科する。ただし、第四十六条の場合は、この限りでない。
 
 ### 第五十三条第二項
 
-<!-- segment: simple id: keihou-art-53-p2 -->
 二個以上の拘留又は科料は、併科する。

@@ -14,9 +14,31 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-2-2-p1-hashira
+    type: hashira
+    text: 法第二条第二項第三号に規定する政令で定めるものは、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-1-2-2-p1-kou-1
+    type: kou
+    text: '一　その社員の全てが次のいずれかに該当する合名会社の社員権
+
+      イ　株式会社
+
+      ロ　合同会社'
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-1-2-2-p1-kou-2
+    type: kou
+    text: '二　その無限責任社員の全てが次のいずれかに該当する合資会社の社員権
+
+      イ　株式会社
+
+      ロ　合同会社'
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +56,15 @@ parent_section:
 ### 第一条の二の二
 
 法第二条第二項第三号に規定する政令で定めるものは、次に掲げるものとする。
+
+一　その社員の全てが次のいずれかに該当する合名会社の社員権
+
+　イ　株式会社
+
+　ロ　合同会社
+
+二　その無限責任社員の全てが次のいずれかに該当する合資会社の社員権
+
+　イ　株式会社
+
+　ロ　合同会社

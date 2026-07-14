@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる内国法人で退職給付その他の長期給付の事業を行うものが、各事業年度において、その長期給付の事業から融通を受けた資金の利子として収益事業から長期給付の事業に繰入れをした場合において、その繰り入れた金額（その金額が財務省令で定める金額を超える場合には、当該財務省令で定める金額）が当該事業年度の第七十三条第一項第三号ハ（一般寄附金の損金算入限度額）に定める金額を超えるときは、同号ハに定める金額は、同号ハの規定にかかわらず、当該繰り入れた金額に相当する金額とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-74-p1-kou-1
+    type: kou
+    text: 一　国家公務員共済組合及び国家公務員共済組合連合会
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-74-p1-kou-2
+    type: kou
+    text: 二　地方公務員共済組合及び全国市町村職員共済組合連合会
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-74-p1-kou-3
+    type: kou
+    text: 三　日本私立学校振興・共済事業団
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -45,5 +60,10 @@ parent_section:
 
 ### 第七十四条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-74-p1-hashira -->
 次に掲げる内国法人で退職給付その他の長期給付の事業を行うものが、各事業年度において、その長期給付の事業から融通を受けた資金の利子として収益事業から長期給付の事業に繰入れをした場合において、その繰り入れた金額（その金額が財務省令で定める金額を超える場合には、当該財務省令で定める金額）が当該事業年度の第七十三条第一項第三号ハ（一般寄附金の損金算入限度額）に定める金額を超えるときは、同号ハに定める金額は、同号ハの規定にかかわらず、当該繰り入れた金額に相当する金額とする。
+
+一　国家公務員共済組合及び国家公務員共済組合連合会
+
+二　地方公務員共済組合及び全国市町村職員共済組合連合会
+
+三　日本私立学校振興・共済事業団

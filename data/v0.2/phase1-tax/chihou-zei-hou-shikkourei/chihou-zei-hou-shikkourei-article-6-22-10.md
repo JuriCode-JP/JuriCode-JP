@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-22-10-p1
+    type: simple
+    text: 当該徴税吏員は、法第二十二条の二十四各項に規定する調書に、質問、検査、領置、臨検、捜索、差押え又は記録命令付差押えの事実、日時及び場所並びに質問の調書にあつては答弁の要領及び同条第一項の申立てに係る陳述を記載しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-360-3-p1
+    type: simple
+    text: 上訴放棄の申立は、書面でこれをしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

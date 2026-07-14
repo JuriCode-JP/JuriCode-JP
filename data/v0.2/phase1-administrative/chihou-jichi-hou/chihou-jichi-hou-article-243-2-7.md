@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-7-p1
+    type: simple
+    text: 普通地方公共団体は、条例で、当該普通地方公共団体の長若しくは委員会の委員若しくは委員又は当該普通地方公共団体の職員（次条第三項の規定による賠償の命令の対象となる者を除く。以下この項において「普通地方公共団体の長等」という。）の当該普通地方公共団体に対する損害を賠償する責任を、普通地方公共団体の長等が職務を行うにつき善意でかつ重大な過失がないときは、普通地方公共団体の長等が賠償の責任を負う額から、普通地方公共団体の長等の職責その他の事情を考慮して政令で定める基準を参酌して、政令で定める額以上で当該条例で定める額を控除して得た額について免れさせる旨を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-7-p2
+    type: simple
+    text: 普通地方公共団体の議会は、前項の条例の制定又は改廃に関する議決をしようとするときは、あらかじめ監査委員の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-7-p3
+    type: simple
+    text: 前項の規定による意見の決定は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

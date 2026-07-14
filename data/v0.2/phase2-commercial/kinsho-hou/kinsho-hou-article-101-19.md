@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-19-p1
+    type: simple
+    text: 組織変更をする会員金融商品取引所は、効力発生日に、株式会社金融商品取引所となる。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-19-p2
+    type: simple
+    text: 組織変更をする会員金融商品取引所の会員は、効力発生日に、第百一条の二第四項第六号に掲げる事項についての定めに従い、同項第五号の株式の株主となる。
+    modality: unspecified
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-19-p3
+    type: simple
+    text: 前二項の規定は、第百一条の四の規定による手続が終了していない場合又は組織変更を中止した場合には、適用しない。
+    modality: jogai
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-119-2-p1
+    type: simple
+    text: 法第三十九条第四項に規定する内閣府令で定める投資信託は、投資信託及び投資法人に関する法律施行規則第二十五条第二号に規定する公社債投資信託（計算期間が一日のものに限る。）であって、顧客と金融商品取引業者等との間で行われる有価証券の売買その他の取引に係る金銭の授受の用に供することを目的としてその受益権が取得され、又は保有されるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

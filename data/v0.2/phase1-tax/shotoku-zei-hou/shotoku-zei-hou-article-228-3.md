@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-228-3-p1
+    type: simple
+    text: 個人又は法人に対し会社法第三百二十二条第一項（ある種類の種類株主に損害を及ぼすおそれがある場合の種類株主総会）の決議（同条第二項の規定による定款の定めを含む。）により同法第百八十五条（株式無償割当て）に規定する株式無償割当て（著しく低い価額の対価による割当てとして政令で定めるものを含む。以下この条において同じ。）をした株式会社は、財務省令で定めるところにより、その割当てを受けた個人又は法人の当該株式無償割当てに関する調書を、当該株式無償割当ての効力を生ずる日の属する年の翌年一月三十一日までに、税務署長に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

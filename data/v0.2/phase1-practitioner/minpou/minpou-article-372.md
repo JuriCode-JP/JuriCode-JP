@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百七十二条
 
-<!-- segment: junyou id: minpou-art-372-p1 applies_provisions: 第三百五十一条 -->
 第二百九十六条、第三百四条及び第三百五十一条の規定は、抵当権について準用する。

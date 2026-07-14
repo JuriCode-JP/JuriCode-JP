@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-909-2-p1-zen
+    type: zen_dan
+    text: 各共同相続人は、遺産に属する預貯金債権のうち相続開始の時の債権額の三分の一に第九百条及び第九百一条の規定により算定した当該共同相続人の相続分を乗じた額（標準的な当面の必要生計費、平均的な葬式の費用の額その他の事情を勘案して預貯金債権の債務者ごとに法務省令で定める額を限度とする。）については、単独でその権利を行使することができる。
+    modality: kanou_kenri
+  - id: minpou-art-909-2-p1-kou
+    type: kou_dan
+    text: この場合において、当該権利の行使をした預貯金債権については、当該共同相続人が遺産の一部の分割によりこれを取得したものとみなす。
+    modality: unspecified
+    depends_on: minpou-art-909-2-p1-zen
 cases: []
 amendments: []
 tags:

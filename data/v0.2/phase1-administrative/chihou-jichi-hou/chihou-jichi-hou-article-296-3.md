@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-3-p1
+    type: simple
+    text: 市町村長及び特別区の区長は、財産区の財産又は公の施設の管理及び処分又は廃止で条例又は前条第一項但書に規定する協議で定める重要なものについては、財産区管理会の同意を得なければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-3-p2
+    type: simple
+    text: 市町村長及び特別区の区長は、財産区の財産又は公の施設の管理に関する事務の全部又は一部を財産区管理会の同意を得て、財産区管理会又は財産区管理委員に委任することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-3-p3
+    type: simple
+    text: 財産区管理会は、当該財産区の事務の処理について監査することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

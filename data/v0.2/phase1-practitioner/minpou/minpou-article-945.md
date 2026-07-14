@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九百四十五条
 
-<!-- segment: simple id: minpou-art-945-p1 -->
 財産分離は、不動産については、その登記をしなければ、第三者に対抗することができない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-4-p1
+    type: simple
+    text: 売渡株式等の取得の無効の訴えは、対象会社の本店の所在地を管轄する地方裁判所の管轄に専属する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

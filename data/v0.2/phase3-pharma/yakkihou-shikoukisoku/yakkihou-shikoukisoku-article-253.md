@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百五十三条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-253-p1 -->
 法第七十七条の二第四項及び法第七十七条の六第三項の規定による公示は、厚生労働省のホームページに掲載する方法により行うものとする。

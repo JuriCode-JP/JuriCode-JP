@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二十条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-20-p1 -->
 修正申告書で既に確定した納付すべき税額を増加させるものの提出は、既に確定した納付すべき税額に係る部分の国税についての納税義務に影響を及ぼさない。

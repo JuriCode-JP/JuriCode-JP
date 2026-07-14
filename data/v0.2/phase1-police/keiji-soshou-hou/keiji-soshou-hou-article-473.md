@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百七十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-473-p1 -->
 裁判の執行の指揮は、書面でこれをし、これに裁判書又は裁判を記載した調書の謄本又は抄本を添えなければならない。但し、刑の執行を指揮する場合を除いては、裁判書の原本、謄本若しくは抄本又は裁判を記載した調書の謄本若しくは抄本に認印して、これをすることができる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-15-11-p1
+    type: simple
+    text: 法第三十四条第七項第一号ニに規定する退職年金に関する契約で政令で定めるものは、法人税法附則第二十条第三項に規定する適格退職年金契約とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

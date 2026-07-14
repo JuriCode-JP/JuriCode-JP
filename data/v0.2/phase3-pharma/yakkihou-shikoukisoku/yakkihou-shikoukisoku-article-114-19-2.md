@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-19-2-p1
+    type: simple
+    text: 厚生労働大臣は、申請者が法第二十三条の二の六の三第一項の規定による法第二十三条の二の五の承認を受けて製造販売しようとする医療機器又は体外診断用医薬品について、前条第一項第一号イからニまで、ト及びチ又は第二号イからヘまでに掲げる資料を添付することができないと認めるときは、相当の期間その提出を猶予することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

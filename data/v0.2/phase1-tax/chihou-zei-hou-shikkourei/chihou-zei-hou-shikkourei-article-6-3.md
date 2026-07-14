@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: chihou-zei-hou-shikkourei-art-6-3-p1-kou-1
+    type: kou
+    text: 一　特別徴収義務者又は納税者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-3-p1-kou-2
+    type: kou
+    text: 二　強制換価手続が行われている道府県たばこ税若しくは市町村たばこ税又は軽油引取税の課される製造たばこ又は軽油の名称、数量、性質及び所在並びにその手続が滞納処分以外の手続であるときは、その手続に係る事件の表示
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-6-3-p1-kou-3
+    type: kou
+    text: 三　前号の製造たばこ又は軽油につき徴収すべき道府県たばこ税若しくは市町村たばこ税又は軽油引取税の金額
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +47,16 @@ paragraphs:
     type: hashira
     text: 法第十三条の三第二項の規定による特別徴収義務者又は納税者に対する通知は、次に掲げる事項を記載した文書でしなければならない。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-3-p2-kou-1
+    type: kou
+    text: 一　執行機関の名称
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-3-p2-kou-2
+    type: kou
+    text: 二　前項第二号及び第三号に掲げる事項
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,15 +84,22 @@ parent_section:
 
 ### 第六条の三第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-6-3-p1-hashira -->
 法第十三条の三第二項の規定による執行機関（同項に規定する執行機関をいう。以下同じ。）に対する通知は、次に掲げる事項を記載した文書でしなければならない。
+
+一　特別徴収義務者又は納税者の氏名及び住所又は居所
+
+二　強制換価手続が行われている道府県たばこ税若しくは市町村たばこ税又は軽油引取税の課される製造たばこ又は軽油の名称、数量、性質及び所在並びにその手続が滞納処分以外の手続であるときは、その手続に係る事件の表示
+
+三　前号の製造たばこ又は軽油につき徴収すべき道府県たばこ税若しくは市町村たばこ税又は軽油引取税の金額
 
 ### 第六条の三第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-6-3-p2-hashira -->
 法第十三条の三第二項の規定による特別徴収義務者又は納税者に対する通知は、次に掲げる事項を記載した文書でしなければならない。
+
+一　執行機関の名称
+
+二　前項第二号及び第三号に掲げる事項
 
 ### 第六条の三第三項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-6-3-p3 -->
 前二項の規定は、法第十三条の三第四項において準用する同条第二項の通知について準用する。

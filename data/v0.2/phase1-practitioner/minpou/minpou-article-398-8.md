@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-8-p1
+    type: simple
+    text: 元本の確定前に根抵当権者について相続が開始したときは、根抵当権は、相続開始の時に存する債権のほか、相続人と根抵当権設定者との合意により定めた相続人が相続の開始後に取得する債権を担保する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-8-p2
+    type: simple
+    text: 元本の確定前にその債務者について相続が開始したときは、根抵当権は、相続開始の時に存する債務のほか、根抵当権者と根抵当権設定者との合意により定めた相続人が相続の開始後に負担する債務を担保する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-8-p3
+    type: junyou
+    text: 第三百九十八条の四第二項の規定は、前二項の合意をする場合について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-8-p4
+    type: simple
+    text: 第一項及び第二項の合意について相続の開始後六箇月以内に登記をしないときは、担保すべき元本は、相続開始の時に確定したものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,22 +16,62 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-286-2-p1
+    type: simple
+    text: 前条第一項本文の規定にかかわらず、構成団体は、その議会の議決を経て、脱退する日の二年前までに他の全ての構成団体に書面で予告をすることにより、一部事務組合から脱退することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-286-2-p2-zen
+    type: zen_dan
+    text: 前項の予告を受けた構成団体は、当該予告をした構成団体が脱退する時までに、前条の例により、当該脱退により必要となる規約の変更を行わなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+  - id: chihou-jichi-hou-art-286-2-p2-kou
+    type: kou_dan
+    text: この場合において、同条中「第二百八十七条第一項第一号」とあるのは、「第二百八十七条第一項第一号、第二号」とする。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-286-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-286-2-p3-zen
+    type: zen_dan
+    text: 第一項の予告の撤回は、他の全ての構成団体が議会の議決を経て同意をした場合に限り、することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-286-2-p3-kou
+    type: kou_dan
+    text: この場合において、同項の予告をした構成団体が他の構成団体に当該予告の撤回について同意を求めるに当たつては、あらかじめ、その議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: chihou-jichi-hou-art-286-2-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-286-2-p4-zen
+    type: zen_dan
+    text: 第一項の規定による脱退により一部事務組合の構成団体が一となつたときは、当該一部事務組合は解散するものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-286-2-p4-kou
+    type: kou_dan
+    text: この場合において、当該構成団体は、前条第一項本文の例により、総務大臣又は都道府県知事に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: chihou-jichi-hou-art-286-2-p4-zen
 cases: []
 amendments: []
 tags:

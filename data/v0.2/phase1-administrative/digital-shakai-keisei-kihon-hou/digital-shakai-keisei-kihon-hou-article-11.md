@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十一条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-11-p1 -->
 デジタル社会の形成に当たっては、情報通信技術の進展について、適確かつ積極的に対応しなければならない。

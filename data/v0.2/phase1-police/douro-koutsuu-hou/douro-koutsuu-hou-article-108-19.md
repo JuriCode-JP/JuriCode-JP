@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-19-p1
+    type: simple
+    text: 国家公安委員会は、分析センターの役員又は職員が特定情報管理規程によらないで特定情報の管理若しくは使用を行つたとき、又は前条の規定に違反したときは、分析センターに対し、当該役員又は職員を解任すべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

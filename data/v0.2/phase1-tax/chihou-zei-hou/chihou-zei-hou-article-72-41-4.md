@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-4-p1
+    type: junyou
+    text: 第七十二条の二十八第四項の規定は、同条第一項の規定によつて申告納付すべき法人（第七十二条の四十一第一項の規定に該当するものを除く。）について第七十二条の三十九又は第七十二条の四十一の二第一項から第三項までの規定により更正し、又は決定した事業税額が当該法人の当該事業税額に係る中間納付額に満たない場合について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-4-p2
+    type: junyou
+    text: 第七十二条の二十八第四項の規定は、同条第一項の規定によつて申告納付すべき法人（第七十二条の四十一第一項の規定に該当するものに限る。）について第七十二条の四十一第一項から第三項まで又は第七十二条の四十一の二第一項から第三項までの規定により更正し、又は決定した事業税額が当該法人の当該事業税額に係る中間納付額に満たない場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

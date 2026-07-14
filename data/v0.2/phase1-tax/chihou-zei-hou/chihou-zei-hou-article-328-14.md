@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-14-p1-honbun
+    type: honbun
+    text: 第三百二十八条の五第一項に規定する特別徴収義務者は、総務省令で定めるところにより、その年において支払の確定した退職手当等について、その退職手当等の支払を受ける者の各人別に特別徴収票二通を作成し、その退職の日以後一月以内に、一通を市町村長に提出し、他の一通を退職手当等の支払を受ける者に交付しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-328-14-p1-tadashi
+    type: tadashi
+    text: ただし、総務省令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -43,10 +43,8 @@ tags:
 
 ### 第十条の五第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-10-5-p1 -->
 法第三百四十八条第二項第七号の二に規定する総務省令で定める地域は、自然公園法施行規則（昭和三十二年厚生省令第四十一号）第九条の二第一号に掲げる第一種特別地域とする。
 
 ### 第十条の五第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-10-5-p2 -->
 法第三百四十八条第二項第七号の二に規定する総務省令で定める土地は、池沼、山林及び原野とする。

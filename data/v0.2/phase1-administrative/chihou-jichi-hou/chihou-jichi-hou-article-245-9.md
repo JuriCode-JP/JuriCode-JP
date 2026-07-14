@@ -16,27 +16,66 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-9-p1
+    type: simple
+    text: 各大臣は、その所管する法律又はこれに基づく政令に係る都道府県の法定受託事務の処理について、都道府県が当該法定受託事務を処理するに当たりよるべき基準を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-9-p2-hashira
+    type: hashira
+    text: 次の各号に掲げる都道府県の執行機関は、市町村の当該各号に定める法定受託事務の処理について、市町村が当該法定受託事務を処理するに当たりよるべき基準を定めることができる。この場合において、都道府県の執行機関の定める基準は、次項の規定により各大臣の定める基準に抵触するものであつてはならない。
+    modality: unspecified
+    references:
+    - 次項
+  - id: chihou-jichi-hou-art-245-9-p2-kou-1
+    type: kou
+    text: 一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する法定受託事務
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-245-9-p2-kou-2
+    type: kou
+    text: 二　都道府県教育委員会　市町村教育委員会の担任する法定受託事務
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-245-9-p2-kou-3
+    type: kou
+    text: 三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する法定受託事務
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-9-p3
+    type: simple
+    text: 各大臣は、特に必要があると認めるときは、その所管する法律又はこれに基づく政令に係る市町村の第一号法定受託事務の処理について、市町村が当該第一号法定受託事務を処理するに当たりよるべき基準を定めることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-9-p4
+    type: simple
+    text: 各大臣は、その所管する法律又はこれに基づく政令に係る市町村の第一号法定受託事務の処理について、第二項各号に掲げる都道府県の執行機関に対し、同項の規定により定める基準に関し、必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-9-p5
+    type: simple
+    text: 第一項から第三項までの規定により定める基準は、その目的を達成するために必要な最小限度のものでなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -64,6 +103,12 @@ parent_section:
 ### 第二百四十五条の九第二項
 
 次の各号に掲げる都道府県の執行機関は、市町村の当該各号に定める法定受託事務の処理について、市町村が当該法定受託事務を処理するに当たりよるべき基準を定めることができる。この場合において、都道府県の執行機関の定める基準は、次項の規定により各大臣の定める基準に抵触するものであつてはならない。
+
+一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する法定受託事務
+
+二　都道府県教育委員会　市町村教育委員会の担任する法定受託事務
+
+三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する法定受託事務
 
 ### 第二百四十五条の九第三項
 

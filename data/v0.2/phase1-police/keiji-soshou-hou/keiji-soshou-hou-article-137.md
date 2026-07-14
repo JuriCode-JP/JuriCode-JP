@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-137-p1 -->
 被告人又は被告人以外の者が正当な理由がなく身体の検査を拒んだときは、決定で、十万円以下の過料に処し、かつ、その拒絶により生じた費用の賠償を命ずることができる。
 
 ### 第百三十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-137-p2 -->
 前項の決定に対しては、即時抗告をすることができる。

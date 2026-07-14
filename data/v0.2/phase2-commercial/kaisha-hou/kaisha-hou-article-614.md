@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百十四条
 
-<!-- segment: simple id: kaisha-hou-art-614-p1 -->
 持分会社の会計は、一般に公正妥当と認められる企業会計の慣行に従うものとする。

@@ -14,14 +14,41 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-3-p1-hashira
+    type: hashira
+    text: 前条第二項の認可を受けようとする者は、次に掲げる事項を記載した認可申請書を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-67-3-p1-kou-1
+    type: kou
+    text: 一　名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-67-3-p1-kou-2
+    type: kou
+    text: 二　事務所の所在の場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-67-3-p1-kou-3
+    type: kou
+    text: 三　役員の氏名及び協会員の名称
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-3-p2
+    type: simple
+    text: 前項の認可申請書には、定款その他の規則その他内閣府令で定める書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -43,6 +70,12 @@ parent_section:
 ### 第六十七条の三第一項
 
 前条第二項の認可を受けようとする者は、次に掲げる事項を記載した認可申請書を内閣総理大臣に提出しなければならない。
+
+一　名称
+
+二　事務所の所在の場所
+
+三　役員の氏名及び協会員の名称
 
 ### 第六十七条の三第二項
 

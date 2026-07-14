@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五条の十四
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-5-14-p1 -->
 施行令第六条の四第五項に規定する財務省令で定める書類は、システム仕様書その他の書類とする。

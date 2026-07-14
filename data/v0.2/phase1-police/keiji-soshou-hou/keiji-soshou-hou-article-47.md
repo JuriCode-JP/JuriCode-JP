@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-47-p1 -->
 訴訟に関する書類は、公判の開廷前には、これを公にしてはならない。但し、公益上の必要その他の事由があつて、相当と認められる場合は、この限りでない。

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第五十条第一項第四号に規定する内閣府令で定める法人は、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-198-p1-kou-1
+    type: kou
+    text: 一　外国の持株会社（銀行、協同組織金融機関若しくは令第一条の九各号に掲げる金融機関若しくは金融商品取引業者（有価証券関連業を行う者に限る。）又は外国においてこれらの者が行う業務と同種類の業務を行う法人の過半数の議決権を保有する法人をいう。次項において同じ。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-198-p1-kou-2
+    type: kou
+    text: 二　専ら当該金融商品取引業者の業務の遂行のための業務を行っている法人
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第百九十八条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-198-p1-hashira -->
 法第五十条第一項第四号に規定する内閣府令で定める法人は、次に掲げるものとする。
+
+一　外国の持株会社（銀行、協同組織金融機関若しくは令第一条の九各号に掲げる金融機関若しくは金融商品取引業者（有価証券関連業を行う者に限る。）又は外国においてこれらの者が行う業務と同種類の業務を行う法人の過半数の議決権を保有する法人をいう。次項において同じ。）
+
+二　専ら当該金融商品取引業者の業務の遂行のための業務を行っている法人
 
 ### 第百九十八条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-198-p2 -->
 前項第一号において、外国の持株会社の過半数の議決権を保有する法人も外国の持株会社とみなす。

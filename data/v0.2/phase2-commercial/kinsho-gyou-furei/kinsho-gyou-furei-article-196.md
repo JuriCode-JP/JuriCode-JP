@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百九十六条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-196-p1 -->
 法第四十九条の四第一項の規定により金融商品取引業者は、事業年度ごとに、同項の損失準備金を積み立てなければならない。
 
 ### 第百九十六条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-196-p2 -->
 法第四十九条の四第一項に規定する内閣府令で定める率は、十分の一とする。

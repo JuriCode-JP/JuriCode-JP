@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百九十八条
 
-<!-- segment: simple id: chihou-jichi-hou-art-198-p1 -->
 監査委員は、退職しようとするときは、普通地方公共団体の長の承認を得なければならない。

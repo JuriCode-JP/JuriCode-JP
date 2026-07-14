@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四百七十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-477-p1 -->
 死刑は、検察官、検察事務官及び刑事施設の長又はその代理者の立会いの上、これを執行しなければならない。
 
 ### 第四百七十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-477-p2 -->
 検察官又は刑事施設の長の許可を受けた者でなければ、刑場に入ることはできない。

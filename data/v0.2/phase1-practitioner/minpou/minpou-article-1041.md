@@ -43,5 +43,4 @@ parent_section:
 
 ### 第千四十一条
 
-<!-- segment: junyou id: minpou-art-1041-p1 applies_provisions: 第千三十四条 -->
 第五百九十七条第三項、第六百条、第六百十六条の二、第千三十二条第二項、第千三十三条及び第千三十四条の規定は、配偶者短期居住権について準用する。

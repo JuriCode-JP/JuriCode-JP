@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-7-p1-hashira
+    type: hashira
+    text: 再生医療等製品の販売業については、第七条第三項、第八条、第九条（第一項各号を除く。）、第九条の二、第十条第一項及び第十一条の規定を準用する。この場合において、第七条第三項中「次条第一項」とあるのは「第四十条の七第一項において準用する次条第一項」と、「同条第三項」とあり、及び「同項」とあるのは「第四十条の七第一項において準用する次条第三項」と、第九条第一項中「次に掲げる事項」とあるのは「再生医療等製品の販売業の営業所における再生医療等製品の品質確保の実施方法」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-7-p2
+    type: simple
+    text: 前項に規定するもののほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

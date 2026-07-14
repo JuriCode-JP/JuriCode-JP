@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 船長は、船籍港外においては、次に掲げる行為を除き、船舶所有者に代わって航海のために必要な一切の裁判上又は裁判外の行為をする権限を有する。
     modality: unspecified
+  - id: shouhou-art-708-p1-kou-1
+    type: kou
+    text: 一　船舶について抵当権を設定すること。
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-708-p1-kou-2
+    type: kou
+    text: 二　借財をすること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第七百八条第一項
 
-<!-- segment: hashira id: shouhou-art-708-p1-hashira -->
 船長は、船籍港外においては、次に掲げる行為を除き、船舶所有者に代わって航海のために必要な一切の裁判上又は裁判外の行為をする権限を有する。
+
+一　船舶について抵当権を設定すること。
+
+二　借財をすること。
 
 ### 第七百八条第二項
 
-<!-- segment: simple id: shouhou-art-708-p2 -->
 船長の代理権に加えた制限は、善意の第三者に対抗することができない。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-8-p1
+    type: simple
+    text: 金融商品会員制法人の設立の登記は、金融商品会員制法人を代表すべき者の申請によつてする。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-8-p2
+    type: simple
+    text: 金融商品会員制法人の設立の登記の申請書には、定款並びに出資の払込みがあつたこと及び代表権を有する者の資格を証する書面を添付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

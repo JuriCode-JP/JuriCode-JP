@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-18-3-p1
+    type: simple
+    text: 試験機関に属する者その他職員は、受験を阻害し、又は受験に不当な影響を与える目的をもつて特別若しくは秘密の情報を提供してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

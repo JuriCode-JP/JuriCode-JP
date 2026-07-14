@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十六条
 
-<!-- segment: simple id: jouhou-koukai-hou-art-26-p1 -->
 この法律に定めるもののほか、この法律の実施のため必要な事項は、政令で定める。

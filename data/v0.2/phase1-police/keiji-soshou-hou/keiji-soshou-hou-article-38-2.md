@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-38-2-p1-honbun
+    type: honbun
+    text: 裁判官による弁護人の選任は、被疑者がその選任に係る事件について釈放されたときは、その効力を失う。
+    modality: unspecified
+  - id: keiji-soshou-hou-art-38-2-p1-tadashi
+    type: tadashi
+    text: ただし、その釈放が勾留の執行停止によるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

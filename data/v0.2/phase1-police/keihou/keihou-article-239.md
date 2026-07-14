@@ -19,7 +19,7 @@ paragraphs:
   segments:
   - id: keihou-art-239-p1
     type: simple
-    text: 人を昏こん酔させてその財物を盗取した者は、強盗として論ずる。
+    text: 人を昏酔させてその財物を盗取した者は、強盗として論ずる。
     modality: unspecified
 cases: []
 amendments: []
@@ -33,11 +33,10 @@ parent_section:
   shou_name_ja: 第三十六章　窃盗及び強盗の罪
 ---
 
-# 刑法 第239条(（昏こん酔強盗）)
+# 刑法 第239条(（昏酔強盗）)
 
 ## 原文 (日本語)
 
 ### 第二百三十九条
 
-<!-- segment: simple id: keihou-art-239-p1 -->
-人を昏こん酔させてその財物を盗取した者は、強盗として論ずる。
+人を昏酔させてその財物を盗取した者は、強盗として論ずる。

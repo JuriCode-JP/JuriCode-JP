@@ -46,10 +46,8 @@ parent_section:
 
 ### 第四条第一項
 
-<!-- segment: simple id: kenpou-art-4-p1 -->
 天皇は、この憲法の定める国事に関する行為のみを行ひ、国政に関する権能を有しない。
 
 ### 第四条第二項
 
-<!-- segment: simple id: kenpou-art-4-p2 -->
 天皇は、法律の定めるところにより、その国事に関する行為を委任することができる。

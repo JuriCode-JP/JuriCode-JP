@@ -13,45 +13,97 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p1-honbun
+    type: honbun
+    text: 広域連合は、これを組織する地方公共団体の数を増減し若しくは処理する事務を変更し、又は広域連合の規約を変更しようとするときは、関係地方公共団体の協議によりこれを定め、都道府県の加入するものにあつては総務大臣、その他のものにあつては都道府県知事の許可を受けなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-291-3-p1-tadashi
+    type: tadashi
+    text: ただし、次条第一項第六号若しくは第九号に掲げる事項又は前条第一項若しくは第二項の規定により広域連合が新たに事務を処理することとされた場合（変更された場合を含む。）における当該事務のみに係る広域連合の規約を変更しようとするときは、この限りでない。
+    modality: jogai
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p2
+    type: simple
+    text: 総務大臣は、前項の許可をしようとするときは、国の関係行政機関の長に協議しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p3
+    type: simple
+    text: 広域連合は、次条第一項第六号又は第九号に掲げる事項のみに係る広域連合の規約を変更しようとするときは、関係地方公共団体の協議によりこれを定め、第一項本文の例により、直ちに総務大臣又は都道府県知事に届出をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p4
+    type: simple
+    text: 前条第一項又は第二項の規定により広域連合が新たに事務を処理することとされたとき（変更されたときを含む。）は、広域連合の長は、直ちに次条第一項第四号又は第九号に掲げる事項に係る規約につき必要な変更を行い、第一項本文の例により、総務大臣又は都道府県知事に届出をするとともに、その旨を当該広域連合を組織する地方公共団体の長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p5
+    type: simple
+    text: 都道府県知事は、第一項の許可をしたとき、又は第三項若しくは前項の届出を受理したときは、直ちにその旨を公表するとともに、総務大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p6
+    type: simple
+    text: 総務大臣は、第一項の許可をしたとき又は第三項若しくは第四項の届出を受理したときは直ちにその旨を告示するとともに、これを国の関係行政機関の長に通知し、前項の規定による報告を受けたときは直ちにその旨を国の関係行政機関の長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p7
+    type: simple
+    text: 広域連合の長は、広域計画に定める事項に関する事務を総合的かつ計画的に処理するため必要があると認めるときは、その議会の議決を経て、当該広域連合を組織する地方公共団体に対し、当該広域連合の規約を変更するよう要請することができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-3-p8
+    type: simple
+    text: 前項の規定による要請があつたときは、広域連合を組織する地方公共団体は、これを尊重して必要な措置を執るようにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

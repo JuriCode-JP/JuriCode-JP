@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-40-2-p1
+    type: simple
+    text: 厚生労働大臣は、申請者が法第十四条の二の二の二第一項の規定による法第十四条の承認を受けて製造販売しようとする医薬品について、前条第一項第一号イ及びハからヘまで並びにリに掲げる資料を添付することができないと認めるときは、相当の期間その提出を猶予することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百六十四条
 
-<!-- segment: simple id: chihou-zei-hou-art-764-p1 -->
 機構は、一を限り、設立されるものとする。

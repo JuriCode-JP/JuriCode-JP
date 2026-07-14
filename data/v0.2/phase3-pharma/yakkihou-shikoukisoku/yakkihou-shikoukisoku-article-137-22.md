@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-22-p1
+    type: simple
+    text: 法第二十三条の二十五第二項第三号ハ（同条第十三項において準用する場合を含む。）の再生医療等製品として不適当なものとして厚生労働省令で定める場合は、申請に係る再生医療等製品の性状又は品質が保健衛生上著しく不適当な場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

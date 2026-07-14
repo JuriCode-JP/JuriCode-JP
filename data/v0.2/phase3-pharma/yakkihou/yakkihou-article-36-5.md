@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-5-p1
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、厚生労働省令で定めるところにより、要指導医薬品につき、薬剤師に販売させ、又は授与させなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-5-p2-honbun
+    type: honbun
+    text: 薬局開設者又は店舗販売業者は、要指導医薬品を使用しようとする者以外の者に対して、正当な理由なく、要指導医薬品を販売し、又は授与してはならない。
+    modality: gimu_negative
+  - id: yakkihou-art-36-5-p2-tadashi
+    type: tadashi
+    text: ただし、薬剤師等に販売し、又は授与するときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-5-p3
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、厚生労働省令で定めるところにより、特定要指導医薬品につき、薬剤師に、対面により、販売させ、又は授与させなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-501-p1 -->
 刑の言渡を受けた者は、裁判の解釈について疑があるときは、言渡をした裁判所に裁判の解釈を求める申立をすることができる。

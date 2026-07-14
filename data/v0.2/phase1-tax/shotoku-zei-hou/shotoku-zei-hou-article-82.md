@@ -52,10 +52,8 @@ parent_section:
 
 ### 第八十二条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-art-82-p1 -->
 居住者が勤労学生である場合には、その者のその年分の総所得金額、退職所得金額又は山林所得金額から二十七万円を控除する。
 
 ### 第八十二条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-art-82-p2 -->
 前項の規定による控除は、勤労学生控除という。

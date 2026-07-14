@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-p1
+    type: simple
+    text: 法第二十三条の二の十第一項において準用する法第二十三条の二の七第六項の規定により厚生労働大臣に対して行う医療機器等確認等の結果の通知は、様式第六十三の十九による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

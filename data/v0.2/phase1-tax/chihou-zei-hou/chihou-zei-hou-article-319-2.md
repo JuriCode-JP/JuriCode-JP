@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-319-2-p1
+    type: simple
+    text: 個人の市町村民税を普通徴収の方法によつて徴収しようとする場合において納税者に交付する納税通知書には、所得割額及び均等割額の合算額から第三百二十一条の四第一項の給与所得に係る特別徴収税額（二以上の特別徴収義務者に徴収させている場合においては、その合計額とする。次項において同じ。）並びに第三百二十一条の七の四第一項の年金所得に係る特別徴収税額及び第三百二十一条の七の八第一項の年金所得に係る仮特別徴収税額の合算額を控除した額並びにこれらの算定の基礎を記載しなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-319-2-p2
+    type: simple
+    text: 前項の納税通知書のうち、特別徴収の方法によつて徴収される個人の市町村民税がある納税者に係るものには、当該納税者が当該年度の中途において給与又は第三百二十一条の七の四第二項に規定する特別徴収対象年金給付の支払を受けなくなつたこと等により個人の市町村民税を特別徴収の方法によつて徴収されないこととなつた場合においては、第三百二十一条の四第一項の給与所得に係る特別徴収税額並びに第三百二十一条の七の四第一項の年金所得に係る特別徴収税額及び第三百二十一条の七の八第一項の年金所得に係る仮特別徴収税額のうちその特別徴収の方法によつて徴収されないこととなつた額は普通徴収の方法によつて徴収されるものであることを併せて記載しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-319-2-p3
+    type: simple
+    text: 第一項の納税通知書は、遅くとも、納期限前十日までに納税者に交付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

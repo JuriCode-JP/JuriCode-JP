@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-4-p1
+    type: simple
+    text: 法第四十一条の十九の二第一項に規定する政令で定める家屋は、昭和五十六年五月三十一日以前に建築された家屋であつて、その者の居住の用に供する家屋とし、その者がその居住の用に供する家屋を二以上有する場合には、これらの家屋のうち、その者が主としてその居住の用に供すると認められる一の家屋に限るものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-4-p2
+    type: simple
+    text: 法第四十一条の十九の二第一項に規定する政令で定める金額は、その者が行つた同項に規定する住宅耐震改修につき国土交通大臣が財務大臣と協議して当該住宅耐震改修の内容に応じて定める金額の合計額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-4-p3
+    type: simple
+    text: 法第四十一条の十九の二第一項の規定による控除をすべき金額は、同項に規定するその年分の所得税法第九十二条第一項に規定する所得税額から控除する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-28-4-p4
+    type: simple
+    text: 国土交通大臣は、第二項の規定により金額を定めたときは、これを告示する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

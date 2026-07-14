@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-24-p1-honbun
+    type: honbun
+    text: 金融商品仲介業者の所属金融商品取引業者等は、その委託を行つた金融商品仲介業者が金融商品仲介業につき顧客に加えた損害を賠償する責任を負う。
+    modality: unspecified
+  - id: kinsho-hou-art-66-24-p1-tadashi
+    type: tadashi
+    text: ただし、当該所属金融商品取引業者等がその金融商品仲介業者への委託につき相当の注意をし、かつ、その者の行う金融商品仲介行為につき顧客に加えた損害の発生の防止に努めたときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

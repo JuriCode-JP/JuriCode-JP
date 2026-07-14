@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十条の六
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-10-6-p1 -->
 人格のない社団等（法第七十二条の二第四項に規定する人格のない社団等をいう。）は、法人とみなして、本節中法人に関する規定をこれに適用する。

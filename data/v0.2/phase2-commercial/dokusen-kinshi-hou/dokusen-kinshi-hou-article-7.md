@@ -24,7 +24,7 @@ paragraphs:
     references:
     - 前条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -34,6 +34,26 @@ paragraphs:
     modality: jogai
     references:
     - 前条
+  - id: dokusen-kinshi-hou-art-7-p2-kou-1
+    type: kou
+    text: 一　当該行為をした事業者
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-7-p2-kou-2
+    type: kou
+    text: 二　当該行為をした事業者が法人である場合において、当該法人が合併により消滅したときにおける合併後存続し、又は合併により設立された法人
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-7-p2-kou-3
+    type: kou
+    text: 三　当該行為をした事業者が法人である場合において、当該法人から分割により当該行為に係る事業の全部又は一部を承継した法人
+    modality: unspecified
+    item_number: 3
+  - id: dokusen-kinshi-hou-art-7-p2-kou-4
+    type: kou
+    text: 四　当該行為をした事業者から当該行為に係る事業の全部又は一部を譲り受けた事業者
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -50,10 +70,16 @@ parent_section:
 
 ### 第七条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-7-p1 -->
 第三条又は前条の規定に違反する行為があるときは、公正取引委員会は、第八章第二節に規定する手続に従い、事業者に対し、当該行為の差止め、事業の一部の譲渡その他これらの規定に違反する行為を排除するために必要な措置を命ずることができる。
 
 ### 第七条第二項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-7-p2-hashira -->
 公正取引委員会は、第三条又は前条の規定に違反する行為が既になくなつている場合においても、特に必要があると認めるときは、第八章第二節に規定する手続に従い、次に掲げる者に対し、当該行為が既になくなつている旨の周知措置その他当該行為が排除されたことを確保するために必要な措置を命ずることができる。ただし、当該行為がなくなつた日から七年を経過したときは、この限りでない。
+
+一　当該行為をした事業者
+
+二　当該行為をした事業者が法人である場合において、当該法人が合併により消滅したときにおける合併後存続し、又は合併により設立された法人
+
+三　当該行為をした事業者が法人である場合において、当該法人から分割により当該行為に係る事業の全部又は一部を承継した法人
+
+四　当該行為をした事業者から当該行為に係る事業の全部又は一部を譲り受けた事業者

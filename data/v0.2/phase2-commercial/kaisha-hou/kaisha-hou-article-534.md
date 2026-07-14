@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百三十四条
 
-<!-- segment: junyou id: kaisha-hou-art-534-p1 -->
 前款（第五百二十七条第一項及び第五百二十九条ただし書を除く。）の規定は、調査委員について準用する。

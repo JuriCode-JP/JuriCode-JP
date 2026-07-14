@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、第七十六条の四の規定に違反して貯蔵され、若しくは陳列されている指定薬物又は同条の規定に違反して製造され、輸入され、販売され、若しくは授与された指定薬物について、当該指定薬物を取り扱う者に対して、廃棄、回収その他公衆衛生上の危険の発生を防止するに足りる措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-p2
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、前項の規定による命令を受けた者がその命令に従わない場合であつて、公衆衛生上の危険の発生を防止するため必要があると認めるときは、当該職員に、同項に規定する物を廃棄させ、若しくは回収させ、又はその他の必要な処分をさせることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-p3
+    type: simple
+    text: 当該職員が前項の規定による処分をする場合には、第六十九条第八項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-2-p1
+    type: simple
+    text: 法第九十条に規定する登記について、同条において商業登記法（昭和三十八年法律第百二十五号）の規定を準用する場合における同条の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

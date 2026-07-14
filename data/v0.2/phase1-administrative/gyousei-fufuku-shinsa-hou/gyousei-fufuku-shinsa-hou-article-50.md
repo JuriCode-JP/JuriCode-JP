@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 裁決は、次に掲げる事項を記載し、審査庁が記名押印した裁決書によりしなければならない。
     modality: gimu
+  - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-1
+    type: kou
+    text: 一　主文
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-2
+    type: kou
+    text: 二　事案の概要
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-3
+    type: kou
+    text: 三　審理関係人の主張の要旨
+    modality: unspecified
+    item_number: 3
+  - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-4
+    type: kou
+    text: 四　理由（第一号の主文が審理員意見書又は行政不服審査会等若しくは審議会等の答申書と異なる内容である場合には、異なることとなった理由を含む。）
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +79,20 @@ parent_section:
 
 ### 第五十条第一項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-50-p1-hashira -->
 裁決は、次に掲げる事項を記載し、審査庁が記名押印した裁決書によりしなければならない。
+
+一　主文
+
+二　事案の概要
+
+三　審理関係人の主張の要旨
+
+四　理由（第一号の主文が審理員意見書又は行政不服審査会等若しくは審議会等の答申書と異なる内容である場合には、異なることとなった理由を含む。）
 
 ### 第五十条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-50-p2 -->
 第四十三条第一項の規定による行政不服審査会等への諮問を要しない場合には、前項の裁決書には、審理員意見書を添付しなければならない。
 
 ### 第五十条第三項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-50-p3 -->
 審査庁は、再審査請求をすることができる裁決をする場合には、裁決書に再審査請求をすることができる旨並びに再審査請求をすべき行政庁及び再審査請求期間（第六十二条に規定する期間をいう。）を記載して、これらを教示しなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-14-3-p1
+    type: simple
+    text: 遠隔操作型小型車（道路を通行しているものに限る。）の遠隔操作を行う者は、当該遠隔操作型小型車について遠隔操作のための装置を確実に操作し、かつ、道路、交通及び当該遠隔操作型小型車の状況に応じ、他人に危害を及ぼさないような速度と方法で通行させなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

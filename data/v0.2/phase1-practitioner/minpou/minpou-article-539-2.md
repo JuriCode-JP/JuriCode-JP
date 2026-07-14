@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-539-2-p1
+    type: simple
+    text: 契約の当事者の一方が第三者との間で契約上の地位を譲渡する旨の合意をした場合において、その契約の相手方がその譲渡を承諾したときは、契約上の地位は、その第三者に移転する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

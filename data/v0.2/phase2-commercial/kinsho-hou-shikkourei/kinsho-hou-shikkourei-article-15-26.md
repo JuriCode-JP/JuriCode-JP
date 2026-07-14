@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-26-p1
+    type: simple
+    text: 法第三十五条第二項第五号の二に規定する政令で定めるものは、商品先物取引法第二条第一項に規定する商品とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

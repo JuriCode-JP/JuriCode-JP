@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-116-p1
+    type: simple
+    text: 道府県は、前条第二項に規定する合計額から同項の規定により当該道府県内の市町村に交付した額を控除した額に相当する額を、消費税法第一条第二項に規定する経費その他社会保障施策（社会福祉、社会保険及び保健衛生に関する施策をいう。次項において同じ。）に要する経費に充てるものとする。
+    modality: gimu
+    references:
+    - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-116-p2
+    type: simple
+    text: 市町村は、前条第二項の規定により道府県から交付を受けた額に相当する額を、消費税法第一条第二項に規定する経費その他社会保障施策に要する経費に充てるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

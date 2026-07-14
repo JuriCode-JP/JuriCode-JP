@@ -16,32 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-35-p1
+    type: simple
+    text: 普通地方公共団体の長は、外部監査人が第二百五十二条の二十八第一項各号のいずれにも該当しなくなつたとき（同条第二項の規定により外部監査契約が締結された場合にあつては、税理士（税理士となる資格を有する者を含む。）でなくなつたとき）、又は同条第三項各号のいずれかに該当するに至つたときは、当該外部監査人と締結している外部監査契約を解除しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-35-p2-zen
+    type: zen_dan
+    text: 普通地方公共団体の長は、外部監査人が心身の故障のため監査の遂行に堪えないと認めるとき、外部監査人にこの法律若しくはこれに基づく命令の規定又は外部監査契約に係る義務に違反する行為があると認めるときその他外部監査人と外部監査契約を締結していることが著しく不適当と認めるときは、外部監査契約を解除することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-35-p2-kou
+    type: kou_dan
+    text: この場合においては、あらかじめ監査委員の意見を聴くとともに、その意見を付けて議会の同意を得なければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-35-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-35-p3-zen
+    type: zen_dan
+    text: 外部監査人が、外部監査契約を解除しようとするときは、普通地方公共団体の長の同意を得なければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-35-p3-kou
+    type: kou_dan
+    text: この場合においては、当該普通地方公共団体の長は、あらかじめ監査委員の意見を聴かなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-35-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-35-p4
+    type: simple
+    text: 前二項の規定による意見は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前二項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-35-p5
+    type: simple
+    text: 普通地方公共団体の長は、第一項若しくは第二項の規定により外部監査契約を解除したとき、又は第三項の規定により外部監査契約を解除されたときは、直ちに、その旨を告示するとともに、遅滞なく、新たに外部監査契約を締結しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-35-p6
+    type: simple
+    text: 外部監査契約の解除は、将来に向かつてのみその効力を生ずる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

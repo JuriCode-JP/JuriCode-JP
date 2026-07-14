@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-31-6-2-p1
+    type: simple
+    text: 法第七百九十条の二の総務省令で定める軽微な事象は、地方税関係申告等又は特定徴収金の納付若しくは納入を行う者の使用に係る電子計算機の故障その他の当該事象による影響を受ける者が限られている事象とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-31-6-2-p2
+    type: simple
+    text: 法第七百九十条の二に規定する総務省令で定める事項は、同条の事象の状況及びそれに対する処置とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

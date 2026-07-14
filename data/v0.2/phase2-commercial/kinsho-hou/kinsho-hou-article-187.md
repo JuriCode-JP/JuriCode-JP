@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 内閣総理大臣又は内閣総理大臣及び財務大臣は、この法律の規定による審問、この法律の規定による処分に係る聴聞又は第百九十二条の規定による申立てについて、必要な調査をするため、当該職員に、次に掲げる処分をさせることができる。
     modality: kanou_kenri
+  - id: kinsho-hou-art-187-p1-kou-1
+    type: kou
+    text: 一　関係人若しくは参考人に出頭を命じて意見を聴取し、又はこれらの者から意見書若しくは報告書を提出させること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-187-p1-kou-2
+    type: kou
+    text: 二　鑑定人に出頭を命じて鑑定させること。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-187-p1-kou-3
+    type: kou
+    text: 三　関係人に対し帳簿書類その他の物件の提出を命じ、又は提出物件を留めて置くこと。
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-187-p1-kou-4
+    type: kou
+    text: 四　関係人の業務若しくは財産の状況又は帳簿書類その他の物件を検査すること。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,9 +68,15 @@ parent_section:
 
 ### 第百八十七条第一項
 
-<!-- segment: hashira id: kinsho-hou-art-187-p1-hashira -->
-<!-- segment: simple id: kinsho-hou-art-187-p2 -->
 内閣総理大臣又は内閣総理大臣及び財務大臣は、この法律の規定による審問、この法律の規定による処分に係る聴聞又は第百九十二条の規定による申立てについて、必要な調査をするため、当該職員に、次に掲げる処分をさせることができる。
+
+一　関係人若しくは参考人に出頭を命じて意見を聴取し、又はこれらの者から意見書若しくは報告書を提出させること。
+
+二　鑑定人に出頭を命じて鑑定させること。
+
+三　関係人に対し帳簿書類その他の物件の提出を命じ、又は提出物件を留めて置くこと。
+
+四　関係人の業務若しくは財産の状況又は帳簿書類その他の物件を検査すること。
 
 ### 第百八十七条第二項
 

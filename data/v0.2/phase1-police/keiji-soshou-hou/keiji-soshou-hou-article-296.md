@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百九十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-296-p1 -->
 証拠調のはじめに、検察官は、証拠により証明すべき事実を明らかにしなければならない。但し、証拠とすることができず、又は証拠としてその取調を請求する意思のない資料に基いて、裁判所に事件について偏見又は予断を生ぜしめる虞のある事項を述べることはできない。

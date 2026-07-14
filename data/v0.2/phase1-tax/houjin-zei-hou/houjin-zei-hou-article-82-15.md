@@ -13,25 +13,57 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-15-p1-honbun
+    type: honbun
+    text: 第八十二条の七第二項（電子情報処理組織による申告）に規定する特定法人である内国法人は、前条第一項又は国税通則法第十八条（期限後申告）若しくは第十九条（修正申告）の規定により、国際最低課税残余額確定申告書若しくは当該申告書に係る修正申告書（以下この条及び次条第一項において「納税申告書」という。）により行うこととされ、又はこれにこの法律（これに基づく命令を含む。）若しくは国税通則法第十八条第三項若しくは第十九条第四項の規定により納税申告書に添付すべきものとされている書類（以下この項及び次項において「添付書類」という。）を添付して行うこととされている各対象会計年度の国際最低課税残余額に対する法人税の申告については、これらの規定にかかわらず、財務省令で定めるところにより、納税申告書に記載すべきものとされている事項（次項において「申告書記載事項」という。）又は添付書類に記載すべきものとされ、若しくは記載されている事項（以下この項及び次項において「添付書類記載事項」という。）を、財務省令で定めるところによりあらかじめ税務署長に届け出て行う電子情報処理組織（国税庁の使用に係る電子計算機（入出力装置を含む。以下この項及び第三項において同じ。）とその申告をする内国法人の使用に係る電子計算機とを電気通信回線で接続した電子情報処理組織をいう。）を使用する方法として財務省令で定める方法により提供することにより、行わなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前条
+    - 次条
+  - id: houjin-zei-hou-art-82-15-p1-tadashi
+    type: tadashi
+    text: ただし、当該申告のうち添付書類に係る部分については、添付書類記載事項を記録した光ディスクその他の財務省令で定める記録用の媒体を提出する方法により、行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-15-p2
+    type: simple
+    text: 前項の規定により行われた同項の申告については、申告書記載事項が記載された納税申告書により、又はこれに添付書類記載事項が記載された添付書類を添付して行われたものとみなして、この法律（これに基づく命令を含む。）及び国税通則法（第百二十四条（書類提出者の氏名、住所及び番号の記載）を除く。）の規定その他政令で定める法令の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-15-p3
+    type: simple
+    text: 第一項本文の規定により行われた同項の申告は、同項の国税庁の使用に係る電子計算機に備えられたファイルへの記録がされた時に税務署長に到達したものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-15-p4
+    type: tokusoku
+    text: 第一項の場合において、国税通則法第百二十四条の規定による名称及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第十六項（定義）に規定する法人番号をいう。）の記載については、第一項の内国法人は、国税通則法第百二十四条の規定にかかわらず、当該記載に代えて、財務省令で定めるところにより、名称を明らかにする措置を講じなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第百二十四条
 cases: []
 amendments:
 - effective_date: '2026-04-01'

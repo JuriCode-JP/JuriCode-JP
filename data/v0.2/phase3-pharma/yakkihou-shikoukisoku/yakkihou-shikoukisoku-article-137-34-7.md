@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-7-p1
+    type: simple
+    text: 令第四十三条の三十三第二項の申請書は、様式第四によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

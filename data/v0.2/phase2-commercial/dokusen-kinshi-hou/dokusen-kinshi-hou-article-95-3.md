@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-95-3-p1
+    type: simple
+    text: 第八十九条第一項第二号又は第九十条の違反があつた場合においては、その違反の計画を知り、その防止に必要な措置を講ぜず、又はその違反行為を知り、その是正に必要な措置を講じなかつた当該事業者団体の理事その他の役員若しくは管理人又はその構成事業者（事業者の利益のためにする行為を行う役員、従業員、代理人その他の者が構成事業者である場合には、当該事業者を含む。）に対しても、それぞれ各本条の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 本条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-95-3-p2
+    type: simple
+    text: 前項の規定は、同項に掲げる事業者団体の理事その他の役員若しくは管理人又はその構成事業者が法人その他の団体である場合においては、当該団体の理事その他の役員又は管理人に、これを適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

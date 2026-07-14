@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-3-p1
+    type: simple
+    text: 職員の執務については、その所轄庁の長は、定期的に人事評価を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-3-p2
+    type: simple
+    text: 人事評価の基準及び方法に関する事項その他人事評価に関し必要な事項は、人事院の意見を聴いて、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

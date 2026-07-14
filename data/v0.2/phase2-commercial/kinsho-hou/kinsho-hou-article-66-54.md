@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-54-p1
+    type: simple
+    text: 高速取引行為者は、第六十六条の五十一第一項各号に掲げる事項について変更があつたときは、その日から二週間以内に、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-54-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による届出を受理したときは、届出があつた事項を高速取引行為者登録簿に登録しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-54-p3
+    type: simple
+    text: 高速取引行為者は、第六十六条の五十一第二項第二号に掲げる書類に記載した業務の内容又は方法について変更があつたときは、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

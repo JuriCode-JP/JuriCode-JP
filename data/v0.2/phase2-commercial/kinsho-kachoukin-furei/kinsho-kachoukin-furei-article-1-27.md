@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-27-p1
+    type: simple
+    text: 法第六章の二第二節の規定による審判手続については、同節に定めるもののほか、この章の定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

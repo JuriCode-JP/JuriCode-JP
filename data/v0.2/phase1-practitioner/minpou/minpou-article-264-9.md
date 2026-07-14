@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-9-p1
+    type: simple
+    text: 裁判所は、所有者による土地の管理が不適当であることによって他人の権利又は法律上保護される利益が侵害され、又は侵害されるおそれがある場合において、必要があると認めるときは、利害関係人の請求により、当該土地を対象として、管理不全土地管理人（第三項に規定する管理不全土地管理人をいう。以下同じ。）による管理を命ずる処分（以下「管理不全土地管理命令」という。）をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-9-p2
+    type: simple
+    text: 管理不全土地管理命令の効力は、当該管理不全土地管理命令の対象とされた土地にある動産（当該管理不全土地管理命令の対象とされた土地の所有者又はその共有持分を有する者が所有するものに限る。）に及ぶ。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-9-p3
+    type: simple
+    text: 裁判所は、管理不全土地管理命令をする場合には、当該管理不全土地管理命令において、管理不全土地管理人を選任しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

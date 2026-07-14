@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十七条
 
-<!-- segment: simple id: keihou-art-147-p1 -->
 公衆の飲料に供する浄水の水道を損壊し、又は閉塞した者は、一年以上十年以下の拘禁刑に処する。

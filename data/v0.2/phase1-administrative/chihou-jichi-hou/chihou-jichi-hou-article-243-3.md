@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-3-p1
+    type: simple
+    text: 普通地方公共団体の長は、条例の定めるところにより、毎年二回以上歳入歳出予算の執行状況並びに財産、地方債及び一時借入金の現在高その他財政に関する事項を住民に公表しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-3-p2
+    type: simple
+    text: 普通地方公共団体の長は、第二百二十一条第三項の法人について、毎事業年度、政令で定めるその経営状況を説明する書類を作成し、これを次の議会に提出しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-3-p3
+    type: simple
+    text: 普通地方公共団体の長は、第二百二十一条第三項の信託について、信託契約に定める計算期ごとに、当該信託に係る事務の処理状況を説明する政令で定める書類を作成し、これを次の議会に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

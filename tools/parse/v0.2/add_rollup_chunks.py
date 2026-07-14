@@ -8,13 +8,20 @@ v0.2 の segment 分割は retrieval で「条全体」query に弱い。各 art
 設計:
   - 入力: build/chunks/{law}/{law}-article-{N}.chunks.jsonl
   - 各 article について:
-    - 既存 chunks を paragraph_number + segment_type 順で sort
-    - text を結合した rollup chunk を 1 つ追加
+    - 既存 chunks を **ファイル順 = 文書順** のまま結合した rollup chunk を 1 つ追加
     - chunk_id = "{article_id}-rollup"
     - segment_type = "rollup"
   - 既存 chunk file に append
 
 期待効果: lawqa-jp 等の「条全体を答えとする」query で R@3 +10-15pp
+
+Why 文書順で結合するか (旧実装のバグ):
+  旧実装は segment_type に手書きの表示順 (hashira=0, kou=1, tokusoku=2 …) を割り当てて
+  sort していた。この順序は文書順ではないため、柱書が tokusoku や junyou と判定された条
+  (例「〜の規定にかかわらず、次に掲げる…」) では **柱書が号の後ろに送られ、rollup が
+  号から始まる**。rollup は「条全体の本文」を表す chunk なので、原文の順序を壊すことは
+  そのまま忠実性の欠陥 (G0-c 違反) になる。build_chunks_from_md.py が正本 md の文書順で
+  chunk を書くので、ここでは並べ替えず入力順を保つ。
 """
 
 from __future__ import annotations
@@ -31,22 +38,9 @@ if str(_SHARED_SRC) not in sys.path:
 
 from juricode_shared import safe_append_jsonl_records  # noqa: E402, I001  (must follow sys.path tweak)
 
-# segment_type 順 (display 順、rollup 内で意味のある並び)
-SEGMENT_TYPE_ORDER = {
-    "honbun": 0,
-    "tadashi": 1,
-    "zen_dan": 0,
-    "kou_dan": 1,
-    "hashira": 0,
-    "kou": 1,
-    "simple": 0,
-    "tokusoku": 2,
-    "junyou": 3,
-}
-
 
 def make_rollup_chunk(chunks: list[dict]) -> dict | None:
-    """既存 chunks から rollup を構築. rollup が既に存在する場合は None."""
+    """既存 chunks から rollup を構築 (文書順を保つ). rollup が既に存在する場合は None."""
     if not chunks:
         return None
 
@@ -61,19 +55,10 @@ def make_rollup_chunk(chunks: list[dict]) -> dict | None:
     if not article_id:
         return None
 
-    # paragraph_number + segment_type の順で sort
-    def sort_key(c):
-        para = c.get("paragraph_number") or 0
-        st = c.get("segment_type", "")
-        st_order = SEGMENT_TYPE_ORDER.get(st, 99)
-        item = c.get("item_number") or 0
-        return (para, st_order, item)
-
-    sorted_chunks = sorted(chunks, key=sort_key)
-
-    # 各 chunk の text を改行で結合
+    # 各 chunk の text を **入力順 (= 正本 md の文書順)** のまま改行で結合。
+    # 並べ替えない (module docstring の Why 参照)。
     text_parts = []
-    for c in sorted_chunks:
+    for c in chunks:
         t = c.get("text", "").strip()
         if t:
             text_parts.append(t)
@@ -112,7 +97,18 @@ def main():
     chunk_files = sorted(args.chunks_dir.rglob("*.chunks.jsonl"))
     # backup ディレクトリ除外
     chunk_files = [f for f in chunk_files if "backup" not in str(f).lower()]
-    print(f"chunk files: {len(chunk_files)}", file=sys.stderr)
+    # 本文 chunk ファイルのみを対象にする。
+    # Why: rglob("*.chunks.jsonl") は {law}-article-{N}.table.chunks.jsonl や
+    # {law}-supplproviso.chunks.jsonl にもマッチする。旧実装はそれらにも rollup を
+    # append しており、**本文 rollup と同じ id を持つ別内容の rollup** (導入文＋表の
+    # パイプ行) が表ファイルに二重生成されていた (id 衝突 = retrieval 汚染)。
+    # rollup は「条の本文全体」なので本文 chunk ファイルからのみ作る。
+    chunk_files = [
+        f
+        for f in chunk_files
+        if "-article-" in f.name and not f.name.endswith(".table.chunks.jsonl")
+    ]
+    print(f"chunk files (本文のみ): {len(chunk_files)}", file=sys.stderr)
 
     added = 0
     skipped_existing = 0

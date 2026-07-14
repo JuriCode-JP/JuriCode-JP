@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百五条
 
-<!-- segment: junyou id: minpou-art-205-p1 -->
 この章の規定は、自己のためにする意思をもって財産権の行使をする場合について準用する。

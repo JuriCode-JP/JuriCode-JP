@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-308-p1 -->
 裁判所は、検察官及び被告人又は弁護人に対し、証拠の証明力を争うために必要とする適当な機会を与えなければならない。

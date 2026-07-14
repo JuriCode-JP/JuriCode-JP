@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: junyou id: kinsho-hou-art-12-p1 applies_provisions: 第六条 -->
 第六条の規定は、第七条第一項、第九条第一項又は第十条第一項の規定により訂正届出書が提出された場合について準用する。

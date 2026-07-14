@@ -22,7 +22,7 @@ paragraphs:
     text: 軽自動車税は、軽自動車等に対し、主たる定置場所在の市町村において、その所有者に課する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -55,10 +55,8 @@ parent_section:
 
 ### 第四百四十三条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-443-p1 -->
 軽自動車税は、軽自動車等に対し、主たる定置場所在の市町村において、その所有者に課する。
 
 ### 第四百四十三条第二項
 
-<!-- segment: tokusoku id: chihou-zei-hou-art-443-p2 override_flag: true override_target: 前項 -->
 軽自動車等の所有者が第四百四十五条第一項の規定により軽自動車税を課することができない者である場合には、前項の規定にかかわらず、当該軽自動車等の使用者に軽自動車税を課する。ただし、公用又は公共の用に供する軽自動車等については、この限りでない。

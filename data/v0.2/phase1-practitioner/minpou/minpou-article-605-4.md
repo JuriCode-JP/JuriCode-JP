@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-605-4-p1-hashira
+    type: hashira
+    text: 不動産の賃借人は、第六百五条の二第一項に規定する対抗要件を備えた場合において、次の各号に掲げるときは、それぞれ当該各号に定める請求をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-605-4-p1-kou-1
+    type: kou
+    text: 一　その不動産の占有を第三者が妨害しているとき　その第三者に対する妨害の停止の請求
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-605-4-p1-kou-2
+    type: kou
+    text: 二　その不動産を第三者が占有しているとき　その第三者に対する返還の請求
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,3 +54,7 @@ parent_section:
 ### 第六百五条の四
 
 不動産の賃借人は、第六百五条の二第一項に規定する対抗要件を備えた場合において、次の各号に掲げるときは、それぞれ当該各号に定める請求をすることができる。
+
+一　その不動産の占有を第三者が妨害しているとき　その第三者に対する妨害の停止の請求
+
+二　その不動産を第三者が占有しているとき　その第三者に対する返還の請求

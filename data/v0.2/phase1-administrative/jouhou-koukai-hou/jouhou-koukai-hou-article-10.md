@@ -40,8 +40,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -58,11 +58,8 @@ parent_section:
 
 ### 第十条第一項
 
-<!-- segment: honbun id: jouhou-koukai-hou-art-10-p1-honbun -->
-前条各項の決定（以下「開示決定等」という。）は、開示請求があった日から三十日以内にしなければならない。<!-- segment: tadashi id: jouhou-koukai-hou-art-10-p1-tadashi -->
-ただし、第四条第二項の規定により補正を求めた場合にあっては、当該補正に要した日数は、当該期間に算入しない。
+前条各項の決定（以下「開示決定等」という。）は、開示請求があった日から三十日以内にしなければならない。ただし、第四条第二項の規定により補正を求めた場合にあっては、当該補正に要した日数は、当該期間に算入しない。
 
 ### 第十条第二項
 
-<!-- segment: tokusoku id: jouhou-koukai-hou-art-10-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、行政機関の長は、事務処理上の困難その他正当な理由があるときは、同項に規定する期間を三十日以内に限り延長することができる。この場合において、行政機関の長は、開示請求者に対し、遅滞なく、延長後の期間及び延長の理由を書面により通知しなければならない。

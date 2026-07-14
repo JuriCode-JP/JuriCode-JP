@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-14-p1
+    type: simple
+    text: 送達すべき書類は、この法律に規定するもののほか、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

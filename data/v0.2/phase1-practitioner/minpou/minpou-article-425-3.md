@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-425-3-p1
+    type: simple
+    text: 債務者がした債務の消滅に関する行為が取り消された場合（第四百二十四条の四の規定により取り消された場合を除く。）において、受益者が債務者から受けた給付を返還し、又はその価額を償還したときは、受益者の債務者に対する債権は、これによって原状に復する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

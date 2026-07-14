@@ -14,19 +14,65 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-7-p1-hashira
+    type: hashira
+    text: 確認された変更計画の変更が軽微な変更であるときは、第六十八条の二の規定にかかわらず、様式第三十七の四による届書（正副二通）に次の各号に掲げる資料を添えて、厚生労働大臣に法第十四条の七の二第一項の変更計画の変更を届け出ることができる。
+    modality: kanou_kenri
+  - id: yakkihou-shikoukisoku-art-68-7-p1-kou-1
+    type: kou
+    text: 一　変更計画の変更案
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-68-7-p1-kou-2
+    type: kou
+    text: 二　変更理由
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-7-p2-hashira
+    type: hashira
+    text: 前項の軽微な変更は、次の各号に掲げる変更以外のものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-68-7-p2-kou-1
+    type: kou
+    text: 一　医薬品、医薬部外品又は化粧品の製造方法又は品質に及ぼす影響を評価するための試験の内容及び方法の重要な変更
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-68-7-p2-kou-2
+    type: kou
+    text: 二　前号の試験に係る判定基準を緩和する変更
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-68-7-p2-kou-3
+    type: kou
+    text: 三　確認された変更計画に含まれる製造工程の稼働性能又は製品の品質を保証するための管理に係る重要な変更
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-68-7-p2-kou-4
+    type: kou
+    text: 四　その他前各号に掲げる変更とみなされる変更
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-7-p3
+    type: simple
+    text: 厚生労働大臣が法第十四の七の二第八項の規定により機構に同条第一項の確認を行わせることとした場合における第一項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -45,9 +91,21 @@ parent_section:
 
 確認された変更計画の変更が軽微な変更であるときは、第六十八条の二の規定にかかわらず、様式第三十七の四による届書（正副二通）に次の各号に掲げる資料を添えて、厚生労働大臣に法第十四条の七の二第一項の変更計画の変更を届け出ることができる。
 
+一　変更計画の変更案
+
+二　変更理由
+
 ### 第六十八条の七第二項
 
 前項の軽微な変更は、次の各号に掲げる変更以外のものとする。
+
+一　医薬品、医薬部外品又は化粧品の製造方法又は品質に及ぼす影響を評価するための試験の内容及び方法の重要な変更
+
+二　前号の試験に係る判定基準を緩和する変更
+
+三　確認された変更計画に含まれる製造工程の稼働性能又は製品の品質を保証するための管理に係る重要な変更
+
+四　その他前各号に掲げる変更とみなされる変更
 
 ### 第六十八条の七第三項
 

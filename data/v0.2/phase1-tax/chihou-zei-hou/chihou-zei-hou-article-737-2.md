@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-737-2-p1
+    type: simple
+    text: 道府県民税又は市町村民税の所得割の納税義務者の賦課期日現在における住所が指定都市以外の市町村の区域内にある場合において、当該納税義務者の当該賦課期日現在における住所地が当該賦課期日の属する年の一月二日から四月一日までの間に指定都市の区域内となつたときは、道府県民税又は市町村民税に関する規定の適用については、当該納税義務者を当該賦課期日現在において当該指定都市の区域内に住所を有した者とみなす。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-737-2-p2
+    type: simple
+    text: 道府県民税又は市町村民税の所得割の納税義務者の賦課期日現在における住所が指定都市の区域内にある場合において、当該納税義務者の当該賦課期日現在における住所地が当該賦課期日の属する年の一月二日から四月一日までの間に指定都市以外の市町村の区域内となつたときは、道府県民税又は市町村民税に関する規定の適用については、当該納税義務者を当該賦課期日現在において当該市町村の区域内に住所を有した者とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

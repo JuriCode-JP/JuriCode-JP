@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百六十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-164-p1 -->
 証人は、旅費、日当及び宿泊料を請求することができる。但し、正当な理由がなく宣誓又は証言を拒んだ者は、この限りでない。
 
 ### 第百六十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-164-p2 -->
 証人は、あらかじめ旅費、日当又は宿泊料の支給を受けた場合において、正当な理由がなく、出頭せず又は宣誓若しくは証言を拒んだときは、その支給を受けた費用を返納しなければならない。

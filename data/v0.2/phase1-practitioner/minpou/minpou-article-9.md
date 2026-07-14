@@ -45,6 +45,4 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: honbun id: minpou-art-9-p1-honbun -->
-成年被後見人の法律行為は、取り消すことができる。<!-- segment: tadashi id: minpou-art-9-p1-tadashi -->
-ただし、日用品の購入その他日常生活に関する行為については、この限りでない。
+成年被後見人の法律行為は、取り消すことができる。ただし、日用品の購入その他日常生活に関する行為については、この限りでない。

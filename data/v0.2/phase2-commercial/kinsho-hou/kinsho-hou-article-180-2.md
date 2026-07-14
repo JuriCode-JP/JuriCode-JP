@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-180-2-p1
+    type: simple
+    text: 審判官は、相当と認めるときは、被審人の意見を聴いて、内閣府令で定めるところにより、審判官及び被審人が映像と音声の送受信により相手の状態を相互に認識しながら通話をすることができる方法によつて、審判手続を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-180-2-p2
+    type: simple
+    text: 前項の場合には、当該被審人は、審判手続の期日に出頭したものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

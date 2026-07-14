@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六条
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-6-p1 -->
 公益法人等及び人格のない社団等は、収益事業から生ずる所得に関する経理と収益事業以外の事業から生ずる所得に関する経理とを区分して行わなければならない。

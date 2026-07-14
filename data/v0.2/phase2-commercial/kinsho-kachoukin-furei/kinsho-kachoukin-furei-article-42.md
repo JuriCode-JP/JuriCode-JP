@@ -34,13 +34,28 @@ paragraphs:
     - 前項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kinsho-kachoukin-furei-art-42-p3
     type: simple
     text: 指定職員又は被審人若しくはその代理人による参考人の審問は、次の順序による。
     modality: unspecified
+  - id: kinsho-kachoukin-furei-art-42-p3-kou-1
+    type: kou
+    text: 一　審問の申出をした者の審問（主審問）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-42-p3-kou-2
+    type: kou
+    text: 二　相手方の審問（反対審問）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-42-p3-kou-3
+    type: kou
+    text: 三　審問の申出をした者の再度の審問（再主審問）
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -88,30 +103,30 @@ parent_section:
 
 ### 第四十二条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-42-p1 -->
 参考人の審問は、その審問の申出をした者、相手方、審判長の順序でする。
 
 ### 第四十二条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-42-p2 -->
 審判長は、適当と認めるときは、指定職員及び被審人又はその代理人の意見を聴いて、前項の順序を変更することができる。
 
 ### 第四十二条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-42-p3 -->
 指定職員又は被審人若しくはその代理人による参考人の審問は、次の順序による。
+
+一　審問の申出をした者の審問（主審問）
+
+二　相手方の審問（反対審問）
+
+三　審問の申出をした者の再度の審問（再主審問）
 
 ### 第四十二条第四項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-42-p4 -->
 指定職員又は被審人若しくはその代理人は、審判長の許可を得て、さらに審問をすることができる。
 
 ### 第四十二条第五項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-42-p5 -->
 審判長は、第一項及び第二項の規定によるほか、必要があると認めるときは、いつでも、自ら参考人を審問し、又は指定職員又は被審人若しくはその代理人の審問を許すことができる。
 
 ### 第四十二条第六項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-42-p6 -->
 審判長以外の審判官は、審判長に告げて、参考人を審問することができる。

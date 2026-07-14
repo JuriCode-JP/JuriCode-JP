@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-286-2-p1
+    type: simple
+    text: 被告人が出頭しなければ開廷することができない場合において、勾留されている被告人が、公判期日に召喚を受け、正当な理由がなく出頭を拒否し、刑事施設職員による引致を著しく困難にしたときは、裁判所は、被告人が出頭しないでも、その期日の公判手続を行うことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -52,10 +52,8 @@ parent_section:
 
 ### 第千三十四条第一項
 
-<!-- segment: simple id: minpou-art-1034-p1 -->
 配偶者は、居住建物の通常の必要費を負担する。
 
 ### 第千三十四条第二項
 
-<!-- segment: junyou id: minpou-art-1034-p2 -->
 第五百八十三条第二項の規定は、前項の通常の必要費以外の費用について準用する。

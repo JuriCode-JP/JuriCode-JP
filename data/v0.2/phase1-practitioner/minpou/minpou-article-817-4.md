@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-4-p1-honbun
+    type: honbun
+    text: 二十五歳に達しない者は、養親となることができない。
+    modality: kanou_negative
+  - id: minpou-art-817-4-p1-tadashi
+    type: tadashi
+    text: ただし、養親となる夫婦の一方が二十五歳に達していない場合においても、その者が二十歳に達しているときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

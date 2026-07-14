@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-47-p1
+    type: simple
+    text: 指定紛争解決機関は、特定の加入金融商品取引関係業者に対し不当な差別的取扱いをしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

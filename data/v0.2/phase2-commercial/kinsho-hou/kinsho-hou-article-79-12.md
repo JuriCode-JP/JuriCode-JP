@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-12-p1
+    type: junyou
+    text: 第七十七条の規定は、認定団体が投資者からの苦情（対象事業者に関するものに限る。）の解決を行う場合について準用する。この場合において、同条中「協会員又は金融商品仲介業者」とあるのは、「第七十九条の十一第一項に規定する対象事業者」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第七十七条
 cases: []
 amendments: []
 tags:

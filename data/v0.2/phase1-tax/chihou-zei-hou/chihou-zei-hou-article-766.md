@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七百六十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-766-p1 -->
 機構は、政令で定めるところにより、登記をしなければならない。
 
 ### 第七百六十六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-766-p2 -->
 前項の規定により登記をしなければならない事項は、登記後でなければ、これをもつて第三者に対抗することができない。

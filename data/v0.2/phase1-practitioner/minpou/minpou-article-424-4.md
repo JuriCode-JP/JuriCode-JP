@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-4-p1
+    type: tokusoku
+    text: 債務者がした債務の消滅に関する行為であって、受益者の受けた給付の価額がその行為によって消滅した債務の額より過大であるものについて、第四百二十四条に規定する要件に該当するときは、債権者は、前条第一項の規定にかかわらず、その消滅した債務の額に相当する部分以外の部分については、詐害行為取消請求をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

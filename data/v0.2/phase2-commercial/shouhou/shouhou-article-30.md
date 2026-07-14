@@ -53,10 +53,8 @@ parent_section:
 
 ### 第三十条第一項
 
-<!-- segment: simple id: shouhou-art-30-p1 -->
 商人及び代理商は、契約の期間を定めなかったときは、二箇月前までに予告し、その契約を解除することができる。
 
 ### 第三十条第二項
 
-<!-- segment: tokusoku id: shouhou-art-30-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、やむを得ない事由があるときは、商人及び代理商は、いつでもその契約を解除することができる。

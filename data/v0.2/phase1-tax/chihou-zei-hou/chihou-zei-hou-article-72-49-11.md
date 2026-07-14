@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-11-p1
+    type: simple
+    text: 個人の行う事業に対する事業税の課税標準は、当該年度の初日の属する年の前年中における個人の事業の所得による。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-11-p2
+    type: simple
+    text: 個人が年の中途において事業を廃止した場合における事業税の課税標準は、前項に規定する所得によるほか、当該年の一月一日から事業の廃止の日までの個人の事業の所得による。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

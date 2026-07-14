@@ -50,10 +50,8 @@ parent_section:
 
 ### 第五十六条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-56-p1 -->
 審判長は、鑑定人に、書面又は口頭で、意見を述べさせることができる。
 
 ### 第五十六条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-56-p2 -->
 審判官は、鑑定人に意見を述べさせた場合において、当該意見の内容を明瞭にし、又はその根拠を確認するため必要があると認めるときは、申立てにより又は職権で、鑑定人に更に意見を述べさせることができる。

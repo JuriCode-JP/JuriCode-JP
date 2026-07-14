@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-7-p1
+    type: simple
+    text: 認可協会は、営利の目的をもつて業務を行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

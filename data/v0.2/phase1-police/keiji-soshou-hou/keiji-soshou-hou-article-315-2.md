@@ -13,10 +13,14 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-315-2-p1
+    type: simple
+    text: 第二百九十一条の二の決定が取り消されたときは、公判手続を更新しなければならない。但し、検察官及び被告人又は弁護人に異議がないときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

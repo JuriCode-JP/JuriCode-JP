@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-2-5-p1
+    type: junyou
+    text: 第八条の六の規定は、法第四百七十七条第一項の規定による控除又は同条第二項の規定による還付を受けようとする卸売販売業者等が当該控除又は還付に係る法第四百七十三条第一項又は第二項の規定による申告書を提出する場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -14,34 +14,92 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-6-2-p1
+    type: tokusoku
+    text: 第二十三条の二の五の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する医療機器又は体外診断用医薬品である場合には、厚生労働大臣は、同条第二項（第三号イ及びロに係る部分に限る。）及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査として厚生労働省令で定める調査の実施を条件とするほか、適正な使用の確保のために必要な措置の実施その他の必要な条件を付してその品目に係る同条の承認を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十二項
+  - id: yakkihou-art-23-2-6-2-p1-kou-1
+    type: kou
+    text: 一　申請に係る医療機器又は体外診断用医薬品が希少疾病用医療機器若しくは希少疾病用医薬品、先駆的医療機器若しくは先駆的医薬品又は特定用途医療機器若しくは特定用途医薬品その他の医療上特にその必要性が高いと認められるものであること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-2-6-2-p1-kou-2
+    type: kou
+    text: 二　申請に係る効果又は性能を有すると合理的に予測できるものであること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-23-2-6-2-p1-kou-3
+    type: kou
+    text: 三　医療機器にあつては、申請に係る効果又は性能に比して著しく有害な作用を有することにより医療機器として使用価値がないと合理的に予測できるものでないこと。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-6-2-p2-zen
+    type: zen_dan
+    text: 前項の規定により条件を付した第二十三条の二の五の承認を受けた者は、厚生労働省令で定めるところにより、同項の規定により条件とされた調査を実施したことにより作成した厚生労働省令で定める資料を厚生労働大臣に提出し、当該承認に係る医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査を受けなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+  - id: yakkihou-art-23-2-6-2-p2-kou
+    type: kou_dan
+    text: この場合において、当該医療機器又は体外診断用医薬品が厚生労働省令で定める医療機器又は体外診断用医薬品であるときは、当該資料は、厚生労働省令で定める基準に従つて収集され、かつ、作成されたものでなければならない。
+    modality: gimu
+    depends_on: yakkihou-art-23-2-6-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-6-2-p3
+    type: simple
+    text: 厚生労働大臣は、前項前段に規定する資料の提出があつたときは、当該資料及び同項前段に規定する医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査（同項前段に規定する承認に係る医療機器又は体外診断用医薬品が同項後段の厚生労働省令で定める医療機器又は体外診断用医薬品であるときは、当該調査及び当該資料が同項後段の規定に適合するかどうかについての書面による調査又は実地の調査）を行う際に得られている知見に基づき、当該調査を行い、第二十三条の二の五第二項第三号イからハまでのいずれにも該当しないことを確認するものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-6-2-p4
+    type: simple
+    text: 厚生労働大臣は、前項に規定する調査の結果を踏まえ、その必要があると認めるときは、第一項の規定により付した条件を変更し、又は当該条件を付した第二十三条の二の五の承認を受けた者に対して、同項に規定する調査及び適正な使用の確保のために必要な措置の再度の実施を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-6-2-p5
+    type: simple
+    text: 第二項後段に該当する場合において、第一項の規定により条件を付した第二十三条の二の五の承認を受けた者若しくは第二項後段の規定による資料の収集若しくは作成の委託を受けた者（これらの者が法人であるときは、その役員）又はこれらの職員は、正当な理由なく、当該資料の収集又は作成に関しその職務上知り得た人の秘密を漏らしてはならない。これらの者であつた者についても、同様とする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-6-2-p6
+    type: simple
+    text: 第一項の規定により条件を付した第二十三条の二の五の承認を受けた者が同条第十三項の承認の申請をした場合における同項において準用する同条第二項の規定の適用については、同項第三号イ中「認められない」とあるのは「合理的に予測できるものでない」と、同号ロ中「認められる」とあるのは「合理的に予測できるものである」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -61,6 +119,12 @@ parent_section:
 ### 第二十三条の二の六の二第一項
 
 第二十三条の二の五の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する医療機器又は体外診断用医薬品である場合には、厚生労働大臣は、同条第二項（第三号イ及びロに係る部分に限る。）及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査として厚生労働省令で定める調査の実施を条件とするほか、適正な使用の確保のために必要な措置の実施その他の必要な条件を付してその品目に係る同条の承認を与えることができる。
+
+一　申請に係る医療機器又は体外診断用医薬品が希少疾病用医療機器若しくは希少疾病用医薬品、先駆的医療機器若しくは先駆的医薬品又は特定用途医療機器若しくは特定用途医薬品その他の医療上特にその必要性が高いと認められるものであること。
+
+二　申請に係る効果又は性能を有すると合理的に予測できるものであること。
+
+三　医療機器にあつては、申請に係る効果又は性能に比して著しく有害な作用を有することにより医療機器として使用価値がないと合理的に予測できるものでないこと。
 
 ### 第二十三条の二の六の二第二項
 

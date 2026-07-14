@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-8-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、この章の規定を施行するため必要があると認めるときは、厚生労働省令で定めるところにより、指定薬物若しくはその疑いがある物品若しくは指定薬物と同等以上に精神毒性を有する蓋然性が高い物である疑いがある物品を貯蔵し、陳列し、若しくは広告している者又は指定薬物若しくはこれらの物品を製造し、輸入し、販売し、授与し、貯蔵し、陳列し、若しくは広告した者に対して、必要な報告をさせ、又は当該職員に、これらの者の店舗その他必要な場所に立ち入り、帳簿書類その他の物件を検査させ、関係者に質問させ、若しくは指定薬物若しくはこれらの物品を、試験のため必要な最少分量に限り、収去させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-8-p2
+    type: simple
+    text: 前項の規定による立入検査、質問及び収去については第六十九条第八項の規定を、前項の規定による権限については同条第九項の規定を、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

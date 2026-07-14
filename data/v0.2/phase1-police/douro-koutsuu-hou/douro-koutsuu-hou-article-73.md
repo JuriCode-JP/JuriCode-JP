@@ -23,6 +23,10 @@ paragraphs:
     modality: unspecified
     references:
     - 同項
+  - id: douro-koutsuu-hou-art-73-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -41,5 +45,6 @@ parent_section:
 
 ### 第七十三条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-73-p1 -->
 交通事故があつた場合において、当該交通事故に係る車両等の運転者等以外の者で当該車両等に乗車しているものがあるときは、その者は、当該車両等の運転者等が第七十二条第一項前段に規定する措置を講じ、又は同項後段に規定する報告をするのを妨げてはならない。
+
+（罰則　第百二十条第一項第十号）

@@ -30,6 +30,26 @@ paragraphs:
     type: hashira
     text: 法第六十六条の四十第四項に規定する届出書には、次に掲げる事項を記載するものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-322-p2-kou-1
+    type: kou
+    text: 一　商号又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-322-p2-kou-2
+    type: kou
+    text: 二　登録年月日及び登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-322-p2-kou-3
+    type: kou
+    text: 三　該当事由
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-322-p2-kou-4
+    type: kou
+    text: 四　該当事由の発生予定年月日
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -48,10 +68,16 @@ parent_section:
 
 ### 第三百二十二条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-322-p1 -->
 法第六十六条の四十第三項の規定による公告は、官報又は時事に関する事項を掲載する日刊新聞紙により行うものとする。
 
 ### 第三百二十二条第二項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-322-p2-hashira -->
 法第六十六条の四十第四項に規定する届出書には、次に掲げる事項を記載するものとする。
+
+一　商号又は名称
+
+二　登録年月日及び登録番号
+
+三　該当事由
+
+四　該当事由の発生予定年月日

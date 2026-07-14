@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-125-2-p1
+    type: simple
+    text: 厚生労働大臣が法第二十三条の六第二項（同条第四項において準用する場合を含む。次条において同じ。）の規定により機構に調査を行わせることとした場合における同条第一項の登録又は同条第三項の登録の更新の申請者は、機構に当該調査の申請をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-125-2-p2
+    type: simple
+    text: 前項の申請は、様式第七十一の二による申請書により行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

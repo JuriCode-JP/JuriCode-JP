@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三百四十九条の三第十六項に規定する国立研究開発法人海洋研究開発機構が所有し、かつ、直接国立研究開発法人海洋研究開発機構法第十七条第一項第一号、第三号、第四号又は第六号に規定する業務の用に供する家屋及び償却資産で政令で定めるものは、次に掲げるもの以外の家屋及び償却資産とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-9-p1-kou-1
+    type: kou
+    text: 一　事務所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-9-p1-kou-2
+    type: kou
+    text: 二　宿舎
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第五十二条の九
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-52-9-p1-hashira -->
 法第三百四十九条の三第十六項に規定する国立研究開発法人海洋研究開発機構が所有し、かつ、直接国立研究開発法人海洋研究開発機構法第十七条第一項第一号、第三号、第四号又は第六号に規定する業務の用に供する家屋及び償却資産で政令で定めるものは、次に掲げるもの以外の家屋及び償却資産とする。
+
+一　事務所
+
+二　宿舎

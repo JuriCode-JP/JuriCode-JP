@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-6-p1
+    type: simple
+    text: 都道府県知事は、必要があると認めるときは、財産区の事務の処理について、当該財産区のある市町村若しくは特別区の長に報告若しくは資料の提出を求め、又は監査することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-6-p2
+    type: simple
+    text: 財産区の事務に関し、市町村若しくは特別区の長若しくは議会、財産区の議会若しくは総会又は財産区管理会の相互の間に紛争があるときは、都道府県知事は、当事者の申請に基き又は職権により、これを裁定することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-6-p3
+    type: simple
+    text: 前項に規定するものを除く外、同項の裁定に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

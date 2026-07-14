@@ -52,15 +52,12 @@ tags:
 
 ### 第十六条の十五第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-15-p1 -->
 政令第五十四条の三十二第四項第一号に規定する総務省令で定める土地の取得は、第十六条の十四第一項に規定する土地の取得とする。
 
 ### 第十六条の十五第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-15-p2 -->
 政令第五十四条の三十二第四項第三号に規定する総務省令で定める土地の取得は、第十六条の十四第三項に規定する土地の取得とする。
 
 ### 第十六条の十五第三項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-15-p3 -->
 政令第五十四条の三十二第四項第四号に規定する総務省令で定める土地の取得は、第十六条の十四第四項に規定する土地の取得とする。

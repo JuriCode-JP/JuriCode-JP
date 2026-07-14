@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-44-p1
+    type: simple
+    text: 第七百一条の四十から前条までに定めるもののほか、事業所等が指定都市等とその他の市町村とにわたつて所在する場合の第七百一条の四十の規定の適用その他同条から前条までの規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

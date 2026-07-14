@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-2-p1
+    type: simple
+    text: 法第五十七条の二第一項の規定により算出する総資産の額は、貸借対照表の資産の部に計上されるべき金額を合計して算出するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

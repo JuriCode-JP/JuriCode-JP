@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三百四十九条の三第五項に規定するその他の総務省令で定める船舶は、次に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-1
+    type: kou
+    text: 一　専ら遊覧の用に供する船舶
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-2
+    type: kou
+    text: 二　快遊船
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-3
+    type: kou
+    text: 三　遊漁船
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-4
+    type: kou
+    text: 四　モーターボート競走法（昭和二十六年法律第二百四十二号）の規定によるモーターボート競走の用に供するモーターボート
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,5 +54,12 @@ tags:
 
 ### 第十一条の三
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-11-3-p1-hashira -->
 法第三百四十九条の三第五項に規定するその他の総務省令で定める船舶は、次に掲げるものとする。
+
+一　専ら遊覧の用に供する船舶
+
+二　快遊船
+
+三　遊漁船
+
+四　モーターボート競走法（昭和二十六年法律第二百四十二号）の規定によるモーターボート競走の用に供するモーターボート

@@ -13,20 +13,50 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-6-p1-hashira
+    type: hashira
+    text: 特定多国籍企業グループ等に属する内国法人は、各対象会計年度終了の日の翌日から一年三月以内に、税務署長に対し、次に掲げる事項を記載した申告書を提出しなければならない。ただし、第一号に掲げる金額がない場合は、当該申告書を提出することを要しない。
+    modality: unspecified
+  - id: houjin-zei-hou-art-82-6-p1-kou-1
+    type: kou
+    text: 一　当該対象会計年度の課税標準である課税標準国際最低課税額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-82-6-p1-kou-2
+    type: kou
+    text: 二　前号に掲げる課税標準国際最低課税額につき前条の規定を適用して計算した法人税の額
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-art-82-6-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-6-p2
+    type: simple
+    text: 特定多国籍企業グループ等に属する内国法人が、前項の規定による申告書を最初に提出すべき対象会計年度において当該申告書を提出する場合（過去対象会計年度において当該内国法人又は当該特定多国籍企業グループ等に属する構成会社等であつた他の内国法人若しくは外国法人（我が国を所在地国とする恒久的施設等を有していたものに限る。以下この項において同じ。）若しくは当該特定多国籍企業グループ等に係る共同支配会社等であつた他の内国法人若しくは外国法人が第百五十条の三第九項（特定多国籍企業グループ等に係る報告事項等の提供）の規定の適用を受けていなかつた場合に限る。）には、当該内国法人の当該最初に提出すべき対象会計年度に係る前項の規定の適用については、同項中「一年三月」とあるのは、「一年六月」とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-6-p3
+    type: simple
+    text: 第一項の規定による申告書には、当該対象会計年度の特定多国籍企業グループ等の最終親会社等の連結等財務諸表その他の財務省令で定める書類を添付しなければならない。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2024-04-01'
@@ -58,6 +88,12 @@ parent_section:
 ### 第八十二条の六第一項
 
 特定多国籍企業グループ等に属する内国法人は、各対象会計年度終了の日の翌日から一年三月以内に、税務署長に対し、次に掲げる事項を記載した申告書を提出しなければならない。ただし、第一号に掲げる金額がない場合は、当該申告書を提出することを要しない。
+
+一　当該対象会計年度の課税標準である課税標準国際最低課税額
+
+二　前号に掲げる課税標準国際最低課税額につき前条の規定を適用して計算した法人税の額
+
+三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項
 
 ### 第八十二条の六第二項
 

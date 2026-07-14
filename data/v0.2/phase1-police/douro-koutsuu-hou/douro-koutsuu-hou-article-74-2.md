@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-2-p1
+    type: simple
+    text: 車両の使用者は、当該車両を適正に駐車する場所を確保することその他駐車に関しての車両の適正な使用のために必要な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

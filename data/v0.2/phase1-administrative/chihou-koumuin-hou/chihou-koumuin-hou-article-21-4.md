@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-4-p1
+    type: simple
+    text: 任命権者が職員を人事委員会規則で定める職（人事委員会を置かない地方公共団体においては、任命権者が定める職）に昇任させる場合には、当該職について昇任のための競争試験（以下「昇任試験」という。）又は選考が行われなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-4-p2
+    type: simple
+    text: 人事委員会は、前項の人事委員会規則を定めようとするときは、あらかじめ、任命権者の意見を聴くものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-4-p3
+    type: simple
+    text: 昇任試験は、人事委員会等の指定する職に正式に任用された職員に限り、受験することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-4-p4
+    type: junyou
+    text: 第十八条から第二十一条までの規定は、第一項の規定による職員の昇任試験を実施する場合について準用する。この場合において、第十八条の二中「定める受験の資格を有する全ての国民」とあるのは「指定する職に正式に任用された全ての職員」と、第二十一条中「職員の採用」とあるのは「職員の昇任」と、「採用候補者名簿」とあるのは「昇任候補者名簿」と、同条第四項中「採用すべき」とあるのは「昇任させるべき」と、同条第五項中「採用の方法」とあるのは「昇任の方法」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第十八条から第二十一条まで
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-4-p5
+    type: junyou
+    text: 第十八条並びに第二十一条の二第一項及び第二項の規定は、第一項の規定による職員の昇任のための選考を実施する場合について準用する。この場合において、同条第二項中「職員の採用」とあるのは、「職員の昇任」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

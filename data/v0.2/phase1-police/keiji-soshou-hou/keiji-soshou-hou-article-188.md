@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百八十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-188-p1 -->
 訴訟費用の負担を命ずる裁判にその額を表示しないときは、執行の指揮をすべき検察官が、これを算定する。

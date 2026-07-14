@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-15-p1
+    type: simple
+    text: 前条第一項の規定により督促を受けた者がその指定する期限までにその納付すべき金額を納付しないときは、内閣総理大臣の命令で、第百八十五条の七第一項、第二項、第四項から第八項まで及び第十項から第十七項までの決定（第百八十五条の八第六項又は第七項の規定による変更後のものを含む。以下この条及び次条において「課徴金納付命令」という。）を執行する。この命令は、執行力のある債務名義と同一の効力を有する。
+    modality: unspecified
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-15-p2
+    type: simple
+    text: 課徴金納付命令の執行は、民事執行法（昭和五十四年法律第四号）その他強制執行の手続に関する法令の規定に従つてする。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-15-p3
+    type: simple
+    text: 内閣総理大臣は、課徴金納付命令の執行に関して必要があると認めるときは、公務所又は公私の団体に照会して必要な事項の報告を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

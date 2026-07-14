@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合には、救助者は、救助料を請求することができない。
     modality: kanou_negative
+  - id: shouhou-art-801-p1-kou-1
+    type: kou
+    text: 一　故意に海難を発生させたとき。
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-801-p1-kou-2
+    type: kou
+    text: 二　正当な事由により救助を拒まれたにもかかわらず、救助したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第八百一条
 
-<!-- segment: hashira id: shouhou-art-801-p1-hashira -->
 次に掲げる場合には、救助者は、救助料を請求することができない。
+
+一　故意に海難を発生させたとき。
+
+二　正当な事由により救助を拒まれたにもかかわらず、救助したとき。

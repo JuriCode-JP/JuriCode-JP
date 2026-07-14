@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-114-6-p1
+    type: simple
+    text: この法律の規定に基づき政令、内閣府令、国家公安委員会規則又は都道府県公安委員会規則を制定し、又は改廃する場合においては、それぞれ政令、内閣府令、国家公安委員会規則又は都道府県公安委員会規則で、その制定又は改廃に伴い合理的に必要と判断される範囲内において、所要の経過措置（罰則に関する経過措置を含む。）を定めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

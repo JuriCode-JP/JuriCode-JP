@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-16-p1
+    type: simple
+    text: 法第二条第二十二項第一号に規定する政令で定める行為は、金融商品市場及び外国金融商品市場によらないで、将来の一定の時期において金融商品（同条第二十四項第三号の三及び第五号に掲げるものを除く。）及びその対価の授受を約する売買に関し、当該売買の当事者がその売買契約を解除する行為とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百六十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-364-p1 -->
 上訴権回復の請求についてした決定に対しては、即時抗告をすることができる。

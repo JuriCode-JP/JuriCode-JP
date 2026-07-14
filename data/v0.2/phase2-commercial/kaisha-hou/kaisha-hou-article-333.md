@@ -46,6 +46,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる者は、会計参与となることができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-333-p3-kou-1
+    type: kou
+    text: 一　株式会社又はその子会社の取締役、監査役若しくは執行役又は支配人その他の使用人
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-333-p3-kou-2
+    type: kou
+    text: 二　業務の停止の処分を受け、その停止の期間を経過しない者
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-333-p3-kou-3
+    type: kou
+    text: 三　税理士法（昭和二十六年法律第二百三十七号）第四十三条の規定により同法第二条第二項に規定する税理士業務を行うことができない者
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -68,16 +83,18 @@ parent_section:
 
 ### 第三百三十三条第一項
 
-<!-- segment: simple id: kaisha-hou-art-333-p1 -->
 会計参与は、公認会計士若しくは監査法人又は税理士若しくは税理士法人でなければならない。
 
 ### 第三百三十三条第二項
 
-<!-- segment: zen_dan id: kaisha-hou-art-333-p2-zen -->
-会計参与に選任された監査法人又は税理士法人は、その社員の中から会計参与の職務を行うべき者を選定し、これを株式会社に通知しなければならない。<!-- segment: kou_dan id: kaisha-hou-art-333-p2-kou depends_on: kaisha-hou-art-333-p2-zen -->
-この場合においては、次項各号に掲げる者を選定することはできない。
+会計参与に選任された監査法人又は税理士法人は、その社員の中から会計参与の職務を行うべき者を選定し、これを株式会社に通知しなければならない。この場合においては、次項各号に掲げる者を選定することはできない。
 
 ### 第三百三十三条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-333-p3-hashira -->
 次に掲げる者は、会計参与となることができない。
+
+一　株式会社又はその子会社の取締役、監査役若しくは執行役又は支配人その他の使用人
+
+二　業務の停止の処分を受け、その停止の期間を経過しない者
+
+三　税理士法（昭和二十六年法律第二百三十七号）第四十三条の規定により同法第二条第二項に規定する税理士業務を行うことができない者

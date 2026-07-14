@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-14-2-p1
+    type: junyou
+    text: 第二十三条の十第三項及び第二十三条の十一の二から前条までの規定は、登録認証機関（外国にある登録認証機関の事業所において基準適合性認証の業務を行う場合における当該登録認証機関に限る。）について準用する。この場合において、同項及び第二十三条の十一の二から第二十三条の十三までの規定中「命ずる」とあるのは「請求する」と、前条第一項中「命ずべき」とあるのは「請求すべき」と、同条第二項及び第三項中「命令」とあるのは「請求」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

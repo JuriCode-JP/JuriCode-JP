@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-114-7-p1
+    type: simple
+    text: この法律に定めるもののほか、この法律の実施のための手続その他この法律の施行に関し必要な事項は、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

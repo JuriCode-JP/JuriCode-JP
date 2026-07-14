@@ -56,8 +56,6 @@ parent_section:
 
 ### 第五百三十八条第一項
 
-<!-- segment: simple id: minpou-art-538-p1 -->
-<!-- segment: simple id: minpou-art-538-p2 -->
 前条の規定により第三者の権利が発生した後は、当事者は、これを変更し、又は消滅させることができない。
 
 ### 第五百三十八条第二項

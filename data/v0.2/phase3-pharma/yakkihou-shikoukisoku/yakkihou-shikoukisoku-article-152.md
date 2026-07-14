@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百五十二条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-152-p1 -->
 法第三十三条第一項の身分証明書は、様式第八十五によるものとする。
 
 ### 第百五十二条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-152-p2 -->
 前項の身分証明書の有効期間は、発行の日から発行の日の属する年の翌年の十二月三十一日までとする。

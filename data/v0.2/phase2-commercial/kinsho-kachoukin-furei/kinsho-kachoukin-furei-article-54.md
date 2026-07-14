@@ -82,22 +82,16 @@ parent_section:
 
 ### 第五十四条第一項
 
-<!-- segment: honbun id: kinsho-kachoukin-furei-art-54-p1-honbun -->
-鑑定の申出をするときは、同時に、鑑定を求める事項を記載した書面二通（当該書面を送付すべき相手方の数が二以上であるときは、その数に一を加えた通数）を提出しなければならない。<!-- segment: tadashi id: kinsho-kachoukin-furei-art-54-p1-tadashi -->
-ただし、やむを得ない事由があるときは、審判長の定める期間内に提出すれば足りる。
+鑑定の申出をするときは、同時に、鑑定を求める事項を記載した書面二通（当該書面を送付すべき相手方の数が二以上であるときは、その数に一を加えた通数）を提出しなければならない。ただし、やむを得ない事由があるときは、審判長の定める期間内に提出すれば足りる。
 
 ### 第五十四条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-54-p2 -->
 審判手続の事務を行う職員は、前項の書面について同項の申出をする者の相手方に送付しなければならない。
 
 ### 第五十四条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-54-p3 -->
 相手方は、第一項の書面について意見があるときは、意見を記載した書面を審判官に提出しなければならない。
 
 ### 第五十四条第四項
 
-<!-- segment: zen_dan id: kinsho-kachoukin-furei-art-54-p4-zen -->
-審判官は、第一項の書面に基づき、前項の意見も考慮して、鑑定事項を定める。<!-- segment: kou_dan id: kinsho-kachoukin-furei-art-54-p4-kou depends_on: kinsho-kachoukin-furei-art-54-p4-zen -->
-この場合においては、鑑定事項を記載した書面を鑑定人に送付しなければならない。
+審判官は、第一項の書面に基づき、前項の意見も考慮して、鑑定事項を定める。この場合においては、鑑定事項を記載した書面を鑑定人に送付しなければならない。

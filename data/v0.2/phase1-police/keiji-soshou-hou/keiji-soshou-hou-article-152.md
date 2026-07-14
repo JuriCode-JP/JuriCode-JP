@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-152-p1 -->
 裁判所は、証人が、正当な理由がなく、召喚に応じないとき、又は応じないおそれがあるときは、その証人を勾引することができる。

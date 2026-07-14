@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第五十条第一項（特別な償却率による償却の方法）に規定する財務省令で定めるものは、次に掲げる減価償却資産とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-1
+    type: kou
+    text: 一　なつ染用銅ロール
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-2
+    type: kou
+    text: 二　映画用フイルム（二以上の常設館において順次上映されるものに限る。）
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-3
+    type: kou
+    text: 三　非鉄金属圧延用ロール（電線圧延用ロールを除く。）
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-4
+    type: kou
+    text: 四　短期間にその型等が変更される製品でその生産期間があらかじめ生産計画に基づき定められているものの生産のために使用する金型その他の工具で、当該製品以外の製品の生産のために使用することが著しく困難であるもの
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-5
+    type: kou
+    text: 五　漁網、活字に常用されている金属及び前各号に掲げる資産に類するもの
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-12-p1-hashira -->
 令第五十条第一項（特別な償却率による償却の方法）に規定する財務省令で定めるものは、次に掲げる減価償却資産とする。
+
+一　なつ染用銅ロール
+
+二　映画用フイルム（二以上の常設館において順次上映されるものに限る。）
+
+三　非鉄金属圧延用ロール（電線圧延用ロールを除く。）
+
+四　短期間にその型等が変更される製品でその生産期間があらかじめ生産計画に基づき定められているものの生産のために使用する金型その他の工具で、当該製品以外の製品の生産のために使用することが著しく困難であるもの
+
+五　漁網、活字に常用されている金属及び前各号に掲げる資産に類するもの

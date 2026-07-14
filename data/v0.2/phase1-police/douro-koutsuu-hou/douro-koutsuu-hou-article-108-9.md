@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-9-p1
+    type: simple
+    text: 公安委員会は、指定講習機関について、第百八条の四第一項各号に規定する基準に適合しているかどうか、又は第百八条の五第一項若しくは第二項の規定に従い運営されているかどうかを検査し、及び指定講習機関に対し、必要な報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

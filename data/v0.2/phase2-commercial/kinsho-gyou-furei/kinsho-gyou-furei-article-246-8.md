@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-8-p1
+    type: simple
+    text: 法第六十三条の八第一項各号に規定する内閣府令で定めるものは、当該権利が財産的価値に表示される場合における当該財産的価値を海外投資家等（同条第二項に規定する海外投資家等をいい、同条第一項第一号イからハまでのいずれにも該当しないものに限る。第二百四十六条の十九において同じ。）以外の者に移転することができないようにする技術的措置がとられていないものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

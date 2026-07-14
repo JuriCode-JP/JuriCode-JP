@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-3-p1
+    type: simple
+    text: 警察署長は、第五十一条第五項及び第六項（同条第二十二項において準用する場合を含む。）の規定による車両（積載物を含む。以下この項において同じ。）の移動及び保管に関する事務（当該車両の移動、返還、売却及び廃棄の決定、同条第十六項の規定による命令、滞納処分その他の政令で定めるものを除く。）の全部又は一部を内閣府令で定める法人に委託することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-3-p2
+    type: simple
+    text: 前項の規定により警察署長から事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該事務に関して知り得た秘密を漏らしてはならない。
+    modality: gimu_negative
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-51-3-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十七条の四第一項第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +59,5 @@ parent_section:
 ### 第五十一条の三第二項
 
 前項の規定により警察署長から事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該事務に関して知り得た秘密を漏らしてはならない。
+
+（罰則　第二項については第百十七条の四第一項第一号）

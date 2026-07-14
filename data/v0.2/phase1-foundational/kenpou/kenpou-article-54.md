@@ -22,7 +22,7 @@ paragraphs:
     text: 衆議院が解散されたときは、解散の日から四十日以内に、衆議院議員の総選挙を行ひ、その選挙の日から三十日以内に、国会を召集しなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,15 +57,12 @@ parent_section:
 
 ### 第五十四条第一項
 
-<!-- segment: simple id: kenpou-art-54-p1 -->
 衆議院が解散されたときは、解散の日から四十日以内に、衆議院議員の総選挙を行ひ、その選挙の日から三十日以内に、国会を召集しなければならない。
 
 ### 第五十四条第二項
 
-<!-- segment: simple id: kenpou-art-54-p2 -->
 衆議院が解散されたときは、参議院は、同時に閉会となる。但し、内閣は、国に緊急の必要があるときは、参議院の緊急集会を求めることができる。
 
 ### 第五十四条第三項
 
-<!-- segment: simple id: kenpou-art-54-p3 -->
 前項但書の緊急集会において採られた措置は、臨時のものであつて、次の国会開会の後十日以内に、衆議院の同意がない場合には、その効力を失ふ。

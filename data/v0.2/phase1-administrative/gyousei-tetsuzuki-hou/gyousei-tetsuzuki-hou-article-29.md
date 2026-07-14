@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-29-p1 -->
 弁明は、行政庁が口頭ですることを認めたときを除き、弁明を記載した書面（以下「弁明書」という。）を提出してするものとする。
 
 ### 第二十九条第二項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-29-p2 -->
 弁明をするときは、証拠書類等を提出することができる。

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-4-4-p1-hashira
+    type: hashira
+    text: 法第二十九条の二第一項第十号に規定する政令で定める権利は、当該権利に係る出資対象事業（同号に規定する出資対象事業をいう。）が次に掲げるものに該当する権利とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-4-4-p1-kou-1
+    type: kou
+    text: 一　主として金銭の貸付けを行う事業であるもの
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-4-4-p1-kou-2
+    type: kou
+    text: 二　主として貸付債権の取得を行う事業であるもの
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-15-4-4-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるものに類するものとして内閣府令で定めるもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第十五条の四の四
 
 法第二十九条の二第一項第十号に規定する政令で定める権利は、当該権利に係る出資対象事業（同号に規定する出資対象事業をいう。）が次に掲げるものに該当する権利とする。
+
+一　主として金銭の貸付けを行う事業であるもの
+
+二　主として貸付債権の取得を行う事業であるもの
+
+三　前二号に掲げるものに類するものとして内閣府令で定めるもの

@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百十六条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-116-p1 -->
 この法律に特別の定がある場合を除く外、普通地方公共団体の議会の議事は、出席議員の過半数でこれを決し、可否同数のときは、議長の決するところによる。
 
 ### 第百十六条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-116-p2 -->
 前項の場合においては、議長は、議員として議決に加わる権利を有しない。

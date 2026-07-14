@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百七十九条
 
-<!-- segment: simple id: kaisha-hou-art-579-p1 -->
 持分会社は、その本店の所在地において設立の登記をすることによって成立する。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百六十九条
 
-<!-- segment: junyou id: minpou-art-869-p1 applies_provisions: 第八百三十条 -->
 第六百四十四条及び第八百三十条の規定は、後見について準用する。

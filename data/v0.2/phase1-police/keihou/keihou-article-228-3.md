@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-228-3-p1-honbun
+    type: honbun
+    text: 第二百二十五条の二第一項の罪を犯す目的で、その予備をした者は、二年以下の拘禁刑に処する。
+    modality: gimu_kei
+  - id: keihou-art-228-3-p1-tadashi
+    type: tadashi
+    text: ただし、実行に着手する前に自首した者は、その刑を減軽し、又は免除する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

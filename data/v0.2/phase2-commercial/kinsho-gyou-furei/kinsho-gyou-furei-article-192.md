@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 金融商品取引業者（第一種金融商品取引業を行う外国法人に限る。以下この款において同じ。）は、令第十六条の十九ただし書の承認を受けようとするときは、次に掲げる事項を記載した承認申請書を所管金融庁長官等に提出しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-192-p1-kou-1
+    type: kou
+    text: 一　商号
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-192-p1-kou-2
+    type: kou
+    text: 二　登録年月日及び登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-192-p1-kou-3
+    type: kou
+    text: 三　その他の書類等（法第四十九条の三第一項の書類及び書面又は第百九十五条に規定する報告書をいう。以下この条において同じ。）の提出に関し当該承認を受けようとする期間
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-192-p1-kou-4
+    type: kou
+    text: 四　その他の書類等に係る事業年度終了の日
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-192-p1-kou-5
+    type: kou
+    text: 五　その他の書類等の提出に関し当該承認を必要とする理由
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +57,21 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kinsho-gyou-furei-art-192-p2-kou-1
+    type: kou
+    text: 一　定款又はこれに代わる書面
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-192-p2-kou-2
+    type: kou
+    text: 二　当該承認申請書に記載された金融商品取引業者の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-192-p2-kou-3
+    type: kou
+    text: 三　当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -44,7 +84,7 @@ paragraphs:
     references:
     - 同項
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -55,6 +95,16 @@ paragraphs:
     references:
     - 前項
     - 同項
+  - id: kinsho-gyou-furei-art-192-p4-kou-1
+    type: kou
+    text: 一　当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかった旨
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-192-p4-kou-2
+    type: kou
+    text: 二　前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -75,20 +125,36 @@ parent_section:
 
 ### 第百九十二条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-192-p1-hashira -->
 金融商品取引業者（第一種金融商品取引業を行う外国法人に限る。以下この款において同じ。）は、令第十六条の十九ただし書の承認を受けようとするときは、次に掲げる事項を記載した承認申請書を所管金融庁長官等に提出しなければならない。
+
+一　商号
+
+二　登録年月日及び登録番号
+
+三　その他の書類等（法第四十九条の三第一項の書類及び書面又は第百九十五条に規定する報告書をいう。以下この条において同じ。）の提出に関し当該承認を受けようとする期間
+
+四　その他の書類等に係る事業年度終了の日
+
+五　その他の書類等の提出に関し当該承認を必要とする理由
 
 ### 第百九十二条第二項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-192-p2-hashira -->
 前項の承認申請書には、次に掲げる書類を添付しなければならない。
+
+一　定款又はこれに代わる書面
+
+二　当該承認申請書に記載された金融商品取引業者の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
+
+三　当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
 
 ### 第百九十二条第三項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-192-p3 -->
 所管金融庁長官等は、第一項の承認の申請があった場合において、当該金融商品取引業者が、その本国の法令又は慣行により、その事業年度経過後三月以内にその他の書類等を提出することができないと認められるときは、当該申請のあった日の属する事業年度（その日が事業年度開始後三月以内（直前事業年度に係るその他の書類等の提出に関して当該承認を受けている場合にあっては、当該承認を受けた期間内）の日である場合にあっては、その直前事業年度）から当該申請に係る同項第五号に規定する理由について消滅又は変更があることとなる日の属する事業年度の直前事業年度までの事業年度に係るその他の書類等について、承認をするものとする。
 
 ### 第百九十二条第四項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-192-p4-hashira -->
 前項の承認は、同項の金融商品取引業者が毎事業年度経過後三月以内に次に掲げる事項を記載した書類を所管金融庁長官等に提出することを条件として、行われるものとする。ただし、第二号に掲げる事項については、当該書類の提出前五年以内に提出された書類に記載された事項と同一の内容のものである場合には、当該事項は記載しないことができる。
+
+一　当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかった旨
+
+二　前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文

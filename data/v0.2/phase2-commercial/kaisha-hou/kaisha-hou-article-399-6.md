@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-6-p1
+    type: simple
+    text: 監査等委員は、取締役が監査等委員会設置会社の目的の範囲外の行為その他法令若しくは定款に違反する行為をし、又はこれらの行為をするおそれがある場合において、当該行為によって当該監査等委員会設置会社に著しい損害が生ずるおそれがあるときは、当該取締役に対し、当該行為をやめることを請求することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-6-p2
+    type: simple
+    text: 前項の場合において、裁判所が仮処分をもって同項の取締役に対し、その行為をやめることを命ずるときは、担保を立てさせないものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

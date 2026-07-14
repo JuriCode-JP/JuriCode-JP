@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-3-p1
+    type: simple
+    text: 公有財産に関する事務に従事する職員は、その取扱いに係る公有財産を譲り受け、又は自己の所有物と交換することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-3-p2
+    type: simple
+    text: 前項の規定に違反する行為は、これを無効とする。
+    modality: koka_mukou
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

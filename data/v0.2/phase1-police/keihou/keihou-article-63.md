@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十三条
 
-<!-- segment: simple id: keihou-art-63-p1 -->
 従犯の刑は、正犯の刑を減軽する。

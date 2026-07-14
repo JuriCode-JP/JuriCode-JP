@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-3-3-p1
+    type: simple
+    text: 法第三百四十九条の三第十一項に規定する家屋で政令で定めるものは、文化財保護法（昭和二十五年法律第二百十四号）第百三十四条第一項に規定する重要文化的景観の形成に重要な家屋として文部科学大臣が定める家屋（総務省令で定めるものを除く。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

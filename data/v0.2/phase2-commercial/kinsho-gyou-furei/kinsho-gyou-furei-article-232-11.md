@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-232-11-p1
+    type: simple
+    text: 法第六十条の十四第二項において準用する法第六十条の六において準用する法第四十六条の三第一項に規定する事業報告書は、別紙様式第十九号の三により作成しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

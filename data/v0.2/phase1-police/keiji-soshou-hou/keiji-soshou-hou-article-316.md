@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-316-p1 -->
 地方裁判所において一人の裁判官のした訴訟手続は、被告事件が合議体で審判すべきものであつた場合にも、その効力を失わない。

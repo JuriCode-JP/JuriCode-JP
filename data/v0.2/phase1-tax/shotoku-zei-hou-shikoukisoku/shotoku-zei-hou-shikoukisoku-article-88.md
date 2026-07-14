@@ -23,6 +23,26 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-1
+    type: kou
+    text: 一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-2
+    type: kou
+    text: 二　その年中に支払の確定した報酬の金額
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-3
+    type: kou
+    text: 三　その報酬の金額の計算の基礎
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-4
+    type: kou
+    text: 四　その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,8 +53,8 @@ paragraphs:
     text: 前項の場合において、同一人に対するその年中の同項に規定する報酬の支払金額が二十万円以下であるときは、その報酬に係る同項の調書は、提出することを要しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -53,10 +73,16 @@ parent_section:
 
 ### 第八十八条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-88-p1-hashira -->
 生命保険契約（法第二百二十五条第一項第四号（支払調書）に規定する生命保険契約をいう。）、損害保険契約（同項第五号に規定する損害保険契約をいう。）その他これらに類する共済に係る契約の締結の代理をする居住者又は内国法人に対し国内においてその報酬の支払をする者は、同項第六号の規定により、その報酬の支払を受ける者の各人別に、次に掲げる事項を記載した調書を、その支払をする者の事務所、事業所その他これらに準ずるものでその報酬の支払事務を取り扱うものの所在地の所轄税務署長に提出しなければならない。
+
+一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+
+二　その年中に支払の確定した報酬の金額
+
+三　その報酬の金額の計算の基礎
+
+四　その他参考となるべき事項
 
 ### 第八十八条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-88-p2 -->
 前項の場合において、同一人に対するその年中の同項に規定する報酬の支払金額が二十万円以下であるときは、その報酬に係る同項の調書は、提出することを要しない。

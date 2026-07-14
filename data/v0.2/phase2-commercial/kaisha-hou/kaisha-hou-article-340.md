@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-340-p1
     type: simple
     text: 監査役は、会計監査人が次のいずれかに該当するときは、その会計監査人を解任することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-340-p1-kou-1
+    type: kou
+    text: 一　職務上の義務に違反し、又は職務を怠ったとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-340-p1-kou-2
+    type: kou
+    text: 二　会計監査人としてふさわしくない非行があったとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-340-p1-kou-3
+    type: kou
+    text: 三　心身の故障のため、職務の執行に支障があり、又はこれに堪えないとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -51,8 +66,8 @@ paragraphs:
     text: 監査役会設置会社における前三項の規定の適用については、第一項中「監査役」とあるのは「監査役会」と、第二項中「監査役が二人以上ある場合には、監査役」とあるのは「監査役」と、前項中「監査役（監査役が二人以上ある場合にあっては、監査役の互選によって定めた監査役）」とあるのは「監査役会が選定した監査役」とする。
     modality: gimu
     references:
-    - 前項
     - 前三項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
@@ -93,30 +108,30 @@ parent_section:
 
 ### 第三百四十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-340-p1 -->
 監査役は、会計監査人が次のいずれかに該当するときは、その会計監査人を解任することができる。
+
+一　職務上の義務に違反し、又は職務を怠ったとき。
+
+二　会計監査人としてふさわしくない非行があったとき。
+
+三　心身の故障のため、職務の執行に支障があり、又はこれに堪えないとき。
 
 ### 第三百四十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-340-p2 -->
 前項の規定による解任は、監査役が二人以上ある場合には、監査役の全員の同意によって行わなければならない。
 
 ### 第三百四十条第三項
 
-<!-- segment: simple id: kaisha-hou-art-340-p3 -->
 第一項の規定により会計監査人を解任したときは、監査役（監査役が二人以上ある場合にあっては、監査役の互選によって定めた監査役）は、その旨及び解任の理由を解任後最初に招集される株主総会に報告しなければならない。
 
 ### 第三百四十条第四項
 
-<!-- segment: simple id: kaisha-hou-art-340-p4 -->
 監査役会設置会社における前三項の規定の適用については、第一項中「監査役」とあるのは「監査役会」と、第二項中「監査役が二人以上ある場合には、監査役」とあるのは「監査役」と、前項中「監査役（監査役が二人以上ある場合にあっては、監査役の互選によって定めた監査役）」とあるのは「監査役会が選定した監査役」とする。
 
 ### 第三百四十条第五項
 
-<!-- segment: simple id: kaisha-hou-art-340-p5 -->
 監査等委員会設置会社における第一項から第三項までの規定の適用については、第一項中「監査役」とあるのは「監査等委員会」と、第二項中「監査役が二人以上ある場合には、監査役」とあるのは「監査等委員」と、第三項中「監査役（監査役が二人以上ある場合にあっては、監査役の互選によって定めた監査役）」とあるのは「監査等委員会が選定した監査等委員」とする。
 
 ### 第三百四十条第六項
 
-<!-- segment: simple id: kaisha-hou-art-340-p6 -->
 指名委員会等設置会社における第一項から第三項までの規定の適用については、第一項中「監査役」とあるのは「監査委員会」と、第二項中「監査役が二人以上ある場合には、監査役」とあるのは「監査委員会の委員」と、第三項中「監査役（監査役が二人以上ある場合にあっては、監査役の互選によって定めた監査役）」とあるのは「監査委員会が選定した監査委員会の委員」とする。

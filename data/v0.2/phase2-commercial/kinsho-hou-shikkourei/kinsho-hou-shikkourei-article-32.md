@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第百六十六条第六項第四号の二に規定する政令で定める有価証券は、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-hou-shikkourei-art-32-p1-kou-1
+    type: kou
+    text: 一　株券（外国の者の発行する証券又は証書で株券の性質を有するものを含む。以下この条において同じ。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-32-p1-kou-2
+    type: kou
+    text: 二　株券に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-32-p1-kou-3
+    type: kou
+    text: 三　株券を受託有価証券とする有価証券信託受益証券
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-32-p1-kou-4
+    type: kou
+    text: 四　投資証券等
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-32-p1-kou-5
+    type: kou
+    text: 五　投資証券等に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-shikkourei-art-32-p1-kou-6
+    type: kou
+    text: 六　投資証券等を受託有価証券とする有価証券信託受益証券
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -37,5 +67,16 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: hashira id: kinsho-hou-shikkourei-art-32-p1-hashira -->
 法第百六十六条第六項第四号の二に規定する政令で定める有価証券は、次に掲げるものとする。
+
+一　株券（外国の者の発行する証券又は証書で株券の性質を有するものを含む。以下この条において同じ。）
+
+二　株券に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+
+三　株券を受託有価証券とする有価証券信託受益証券
+
+四　投資証券等
+
+五　投資証券等に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+
+六　投資証券等を受託有価証券とする有価証券信託受益証券

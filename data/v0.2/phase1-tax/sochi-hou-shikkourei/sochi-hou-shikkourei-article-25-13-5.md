@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-25-13-5-p1
+    type: simple
+    text: 非課税口座を開設している居住者又は恒久的施設を有する非居住者が死亡したときは、その者の相続人（相続人がないときは、財務省令で定める者）は、当該居住者又は恒久的施設を有する非居住者が死亡したことを知つた日以後遅滞なく、当該非課税口座が開設されている金融商品取引業者等の営業所の長に、その旨その他財務省令で定める事項を記載した届出書（以下この条及び次条において「非課税口座開設者死亡届出書」という。）の提出（当該非課税口座開設者死亡届出書の提出に代えて行う電磁的方法による当該非課税口座開設者死亡届出書に記載すべき事項の提供を含む。）をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

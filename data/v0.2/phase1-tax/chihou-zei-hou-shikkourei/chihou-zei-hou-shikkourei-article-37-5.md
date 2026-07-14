@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第七十三条の四第一項第二十一号に規定する独立行政法人中小企業基盤整備機構が独立行政法人中小企業基盤整備機構法（平成十四年法律第百四十七号）第十五条第一項第二号に規定する業務の用に供する不動産で政令で定めるものは、当該業務の用に供する不動産のうち次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-5-p1-kou-1
+    type: kou
+    text: 一　事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-5-p1-kou-2
+    type: kou
+    text: 二　宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第三十七条の五第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-37-5-p1-hashira -->
 法第七十三条の四第一項第二十一号に規定する独立行政法人中小企業基盤整備機構が独立行政法人中小企業基盤整備機構法（平成十四年法律第百四十七号）第十五条第一項第二号に規定する業務の用に供する不動産で政令で定めるものは、当該業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産
 
 ### 第三十七条の五第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-37-5-p2 -->
 法第七十三条の四第一項第二十一号に規定する中心市街地の活性化に関する法律（平成十年法律第九十二号）第三十九条第一項の業務で政令で定めるものは、同法第七条第三項に規定する都市型新事業の用に供する工場又は事業場の整備並びにこれらの賃貸その他の管理及び譲渡を行う業務とする。

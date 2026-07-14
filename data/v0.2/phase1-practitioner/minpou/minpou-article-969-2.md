@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-969-2-p1
+    type: simple
+    text: 口がきけない者が公正証書によって遺言をする場合には、遺言者は、公証人及び証人の前で、遺言の趣旨を通訳人の通訳により申述し、又は自書して、前条第一項第二号の口授に代えなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-969-2-p2
+    type: simple
+    text: 公証人は、前項に定める方式に従って公正証書を作ったときは、その旨をその証書に記載し、又は記録しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

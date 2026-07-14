@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百二十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-329-p1 -->
 被告事件が裁判所の管轄に属しないときは、判決で管轄違の言渡をしなければならない。但し、第二百六十六条第二号の規定により地方裁判所の審判に付された事件については、管轄違の言渡をすることはできない。

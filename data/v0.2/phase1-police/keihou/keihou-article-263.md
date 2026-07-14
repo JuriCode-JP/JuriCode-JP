@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百六十三条
 
-<!-- segment: simple id: keihou-art-263-p1 -->
 他人の信書を隠匿した者は、六月以下の拘禁刑又は十万円以下の罰金若しくは科料に処する。

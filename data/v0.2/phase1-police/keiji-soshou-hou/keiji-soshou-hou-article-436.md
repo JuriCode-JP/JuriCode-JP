@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-436-p1
     type: simple
     text: 再審の請求は、左の場合において、控訴又は上告を棄却した確定判決に対して、その言渡を受けた者の利益のために、これをすることができる。
     modality: kanou_kenri
+  - id: keiji-soshou-hou-art-436-p1-kou-1
+    type: kou
+    text: 一　前条第一号又は第二号に規定する事由があるとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-436-p1-kou-2
+    type: kou
+    text: 二　原判決又はその証拠となつた証拠書類の作成に関与した裁判官について前条第七号に規定する事由があるとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -55,15 +65,16 @@ parent_section:
 
 ### 第四百三十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-436-p1 -->
 再審の請求は、左の場合において、控訴又は上告を棄却した確定判決に対して、その言渡を受けた者の利益のために、これをすることができる。
+
+一　前条第一号又は第二号に規定する事由があるとき。
+
+二　原判決又はその証拠となつた証拠書類の作成に関与した裁判官について前条第七号に規定する事由があるとき。
 
 ### 第四百三十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-436-p2 -->
 第一審の確定判決に対して再審の請求をした事件について再審の判決があつた後は、控訴棄却の判決に対しては、再審の請求をすることはできない。
 
 ### 第四百三十六条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-436-p3 -->
 第一審又は第二審の確定判決に対して再審の請求をした事件について再審の判決があつた後は、上告棄却の判決に対しては、再審の請求をすることはできない。

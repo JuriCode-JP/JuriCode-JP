@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-18-p1
+    type: simple
+    text: 認可地縁団体の各構成員の表決権は、平等とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-18-p2
+    type: simple
+    text: 認可地縁団体の総会に出席しない構成員は、書面で、又は代理人によつて表決をすることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-18-p3
+    type: simple
+    text: 前項の構成員は、規約又は総会の決議により、同項の規定による書面による表決に代えて、電磁的方法（電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて総務省令で定めるものをいう。第二百六十条の十九の二において同じ。）により表決をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-18-p4
+    type: simple
+    text: 前三項の規定は、規約に別段の定めがある場合には、適用しない。
+    modality: jogai
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

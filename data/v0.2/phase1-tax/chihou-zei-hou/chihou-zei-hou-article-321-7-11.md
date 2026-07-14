@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-11-p1
+    type: simple
+    text: 市町村長は、第三百二十一条の七の三、第三百二十一条の七の七第四項（第三百二十一条の七の八第三項において準用する場合を含む。）その他政令で定める規定に規定する年金保険者が市町村長に対して行う通知については、総務省令で定めるところにより、機構を経由して行わせるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-11-p2
+    type: simple
+    text: 市町村長は、第三百二十一条の七の五第一項及び第三百二十一条の七の七第二項（これらの規定を第三百二十一条の七の八第三項において準用する場合を含む。）、第三百二十一条の七の九第三項その他政令で定める規定に規定する年金保険者に対して行う通知については、総務省令で定めるところにより、機構を経由して行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

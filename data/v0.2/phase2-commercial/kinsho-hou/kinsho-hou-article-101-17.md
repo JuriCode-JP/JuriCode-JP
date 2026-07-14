@@ -16,17 +16,48 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-17-p1
+    type: simple
+    text: 組織変更は、内閣総理大臣の認可を受けなければ、その効力を生じない。
+    modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-17-p2-hashira
+    type: hashira
+    text: 前項の認可を受けようとする者は、組織変更後株式会社金融商品取引所について次に掲げる事項を記載した組織変更認可申請書を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-101-17-p2-kou-1
+    type: kou
+    text: 一　商号
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-101-17-p2-kou-2
+    type: kou
+    text: 二　本店、支店その他の営業所の所在の場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-101-17-p2-kou-3
+    type: kou
+    text: 三　役員の氏名又は名称及び取引参加者の商号又は名称
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-17-p3
+    type: simple
+    text: 前項の組織変更認可申請書には、組織変更計画の内容を記載した書面、組織変更後株式会社金融商品取引所の定款、業務規程、受託契約準則その他の内閣府令で定める書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -54,6 +85,12 @@ parent_section:
 ### 第百一条の十七第二項
 
 前項の認可を受けようとする者は、組織変更後株式会社金融商品取引所について次に掲げる事項を記載した組織変更認可申請書を内閣総理大臣に提出しなければならない。
+
+一　商号
+
+二　本店、支店その他の営業所の所在の場所
+
+三　役員の氏名又は名称及び取引参加者の商号又は名称
 
 ### 第百一条の十七第三項
 

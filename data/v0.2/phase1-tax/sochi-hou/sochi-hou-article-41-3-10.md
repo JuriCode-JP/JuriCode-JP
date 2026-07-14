@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-3-10-p1
+    type: simple
+    text: 第四十一条の三の三第三項から第七項まで及び第四十一条の三の四から前条までに定めるもののほか、一の居住者の配偶者がその居住者の同一生計配偶者に該当し、かつ、他の居住者の扶養親族にも該当する場合その他の場合における同一生計配偶者及び扶養親族の所属の判定に必要な事項、この節の規定の適用がある場合における所得税法その他の法令の規定の技術的読替えその他この節の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第二条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-2-p1 -->
 労働条件は、労働者と使用者が、対等の立場において決定すべきものである。
 
 ### 第二条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-2-p2 -->
 労働者及び使用者は、労働協約、就業規則及び労働契約を遵守し、誠実に各々その義務を履行しなければならない。

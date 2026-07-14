@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-2-17-2-p1
+    type: simple
+    text: 財産形成非課税住宅貯蓄申告書を受理した勤務先等の長及び金融機関の営業所等の長は、当該財産形成非課税住宅貯蓄申告書に、当該勤務先等に係る賃金の支払者若しくは事務代行団体又は当該金融機関の営業所等に係る金融機関等の法人番号を付記するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 行政機関の長等は、次の各号のいずれかに該当する場合を除き、行政機関等匿名加工情報を提供してはならない。
     modality: gimu_negative
+  - id: kojin-jouhou-hogo-hou-art-109-p2-kou-1
+    type: kou
+    text: 一　法令に基づく場合（この節の規定に従う場合を含む。）
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-109-p2-kou-2
+    type: kou
+    text: 二　保有個人情報を利用目的のために第三者に提供することができる場合において、当該保有個人情報を加工して作成した行政機関等匿名加工情報を当該第三者に提供するとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -71,20 +81,20 @@ parent_section:
 
 ### 第百九条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-109-p1 -->
 行政機関の長等は、この節の規定に従い、行政機関等匿名加工情報（行政機関等匿名加工情報ファイルを構成するものに限る。以下この節において同じ。）を作成することができる。
 
 ### 第百九条第二項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-109-p2-hashira -->
 行政機関の長等は、次の各号のいずれかに該当する場合を除き、行政機関等匿名加工情報を提供してはならない。
+
+一　法令に基づく場合（この節の規定に従う場合を含む。）
+
+二　保有個人情報を利用目的のために第三者に提供することができる場合において、当該保有個人情報を加工して作成した行政機関等匿名加工情報を当該第三者に提供するとき。
 
 ### 第百九条第三項
 
-<!-- segment: tokusoku id: kojin-jouhou-hogo-hou-art-109-p3 override_flag: true override_target: 第六十九条 -->
 第六十九条の規定にかかわらず、行政機関の長等は、法令に基づく場合を除き、利用目的以外の目的のために削除情報（保有個人情報に該当するものに限る。）を自ら利用し、又は提供してはならない。
 
 ### 第百九条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-109-p4 -->
 前項の「削除情報」とは、行政機関等匿名加工情報の作成に用いた保有個人情報から削除した記述等及び個人識別符号をいう。

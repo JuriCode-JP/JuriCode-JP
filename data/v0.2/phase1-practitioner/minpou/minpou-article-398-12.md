@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-12-p1
+    type: simple
+    text: 元本の確定前においては、根抵当権者は、根抵当権設定者の承諾を得て、その根抵当権を譲り渡すことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-12-p2-zen
+    type: zen_dan
+    text: 根抵当権者は、その根抵当権を二個の根抵当権に分割して、その一方を前項の規定により譲り渡すことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: minpou-art-398-12-p2-kou
+    type: kou_dan
+    text: この場合において、その根抵当権を目的とする権利は、譲り渡した根抵当権について消滅する。
+    modality: unspecified
+    depends_on: minpou-art-398-12-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-12-p3
+    type: simple
+    text: 前項の規定による譲渡をするには、その根抵当権を目的とする権利を有する者の承諾を得なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

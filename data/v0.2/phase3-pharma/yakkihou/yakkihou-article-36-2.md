@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-2-p1
+    type: simple
+    text: 厚生労働大臣は、厚生労働省令で、営業所における医薬品の試験検査の実施方法その他営業所の業務に関し卸売販売業者が遵守すべき事項を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-2-p2
+    type: simple
+    text: 卸売販売業者は、第三十五条第一項又は第二項の規定により医薬品営業所管理者を置いたときは、前条第二項の規定により述べられた医薬品営業所管理者の意見を尊重するとともに、法令遵守のために措置を講ずる必要があるときは、当該措置を講じ、かつ、講じた措置の内容（措置を講じない場合にあつては、その旨及びその理由）を記録し、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

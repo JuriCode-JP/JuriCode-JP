@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-2-p1
+    type: simple
+    text: 普通地方公共団体の現金の出納は、毎月例日を定めて監査委員がこれを検査しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-2-p2
+    type: simple
+    text: 監査委員は、必要があると認めるとき、又は普通地方公共団体の長の要求があるときは、前条の規定により指定された金融機関が取り扱う当該普通地方公共団体の公金の収納又は支払の事務について監査することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-2-p3
+    type: simple
+    text: 監査委員は、第一項の規定による検査の結果に関する報告又は前項の規定による監査の結果に関する報告を普通地方公共団体の議会及び長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

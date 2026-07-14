@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-200-2-p1
+    type: simple
+    text: 前条第十四号の場合において、犯人又は情を知つた第三者が受けた財産上の利益は、没収する。その全部又は一部を没収することができないときは、その価額を追徴する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

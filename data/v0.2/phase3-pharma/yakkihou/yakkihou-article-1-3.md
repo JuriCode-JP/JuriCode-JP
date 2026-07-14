@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-1-3-p1
+    type: simple
+    text: 都道府県、地域保健法（昭和二十二年法律第百一号）第五条第一項の政令で定める市（以下「保健所を設置する市」という。）及び特別区は、前条の施策に関し、国との適切な役割分担を踏まえて、当該地域の状況に応じた施策を策定し、及び実施しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-5-p1
+    type: simple
+    text: 法第五十七条の三第一項に規定する政令で定める期間は、一月とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-5-p2
+    type: simple
+    text: 法第五十七条の三第三項の規定による命令は、当該規定による公告を時事に関する事項を掲載する日刊新聞紙に掲載すべき旨を定めて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

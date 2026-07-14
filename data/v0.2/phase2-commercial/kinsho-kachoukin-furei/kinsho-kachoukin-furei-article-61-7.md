@@ -14,29 +14,67 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-7-p1-hashira
+    type: hashira
+    text: 法第百八十五条の七第十四項の規定による報告は、次に掲げる方法のいずれかによりしなければならない。
+    modality: gimu
+  - id: kinsho-kachoukin-furei-art-61-7-p1-kou-1
+    type: kou
+    text: '一　別紙様式による報告書を次に掲げる方法のいずれかにより証券取引等監視委員会に提出する方法
+
+      イ　直接持参する方法
+
+      ロ　書留郵便、民間事業者による信書の送達に関する法律（平成十四年法律第九十九号。次項において「信書便法」という。）第二条第六項に規定する一般信書便事業者若しくは同条第九項に規定する特定信書便事業者による同条第二項に規定する信書便の役務であって当該一般信書便事業者若しくは当該特定信書便事業者において引受け及び配達の記録を行うもの又はこれらに準ずる方法により送付する方法'
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-61-7-p1-kou-2
+    type: kou
+    text: 二　別紙様式による報告書に記載すべき事項を記録した電磁的記録（法第十三条第五項に規定する電磁的記録をいう。）を電子メール（特定電子メールの送信の適正化等に関する法律（平成十四年法律第二十六号）第二条第一号に規定する電子メールをいう。）を利用して証券取引等監視委員会があらかじめ指定した電子メールアドレス（同条第三号に規定する電子メールアドレスをいう。）宛てに送信する方法又はこれに準ずる方法により証券取引等監視委員会に提供する方法
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-7-p2
+    type: simple
+    text: 前項第一号ロに掲げる方法により同号に規定する報告書が提出された場合は、その発送の時（当該報告書を日本郵便株式会社の営業所（簡易郵便局法（昭和二十四年法律第二百十三号）第七条第一項に規定する簡易郵便局を含み、郵便の業務を行うものに限る。）に差し出した日時を郵便物の受領証により証明したときはその日時、その郵便物又は信書便法第二条第三項に規定する信書便物（以下この項において「信書便物」という。）の通信日付印により表示された日時が明瞭であるときはその日時、その郵便物又は信書便物の通信日付印により表示された日時のうち日のみが明瞭であって時刻が明瞭でないときは表示された日の午後十二時）に、当該報告書が証券取引等監視委員会に提出されたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-7-p3
+    type: simple
+    text: 第一項第二号に規定する方法により同号に規定する電磁的記録が提供された場合は、証券取引等監視委員会の使用に係る電子計算機（入出力装置を含む。）に備えられたファイルへの記録がされた時に、当該電磁的記録が証券取引等監視委員会に提供されたものとみなす。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-7-p4
+    type: simple
+    text: 第一項第二号に規定する方法は、証券取引等監視委員会が前項のファイルへの記録を出力することにより同号に規定する報告書を作成することができるものでなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-7-p5
+    type: simple
+    text: 第一項各号に規定する報告書は、日本語で記載するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -56,6 +94,14 @@ parent_section:
 ### 第六十一条の七第一項
 
 法第百八十五条の七第十四項の規定による報告は、次に掲げる方法のいずれかによりしなければならない。
+
+一　別紙様式による報告書を次に掲げる方法のいずれかにより証券取引等監視委員会に提出する方法
+
+　イ　直接持参する方法
+
+　ロ　書留郵便、民間事業者による信書の送達に関する法律（平成十四年法律第九十九号。次項において「信書便法」という。）第二条第六項に規定する一般信書便事業者若しくは同条第九項に規定する特定信書便事業者による同条第二項に規定する信書便の役務であって当該一般信書便事業者若しくは当該特定信書便事業者において引受け及び配達の記録を行うもの又はこれらに準ずる方法により送付する方法
+
+二　別紙様式による報告書に記載すべき事項を記録した電磁的記録（法第十三条第五項に規定する電磁的記録をいう。）を電子メール（特定電子メールの送信の適正化等に関する法律（平成十四年法律第二十六号）第二条第一号に規定する電子メールをいう。）を利用して証券取引等監視委員会があらかじめ指定した電子メールアドレス（同条第三号に規定する電子メールアドレスをいう。）宛てに送信する方法又はこれに準ずる方法により証券取引等監視委員会に提供する方法
 
 ### 第六十一条の七第二項
 

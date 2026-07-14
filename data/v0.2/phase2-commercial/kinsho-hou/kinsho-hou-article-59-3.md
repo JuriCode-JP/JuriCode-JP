@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-59-3-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、第五十九条第一項の許可をしようとするときは、次に掲げる基準に適合するかどうかを審査しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-59-3-p1-kou-1
+    type: kou
+    text: 一　外国において、その許可を受けようとする業務と同種類の業務について政令で定める期間以上継続して業務を行つていること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-59-3-p1-kou-2
+    type: kou
+    text: 二　資本金の額又は出資の総額が、許可を受けようとする業務の態様に応じ、公益又は投資者保護のため必要かつ適当なものとして政令で定める金額以上の法人であること。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-59-3-p1-kou-3
+    type: kou
+    text: 三　第二十九条の四第一項第五号ロに規定する純財産額が前号に規定する政令で定める金額以上であること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -38,3 +57,9 @@ parent_section:
 ### 第五十九条の三
 
 内閣総理大臣は、第五十九条第一項の許可をしようとするときは、次に掲げる基準に適合するかどうかを審査しなければならない。
+
+一　外国において、その許可を受けようとする業務と同種類の業務について政令で定める期間以上継続して業務を行つていること。
+
+二　資本金の額又は出資の総額が、許可を受けようとする業務の態様に応じ、公益又は投資者保護のため必要かつ適当なものとして政令で定める金額以上の法人であること。
+
+三　第二十九条の四第一項第五号ロに規定する純財産額が前号に規定する政令で定める金額以上であること。

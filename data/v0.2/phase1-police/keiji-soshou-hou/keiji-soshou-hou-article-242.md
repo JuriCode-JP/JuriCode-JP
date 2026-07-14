@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-242-p1 -->
 司法警察員は、告訴又は告発を受けたときは、速やかにこれに関する書類及び証拠物を検察官に送付しなければならない。

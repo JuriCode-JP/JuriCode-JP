@@ -45,5 +45,4 @@ parent_section:
 
 ### 第五条
 
-<!-- segment: simple id: houjin-zei-hou-art-5-p1 -->
 内国法人に対しては、各事業年度の所得について、各事業年度の所得に対する法人税を課する。

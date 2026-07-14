@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-7-3-p1
+    type: simple
+    text: 風俗営業者たる法人が分割により風俗営業を承継させる場合において、あらかじめ当該分割について国家公安委員会規則で定めるところにより公安委員会の承認を受けたときは、分割により当該風俗営業を承継した法人は、当該風俗営業についての風俗営業者の地位を承継する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-7-3-p2
+    type: junyou
+    text: 第四条第一項の規定は、前項の承認について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-7-3-p3
+    type: junyou
+    text: 第七条第五項の規定は、第一項の承認を受けようとした法人について準用する。この場合において、同条第五項中「被相続人」とあるのは、「分割をした法人」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -55,10 +55,8 @@ parent_section:
 
 ### 第五十三条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-53-p1 -->
 証拠書類の提出は、原本、正本又は認証のある謄本でしなければならない。
 
 ### 第五十三条第二項
 
-<!-- segment: tokusoku id: kinsho-kachoukin-furei-art-53-p2 override_flag: true override_target: 前項 -->
 審判官は、前項の規定にかかわらず、原本の提出を命ずることができる。

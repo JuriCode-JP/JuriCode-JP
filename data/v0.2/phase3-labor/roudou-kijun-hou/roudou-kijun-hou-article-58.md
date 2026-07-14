@@ -46,10 +46,8 @@ parent_section:
 
 ### 第五十八条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-58-p1 -->
 親権者又は後見人は、未成年者に代つて労働契約を締結してはならない。
 
 ### 第五十八条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-58-p2 -->
 親権者若しくは後見人又は行政官庁は、労働契約が未成年者に不利であると認める場合においては、将来に向つてこれを解除することができる。

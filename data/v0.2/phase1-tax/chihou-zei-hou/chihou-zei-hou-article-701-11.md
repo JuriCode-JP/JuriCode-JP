@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-11-p1
+    type: simple
+    text: 入湯税の特別徴収義務者は、第七百一条の四第二項の納期限後にその納入金を納入する場合においては、当該納入金額に、同項の納期限の翌日から納入の日までの期間の日数に応じ、年十四・六パーセント（当該納期限の翌日から一月を経過する日までの期間については、年七・三パーセント）の割合を乗じて計算した金額に相当する延滞金額を加算して納入しなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-11-p2
+    type: simple
+    text: 市町村長は、特別徴収義務者が第七百一条の四第二項の納期限までに納入金を納入しなかつたことについてやむを得ない理由があると認める場合においては、前項の延滞金額を減免することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

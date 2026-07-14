@@ -14,49 +14,234 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p1-hashira
+    type: hashira
+    text: 製造販売業者が再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、当該業務の受託者は、次に掲げる要件を満たさなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-61-p1-kou-1
+    type: kou
+    text: 一　委託する業務（以下この条において「委託安全確保業務」という。）を適正かつ円滑に遂行しうる能力を有する者であること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-61-p1-kou-2
+    type: kou
+    text: 二　委託安全確保業務を適正かつ円滑に遂行しうる能力を有する当該業務の実施に係る責任者（以下この条及び第百三十七条の六十三において「受託安全管理実施責任者」という。）を置いていること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-61-p1-kou-3
+    type: kou
+    text: 三　委託安全確保業務に係る次項の手順書その他委託安全確保業務に必要な文書（以下この条において「製造販売後安全管理業務手順書等」という。）の写しを委託安全確保業務を行う事務所に備え付けていること。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p2-hashira
+    type: hashira
+    text: 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、次に掲げる手順を記載した委託安全確保業務に係る製造販売後安全管理業務手順書を作成しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-1
+    type: kou
+    text: 一　安全管理情報の収集に関する手順
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-2
+    type: kou
+    text: 二　安全管理情報の検討及びその結果に基づく安全確保措置の立案に関する手順
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-3
+    type: kou
+    text: 三　安全確保措置の実施に関する手順
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-4
+    type: kou
+    text: 四　受託安全管理実施責任者から再生医療等製品安全管理責任者への報告に関する手順
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-5
+    type: kou
+    text: 五　市販直後調査に関する手順
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-6
+    type: kou
+    text: 六　委託の手順
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-7
+    type: kou
+    text: 七　委託安全確保業務に係る記録の保存に関する手順
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-8
+    type: kou
+    text: 八　再生医療等製品品質保証責任者その他の再生医療等製品の製造販売に係る業務の責任者との相互の連携に関する手順
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-137-61-p2-kou-9
+    type: kou
+    text: 九　その他委託安全確保業務を適正かつ円滑に行うために必要な手順
+    modality: unspecified
+    item_number: 9
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p3-hashira
+    type: hashira
+    text: 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、製造販売後安全管理業務手順書等に基づき、次に掲げる事項を記載した文書により受託者との契約を締結し、その契約書を保存しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-1
+    type: kou
+    text: 一　委託安全確保業務の範囲
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-2
+    type: kou
+    text: 二　受託安全管理実施責任者の設置及び当該者の実施する委託安全確保業務の範囲に関する事項
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-3
+    type: kou
+    text: 三　委託安全確保業務に係る前項各号（第六号を除く。）に掲げる手順に関する事項
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-4
+    type: kou
+    text: 四　委託安全確保業務の実施の指示に関する事項
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-5
+    type: kou
+    text: 五　次項第三号の報告及び同項第四号の確認に関する事項
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-6
+    type: kou
+    text: 六　第七項の指示及び第八項の確認に関する事項
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-7
+    type: kou
+    text: 七　第九項の情報提供に関する事項
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-137-61-p3-kou-8
+    type: kou
+    text: 八　その他必要な事項
+    modality: unspecified
+    item_number: 8
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p4-hashira
+    type: hashira
+    text: 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、製造販売後安全管理業務手順書等及び前項の契約書に基づき、次に掲げる業務を再生医療等製品安全管理責任者に行わせなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-137-61-p4-kou-1
+    type: kou
+    text: 一　委託安全確保業務を統括すること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-61-p4-kou-2
+    type: kou
+    text: 二　受託安全管理実施責任者に委託安全確保業務の実施につき文書により指示するとともに、その写しを保存すること（第百三十七条の五十九第一号に掲げる業務を委託する場合を除く。）。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-61-p4-kou-3
+    type: kou
+    text: 三　受託安全管理実施責任者に委託安全確保業務に関する記録を作成させ、文書により報告させること。
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-61-p4-kou-4
+    type: kou
+    text: 四　受託者が委託安全確保業務を適正かつ円滑に行つているかどうかを確認し、その記録を作成すること。
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-61-p4-kou-5
+    type: kou
+    text: 五　第三号の報告及び前号の記録を保存するとともに、製造販売業者及び再生医療等製品総括製造販売責任者に文書により報告すること。
+    modality: unspecified
+    item_number: 5
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p5-hashira
+    type: hashira
+    text: 製造販売業者は、市販直後調査に係る業務であつて再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、製造販売後安全管理業務手順書等及び市販直後調査実施計画書に基づき、次に掲げる業務を再生医療等製品安全管理責任者に行わせなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-61-p5-kou-1
+    type: kou
+    text: 一　受託安全管理実施責任者に委託安全確保業務に関する記録を作成させ、文書により報告させること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-61-p5-kou-2
+    type: kou
+    text: 二　前号の文書を保存すること。
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p6-hashira
+    type: hashira
+    text: 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第四号に掲げる業務を委託する場合においては、当該委託安全確保業務を適正かつ円滑に遂行しうる能力を有する者に委託しなければならない。この場合において、製造販売業者は、製造販売後安全管理業務手順書等に基づき、次に掲げる事項を記載した文書により受託者との契約を締結し、その契約書を保存しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-61-p6-kou-1
+    type: kou
+    text: 一　委託安全確保業務の範囲
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-61-p6-kou-2
+    type: kou
+    text: 二　その他必要な事項
+    modality: unspecified
+    item_number: 2
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p7
+    type: simple
+    text: 製造販売業者は、再生医療等製品安全管理責任者に委託安全確保業務の改善の必要性について検討させ、その必要性があるときは、製造販売後安全管理業務手順書等及び第三項の契約書に基づき、受託者に所要の措置を講じるよう文書により指示し、その文書を保存しなければならない。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p8
+    type: simple
+    text: 製造販売業者は、前項の規定に基づき指示を行つた場合においては、当該措置が講じられたことを確認し、その記録を保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-61-p9
+    type: simple
+    text: 製造販売業者は、委託安全確保業務を行う上で必要な情報を受託者に提供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -75,25 +260,83 @@ parent_section:
 
 製造販売業者が再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、当該業務の受託者は、次に掲げる要件を満たさなければならない。
 
+一　委託する業務（以下この条において「委託安全確保業務」という。）を適正かつ円滑に遂行しうる能力を有する者であること。
+
+二　委託安全確保業務を適正かつ円滑に遂行しうる能力を有する当該業務の実施に係る責任者（以下この条及び第百三十七条の六十三において「受託安全管理実施責任者」という。）を置いていること。
+
+三　委託安全確保業務に係る次項の手順書その他委託安全確保業務に必要な文書（以下この条において「製造販売後安全管理業務手順書等」という。）の写しを委託安全確保業務を行う事務所に備え付けていること。
+
 ### 第百三十七条の六十一第二項
 
 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、次に掲げる手順を記載した委託安全確保業務に係る製造販売後安全管理業務手順書を作成しなければならない。
+
+一　安全管理情報の収集に関する手順
+
+二　安全管理情報の検討及びその結果に基づく安全確保措置の立案に関する手順
+
+三　安全確保措置の実施に関する手順
+
+四　受託安全管理実施責任者から再生医療等製品安全管理責任者への報告に関する手順
+
+五　市販直後調査に関する手順
+
+六　委託の手順
+
+七　委託安全確保業務に係る記録の保存に関する手順
+
+八　再生医療等製品品質保証責任者その他の再生医療等製品の製造販売に係る業務の責任者との相互の連携に関する手順
+
+九　その他委託安全確保業務を適正かつ円滑に行うために必要な手順
 
 ### 第百三十七条の六十一第三項
 
 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、製造販売後安全管理業務手順書等に基づき、次に掲げる事項を記載した文書により受託者との契約を締結し、その契約書を保存しなければならない。
 
+一　委託安全確保業務の範囲
+
+二　受託安全管理実施責任者の設置及び当該者の実施する委託安全確保業務の範囲に関する事項
+
+三　委託安全確保業務に係る前項各号（第六号を除く。）に掲げる手順に関する事項
+
+四　委託安全確保業務の実施の指示に関する事項
+
+五　次項第三号の報告及び同項第四号の確認に関する事項
+
+六　第七項の指示及び第八項の確認に関する事項
+
+七　第九項の情報提供に関する事項
+
+八　その他必要な事項
+
 ### 第百三十七条の六十一第四項
 
 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、製造販売後安全管理業務手順書等及び前項の契約書に基づき、次に掲げる業務を再生医療等製品安全管理責任者に行わせなければならない。
+
+一　委託安全確保業務を統括すること。
+
+二　受託安全管理実施責任者に委託安全確保業務の実施につき文書により指示するとともに、その写しを保存すること（第百三十七条の五十九第一号に掲げる業務を委託する場合を除く。）。
+
+三　受託安全管理実施責任者に委託安全確保業務に関する記録を作成させ、文書により報告させること。
+
+四　受託者が委託安全確保業務を適正かつ円滑に行つているかどうかを確認し、その記録を作成すること。
+
+五　第三号の報告及び前号の記録を保存するとともに、製造販売業者及び再生医療等製品総括製造販売責任者に文書により報告すること。
 
 ### 第百三十七条の六十一第五項
 
 製造販売業者は、市販直後調査に係る業務であつて再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第一号から第三号までに掲げる業務を委託する場合においては、製造販売後安全管理業務手順書等及び市販直後調査実施計画書に基づき、次に掲げる業務を再生医療等製品安全管理責任者に行わせなければならない。
 
+一　受託安全管理実施責任者に委託安全確保業務に関する記録を作成させ、文書により報告させること。
+
+二　前号の文書を保存すること。
+
 ### 第百三十七条の六十一第六項
 
 製造販売業者は、再生医療等製品の製造販売後安全管理業務のうち第百三十七条の五十九第四号に掲げる業務を委託する場合においては、当該委託安全確保業務を適正かつ円滑に遂行しうる能力を有する者に委託しなければならない。この場合において、製造販売業者は、製造販売後安全管理業務手順書等に基づき、次に掲げる事項を記載した文書により受託者との契約を締結し、その契約書を保存しなければならない。
+
+一　委託安全確保業務の範囲
+
+二　その他必要な事項
 
 ### 第百三十七条の六十一第七項
 

@@ -39,6 +39,21 @@ paragraphs:
     type: hashira
     text: 議会運営委員会は、次に掲げる事項に関する調査を行い、議案、請願等を審査する。
     modality: unspecified
+  - id: chihou-jichi-hou-art-109-p3-kou-1
+    type: kou
+    text: 一　議会の運営に関する事項
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-109-p3-kou-2
+    type: kou
+    text: 二　議会の会議規則、委員会に関する条例等に関する事項
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-109-p3-kou-3
+    type: kou
+    text: 三　議長の諮問に関する事項
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -119,46 +134,42 @@ parent_section:
 
 ### 第百九条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-109-p1 -->
 普通地方公共団体の議会は、条例で、常任委員会、議会運営委員会及び特別委員会を置くことができる。
 
 ### 第百九条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-109-p2 -->
 常任委員会は、その部門に属する当該普通地方公共団体の事務に関する調査を行い、議案、請願等を審査する。
 
 ### 第百九条第三項
 
-<!-- segment: hashira id: chihou-jichi-hou-art-109-p3-hashira -->
 議会運営委員会は、次に掲げる事項に関する調査を行い、議案、請願等を審査する。
+
+一　議会の運営に関する事項
+
+二　議会の会議規則、委員会に関する条例等に関する事項
+
+三　議長の諮問に関する事項
 
 ### 第百九条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-109-p4 -->
 特別委員会は、議会の議決により付議された事件を審査する。
 
 ### 第百九条第五項
 
-<!-- segment: junyou id: chihou-jichi-hou-art-109-p5 -->
 第百十五条の二の規定は、委員会について準用する。
 
 ### 第百九条第六項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-109-p6-honbun -->
-委員会は、議会の議決すべき事件のうちその部門に属する当該普通地方公共団体の事務に関するものにつき、議会に議案を提出することができる。<!-- segment: tadashi id: chihou-jichi-hou-art-109-p6-tadashi -->
-ただし、予算については、この限りでない。
+委員会は、議会の議決すべき事件のうちその部門に属する当該普通地方公共団体の事務に関するものにつき、議会に議案を提出することができる。ただし、予算については、この限りでない。
 
 ### 第百九条第七項
 
-<!-- segment: simple id: chihou-jichi-hou-art-109-p7 -->
 前項の規定による議案の提出は、文書をもつてしなければならない。
 
 ### 第百九条第八項
 
-<!-- segment: simple id: chihou-jichi-hou-art-109-p8 -->
 委員会は、議会の議決により付議された特定の事件については、閉会中も、なお、これを審査することができる。
 
 ### 第百九条第九項
 
-<!-- segment: simple id: chihou-jichi-hou-art-109-p9 -->
 前各項に定めるもののほか、委員の選任その他委員会に関し必要な事項は、条例で定める。

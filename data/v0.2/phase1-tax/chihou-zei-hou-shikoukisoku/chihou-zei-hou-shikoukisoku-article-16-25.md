@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第六百二十五条第一項に規定する総務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-16-25-p1-kou-1
+    type: kou
+    text: 一　納税義務者の氏名又は名称、住所又は所在地及び個人番号又は法人番号
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-16-25-p1-kou-2
+    type: kou
+    text: 二　法第六百二十一条に規定する遊休土地（以下本条、次条、第十六条の二十八及び第十六条の二十九において「遊休土地」という。）の所在、地番、地目及び面積
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-16-25-p1-kou-3
+    type: kou
+    text: 三　都市計画法第十条の三第一項に規定する遊休土地転換利用促進地区の所在及び面積
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikoukisoku-art-16-25-p1-kou-4
+    type: kou
+    text: 四　遊休土地の時価及び遊休土地である土地の取得価額、当該遊休土地に係る固定資産税の課税標準となるべき価格並びに当該遊休土地に係る法第五百九十六条に規定する法第五百九十九条第一項第一号の特別土地保有税の税額（当該遊休土地である土地のうちに土地に対して課する特別土地保有税が課される土地がある場合に限る。）
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikoukisoku-art-16-25-p1-kou-5
+    type: kou
+    text: 五　遊休土地に対して課する特別土地保有税の課税標準額及び税額
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikoukisoku-art-16-25-p1-kou-6
+    type: kou
+    text: 六　その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,5 +64,16 @@ tags:
 
 ### 第十六条の二十五
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-16-25-p1-hashira -->
 法第六百二十五条第一項に規定する総務省令で定める事項は、次に掲げる事項とする。
+
+一　納税義務者の氏名又は名称、住所又は所在地及び個人番号又は法人番号
+
+二　法第六百二十一条に規定する遊休土地（以下本条、次条、第十六条の二十八及び第十六条の二十九において「遊休土地」という。）の所在、地番、地目及び面積
+
+三　都市計画法第十条の三第一項に規定する遊休土地転換利用促進地区の所在及び面積
+
+四　遊休土地の時価及び遊休土地である土地の取得価額、当該遊休土地に係る固定資産税の課税標準となるべき価格並びに当該遊休土地に係る法第五百九十六条に規定する法第五百九十九条第一項第一号の特別土地保有税の税額（当該遊休土地である土地のうちに土地に対して課する特別土地保有税が課される土地がある場合に限る。）
+
+五　遊休土地に対して課する特別土地保有税の課税標準額及び税額
+
+六　その他参考となるべき事項

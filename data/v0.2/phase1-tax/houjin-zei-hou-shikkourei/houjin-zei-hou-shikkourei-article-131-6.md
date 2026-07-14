@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百三十一条の六
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-131-6-p1 -->
 削除

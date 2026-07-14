@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: true
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-162-p1-honbun
@@ -25,6 +25,16 @@ paragraphs:
     type: tadashi
     text: ただし、次のいずれかに該当する場合は、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-162-p1-kou-1
+    type: kou
+    text: 一　株式会社が公開会社である場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-162-p1-kou-2
+    type: kou
+    text: 二　当該相続人その他の一般承継人が株主総会又は種類株主総会において当該株式について議決権を行使した場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -49,6 +59,8 @@ parent_section:
 
 ### 第百六十二条
 
-<!-- segment: honbun id: kaisha-hou-art-162-p1-honbun -->
-第百六十条第二項及び第三項の規定は、株式会社が株主の相続人その他の一般承継人からその相続その他の一般承継により取得した当該株式会社の株式を取得する場合には、適用しない。<!-- segment: tadashi id: kaisha-hou-art-162-p1-tadashi -->
-ただし、次のいずれかに該当する場合は、この限りでない。
+第百六十条第二項及び第三項の規定は、株式会社が株主の相続人その他の一般承継人からその相続その他の一般承継により取得した当該株式会社の株式を取得する場合には、適用しない。ただし、次のいずれかに該当する場合は、この限りでない。
+
+一　株式会社が公開会社である場合
+
+二　当該相続人その他の一般承継人が株主総会又は種類株主総会において当該株式について議決権を行使した場合

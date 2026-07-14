@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-234-3-p1
+    type: tokusoku
+    text: 普通地方公共団体は、第二百十四条の規定にかかわらず、翌年度以降にわたり、電気、ガス若しくは水の供給若しくは電気通信役務の提供を受ける契約又は不動産を借りる契約その他政令で定める契約を締結することができる。この場合においては、各年度におけるこれらの経費の予算の範囲内においてその給付を受けなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第二百十四条
 cases: []
 amendments: []
 tags:

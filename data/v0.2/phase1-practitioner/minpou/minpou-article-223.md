@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百二十三条
 
-<!-- segment: simple id: minpou-art-223-p1 -->
 土地の所有者は、隣地の所有者と共同の費用で、境界標を設けることができる。

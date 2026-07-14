@@ -61,15 +61,12 @@ parent_section:
 
 ### 第四十七条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-47-p1 -->
 審判長は、必要があると認めるときは、参考人と他の参考人との対質を命ずることができる。
 
 ### 第四十七条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-47-p2 -->
 前項の規定により対質を命じたときは、その旨を調書に記載させなければならない。
 
 ### 第四十七条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-47-p3 -->
 対質を行うときは、審判長がまず参考人を審問することができる。

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三十二条の規定により、配置販売業者又はその配置員が届け出なければならない事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-150-p1-kou-1
+    type: kou
+    text: 一　配置販売業者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-150-p1-kou-2
+    type: kou
+    text: 二　配置販売に従事する者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-150-p1-kou-3
+    type: kou
+    text: 三　配置販売に従事する区域及びその期間
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第百五十条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-150-p1-hashira -->
 法第三十二条の規定により、配置販売業者又はその配置員が届け出なければならない事項は、次のとおりとする。
+
+一　配置販売業者の氏名及び住所
+
+二　配置販売に従事する者の氏名及び住所
+
+三　配置販売に従事する区域及びその期間

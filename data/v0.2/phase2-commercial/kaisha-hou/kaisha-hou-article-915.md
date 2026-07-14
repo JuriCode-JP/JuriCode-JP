@@ -49,6 +49,16 @@ paragraphs:
     override_flag: true
     override_target:
     - 第一項
+  - id: kaisha-hou-art-915-p3-kou-1
+    type: kou
+    text: 一　新株予約権の行使
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-915-p3-kou-2
+    type: kou
+    text: 二　第百六十六条第一項の規定による請求（株式の内容として第百七条第二項第二号ハ若しくはニ又は第百八条第二項第五号ロに掲げる事項についての定めがある場合に限る。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -69,15 +79,16 @@ parent_section:
 
 ### 第九百十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-915-p1 -->
 会社において第九百十一条第三項各号又は前三条各号に掲げる事項に変更が生じたときは、二週間以内に、その本店の所在地において、変更の登記をしなければならない。
 
 ### 第九百十五条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-915-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、第百九十九条第一項第四号の期間を定めた場合における株式の発行による変更の登記は、当該期間の末日現在により、当該末日から二週間以内にすれば足りる。
 
 ### 第九百十五条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-915-p3 override_flag: true override_target: 第一項 -->
 第一項の規定にかかわらず、次に掲げる事由による変更の登記は、毎月末日現在により、当該末日から二週間以内にすれば足りる。
+
+一　新株予約権の行使
+
+二　第百六十六条第一項の規定による請求（株式の内容として第百七条第二項第二号ハ若しくはニ又は第百八条第二項第五号ロに掲げる事項についての定めがある場合に限る。）

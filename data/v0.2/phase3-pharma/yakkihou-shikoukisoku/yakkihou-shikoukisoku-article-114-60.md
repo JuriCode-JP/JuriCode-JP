@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-60-p1
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造販売業者は、製造販売後安全管理業務を受託する者（以下この章において「受託者」という。）に、当該製造販売後安全管理業務を再委託させてはならない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-60-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、医療機器の製造販売業者は、薬物と一体的に製造販売するものとして承認を受けた医療機器に関する製造販売後安全管理業務を当該薬物を供給する医薬品の製造販売業者に委託する場合には、受託者に、当該製造販売後安全管理業務を再委託させることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-60-p3
+    type: tokusoku
+    text: 第一項の規定にかかわらず、医療機器又は体外診断用医薬品の製造販売業者は、他の医療機器又は体外診断用医薬品の製造販売業者に医療機器又は体外診断用医薬品を販売し、又は授与する場合であつて、当該医療機器又は体外診断用医薬品に関する製造販売後安全管理業務を当該製造販売業者に委託する場合には、受託者に、当該製造販売後安全管理業務のうち、前条第一号から第三号までに掲げる業務を再委託させることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-60-p4
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造販売業者は、前二項の規定により製造販売後安全管理業務を再受託する者に、当該製造販売後安全管理業務をさらに委託させてはならない。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-13-4-p1
+    type: simple
+    text: 地方自治法第二百三十一条の二の三第一項に規定する指定納付受託者又は第七百四十七条の八第一項に規定する機構指定納付受託者（以下この条において「指定納付受託者等」という。）が同法第二百三十一条の二の二の規定又は第七百四十七条の七の規定による委託を受けた場合において、当該指定納付受託者等が同法第二百三十一条の二の五第一項の規定又は第七百四十七条の十第一項の規定により納付し、又は納入すべき地方団体の徴収金をこれらの規定に規定する指定する日までに完納しないときは、地方団体の長は、地方団体の徴収金の保証人に関する徴収の例によりその地方団体の徴収金を当該指定納付受託者等から徴収するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-13-4-p2
+    type: simple
+    text: 地方団体の長は、地方自治法第二百三十一条の二の五第一項の規定又は第七百四十七条の十第一項の規定により指定納付受託者等が納付し、又は納入すべき地方団体の徴収金については、当該指定納付受託者等に対して滞納処分をしてもなお徴収すべき残余がある場合でなければ、その残余の額について当該地方団体の徴収金に係る納税者又は特別徴収義務者から徴収することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

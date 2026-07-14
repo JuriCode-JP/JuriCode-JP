@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百二十七条
 
-<!-- segment: simple id: chihou-jichi-hou-art-227-p1 -->
 普通地方公共団体は、当該普通地方公共団体の事務で特定の者のためにするものにつき、手数料を徴収することができる。

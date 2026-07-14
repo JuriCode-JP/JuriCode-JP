@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十六条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-86-p1 -->
 この法律に定めるもののほか、この法律の実施のために必要な事項は、政令で定める。

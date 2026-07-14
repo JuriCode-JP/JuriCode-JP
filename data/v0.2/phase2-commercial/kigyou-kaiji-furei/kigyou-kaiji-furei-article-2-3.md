@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-3-p1
+    type: simple
+    text: 適格機関投資家向け証券の発行者及び発行者の代理人は、法第四条第二項に違反して当該有価証券の譲渡が行われたことを知つたときは、その旨を遅滞なく関東財務局長に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -13,20 +13,45 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-80-p1-honbun
+    type: honbun
+    text: 信託の受益者（受益者としての権利を現に有するものに限る。）は当該信託の信託財産に属する資産を有するものとみなし、かつ、当該信託財産に属する資産に係る課税資産の譲渡等及び特定課税仕入れは当該受益者の課税資産の譲渡等及び特定課税仕入れとみなして、この節の規定を適用する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-72-80-p1-tadashi
+    type: tadashi
+    text: ただし、集団投資信託（法人税法第二条第二十九号に規定する集団投資信託をいう。）、法人課税信託（同条第二十九号の二に規定する法人課税信託をいう。次条第一項において同じ。）、退職年金等信託（同法第十二条第四項第一号に規定する退職年金等信託をいう。）、公益信託（同項第二号に規定する公益信託をいう。次条第一項において同じ。）又は加入者保護信託（同号に規定する加入者保護信託をいう。）の信託財産に属する資産並びに当該信託財産に属する資産に係る課税資産の譲渡等及び特定課税仕入れについては、この限りでない。
+    modality: jogai
+    references:
+    - 同項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-80-p2
+    type: simple
+    text: 信託の変更をする権限（軽微な変更をする権限として政令で定めるものを除く。）を現に有し、かつ、当該信託の信託財産の給付を受けることとされている者（受益者を除く。）は、前項に規定する受益者とみなして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-80-p3
+    type: simple
+    text: 受益者が二以上ある場合における第一項の規定の適用、前項に規定する信託財産の給付を受けることとされている者に該当するかどうかの判定その他前二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前項
 cases: []
 amendments: []
 tags:

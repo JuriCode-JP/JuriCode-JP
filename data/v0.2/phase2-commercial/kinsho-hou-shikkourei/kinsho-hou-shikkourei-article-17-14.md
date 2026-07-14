@@ -14,9 +14,35 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-14-p1-hashira
+    type: hashira
+    text: 法第六十四条第一項第三号に規定する政令で定める行為は、次に掲げる行為（同項第一号に規定する有価証券に係るものを除く。）とする。
+    modality: gimu
+    references:
+    - 同項
+  - id: kinsho-hou-shikkourei-art-17-14-p1-kou-1
+    type: kou
+    text: 一　市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-17-14-p1-kou-2
+    type: kou
+    text: 二　市場デリバティブ取引又は外国市場デリバティブ取引の委託の媒介、取次ぎ又は代理
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-17-14-p1-kou-3
+    type: kou
+    text: 三　市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理の申込みの勧誘
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-17-14-p1-kou-4
+    type: kou
+    text: 四　市場デリバティブ取引又は外国市場デリバティブ取引の委託の勧誘
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +60,11 @@ parent_section:
 ### 第十七条の十四
 
 法第六十四条第一項第三号に規定する政令で定める行為は、次に掲げる行為（同項第一号に規定する有価証券に係るものを除く。）とする。
+
+一　市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理
+
+二　市場デリバティブ取引又は外国市場デリバティブ取引の委託の媒介、取次ぎ又は代理
+
+三　市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理の申込みの勧誘
+
+四　市場デリバティブ取引又は外国市場デリバティブ取引の委託の勧誘

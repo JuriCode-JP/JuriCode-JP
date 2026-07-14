@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-42-4-p1
+    type: simple
+    text: 金融商品取引業者等は、その行う投資運用業（第二条第八項第十五号に掲げる行為を行う業務に限る。）に関して、内閣府令で定めるところにより、運用財産と自己の固有財産及び他の運用財産とを分別して管理しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-404-p1 -->
 第二編中公判に関する規定は、この法律に特別の定のある場合を除いては、控訴の審判についてこれを準用する。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四十五条
 
-<!-- segment: simple id: keihou-art-145-p1 -->
 前三条の罪を犯し、よって人を死傷させた者は、傷害の罪と比較して、重い刑により処断する。

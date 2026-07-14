@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 生活安全局においては、警察庁の所掌事務に関し、次に掲げる事務をつかさどる。
     modality: unspecified
+  - id: keisatsu-hou-art-22-p1-kou-1
+    type: kou
+    text: 一　犯罪、事故その他の事案に係る市民生活の安全と平穏に関すること。
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-22-p1-kou-2
+    type: kou
+    text: 二　地域警察その他の警らに関すること。
+    modality: unspecified
+    item_number: 2
+  - id: keisatsu-hou-art-22-p1-kou-3
+    type: kou
+    text: 三　犯罪の予防に関すること。
+    modality: unspecified
+    item_number: 3
+  - id: keisatsu-hou-art-22-p1-kou-4
+    type: kou
+    text: 四　保安警察に関すること。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第二十二条
 
-<!-- segment: hashira id: keisatsu-hou-art-22-p1-hashira -->
 生活安全局においては、警察庁の所掌事務に関し、次に掲げる事務をつかさどる。
+
+一　犯罪、事故その他の事案に係る市民生活の安全と平穏に関すること。
+
+二　地域警察その他の警らに関すること。
+
+三　犯罪の予防に関すること。
+
+四　保安警察に関すること。

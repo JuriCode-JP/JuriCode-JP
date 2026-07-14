@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-42-p1-zen
+    type: zen_dan
+    text: 法第二十三条の二十九第四項後段に規定する資料については、第百三十七条の二十五の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-137-42-p1-kou
+    type: kou_dan
+    text: この場合において、同条第三号中「法第二十三条の二十五第一項の承認（法第二十三条の二十六第一項又は第二十三条の二十六の二第一項の規定により条件及び期限を付したものを除く。）又は法第二十三条の二十五第十三項の承認（法第二十三条の二十六の二第一項の規定により条件及び期限を付したものを除く。）を与える又は与えない旨の処分の日」とあるのは、「法第二十三条の二十九第一項の再審査の終了の日」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-137-42-p1-zen
 cases: []
 amendments: []
 tags:

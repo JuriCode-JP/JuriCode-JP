@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-143-2-p1
+    type: simple
+    text: 裁判所は、裁判所の規則で定める相当の猶予期間を置いて、証人を召喚することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

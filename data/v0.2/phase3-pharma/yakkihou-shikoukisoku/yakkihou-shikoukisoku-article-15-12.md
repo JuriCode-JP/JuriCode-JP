@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-12-p1-hashira
+    type: hashira
+    text: 薬局開設者は、法第九条の三の規定により、調剤された薬剤につき、次に掲げる方法により、その薬局において薬剤の販売又は授与に従事する薬剤師に販売させ、又は授与させなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-15-12-p1-kou-1
+    type: kou
+    text: 一　法第九条の四第一項の規定による情報の提供及び指導を受けた者が当該情報の提供及び指導の内容を理解したこと並びに質問がないことを確認した後に、販売し、又は授与させること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-15-12-p1-kou-2
+    type: kou
+    text: 二　当該薬剤を購入し、又は譲り受けようとする者から相談があつた場合には、法第九条の四第四項の規定による情報の提供又は指導を行つた後に、当該薬剤を販売し、又は授与させること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-15-12-p1-kou-3
+    type: kou
+    text: 三　法第九条の四第五項の規定による情報の提供又は指導のため必要があると認めるときは、当該薬剤を購入し、又は譲り受けようとする者の連絡先を確認した後に、当該薬剤を販売し、又は授与させること。
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-15-12-p1-kou-4
+    type: kou
+    text: 四　当該薬剤を販売し、又は授与した薬剤師の氏名、当該薬局の名称及び当該薬局の電話番号その他連絡先を、当該薬剤を購入し、又は譲り受けようとする者に伝えさせること。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第十五条の十二
 
 薬局開設者は、法第九条の三の規定により、調剤された薬剤につき、次に掲げる方法により、その薬局において薬剤の販売又は授与に従事する薬剤師に販売させ、又は授与させなければならない。
+
+一　法第九条の四第一項の規定による情報の提供及び指導を受けた者が当該情報の提供及び指導の内容を理解したこと並びに質問がないことを確認した後に、販売し、又は授与させること。
+
+二　当該薬剤を購入し、又は譲り受けようとする者から相談があつた場合には、法第九条の四第四項の規定による情報の提供又は指導を行つた後に、当該薬剤を販売し、又は授与させること。
+
+三　法第九条の四第五項の規定による情報の提供又は指導のため必要があると認めるときは、当該薬剤を購入し、又は譲り受けようとする者の連絡先を確認した後に、当該薬剤を販売し、又は授与させること。
+
+四　当該薬剤を販売し、又は授与した薬剤師の氏名、当該薬局の名称及び当該薬局の電話番号その他連絡先を、当該薬剤を購入し、又は譲り受けようとする者に伝えさせること。

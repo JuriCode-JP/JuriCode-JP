@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-3-p1
+    type: simple
+    text: 個人根保証契約であってその主たる債務の範囲に金銭の貸渡し又は手形の割引を受けることによって負担する債務（以下「貸金等債務」という。）が含まれるもの（以下「個人貸金等根保証契約」という。）において主たる債務の元本の確定すべき期日（以下「元本確定期日」という。）の定めがある場合において、その元本確定期日がその個人貸金等根保証契約の締結の日から五年を経過する日より後の日と定められているときは、その元本確定期日の定めは、その効力を生じない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-3-p2
+    type: simple
+    text: 個人貸金等根保証契約において元本確定期日の定めがない場合（前項の規定により元本確定期日の定めがその効力を生じない場合を含む。）には、その元本確定期日は、その個人貸金等根保証契約の締結の日から三年を経過する日とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-3-p3-honbun
+    type: honbun
+    text: 個人貸金等根保証契約における元本確定期日の変更をする場合において、変更後の元本確定期日がその変更をした日から五年を経過する日より後の日となるときは、その元本確定期日の変更は、その効力を生じない。
+    modality: unspecified
+  - id: minpou-art-465-3-p3-tadashi
+    type: tadashi
+    text: ただし、元本確定期日の前二箇月以内に元本確定期日の変更をする場合において、変更後の元本確定期日が変更前の元本確定期日から五年以内の日となるときは、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-3-p4
+    type: junyou
+    text: 第四百四十六条第二項及び第三項の規定は、個人貸金等根保証契約における元本確定期日の定め及びその変更（その個人貸金等根保証契約の締結の日から三年以内の日を元本確定期日とする旨の定め及び元本確定期日より前の日を変更後の元本確定期日とする変更を除く。）について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

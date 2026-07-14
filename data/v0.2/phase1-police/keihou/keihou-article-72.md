@@ -14,13 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keihou-art-72-p1
     type: simple
     text: 同時に刑を加重し、又は減軽するときは、次の順序による。
     modality: unspecified
+  - id: keihou-art-72-p1-kou-1
+    type: kou
+    text: 一　再犯加重
+    modality: unspecified
+    item_number: 1
+  - id: keihou-art-72-p1-kou-2
+    type: kou
+    text: 二　法律上の減軽
+    modality: unspecified
+    item_number: 2
+  - id: keihou-art-72-p1-kou-3
+    type: kou
+    text: 三　併合罪の加重
+    modality: unspecified
+    item_number: 3
+  - id: keihou-art-72-p1-kou-4
+    type: kou
+    text: 四　酌量減軽
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第七十二条
 
-<!-- segment: simple id: keihou-art-72-p1 -->
 同時に刑を加重し、又は減軽するときは、次の順序による。
+
+一　再犯加重
+
+二　法律上の減軽
+
+三　併合罪の加重
+
+四　酌量減軽

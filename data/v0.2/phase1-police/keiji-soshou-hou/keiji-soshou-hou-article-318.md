@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-318-p1 -->
 証拠の証明力は、裁判官の自由な判断に委ねる。

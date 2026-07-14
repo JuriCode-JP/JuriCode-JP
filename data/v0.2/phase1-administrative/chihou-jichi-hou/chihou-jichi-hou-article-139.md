@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百三十九条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-139-p1 -->
 都道府県に知事を置く。
 
 ### 第百三十九条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-139-p2 -->
 市町村に市町村長を置く。

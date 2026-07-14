@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 法第六十六条の七十二第一項第八号に規定する内閣府令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-348-p2-kou-1
+    type: kou
+    text: 一　登録申請の対象となる投資運用関係業務受託業に係る投資運用関係業務の内容
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-348-p2-kou-2
+    type: kou
+    text: 二　登録申請者が外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人である場合には、国内における代理人の氏名、商号又は名称
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第三百四十八条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-348-p1 -->
 法第六十六条の七十二第一項第二号に規定する内閣府令で定めるものは、登録申請者が法人である場合における資本金の額又は出資の総額とする。
 
 ### 第三百四十八条第二項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-348-p2-hashira -->
 法第六十六条の七十二第一項第八号に規定する内閣府令で定める事項は、次に掲げる事項とする。
+
+一　登録申請の対象となる投資運用関係業務受託業に係る投資運用関係業務の内容
+
+二　登録申請者が外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人である場合には、国内における代理人の氏名、商号又は名称

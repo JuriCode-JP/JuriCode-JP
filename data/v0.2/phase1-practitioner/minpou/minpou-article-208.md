@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百八条
 
-<!-- segment: simple id: minpou-art-208-p1 -->
 削除

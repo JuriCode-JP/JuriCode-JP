@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 債務者が保証人を立てる義務を負う場合には、その保証人は、次に掲げる要件を具備する者でなければならない。
     modality: gimu
+  - id: minpou-art-450-p1-kou-1
+    type: kou
+    text: 一　行為能力者であること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-450-p1-kou-2
+    type: kou
+    text: 二　弁済をする資力を有すること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +41,8 @@ paragraphs:
     text: 保証人が前項第二号に掲げる要件を欠くに至ったときは、債権者は、同項各号に掲げる要件を具備する者をもってこれに代えることを請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -68,15 +78,16 @@ parent_section:
 
 ### 第四百五十条第一項
 
-<!-- segment: hashira id: minpou-art-450-p1-hashira -->
 債務者が保証人を立てる義務を負う場合には、その保証人は、次に掲げる要件を具備する者でなければならない。
+
+一　行為能力者であること。
+
+二　弁済をする資力を有すること。
 
 ### 第四百五十条第二項
 
-<!-- segment: simple id: minpou-art-450-p2 -->
 保証人が前項第二号に掲げる要件を欠くに至ったときは、債権者は、同項各号に掲げる要件を具備する者をもってこれに代えることを請求することができる。
 
 ### 第四百五十条第三項
 
-<!-- segment: simple id: minpou-art-450-p3 -->
 前二項の規定は、債権者が保証人を指名した場合には、適用しない。

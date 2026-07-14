@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百八条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-208-p1 -->
 普通地方公共団体の会計年度は、毎年四月一日に始まり、翌年三月三十一日に終わるものとする。
 
 ### 第二百八条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-208-p2 -->
 各会計年度における歳出は、その年度の歳入をもつて、これに充てなければならない。

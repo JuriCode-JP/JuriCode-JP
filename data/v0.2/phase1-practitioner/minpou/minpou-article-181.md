@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百八十一条
 
-<!-- segment: simple id: minpou-art-181-p1 -->
 占有権は、代理人によって取得することができる。

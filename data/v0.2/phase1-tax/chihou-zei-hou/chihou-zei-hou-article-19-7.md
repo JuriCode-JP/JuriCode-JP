@@ -13,20 +13,40 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-7-p1-honbun
+    type: honbun
+    text: 審査請求は、その目的となつた処分に係る地方団体の徴収金の賦課又は徴収の続行を妨げない。
+    modality: jogai
+  - id: chihou-zei-hou-art-19-7-p1-tadashi
+    type: tadashi
+    text: ただし、その地方団体の徴収金の徴収のために差し押さえた財産（国税徴収法第八十九条の二第四項に規定する特定参加差押不動産を含む。）の滞納処分（その例による処分を含む。次項において同じ。）による換価は、その財産の価額が著しく減少するおそれがあるとき、又は審査請求をした者から別段の申出があるときを除き、その審査請求に対する裁決があるまで、することができない。
+    modality: kanou_negative
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-7-p2
+    type: simple
+    text: 審査請求の目的となつた処分に係る地方団体の徴収金について徴収の権限を有する地方団体の長は、審査請求をした者が第十六条第一項各号に掲げる担保を提供して、その地方団体の徴収金につき、滞納処分による差押えをしないこと又は既にされている滞納処分による差押えを解除することを求めた場合において、相当と認めるときは、その差押えをせず、又はその差押えを解除することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-7-p3
+    type: junyou
+    text: 第十一条、第十六条第三項及び第四項並びに第十六条の五第一項及び第二項の規定は、前項の規定による担保について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

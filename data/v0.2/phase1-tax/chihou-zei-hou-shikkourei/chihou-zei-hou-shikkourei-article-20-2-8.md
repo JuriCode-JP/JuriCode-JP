@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-8-p1
+    type: junyou
+    text: 第二十条の二第一項の規定は、法第七十二条の十七第一項に規定する政令で定める当該事業年度の法人税の所得の計算上損金の額に算入される支払賃借料について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-8-p2
+    type: junyou
+    text: 第二十条の二第二項の規定は、法第七十二条の十七第一項に規定する当該事業年度に支払われる支払賃借料で政令で定めるものについて準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

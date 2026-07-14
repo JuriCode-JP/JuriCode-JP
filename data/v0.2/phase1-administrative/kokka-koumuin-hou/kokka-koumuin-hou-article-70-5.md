@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-5-p1
+    type: simple
+    text: 研修は、職員に現在就いている官職又は将来就くことが見込まれる官職の職務の遂行に必要な知識及び技能を習得させ、並びに職員の能力及び資質を向上させることを目的とするものでなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-5-p2
+    type: simple
+    text: 前項の根本基準の実施につき必要な事項は、この法律に定めのあるものを除いては、人事院の意見を聴いて政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-5-p3
+    type: simple
+    text: 人事院及び内閣総理大臣は、それぞれの所掌事務に係る研修による職員の育成について調査研究を行い、その結果に基づいて、それぞれの所掌事務に係る研修について適切な方策を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

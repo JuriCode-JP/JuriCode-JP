@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-50-p1
+    type: simple
+    text: 株式等譲渡所得割の徴収については、特別徴収の方法によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

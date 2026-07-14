@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第百二十二条の六第二項（外貨建資産等の期末換算の方法の変更の手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-27-13-p1-kou-1
+    type: kou
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-27-13-p1-kou-2
+    type: kou
+    text: 二　その換算の方法を変更しようとする令第百二十二条の四（外貨建資産等の期末換算方法の選定の方法）に規定する外貨建資産等の同条に規定する外国通貨の種類及び区分（事業所ごとに換算の方法を選定しようとする場合には事業所の名称）
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-27-13-p1-kou-3
+    type: kou
+    text: 三　現によつている換算の方法及びその換算の方法を採用した日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-27-13-p1-kou-4
+    type: kou
+    text: 四　新たに採用しようとする換算の方法
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-27-13-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第二十七条の十三
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-27-13-p1-hashira -->
 令第百二十二条の六第二項（外貨建資産等の期末換算の方法の変更の手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　その換算の方法を変更しようとする令第百二十二条の四（外貨建資産等の期末換算方法の選定の方法）に規定する外貨建資産等の同条に規定する外国通貨の種類及び区分（事業所ごとに換算の方法を選定しようとする場合には事業所の名称）
+
+三　現によつている換算の方法及びその換算の方法を採用した日
+
+四　新たに採用しようとする換算の方法
+
+五　その他参考となるべき事項

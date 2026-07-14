@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百十六条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-216-p1 -->
 法第五十九条の五第三項の規定による許可の取消しの公告は、官報により行うものとする。

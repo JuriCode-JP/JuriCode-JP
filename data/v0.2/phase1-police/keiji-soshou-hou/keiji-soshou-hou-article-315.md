@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-315-p1 -->
 開廷後裁判官がかわつたときは、公判手続を更新しなければならない。但し、判決の宣告をする場合は、この限りでない。

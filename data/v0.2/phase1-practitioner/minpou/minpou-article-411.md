@@ -45,6 +45,4 @@ parent_section:
 
 ### 第四百十一条
 
-<!-- segment: honbun id: minpou-art-411-p1-honbun -->
-選択は、債権の発生の時にさかのぼってその効力を生ずる。<!-- segment: tadashi id: minpou-art-411-p1-tadashi -->
-ただし、第三者の権利を害することはできない。
+選択は、債権の発生の時にさかのぼってその効力を生ずる。ただし、第三者の権利を害することはできない。

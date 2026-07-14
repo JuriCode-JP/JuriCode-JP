@@ -14,14 +14,35 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-17-p1-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当する場合には、その違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
+  - id: chihou-zei-hou-art-144-17-p1-kou-1
+    type: kou
+    text: 一　第百四十四条の十五第一項の規定による登録の申請をしなかつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-144-17-p1-kou-2
+    type: kou
+    text: 二　前条第二項から第四項までの規定のいずれかに違反したとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-17-p2
+    type: simple
+    text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -43,6 +64,10 @@ parent_section:
 ### 第百四十四条の十七第一項
 
 次の各号のいずれかに該当する場合には、その違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+
+一　第百四十四条の十五第一項の規定による登録の申請をしなかつたとき。
+
+二　前条第二項から第四項までの規定のいずれかに違反したとき。
 
 ### 第百四十四条の十七第二項
 

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第七十二条の二第九項第二号に規定する小規模な水産動植物の採捕の事業として政令で定めるものは、次に掲げる事業（漁業法（昭和二十四年法律第二百六十七号）第六十条第三項に規定する定置漁業を除く。）とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-11-2-p1-kou-1
+    type: kou
+    text: 一　無動力漁船若しくは総トン数十トン未満の動力漁船（とう載漁船を除く。）を使用して、又は漁船を使用しないで行う水産動植物の採捕の事業
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-11-2-p1-kou-2
+    type: kou
+    text: 二　漁具を定置して行う水産動物の採捕の事業（前号に該当するものを除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第十一条の二
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-11-2-p1-hashira -->
 法第七十二条の二第九項第二号に規定する小規模な水産動植物の採捕の事業として政令で定めるものは、次に掲げる事業（漁業法（昭和二十四年法律第二百六十七号）第六十条第三項に規定する定置漁業を除く。）とする。
+
+一　無動力漁船若しくは総トン数十トン未満の動力漁船（とう載漁船を除く。）を使用して、又は漁船を使用しないで行う水産動植物の採捕の事業
+
+二　漁具を定置して行う水産動物の採捕の事業（前号に該当するものを除く。）

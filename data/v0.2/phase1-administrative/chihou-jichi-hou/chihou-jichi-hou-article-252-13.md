@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-13-p1
+    type: junyou
+    text: 第二百五十二条の八から前条までの規定は、政令で定めるところにより、第二百五十二条の七の規定による議会事務局、行政機関、内部組織、委員会事務局、普通地方公共団体の議会、長、委員会若しくは委員の事務を補助する職員、専門委員又は監査専門委員の共同設置について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

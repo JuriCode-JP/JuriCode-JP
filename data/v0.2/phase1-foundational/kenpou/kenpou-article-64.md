@@ -46,10 +46,8 @@ parent_section:
 
 ### 第六十四条第一項
 
-<!-- segment: simple id: kenpou-art-64-p1 -->
 国会は、罷免の訴追を受けた裁判官を裁判するため、両議院の議員で組織する弾劾裁判所を設ける。
 
 ### 第六十四条第二項
 
-<!-- segment: simple id: kenpou-art-64-p2 -->
 弾劾に関する事項は、法律でこれを定める。

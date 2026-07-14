@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百八十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-488-p1 -->
 収容状は、勾引状と同一の効力を有する。

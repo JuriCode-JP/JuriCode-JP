@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十七条
 
-<!-- segment: simple id: keisatsu-hou-art-67-p1 -->
 警察官は、その職務の遂行のため小型武器を所持することができる。

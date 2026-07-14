@@ -13,25 +13,50 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-3-p1-honbun
+    type: honbun
+    text: 信託の受益者（受益者としての権利を現に有するものに限る。）は当該信託の信託財産に属する資産及び負債を有するものとみなし、かつ、当該信託財産に帰せられる収益及び費用は当該受益者の収益及び費用とみなして、この節の規定を適用する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-72-3-p1-tadashi
+    type: tadashi
+    text: ただし、集団投資信託（法人税法第二条第二十九号に規定する集団投資信託をいう。第三項において同じ。）、退職年金等信託（同法第十二条第四項第一号に規定する退職年金等信託をいう。第三項において同じ。）、公益信託等（同条第四項第二号に規定する公益信託等をいう。第三項において同じ。）又は法人課税信託の信託財産に属する資産及び負債並びに当該信託財産に帰せられる収益及び費用については、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-3-p2
+    type: simple
+    text: 信託の変更をする権限（軽微な変更をする権限として政令で定めるものを除く。）を現に有し、かつ、当該信託の信託財産の給付を受けることとされている者（受益者を除く。）は、前項に規定する受益者とみなして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-3-p3
+    type: simple
+    text: 法人が受託者となる集団投資信託、退職年金等信託又は公益信託等の信託財産に属する資産及び負債並びに当該信託財産に帰せられる収益及び費用は、当該法人の各事業年度の所得の金額の計算上、当該法人の資産及び負債並びに収益及び費用でないものとみなして、この節の規定を適用する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-3-p4
+    type: simple
+    text: 受益者が二以上ある場合における第一項の規定の適用、第二項に規定する信託財産の給付を受けることとされている者に該当するかどうかの判定その他前三項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

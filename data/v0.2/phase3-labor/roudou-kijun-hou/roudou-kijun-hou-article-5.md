@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五条
 
-<!-- segment: simple id: roudou-kijun-hou-art-5-p1 -->
 使用者は、暴行、脅迫、監禁その他精神又は身体の自由を不当に拘束する手段によつて、労働者の意思に反して労働を強制してはならない。

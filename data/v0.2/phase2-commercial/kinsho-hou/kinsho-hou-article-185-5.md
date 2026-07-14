@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-5-p1
+    type: simple
+    text: 審判官は、被審人の申立てにより又は職権で、事件関係人の営業所その他必要な場所に立ち入り、帳簿書類その他の物件を検査することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

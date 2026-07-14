@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百八条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-108-p1 -->
 人事院は、前条の年金制度に関し調査研究を行い、必要な意見を国会及び内閣に申し出ることができる。

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-7-p1
+    type: simple
+    text: 前条第一項から第三項までに規定する賄賂を供与し、又はその申込み若しくは約束をした者は、三年以下の拘禁刑又は二百五十万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-7-p2
+    type: simple
+    text: 前項の罪を犯した者が自首したときは、その刑を減軽し、又は免除することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

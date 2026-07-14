@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百五十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-353-p1 -->
 被告人の法定代理人又は保佐人は、被告人のため上訴をすることができる。

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 倉庫営業者は、倉荷証券を寄託者に交付したときは、その帳簿に次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhou-art-602-p1-kou-1
+    type: kou
+    text: 一　前条第一号、第二号及び第四号から第六号までに掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-602-p1-kou-2
+    type: kou
+    text: 二　倉荷証券の番号及び作成の年月日
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第六百二条
 
-<!-- segment: hashira id: shouhou-art-602-p1-hashira -->
 倉庫営業者は、倉荷証券を寄託者に交付したときは、その帳簿に次に掲げる事項を記載しなければならない。
+
+一　前条第一号、第二号及び第四号から第六号までに掲げる事項
+
+二　倉荷証券の番号及び作成の年月日

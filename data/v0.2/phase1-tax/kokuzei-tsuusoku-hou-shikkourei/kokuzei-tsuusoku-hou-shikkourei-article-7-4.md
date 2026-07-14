@@ -41,6 +41,4 @@ parent_section:
 
 ### 第七条の四
 
-<!-- segment: honbun id: kokuzei-tsuusoku-hou-shikkourei-art-7-4-p1-honbun -->
-法第三十四条の六第三項（納付受託者の帳簿保存等の義務）の規定による権限は、納付受託者の住所又は事務所の所在地を管轄する国税局長に委任するものとする。<!-- segment: tadashi id: kokuzei-tsuusoku-hou-shikkourei-art-7-4-p1-tadashi -->
-ただし、国税庁長官が自らその権限を行うことを妨げない。
+法第三十四条の六第三項（納付受託者の帳簿保存等の義務）の規定による権限は、納付受託者の住所又は事務所の所在地を管轄する国税局長に委任するものとする。ただし、国税庁長官が自らその権限を行うことを妨げない。

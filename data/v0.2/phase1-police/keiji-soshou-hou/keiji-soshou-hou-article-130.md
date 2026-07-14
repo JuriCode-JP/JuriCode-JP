@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,15 +57,12 @@ parent_section:
 
 ### 第百三十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-130-p1 -->
 日出前、日没後には、住居主若しくは看守者又はこれらの者に代るべき者の承諾がなければ、検証のため、人の住居又は人の看守する邸宅、建造物若しくは船舶内に入ることはできない。但し、日出後では検証の目的を達することができない虞がある場合は、この限りでない。
 
 ### 第百三十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-130-p2 -->
 日没前検証に着手したときは、日没後でもその処分を継続することができる。
 
 ### 第百三十条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-130-p3 -->
 第百十七条に規定する場所については、第一項に規定する制限によることを要しない。

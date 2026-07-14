@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十四条
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-34-p1 -->
 地方公共団体は、この法律の趣旨にのっとり、その保有する文書の適正な管理に関して必要な施策を策定し、及びこれを実施するよう努めなければならない。

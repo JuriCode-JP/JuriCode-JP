@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-184-2-p1-zen
+    type: zen_dan
+    text: 普通地方公共団体の議会は、選挙管理委員が心身の故障のため職務の遂行に堪えないと認めるとき、又は選挙管理委員に職務上の義務違反その他選挙管理委員たるに適しない非行があると認めるときは、議決によりこれを罷免することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-184-2-p1-kou
+    type: kou_dan
+    text: この場合においては、議会の常任委員会又は特別委員会において公聴会を開かなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-184-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-184-2-p2
+    type: simple
+    text: 委員は、前項の規定による場合を除くほか、その意に反して罷免されることがない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-31-p1
+    type: simple
+    text: 特定投資家向け取得勧誘その他第四条第一項本文の規定の適用を受けない有価証券発行勧誘等のうち政令で定めるもの（以下この条及び第六章の二において「特定取得勧誘」という。）又は特定投資家向け売付け勧誘等（当該特定投資家向け売付け勧誘等に係る有価証券が特定投資家向け有価証券に該当する場合であつて、少数の者を相手方として行う場合として政令で定める場合に該当するものを除く。）その他第四条第一項本文、第二項本文若しくは第三項本文の規定の適用を受けない有価証券交付勧誘等のうち政令で定めるもの（以下この条及び第六章の二において「特定売付け勧誘等」という。）は、当該特定取得勧誘又は特定売付け勧誘等（以下「特定勧誘等」という。）に係る有価証券の発行者が、当該有価証券及び当該発行者に関して投資者に明らかにされるべき基本的な情報として内閣府令で定める情報（以下「特定証券情報」という。）を、次項に定めるところにより、当該特定勧誘等が行われる時までに、その相手方に提供し、又は公表しているものでなければ、することができない。
+    modality: kanou_negative
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-31-p2
+    type: simple
+    text: 特定証券情報の提供又は公表をしようとする発行者は、当該特定証券情報を、内閣府令で定めるところにより、自ら若しくは他の者に委託して提供し、又はインターネットの利用その他の方法により公表しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-31-p3
+    type: simple
+    text: 次条第一項の規定により既に内閣府令で定める期間継続して発行者情報（同項に規定する発行者情報をいう。以下この項において同じ。）を公表している発行者は、前項の規定により特定証券情報を提供し、又は公表しようとする場合において、当該特定証券情報に、内閣府令で定めるところにより、その者に係る直近の発行者情報及び同条第三項に規定する訂正発行者情報（以下「参照情報」という。）を参照すべき旨を表示したときは、特定証券情報のうち発行者に関する情報として内閣府令で定める情報の提供又は公表をしたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-31-p4
+    type: simple
+    text: 第二項の規定により特定証券情報の提供又は公表をした発行者は、当該提供又は公表をした日から一年を経過する日までの間（公益又は投資者保護に欠けることがないものと認められる場合として内閣府令で定める場合には、内閣府令で定める期間）において、当該特定証券情報に訂正すべき事項があるときは、内閣府令で定めるところにより、これを訂正する旨の情報（以下「訂正特定証券情報」という。）の提供又は公表をしなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-31-p5
+    type: simple
+    text: 第二項の規定により特定証券情報の公表をした発行者は、当該特定証券情報の公表をした日から一年を経過する日までの間（公益又は投資者保護に欠けることがないものと認められる場合として内閣府令で定める場合には、内閣府令で定める期間）、当該特定証券情報（訂正特定証券情報を公表した場合には、当該訂正特定証券情報を含む。）を継続して公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

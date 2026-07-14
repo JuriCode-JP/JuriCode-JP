@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-7-p1
+    type: simple
+    text: 第四百九十四条の五の規定による拘置は、拘置状を発してしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-7-p2
+    type: junyou
+    text: 第六十四条、第七十条（第一項ただし書を除く。）、第七十一条、第七十二条、第七十三条第二項及び第三項並びに第七十四条の規定（これらの規定のうち勾留に関する部分に限る。）は、拘置状について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

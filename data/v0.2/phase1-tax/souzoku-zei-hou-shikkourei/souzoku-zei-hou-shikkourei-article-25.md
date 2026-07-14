@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-25-p1 -->
 第二十一条及び第二十二条に規定する書類の様式並びに前条に規定する帳簿の様式及び記入の方法は、財務大臣が定める。

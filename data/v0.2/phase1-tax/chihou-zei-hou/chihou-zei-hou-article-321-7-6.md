@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-6-p1
+    type: simple
+    text: 年金保険者は、前条第一項の規定による通知を受けた場合においては、当該通知に係る支払回数割特別徴収税額を、当該年度の初日の属する年の十月一日から翌年の三月三十一日までの間において特別徴収対象年金給付の支払をする際徴収し、その徴収した日の属する月の翌月の十日までに、当該市町村に納入する義務を負う。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

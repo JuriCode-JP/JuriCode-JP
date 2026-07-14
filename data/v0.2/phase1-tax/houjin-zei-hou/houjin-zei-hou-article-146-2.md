@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-146-2-p1
+    type: simple
+    text: 恒久的施設を有する外国法人は、第百三十八条第一項第一号（国内源泉所得）に掲げる国内源泉所得（以下この条において「恒久的施設帰属所得」という。）を有する場合において、当該外国法人が他の者との間で行つた取引のうち、当該外国法人の各事業年度の恒久的施設帰属所得に係る所得の金額の計算上、当該取引から生ずる所得が当該外国法人の恒久的施設に帰せられるものについては、財務省令で定めるところにより、当該恒久的施設に帰せられる取引に係る明細を記載した書類その他の財務省令で定める書類を作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-146-2-p2
+    type: simple
+    text: 恒久的施設を有する外国法人は、恒久的施設帰属所得を有する場合において、当該外国法人の第百三十八条第一項第一号に規定する本店等と恒久的施設との間の資産の移転、役務の提供その他の事実が同号に規定する内部取引に該当するときは、財務省令で定めるところにより、当該事実に係る明細を記載した書類その他の財務省令で定める書類を作成しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

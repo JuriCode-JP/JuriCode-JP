@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-13-p1
+    type: simple
+    text: 政令第三十五条の二十第二項第二号並びに第七条の二の九ただし書及び第七条の二の十ただし書に掲げる額を計算する場合において、その額に百万円未満の額があるときは、その百万円未満の額を四捨五入する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百七十八条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-178-p1 -->
 第百四十八条第二項又は第三項の規定による命令に違反した場合には、当該違反行為をした者は、一年以下の拘禁刑又は百万円以下の罰金に処する。

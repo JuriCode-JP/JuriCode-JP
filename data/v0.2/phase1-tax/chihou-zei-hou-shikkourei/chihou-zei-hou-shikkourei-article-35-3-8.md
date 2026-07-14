@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-8-p1
+    type: simple
+    text: 法第七十二条の四十九の十二第十三項に規定する直接事業の用に供する資産で政令で定めるものは、直接事業の用に供する所得税法施行令第六条第三号から第七号までに掲げる固定資産及び同条第九号に掲げる生物で事業の用に供しなくなつた日の翌日から一年を経過した日の前日までに譲渡が行われたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

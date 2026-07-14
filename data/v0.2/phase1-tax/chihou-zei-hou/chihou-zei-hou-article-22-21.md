@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-21-p1
+    type: simple
+    text: 当該徴税吏員は、この款の規定により質問、検査、領置、臨検、捜索、差押え又は記録命令付差押えをする間は、何人に対しても、許可を受けないでその場所に出入りすることを禁止することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

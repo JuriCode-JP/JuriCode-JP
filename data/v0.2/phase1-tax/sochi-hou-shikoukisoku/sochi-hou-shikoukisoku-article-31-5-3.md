@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-31-5-3-p1
+    type: simple
+    text: 法第八十三条の四の規定の適用を受けようとする者は、その登記の申請書に、当該登記が同条の規定に該当するものであることについての国土交通大臣の証明書で、当該登記に係る土地又は建物の所有権、地上権又は賃借権を取得した者が同条に規定する鉄道事業者であること、当該土地又は建物が施行令第四十三条の四に規定する土地又は建物に該当すること及び法第八十三条の四に規定する認定鉄道事業再構築実施計画について国土交通大臣の認定を受けた日の記載があるものを添付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

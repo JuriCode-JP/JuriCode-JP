@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-29-4-p1
+    type: simple
+    text: 店舗販売業者は、厚生労働省令で定めるところにより、当該店舗を利用するために必要な情報であつて厚生労働省令で定める事項を、当該店舗の見やすい場所に掲示しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

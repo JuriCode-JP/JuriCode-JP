@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-15-2-p1
+    type: simple
+    text: 法第五百八十六条第二項第四号の二に規定する政令で定める土地は、同号に規定する登録を受けた者が、平成四年七月四日から平成十七年三月三十一日までの間に取得した土地で当該登録に係る事業場の用に供するもののうち、専ら廃棄物（再生利用の目的となるものに限る。）の保管の用に供する施設で総務省令で定める要件を満たすものの用に供する土地とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -59,15 +59,12 @@ parent_section:
 
 ### 第二百三十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-237-p1 -->
 告訴は、公訴の提起があるまでこれを取り消すことができる。
 
 ### 第二百三十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-237-p2 -->
 告訴の取消をした者は、更に告訴をすることができない。
 
 ### 第二百三十七条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-237-p3 -->
 前二項の規定は、請求を待つて受理すべき事件についての請求についてこれを準用する。

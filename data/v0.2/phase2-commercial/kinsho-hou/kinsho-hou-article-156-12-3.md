@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-12-3-p1
+    type: simple
+    text: 金融商品取引清算機関は、その資本金の額を減少しようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-12-3-p2
+    type: simple
+    text: 金融商品取引清算機関は、その資本金の額を増加しようとするときは、内閣府令で定めるところにより、内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

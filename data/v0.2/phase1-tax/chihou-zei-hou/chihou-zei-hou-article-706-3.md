@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-706-3-p1
+    type: simple
+    text: 前条第一項の規定によつて国民健康保険税を賦課した場合において、当該年度分の国民健康保険税額が前年度の国民健康保険税額の二分の一に相当する額に満たないこととなると認められるときは、同項の規定によつて国民健康保険税を徴収されることとなる者は、条例で定める期限までに、市町村長に同項の規定によつて徴収される国民健康保険税額の修正を申し出ることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-706-3-p2
+    type: simple
+    text: 前項の規定による修正の申出があつた場合において、当該申出について相当の理由があると認められるときは、市町村長は、当該年度分の国民健康保険税額の見積額を基礎として、前条第一項の規定によつて徴収する国民健康保険税額を修正しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-706-3-p3
+    type: junyou
+    text: 第三百六十四条の二第二項、第三項、第五項及び第六項の規定は、前二項の規定による修正の申出及び修正について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

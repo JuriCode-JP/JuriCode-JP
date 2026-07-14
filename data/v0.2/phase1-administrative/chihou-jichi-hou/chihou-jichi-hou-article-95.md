@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九十五条
 
-<!-- segment: simple id: chihou-jichi-hou-art-95-p1 -->
 前条の規定による町村総会に関しては、町村の議会に関する規定を準用する。

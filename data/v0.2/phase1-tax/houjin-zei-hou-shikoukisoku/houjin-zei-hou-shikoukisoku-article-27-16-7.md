@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-7-p1
+    type: junyou
+    text: 第二十七条の十五の二第一項（特定資産譲渡等損失額から控除することができる金額等）の規定は、令第百三十一条の八第五項（損益通算の対象となる欠損金額の特例）において準用する令第百二十三条の九第二項（特定資産譲渡等損失額から控除することができる金額等）に規定する財務省令で定める書類について準用する。この場合において、第二十七条の十五の二第一項第一号中「第百二十三条の九第一項第一号」とあるのは「第百三十一条の八第五項（損益通算の対象となる欠損金額の特例）において準用する令第百二十三条の九第一項第一号」と、同項第二号ロ中「第百二十三条の九第一項の内国法人」とあるのは「第百三十一条の八第五項の通算法人」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-7-p2
+    type: junyou
+    text: 第二十七条の十五の二第一項の規定は、令第百三十一条の八第五項において準用する令第百二十三条の九第五項に規定する財務省令で定める書類について準用する。この場合において、第二十七条の十五の二第一項第一号中「第百二十三条の九第一項第一号に規定する支配関係事業年度」とあるのは「第百三十一条の八第五項（損益通算の対象となる欠損金額の特例）において準用する令第百二十三条の九第四項第一号に規定する関連法人支配関係事業年度」と、同項第二号ロ中「第百二十三条の九第一項の内国法人」とあるのは「第百三十一条の八第五項の通算法人」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

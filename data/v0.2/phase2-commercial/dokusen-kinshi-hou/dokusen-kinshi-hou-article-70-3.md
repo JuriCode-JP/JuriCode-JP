@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-3-p1
+    type: simple
+    text: 公正取引委員会は、第十一条第一項又は第二項の認可をした場合において、その認可の要件である事実が消滅し、又は変更したと認めるときは、決定でこれを取り消し、又は変更することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-3-p2
+    type: junyou
+    text: 第四十九条から第六十条まで並びに第六十三条第三項及び第四項の規定は、前項の規定による決定について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-3-p3-honbun
+    type: honbun
+    text: 公正取引委員会は、経済事情の変化その他の事由により、排除措置命令又は競争回復措置命令を維持することが不適当であると認めるときは、決定でこれを取り消し、又は変更することができる。
+    modality: kanou_kenri
+  - id: dokusen-kinshi-hou-art-70-3-p3-tadashi
+    type: tadashi
+    text: ただし、排除措置命令又は競争回復措置命令の名宛人の利益を害することとなる場合は、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-3-p4
+    type: junyou
+    text: 第六十三条第三項及び第四項の規定は、前項の規定による決定について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

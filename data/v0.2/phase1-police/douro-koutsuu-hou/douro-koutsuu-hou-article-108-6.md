@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-6-p1
+    type: simple
+    text: 指定講習機関は、特定講習の開始前に、特定講習の業務に関する規程（次項において「講習業務規程」という。）を定め、公安委員会の認可を受けなければならない。これを変更しようとするときも、同様とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-6-p2
+    type: simple
+    text: 講習業務規程で定めるべき事項は、国家公安委員会規則で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -22,7 +22,7 @@ paragraphs:
     text: 都道府県及び市の選挙管理委員会に書記長、書記その他の職員を置き、町村の選挙管理委員会に書記その他の職員を置く。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -61,15 +61,12 @@ parent_section:
 
 ### 第百九十一条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-191-p1 -->
 都道府県及び市の選挙管理委員会に書記長、書記その他の職員を置き、町村の選挙管理委員会に書記その他の職員を置く。
 
 ### 第百九十一条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-191-p2 -->
 書記長、書記その他の常勤の職員の定数は、条例でこれを定める。但し、臨時の職については、この限りでない。
 
 ### 第百九十一条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-191-p3 -->
 書記長は委員長の命を受け、書記その他の職員又は第百八十条の三の規定による職員は上司の指揮を受け、それぞれ委員会に関する事務に従事する。

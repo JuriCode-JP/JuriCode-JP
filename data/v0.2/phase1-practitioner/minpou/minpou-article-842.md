@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百四十二条
 
-<!-- segment: simple id: minpou-art-842-p1 -->
 削除

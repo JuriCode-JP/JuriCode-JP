@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-4-p1
+    type: simple
+    text: 市町村は、第三百二十一条の七の二第一項の規定により特別徴収の方法によつて年金所得に係る特別徴収税額（同条第二項の規定により給与所得及び公的年金等に係る所得以外の所得に係る所得割額を特別徴収の方法によつて徴収する場合にあつては、当該所得割額を加算した額とする。以下この節において同じ。）を徴収しようとする場合においては、当該特別徴収対象年金所得者に係る年金保険者を特別徴収義務者として当該年金所得に係る特別徴収税額を徴収させなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-4-p2
+    type: simple
+    text: 前項の場合において、市町村は、同一の特別徴収対象年金所得者について老齢等年金給付が二以上あるときは、政令で定めるところにより、一の老齢等年金給付（以下この節において「特別徴収対象年金給付」という。）について年金所得に係る特別徴収税額を徴収させるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

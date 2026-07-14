@@ -16,27 +16,69 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-3-p1
+    type: simple
+    text: 外国法人（保険業法第二条第七項（定義）に規定する外国保険会社等に限る。以下この項において同じ。）の各事業年度の恒久的施設に係る投資資産（保険料として収受した金銭その他の資産を保険契約に基づく将来の債務の履行に備えるために運用する場合のその運用資産として財務省令で定めるものをいう。以下この項及び第五項において同じ。）の額が、当該外国法人の投資資産の額のうち当該恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額に満たない場合には、その満たない部分に相当する金額に係る収益の額として政令で定めるところにより計算した金額は、当該外国法人の当該恒久的施設を通じて行う事業に係る収益の額として、当該外国法人の当該事業年度の恒久的施設帰属所得に係る所得の金額の計算上、益金の額に算入する。
+    modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-3-p2
+    type: simple
+    text: 前項の規定は、次のいずれかに該当する場合には、適用しない。
+    modality: jogai
+    references:
+    - 前項
+  - id: houjin-zei-hou-art-142-3-p2-kou-1
+    type: kou
+    text: 一　前項に規定する満たない部分に相当する金額が同項に規定する恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額の百分の十以下であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-142-3-p2-kou-2
+    type: kou
+    text: 二　前項に規定する満たない部分に相当する金額に係る収益の額として政令で定めるところにより計算した金額が千万円以下であるとき。
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-art-142-3-p2-kou-3
+    type: kou
+    text: 三　当該事業年度の恒久的施設に係る総資産の額が当該事業年度の当該恒久的施設に係る負債の額及び純資産の額の合計額を上回る場合として政令で定める場合に該当するとき。
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-3-p3
+    type: simple
+    text: 前項の規定は、同項各号に掲げる場合のいずれかに該当する旨を記載した書類及びその計算に関する書類を保存している場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-3-p4
+    type: simple
+    text: 税務署長は、前項の書類を保存していなかつた場合においても、その保存がなかつたことについてやむを得ない事情があると認めるときは、当該書類の提出があつた場合に限り、第二項の規定を適用することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-3-p5
+    type: simple
+    text: 投資資産の額の算定の時期その他第一項及び第二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -64,6 +106,12 @@ parent_section:
 ### 第百四十二条の三第二項
 
 前項の規定は、次のいずれかに該当する場合には、適用しない。
+
+一　前項に規定する満たない部分に相当する金額が同項に規定する恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額の百分の十以下であるとき。
+
+二　前項に規定する満たない部分に相当する金額に係る収益の額として政令で定めるところにより計算した金額が千万円以下であるとき。
+
+三　当該事業年度の恒久的施設に係る総資産の額が当該事業年度の当該恒久的施設に係る負債の額及び純資産の額の合計額を上回る場合として政令で定める場合に該当するとき。
 
 ### 第百四十二条の三第三項
 

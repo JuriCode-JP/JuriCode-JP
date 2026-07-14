@@ -16,57 +16,115 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p1
+    type: junyou
+    text: 第三十九条の十八第一項の規定は、法第六十六条の九の三第一項に規定する政令で定める外国法人税及び同項に規定する政令で定める金額について準用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p2
+    type: simple
+    text: 前項において準用する第三十九条の十八第一項に規定する個別計算外国法人税額（以下この項及び次項において「個別計算外国法人税額」という。）は、企業集団等所得課税規定の適用がないものとした場合に当該個別計算外国法人税額に係る外国法人税に関する法令の規定により当該個別計算外国法人税額を納付すべきものとされる期限の日に課されるものとして、この条の規定を適用する。
+    modality: unspecified
+    references:
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p3
+    type: simple
+    text: 法第六十六条の九の三第一項に規定する課税対象金額に対応するものとして政令で定めるところにより計算した金額は、外国関係法人（法第六十六条の九の二第一項に規定する外国関係法人をいう。以下この条において同じ。）の適用対象金額を有する事業年度（第八項及び第十一項において「課税対象年度」という。）の所得に対して課される外国法人税（法人税法第六十九条第一項に規定する外国法人税をいう。次項、第五項及び第七項において同じ。）の額（外国法人税に関する法令に企業集団等所得課税規定がある場合の当該外国法人税にあつては、個別計算外国法人税額。以下この条において同じ。）につき、第三十九条の十八第三項の規定の例により計算した金額とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p4
+    type: simple
+    text: 法第六十六条の九の三第一項に規定する部分課税対象金額に対応するものとして政令で定めるところにより計算した金額は、外国関係法人の部分適用対象金額を有する事業年度（第九項及び第十一項において「部分課税対象年度」という。）の所得に対して課される外国法人税の額につき、第三十九条の十八第四項の規定の例により計算した金額とする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p5
+    type: simple
+    text: 法第六十六条の九の三第一項に規定する金融関係法人部分課税対象金額に対応するものとして政令で定めるところにより計算した金額は、外国関係法人の金融関係法人部分適用対象金額を有する事業年度（第十項及び第十一項において「金融関係法人部分課税対象年度」という。）の所得に対して課される外国法人税の額につき、第三十九条の十八第五項の規定の例により計算した金額とする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p6
+    type: simple
+    text: 法第六十六条の九の三第一項の規定により特殊関係株主等である内国法人が納付する法人税法第六十九条第一項に規定する控除対象外国法人税の額とみなして同条の規定を適用する場合における同条の規定の適用に関する事項については、第三十九条の十八第七項から第十四項までの規定の例による。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p7
+    type: simple
+    text: 法第六十六条の九の三第二項に規定する政令で定める事業年度は、外国関係法人の所得に対して課された外国法人税の額が前項の規定によりその例によるものとされる第三十九条の十八第八項各号のいずれに該当するかに応じ当該各号に定める事業年度とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p8
+    type: simple
+    text: 法第六十六条の九の三第三項に規定する課税対象金額に対応するものとして政令で定めるところにより計算した金額は、外国関係法人の課税対象年度の所得に対して課される所得税等の額（同項に規定する所得税等の額をいう。次項及び第十項において同じ。）につき、第三十九条の十八第二十三項の規定の例により計算した金額とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p9
+    type: simple
+    text: 法第六十六条の九の三第三項に規定する部分課税対象金額に対応するものとして政令で定めるところにより計算した金額は、外国関係法人の部分課税対象年度の所得に対して課される所得税等の額につき、第三十九条の十八第二十四項の規定の例により計算した金額とする。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p10
+    type: simple
+    text: 法第六十六条の九の三第三項に規定する金融関係法人部分課税対象金額に対応するものとして政令で定めるところにより計算した金額は、外国関係法人の金融関係法人部分課税対象年度の所得に対して課される所得税等の額につき、第三十九条の十八第二十五項の規定の例により計算した金額とする。
+    modality: gimu
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-20-7-p11
+    type: simple
+    text: 法第六十六条の九の三第三項及び第五項に規定する政令で定める事業年度は、特殊関係株主等である内国法人が、当該内国法人に係る外国関係法人の課税対象年度の課税対象金額（法第六十六条の九の二第一項に規定する課税対象金額をいう。次条において同じ。）に相当する金額、部分課税対象年度の部分課税対象金額（法第六十六条の九の二第八項に規定する部分課税対象金額をいう。次条において同じ。）に相当する金額又は金融関係法人部分課税対象年度の金融関係法人部分課税対象金額（法第六十六条の九の二第十項に規定する金融関係法人部分課税対象金額をいう。次条において同じ。）に相当する金額につき、法第六十六条の九の二第一項、第八項又は第十項の規定の適用を受ける事業年度とする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

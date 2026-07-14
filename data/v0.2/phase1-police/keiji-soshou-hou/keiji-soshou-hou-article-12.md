@@ -50,10 +50,8 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-12-p1 -->
 裁判所は、事実発見のため必要があるときは、管轄区域外で職務を行うことができる。
 
 ### 第十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-12-p2 -->
 前項の規定は、受命裁判官にこれを準用する。

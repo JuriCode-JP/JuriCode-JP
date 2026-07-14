@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-14-3-p1
+    type: simple
+    text: 薬局開設者は、開店時間のうち、薬局製造販売医薬品、要指導医薬品又は一般用医薬品を販売し、又は授与しない時間は、薬局製造販売医薬品、要指導医薬品又は一般用医薬品を通常陳列し、又は交付する場所を閉鎖しなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-14-3-p2-honbun
+    type: honbun
+    text: 薬局開設者は、開店時間のうち、薬局製造販売医薬品、要指導医薬品又は第一類医薬品を販売し、又は授与しない時間は、薬局製造販売医薬品陳列区画（薬局等構造設備規則第一条第一項第十号の二ロに規定する薬局製造販売医薬品陳列区画をいう。以下同じ。）、要指導医薬品陳列区画（同項第十一号ロに規定する要指導医薬品陳列区画をいう。以下同じ。）又は第一類医薬品陳列区画（同項第十二号ロに規定する第一類医薬品陳列区画をいう。以下同じ。）を閉鎖しなければならない。
+    modality: gimu
+    references:
+    - 同項
+  - id: yakkihou-shikoukisoku-art-14-3-p2-tadashi
+    type: tadashi
+    text: ただし、鍵をかけた陳列設備（同項第十号の二イに規定する陳列設備をいう。以下同じ。）に薬局製造販売医薬品、要指導医薬品又は第一類医薬品を陳列している場合は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-14-3-p3
+    type: simple
+    text: 薬局開設者は、薬剤師不在時間は、調剤室を閉鎖しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

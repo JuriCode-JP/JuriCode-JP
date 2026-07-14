@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-96-2-p1-hashira
+    type: hashira
+    text: 医薬品の製造業者（法第十七条第五項ただし書第一号に規定する医薬品についてのみその製造をする製造業者及び法第十三条の二の二の登録を受けて保管のみを行う製造業者を除く。）であつて、その医薬品製造管理者として薬剤師以外の技術者を置く場合にあつては、当該医薬品の製造業者が遵守すべき事項は、次の各号に掲げる措置を講ずることとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-96-2-p1-kou-1
+    type: kou
+    text: 一　医薬品製造管理者補佐薬剤師を置くこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-96-2-p1-kou-2
+    type: kou
+    text: 二　医薬品製造管理者として法第十七条第六項に規定する能力及び経験を有する薬剤師を置くために必要な措置
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第九十六条の二
 
 医薬品の製造業者（法第十七条第五項ただし書第一号に規定する医薬品についてのみその製造をする製造業者及び法第十三条の二の二の登録を受けて保管のみを行う製造業者を除く。）であつて、その医薬品製造管理者として薬剤師以外の技術者を置く場合にあつては、当該医薬品の製造業者が遵守すべき事項は、次の各号に掲げる措置を講ずることとする。
+
+一　医薬品製造管理者補佐薬剤師を置くこと。
+
+二　医薬品製造管理者として法第十七条第六項に規定する能力及び経験を有する薬剤師を置くために必要な措置

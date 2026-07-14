@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-8-17-2-p1
+    type: simple
+    text: 法第五十三条第十三項に規定する通算対象所得金額（次項及び次条において「通算対象所得金額」という。）の生じた事業年度後最初の事業年度について法人税法第七十一条第一項（同法第七十二条第一項の規定が適用される場合に限る。）の規定により法人税に係る申告書を提出する義務がある法人について法第五十三条第十三項の規定を適用する場合における同条第十四項の規定の適用については、同項中「同項の法人の当該通算対象所得金額の生じた事業年度後最初の事業年度終了の日」とあるのは、「第一項に規定する六月経過日の前日」とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-8-17-2-p2
+    type: simple
+    text: 法第五十三条第十五項に規定する被合併法人等（次条及び第八条の十九において「被合併法人等」という。）の通算対象所得金額の生じた事業年度終了の日が同項に規定する適格合併の日の前日又は同項に規定する残余財産の確定の日である場合における当該通算対象所得金額に係る法第五十三条第十四項の規定の適用については、同項中「後最初の事業年度終了の日」とあるのは、「終了の日」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
 cases: []
 amendments: []
 tags:

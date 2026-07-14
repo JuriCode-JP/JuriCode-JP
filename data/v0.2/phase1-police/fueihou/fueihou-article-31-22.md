@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-22-p1
+    type: simple
+    text: 特定遊興飲食店営業を営もうとする者は、営業所ごとに、当該営業所の所在地を管轄する公安委員会の許可を受けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

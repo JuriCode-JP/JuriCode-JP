@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の二十七
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-27-p1 -->
 削除

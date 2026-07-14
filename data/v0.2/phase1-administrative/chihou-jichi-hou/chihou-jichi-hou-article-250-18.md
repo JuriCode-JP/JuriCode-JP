@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-18-p1-zen
+    type: zen_dan
+    text: 第二百五十条の十四第一項から第三項までの規定による委員会の勧告があつたときは、当該勧告を受けた国の行政庁は、当該勧告に示された期間内に、当該勧告に即して必要な措置を講ずるとともに、その旨を委員会に通知しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-250-18-p1-kou
+    type: kou_dan
+    text: この場合においては、委員会は、当該通知に係る事項を当該勧告に係る審査の申出をした普通地方公共団体の長その他の執行機関に通知し、かつ、これを公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-250-18-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-18-p2
+    type: simple
+    text: 委員会は、前項の勧告を受けた国の行政庁に対し、同項の規定により講じた措置についての説明を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

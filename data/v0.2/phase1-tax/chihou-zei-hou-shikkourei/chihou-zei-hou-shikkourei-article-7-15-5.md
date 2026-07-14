@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-15-5-p1-hashira
+    type: hashira
+    text: 法第三十四条第一項第五号ロに規定する政令で定めるものは、次に掲げる保険料又は掛金とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-7-15-5-p1-kou-1
+    type: kou
+    text: 一　法第三十四条第七項第一号イに掲げる契約の内容と同項第三号イに掲げる契約の内容とが一体となつて効力を有する一の保険契約のうち、特定介護医療保険契約に係る保険料
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-7-15-5-p1-kou-2
+    type: kou
+    text: 二　法第三十四条第七項第一号ハに掲げる契約の内容と同項第三号ロに掲げる生命共済契約等の内容とが一体となつて効力を有する一の共済に係る契約のうち、特定介護医療共済契約に係る掛金
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第七条の十五の五
 
 法第三十四条第一項第五号ロに規定する政令で定めるものは、次に掲げる保険料又は掛金とする。
+
+一　法第三十四条第七項第一号イに掲げる契約の内容と同項第三号イに掲げる契約の内容とが一体となつて効力を有する一の保険契約のうち、特定介護医療保険契約に係る保険料
+
+二　法第三十四条第七項第一号ハに掲げる契約の内容と同項第三号ロに掲げる生命共済契約等の内容とが一体となつて効力を有する一の共済に係る契約のうち、特定介護医療共済契約に係る掛金

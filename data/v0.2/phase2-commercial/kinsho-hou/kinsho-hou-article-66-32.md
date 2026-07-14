@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-32-p1
+    type: simple
+    text: 信用格付業者並びにその役員及び使用人は、独立した立場において公正かつ誠実にその業務を遂行しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

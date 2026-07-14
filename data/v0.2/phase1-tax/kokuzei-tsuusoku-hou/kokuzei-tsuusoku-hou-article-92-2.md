@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-92-2-p1
+    type: simple
+    text: 審査請求人、参加人及び次条第一項に規定する原処分庁（以下「審理関係人」という。）並びに担当審判官は、簡易迅速かつ公正な審理の実現のため、審理において、相互に協力するとともに、審理手続の計画的な進行を図らなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

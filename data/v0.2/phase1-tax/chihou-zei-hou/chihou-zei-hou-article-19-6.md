@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-6-p1-zen
+    type: zen_dan
+    text: 第十九条第三号から第八号までに掲げる処分についての審査請求があつた場合においては、その審査請求に対する裁決の権限を有する者は、関係地方団体の長に対し、審査請求があつた旨その他必要な事項を通知しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-19-6-p1-kou
+    type: kou_dan
+    text: この場合においては、審査請求があつた旨その他必要な事項を官報に登載することによつて、当該通知に代えることができる。
+    modality: kanou_kenri
+    depends_on: chihou-zei-hou-art-19-6-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-6-p2
+    type: junyou
+    text: 前項の規定は、同項に規定する審査請求に対する裁決の権限を有する者が当該審査請求に対する裁決をした場合に準用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

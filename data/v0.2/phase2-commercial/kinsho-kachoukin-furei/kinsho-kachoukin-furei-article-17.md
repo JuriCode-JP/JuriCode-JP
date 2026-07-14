@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十七条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-17-p1 -->
 金融庁長官は、法第百八十条第二項の規定により審判事件を担当する審判官を指定したときは、その氏名を被審人又はその代理人に通知しなければならない。
 
 ### 第十七条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-17-p2 -->
 金融庁長官は、法第百八十条第三項の規定により審判長を指定したときは、その氏名を被審人又はその代理人に通知しなければならない。

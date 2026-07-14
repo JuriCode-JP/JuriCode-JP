@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-10-p1
+    type: simple
+    text: 課徴金納付命令（第七十五条の五の五第八項の規定による変更後のものを含む。以下同じ。）は、文書によつて行い、課徴金納付命令書には、納付すべき課徴金の額、課徴金の計算の基礎及び当該課徴金に係る課徴金対象行為並びに納期限を記載しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-10-p2
+    type: simple
+    text: 課徴金納付命令は、その名宛人に課徴金納付命令書の謄本を送達することによつて、その効力を生ずる。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-10-p3
+    type: simple
+    text: 第一項の課徴金の納期限は、課徴金納付命令書の謄本を発する日から七月を経過した日とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

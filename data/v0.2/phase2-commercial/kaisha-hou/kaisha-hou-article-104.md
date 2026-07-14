@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四条
 
-<!-- segment: simple id: kaisha-hou-art-104-p1 -->
 株主の責任は、その有する株式の引受価額を限度とする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-10-p1
+    type: junyou
+    text: 第八十九条の四から第八十九条の八までの規定は、自主規制法人について準用する。この場合において、第八十九条の四及び第八十九条の五中「第八十九条の二第二項」とあるのは、「第百二条の九第二項」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

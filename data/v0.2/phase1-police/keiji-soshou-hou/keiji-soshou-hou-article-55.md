@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -61,16 +61,12 @@ parent_section:
 
 ### 第五十五条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-55-p1 -->
 期間の計算については、時で計算するものは、即時からこれを起算し、日、月又は年で計算するものは、初日を算入しない。但し、時効期間の初日は、時間を論じないで一日としてこれを計算する。
 
 ### 第五十五条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-55-p2 -->
 月及び年は、暦に従つてこれを計算する。
 
 ### 第五十五条第三項
 
-<!-- segment: honbun id: keiji-soshou-hou-art-55-p3-honbun -->
-期間の末日が日曜日、土曜日、国民の祝日に関する法律（昭和二十三年法律第百七十八号）に規定する休日、一月二日、一月三日又は十二月二十九日から十二月三十一日までの日に当たるときは、これを期間に算入しない。<!-- segment: tadashi id: keiji-soshou-hou-art-55-p3-tadashi -->
-ただし、時効期間については、この限りでない。
+期間の末日が日曜日、土曜日、国民の祝日に関する法律（昭和二十三年法律第百七十八号）に規定する休日、一月二日、一月三日又は十二月二十九日から十二月三十一日までの日に当たるときは、これを期間に算入しない。ただし、時効期間については、この限りでない。

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-5-p1
+    type: simple
+    text: 法第百八十五条の七第十一項に規定する内閣府令で定めるところによりそれぞれの新決定に係る事実について個別決定ごとの算出額に応じて按分して得た額は、同項第一号に掲げる額から同項第二号に掲げる額を控除した額に、同条第十項に規定する個別決定ごとの算出額を合計した額に占める当該個別決定ごとの算出額の割合を乗じて得た額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

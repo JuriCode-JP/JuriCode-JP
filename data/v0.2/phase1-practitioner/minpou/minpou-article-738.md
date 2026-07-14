@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百三十八条
 
-<!-- segment: simple id: minpou-art-738-p1 -->
 成年被後見人が婚姻をするには、その成年後見人の同意を要しない。

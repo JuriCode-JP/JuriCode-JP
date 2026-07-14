@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 国内に居住することとなつた個人が次の各号のいずれかに該当する場合には、その者は、国内に住所を有する者と推定する。
     modality: unspecified
+  - id: shotoku-zei-hou-shikkourei-art-14-p1-kou-1
+    type: kou
+    text: 一　その者が国内において、継続して一年以上居住することを通常必要とする職業を有すること。
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-14-p1-kou-2
+    type: kou
+    text: 二　その者が日本の国籍を有し、かつ、その者が国内において生計を一にする配偶者その他の親族を有することその他国内におけるその者の職業及び資産の有無等の状況に照らし、その者が国内において継続して一年以上居住するものと推測するに足りる事実があること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第十四条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-14-p1-hashira -->
 国内に居住することとなつた個人が次の各号のいずれかに該当する場合には、その者は、国内に住所を有する者と推定する。
+
+一　その者が国内において、継続して一年以上居住することを通常必要とする職業を有すること。
+
+二　その者が日本の国籍を有し、かつ、その者が国内において生計を一にする配偶者その他の親族を有することその他国内におけるその者の職業及び資産の有無等の状況に照らし、その者が国内において継続して一年以上居住するものと推測するに足りる事実があること。
 
 ### 第十四条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-14-p2 -->
 前項の規定により国内に住所を有する者と推定される個人と生計を一にする配偶者その他その者の扶養する親族が国内に居住する場合には、これらの者も国内に住所を有する者と推定する。

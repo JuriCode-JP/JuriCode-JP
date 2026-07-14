@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-9-p1
+    type: simple
+    text: 期間を指定されて拘置の執行停止をされた者が、正当な理由がなく、当該期間の終期として指定された日時に、出頭すべき場所として指定された場所に出頭しないときは、二年以下の拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

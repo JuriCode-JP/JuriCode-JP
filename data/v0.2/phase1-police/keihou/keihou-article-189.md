@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百八十九条
 
-<!-- segment: simple id: keihou-art-189-p1 -->
 墳墓を発掘した者は、二年以下の拘禁刑に処する。

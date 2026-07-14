@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八条
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-8-p1 -->
 削除

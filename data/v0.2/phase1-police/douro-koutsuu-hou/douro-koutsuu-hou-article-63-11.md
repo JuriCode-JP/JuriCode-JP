@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-11-p1
+    type: simple
+    text: 自転車の運転者は、乗車用ヘルメットをかぶるよう努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-11-p2
+    type: simple
+    text: 自転車の運転者は、他人を当該自転車に乗車させるときは、当該他人に乗車用ヘルメットをかぶらせるよう努めなければならない。
+    modality: doryoku_gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-11-p3
+    type: simple
+    text: 児童又は幼児を保護する責任のある者は、児童又は幼児が自転車を運転するときは、当該児童又は幼児に乗車用ヘルメットをかぶらせるよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

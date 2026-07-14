@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百六十三条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-263-p1 -->
 令第七十三条の規定による調査の結果の通知は、厚生労働大臣に対し、様式第二十六による通知書によつて行うものとする。

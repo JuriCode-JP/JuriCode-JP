@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百九十九条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-299-p1 -->
 法第百七十五条第三号（内国法人に係る所得税の税率）に規定する政令で定める金額は、前条第一項に規定する金額とする。

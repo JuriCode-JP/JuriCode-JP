@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-5-p1
+    type: simple
+    text: 内国法人に対して課する各対象会計年度の国際最低課税額に対する法人税の額は、各対象会計年度の課税標準国際最低課税額に百分の九十・七の税率を乗じて計算した金額とする。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2024-04-01'

@@ -4,13 +4,13 @@
   "law_name_ja": "行政不服審査法",
   "law_abbrev": "gyousei-fufuku-shinsa-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/426AC0000000068",
-  "source_xml_path": "../../../cache/laws/426AC0000000068.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\426AC0000000068.xml",
   "source_xml_sha256": "fe5dd06304c4fe87861f8c5263a174bd3deedbc493c75ba348974848d89ebe58",
   "source_xml_bytes": 310506,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:39+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-14T01:43:39+00:00",
   "version_date": "2014-06-13",
   "article_count": 87,
   "articles": [
@@ -18,696 +18,696 @@
       "article_id": "gyousei-fufuku-shinsa-hou-art-1",
       "article_number": "1",
       "filename": "gyousei-fufuku-shinsa-hou-article-1.md",
-      "ja_text_sha256": "3f969fe1d0017957d18de71030a2c988aab0f0e1ccbfddef583f47b5c522070e",
-      "ja_text_bytes": 787,
+      "ja_text_sha256": "0da71ae66461915f3fddb6c7c8f0a05f9625b4604972bd64486c88e2716ccd3c",
+      "ja_text_bytes": 659,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-10",
       "article_number": "10",
       "filename": "gyousei-fufuku-shinsa-hou-article-10.md",
-      "ja_text_sha256": "c9f13ea74324cf7217b4492699b32f14af87750db26d6159e7f794f8ccb39166",
-      "ja_text_bytes": 209,
+      "ja_text_sha256": "3e256bb91142809859a3da55532e021fd9059fd187bb51e063356e1690bb4e86",
+      "ja_text_bytes": 144,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-11",
       "article_number": "11",
       "filename": "gyousei-fufuku-shinsa-hou-article-11.md",
-      "ja_text_sha256": "e518bf8c1913546a982575fd28d590224bfc63477eb064eca866d1b887a54912",
-      "ja_text_bytes": 1399,
+      "ja_text_sha256": "c91b7d07a71c91e7c32568c45a9fc8b35d1b572535658aa9761830dc791dbc34",
+      "ja_text_bytes": 1009,
       "paragraph_count": 6
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-12",
       "article_number": "12",
       "filename": "gyousei-fufuku-shinsa-hou-article-12.md",
-      "ja_text_sha256": "2bd16a64a05ec59769aefe2185991ec9851cbfb34471923562f54d1f08cf4038",
-      "ja_text_bytes": 531,
+      "ja_text_sha256": "a1253eabb4aa72ea15a43599756835c3deba52d5268a76a152f339f0cf0301de",
+      "ja_text_bytes": 320,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-13",
       "article_number": "13",
       "filename": "gyousei-fufuku-shinsa-hou-article-13.md",
-      "ja_text_sha256": "61c335ff2c2c3c108e1f0567ae16c8ad835b09d7c4f6649a64b5c635c9599364",
-      "ja_text_bytes": 1301,
+      "ja_text_sha256": "c8b43ceaef3b8b5db0b2cc17ec728d6385c0e63385595c812cafc5b18353b6d1",
+      "ja_text_bytes": 960,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-14",
       "article_number": "14",
       "filename": "gyousei-fufuku-shinsa-hou-article-14.md",
-      "ja_text_sha256": "230a20ff7e8447fa8c0ed80ebe0b8e0a9efde73206cbde492bf8e0caec745519",
-      "ja_text_bytes": 810,
+      "ja_text_sha256": "3ce814c1ef66254a6642118070271a5d60b44ea9b76ea7bd93882b9d8fe23e68",
+      "ja_text_bytes": 618,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-15",
       "article_number": "15",
       "filename": "gyousei-fufuku-shinsa-hou-article-15.md",
-      "ja_text_sha256": "2241f099fce3df1079e6192dfc4ff465f858fb2a6416e61b97b1b3dffa8668fc",
-      "ja_text_bytes": 2335,
+      "ja_text_sha256": "dbfdabe3ca651922c6b4bfe2e223c7f7758d25cc284f1397e95edf148fd1e726",
+      "ja_text_bytes": 1945,
       "paragraph_count": 6
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-16",
       "article_number": "16",
       "filename": "gyousei-fufuku-shinsa-hou-article-16.md",
-      "ja_text_sha256": "f1b279357db100dc313f67dc73ec2b3d961a1df0260ddedce89853c6e2a55ca8",
-      "ja_text_bytes": 806,
+      "ja_text_sha256": "0a1cc5826c46ca269367294a8ede3c62cf1b042b774250cba354d2341621a6b6",
+      "ja_text_bytes": 741,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-17",
       "article_number": "17",
       "filename": "gyousei-fufuku-shinsa-hou-article-17.md",
-      "ja_text_sha256": "292414c8ebc5ecac5d69e6b38281c4a90b918e5c31516c9ca9776028c01d0e0b",
-      "ja_text_bytes": 392,
+      "ja_text_sha256": "083261cd5385aa260a07754f66739255a53ef79ecf565c771fa34c8af38866b9",
+      "ja_text_bytes": 327,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-18",
       "article_number": "18",
       "filename": "gyousei-fufuku-shinsa-hou-article-18.md",
-      "ja_text_sha256": "6ea02f15facfc3bd36aca77af019b7ccd4621d065598d47ba54168cf838c8495",
-      "ja_text_bytes": 1624,
+      "ja_text_sha256": "791f06630066792ebed6d8b3af59158e8fb67d193ce7fd4fc63393e364b30149",
+      "ja_text_bytes": 1267,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-19",
       "article_number": "19",
       "filename": "gyousei-fufuku-shinsa-hou-article-19.md",
-      "ja_text_sha256": "6a9839b602ef94b1db395fc4a12eaf26e3c3c620cf4687ec9680a6372aa8908b",
-      "ja_text_bytes": 1437,
+      "ja_text_sha256": "1f298576a31023c5846a7bf33023814af63274fa2fad13c3c35f19d1f45fd12d",
+      "ja_text_bytes": 2186,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-2",
       "article_number": "2",
       "filename": "gyousei-fufuku-shinsa-hou-article-2.md",
-      "ja_text_sha256": "13f82409008d057731dc4caa3fb49cf9472669a36da217f92da79577c1af9979",
-      "ja_text_bytes": 217,
+      "ja_text_sha256": "c5a3459fb556f2ea54058cb9c65be561481de22f65dfa222961da14191d1db6f",
+      "ja_text_bytes": 153,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-20",
       "article_number": "20",
       "filename": "gyousei-fufuku-shinsa-hou-article-20.md",
-      "ja_text_sha256": "57e5a2fe63dc50a13e697d6352ff6e0dcde369c0fd1918d066575a95f995642f",
-      "ja_text_bytes": 528,
+      "ja_text_sha256": "1dec9d3ea770ae5feaf1a6af0a5b981f73703ead8485d8385e68177d04e119b0",
+      "ja_text_bytes": 336,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-21",
       "article_number": "21",
       "filename": "gyousei-fufuku-shinsa-hou-article-21.md",
-      "ja_text_sha256": "58827bd86611c05ea404f0428243c2640d8311b2ac38e0fa7ee3f9b3263ddde8",
-      "ja_text_bytes": 1256,
+      "ja_text_sha256": "218758920a1b9d9d8d30779fd3c52ea29a72a4fe386b22ff3737f410fb2ddb6d",
+      "ja_text_bytes": 934,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-22",
       "article_number": "22",
       "filename": "gyousei-fufuku-shinsa-hou-article-22.md",
-      "ja_text_sha256": "77126ff5ef834979e59cb1477063e81933206d0ac432c4a7db2cff585dfc81ef",
-      "ja_text_bytes": 3049,
+      "ja_text_sha256": "f4cd09c07e3cbc086a1452cbee9983a432a5df9b5abd2e6033cf4580f5321b92",
+      "ja_text_bytes": 2597,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-23",
       "article_number": "23",
       "filename": "gyousei-fufuku-shinsa-hou-article-23.md",
-      "ja_text_sha256": "b0813d25140ee700e53000344d33ce7a67aec072deaa58a07fbace3fb0d300f5",
-      "ja_text_bytes": 260,
+      "ja_text_sha256": "ecdf4284208446aac86c576aeeb885068de6e5073aabed4bb8e762f1318855ca",
+      "ja_text_bytes": 195,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-24",
       "article_number": "24",
       "filename": "gyousei-fufuku-shinsa-hou-article-24.md",
-      "ja_text_sha256": "e47724b82d55d12d47e049d2963f6c8160df774985facb39e736a96c9d5dad7c",
-      "ja_text_bytes": 576,
+      "ja_text_sha256": "f43994e06f287c10eb9570515211ab2214066f9c6ca398ad89d021dbc9cf0e20",
+      "ja_text_bytes": 446,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-25",
       "article_number": "25",
       "filename": "gyousei-fufuku-shinsa-hou-article-25.md",
-      "ja_text_sha256": "671130b94b64968d948985eb43104f8ece6d139eb2814311fa583ccbbc2dd82f",
-      "ja_text_bytes": 2654,
+      "ja_text_sha256": "16b58893824c5854d7ef859b9d3da9dbc155f82417a5e832b03a6fe034a9dce7",
+      "ja_text_bytes": 2037,
       "paragraph_count": 7
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-26",
       "article_number": "26",
       "filename": "gyousei-fufuku-shinsa-hou-article-26.md",
-      "ja_text_sha256": "bc4bef2336803bba15ce5b83f9f581f5a90e3aad8b06fb6805bac74b83e32619",
-      "ja_text_bytes": 314,
+      "ja_text_sha256": "c58fda2512a84a355988ba6dcef5256bdcf62ec6e8e7dbf9632de048b7a6b616",
+      "ja_text_bytes": 249,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-27",
       "article_number": "27",
       "filename": "gyousei-fufuku-shinsa-hou-article-27.md",
-      "ja_text_sha256": "dade090bfbe72f1df6329935be422c37f6b038d63ea4d82f98b7ff81e7122f36",
-      "ja_text_bytes": 312,
+      "ja_text_sha256": "3ff72cc5024625ccacbc930556c8dc5bf8acba02a0036b0b541c6f443af8919e",
+      "ja_text_bytes": 182,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-28",
       "article_number": "28",
       "filename": "gyousei-fufuku-shinsa-hou-article-28.md",
-      "ja_text_sha256": "8d0be66617e7985f01687148734928ae1de7f157701a8b015a2bbc6e9da09b9f",
-      "ja_text_bytes": 359,
+      "ja_text_sha256": "d3434ae61de374ed9e0818432a1754b027c147984c253c228f5c9486dc6339b2",
+      "ja_text_bytes": 294,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-29",
       "article_number": "29",
       "filename": "gyousei-fufuku-shinsa-hou-article-29.md",
-      "ja_text_sha256": "42e8174552dcd83e2655aa130afd79da86c7e8a48a3ec10bb119515eece4e607",
-      "ja_text_bytes": 1245,
+      "ja_text_sha256": "dbee9945b2759df20b5ba4a773b8786b640b081368c945bb6d494202f599c37b",
+      "ja_text_bytes": 1258,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-3",
       "article_number": "3",
       "filename": "gyousei-fufuku-shinsa-hou-article-3.md",
-      "ja_text_sha256": "6194722d2c69aefbe4d3e19bdc422f3791f6ae069f4ae3b996f71d2fbca3b631",
-      "ja_text_bytes": 481,
+      "ja_text_sha256": "90252d08fc0ed94bff0a4d0f11efecb7a92d9601ea77b3291c836e62cf42e69f",
+      "ja_text_bytes": 417,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-30",
       "article_number": "30",
       "filename": "gyousei-fufuku-shinsa-hou-article-30.md",
-      "ja_text_sha256": "62962ee42aeeb5c4649923bd3227a8d04be02b4748bf38e5309334d379af5e9b",
-      "ja_text_bytes": 1488,
+      "ja_text_sha256": "5f68a9bbcd43bb0aacfc2f9e8e8ff8b09b975ffc1026a724121b0a34fc742d73",
+      "ja_text_bytes": 1039,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-31",
       "article_number": "31",
       "filename": "gyousei-fufuku-shinsa-hou-article-31.md",
-      "ja_text_sha256": "d8ff76c5adc29d72f90097e69c4550a7fd5082a87c1db67371be68bdabae114b",
-      "ja_text_bytes": 1647,
+      "ja_text_sha256": "6b59a6f58503af2dcb96389c296150d5121422bc2df3d569aeabb6354fa3b193",
+      "ja_text_bytes": 1241,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-32",
       "article_number": "32",
       "filename": "gyousei-fufuku-shinsa-hou-article-32.md",
-      "ja_text_sha256": "55892a66a3fcfdd3fee6445fabed22de6d6ee3bd00c1805cb227aea0e95ad7d3",
-      "ja_text_bytes": 655,
+      "ja_text_sha256": "55a53368a57ab8f551c0c7846e452529a2861a54a2221f1a2a4466e74d6a0b54",
+      "ja_text_bytes": 460,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-33",
       "article_number": "33",
       "filename": "gyousei-fufuku-shinsa-hou-article-33.md",
-      "ja_text_sha256": "085ca68246e845c5be68e9ae503ce883f67e38f457e91029243305458f2fab83",
-      "ja_text_bytes": 519,
+      "ja_text_sha256": "81d8eb1f202074ff38788fac8b680b31148e03c17026df5e86c16f60d962be9c",
+      "ja_text_bytes": 327,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-34",
       "article_number": "34",
       "filename": "gyousei-fufuku-shinsa-hou-article-34.md",
-      "ja_text_sha256": "a48cae584eebc73d5736275b3aafd142e1538e1293ac0404a1462dfda026f8da",
-      "ja_text_bytes": 293,
+      "ja_text_sha256": "3b0f45f3fb5480ef2e18c22023758d3604b075d315c156d2c94ad1f23a1bc58f",
+      "ja_text_bytes": 228,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-35",
       "article_number": "35",
       "filename": "gyousei-fufuku-shinsa-hou-article-35.md",
-      "ja_text_sha256": "03be6ca8d409fb5fd714e44c6b52349deec5a2c1d608ffa1665ef55e2e31ec09",
-      "ja_text_bytes": 549,
+      "ja_text_sha256": "e821e885dda765a13bc697322dd0c417777b593211bfd1c29563f22d919eb0c9",
+      "ja_text_bytes": 419,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-36",
       "article_number": "36",
       "filename": "gyousei-fufuku-shinsa-hou-article-36.md",
-      "ja_text_sha256": "88adc2bb5bc4141e88eaac0c2caff8fab2ea1d7c0c9870fb814419e3c313ce26",
-      "ja_text_bytes": 245,
+      "ja_text_sha256": "90ab05283199987856d15aee5b57c23c141f2cd120cc8880254c7f95d2420971",
+      "ja_text_bytes": 180,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-37",
       "article_number": "37",
       "filename": "gyousei-fufuku-shinsa-hou-article-37.md",
-      "ja_text_sha256": "67b79b7f91f59f03ab24f036cd5af839cf11aec1205a889db1583ee9137796be",
-      "ja_text_bytes": 1471,
+      "ja_text_sha256": "dca756006ea518649262cad22da20506118876e538d09d79905ea5577922339d",
+      "ja_text_bytes": 1270,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-38",
       "article_number": "38",
       "filename": "gyousei-fufuku-shinsa-hou-article-38.md",
-      "ja_text_sha256": "391bb4943437e23f9bb945cb65faa18877bc2f28fea7116c65f5174ef2113065",
-      "ja_text_bytes": 3167,
+      "ja_text_sha256": "c0abe2e768431ae6d3383db1470f5fe032d78d9d89e436742693fbc91983dfbd",
+      "ja_text_bytes": 2569,
       "paragraph_count": 6
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-39",
       "article_number": "39",
       "filename": "gyousei-fufuku-shinsa-hou-article-39.md",
-      "ja_text_sha256": "5efabfaff4be0c195d15435d6aed973ac2a41add40c707a25b809f573ae8bcf7",
-      "ja_text_bytes": 278,
+      "ja_text_sha256": "08f19c56e7ec979178eca0d6bee4fb9f139736d8edd425d3f5594d232d16ea74",
+      "ja_text_bytes": 213,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-4",
       "article_number": "4",
       "filename": "gyousei-fufuku-shinsa-hou-article-4.md",
-      "ja_text_sha256": "281149a5cd7b858f4b23e403e2448210a0d0900008cd09d7d3f6ac7ab61a6f13",
-      "ja_text_bytes": 322,
+      "ja_text_sha256": "9bd4da567380a2de6c7c30582db60b6e15d228910575c88b55f2374e6bdadbeb",
+      "ja_text_bytes": 1279,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-40",
       "article_number": "40",
       "filename": "gyousei-fufuku-shinsa-hou-article-40.md",
-      "ja_text_sha256": "5287051a53c5275876a87c8e327f2b62f92dd73f6d057ac93f8f37037915c9f6",
-      "ja_text_bytes": 218,
+      "ja_text_sha256": "2cd9fa2acd0b496750b0d6f4bed23681a23a2c72a16bbb4e198040366240319e",
+      "ja_text_bytes": 153,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-41",
       "article_number": "41",
       "filename": "gyousei-fufuku-shinsa-hou-article-41.md",
-      "ja_text_sha256": "31e6ae0bc3a869037d8f861a4098bd7502afd4f762e394b8c67f0c7ca749c1a7",
-      "ja_text_bytes": 1048,
+      "ja_text_sha256": "727b8fe5bb32973feaafc0247561ae8eae3bd80d94429e27e8f95def18b1965c",
+      "ja_text_bytes": 1535,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-42",
       "article_number": "42",
       "filename": "gyousei-fufuku-shinsa-hou-article-42.md",
-      "ja_text_sha256": "39417c2590b3e53e32b08faca096ae186db48e3dfacc1366a492c8e5518add74",
-      "ja_text_bytes": 495,
+      "ja_text_sha256": "1400e0043819f02f2d57004d081d8205e54741ab89b4b4637c5aa84b4728b2eb",
+      "ja_text_bytes": 365,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-43",
       "article_number": "43",
       "filename": "gyousei-fufuku-shinsa-hou-article-43.md",
-      "ja_text_sha256": "c689909bff01b89ac4c27885ba9b1467cc0166dd697ca2688ac8f9aef79e93aa",
-      "ja_text_bytes": 1258,
+      "ja_text_sha256": "aef6eab2957d3a31726e4b157a1972a55049d5defd62f912f3adfd1f014b93d9",
+      "ja_text_bytes": 3925,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-44",
       "article_number": "44",
       "filename": "gyousei-fufuku-shinsa-hou-article-44.md",
-      "ja_text_sha256": "e856002b7a9db4b095c71fb5a23a7724742c19a5c50a39834885c4b1283eace9",
-      "ja_text_bytes": 536,
+      "ja_text_sha256": "5d28a94dc9cc8f648ec88ed0e40f5d59de9117464befc109d90fc4316c246da4",
+      "ja_text_bytes": 471,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-45",
       "article_number": "45",
       "filename": "gyousei-fufuku-shinsa-hou-article-45.md",
-      "ja_text_sha256": "d0cbe0294d7bfc585411d525c05f384dc5368476ee076a2086d98bceb8e4f474",
-      "ja_text_bytes": 1189,
+      "ja_text_sha256": "47527574b2100b46924ef10e9f3251970507cf7f22950e16957487106c431d23",
+      "ja_text_bytes": 994,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-46",
       "article_number": "46",
       "filename": "gyousei-fufuku-shinsa-hou-article-46.md",
-      "ja_text_sha256": "1071d0b2a8d95554ea0aca68f00c8062cc1fd8a76553e7af48c3ec1ce69dd17e",
-      "ja_text_bytes": 1886,
+      "ja_text_sha256": "c59ccef48d5e8a8efa189ddf0cbfb514f42b4d639e72cafa2699d474a16a0985",
+      "ja_text_bytes": 1727,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-47",
       "article_number": "47",
       "filename": "gyousei-fufuku-shinsa-hou-article-47.md",
-      "ja_text_sha256": "cb52870a9d3d1863cd68722bbce4732ca72804b9d8d8f613324875924c205496",
-      "ja_text_bytes": 611,
+      "ja_text_sha256": "a1e7bcdf372f39e96d364d89a5e2b8b5d6dc1feac6d0b4fd611b42b02b1536ab",
+      "ja_text_bytes": 854,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-48",
       "article_number": "48",
       "filename": "gyousei-fufuku-shinsa-hou-article-48.md",
-      "ja_text_sha256": "d2ccd628e09743afa57bb90ff311dc13fb0463cb5af688cc519e768377dbb05f",
-      "ja_text_bytes": 323,
+      "ja_text_sha256": "0f42d32eb34e895067d35f5a2af9e0c6c09cdf33e6c70e42277740a58ada878d",
+      "ja_text_bytes": 258,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-49",
       "article_number": "49",
       "filename": "gyousei-fufuku-shinsa-hou-article-49.md",
-      "ja_text_sha256": "e4fcd4d1aea8cb593f4ddb4694d937d137dd3799d46a3897f2bbf147def6a046",
-      "ja_text_bytes": 1839,
+      "ja_text_sha256": "ca81bff2d8b4a62c304154cffc96743b71fe00fd027653aed62a8f499bbed09f",
+      "ja_text_bytes": 1705,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-5",
       "article_number": "5",
       "filename": "gyousei-fufuku-shinsa-hou-article-5.md",
-      "ja_text_sha256": "f96b1cfd7c57a8f1697ddbdaaf428ade393d37c0fea60f36655f1b878c27244d",
-      "ja_text_bytes": 939,
+      "ja_text_sha256": "e8e2251a70f7a18b98cf03a276f46df5ecb6759259271db2dd2735a11b69c89e",
+      "ja_text_bytes": 1208,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-50",
       "article_number": "50",
       "filename": "gyousei-fufuku-shinsa-hou-article-50.md",
-      "ja_text_sha256": "63b50d352de30f55c1ff8da24e46d3643a8c9b9d2a3d67ed1745c980717e6041",
-      "ja_text_bytes": 862,
+      "ja_text_sha256": "1c1af5b39d6a16dbd954537a4dacfcea3481439a79bb18d2950e6211bd76ef1b",
+      "ja_text_bytes": 940,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-51",
       "article_number": "51",
       "filename": "gyousei-fufuku-shinsa-hou-article-51.md",
-      "ja_text_sha256": "71d51b9fa672b0805560b568aeb3df0be256daeb776e837cb24bf69700f5242a",
-      "ja_text_bytes": 1722,
+      "ja_text_sha256": "ee1978bebfb5a41443ef2551c56163a65b4d2774d447ff1da485f2e7489cdbad",
+      "ja_text_bytes": 1254,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-52",
       "article_number": "52",
       "filename": "gyousei-fufuku-shinsa-hou-article-52.md",
-      "ja_text_sha256": "be69c3569ddb9c9b5f8d771afd65c9931bcfc4e64d59bab7534992cf9427bc50",
-      "ja_text_bytes": 1205,
+      "ja_text_sha256": "74b2ab39eeb5930f606adb08b65eddbbc348902829185d458dca603b9f446db4",
+      "ja_text_bytes": 945,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-53",
       "article_number": "53",
       "filename": "gyousei-fufuku-shinsa-hou-article-53.md",
-      "ja_text_sha256": "25cd50935eb069b64d411c290f6155ed61daca69959b2198c84ed6d2a48aac35",
-      "ja_text_bytes": 416,
+      "ja_text_sha256": "60eaf3c9c77f82712ba6330fc35c75c9330b582b5f038060e98b4bbdf3402ab7",
+      "ja_text_bytes": 351,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-54",
       "article_number": "54",
       "filename": "gyousei-fufuku-shinsa-hou-article-54.md",
-      "ja_text_sha256": "f91667f725cb6975c74356f0d183a1ee61ecf9b22256337c097413edc9808676",
-      "ja_text_bytes": 726,
+      "ja_text_sha256": "44e0b23a81b5bf60af967104ceb22081b7586899e1e83a89d29efba990887563",
+      "ja_text_bytes": 434,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-55",
       "article_number": "55",
       "filename": "gyousei-fufuku-shinsa-hou-article-55.md",
-      "ja_text_sha256": "60c066ed7b402568bdb0f9214a8d852caace586469e0e2236a4a7826d61e6b69",
-      "ja_text_bytes": 1183,
+      "ja_text_sha256": "e758a7d8d13f77e6e9beee4601b1659823f04cbfd4c3f0fa04d6d9e1d184af20",
+      "ja_text_bytes": 907,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-56",
       "article_number": "56",
       "filename": "gyousei-fufuku-shinsa-hou-article-56.md",
-      "ja_text_sha256": "19d375563403e6eefc0ce679711e54ecaa6a98cc9e7aa828751edb2e202cbf79",
-      "ja_text_bytes": 923,
+      "ja_text_sha256": "86724bb1746ae3ba3d9a4ffd42c7d18a377b5f0d9098f3ecb490604018b232fe",
+      "ja_text_bytes": 777,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-57",
       "article_number": "57",
       "filename": "gyousei-fufuku-shinsa-hou-article-57.md",
-      "ja_text_sha256": "0968ce6dffd5e24064364d4545f1f8b58d7f1d410ed9f6d554a5ee84ffc16027",
-      "ja_text_bytes": 581,
+      "ja_text_sha256": "f294f60761a97ce4b150d25727ec797686bb418761d55bbf527f428e05e75a16",
+      "ja_text_bytes": 516,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-58",
       "article_number": "58",
       "filename": "gyousei-fufuku-shinsa-hou-article-58.md",
-      "ja_text_sha256": "794f77b9821e2fe5f1484ead4b2d51cc536b3351c8127a526f60e2e830ab3a63",
-      "ja_text_bytes": 441,
+      "ja_text_sha256": "bf70391efdd1b0d28947a06faef663cc55b5d9a5799f84004dc1e615d97e8346",
+      "ja_text_bytes": 311,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-59",
       "article_number": "59",
       "filename": "gyousei-fufuku-shinsa-hou-article-59.md",
-      "ja_text_sha256": "b748742b897a1844d672ebe7bf841b0165bb5655f91f9fc041beb417b5cd868d",
-      "ja_text_bytes": 880,
+      "ja_text_sha256": "8aee87fd0ceef34b691ce188e40797742425962dad19776531d742885328bce6",
+      "ja_text_bytes": 685,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-6",
       "article_number": "6",
       "filename": "gyousei-fufuku-shinsa-hou-article-6.md",
-      "ja_text_sha256": "ffcb75ea1cbfd2ea83dc533b2727876e3cd3f7c2ccb34ddf43a7056bd9447248",
-      "ja_text_bytes": 664,
+      "ja_text_sha256": "a994e62406839d6153ddcebd4d9dcbb46bbffc87cf32210d3fa0e7bf09532c16",
+      "ja_text_bytes": 536,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-60",
       "article_number": "60",
       "filename": "gyousei-fufuku-shinsa-hou-article-60.md",
-      "ja_text_sha256": "91704655e519e320a15567e9ab254bf603deb81949930b883e4a33fa2c7232d3",
-      "ja_text_bytes": 783,
+      "ja_text_sha256": "94e385465eae58f57dc509d326c36a1167cb006160fb2a7800c5c2a0bcdd5d7e",
+      "ja_text_bytes": 653,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-61",
       "article_number": "61",
       "filename": "gyousei-fufuku-shinsa-hou-article-61.md",
-      "ja_text_sha256": "d23d71ee7594d6cda09ae1a2cb014125c3bb933a4760993c945468440b0f5277",
-      "ja_text_bytes": 791,
+      "ja_text_sha256": "227c585ca3bce0e318b53607153e8e0131dbef7d2446a8eef8b5150c5daba103",
+      "ja_text_bytes": 690,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-62",
       "article_number": "62",
       "filename": "gyousei-fufuku-shinsa-hou-article-62.md",
-      "ja_text_sha256": "20c53a04d908c5c0bf2ba234ea76f568c576c9c46724e52f97b1efddfb13ccdf",
-      "ja_text_bytes": 726,
+      "ja_text_sha256": "a5a1c19b36c9ed9a602b25114253c352dd26e1320a1c72ad9b591df982532495",
+      "ja_text_bytes": 434,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-63",
       "article_number": "63",
       "filename": "gyousei-fufuku-shinsa-hou-article-63.md",
-      "ja_text_sha256": "91218203ac70fced2a630b6d1a38477cd4b5729e6082d8bc7ce13a6ea54de97b",
-      "ja_text_bytes": 641,
+      "ja_text_sha256": "aa3a55086a4338c643a7b2451f0a7b8747d3346b1d9d314d821d4952e90777a4",
+      "ja_text_bytes": 576,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-64",
       "article_number": "64",
       "filename": "gyousei-fufuku-shinsa-hou-article-64.md",
-      "ja_text_sha256": "2c978d3555af3a0112d5abea546fafaf43465b40bb8eb7ebaa4f34c6cd3668cd",
-      "ja_text_bytes": 1616,
+      "ja_text_sha256": "aff0b7c0bfe8943f711d562f450f10a2f16e8efc8456cdb2d7bdb0df9b224789",
+      "ja_text_bytes": 1356,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-65",
       "article_number": "65",
       "filename": "gyousei-fufuku-shinsa-hou-article-65.md",
-      "ja_text_sha256": "2aba0bb67356382e6b815635184b0741e910f84b45660774b4ac35769df13e3a",
-      "ja_text_bytes": 786,
+      "ja_text_sha256": "69cdcd153ae087f63cd84ce12cd72d3f5122ef2e32e96765413196cdf9c1647c",
+      "ja_text_bytes": 656,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-66",
       "article_number": "66",
       "filename": "gyousei-fufuku-shinsa-hou-article-66.md",
-      "ja_text_sha256": "17199fa21ff6c0b6c5a03327b9fa37bc9cb5f9921350b0ed934e2976e95b445d",
-      "ja_text_bytes": 1026,
+      "ja_text_sha256": "cd071c58172088b648dfb4e2783cd1d9ab95d2bda75c6e91093f7b8542f0afc0",
+      "ja_text_bytes": 896,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-67",
       "article_number": "67",
       "filename": "gyousei-fufuku-shinsa-hou-article-67.md",
-      "ja_text_sha256": "a1b688acfa77124ce64811cacc1d423b380d3e680a43b202670dd084211612de",
-      "ja_text_bytes": 321,
+      "ja_text_sha256": "b906b901ab078661bbd70194a548050418f56ba8a63d2e38e4adf7babe2422e0",
+      "ja_text_bytes": 191,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-68",
       "article_number": "68",
       "filename": "gyousei-fufuku-shinsa-hou-article-68.md",
-      "ja_text_sha256": "0f3ba7c9fdc1d0fbe9fd0a3e1da40b9fa2ce3f6e45c6654059e563932737cad6",
-      "ja_text_bytes": 378,
+      "ja_text_sha256": "57d6a5ddccd566bec8f7fd9997dd51c245b79d17205ce8bf3f013510528c92ac",
+      "ja_text_bytes": 167,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-69",
       "article_number": "69",
       "filename": "gyousei-fufuku-shinsa-hou-article-69.md",
-      "ja_text_sha256": "3c338dbd5ad1bce51b408491ddfce5fdb70fc8f68d9861f47a3da111cc5cc84c",
-      "ja_text_bytes": 3010,
+      "ja_text_sha256": "48a2d44229106b7506384e8f541d629cb0866e67181dcf42fa6804a1974508c7",
+      "ja_text_bytes": 2039,
       "paragraph_count": 11
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-7",
       "article_number": "7",
       "filename": "gyousei-fufuku-shinsa-hou-article-7.md",
-      "ja_text_sha256": "0339c4ffe9a6fde2e0e3c1ee3bfd5db5f44c1b383050634438f351320a2cd26e",
-      "ja_text_bytes": 553,
+      "ja_text_sha256": "67717a07a832814a401a990bb0b7855fa6f44274b184bb6c158a6fbdf859b380",
+      "ja_text_bytes": 2633,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-70",
       "article_number": "70",
       "filename": "gyousei-fufuku-shinsa-hou-article-70.md",
-      "ja_text_sha256": "c2961e83f1568f6f2cdb0e8757310d598b1ea4e1708498091c50f48774bdffaf",
-      "ja_text_bytes": 442,
+      "ja_text_sha256": "05c2b7b4f96bc47969f6f8012aa8e4f26a12570f0986bb9d3f9af1190932cd19",
+      "ja_text_bytes": 247,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-71",
       "article_number": "71",
       "filename": "gyousei-fufuku-shinsa-hou-article-71.md",
-      "ja_text_sha256": "b53231960fd5c233477b65f129a394881cc17304c9b291478f89c945474e26e1",
-      "ja_text_bytes": 638,
+      "ja_text_sha256": "76747d30c9b99d4fdeee5ed3bd758915b126381cc66c802501fa15e77049dca0",
+      "ja_text_bytes": 378,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-72",
       "article_number": "72",
       "filename": "gyousei-fufuku-shinsa-hou-article-72.md",
-      "ja_text_sha256": "c8e944cfd67b6d99cdc52facb961292c2b5489100a8cc35dc98217be930c47fa",
-      "ja_text_bytes": 544,
+      "ja_text_sha256": "13781c6581eef8da45590a33eba49eb2d8180a5f244ef25169f4a325462a9d3a",
+      "ja_text_bytes": 368,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-73",
       "article_number": "73",
       "filename": "gyousei-fufuku-shinsa-hou-article-73.md",
-      "ja_text_sha256": "d47d22bde8d32b1ed76b0e5534de919d7864241c09cc2ef66b16c75bd4326142",
-      "ja_text_bytes": 412,
+      "ja_text_sha256": "ccb298f4b646c38d5070b6c9d4f400d417d500db610c73c7ceb052988592add3",
+      "ja_text_bytes": 217,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-74",
       "article_number": "74",
       "filename": "gyousei-fufuku-shinsa-hou-article-74.md",
-      "ja_text_sha256": "06c20b617620beef2c63c6bb8b2a5d92b5f4831ef1a0385ac7df5f58a37af045",
-      "ja_text_bytes": 623,
+      "ja_text_sha256": "3af6494fa46d42a2a28333069bb30392299e77619eaac5d3a59532826c414192",
+      "ja_text_bytes": 558,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-75",
       "article_number": "75",
       "filename": "gyousei-fufuku-shinsa-hou-article-75.md",
-      "ja_text_sha256": "c23d3daa7c29447d027a6d7094076f235fbd9cdf42b1a1b34eff19981cf01bc5",
-      "ja_text_bytes": 630,
+      "ja_text_sha256": "06c34e95618c17496b098c94378ef4238969409bed0226d807f21f62c0645142",
+      "ja_text_bytes": 419,
       "paragraph_count": 2
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-76",
       "article_number": "76",
       "filename": "gyousei-fufuku-shinsa-hou-article-76.md",
-      "ja_text_sha256": "e52a0023b89372bbc2508a67070f5c9002af51493363347f6b5332768d8cc701",
-      "ja_text_bytes": 480,
+      "ja_text_sha256": "d011c118db80e1f22e6849b3c2a1964d6aa71a944c4257fc0c5ce6398d47497d",
+      "ja_text_bytes": 288,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-77",
       "article_number": "77",
       "filename": "gyousei-fufuku-shinsa-hou-article-77.md",
-      "ja_text_sha256": "00daffa27e34e4580563e27c0aa7a27f7b9bc3db2c6c874795312213eac70536",
-      "ja_text_bytes": 326,
+      "ja_text_sha256": "5e73f7fb7d9c048c3d1b388b531e3c90d4289ba76b01b2c15993867964028ceb",
+      "ja_text_bytes": 261,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-78",
       "article_number": "78",
       "filename": "gyousei-fufuku-shinsa-hou-article-78.md",
-      "ja_text_sha256": "f7f70bb743781fdb01117c84b1699aa1c397f7994219c5562fb1ffad2b427b52",
-      "ja_text_bytes": 2047,
+      "ja_text_sha256": "83a1afff05465f3900345e6084639bab8184338ac64df3c7f402e4a25a539e96",
+      "ja_text_bytes": 1514,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-79",
       "article_number": "79",
       "filename": "gyousei-fufuku-shinsa-hou-article-79.md",
-      "ja_text_sha256": "e244dd0ed65b65bfe02714beeeab8c6087cba798ae30d6d30d62d60a2b0863e1",
-      "ja_text_bytes": 254,
+      "ja_text_sha256": "62891c14f46fe702f6c924dbf913a2af6540d86d2e5124240fd3d97d98418934",
+      "ja_text_bytes": 189,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-8",
       "article_number": "8",
       "filename": "gyousei-fufuku-shinsa-hou-article-8.md",
-      "ja_text_sha256": "b8f318e62c0db7804f71e21dfaa5c8a3f6a4b37f53a1e1afc7d6658aac323acc",
-      "ja_text_bytes": 307,
+      "ja_text_sha256": "562e0b5a715800b5e876d473a236b7e4c7c556af808579d76ad5ac57b1d3e252",
+      "ja_text_bytes": 243,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-80",
       "article_number": "80",
       "filename": "gyousei-fufuku-shinsa-hou-article-80.md",
-      "ja_text_sha256": "7e6a34652327382404f19e186eed0ec04a7235ca561e94033c38e3362ee3b876",
-      "ja_text_bytes": 167,
+      "ja_text_sha256": "e1a42f9c676a37dc008960215c8aab283ba3a46f3116174a4c19eda99bfa5747",
+      "ja_text_bytes": 102,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-81",
       "article_number": "81",
       "filename": "gyousei-fufuku-shinsa-hou-article-81.md",
-      "ja_text_sha256": "dfba6c1898ed62dd977a13099a1611e453350cbb8e4aff9d2ff470f5faf8b225",
-      "ja_text_bytes": 1473,
+      "ja_text_sha256": "b049f38113c3664d248de48a4b679c505f7a995768827072afe8fb618b93e9c8",
+      "ja_text_bytes": 1167,
       "paragraph_count": 4
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-82",
       "article_number": "82",
       "filename": "gyousei-fufuku-shinsa-hou-article-82.md",
-      "ja_text_sha256": "177495842a1a8bd2a02287450cd988feb772854033678ce1ec333f8683680029",
-      "ja_text_bytes": 1396,
+      "ja_text_sha256": "fb472c5e1dff030f45de8cf4122e7e5ae95cb8e5ec464ca4b4ef78c733f6970a",
+      "ja_text_bytes": 1120,
       "paragraph_count": 3
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-83",
       "article_number": "83",
       "filename": "gyousei-fufuku-shinsa-hou-article-83.md",
-      "ja_text_sha256": "bc844c57bc5bf3d3a00db3b76d87531541d50f6200b26bde7a67ea33b8948f8b",
-      "ja_text_bytes": 1539,
+      "ja_text_sha256": "4a395d60beed609847e03f20196d9c400429753beeb2af9faa6425860695fcd1",
+      "ja_text_bytes": 1214,
       "paragraph_count": 5
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-84",
       "article_number": "84",
       "filename": "gyousei-fufuku-shinsa-hou-article-84.md",
-      "ja_text_sha256": "467bbf9829d5792a5f5cea83f860789b4e20dbb4518952c8428937dd4aeaa5bd",
-      "ja_text_bytes": 614,
+      "ja_text_sha256": "15ba113f96f2abae2cf0b0c805be9a264563ad4217b3035848de24eebb215306",
+      "ja_text_bytes": 549,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-85",
       "article_number": "85",
       "filename": "gyousei-fufuku-shinsa-hou-article-85.md",
-      "ja_text_sha256": "02280689c923338d5be64c5665e6b5b20e83a4df0ad78ea08553c16a79f95d5f",
-      "ja_text_bytes": 311,
+      "ja_text_sha256": "edd29f94bca2aff48ecab8610fbf6c8bf7551a1e27ae0b17c88123a2b5605b6c",
+      "ja_text_bytes": 246,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-86",
       "article_number": "86",
       "filename": "gyousei-fufuku-shinsa-hou-article-86.md",
-      "ja_text_sha256": "c5244bbf34fac3b151d78858c3e777f44f6475ea699ea661a7984d20f3a5de62",
-      "ja_text_bytes": 182,
+      "ja_text_sha256": "80f0a1d8735826ee0653ecb2adee5ce76318ed1531a20fe224d47b4543628a46",
+      "ja_text_bytes": 117,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-87",
       "article_number": "87",
       "filename": "gyousei-fufuku-shinsa-hou-article-87.md",
-      "ja_text_sha256": "61e48910a093984ecfe0d2a1011150219ecbeabcf3654207a7d4c22efb65fd42",
-      "ja_text_bytes": 215,
+      "ja_text_sha256": "3069f9ec2e01383bf5935184dc65be1bf47beafa0be3c33f0e0e5fced3f934ff",
+      "ja_text_bytes": 150,
       "paragraph_count": 1
     },
     {
       "article_id": "gyousei-fufuku-shinsa-hou-art-9",
       "article_number": "9",
       "filename": "gyousei-fufuku-shinsa-hou-article-9.md",
-      "ja_text_sha256": "71da07a0fff346d628c97c86ac849315c5632b1cebc9767fff7012d3f85c7db9",
-      "ja_text_bytes": 2743,
+      "ja_text_sha256": "bc2582f61f0cc0656338bb4189ba772f47a4f856e93fc1851b1f58bdb88e53db",
+      "ja_text_bytes": 3492,
       "paragraph_count": 4
     }
   ]

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-32-p1-hashira
+    type: hashira
+    text: 法第二十三条の二の五第七項第二号の厚生労働省令で定める製造工程は、次の各号に掲げるものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-32-p1-kou-1
+    type: kou
+    text: 一　滅菌
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-32-p1-kou-2
+    type: kou
+    text: 二　最終製品の保管
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-32-p1-kou-3
+    type: kou
+    text: 三　その他厚生労働大臣が適当と認める製造工程
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第百十四条の三十二
 
 法第二十三条の二の五第七項第二号の厚生労働省令で定める製造工程は、次の各号に掲げるものとする。
+
+一　滅菌
+
+二　最終製品の保管
+
+三　その他厚生労働大臣が適当と認める製造工程

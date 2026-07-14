@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百九十四条
 
-<!-- segment: junyou id: shouhou-art-594-p1 applies_provisions: 第五百八十六条 -->
 第五百八十六条の規定は、旅客運送について準用する。

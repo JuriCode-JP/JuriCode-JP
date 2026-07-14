@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-18-p1 -->
 政府は、デジタル社会に関する統計その他のデジタル社会の形成に資する資料を作成し、インターネットの利用その他適切な方法により随時公表しなければならない。

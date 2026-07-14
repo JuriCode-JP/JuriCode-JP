@@ -43,6 +43,4 @@ parent_section:
 
 ### 第七百七十七条
 
-<!-- segment: honbun id: chihou-zei-hou-art-777-p1-honbun -->
-役員は、営利を目的とする団体の役員となり、又は自ら営利事業に従事してはならない。<!-- segment: tadashi id: chihou-zei-hou-art-777-p1-tadashi -->
-ただし、代表者会議の承認を受けたときは、この限りでない。
+役員は、営利を目的とする団体の役員となり、又は自ら営利事業に従事してはならない。ただし、代表者会議の承認を受けたときは、この限りでない。

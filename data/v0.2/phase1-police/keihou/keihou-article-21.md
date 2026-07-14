@@ -19,7 +19,7 @@ paragraphs:
   segments:
   - id: keihou-art-21-p1
     type: simple
-    text: 未決勾こう留の日数は、その全部又は一部を本刑に算入することができる。
+    text: 未決勾留の日数は、その全部又は一部を本刑に算入することができる。
     modality: kanou_kenri
 cases: []
 amendments: []
@@ -33,11 +33,10 @@ parent_section:
   shou_name_ja: 第二章　刑
 ---
 
-# 刑法 第21条(（未決勾こう留日数の本刑算入）)
+# 刑法 第21条(（未決勾留日数の本刑算入）)
 
 ## 原文 (日本語)
 
 ### 第二十一条
 
-<!-- segment: simple id: keihou-art-21-p1 -->
-未決勾こう留の日数は、その全部又は一部を本刑に算入することができる。
+未決勾留の日数は、その全部又は一部を本刑に算入することができる。

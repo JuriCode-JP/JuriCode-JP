@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 責任追及等の訴えが提起された場合において、原告及び被告が共謀して責任追及等の訴えに係る訴訟の目的である株式会社等の権利を害する目的をもって判決をさせたときは、次の各号に掲げる者は、当該各号に定める訴えに係る確定した終局判決に対し、再審の訴えをもって、不服を申し立てることができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-853-p1-kou-1
+    type: kou
+    text: 一　株主又は株式会社等　責任追及等の訴え
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-853-p1-kou-2
+    type: kou
+    text: 二　適格旧株主　責任追及等の訴え（第八百四十七条の二第一項各号に掲げる行為の効力が生じた時までにその原因となった事実が生じた責任又は義務に係るものに限る。）
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-853-p1-kou-3
+    type: kou
+    text: 三　最終完全親会社等の株主　特定責任追及の訴え
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,8 +48,8 @@ paragraphs:
     applies_provisions:
     - 前条
     references:
-    - 前項
     - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -55,10 +70,14 @@ parent_section:
 
 ### 第八百五十三条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-853-p1-hashira -->
 責任追及等の訴えが提起された場合において、原告及び被告が共謀して責任追及等の訴えに係る訴訟の目的である株式会社等の権利を害する目的をもって判決をさせたときは、次の各号に掲げる者は、当該各号に定める訴えに係る確定した終局判決に対し、再審の訴えをもって、不服を申し立てることができる。
+
+一　株主又は株式会社等　責任追及等の訴え
+
+二　適格旧株主　責任追及等の訴え（第八百四十七条の二第一項各号に掲げる行為の効力が生じた時までにその原因となった事実が生じた責任又は義務に係るものに限る。）
+
+三　最終完全親会社等の株主　特定責任追及の訴え
 
 ### 第八百五十三条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-853-p2 applies_provisions: 前条 -->
 前条の規定は、前項の再審の訴えについて準用する。

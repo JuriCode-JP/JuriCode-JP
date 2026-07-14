@@ -16,22 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-14-p1
+    type: simple
+    text: 法第二十三条の二の十の二第六項の規定による届出は、様式第六十三の十九の八による届書（正副二通）を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-14-p2
+    type: simple
+    text: 前項の届書には、変更計画で確認されたとおりの試験の結果が得られたことを示す資料その他変更計画に従つた変更の内容を確認できる資料を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-14-p3-hashira
+    type: hashira
+    text: 前項に規定する資料は、医療機器の安全性に関する非臨床試験の実施の基準に関する省令及び医療機器の臨床試験の実施の基準に関する省令に定めるもののほか、次に掲げるところにより、収集され、かつ、作成されたものでなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-114-45-14-p3-kou-1
+    type: kou
+    text: 一　当該資料は、これを作成することを目的として行われた調査又は試験において得られた結果に基づき正確に作成されたものであること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-14-p3-kou-2
+    type: kou
+    text: 二　前号の調査又は試験において、申請に係る医療機器についてその申請に係る品質、有効性又は安全性を有することを疑わせる調査結果、試験成績等が得られた場合には、当該調査結果、試験成績等についても検討及び評価が行われ、その結果が当該資料に記載されていること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-45-14-p3-kou-3
+    type: kou
+    text: 三　当該資料の根拠になつた資料は、第一項の届書を提出した日から前条に定める日数が経過する日まで保存されていること。ただし、資料の性質上その保存が著しく困難であると認められるものにあつては、この限りではない。
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-14-p4
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の十の二第九項の規定により機構に同条第一項の確認を行わせることとした場合における第一項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構を経由して厚生労働大臣」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -59,6 +96,12 @@ parent_section:
 ### 第百十四条の四十五の十四第三項
 
 前項に規定する資料は、医療機器の安全性に関する非臨床試験の実施の基準に関する省令及び医療機器の臨床試験の実施の基準に関する省令に定めるもののほか、次に掲げるところにより、収集され、かつ、作成されたものでなければならない。
+
+一　当該資料は、これを作成することを目的として行われた調査又は試験において得られた結果に基づき正確に作成されたものであること。
+
+二　前号の調査又は試験において、申請に係る医療機器についてその申請に係る品質、有効性又は安全性を有することを疑わせる調査結果、試験成績等が得られた場合には、当該調査結果、試験成績等についても検討及び評価が行われ、その結果が当該資料に記載されていること。
+
+三　当該資料の根拠になつた資料は、第一項の届書を提出した日から前条に定める日数が経過する日まで保存されていること。ただし、資料の性質上その保存が著しく困難であると認められるものにあつては、この限りではない。
 
 ### 第百十四条の四十五の十四第四項
 

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-66-7-2-p1
+    type: junyou
+    text: 第四十条の十（分配時調整外国税相当額控除を受けるための添付書類）の規定は、法第百六十五条の五の三第二項（非居住者に係る分配時調整外国税相当額の控除）において準用する法第九十三条第二項（分配時調整外国税相当額控除）に規定する財務省令で定める書類について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

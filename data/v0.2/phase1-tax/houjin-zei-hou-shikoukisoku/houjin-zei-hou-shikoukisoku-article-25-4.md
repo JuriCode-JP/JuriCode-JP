@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第九十六条第二項（貸倒引当金勘定への繰入限度額）に規定する財務省令で定める書類は、次に掲げる書類とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-25-4-p1-kou-1
+    type: kou
+    text: 一　令第九十六条第一項各号に掲げる事実が生じていることを証する書類
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-25-4-p1-kou-2
+    type: kou
+    text: 二　担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二十五条の四
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-25-4-p1-hashira -->
 令第九十六条第二項（貸倒引当金勘定への繰入限度額）に規定する財務省令で定める書類は、次に掲げる書類とする。
+
+一　令第九十六条第一項各号に掲げる事実が生じていることを証する書類
+
+二　担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類

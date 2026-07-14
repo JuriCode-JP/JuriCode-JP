@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 株券には、次に掲げる事項及びその番号を記載し、株券発行会社の代表取締役（指名委員会等設置会社にあっては、代表執行役）がこれに署名し、又は記名押印しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-216-p1-kou-1
+    type: kou
+    text: 一　株券発行会社の商号
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-216-p1-kou-2
+    type: kou
+    text: 二　当該株券に係る株式の数
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-216-p1-kou-3
+    type: kou
+    text: 三　譲渡による当該株券に係る株式の取得について株式会社の承認を要することを定めたときは、その旨
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-216-p1-kou-4
+    type: kou
+    text: 四　種類株式発行会社にあっては、当該株券に係る株式の種類及びその内容
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -43,5 +63,12 @@ parent_section:
 
 ### 第二百十六条
 
-<!-- segment: hashira id: kaisha-hou-art-216-p1-hashira -->
 株券には、次に掲げる事項及びその番号を記載し、株券発行会社の代表取締役（指名委員会等設置会社にあっては、代表執行役）がこれに署名し、又は記名押印しなければならない。
+
+一　株券発行会社の商号
+
+二　当該株券に係る株式の数
+
+三　譲渡による当該株券に係る株式の取得について株式会社の承認を要することを定めたときは、その旨
+
+四　種類株式発行会社にあっては、当該株券に係る株式の種類及びその内容

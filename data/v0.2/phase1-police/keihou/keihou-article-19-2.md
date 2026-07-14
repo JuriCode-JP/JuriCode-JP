@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-19-2-p1
+    type: simple
+    text: 前条第一項第三号又は第四号に掲げる物の全部又は一部を没収することができないときは、その価額を追徴することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

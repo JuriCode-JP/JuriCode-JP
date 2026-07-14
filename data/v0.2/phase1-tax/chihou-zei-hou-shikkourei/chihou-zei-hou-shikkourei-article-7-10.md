@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 法第三十二条第十項に規定するたな卸をすべきものとして政令で定める資産は、次に掲げる資産とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-1
+    type: kou
+    text: 一　商品又は製品（副産物及び作業くずを含む。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-2
+    type: kou
+    text: 二　半製品
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-3
+    type: kou
+    text: 三　仕掛品（半成工事を含む。）
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-4
+    type: kou
+    text: 四　主要原材料
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-5
+    type: kou
+    text: 五　補助原材料
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-6
+    type: kou
+    text: 六　消耗品で貯蔵中のもの
+    modality: unspecified
+    item_number: 6
+  - id: chihou-zei-hou-shikkourei-art-7-10-p1-kou-7
+    type: kou
+    text: 七　前各号に掲げる資産に準ずるもの
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -39,5 +74,18 @@ parent_section:
 
 ### 第七条の十
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-7-10-p1-hashira -->
 法第三十二条第十項に規定するたな卸をすべきものとして政令で定める資産は、次に掲げる資産とする。
+
+一　商品又は製品（副産物及び作業くずを含む。）
+
+二　半製品
+
+三　仕掛品（半成工事を含む。）
+
+四　主要原材料
+
+五　補助原材料
+
+六　消耗品で貯蔵中のもの
+
+七　前各号に掲げる資産に準ずるもの

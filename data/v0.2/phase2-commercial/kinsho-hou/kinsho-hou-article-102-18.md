@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-18-p1
+    type: simple
+    text: 自主規制法人は、金融商品取引所の委託を受けて、当該金融商品取引所に係る自主規制業務を行う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

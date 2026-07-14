@@ -16,7 +16,17 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-7-p1
+    type: tokusoku
+    text: 前条第一項の規定にかかわらず、総務大臣が調査の相手方である納税義務者の過去の調査結果の内容又はその営む事業内容に関する情報その他総務大臣が保有する情報に鑑み、違法又は不当な行為を容易にし、正確な事実の把握を困難にするおそれその他法人の行う事業に対する事業税に関する調査の適正な遂行に支障を及ぼすおそれがあると認める場合には、同項の規定による通知を要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

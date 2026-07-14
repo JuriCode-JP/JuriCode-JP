@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-644-2-p1
+    type: simple
+    text: 受任者は、委任者の許諾を得たとき、又はやむを得ない事由があるときでなければ、復受任者を選任することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-644-2-p2
+    type: simple
+    text: 代理権を付与する委任において、受任者が代理権を有する復受任者を選任したときは、復受任者は、委任者に対して、その権限の範囲内において、受任者と同一の権利を有し、義務を負う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

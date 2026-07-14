@@ -14,14 +14,39 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-30-p1-hashira
+    type: hashira
+    text: 発起人は、創立総会の終了後遅滞なく、次に掲げる事項を記載した認可申請書を内閣総理大臣及び財務大臣に提出して、設立の認可を受けなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-79-30-p1-kou-1
+    type: kou
+    text: 一　名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-79-30-p1-kou-2
+    type: kou
+    text: 二　事務所の所在の場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-79-30-p1-kou-3
+    type: kou
+    text: 三　役員の氏名及び会員の名称
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-30-p2
+    type: simple
+    text: 前項の認可申請書には、定款、業務規程その他内閣府令・財務省令で定める書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +66,12 @@ parent_section:
 ### 第七十九条の三十第一項
 
 発起人は、創立総会の終了後遅滞なく、次に掲げる事項を記載した認可申請書を内閣総理大臣及び財務大臣に提出して、設立の認可を受けなければならない。
+
+一　名称
+
+二　事務所の所在の場所
+
+三　役員の氏名及び会員の名称
 
 ### 第七十九条の三十第二項
 

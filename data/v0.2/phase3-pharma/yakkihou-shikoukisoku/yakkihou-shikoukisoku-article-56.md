@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十六条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-56-p1 -->
 法第十四条の四第一項の規定による同項各号に掲げる医薬品の再審査の申請は、様式第三十による申請書（正本一通及び副本二通）を提出することによつて行うものとする。

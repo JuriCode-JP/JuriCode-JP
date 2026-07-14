@@ -14,34 +14,79 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-5-p1-hashira
+    type: hashira
+    text: 金融商品取引所が上場する有価証券であつて大量の空売りが行われることにより公正な価格形成に支障を及ぼすおそれがあるものとして金融庁長官が指定するもの（以下この条において「指定有価証券」という。）について、次の各号に掲げる空売りを行つた当該指定有価証券に係る主たる金融商品取引所（前条第一項第二号に規定する主たる市場を開設する者をいう。以下この条において同じ。）の会員等は、内閣府令で定めるところにより、当該各号に定める情報を当該主たる金融商品取引所に対し提供しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-shikkourei-art-26-5-p1-kou-1
+    type: kou
+    text: 一　自己の計算による空売り　当該空売りを行つた指定有価証券に係る自己の残高情報（空売りの残高に関する情報として内閣府令で定める情報をいう。以下この条において同じ。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-26-5-p1-kou-2
+    type: kou
+    text: 二　顧客の委託を受けて行う空売り　当該空売りを行つた指定有価証券に係る当該顧客の残高情報
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-5-p2-zen
+    type: zen_dan
+    text: 指定有価証券について、前項各号に掲げる空売りを行つた者（当該指定有価証券に係る主たる金融商品取引所の会員等を除く。）は、内閣府令で定めるところにより、当該各号に定める情報を当該指定有価証券に係る主たる金融商品取引所の会員等のうちいずれか一の者に対し提供しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-shikkourei-art-26-5-p2-kou
+    type: kou_dan
+    text: この場合において、当該情報の提供を受けた主たる金融商品取引所の会員等は、内閣府令で定めるところにより、当該情報を当該主たる金融商品取引所に対し提供しなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-shikkourei-art-26-5-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-5-p3
+    type: simple
+    text: 指定有価証券の空売りの委託の取次ぎを引き受けた者は、内閣府令で定めるところにより、当該指定有価証券に係る当該委託の取次ぎの申込者の残高情報を当該空売りの委託の取次ぎの相手方に対し提供しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-5-p4
+    type: simple
+    text: 指定有価証券の空売りの委託又は委託の取次ぎの申込みをした者は、内閣府令で定めるところにより、当該指定有価証券に係る自己の残高情報を当該空売りの委託又は委託の取次ぎの申込みの相手方に対し提供しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-5-p5
+    type: simple
+    text: 主たる金融商品取引所は、内閣府令で定めるところにより、第一項及び第二項の規定により提供された残高情報を取りまとめ、その内容を公表しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-5-p6
+    type: junyou
+    text: 前各項の規定は、認可金融商品取引業協会が登録する店頭売買有価証券の売付けについて準用する。この場合において、第一項中「前条第一項第二号」とあるのは、「前条第五項において準用する同条第一項第二号」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -59,6 +104,10 @@ parent_section:
 ### 第二十六条の五第一項
 
 金融商品取引所が上場する有価証券であつて大量の空売りが行われることにより公正な価格形成に支障を及ぼすおそれがあるものとして金融庁長官が指定するもの（以下この条において「指定有価証券」という。）について、次の各号に掲げる空売りを行つた当該指定有価証券に係る主たる金融商品取引所（前条第一項第二号に規定する主たる市場を開設する者をいう。以下この条において同じ。）の会員等は、内閣府令で定めるところにより、当該各号に定める情報を当該主たる金融商品取引所に対し提供しなければならない。
+
+一　自己の計算による空売り　当該空売りを行つた指定有価証券に係る自己の残高情報（空売りの残高に関する情報として内閣府令で定める情報をいう。以下この条において同じ。）
+
+二　顧客の委託を受けて行う空売り　当該空売りを行つた指定有価証券に係る当該顧客の残高情報
 
 ### 第二十六条の五第二項
 

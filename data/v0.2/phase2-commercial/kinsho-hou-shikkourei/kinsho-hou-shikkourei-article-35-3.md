@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-35-3-p1
+    type: simple
+    text: 法第百九十三条の二第二項第四号に規定する政令で定める日は、法第二十四条第一項第一号又は第二号（これらの規定を法第二十七条において準用する場合を含む。）に掲げる有価証券（第四条の二の七第一項各号に掲げるものに限る。）の発行者に初めて該当することとなつた日（その日が当該発行者の事業年度開始後三月以内の日である場合には、その事業年度開始後三月を経過した日）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

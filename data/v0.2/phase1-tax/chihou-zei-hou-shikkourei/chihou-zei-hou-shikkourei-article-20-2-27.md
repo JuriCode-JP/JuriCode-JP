@@ -16,42 +16,92 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p1
+    type: simple
+    text: 法第七十二条の二第一項第一号、第三号又は第四号に掲げる事業と同項第二号に掲げる事業とを併せて行う内国法人に係る法第七十二条の二十一第一項及び第二項の規定の適用については、同条第一項中「減算した金額との合計額」とあるのは「減算した金額との合計額に、当該内国法人の法の施行地内に有する事務所又は事業所及び法の施行地外に有する地方税法施行令（昭和二十五年政令第二百四十五号）第二十条の二の二十に規定する場所（以下この項及び次項において「外国の事務所又は事業所」という。）の従業者（事務所又は事業所に使用される者で賃金を支払われるものをいう。以下この項及び次項において同じ。）のうち第七十二条の二第一項第一号、第三号又は第四号に掲げる事業に係る者の合計数を乗じて得た額を当該内国法人の法の施行地内に有する事務所又は事業所及び外国の事務所又は事業所の従業者の合計数で除して計算した金額」と、同条第二項中「とする」とあるのは「に、当該内国法人の法の施行地内に有する事務所又は事業所及び外国の事務所又は事業所の従業者のうち第七十二条の二第一項第一号、第三号又は第四号に掲げる事業に係る者の合計数を乗じて得た額を当該内国法人の法の施行地内に有する事務所又は事業所及び外国の事務所又は事業所の従業者の合計数で除して計算した金額とする」とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p2
+    type: junyou
+    text: 第二十条の二の二十一第三項から第五項までの規定は、前項の規定により読み替えられた法第七十二条の二十一第一項又は第二項の規定の適用がある場合における同条第一項又は第二項の事務所又は事業所の従業者の数について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p3
+    type: simple
+    text: 事業税を課されない事業とその他の事業（法第七十二条の二第一項第一号、第三号及び第四号に掲げる事業に限る。以下この項において同じ。）とを併せて行う内国法人の資本割の課税標準は、当該内国法人の資本金等の額（法第七十二条の二十一第六項又は第七十二条の二十二第一項の規定により控除すべき金額があるときは、これらを控除した後の金額とする。）に当該内国法人の法の施行地内に有する事務所又は事業所の従業者のうち当該その他の事業に係る者の数を乗じて得た額を当該内国法人の法の施行地内に有する事務所又は事業所の従業者の数で除して計算した金額とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p4
+    type: simple
+    text: 事業税を課されない事業又は法第七十二条の二第一項第二号に掲げる事業とこれらの事業以外の事業（同項第一号、第三号及び第四号に掲げる事業に限る。以下この項において「その他の事業」という。）とを併せて行う外国法人の資本割の課税標準は、当該外国法人の資本金等の額（法第七十二条の二十二第二項の規定により控除すべき金額があるときは、これを控除した後の金額とする。）に当該外国法人の恒久的施設の従業者のうち当該その他の事業に係る者の数を乗じて得た額を当該外国法人の恒久的施設の従業者の数で除して計算した金額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p5
+    type: simple
+    text: 第三項の内国法人又は前項の外国法人に係る法第七十二条の二十一第七項の規定の適用については、同項中「金額とする」とあるのは、「金額とし、地方税法施行令（昭和二十五年政令第二百四十五号）第二十条の二の二十七第三項又は第四項の規定の適用があるときは、これらの規定を適用した後の金額とする」とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p6
+    type: simple
+    text: 法第七十二条の二第一項第一号に掲げる事業（事業税を課されない事業を除く。次項において同じ。）、同条第一項第三号に掲げる事業及び同項第四号に掲げる事業のうち二以上の事業を併せて行う内国法人のそれぞれの事業に係る資本割の課税標準は、当該内国法人の資本金等の額（法第七十二条の二十一第六項又は第七十二条の二十二第一項の規定により控除すべき金額があるときは、これらを控除した後の金額とし、法第七十二条の二十一第七項の規定又は第三項の規定の適用があるときは、これらの規定を適用した後の金額とする。）を当該内国法人の法の施行地内に有する事務所又は事業所の従業者のうちそれぞれの事業に係る者の数で按分して計算した金額とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p7
+    type: simple
+    text: 法第七十二条の二第一項第一号に掲げる事業、同項第三号に掲げる事業及び同項第四号に掲げる事業のうち二以上の事業を併せて行う外国法人のそれぞれの事業に係る資本割の課税標準は、当該外国法人の資本金等の額（法第七十二条の二十二第二項の規定により控除すべき金額があるときは、これを控除した後の金額とし、法第七十二条の二十一第七項の規定又は第四項の規定の適用があるときは、これらの規定を適用した後の金額とする。）を当該外国法人の恒久的施設の従業者のうちそれぞれの事業に係る者の数で按分して計算した金額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-27-p8
+    type: junyou
+    text: 第二十条の二の二十一第三項から第五項までの規定は、第三項、第四項又は前二項の規定の適用がある場合における第三項及び第六項の事務所又は事業所並びに第四項及び前項の恒久的施設の従業者の数について準用する。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-10-p1-zen
+    type: zen_dan
+    text: 認可地縁団体と代表者との利益が相反する事項については、代表者は、代表権を有しない。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-260-10-p1-kou
+    type: kou_dan
+    text: この場合においては、裁判所は、利害関係人又は検察官の請求により、特別代理人を選任しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-260-10-p1-zen
 cases: []
 amendments: []
 tags:

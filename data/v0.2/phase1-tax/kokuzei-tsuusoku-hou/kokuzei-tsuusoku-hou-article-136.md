@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 差し押さえるべき物件が電磁的記録に係る記録媒体であるときは、当該職員は、その差押えに代えて次に掲げる処分をすることができる。
     modality: kanou_kenri
+  - id: kokuzei-tsuusoku-hou-art-136-p1-kou-1
+    type: kou
+    text: 一　差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写し、印刷し、又は移転した上、当該他の記録媒体を差し押さえること。
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-art-136-p1-kou-2
+    type: kou
+    text: 二　差押えを受ける者に差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写させ、印刷させ、又は移転させた上、当該他の記録媒体を差し押さえること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第百三十六条
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-art-136-p1-hashira -->
 差し押さえるべき物件が電磁的記録に係る記録媒体であるときは、当該職員は、その差押えに代えて次に掲げる処分をすることができる。
+
+一　差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写し、印刷し、又は移転した上、当該他の記録媒体を差し押さえること。
+
+二　差押えを受ける者に差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写させ、印刷させ、又は移転させた上、当該他の記録媒体を差し押さえること。

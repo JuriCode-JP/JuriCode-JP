@@ -16,7 +16,19 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-10-p1-zen
+    type: zen_dan
+    text: 第七百七十四条の五及び第七百七十四条の七（第一項第二号に係る部分を除く。）（これらの規定を前条において準用する場合を含む。）の規定は、第七百七十四条の三第一項第十号の期日において、申込者が譲渡しの申込みをした株式交付子会社の株式の総数が同項第二号の下限の数に満たない場合には、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    - 同項
+  - id: kaisha-hou-art-774-10-p1-kou
+    type: kou_dan
+    text: この場合においては、株式交付親会社は、申込者に対し、遅滞なく、株式交付をしない旨を通知しなければならない。
+    modality: gimu
+    depends_on: kaisha-hou-art-774-10-p1-zen
 cases: []
 amendments: []
 tags:

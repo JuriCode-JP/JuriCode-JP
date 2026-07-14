@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-30-p1 -->
 法第七十一条第一項第二号（国税の更正、決定等の期間制限の特例）に規定する政令で定める理由は、第二十四条第四項（還付加算金の計算期間の特例に係る理由）に規定する理由とする。

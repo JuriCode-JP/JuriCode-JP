@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-384-3-p1
+    type: simple
+    text: 市町村長は、その市町村内の土地又は家屋について、登記簿又は土地補充課税台帳若しくは家屋補充課税台帳に所有者として登記又は登録がされている個人が死亡している場合における当該土地又は家屋を所有している者（以下この条及び第三百八十六条において「現所有者」という。）に、当該市町村の条例で定めるところにより、現所有者であることを知つた日の翌日から三月を経過した日以後の日までに、当該現所有者の住所及び氏名又は名称その他固定資産税の賦課徴収に関し必要な事項を申告させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十一条
 
-<!-- segment: simple id: keisatsu-hou-art-81-p1 -->
 この法律に特別の定がある場合を除く外、この法律の実施のため必要な事項は、政令で定める。

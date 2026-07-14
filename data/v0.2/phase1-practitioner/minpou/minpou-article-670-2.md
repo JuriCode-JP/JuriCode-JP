@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-670-2-p1
+    type: simple
+    text: 各組合員は、組合の業務を執行する場合において、組合員の過半数の同意を得たときは、他の組合員を代理することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-670-2-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、業務執行者があるときは、業務執行者のみが組合員を代理することができる。この場合において、業務執行者が数人あるときは、各業務執行者は、業務執行者の過半数の同意を得たときに限り、組合員を代理することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-670-2-p3
+    type: simple
+    text: 前二項の規定にかかわらず、各組合員又は各業務執行者は、組合の常務を行うときは、単独で組合員を代理することができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

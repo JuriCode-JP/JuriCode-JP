@@ -14,74 +14,178 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p1-hashira
+    type: hashira
+    text: 会計管理者若しくは会計管理者の事務を補助する職員、資金前渡を受けた職員、占有動産を保管している職員又は物品を使用している職員が故意又は重大な過失（現金については、故意又は過失）により、その保管に係る現金、有価証券、物品（基金に属する動産を含む。）若しくは占有動産又はその使用に係る物品を亡失し、又は損傷したときは、これによつて生じた損害を賠償しなければならない。次に掲げる行為をする権限を有する職員又はその権限に属する事務を直接補助する職員で普通地方公共団体の規則で指定したものが故意又は重大な過失により法令の規定に違反して当該行為をしたこと又は怠つたことにより普通地方公共団体に損害を与えたときも、同様とする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-243-2-8-p1-kou-1
+    type: kou
+    text: 一　支出負担行為
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-243-2-8-p1-kou-2
+    type: kou
+    text: 二　第二百三十二条の四第一項の命令又は同条第二項の確認
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-243-2-8-p1-kou-3
+    type: kou
+    text: 三　支出又は支払
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-243-2-8-p1-kou-4
+    type: kou
+    text: 四　第二百三十四条の二第一項の監督又は検査
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p2
+    type: simple
+    text: 前項の場合において、その損害が二人以上の職員の行為により生じたものであるときは、当該職員は、それぞれの職分に応じ、かつ、当該行為が当該損害の発生の原因となつた程度に応じて賠償の責めに任ずるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p3
+    type: simple
+    text: 普通地方公共団体の長は、第一項の職員が同項に規定する行為により当該普通地方公共団体に損害を与えたと認めるときは、監査委員に対し、その事実があるかどうかを監査し、賠償責任の有無及び賠償額を決定することを求め、その決定に基づき、期限を定めて賠償を命じなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p4-zen
+    type: zen_dan
+    text: 第二百四十二条の二第一項第四号ただし書の規定による訴訟について、賠償の命令を命ずる判決が確定した場合には、普通地方公共団体の長は、当該判決が確定した日から六十日以内の日を期限として、賠償を命じなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-243-2-8-p4-kou
+    type: kou_dan
+    text: この場合においては、前項の規定による監査委員の監査及び決定を求めることを要しない。
+    modality: unspecified
+    references:
+    - 前項
+    depends_on: chihou-jichi-hou-art-243-2-8-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p5
+    type: simple
+    text: 前項の規定により賠償を命じた場合において、当該判決が確定した日から六十日以内に当該賠償の命令に係る損害賠償金が支払われないときは、当該普通地方公共団体は、当該損害賠償の請求を目的とする訴訟を提起しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p6
+    type: simple
+    text: 前項の訴訟の提起については、第九十六条第一項第十二号の規定にかかわらず、当該普通地方公共団体の議会の議決を要しない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p7
+    type: simple
+    text: 第二百四十二条の二第一項第四号ただし書の規定による訴訟の判決に従いなされた賠償の命令について取消訴訟が提起されているときは、裁判所は、当該取消訴訟の判決が確定するまで、当該賠償の命令に係る損害賠償の請求を目的とする訴訟の訴訟手続を中止しなければならない。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p8-zen
+    type: zen_dan
+    text: 第三項の規定により監査委員が賠償責任があると決定した場合において、普通地方公共団体の長は、当該職員からなされた当該損害が避けることのできない事故その他やむを得ない事情によるものであることの証明を相当と認めるときは、議会の同意を得て、賠償責任の全部又は一部を免除することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-243-2-8-p8-kou
+    type: kou_dan
+    text: この場合においては、あらかじめ監査委員の意見を聴き、その意見を付けて議会に付議しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-243-2-8-p8-zen
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p9
+    type: simple
+    text: 第三項の規定による決定又は前項後段の規定による意見の決定は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p10
+    type: simple
+    text: 第二百四十二条の二第一項第四号ただし書の規定による訴訟の判決に従い第三項の規定による処分がなされた場合には、当該処分については、審査請求をすることができない。
+    modality: kanou_negative
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p11
+    type: simple
+    text: 普通地方公共団体の長は、第三項の規定による処分についての審査請求がされた場合には、当該審査請求が不適法であり、却下するときを除き、議会に諮問した上、当該審査請求に対する裁決をしなければならない。
+    modality: gimu
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p12
+    type: simple
+    text: 議会は、前項の規定による諮問を受けた日から二十日以内に意見を述べなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p13
+    type: simple
+    text: 普通地方公共団体の長は、第十一項の規定による諮問をしないで同項の審査請求を却下したときは、その旨を議会に報告しなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-8-p14
+    type: simple
+    text: 第一項の規定により損害を賠償しなければならない場合には、同項の職員の賠償責任については、賠償責任に関する民法の規定は、適用しない。
+    modality: jogai
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -103,6 +207,14 @@ parent_section:
 ### 第二百四十三条の二の八第一項
 
 会計管理者若しくは会計管理者の事務を補助する職員、資金前渡を受けた職員、占有動産を保管している職員又は物品を使用している職員が故意又は重大な過失（現金については、故意又は過失）により、その保管に係る現金、有価証券、物品（基金に属する動産を含む。）若しくは占有動産又はその使用に係る物品を亡失し、又は損傷したときは、これによつて生じた損害を賠償しなければならない。次に掲げる行為をする権限を有する職員又はその権限に属する事務を直接補助する職員で普通地方公共団体の規則で指定したものが故意又は重大な過失により法令の規定に違反して当該行為をしたこと又は怠つたことにより普通地方公共団体に損害を与えたときも、同様とする。
+
+一　支出負担行為
+
+二　第二百三十二条の四第一項の命令又は同条第二項の確認
+
+三　支出又は支払
+
+四　第二百三十四条の二第一項の監督又は検査
 
 ### 第二百四十三条の二の八第二項
 

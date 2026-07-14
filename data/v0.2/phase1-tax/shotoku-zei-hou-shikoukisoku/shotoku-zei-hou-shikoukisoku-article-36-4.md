@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第五十七条第二項（事業に専従する親族がある場合の必要経費の特例等）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-1
+    type: kou
+    text: 一　法第五十七条第二項に規定する書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-2
+    type: kou
+    text: 二　法第五十七条第一項に規定する青色事業専従者（以下この条において「青色事業専従者」という。）の前号の者との続柄及び年齢
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-3
+    type: kou
+    text: 三　青色事業専従者が他の業務に従事し又は就学している場合には、その事実
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-4
+    type: kou
+    text: 四　その事業に従事する他の使用人に対して支払う給与の金額並びにその支給の方法及び形態
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-5
+    type: kou
+    text: 五　昇給の基準その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +55,21 @@ paragraphs:
     type: hashira
     text: 法第五十七条第二項に規定する書類に記載した青色事業専従者の給与の金額の基準を変更する場合には、遅滞なく、次に掲げる事項を記載した書類を納税地の所轄税務署長に提出しなければならない。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-kou-1
+    type: kou
+    text: 一　当該書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-kou-2
+    type: kou
+    text: 二　その変更する内容及びその理由
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -61,15 +101,28 @@ parent_section:
 
 ### 第三十六条の四第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-hashira -->
 法第五十七条第二項（事業に専従する親族がある場合の必要経費の特例等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第五十七条第二項に規定する書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　法第五十七条第一項に規定する青色事業専従者（以下この条において「青色事業専従者」という。）の前号の者との続柄及び年齢
+
+三　青色事業専従者が他の業務に従事し又は就学している場合には、その事実
+
+四　その事業に従事する他の使用人に対して支払う給与の金額並びにその支給の方法及び形態
+
+五　昇給の基準その他参考となるべき事項
 
 ### 第三十六条の四第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-hashira -->
 法第五十七条第二項に規定する書類に記載した青色事業専従者の給与の金額の基準を変更する場合には、遅滞なく、次に掲げる事項を記載した書類を納税地の所轄税務署長に提出しなければならない。
+
+一　当該書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　その変更する内容及びその理由
+
+三　その他参考となるべき事項
 
 ### 第三十六条の四第三項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-36-4-p3 -->
 法第五十七条第一項に規定する居住者がその年一月十六日以後新たに青色事業専従者を有することとなつた場合には、その者は、その有することとなつた日から二月以内に、同条第二項に規定する書類を納税地の所轄税務署長に提出するものとする。

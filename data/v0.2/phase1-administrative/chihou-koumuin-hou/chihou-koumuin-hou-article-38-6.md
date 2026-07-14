@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-38-6-p1
+    type: simple
+    text: 地方公共団体は、国家公務員法中退職管理に関する規定の趣旨及び当該地方公共団体の職員の離職後の就職の状況を勘案し、退職管理の適正を確保するために必要と認められる措置を講ずるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-38-6-p2
+    type: simple
+    text: 地方公共団体は、第三十八条の二の規定の円滑な実施を図り、又は前項の規定による措置を講ずるため必要と認めるときは、条例で定めるところにより、職員であつた者で条例で定めるものが、条例で定める法人の役員その他の地位であつて条例で定めるものに就こうとする場合又は就いた場合には、離職後条例で定める期間、条例で定める事項を条例で定める者に届け出させることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

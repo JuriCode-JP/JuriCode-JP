@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-6-p1
+    type: simple
+    text: 普通地方公共団体の長が第二百四十三条の二第一項の規定によりその支出に関する事務を委託することができる歳出は、他の法律又はこれに基づく政令に特別の定めがあるものを除くほか、政令で定めるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-6-p2
+    type: simple
+    text: 普通地方公共団体の長は、指定公金事務取扱者（歳出の支出に関する事務の委託を受けた者に限る。次項において同じ。）に対し、当該支出に必要な資金を交付するものとする。
+    modality: gimu
+    references:
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-6-p3
+    type: simple
+    text: 指定公金事務取扱者は、普通地方公共団体の規則の定めるところにより、その支出の結果を会計管理者に報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

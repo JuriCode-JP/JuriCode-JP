@@ -36,5 +36,4 @@ tags:
 
 ### 第十二条の五
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-12-5-p1 -->
 政令第五十二条の十五の表の第三号に規定する総務省令で定める者は、前条各号に掲げる者とする。

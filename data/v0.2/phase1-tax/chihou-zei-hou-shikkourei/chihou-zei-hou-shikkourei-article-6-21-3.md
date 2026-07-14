@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-21-3-p1
+    type: simple
+    text: 口座管理機関（法第二十条の十一の三に規定する口座管理機関をいう。以下この条において同じ。）は、加入者情報（法第二十条の十一の三に規定する加入者情報をいう。以下この条において同じ。）に関するデータベース（加入者情報に係る情報の集合物であつて、それらの情報を電子計算機を用いて検索することができるように体系的に構成したものをいう。）における各社債等（法第二十条の十一の三に規定する社債等をいう。）に係る電磁的記録に当該口座管理機関が保有する当該口座管理機関の加入者（同条に規定する加入者をいう。次条において同じ。）の個人番号又は法人番号を記録しなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -148,57 +148,44 @@ parent_section:
 
 ### 第六十九条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p1 -->
 委員は、審査会の権限に属する事項に関し公正な判断をすることができ、かつ、法律又は行政に関して優れた識見を有する者のうちから、両議院の同意を得て、総務大臣が任命する。
 
 ### 第六十九条第二項
 
-<!-- segment: tokusoku id: gyousei-fufuku-shinsa-hou-art-69-p2 override_flag: true override_target: 前項 -->
 委員の任期が満了し、又は欠員を生じた場合において、国会の閉会又は衆議院の解散のために両議院の同意を得ることができないときは、総務大臣は、前項の規定にかかわらず、同項に定める資格を有する者のうちから、委員を任命することができる。
 
 ### 第六十九条第三項
 
-<!-- segment: zen_dan id: gyousei-fufuku-shinsa-hou-art-69-p3-zen -->
-前項の場合においては、任命後最初の国会で両議院の事後の承認を得なければならない。<!-- segment: kou_dan id: gyousei-fufuku-shinsa-hou-art-69-p3-kou depends_on: gyousei-fufuku-shinsa-hou-art-69-p3-zen -->
-この場合において、両議院の事後の承認が得られないときは、総務大臣は、直ちにその委員を罷免しなければならない。
+前項の場合においては、任命後最初の国会で両議院の事後の承認を得なければならない。この場合において、両議院の事後の承認が得られないときは、総務大臣は、直ちにその委員を罷免しなければならない。
 
 ### 第六十九条第四項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-69-p4-honbun -->
-委員の任期は、三年とする。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-69-p4-tadashi -->
-ただし、補欠の委員の任期は、前任者の残任期間とする。
+委員の任期は、三年とする。ただし、補欠の委員の任期は、前任者の残任期間とする。
 
 ### 第六十九条第五項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p5 -->
 委員は、再任されることができる。
 
 ### 第六十九条第六項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p6 -->
 委員の任期が満了したときは、当該委員は、後任者が任命されるまで引き続きその職務を行うものとする。
 
 ### 第六十九条第七項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p7 -->
 総務大臣は、委員が心身の故障のために職務の執行ができないと認める場合又は委員に職務上の義務違反その他委員たるに適しない非行があると認める場合には、両議院の同意を得て、その委員を罷免することができる。
 
 ### 第六十九条第八項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p8 -->
 委員は、職務上知ることができた秘密を漏らしてはならない。その職を退いた後も同様とする。
 
 ### 第六十九条第九項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p9 -->
 委員は、在任中、政党その他の政治的団体の役員となり、又は積極的に政治運動をしてはならない。
 
 ### 第六十九条第十項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p10 -->
 常勤の委員は、在任中、総務大臣の許可がある場合を除き、報酬を得て他の職務に従事し、又は営利事業を営み、その他金銭上の利益を目的とする業務を行ってはならない。
 
 ### 第六十九条第十一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-69-p11 -->
 委員の給与は、別に法律で定める。

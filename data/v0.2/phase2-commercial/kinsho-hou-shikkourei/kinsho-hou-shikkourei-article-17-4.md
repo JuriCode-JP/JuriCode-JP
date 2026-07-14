@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-4-p1
+    type: simple
+    text: 法第五十九条第一項に規定する行為で政令で定めるものは、外国証券業者が、元引受契約の内容を確定するための協議を当該元引受契約に係る有価証券の発行者又は所有者と行わず、かつ、当該有価証券の売出し若しくは特定投資家向け売付け勧誘等又は当該有価証券の募集、私募若しくは売出しの取扱い若しくは特定投資家向け売付け勧誘等の取扱いを国内において行うことのない場合における当該元引受契約への参加とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-146-2-p1
+    type: simple
+    text: 金融商品取引業者等は、第三項に規定する事項を、電子募集業務又は電子募集取扱業務（法第二十九条の二第一項第六号に規定する電子募集取扱業務をいい、同号に規定する有価証券について行うものに限る。以下この条において同じ。）の相手方の使用に係る電子計算機の映像面において、当該相手方にとって見やすい箇所に明瞭かつ正確に表示されるようにしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-146-2-p2
+    type: simple
+    text: 次項に規定する事項のうち法第三十七条の三第一項第五号に掲げる事項、第八十二条第三号及び第五号に掲げる事項並びに第八十三条第一項第六号（トに係る部分に限る。）に掲げる事項の文字又は数字については、当該事項以外の事項の文字又は数字のうち最も大きなものと著しく異ならない大きさで表示するものとする。
+    modality: gimu
+    references:
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-146-2-p3
+    type: simple
+    text: 法第四十三条の五に規定する内閣府令で定める事項は、法第三十七条の三第一項第四号に掲げる事項の概要、同項第五号に掲げる事項、第八十二条第三号及び第五号に掲げる事項並びに第八十三条第一項第三号から第七号までに掲げる事項とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-146-2-p4
+    type: simple
+    text: 法第四十三条の五に規定する内閣府令で定めるものは、金融商品取引業者等の使用に係る電子計算機に備えられたファイルに記録された情報の内容を電気通信回線を通じて電子募集業務又は電子募集取扱業務の相手方の閲覧に供する方法とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

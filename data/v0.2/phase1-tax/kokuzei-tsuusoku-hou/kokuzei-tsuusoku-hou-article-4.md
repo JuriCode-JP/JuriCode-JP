@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-4-p1 -->
 この法律に規定する事項で他の国税に関する法律に別段の定めがあるものは、その定めるところによる。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: simple id: shouken-jouhou-furei-art-18-p1 -->
 法第二十七条の三十五の規定による権限に係る令第四十四条の三第四項に規定する内閣府令で定める財務局長又は財務支局長は、関東財務局長とする。

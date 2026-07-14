@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-5-p1
+    type: simple
+    text: 第十九条第三号から第八号までに掲げる処分に基づいてされた更正、決定又は賦課決定についての審査請求においては、同条第三号から第八号までに掲げる処分についての不服を当該更正、決定又は賦課決定についての不服の理由とすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

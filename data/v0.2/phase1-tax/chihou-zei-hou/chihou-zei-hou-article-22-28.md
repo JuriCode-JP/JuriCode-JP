@@ -16,32 +16,87 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-28-p1-zen
+    type: zen_dan
+    text: 地方団体の長は、間接地方税に関する犯則事件の調査により犯則の心証を得たときは、その理由を明示し、罰金に相当する金額、没収に該当する物件、追徴金に相当する金額並びに書類の送達並びに差押物件又は記録命令付差押物件の運搬及び保管に要した費用を指定の場所に納付すべき旨を書面により通告しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-22-28-p1-kou
+    type: kou_dan
+    text: この場合において、没収に該当する物件については、納付の申出のみをすべき旨を通告することができる。
+    modality: kanou_kenri
+    depends_on: chihou-zei-hou-art-22-28-p1-zen
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-28-p2
+    type: tokusoku
+    text: 地方団体の長は、前項の場合において、次の各号のいずれかに該当すると認めるときは、同項の規定にかかわらず、直ちに検察官に告発しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前項
+    - 同項
+  - id: chihou-zei-hou-art-22-28-p2-kou-1
+    type: kou
+    text: 一　情状が拘禁刑に処すべきものであるとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-22-28-p2-kou-2
+    type: kou
+    text: 二　犯則者が通告の旨を履行する資力がないとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-28-p3
+    type: simple
+    text: 地方団体の長は、第一項の規定による通告に計算違い、誤記その他これらに類する明白な誤りがあるときは、犯則者が当該通告の旨を履行し、又は前項若しくは次条の規定により告発するまでの間、職権で、当該通告を更正することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-28-p4
+    type: simple
+    text: 第一項の規定により通告があつたときは、公訴の時効は、その進行を停止し、犯則者が当該通告を受けた日の翌日から起算して二十日を経過した時からその進行を始める。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-28-p5
+    type: simple
+    text: 犯則者は、第一項の通告の旨（第三項の規定による更正があつた場合には、当該更正後の通告の旨。次項及び次条第一項において同じ。）を履行した場合には、同一事件について公訴を提起されない。
+    modality: unspecified
+    references:
+    - 次項
+    - 次条
 - number: 6
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-28-p6-honbun
+    type: honbun
+    text: 犯則者は、第一項後段の通告の旨を履行した場合において、没収に該当する物件を所持するときは、公売その他の必要な処分がされるまで、これを保管する義務を負う。
+    modality: unspecified
+  - id: chihou-zei-hou-art-22-28-p6-tadashi
+    type: tadashi
+    text: ただし、その保管に要する費用は、請求することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:
@@ -67,6 +122,10 @@ parent_section:
 ### 第二十二条の二十八第二項
 
 地方団体の長は、前項の場合において、次の各号のいずれかに該当すると認めるときは、同項の規定にかかわらず、直ちに検察官に告発しなければならない。
+
+一　情状が拘禁刑に処すべきものであるとき。
+
+二　犯則者が通告の旨を履行する資力がないとき。
 
 ### 第二十二条の二十八第三項
 

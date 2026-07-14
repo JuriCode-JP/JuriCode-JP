@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-382-2-p1
+    type: simple
+    text: やむを得ない事由によつて第一審の弁論終結前に取調を請求することができなかつた証拠によつて証明することのできる事実であつて前二条に規定する控訴申立の理由があることを信ずるに足りるものは、訴訟記録及び原裁判所において取り調べた証拠に現われている事実以外の事実であつても、控訴趣意書にこれを援用することができる。
+    modality: kanou_kenri
+    references:
+    - 前二条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-382-2-p2
+    type: simple
+    text: 第一審の弁論終結後判決前に生じた事実であつて前二条に規定する控訴申立の理由があることを信ずるに足りるものについても、前項と同様である。
+    modality: unspecified
+    references:
+    - 前二条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-382-2-p3
+    type: simple
+    text: 前二項の場合には、控訴趣意書に、その事実を疎明する資料を添附しなければならない。第一項の場合には、やむを得ない事由によつてその証拠の取調を請求することができなかつた旨を疎明する資料をも添附しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

@@ -68,8 +68,6 @@ parent_section:
 
 ### 第六百十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-617-p1 -->
-<!-- segment: simple id: kaisha-hou-art-617-p2 -->
 持分会社は、法務省令で定めるところにより、その成立の日における貸借対照表を作成しなければならない。
 
 ### 第六百十七条第二項
@@ -78,10 +76,8 @@ parent_section:
 
 ### 第六百十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-617-p3 -->
 計算書類は、電磁的記録をもって作成することができる。
 
 ### 第六百十七条第四項
 
-<!-- segment: simple id: kaisha-hou-art-617-p4 -->
 持分会社は、計算書類を作成した時から十年間、これを保存しなければならない。

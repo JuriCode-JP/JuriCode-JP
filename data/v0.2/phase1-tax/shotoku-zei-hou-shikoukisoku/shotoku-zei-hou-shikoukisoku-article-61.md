@@ -54,10 +54,8 @@ parent_section:
 
 ### 第六十一条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-61-p1 -->
 前条第一項に規定する青色申告者は、毎年十二月三十一日において、財務大臣の定める科目に従い、貸借対照表及び損益計算書を作成しなければならない。
 
 ### 第六十一条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-61-p2 -->
 財務大臣は、前項の定めをしたときは、これを告示する。

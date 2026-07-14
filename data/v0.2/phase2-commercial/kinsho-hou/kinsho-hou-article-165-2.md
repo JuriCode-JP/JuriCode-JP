@@ -13,90 +13,206 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p1-honbun
+    type: honbun
+    text: 組合等（民法第六百六十七条第一項に規定する組合契約によつて成立する組合、投資事業有限責任組合契約に関する法律第二条第二項に規定する投資事業有限責任組合（以下この条において「投資事業有限責任組合」という。）若しくは有限責任事業組合契約に関する法律第二条に規定する有限責任事業組合（以下この条において「有限責任事業組合」という。）又はこれらの組合に類似する団体で政令で定めるものをいう。以下この条において同じ。）のうち当該組合等の財産に属する株式に係る議決権が上場会社等の総株主等の議決権に占める割合が百分の十以上であるもの（以下この条において「特定組合等」という。）については、当該特定組合等の組合員（これに類するものとして内閣府令で定める者を含む。以下この条において同じ。）が当該特定組合等の財産に関して当該上場会社等の特定有価証券等に係る買付け等又は売付け等をした場合（当該特定組合等の組合員の全員が委託者又は受益者である信託の受託者が、当該上場会社等の特定有価証券等に係る買付け等又は売付け等をする場合であつて内閣府令で定める場合を含む。以下この条において同じ。）には、当該買付け等又は売付け等を執行した組合員（これに準ずるものとして内閣府令で定める組合員を含む。以下この条において同じ。）は、内閣府令で定めるところにより、その売買等に関する報告書を売買等があつた日の属する月の翌月十五日までに、内閣総理大臣に提出しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-165-2-p1-tadashi
+    type: tadashi
+    text: ただし、買付け等又は売付け等の態様その他の事情を勘案して内閣府令で定める場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p2
+    type: simple
+    text: 前項に規定する特定組合等の組合員が、当該特定組合等の財産に関して当該上場会社等の特定有価証券等に係る買付け等又は売付け等を金融商品取引業者等又は取引所取引許可業者に委託等をして行つた場合においては、同項に規定する報告書は、当該金融商品取引業者等又は取引所取引許可業者を経由して提出するものとする。当該買付け等又は売付け等の相手方が金融商品取引業者等又は取引所取引許可業者であるときも、同様とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p3
+    type: simple
+    text: 特定組合等の組合員がその地位により取得した秘密を不当に利用することを防止するため、当該特定組合等の財産に関し、その者が当該上場会社等の特定有価証券等について、それに係る買付け等をした後六月以内に売付け等をし、又は売付け等をした後六月以内に買付け等をして当該特定組合等の財産について利益を生じた場合においては、当該上場会社等は、当該特定組合等の組合員に対し、当該特定組合等の財産をもつてその利益を当該上場会社等に提供すべきことを請求することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p4
+    type: simple
+    text: 当該上場会社等が前項の規定により請求した場合においては、当該特定組合等の財産をもつて当該特定組合等の当該請求に係る債務その他の債務を完済することができなかつたときに限り、当該上場会社等は、同項の利益を生じた時における当該特定組合等の各組合員（投資事業有限責任組合の有限責任組合員及び有限責任事業組合の組合員並びにこれらに類する者として内閣府令で定める者を除く。）に対し、当該特定組合等の債務について当該各組合員が負う責任に応じて、当該利益（同項の規定により提供された利益の額を控除した額に限る。）を当該上場会社等に提供すべきことを請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p5
+    type: simple
+    text: 前項に規定する場合において、当該特定組合等の財産に対する強制執行がその効を奏しなかつたときも、同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p6
+    type: simple
+    text: 前項の規定は、第三項の利益を生じた時における当該特定組合等の組合員が当該特定組合等の財産が存在し、かつ、その財産に対する強制執行が容易であることを証明したときは、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p7
+    type: simple
+    text: 当該上場会社等の株主（保険契約者である社員又は出資者を含む。以下この項及び第十三項において同じ。）が上場会社等に対し第三項から第五項までの規定による請求を行うべき旨を要求した日の後六十日以内に上場会社等がこれらの規定による請求を行わない場合においては、当該株主は、上場会社等に代位して、その請求を行うことができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p8
+    type: simple
+    text: 第三項から第五項まで又は前項の規定により利益の返還を請求する権利は、当該特定組合等の財産について利益が生じた日から二年間行わないときは、消滅する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 9
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p9-honbun
+    type: honbun
+    text: 内閣総理大臣は、第一項の報告書の記載に基づき、当該特定組合等の財産について第三項の利益が生じていると認める場合において、報告書のうち当該利益に係る部分（以下この条において「組合利益関係書類」という。）の写しを、報告書提出組合員（第一項の規定により報告書（直近の買付け等又は売付け等に係るものに限る。）を提出した組合員をいう。第十三項において同じ。）に送付し、当該報告書提出組合員から、当該組合利益関係書類に関し次項に定める期間内に同項の申立てがないときは、当該組合利益関係書類の写し及び当該報告書提出組合員の商号、名称又は氏名に関する情報を当該上場会社等に送付するものとする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+  - id: kinsho-hou-art-165-2-p9-tadashi
+    type: tadashi
+    text: ただし、内閣総理大臣が、当該組合利益関係書類の写しを当該報告書提出組合員又は当該上場会社等に送付する前において、第三項の利益が当該上場会社等に提供されたことを知つた場合は、この限りでない。
+    modality: jogai
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p10
+    type: simple
+    text: 前項本文の規定により当該報告書提出組合員に組合利益関係書類の写しが送付された場合において、当該報告書提出組合員は、当該組合利益関係書類の写しに記載された内容の売買等を行つていないと認めるときは、当該組合利益関係書類の写しを受領した日から起算して二十日以内に、内閣総理大臣に、その旨の申立てをすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p11
+    type: simple
+    text: 前項の規定により、当該報告書提出組合員から当該組合利益関係書類の写しに記載された内容の売買等を行つていない旨の申立てがあつた場合には、第九項本文の規定の適用については、当該申立てに係る部分は、内閣総理大臣に対する第一項の規定による報告書に記載がなかつたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 12
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p12-honbun
+    type: honbun
+    text: 内閣総理大臣は、第九項の規定に基づき上場会社等に組合利益関係書類の写しを送付した場合には、当該組合利益関係書類の写しを当該送付の日より起算して三十日を経過した日から第八項に規定する請求権が消滅する日まで（請求権が消滅する日前において内閣総理大臣が第三項の利益が当該上場会社等に提供されたことを知つた場合には、当該知つた日まで）公衆の縦覧に供するものとする。
+    modality: gimu
+  - id: kinsho-hou-art-165-2-p12-tadashi
+    type: tadashi
+    text: ただし、内閣総理大臣が、当該組合利益関係書類の写しを公衆の縦覧に供する前において第三項の利益が当該上場会社等に提供されたことを知つた場合は、この限りでない。
+    modality: jogai
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p13
+    type: simple
+    text: 前項の規定により組合利益関係書類の写しが公衆の縦覧に供されている場合においては、同項の上場会社等の株主は、内閣総理大臣に対し、その財産について第三項の利益が生じていると認められる特定組合等の報告書提出組合員の商号、名称又は氏名に関する情報の提供を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p14
+    type: simple
+    text: 第三項から前項までの規定は、特定組合等の財産に関して買付け等をし、又は売付け等をしたいずれかの時期において当該特定組合等が特定組合等でない場合及び特定組合等の財産に関して行われる買付け等又は売付け等の態様その他の事情を勘案して内閣府令で定める場合においては、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 15
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p15
+    type: simple
+    text: 第九項において、内閣総理大臣が当該特定組合等の財産について第三項の利益が生じていると認める場合における当該利益の算定の方法については、内閣府令で定める。
+    modality: unspecified
 - number: 16
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p16-hashira
+    type: hashira
+    text: 特定組合等の組合員は、当該特定組合等の財産に関して次に掲げる行為をしてはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-165-2-p16-kou-1
+    type: kou
+    text: 一　特定取引であつて、当該特定取引に係る特定有価証券の額（特定有価証券の売付けについてはその売付けに係る特定有価証券の額を、その他の取引については内閣府令で定める額をいう。）が、その者が有する当該上場会社等の同種の特定有価証券の額として内閣府令で定める額を超えるもの
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-165-2-p16-kou-2
+    type: kou
+    text: 二　当該上場会社等の特定有価証券等に係る売付け等（特定取引を除く。）であつて、その売付け等において授受される金銭の額を算出する基礎となる特定有価証券の数量として内閣府令で定める数量が、その者が有する当該上場会社等の同種の特定有価証券の数量として内閣府令で定める数量を超えるもの
+    modality: unspecified
+    item_number: 2
 - number: 17
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-165-2-p17
+    type: simple
+    text: 前三条の規定は、組合等の財産として上場会社等の株式を所有することにより当該上場会社等の主要株主に該当することとなる主要株主については、適用しない。
+    modality: jogai
+    references:
+    - 前三条
 cases: []
 amendments: []
 tags:
@@ -174,6 +290,10 @@ parent_section:
 ### 第百六十五条の二第十六項
 
 特定組合等の組合員は、当該特定組合等の財産に関して次に掲げる行為をしてはならない。
+
+一　特定取引であつて、当該特定取引に係る特定有価証券の額（特定有価証券の売付けについてはその売付けに係る特定有価証券の額を、その他の取引については内閣府令で定める額をいう。）が、その者が有する当該上場会社等の同種の特定有価証券の額として内閣府令で定める額を超えるもの
+
+二　当該上場会社等の特定有価証券等に係る売付け等（特定取引を除く。）であつて、その売付け等において授受される金銭の額を算出する基礎となる特定有価証券の数量として内閣府令で定める数量が、その者が有する当該上場会社等の同種の特定有価証券の数量として内閣府令で定める数量を超えるもの
 
 ### 第百六十五条の二第十七項
 

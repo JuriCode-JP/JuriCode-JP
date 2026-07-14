@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三百五十条の七
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-350-7-p1 -->
 法第二百二十四条の六（金地金等の譲渡の対価の受領者の告知）に規定する政令で定める金額は、二百万円とする。

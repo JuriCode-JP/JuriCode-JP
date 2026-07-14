@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-18-p1
+    type: simple
+    text: 内閣総理大臣は、この節の規定の施行に必要な限度において、認定団体に対し、認定業務の実施の方法の改善、投資者保護指針の変更その他の必要な措置をとるべき旨を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

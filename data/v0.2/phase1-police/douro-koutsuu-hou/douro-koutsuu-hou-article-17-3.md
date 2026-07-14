@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-17-3-p1
+    type: tokusoku
+    text: 特例特定小型原動機付自転車及び軽車両は、第十七条第一項の規定にかかわらず、著しく歩行者の通行を妨げることとなる場合を除き、道路の左側部分に設けられた路側帯（特例特定小型原動機付自転車及び軽車両の通行を禁止することを表示する道路標示によつて区画されたものを除く。）を通行することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十七条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-17-3-p2
+    type: simple
+    text: 前項の場合において、特例特定小型原動機付自転車及び軽車両は、歩行者の通行を妨げないような速度と方法で進行しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-17-3-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百二十一条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +62,5 @@ parent_section:
 ### 第十七条の三第二項
 
 前項の場合において、特例特定小型原動機付自転車及び軽車両は、歩行者の通行を妨げないような速度と方法で進行しなければならない。
+
+（罰則　第二項については第百二十一条第一項第八号）

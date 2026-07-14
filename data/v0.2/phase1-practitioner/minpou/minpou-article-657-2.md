@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-657-2-p1-zen
+    type: zen_dan
+    text: 寄託者は、受寄者が寄託物を受け取るまで、契約の解除をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-657-2-p1-kou
+    type: kou_dan
+    text: この場合において、受寄者は、その契約の解除によって損害を受けたときは、寄託者に対し、その賠償を請求することができる。
+    modality: kanou_kenri
+    depends_on: minpou-art-657-2-p1-zen
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-657-2-p2-honbun
+    type: honbun
+    text: 無報酬の受寄者は、寄託物を受け取るまで、契約の解除をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-657-2-p2-tadashi
+    type: tadashi
+    text: ただし、書面による寄託については、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-657-2-p3
+    type: simple
+    text: 受寄者（無報酬で寄託を受けた場合にあっては、書面による寄託の受寄者に限る。）は、寄託物を受け取るべき時期を経過したにもかかわらず、寄託者が寄託物を引き渡さない場合において、相当の期間を定めてその引渡しの催告をし、その期間内に引渡しがないときは、契約の解除をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

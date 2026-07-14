@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十一条
 
-<!-- segment: simple id: kenpou-art-61-p1 -->
 条約の締結に必要な国会の承認については、前条第二項の規定を準用する。

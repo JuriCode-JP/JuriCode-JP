@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 令第二百八条第二号（社会保険料控除の対象となる互助会の掛金の範囲）に規定する税務署長の承認を受けようとする同号に規定する互助会（以下この条において「互助会」という。）は、次に掲げる事項を記載した申請書に当該互助会の設立に係る条例及びその規約並びに当該申請書を提出する日の属する事業年度の直前の事業年度の決算書及び同日の属する事業年度の予算書を添付し、これを当該互助会の主たる事務所の所在地の所轄税務署長に提出しなければならない。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-1
+    type: kou
+    text: 一　当該申請書を提出する互助会の名称、主たる事務所の所在地及び法人番号（法人番号を有しないものにあつては、名称及び主たる事務所の所在地）
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-2
+    type: kou
+    text: 二　前号の互助会の代表者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-3
+    type: kou
+    text: 三　令第二百八条第二号に規定する制度に関する事業の開始年月日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-4
+    type: kou
+    text: 四　当該申請書を提出する時において前号に規定する事業に加入することの見込まれる職員の数
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-5
+    type: kou
+    text: 五　第一号の互助会の行う令第二百八条第二号に規定する制度が同号イからハまでに掲げる要件を備えている事実
+    modality: unspecified
+    item_number: 5
+  - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-6
+    type: kou
+    text: 六　その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第四十条の四
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-hashira -->
 令第二百八条第二号（社会保険料控除の対象となる互助会の掛金の範囲）に規定する税務署長の承認を受けようとする同号に規定する互助会（以下この条において「互助会」という。）は、次に掲げる事項を記載した申請書に当該互助会の設立に係る条例及びその規約並びに当該申請書を提出する日の属する事業年度の直前の事業年度の決算書及び同日の属する事業年度の予算書を添付し、これを当該互助会の主たる事務所の所在地の所轄税務署長に提出しなければならない。
+
+一　当該申請書を提出する互助会の名称、主たる事務所の所在地及び法人番号（法人番号を有しないものにあつては、名称及び主たる事務所の所在地）
+
+二　前号の互助会の代表者の氏名及び住所又は居所
+
+三　令第二百八条第二号に規定する制度に関する事業の開始年月日
+
+四　当該申請書を提出する時において前号に規定する事業に加入することの見込まれる職員の数
+
+五　第一号の互助会の行う令第二百八条第二号に規定する制度が同号イからハまでに掲げる要件を備えている事実
+
+六　その他参考となるべき事項

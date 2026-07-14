@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-106-5-p1
+    type: simple
+    text: 公安委員会は、免許証（仮免許に係るものを除く。第百七条において同じ。）及び免許情報記録個人番号カードを有する者について、第百四条の二の二第一項、第二項若しくは第四項、第百四条の二の四第一項、第二項若しくは第四項又は第百四条の四第二項の規定により免許を取り消したときは、その者が第百六条の三第一項の規定により免許証を返納し、かつ、前条第一項の規定により免許情報記録個人番号カードを提示した場合に限り、第百六条の三第二項の規定による免許証の交付及び前条第二項の規定による免許情報記録の書換えを行うものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-19-p1-zen
+    type: zen_dan
+    text: 根抵当権設定者は、根抵当権の設定の時から三年を経過したときは、担保すべき元本の確定を請求することができる。
+    modality: kanou_kenri
+  - id: minpou-art-398-19-p1-kou
+    type: kou_dan
+    text: この場合において、担保すべき元本は、その請求の時から二週間を経過することによって確定する。
+    modality: unspecified
+    depends_on: minpou-art-398-19-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-19-p2-zen
+    type: zen_dan
+    text: 根抵当権者は、いつでも、担保すべき元本の確定を請求することができる。
+    modality: kanou_kenri
+  - id: minpou-art-398-19-p2-kou
+    type: kou_dan
+    text: この場合において、担保すべき元本は、その請求の時に確定する。
+    modality: unspecified
+    depends_on: minpou-art-398-19-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-19-p3
+    type: simple
+    text: 前二項の規定は、担保すべき元本の確定すべき期日の定めがあるときは、適用しない。
+    modality: jogai
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

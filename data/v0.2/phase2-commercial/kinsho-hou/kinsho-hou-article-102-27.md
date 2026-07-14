@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-27-p1
+    type: simple
+    text: 自主規制法人の理事会（以下この款において「理事会」という。）は、三月に一回以上開催しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-27-p2
+    type: simple
+    text: 理事会は、理事長が招集する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

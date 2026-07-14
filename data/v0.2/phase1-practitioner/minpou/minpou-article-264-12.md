@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-12-p1
+    type: simple
+    text: 管理不全土地管理人がその任務に違反して管理不全土地等に著しい損害を与えたことその他重要な事由があるときは、裁判所は、利害関係人の請求により、管理不全土地管理人を解任することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-12-p2
+    type: simple
+    text: 管理不全土地管理人は、正当な事由があるときは、裁判所の許可を得て、辞任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

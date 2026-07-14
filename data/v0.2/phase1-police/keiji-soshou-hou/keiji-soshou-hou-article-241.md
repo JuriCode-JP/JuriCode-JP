@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二百四十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-241-p1 -->
 告訴又は告発は、書面又は口頭で検察官又は司法警察員にこれをしなければならない。
 
 ### 第二百四十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-241-p2 -->
 検察官又は司法警察員は、口頭による告訴又は告発を受けたときは調書を作らなければならない。

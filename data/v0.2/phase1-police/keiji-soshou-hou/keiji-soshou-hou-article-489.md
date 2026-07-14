@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百八十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-489-p1 -->
 収容状の執行については、勾引状の執行に関する規定を準用する。

@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-34-p1
+    type: simple
+    text: 元売業者、特約業者、石油製品販売業者及び軽油製造業者等（軽油の製造又は輸入をすることを業とする者で元売業者以外のものをいう。以下この節において同じ。）は、事業を開始しようとするときは、その旨を、当該事務所又は事業所ごとに、主たる事務所又は事業所所在地の道府県知事に（元売業者にあつては、当該道府県知事を経由して総務大臣に）届け出なければならない。その事業を廃止し、又は休止しようとするときも、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-34-p2
+    type: simple
+    text: 元売業者又は軽油製造業者等が、特約業者、石油製品販売業者又は軽油製造業者等と、継続的に軽油の供給を行う販売契約を締結したときは、その当事者は、その旨を、主たる事務所又は事業所所在地の道府県知事に（元売業者にあつては、当該道府県知事を経由して総務大臣に）届け出なければならない。当該販売契約が終了したときも、同様とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-34-p3
+    type: simple
+    text: 元売業者、特約業者、石油製品販売業者及び軽油製造業者等は、前二項の規定により届け出た事項に異動を生じた場合には、遅滞なく、その旨を当該各項の規定に準じて総務大臣又は道府県知事に届け出なければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-34-p4
+    type: simple
+    text: 前三項の規定により届出を受けた道府県知事は、当該届出に係る事項を、速やかに関係道府県知事に通知するものとする。
+    modality: gimu
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-34-p5
+    type: simple
+    text: 前各項に定めるもののほか、これらの規定の届出及び通知に関し必要な事項は、総務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

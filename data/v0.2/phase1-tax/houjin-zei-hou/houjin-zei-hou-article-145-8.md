@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-145-8-p1
+    type: simple
+    text: 外国法人に対して課する各対象会計年度の国内最低課税額に対する法人税の額は、各対象会計年度の外国法人に係る課税標準国内最低課税額に百分の七十五・三の税率を乗じて計算した金額とする。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2026-04-01'

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三十九条
 
-<!-- segment: junyou id: kinsho-gyou-furei-art-39-p1 applies_provisions: 第三十六条から第三十八条まで -->
 第三十六条から第三十八条までの規定は、法第三十二条の四において法第三十二条第一項及び第二項の規定を準用する場合について準用する。

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 何人も、次の各号のいずれかに該当する事項を実現するために、金銭その他の利益を授受し、提供し、要求し、若しくは授受を約束したり、脅迫、強制その他これに類する方法を用いたり、直接たると間接たるとを問わず、公の地位を利用し、又はその利用を提供し、要求し、若しくは約束したり、あるいはこれらの行為に関与してはならない。
     modality: gimu_negative
+  - id: kokka-koumuin-hou-art-39-p1-kou-1
+    type: kou
+    text: 一　退職若しくは休職又は任用の不承諾
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-39-p1-kou-2
+    type: kou
+    text: 二　採用のための競争試験（以下「採用試験」という。）若しくは任用の志望の撤回又は任用に対する競争の中止
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-39-p1-kou-3
+    type: kou
+    text: 三　任用、昇給、留職その他官職における利益の実現又はこれらのことの推薦
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第三十九条
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-39-p1-hashira -->
 何人も、次の各号のいずれかに該当する事項を実現するために、金銭その他の利益を授受し、提供し、要求し、若しくは授受を約束したり、脅迫、強制その他これに類する方法を用いたり、直接たると間接たるとを問わず、公の地位を利用し、又はその利用を提供し、要求し、若しくは約束したり、あるいはこれらの行為に関与してはならない。
+
+一　退職若しくは休職又は任用の不承諾
+
+二　採用のための競争試験（以下「採用試験」という。）若しくは任用の志望の撤回又は任用に対する競争の中止
+
+三　任用、昇給、留職その他官職における利益の実現又はこれらのことの推薦

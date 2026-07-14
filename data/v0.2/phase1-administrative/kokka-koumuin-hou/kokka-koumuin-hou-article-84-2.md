@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-84-2-p1
+    type: simple
+    text: 人事院は、前条第二項の規定による権限（国家公務員倫理法又はこれに基づく命令（同法第五条第三項の規定に基づく訓令及び同条第四項の規定に基づく規則を含む。）に違反する行為に関して行われるものに限る。）を国家公務員倫理審査会に委任する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

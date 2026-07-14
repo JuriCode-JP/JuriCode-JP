@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五条
 
-<!-- segment: simple id: chihou-jichi-hou-art-105-p1 -->
 普通地方公共団体の議会の議長は、委員会に出席し、発言することができる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-16-p1
+    type: simple
+    text: 政令第三十六条第二項に規定する日常生活の用に供しないものとして総務省令で定める家屋又はその部分は、毎月一日以上の居住（これと同程度の居住を含む。）の用に供する家屋又はその部分以外の家屋又はその部分とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

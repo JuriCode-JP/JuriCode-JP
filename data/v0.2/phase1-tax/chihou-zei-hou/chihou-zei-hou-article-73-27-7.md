@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-7-p1
+    type: simple
+    text: 道府県は、土地改良区が土地改良法第五十三条の三第一項又は第五十三条の三の二第一項の規定により換地計画において定められた換地（政令で定めるものに限る。）を取得した場合において、当該換地をその取得の日から二年以内に譲渡したときは、当該土地改良区による当該換地の取得に対して課する不動産取得税に係る地方団体の徴収金に係る納税義務を免除するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-7-p2
+    type: junyou
+    text: 第七十三条の二十七の四第二項から第五項までの規定は、土地改良区が前項の換地を取得した場合における不動産取得税額の徴収の猶予及びその取消し並びに当該不動産取得税に係る地方団体の徴収金の還付について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

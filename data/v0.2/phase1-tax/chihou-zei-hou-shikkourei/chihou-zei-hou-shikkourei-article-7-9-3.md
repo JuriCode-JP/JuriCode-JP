@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-9-3-p1
+    type: simple
+    text: 法第三十二条第九項に規定する政令で定める純損失の金額は、同項に規定する前年前三年内の各年に生じた純損失の金額のうち、同項に規定する変動所得の金額の計算上生じた損失の金額及び被災事業用資産の損失の金額に達するまでの金額（既に同項の規定により前年前において控除されたものを除く。）とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

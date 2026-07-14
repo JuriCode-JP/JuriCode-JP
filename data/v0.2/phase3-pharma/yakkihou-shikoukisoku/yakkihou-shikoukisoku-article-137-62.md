@@ -14,14 +14,39 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-62-p1-hashira
+    type: hashira
+    text: 前条の規定により保存することとされている文書その他の記録の保存期間は、次の各号に掲げる再生医療等製品について、それぞれ当該各号に定める期間とする。
+    modality: gimu
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-137-62-p1-kou-1
+    type: kou
+    text: 一　再生医療等製品（次号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-62-p1-kou-2
+    type: kou
+    text: 二　指定再生医療等製品に係る記録　利用しなくなつた日から三十年間
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-62-p2
+    type: tokusoku
+    text: 製造販売業者は、前条の規定にかかわらず、製造販売後安全管理業務手順書等又はあらかじめ定めた文書に基づき、同条の規定により記録を保存しなければならないとされている者に代えて、製造販売業者が指定する者に、当該記録を保存させることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -39,6 +64,10 @@ parent_section:
 ### 第百三十七条の六十二第一項
 
 前条の規定により保存することとされている文書その他の記録の保存期間は、次の各号に掲げる再生医療等製品について、それぞれ当該各号に定める期間とする。
+
+一　再生医療等製品（次号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+
+二　指定再生医療等製品に係る記録　利用しなくなつた日から三十年間
 
 ### 第百三十七条の六十二第二項
 

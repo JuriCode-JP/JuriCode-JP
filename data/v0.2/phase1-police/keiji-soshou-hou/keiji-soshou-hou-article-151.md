@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-151-p1 -->
 証人として召喚を受け正当な理由がなく出頭しない者は、一年以下の拘禁刑又は三十万円以下の罰金に処する。

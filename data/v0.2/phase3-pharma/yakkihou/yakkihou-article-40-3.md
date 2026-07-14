@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-3-p1-zen
+    type: zen_dan
+    text: 医療機器の修理業については、第二十三条の二の十四第五項から第九項まで、第二十三条の二の十五第三項及び第四項、第二十三条の二の十五の二第三項及び第四項、第二十三条の二の十六第二項並びに第二十三条の二の二十二の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-art-40-3-p1-kou
+    type: kou_dan
+    text: この場合において、第二十三条の二の十四第六項から第九項までの規定中「医療機器責任技術者」とあり、第二十三条の二の十五第三項及び第四項並びに第二十三条の二の十五の二第三項中「医療機器責任技術者又は体外診断用医薬品製造管理者」とあり、及び第二十三条の二の十六第二項中「医療機器責任技術者、体外診断用医薬品製造管理者」とあるのは、「医療機器修理責任技術者」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-art-40-3-p1-zen
 cases: []
 amendments: []
 tags:

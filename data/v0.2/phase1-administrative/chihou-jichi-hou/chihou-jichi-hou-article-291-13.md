@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-13-p1
+    type: junyou
+    text: 第二百八十七条の三第二項、第二百八十七条の四及び第二百八十九条の規定は、広域連合について準用する。この場合において、第二百八十七条の三第二項中「第二百八十五条の一部事務組合」とあるのは「広域連合」と、第二百八十九条中「第二百八十六条、第二百八十六条の二又は前条」とあるのは「第二百九十一条の三第一項、第三項若しくは第四項又は第二百九十一条の十第一項」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第二百八十九条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

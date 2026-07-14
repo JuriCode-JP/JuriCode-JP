@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-60-3-p1
+    type: simple
+    text: 都道府県警察は、広域組織犯罪等を処理するため、必要な限度において、その管轄区域外に権限を及ぼすことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-33-p1
+    type: simple
+    text: 法律上事業所等において事業を行うとみられる者が単なる名義人であつて、他の者が事実上当該事業を行つていると認められる場合には、当該事業に対して課する事業所税は、当該他の者に課するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-57-p1
+    type: simple
+    text: 指定紛争解決機関は、事業年度ごとに、当該事業年度に係る紛争解決等業務に関する報告書を作成し、内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-57-p2
+    type: simple
+    text: 前項の報告書に関する記載事項、提出期日その他必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

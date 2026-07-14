@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-3-p1
+    type: simple
+    text: 普通地方公共団体は、その区域外においても、また、関係普通地方公共団体との協議により、公の施設を設けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-3-p2
+    type: simple
+    text: 普通地方公共団体は、他の普通地方公共団体との協議により、当該他の普通地方公共団体の公の施設を自己の住民の利用に供させることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-3-p3
+    type: simple
+    text: 前二項の協議については、関係普通地方公共団体の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

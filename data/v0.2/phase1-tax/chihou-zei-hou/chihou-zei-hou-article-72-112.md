@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-112-p1
+    type: simple
+    text: 税関長は、政令で定めるところにより、道府県知事に対し、貨物割の申告の件数、貨物割額、貨物割に係る滞納の状況その他必要な事項を報告するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-112-p2-zen
+    type: zen_dan
+    text: 道府県知事は、税関長に対し、必要があると認める事項を示して、当該税関長に係る貨物割の賦課徴収又は申告納付に関する事項について、これらに関する書類を閲覧し、又は記録することを請求することができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-72-112-p2-kou
+    type: kou_dan
+    text: この場合において、当該請求に理由があると認めるときは、税関長は、関係書類を道府県知事又はその指定する職員に閲覧させ、又は記録させるものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-72-112-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-112-p3
+    type: simple
+    text: 税関長は、貨物割の賦課徴収を行うため必要があるときは、道府県知事及び市町村長に対し、当該事務に関し参考となるべき資料又は情報の提供その他の協力を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

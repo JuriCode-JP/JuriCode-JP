@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十四条
 
-<!-- segment: simple id: shotoku-zei-hou-art-14-p1 -->
 削除

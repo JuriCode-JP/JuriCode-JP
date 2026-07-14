@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-16-p1
+    type: simple
+    text: 不動産取得税の納期については、当該道府県の条例の定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

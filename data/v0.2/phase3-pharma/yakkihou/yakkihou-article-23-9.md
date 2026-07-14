@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-9-p1
+    type: simple
+    text: 登録認証機関は、基準適合性認証を行うことを求められたときは、正当な理由がある場合を除き、遅滞なく、基準適合性認証のための審査を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-9-p2
+    type: simple
+    text: 登録認証機関は、公正に、かつ、厚生労働省令で定める基準に適合する方法により基準適合性認証のための審査を行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

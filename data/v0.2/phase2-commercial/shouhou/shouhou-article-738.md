@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百三十八条
 
-<!-- segment: simple id: shouhou-art-738-p1 -->
 荷送人は、船積期間内に、運送に必要な書類を船長に交付しなければならない。

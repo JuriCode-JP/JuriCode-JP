@@ -16,52 +16,117 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p1
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の七第一項の規定により機構に法第二十三条の二の五の承認のための審査を行わせることとしたときは、令第三十七条の三十第一項に規定する医療機器又は体外診断用医薬品に係る法第二十三条の二の五第一項又は第十三項の承認の申請者は、機構に当該審査の申請をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p2
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の七第一項の規定により機構に法第二十三条の二の五第五項後段（同条第十三項において準用する場合を含む。）の調査を行わせることとしたときは、令第三十七条の三十第一項に規定する医療機器又は体外診断用医薬品に係る法第二十三条の二の五第一項又は第十三項の承認の申請者は、機構に当該調査の申請をしなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p3
+    type: simple
+    text: 前二項の申請は、様式第六十三の十五による申請書を当該申請に係る品目の法第二十三条の二の五第一項又は第十三項の承認の申請書に添付して行うものとする。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p4
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の七第一項の規定により機構に法第二十三条の二の六の三第二項（法第二十三条の二の八第二項において準用する場合を含む。）の規定による法第二十三条の二の五第三項前段に規定する資料が同項後段の規定に適合するかどうかの調査を行わせることとしたときは、令第三十七条の三十第一項に規定する医療機器又は体外診断用医薬品であつて第百十四条の二十一に規定するものに係る法第二十三条の二の六の三第一項の規定による法第二十三条の二の五の承認を受けようとする者又は同項の規定による同条の承認を受けた者は、機構に当該調査の申請をしなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p5
+    type: simple
+    text: 前項の申請は、様式第六十三の十五による申請書を機構に提出することによって行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p6-zen
+    type: zen_dan
+    text: 法第二十三条の二の七第一項の規定により機構が行う法第二十三条の二の五の承認のための審査及び同条第五項（同条第十三項において準用する場合を含む。）及び法第二十三条の二の六の三第二項（法第二十三条の二の五第三項前段に規定する資料についての調査に係る部分に限り、法第二十三条の二の八第二項において準用する場合を含む。）の規定による調査（次条において「医療機器等審査等」という。）については、第百十四条の十九第五項の規定を準用する。
+    modality: unspecified
+    references:
+    - 次条
+  - id: yakkihou-shikoukisoku-art-114-37-p6-kou
+    type: kou_dan
+    text: この場合において、同項中「第一項各号に掲げるもの及び前項に規定するもののほか、厚生労働大臣」とあるのは「機構」と、「審査」とあるのは「審査又は法第二十三条の二の五第五項（同条第十三項において準用する場合を含む。）の調査」と、「厚生労働大臣に」とあるのは「機構を経由して厚生労働大臣に」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+    depends_on: yakkihou-shikoukisoku-art-114-37-p6-zen
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p7
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の七第一項の規定により機構に法第二十三条の二の六の二第三項の調査を行わせることとしたときは、医療機器等条件付承認を受けた者は、機構に令第三十七条の三十第一項に規定する医療機器又は体外診断用医薬品であつて当該医療機器等条件付承認に係るものに係る当該調査の申請をしなければならない。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p8
+    type: simple
+    text: 前項の申請は、様式第二十七の二による申請書を当該申請に係る品目の法第二十三条の二の六の二第三項の調査の申請書に添付して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p9-zen
+    type: zen_dan
+    text: 法第二十三条の二の七第一項の規定により機構が行う法第二十三条の二の六の二第三項の調査については、第百十四条の三十六の三第二項の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-37-p9-kou
+    type: kou_dan
+    text: この場合において、同項中「厚生労働大臣が」とあるのは「機構が」と、「厚生労働大臣に」とあるのは「機構を経由して厚生労働大臣に」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: yakkihou-shikoukisoku-art-114-37-p9-zen
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-37-p10
+    type: simple
+    text: 第八項の申請書に添付する資料は、第百十四条の三十六の四の資料とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

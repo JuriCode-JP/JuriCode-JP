@@ -43,6 +43,16 @@ paragraphs:
     type: hashira
     text: 受任者は、次に掲げる場合には、既にした履行の割合に応じて報酬を請求することができる。
     modality: kanou_kenri
+  - id: minpou-art-648-p3-kou-1
+    type: kou
+    text: 一　委任者の責めに帰することができない事由によって委任事務の履行をすることができなくなったとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-648-p3-kou-2
+    type: kou
+    text: 二　委任が履行の中途で終了したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -63,16 +73,16 @@ parent_section:
 
 ### 第六百四十八条第一項
 
-<!-- segment: simple id: minpou-art-648-p1 -->
 受任者は、特約がなければ、委任者に対して報酬を請求することができない。
 
 ### 第六百四十八条第二項
 
-<!-- segment: honbun id: minpou-art-648-p2-honbun -->
-受任者は、報酬を受けるべき場合には、委任事務を履行した後でなければ、これを請求することができない。<!-- segment: tadashi id: minpou-art-648-p2-tadashi -->
-ただし、期間によって報酬を定めたときは、第六百二十四条第二項の規定を準用する。
+受任者は、報酬を受けるべき場合には、委任事務を履行した後でなければ、これを請求することができない。ただし、期間によって報酬を定めたときは、第六百二十四条第二項の規定を準用する。
 
 ### 第六百四十八条第三項
 
-<!-- segment: hashira id: minpou-art-648-p3-hashira -->
 受任者は、次に掲げる場合には、既にした履行の割合に応じて報酬を請求することができる。
+
+一　委任者の責めに帰することができない事由によって委任事務の履行をすることができなくなったとき。
+
+二　委任が履行の中途で終了したとき。

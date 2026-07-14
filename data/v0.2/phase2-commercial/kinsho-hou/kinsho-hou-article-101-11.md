@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-11-p1-zen
+    type: zen_dan
+    text: 会員金融商品取引所は、申込者の中から組織変更時発行株式の割当てを受ける者を定め、かつ、その者に割り当てる組織変更時発行株式の数を定めなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-101-11-p1-kou
+    type: kou_dan
+    text: この場合において、会員金融商品取引所は、当該申込者に割り当てる組織変更時発行株式の数を、前条第二項第二号の数よりも減少することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    depends_on: kinsho-hou-art-101-11-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-11-p2
+    type: simple
+    text: 会員金融商品取引所は、第百一条の九第四号の期日の前日までに、申込者に対し、当該申込者に割り当てる組織変更時発行株式の数を通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

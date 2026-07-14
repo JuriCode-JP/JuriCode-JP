@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合には、債務者は、期限の利益を主張することができない。
     modality: kanou_negative
+  - id: minpou-art-137-p1-kou-1
+    type: kou
+    text: 一　債務者が破産手続開始の決定を受けたとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-137-p1-kou-2
+    type: kou
+    text: 二　債務者が担保を滅失させ、損傷させ、又は減少させたとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-137-p1-kou-3
+    type: kou
+    text: 三　債務者が担保を供する義務を負う場合において、これを供しないとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第百三十七条
 
-<!-- segment: hashira id: minpou-art-137-p1-hashira -->
 次に掲げる場合には、債務者は、期限の利益を主張することができない。
+
+一　債務者が破産手続開始の決定を受けたとき。
+
+二　債務者が担保を滅失させ、損傷させ、又は減少させたとき。
+
+三　債務者が担保を供する義務を負う場合において、これを供しないとき。

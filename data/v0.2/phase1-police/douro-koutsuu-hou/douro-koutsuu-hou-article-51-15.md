@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-15-p1
+    type: simple
+    text: 公安委員会は、第五十一条の四に規定する放置違反金に関する事務（確認事務、納付命令、督促及び滞納処分を除く。）の全部又は一部を会社その他の法人に委託することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-15-p2
+    type: simple
+    text: 前項の規定により公安委員会から事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該事務に関して知り得た秘密を漏らしてはならない。
+    modality: gimu_negative
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-51-15-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十七条の四第一項第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +59,5 @@ parent_section:
 ### 第五十一条の十五第二項
 
 前項の規定により公安委員会から事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該事務に関して知り得た秘密を漏らしてはならない。
+
+（罰則　第二項については第百十七条の四第一項第一号）

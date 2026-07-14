@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-19-p1
+    type: simple
+    text: 委員会は、第百六条の十七第二項（前条第二項において準用する場合を含む。）の規定により報告を受けた場合において必要があると認めるときは、再就職等規制違反行為に関し、監察官に任命権者と共同して調査を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

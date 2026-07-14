@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五百五十二条
 
-<!-- segment: simple id: minpou-art-552-p1 -->
 定期の給付を目的とする贈与は、贈与者又は受贈者の死亡によって、その効力を失う。

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-38-p1
+    type: simple
+    text: 内閣総理大臣は、第二十七条の三十六第一項から第三項までの規定により公表されるべき重要情報が公表されていないと認めるときは、当該重要情報を公表すべきであると認められる者に対し、重要情報の公表その他の適切な措置をとるべき旨の指示をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-38-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による指示を受けた者が、正当な理由がないのにその指示に係る措置をとらなかつたときは、その者に対し、その指示に係る措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-32-p1
+    type: simple
+    text: 内閣総理大臣は、証券金融会社が、法令又は法令に基づいてする行政官庁の処分に違反したときは、その免許を取り消し、又は六月以内の期間を定めてその業務の全部若しくは一部の停止を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-32-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定により業務の停止を命じようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

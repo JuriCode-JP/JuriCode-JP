@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-18-p1
+    type: simple
+    text: 第百八十五条の七第一項、第二項、第四項から第八項まで及び第十項から第十七項までの決定の取消しの訴えは、決定がその効力を生じた日から三十日以内に提起しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-18-p2
+    type: simple
+    text: 前項の期間は、不変期間とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

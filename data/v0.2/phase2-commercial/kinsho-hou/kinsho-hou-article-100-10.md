@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-10-p1
+    type: simple
+    text: 重要な事由があるときは、裁判所は、利害関係人若しくは検察官の請求により又は職権で、清算人を解任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

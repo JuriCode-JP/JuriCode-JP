@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-49-3-p1
+    type: simple
+    text: 前条第一項に規定する審査請求は、処分があつたことを知つた日の翌日から起算して三月以内にしなければならず、処分があつた日の翌日から起算して一年を経過したときは、することができない。
+    modality: kanou_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

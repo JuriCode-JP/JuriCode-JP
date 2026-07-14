@@ -13,20 +13,36 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-9-p1-honbun
+    type: honbun
+    text: 委員長及び委員の任期は、三年とする。
+    modality: gimu
+  - id: kokka-koumuin-hou-art-106-9-p1-tadashi
+    type: tadashi
+    text: ただし、補欠の委員長及び委員の任期は、前任者の残任期間とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-9-p2
+    type: simple
+    text: 委員長及び委員は、再任されることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-9-p3
+    type: simple
+    text: 委員長及び委員の任期が満了したときは、当該委員長及び委員は、後任者が任命されるまで引き続きその職務を行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

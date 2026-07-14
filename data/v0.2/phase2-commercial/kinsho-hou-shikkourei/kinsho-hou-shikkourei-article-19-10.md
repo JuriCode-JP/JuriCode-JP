@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-10-p1
+    type: simple
+    text: 法第百五十六条の八十六第一項に規定する政令で定める期間は、一月とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

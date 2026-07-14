@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-36-p1
+    type: simple
+    text: 信用格付業者は、内閣府令で定めるところにより、信用格付を付与し、かつ、提供し又は閲覧に供するための方針及び方法（次項において「格付方針等」という。）を定め、公表しなければならない。これを変更したときも、同様とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-36-p2
+    type: simple
+    text: 信用格付業者は、格付方針等に従い、信用格付業の業務を行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

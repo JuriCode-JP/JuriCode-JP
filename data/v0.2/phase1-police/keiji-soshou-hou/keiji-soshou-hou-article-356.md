@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百五十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-356-p1 -->
 前三条の上訴は、被告人の明示した意思に反してこれをすることができない。

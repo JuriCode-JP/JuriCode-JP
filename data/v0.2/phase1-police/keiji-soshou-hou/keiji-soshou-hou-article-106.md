@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-106-p1 -->
 公判廷外における差押え、記録命令付差押え又は捜索は、差押状、記録命令付差押状又は捜索状を発してこれをしなければならない。

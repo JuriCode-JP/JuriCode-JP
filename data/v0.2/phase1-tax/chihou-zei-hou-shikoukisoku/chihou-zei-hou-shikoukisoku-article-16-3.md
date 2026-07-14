@@ -34,5 +34,4 @@ tags:
 
 ### 第十六条の三
 
-<!-- segment: junyou id: chihou-zei-hou-shikoukisoku-art-16-3-p1 -->
 第八条の八の規定は、法第四百七十三条第二項の指定を受けようとする卸売販売業者等について準用する。

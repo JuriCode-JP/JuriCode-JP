@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-11-p1
+    type: simple
+    text: 養子と実父母及びその血族との間においては、離縁の日から、特別養子縁組によって終了した親族関係と同一の親族関係を生ずる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

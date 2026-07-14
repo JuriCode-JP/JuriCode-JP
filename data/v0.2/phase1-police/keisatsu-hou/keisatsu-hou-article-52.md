@@ -57,15 +57,12 @@ parent_section:
 
 ### 第五十二条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-52-p1 -->
 指定市の区域内における道府県警察本部の事務を分掌させるため、当該指定市の区域に市警察部を置く。
 
 ### 第五十二条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-52-p2 -->
 市警察部に、部長を置く。
 
 ### 第五十二条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-52-p3 -->
 市警察部長は、市警察部の事務を統括し、及び道府県警察本部長の命を受け、市警察部の所属の警察職員を指揮監督する。

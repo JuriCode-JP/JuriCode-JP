@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-200-2-p1
+    type: simple
+    text: 監査委員に常設又は臨時の監査専門委員を置くことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-200-2-p2
+    type: simple
+    text: 監査専門委員は、専門の学識経験を有する者の中から、代表監査委員が、代表監査委員以外の監査委員の意見を聴いて、これを選任する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-200-2-p3
+    type: simple
+    text: 監査専門委員は、監査委員の委託を受け、その権限に属する事務に関し必要な事項を調査する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-200-2-p4
+    type: simple
+    text: 監査専門委員は、非常勤とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

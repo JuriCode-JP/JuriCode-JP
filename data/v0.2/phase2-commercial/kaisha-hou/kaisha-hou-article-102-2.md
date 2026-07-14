@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-102-2-p1
+    type: simple
+    text: 設立時募集株式の引受人は、前条第三項に規定する場合には、株式会社に対し、払込みを仮装した払込金額の全額の支払をする義務を負う。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-102-2-p2
+    type: simple
+    text: 前項の規定により設立時募集株式の引受人の負う義務は、総株主の同意がなければ、免除することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-15-5-p1
+    type: simple
+    text: 居住者が年齢二十三歳未満の扶養親族（所得税法第二条第一項第三十四号に規定する扶養親族をいう。次項において同じ。）を有する場合における令和八年分又は令和九年分の同法第七十六条第十一項に規定する生命保険料控除については、同条第一項中「各年」とあるのは「令和八年又は令和九年」と、同項第一号イ中「二万円」とあるのは「三万円」と、同号ロ中「二万円」とあるのは「三万円」と、「四万円」とあるのは「六万円」と、同号ハ中「四万円」とあるのは「六万円」と、「八万円」とあるのは「十二万円」と、「三万円」とあるのは「四万五千円」と、同号ニ中「八万円」とあるのは「十二万円」と、「四万円」とあるのは「六万円」と、同項第三号中「四万円」とあるのは「六万円」とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-15-5-p2-honbun
+    type: honbun
+    text: 前項の場合において、その者が年齢二十三歳未満の扶養親族に該当するかどうかの判定は、その年十二月三十一日（その居住者がその年の中途において死亡し、又は出国（所得税法第二条第一項第四十二号に規定する出国をいう。以下この項において同じ。）をする場合には、その死亡又は出国の時）の現況による。
+    modality: unspecified
+    references:
+    - 前項
+  - id: sochi-hou-art-41-15-5-p2-tadashi
+    type: tadashi
+    text: ただし、その判定に係る者がその当時既に死亡している場合は、その死亡の時の現況による。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-41-15-5-p3
+    type: simple
+    text: 第一項の規定の適用がある場合における所得税法の規定の適用については、次の表の上欄に掲げる同法の規定中同表の中欄に掲げる字句は、同表の下欄に掲げる字句にそれぞれ読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

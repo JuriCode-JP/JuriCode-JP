@@ -14,19 +14,50 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-7-p1-hashira
+    type: hashira
+    text: 法第二十七条の二十三第六項に規定する政令で定める特別の関係は、次に掲げる関係とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-14-7-p1-kou-1
+    type: kou
+    text: 一　会社の総株主等の議決権の数の百分の五十を超える数の議決権に係る株式又は出資を自己又は他人（仮設人を含む。次項において同じ。）の名義をもつて所有している者（次号及び同項において「支配株主等」という。）と当該会社（同号及び同項において「被支配会社」という。）との関係
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-14-7-p1-kou-2
+    type: kou
+    text: 二　被支配会社とその支配株主等の他の被支配会社との関係
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-14-7-p1-kou-3
+    type: kou
+    text: 三　その他前二号に掲げる関係に準ずるものとして内閣府令で定める関係
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-7-p2
+    type: simple
+    text: 支配株主等とその被支配会社が合わせて他の会社の総株主等の議決権の数の百分の五十を超える数の議決権に係る株式又は出資を自己又は他人の名義をもつて所有している場合には、当該他の会社も、当該支配株主等の被支配会社とみなして前項及びこの項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-7-p3
+    type: junyou
+    text: 第四条の四第三項の規定は、第一項第一号及び前項の場合においてこれらの規定に規定する者が保有する議決権について準用する。この場合において、同条第三項中「第百四十七条第一項又は第百四十八条第一項（これらの規定を同法第二百二十八条第一項、第二百三十五条第一項、第二百三十九条第一項及び第二百七十六条（第二号に係る部分に限る。）において準用する場合を含む。）」とあるのは「第百四十七条第一項又は第百四十八条第一項」と、「株式又は出資」とあるのは「株式」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -44,6 +75,12 @@ parent_section:
 ### 第十四条の七第一項
 
 法第二十七条の二十三第六項に規定する政令で定める特別の関係は、次に掲げる関係とする。
+
+一　会社の総株主等の議決権の数の百分の五十を超える数の議決権に係る株式又は出資を自己又は他人（仮設人を含む。次項において同じ。）の名義をもつて所有している者（次号及び同項において「支配株主等」という。）と当該会社（同号及び同項において「被支配会社」という。）との関係
+
+二　被支配会社とその支配株主等の他の被支配会社との関係
+
+三　その他前二号に掲げる関係に準ずるものとして内閣府令で定める関係
 
 ### 第十四条の七第二項
 

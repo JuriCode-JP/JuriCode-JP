@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-62-p1
+    type: simple
+    text: 道府県知事は、天災その他特別の事情がある場合において狩猟税の減免を必要とすると認める者又は貧困により生活のため公私の扶助を受ける者に限り、当該道府県の条例の定めるところにより、狩猟税を減免することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-3-p1
+    type: simple
+    text: 法第六十五条の二第五号の厚生労働省令で定める表示は、白地に黒枠、黒字をもつて記載する「条件・期限付」の文字とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

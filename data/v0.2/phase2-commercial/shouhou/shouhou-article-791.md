@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百九十一条
 
-<!-- segment: junyou id: shouhou-art-791-p1 applies_provisions: 前三条 -->
 前三条の規定は、船舶と非航海船との事故について準用する。

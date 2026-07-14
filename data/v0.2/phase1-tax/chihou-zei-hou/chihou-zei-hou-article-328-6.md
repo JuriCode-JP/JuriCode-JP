@@ -14,24 +14,61 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-6-p1-hashira
+    type: hashira
+    text: 前条第二項の規定により徴収すべき分離課税に係る所得割の額は、次の各号に掲げる場合の区分に応じ、当該各号に掲げる税額とする。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-328-6-p1-kou-1
+    type: kou
+    text: 一　退職手当等の支払を受ける者が提出した次条第一項の規定による申告書（以下この条、次条第二項及び第三項並びに第三百二十八条の八において「退職所得申告書」という。）に、その支払うべきことが確定した年において支払うべきことが確定した他の退職手当等で既に支払がされたもの（次号において「支払済みの他の退職手当等」という。）がない旨の記載がある場合　その支払う退職手当等の金額について第三百二十八条の二及び第三百二十八条の三の規定を適用して計算した税額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-328-6-p1-kou-2
+    type: kou
+    text: 二　退職手当等の支払を受ける者が提出した退職所得申告書に、支払済みの他の退職手当等がある旨の記載がある場合　その支払済みの他の退職手当等の金額とその支払う退職手当等の金額との合計額について第三百二十八条の二及び第三百二十八条の三の規定を適用して計算した税額から、その支払済みの他の退職手当等につき前条第二項の規定により徴収された又は徴収されるべき分離課税に係る所得割の額を控除した残額に相当する税額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-6-p2
+    type: simple
+    text: 退職手当等の支払を受ける者がその支払を受ける時までに退職所得申告書を提出していないときは、前条第二項の規定により徴収すべき分離課税に係る所得割の額は、その支払う退職手当等の金額について第三百二十八条の二及び第三百二十八条の三の規定を適用して計算した税額とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-6-p3
+    type: simple
+    text: 第一項各号又は前項の規定により第三百二十八条の二の規定を適用する場合における所得税法第三十条第二項の退職所得控除額の計算については、前二項の規定による分離課税に係る所得割を徴収すべき退職手当等を支払うべきことが確定した時の状況によるものとする。
+    modality: gimu
+    references:
+    - 前二項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-6-p4
+    type: junyou
+    text: 所得税法第二百二条の規定は、前三項の規定を適用する場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第二百二条
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:
@@ -53,6 +90,10 @@ parent_section:
 ### 第三百二十八条の六第一項
 
 前条第二項の規定により徴収すべき分離課税に係る所得割の額は、次の各号に掲げる場合の区分に応じ、当該各号に掲げる税額とする。
+
+一　退職手当等の支払を受ける者が提出した次条第一項の規定による申告書（以下この条、次条第二項及び第三項並びに第三百二十八条の八において「退職所得申告書」という。）に、その支払うべきことが確定した年において支払うべきことが確定した他の退職手当等で既に支払がされたもの（次号において「支払済みの他の退職手当等」という。）がない旨の記載がある場合　その支払う退職手当等の金額について第三百二十八条の二及び第三百二十八条の三の規定を適用して計算した税額
+
+二　退職手当等の支払を受ける者が提出した退職所得申告書に、支払済みの他の退職手当等がある旨の記載がある場合　その支払済みの他の退職手当等の金額とその支払う退職手当等の金額との合計額について第三百二十八条の二及び第三百二十八条の三の規定を適用して計算した税額から、その支払済みの他の退職手当等につき前条第二項の規定により徴収された又は徴収されるべき分離課税に係る所得割の額を控除した残額に相当する税額
 
 ### 第三百二十八条の六第二項
 

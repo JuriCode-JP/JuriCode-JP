@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-19-p1
+    type: simple
+    text: 第百七十七条第一項第一号若しくは第百八十五条第一項又は第百八十五条の四第一項の規定により出頭又は鑑定を命ぜられた参考人又は鑑定人は、政令で定めるところにより、旅費及び手当を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

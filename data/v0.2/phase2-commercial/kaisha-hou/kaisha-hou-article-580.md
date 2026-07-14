@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 社員は、次に掲げる場合には、連帯して、持分会社の債務を弁済する責任を負う。
     modality: unspecified
+  - id: kaisha-hou-art-580-p1-kou-1
+    type: kou
+    text: 一　当該持分会社の財産をもってその債務を完済することができない場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-580-p1-kou-2
+    type: kou
+    text: 二　当該持分会社の財産に対する強制執行がその効を奏しなかった場合（社員が、当該持分会社に弁済をする資力があり、かつ、強制執行が容易であることを証明した場合を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第五百八十条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-580-p1-hashira -->
 社員は、次に掲げる場合には、連帯して、持分会社の債務を弁済する責任を負う。
+
+一　当該持分会社の財産をもってその債務を完済することができない場合
+
+二　当該持分会社の財産に対する強制執行がその効を奏しなかった場合（社員が、当該持分会社に弁済をする資力があり、かつ、強制執行が容易であることを証明した場合を除く。）
 
 ### 第五百八十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-580-p2 -->
 有限責任社員は、その出資の価額（既に持分会社に対し履行した出資の価額を除く。）を限度として、持分会社の債務を弁済する責任を負う。

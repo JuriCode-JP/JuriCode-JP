@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-9-p1-honbun
+    type: honbun
+    text: たばこ税の徴収については、申告納付の方法によらなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-74-9-p1-tadashi
+    type: tadashi
+    text: ただし、第七十四条の三第四項ただし書の規定によつて卸売販売業者等とみなされた者に対したばこ税を課する場合における徴収は、普通徴収の方法によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

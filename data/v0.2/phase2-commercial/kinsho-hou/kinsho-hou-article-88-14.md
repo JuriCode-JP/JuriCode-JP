@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-14-p1
+    type: simple
+    text: 金融商品会員制法人の理事は、少なくとも毎年一回、会員の通常総会を開かなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

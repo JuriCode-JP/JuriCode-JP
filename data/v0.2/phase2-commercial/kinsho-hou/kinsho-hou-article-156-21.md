@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-21-p1
+    type: simple
+    text: 有価証券等清算取次ぎについては、有価証券等清算取次ぎを委託した顧客を当該有価証券等清算取次ぎに係る対象取引を行う者とみなして、第百十六条（第百三十二条において準用する場合を含む。）及び第百十九条第一項から第三項までの規定を適用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-21-p2
+    type: simple
+    text: 市場デリバティブ取引に係る有価証券等清算取次ぎの委託の取次ぎについては、有価証券等清算取次ぎを委託した顧客を当該市場デリバティブ取引の取次ぎを行う者とみなして、第百十九条第一項から第三項までの規定を適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

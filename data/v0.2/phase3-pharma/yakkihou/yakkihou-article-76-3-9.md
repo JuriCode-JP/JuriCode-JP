@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-9-p1
+    type: simple
+    text: 委員及び臨時委員は、医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の安全性の確保並びにこれらの使用による保健衛生上の危害の発生及び拡大の防止に関して優れた識見を有する者のうちから、厚生労働大臣が任命する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-9-p2
+    type: simple
+    text: 専門委員は、当該専門の事項に関して優れた識見を有する者のうちから、厚生労働大臣が任命する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

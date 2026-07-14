@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-3-p1
+    type: simple
+    text: 市町村は、第七百六条第二項の規定により特別徴収の方法によつて特別徴収対象被保険者に対して課する国民健康保険税を徴収しようとする場合においては、当該国民健康保険税を特別徴収の方法によつて徴収する旨、当該特別徴収対象被保険者に係る支払回数割保険税額その他総務省令で定める事項を、当該年金保険者に対しては当該年度の初日の属する年の七月三十一日（政令で定める年金保険者については、政令で定める日）までに、当該特別徴収対象被保険者に対しては当該年の九月三十日までに通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-3-p2
+    type: simple
+    text: 前項の支払回数割保険税額は、総務省令で定めるところにより、当該特別徴収対象被保険者につき、特別徴収の方法によつて徴収する国民健康保険税額（当該特別徴収対象被保険者に対して課する当該年度分の国民健康保険税額から普通徴収の方法によつて徴収される額を控除して得た額とする。第七百十八条の九第一項及び第七百十八条の十第二項において「特別徴収対象保険税額」という。）を、当該年度の初日の属する年の十月一日から翌年の三月三十一日までの間における当該特別徴収対象被保険者に係る特別徴収対象年金給付の支払の回数で除して得た額とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

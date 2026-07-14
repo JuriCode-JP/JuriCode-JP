@@ -57,15 +57,12 @@ parent_section:
 
 ### 第二十一条第一項
 
-<!-- segment: simple id: shouhou-art-21-p1 -->
 支配人は、商人に代わってその営業に関する一切の裁判上又は裁判外の行為をする権限を有する。
 
 ### 第二十一条第二項
 
-<!-- segment: simple id: shouhou-art-21-p2 -->
 支配人は、他の使用人を選任し、又は解任することができる。
 
 ### 第二十一条第三項
 
-<!-- segment: simple id: shouhou-art-21-p3 -->
 支配人の代理権に加えた制限は、善意の第三者に対抗することができない。

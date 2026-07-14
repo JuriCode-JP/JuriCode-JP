@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-10-7-p1
+    type: simple
+    text: 令第二条の九第二項の地域連携薬局等の認定証の再交付の申請書は、様式第四によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

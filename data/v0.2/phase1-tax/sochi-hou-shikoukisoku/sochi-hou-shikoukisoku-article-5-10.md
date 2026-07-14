@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五条の十
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-5-10-p1 -->
 削除

@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-8-p1
+    type: simple
+    text: 特別養子縁組を成立させるには、養親となる者が養子となる者を六箇月以上の期間監護した状況を考慮しなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-8-p2-honbun
+    type: honbun
+    text: 前項の期間は、第八百十七条の二に規定する請求の時から起算する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: minpou-art-817-8-p2-tadashi
+    type: tadashi
+    text: ただし、その請求前の監護の状況が明らかであるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

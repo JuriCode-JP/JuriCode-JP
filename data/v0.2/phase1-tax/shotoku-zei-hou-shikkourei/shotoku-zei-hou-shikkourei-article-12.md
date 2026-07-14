@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第二条第一項第三十五号（特別農業所得者の意義）に規定する政令で定める事業は、次に掲げる事業とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-12-p1-kou-1
+    type: kou
+    text: 一　米、麦その他の穀物、馬鈴しよ、甘しよ、たばこ、野菜、花、種苗その他のほ場作物、果樹、樹園の生産物又は温室その他特殊施設を用いてする園芸作物の栽培を行なう事業
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-12-p1-kou-2
+    type: kou
+    text: 二　繭又は蚕種の生産を行なう事業
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-12-p1-kou-3
+    type: kou
+    text: 三　主として前二号に規定する物の栽培又は生産をする者が兼営するわら工品その他これに類する物の生産、家畜、家きん、毛皮獣若しくは蜂の育成、肥育、採卵若しくはみつの採取又は酪農品の生産を行なう事業
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-12-p1-hashira -->
 法第二条第一項第三十五号（特別農業所得者の意義）に規定する政令で定める事業は、次に掲げる事業とする。
+
+一　米、麦その他の穀物、馬鈴しよ、甘しよ、たばこ、野菜、花、種苗その他のほ場作物、果樹、樹園の生産物又は温室その他特殊施設を用いてする園芸作物の栽培を行なう事業
+
+二　繭又は蚕種の生産を行なう事業
+
+三　主として前二号に規定する物の栽培又は生産をする者が兼営するわら工品その他これに類する物の生産、家畜、家きん、毛皮獣若しくは蜂の育成、肥育、採卵若しくはみつの採取又は酪農品の生産を行なう事業

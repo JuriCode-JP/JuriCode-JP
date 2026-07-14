@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百八十二条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-182-p1 -->
 医療機器の修理業の許可証は、様式第九十二によるものとする。

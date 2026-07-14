@@ -46,10 +46,8 @@ parent_section:
 
 ### 第四条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-4-p1 -->
 内閣総理大臣の所轄の下に、国家公安委員会を置く。
 
 ### 第四条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-4-p2 -->
 国家公安委員会は、委員長及び五人の委員をもつて組織する。

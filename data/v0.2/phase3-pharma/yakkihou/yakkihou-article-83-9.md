@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-9-p1
+    type: simple
+    text: 第七十六条の四の規定に違反して、業として、指定薬物を製造し、輸入し、販売し、若しくは授与したとき又は指定薬物を所持したとき（販売又は授与の目的で貯蔵し、又は陳列したときに限る。）は、当該違反行為をした者は、五年以下の拘禁刑若しくは五百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

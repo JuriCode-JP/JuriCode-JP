@@ -16,22 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-7-p1
+    type: simple
+    text: 各大臣は、その所管する法律又はこれに基づく政令に係る都道府県の法定受託事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該都道府県に対し、当該法定受託事務の処理について違反の是正又は改善のため講ずべき措置に関し、必要な指示をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-7-p2-hashira
+    type: hashira
+    text: 次の各号に掲げる都道府県の執行機関は、市町村の当該各号に定める法定受託事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該市町村に対し、当該法定受託事務の処理について違反の是正又は改善のため講ずべき措置に関し、必要な指示をすることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-245-7-p2-kou-1
+    type: kou
+    text: 一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する法定受託事務
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-245-7-p2-kou-2
+    type: kou
+    text: 二　都道府県教育委員会　市町村教育委員会の担任する法定受託事務
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-245-7-p2-kou-3
+    type: kou
+    text: 三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する法定受託事務
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-7-p3
+    type: simple
+    text: 各大臣は、その所管する法律又はこれに基づく政令に係る市町村の第一号法定受託事務の処理について、前項各号に掲げる都道府県の執行機関に対し、同項の規定による市町村に対する指示に関し、必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-7-p4
+    type: simple
+    text: 各大臣は、前項の規定によるほか、その所管する法律又はこれに基づく政令に係る市町村の第一号法定受託事務の処理が法令の規定に違反していると認める場合、又は著しく適正を欠き、かつ、明らかに公益を害していると認める場合において、緊急を要するときその他特に必要があると認めるときは、自ら当該市町村に対し、当該第一号法定受託事務の処理について違反の是正又は改善のため講ずべき措置に関し、必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -59,6 +95,12 @@ parent_section:
 ### 第二百四十五条の七第二項
 
 次の各号に掲げる都道府県の執行機関は、市町村の当該各号に定める法定受託事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該市町村に対し、当該法定受託事務の処理について違反の是正又は改善のため講ずべき措置に関し、必要な指示をすることができる。
+
+一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する法定受託事務
+
+二　都道府県教育委員会　市町村教育委員会の担任する法定受託事務
+
+三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する法定受託事務
 
 ### 第二百四十五条の七第三項
 

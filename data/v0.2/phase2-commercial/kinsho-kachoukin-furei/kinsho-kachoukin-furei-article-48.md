@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十八条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-48-p1 -->
 受命審判官が参考人審問を行う場合には、審判長の職務は、その受命審判官が行う。

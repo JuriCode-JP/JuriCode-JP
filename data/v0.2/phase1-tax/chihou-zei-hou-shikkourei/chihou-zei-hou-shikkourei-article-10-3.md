@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十条の三
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-10-3-p1 -->
 法第七十二条の二第一項第一号ロ（１）に規定する政令で定めるものは、保険業法第二条第十項に規定する外国相互会社とする。

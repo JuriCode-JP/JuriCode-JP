@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-2-2-p1
+    type: simple
+    text: 暗号等資産は、前条第二項第五号の金銭、同条第八項第一号の売買に係る金銭その他政令で定める規定の金銭又は当該規定の取引に係る金銭とみなして、この法律（これに基づく命令を含む。）の規定を適用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

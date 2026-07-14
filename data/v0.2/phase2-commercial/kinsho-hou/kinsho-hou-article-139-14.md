@@ -16,12 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-14-p1
+    type: simple
+    text: 新設合併消滅株式会社金融商品取引所（会員金融商品取引所と株式会社金融商品取引所とが新設合併をする場合における当該新設合併消滅株式会社金融商品取引所に限る。以下この目において同じ。）は、次条第一項の株主総会の日の二週間前の日から新設合併設立株式会社金融商品取引所の成立の日までの間、新設合併契約の内容その他内閣府令で定める事項を記載し、又は記録した書面又は電磁的記録をその本店に備え置かなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-14-p2-hashira
+    type: hashira
+    text: 新設合併消滅株式会社金融商品取引所の株主及び債権者は、新設合併消滅株式会社金融商品取引所に対して、その営業時間内は、いつでも、次に掲げる請求をすることができる。ただし、第二号又は第四号に掲げる請求をするには、新設合併消滅株式会社金融商品取引所の定めた費用を支払わなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-139-14-p2-kou-1
+    type: kou
+    text: 一　前項の書面の閲覧の請求
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-139-14-p2-kou-2
+    type: kou
+    text: 二　前項の書面の謄本又は抄本の交付の請求
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-139-14-p2-kou-3
+    type: kou
+    text: 三　前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-139-14-p2-kou-4
+    type: kou
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -49,3 +79,11 @@ parent_section:
 ### 第百三十九条の十四第二項
 
 新設合併消滅株式会社金融商品取引所の株主及び債権者は、新設合併消滅株式会社金融商品取引所に対して、その営業時間内は、いつでも、次に掲げる請求をすることができる。ただし、第二号又は第四号に掲げる請求をするには、新設合併消滅株式会社金融商品取引所の定めた費用を支払わなければならない。
+
+一　前項の書面の閲覧の請求
+
+二　前項の書面の謄本又は抄本の交付の請求
+
+三　前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
+
+四　前項の電磁的記録に記録された事項を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求

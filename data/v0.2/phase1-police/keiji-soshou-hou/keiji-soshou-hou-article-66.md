@@ -82,26 +82,20 @@ parent_section:
 
 ### 第六十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-66-p1 -->
 裁判所は、被告人の現在地の地方裁判所、家庭裁判所又は簡易裁判所の裁判官に被告人の勾引を嘱託することができる。
 
 ### 第六十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-66-p2 -->
 受託裁判官は、受託の権限を有する他の地方裁判所、家庭裁判所又は簡易裁判所の裁判官に転嘱することができる。
 
 ### 第六十六条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-66-p3 -->
 受託裁判官は、受託事項について権限を有しないときは、受託の権限を有する他の地方裁判所、家庭裁判所又は簡易裁判所の裁判官に嘱託を移送することができる。
 
 ### 第六十六条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-66-p4 -->
 嘱託又は移送を受けた裁判官は、勾引状を発しなければならない。
 
 ### 第六十六条第五項
 
-<!-- segment: zen_dan id: keiji-soshou-hou-art-66-p5-zen -->
-第六十四条の規定は、前項の勾引状についてこれを準用する。<!-- segment: kou_dan id: keiji-soshou-hou-art-66-p5-kou depends_on: keiji-soshou-hou-art-66-p5-zen -->
-この場合においては、勾引状に嘱託によつてこれを発する旨を記載しなければならない。
+第六十四条の規定は、前項の勾引状についてこれを準用する。この場合においては、勾引状に嘱託によつてこれを発する旨を記載しなければならない。

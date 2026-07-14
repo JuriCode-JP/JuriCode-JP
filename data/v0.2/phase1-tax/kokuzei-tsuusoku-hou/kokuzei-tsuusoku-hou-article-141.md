@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十一条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-141-p1 -->
 当該職員は、臨検、捜索、差押え又は記録命令付差押えをするに際し必要があるときは、警察官の援助を求めることができる。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三十九条
 
-<!-- segment: simple id: chihou-zei-hou-art-39-p1 -->
 個人の道府県民税の賦課期日は、当該年度の初日の属する年の一月一日とする。

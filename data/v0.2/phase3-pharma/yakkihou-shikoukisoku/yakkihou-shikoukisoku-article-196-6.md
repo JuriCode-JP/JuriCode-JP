@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-6-p1
+    type: simple
+    text: 法第四十条の七において準用する法第九条第一項の厚生労働省令で定める再生医療等製品の販売業者が遵守すべき事項は、次条から第百九十六条の十一までに定めるものとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

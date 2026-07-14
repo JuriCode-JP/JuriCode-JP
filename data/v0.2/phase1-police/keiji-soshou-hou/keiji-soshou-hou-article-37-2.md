@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-37-2-p1-honbun
+    type: honbun
+    text: 被疑者に対して勾留状が発せられている場合において、被疑者が貧困その他の事由により弁護人を選任することができないときは、裁判官は、その請求により、被疑者のため弁護人を付さなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-37-2-p1-tadashi
+    type: tadashi
+    text: ただし、被疑者以外の者が選任した弁護人がある場合又は被疑者が釈放された場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-37-2-p2
+    type: simple
+    text: 前項の請求は、勾留を請求された被疑者も、これをすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

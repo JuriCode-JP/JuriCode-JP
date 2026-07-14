@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百六十三条
 
-<!-- segment: simple id: chihou-zei-hou-art-363-p1 -->
 削除

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-5-p1
+    type: simple
+    text: 前二条に規定するもののほか、第二百五十二条の二十一の三第一項に規定する総務大臣の勧告に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

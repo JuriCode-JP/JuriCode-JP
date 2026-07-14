@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 裁判所は、次に掲げる方法により、共有物の分割を命ずることができる。
     modality: kanou_kenri
+  - id: minpou-art-258-p2-kou-1
+    type: kou
+    text: 一　共有物の現物を分割する方法
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-258-p2-kou-2
+    type: kou
+    text: 二　共有者に債務を負担させて、他の共有者の持分の全部又は一部を取得させる方法
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -70,20 +80,20 @@ parent_section:
 
 ### 第二百五十八条第一項
 
-<!-- segment: simple id: minpou-art-258-p1 -->
 共有物の分割について共有者間に協議が調わないとき、又は協議をすることができないときは、その分割を裁判所に請求することができる。
 
 ### 第二百五十八条第二項
 
-<!-- segment: hashira id: minpou-art-258-p2-hashira -->
 裁判所は、次に掲げる方法により、共有物の分割を命ずることができる。
+
+一　共有物の現物を分割する方法
+
+二　共有者に債務を負担させて、他の共有者の持分の全部又は一部を取得させる方法
 
 ### 第二百五十八条第三項
 
-<!-- segment: simple id: minpou-art-258-p3 -->
 前項に規定する方法により共有物を分割することができないとき、又は分割によってその価格を著しく減少させるおそれがあるときは、裁判所は、その競売を命ずることができる。
 
 ### 第二百五十八条第四項
 
-<!-- segment: simple id: minpou-art-258-p4 -->
 裁判所は、共有物の分割の裁判において、当事者に対して、金銭の支払、物の引渡し、登記義務の履行その他の給付を命ずることができる。

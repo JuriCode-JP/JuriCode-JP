@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-8-p1
+    type: simple
+    text: 法第八十七条の六第三項本文の承認を受けようとする者は、消費税法施行規則第八条第一項に規定する申請書で、当該酒類の税率の適用区分及び当該区分ごとの数量を付記したものに申請者の旅券等の写し及び亡失証明書を添付して、これを法第八十七条の六第三項本文に規定する税関長に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-8-p2
+    type: simple
+    text: 前項の亡失証明書の交付を受けようとする者は、消費税法施行規則第八条第二項に規定する書類で、当該酒類の税率の適用区分及び当該区分ごとの数量を付記したものにその者の旅券等の写しを添付して、これをその亡失の場所の最寄りの税務署の税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-8-p3
+    type: simple
+    text: 施行令第四十六条の八の二第十五項の規定により読み替えられた法第八十七条の六第三項本文の承認を受けようとする国際第二種貨物利用運送事業者は、消費税法施行規則第八条第三項に規定する申請書で、当該酒類の税率の適用区分及び当該区分ごとの数量を付記したものを、施行令第四十六条の八の二第十五項の規定により読み替えられた法第八十七条の六第三項本文に規定する消費税に係る納税地を所轄する税務署長に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -45,5 +45,4 @@ parent_section:
 
 ### 第百六十五条
 
-<!-- segment: junyou id: minpou-art-165-p1 applies_provisions: 前条 -->
 前条の規定は、第百六十三条の場合について準用する。

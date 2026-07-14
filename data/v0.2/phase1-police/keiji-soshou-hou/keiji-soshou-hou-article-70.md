@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-70-p1 -->
 勾引状又は勾留状は、検察官の指揮によつて、検察事務官又は司法警察職員がこれを執行する。但し、急速を要する場合には、裁判長、受命裁判官又は地方裁判所、家庭裁判所若しくは簡易裁判所の裁判官は、その執行を指揮することができる。
 
 ### 第七十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-70-p2 -->
 刑事施設にいる被告人に対して発せられた勾留状は、検察官の指揮によつて、刑事施設職員がこれを執行する。

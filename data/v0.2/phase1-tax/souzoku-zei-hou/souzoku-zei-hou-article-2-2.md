@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-2-2-p1
+    type: simple
+    text: 第一条の四第一項第一号又は第二号の規定に該当する者については、その者が贈与により取得した財産の全部に対し、贈与税を課する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-2-2-p2
+    type: simple
+    text: 第一条の四第一項第三号又は第四号の規定に該当する者については、その者が贈与により取得した財産でこの法律の施行地にあるものに対し、贈与税を課する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

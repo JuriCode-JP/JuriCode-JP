@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七十四条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-74-p1 -->
 すべて職員の分限、懲戒及び保障については、公正でなければならない。
 
 ### 第七十四条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-74-p2 -->
 前項に規定する根本基準の実施につき必要な事項は、この法律に定めるものを除いては、人事院規則でこれを定める。

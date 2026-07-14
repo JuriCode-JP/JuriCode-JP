@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当するものは、五年以下の拘禁刑又は五百万円以下の罰金に処する。
     modality: gimu_kei
+  - id: dokusen-kinshi-hou-art-89-p1-kou-1
+    type: kou
+    text: 一　第三条の規定に違反して私的独占又は不当な取引制限をした者
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-89-p1-kou-2
+    type: kou
+    text: 二　第八条第一号の規定に違反して一定の取引分野における競争を実質的に制限したもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第八十九条第一項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-89-p1-hashira -->
 次の各号のいずれかに該当するものは、五年以下の拘禁刑又は五百万円以下の罰金に処する。
+
+一　第三条の規定に違反して私的独占又は不当な取引制限をした者
+
+二　第八条第一号の規定に違反して一定の取引分野における競争を実質的に制限したもの
 
 ### 第八十九条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-89-p2 -->
 前項の未遂罪は、罰する。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百九十四条
 
-<!-- segment: simple id: chihou-jichi-hou-art-194-p1 -->
 この法律及びこれに基く政令に規定するものを除く外、選挙管理委員会に関し必要な事項は、委員会がこれを定める。

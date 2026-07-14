@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-210-3-p1-hashira
+    type: hashira
+    text: 法第五十二条第二項の厚生労働省令で定める医薬品は、次に掲げるものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-210-3-p1-kou-1
+    type: kou
+    text: 一　要指導医薬品
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-210-3-p1-kou-2
+    type: kou
+    text: 二　一般用医薬品
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-210-3-p1-kou-3
+    type: kou
+    text: 三　薬局製造販売医薬品
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第二百十条の三
 
 法第五十二条第二項の厚生労働省令で定める医薬品は、次に掲げるものとする。
+
+一　要指導医薬品
+
+二　一般用医薬品
+
+三　薬局製造販売医薬品

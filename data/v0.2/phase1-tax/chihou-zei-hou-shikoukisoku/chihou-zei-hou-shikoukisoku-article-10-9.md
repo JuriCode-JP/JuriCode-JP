@@ -34,5 +34,4 @@ tags:
 
 ### 第十条の九
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-10-9-p1 -->
 政令第五十一条の三第三号に規定する総務省令で定める施設は、飲食店、喫茶店及び物品販売施設並びに駐車施設とする。

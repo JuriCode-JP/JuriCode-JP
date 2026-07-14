@@ -23,6 +23,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-66-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の二第一項第三号、第百十七条の二の二第一項第七号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -41,5 +45,6 @@ parent_section:
 
 ### 第六十六条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-66-p1 -->
 何人も、前条第一項に規定する場合のほか、過労、病気、薬物の影響その他の理由により、正常な運転ができないおそれがある状態で車両等を運転してはならない。
+
+（罰則　第百十七条の二第一項第三号、第百十七条の二の二第一項第七号）

@@ -14,13 +14,27 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikoukisoku-art-60-8-p1
     type: simple
     text: 令第百八十八条第四項（恒久的施設に帰せられるべき資本に対応する負債の利子の損金不算入）に規定する財務省令で定めるときは、第一号に掲げる割合が第二号に掲げる割合のおおむね二分の一に満たないときとする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-60-8-p1-kou-1
+    type: kou
+    text: '一　イに掲げる金額からロに掲げる金額を控除した残額のイに掲げる金額に対する割合
+
+      イ　外国法人の当該事業年度の総資産の帳簿価額の平均的な残高として合理的な方法により計算した金額
+
+      ロ　イの外国法人の当該事業年度の総負債の帳簿価額の平均的な残高として合理的な方法により計算した金額'
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-60-8-p1-kou-2
+    type: kou
+    text: 二　前号イの外国法人の恒久的施設を通じて行う主たる事業と同種の事業を国内において行う法人の平均的な純資産の額の平均的な総資産の額に対する割合
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +66,16 @@ parent_section:
 
 ### 第六十条の八第一項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-60-8-p1 -->
 令第百八十八条第四項（恒久的施設に帰せられるべき資本に対応する負債の利子の損金不算入）に規定する財務省令で定めるときは、第一号に掲げる割合が第二号に掲げる割合のおおむね二分の一に満たないときとする。
+
+一　イに掲げる金額からロに掲げる金額を控除した残額のイに掲げる金額に対する割合
+
+　イ　外国法人の当該事業年度の総資産の帳簿価額の平均的な残高として合理的な方法により計算した金額
+
+　ロ　イの外国法人の当該事業年度の総負債の帳簿価額の平均的な残高として合理的な方法により計算した金額
+
+二　前号イの外国法人の恒久的施設を通じて行う主たる事業と同種の事業を国内において行う法人の平均的な純資産の額の平均的な総資産の額に対する割合
 
 ### 第六十条の八第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-60-8-p2 -->
 前項第二号の平均的な純資産の額の平均的な総資産の額に対する割合は、同号に規定する同種の事業を国内において行う法人の貸借対照表（同号の外国法人の事業年度終了の日以前三年内に終了した当該法人の事業年度に係るものに限る。）に基づき合理的な方法により計算するものとする。

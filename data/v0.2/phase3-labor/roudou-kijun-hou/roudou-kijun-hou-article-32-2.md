@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-2-p1
+    type: simple
+    text: 使用者は、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、又は就業規則その他これに準ずるものにより、一箇月以内の一定の期間を平均し一週間当たりの労働時間が前条第一項の労働時間を超えない定めをしたときは、同条の規定にかかわらず、その定めにより、特定された週において同項の労働時間又は特定された日において同条第二項の労働時間を超えて、労働させることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-2-p2
+    type: simple
+    text: 使用者は、厚生労働省令で定めるところにより、前項の協定を行政官庁に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

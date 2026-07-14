@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-8-p1
+    type: simple
+    text: 厚生労働大臣は、第二十三条の二の二十三第一項の登録をしたときは、登録認証機関の名称及び住所、基準適合性認証を行う事業所の所在地、登録認証機関が行う基準適合性認証の業務の範囲並びに当該登録をした日を公示しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-8-p2
+    type: simple
+    text: 登録認証機関は、その名称、住所、基準適合性認証を行う事業所の所在地又は登録認証機関が行う基準適合性認証の業務の範囲を変更しようとするときは、変更しようとする日の二週間前までに、その旨を厚生労働大臣に届け出なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-8-p3
+    type: simple
+    text: 厚生労働大臣は、前項の規定による届出があつたときは、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

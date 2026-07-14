@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-36-3-p1
+    type: simple
+    text: この法律により弁護人を要する場合を除いて、その資力が基準額（標準的な必要生計費を勘案して一般に弁護人の報酬及び費用を賄うに足りる額として政令で定める額をいう。以下同じ。）以上である被告人が第三十六条の請求をするには、あらかじめ、その請求をする裁判所の所在地を管轄する地方裁判所の管轄区域内に在る弁護士会に第三十一条の二第一項の申出をしていなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-36-3-p2
+    type: simple
+    text: 前項の規定により第三十一条の二第一項の申出を受けた弁護士会は、同条第三項の規定による通知をしたときは、前項の地方裁判所又は当該被告事件が係属する裁判所に対し、その旨を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

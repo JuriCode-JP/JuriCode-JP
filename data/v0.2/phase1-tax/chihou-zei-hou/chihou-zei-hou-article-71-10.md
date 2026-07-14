@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-10-p1
+    type: simple
+    text: 利子割を特別徴収の方法によつて徴収しようとする場合には、利子等の支払又はその取扱いをする者で道府県内に第二十四条第八項に規定する営業所等を有するものを当該道府県の条例によつて特別徴収義務者として指定し、これに徴収させなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-10-p2-zen
+    type: zen_dan
+    text: 前項の特別徴収義務者は、利子等の支払の際（特別徴収義務者が利子等の支払を取り扱う者である場合には、当該取扱いに係る利子等の交付の際）、その利子等について利子割を徴収し、その徴収の日の属する月の翌月十日までに、総務省令で定める様式によつて、その徴収すべき利子割の課税標準額、税額その他必要な事項を記載した納入申告書を道府県知事に提出し、及びその納入金を当該道府県に納入する義務を負う。
+    modality: unspecified
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-71-10-p2-kou
+    type: kou_dan
+    text: この場合において、道府県知事に提出すべき納入申告書には、総務省令で定める計算書を添付しなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-71-10-p2-zen
 cases: []
 amendments: []
 tags:

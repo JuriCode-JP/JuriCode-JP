@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-3-p1
+    type: simple
+    text: 第百条第一項（第三号及び第五号を除く。）の規定により金融商品会員制法人が解散したときは、二週間以内に、その主たる事務所の所在地において、解散の登記をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

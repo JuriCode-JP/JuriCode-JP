@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十条
 
-<!-- segment: simple id: keihou-art-60-p1 -->
 二人以上共同して犯罪を実行した者は、すべて正犯とする。

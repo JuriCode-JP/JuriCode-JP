@@ -46,6 +46,4 @@ parent_section:
 
 ### 第七百四十三条
 
-<!-- segment: zen_dan id: kaisha-hou-art-743-p1-zen -->
-会社は、組織変更をすることができる。<!-- segment: kou_dan id: kaisha-hou-art-743-p1-kou depends_on: kaisha-hou-art-743-p1-zen -->
-この場合においては、組織変更計画を作成しなければならない。
+会社は、組織変更をすることができる。この場合においては、組織変更計画を作成しなければならない。

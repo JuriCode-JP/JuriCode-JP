@@ -45,5 +45,4 @@ parent_section:
 
 ### 第二百二十八条
 
-<!-- segment: simple id: minpou-art-228-p1 -->
 前三条の規定と異なる慣習があるときは、その慣習に従う。

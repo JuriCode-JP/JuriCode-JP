@@ -30,9 +30,19 @@ paragraphs:
     type: hashira
     text: 社債権者その他の法務省令で定める者は、社債発行会社の営業時間内は、いつでも、次に掲げる請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
     modality: gimu
+  - id: kaisha-hou-art-684-p2-kou-1
+    type: kou
+    text: 一　社債原簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-684-p2-kou-2
+    type: kou
+    text: 二　社債原簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-684-p3
@@ -41,6 +51,21 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前項
+  - id: kaisha-hou-art-684-p3-kou-1
+    type: kou
+    text: 一　当該請求を行う者がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-684-p3-kou-2
+    type: kou
+    text: 二　当該請求を行う者が社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-684-p3-kou-3
+    type: kou
+    text: 三　当該請求を行う者が、過去二年以内において、社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -84,26 +109,30 @@ parent_section:
 
 ### 第六百八十四条第一項
 
-<!-- segment: simple id: kaisha-hou-art-684-p1 -->
 社債発行会社は、社債原簿をその本店（社債原簿管理人がある場合にあっては、その営業所）に備え置かなければならない。
 
 ### 第六百八十四条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-684-p2-hashira -->
-社債権者その他の法務省令で定める者は、社債発行会社の営業時間内は、いつでも、次に掲げる請求をすることができる。<!-- segment: kou_dan id: kaisha-hou-art-684-p4-kou depends_on: kaisha-hou-art-684-p4-zen -->
-この場合においては、当該請求の理由を明らかにしてしなければならない。
+社債権者その他の法務省令で定める者は、社債発行会社の営業時間内は、いつでも、次に掲げる請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
+
+一　社債原簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+
+二　社債原簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
 
 ### 第六百八十四条第三項
 
-<!-- segment: simple id: kaisha-hou-art-684-p3 -->
 社債発行会社は、前項の請求があったときは、次のいずれかに該当する場合を除き、これを拒むことができない。
+
+一　当該請求を行う者がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+
+二　当該請求を行う者が社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+
+三　当該請求を行う者が、過去二年以内において、社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
 
 ### 第六百八十四条第四項
 
-<!-- segment: zen_dan id: kaisha-hou-art-684-p4-zen -->
 社債発行会社が株式会社である場合には、当該社債発行会社の親会社社員は、その権利を行使するため必要があるときは、裁判所の許可を得て、当該社債発行会社の社債原簿について第二項各号に掲げる請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
 
 ### 第六百八十四条第五項
 
-<!-- segment: simple id: kaisha-hou-art-684-p5 -->
 前項の親会社社員について第三項各号のいずれかに規定する事由があるときは、裁判所は、前項の許可をすることができない。

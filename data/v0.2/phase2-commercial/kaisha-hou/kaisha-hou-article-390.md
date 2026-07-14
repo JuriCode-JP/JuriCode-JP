@@ -22,7 +22,7 @@ paragraphs:
     text: 監査役会は、すべての監査役で組織する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 監査役会は、次に掲げる職務を行う。ただし、第三号の決定は、監査役の権限の行使を妨げることはできない。
     modality: kanou_negative
+  - id: kaisha-hou-art-390-p2-kou-1
+    type: kou
+    text: 一　監査報告の作成
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-390-p2-kou-2
+    type: kou
+    text: 二　常勤の監査役の選定及び解職
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-390-p2-kou-3
+    type: kou
+    text: 三　監査の方針、監査役会設置会社の業務及び財産の状況の調査の方法その他の監査役の職務の執行に関する事項の決定
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -70,20 +85,22 @@ parent_section:
 
 ### 第三百九十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-390-p1 -->
 監査役会は、すべての監査役で組織する。
 
 ### 第三百九十条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-390-p2-hashira -->
 監査役会は、次に掲げる職務を行う。ただし、第三号の決定は、監査役の権限の行使を妨げることはできない。
+
+一　監査報告の作成
+
+二　常勤の監査役の選定及び解職
+
+三　監査の方針、監査役会設置会社の業務及び財産の状況の調査の方法その他の監査役の職務の執行に関する事項の決定
 
 ### 第三百九十条第三項
 
-<!-- segment: simple id: kaisha-hou-art-390-p3 -->
 監査役会は、監査役の中から常勤の監査役を選定しなければならない。
 
 ### 第三百九十条第四項
 
-<!-- segment: simple id: kaisha-hou-art-390-p4 -->
 監査役は、監査役会の求めがあるときは、いつでもその職務の執行の状況を監査役会に報告しなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-34-p1
+    type: simple
+    text: 信用格付業者は、自己の名義をもつて、他人に信用格付業を行わせてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

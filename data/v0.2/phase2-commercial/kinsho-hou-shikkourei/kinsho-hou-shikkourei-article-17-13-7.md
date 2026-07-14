@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-13-7-p1
+    type: simple
+    text: 法第六十三条の十一第一項の規定による届出をした金融商品取引業者について、同条第二項において法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

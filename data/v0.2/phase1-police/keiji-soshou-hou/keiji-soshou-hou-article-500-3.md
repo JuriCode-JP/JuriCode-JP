@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-500-3-p1
+    type: simple
+    text: 検察官は、訴訟費用の裁判を執行する場合において、前条の規定による予納がされた金額があるときは、その予納がされた金額から当該訴訟費用の額に相当する金額を控除し、当該金額を当該訴訟費用の納付に充てる。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-500-3-p2
+    type: simple
+    text: 前項の規定により予納がされた金額から訴訟費用の額に相当する金額を控除して残余があるときは、その残余の額は、その予納をした者の請求により返還する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十五条の十
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-35-10-p1 -->
 国は、法第七十二条の百三第三項の規定による払込みを行う場合には、同項の規定により払い込む貨物割の納付額その他必要な事項を道府県知事に通知するものとする。

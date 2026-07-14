@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十六条
 
-<!-- segment: simple id: minpou-art-176-p1 -->
 物権の設定及び移転は、当事者の意思表示のみによって、その効力を生ずる。

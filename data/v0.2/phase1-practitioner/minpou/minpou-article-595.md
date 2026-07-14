@@ -52,10 +52,8 @@ parent_section:
 
 ### 第五百九十五条第一項
 
-<!-- segment: simple id: minpou-art-595-p1 -->
 借主は、借用物の通常の必要費を負担する。
 
 ### 第五百九十五条第二項
 
-<!-- segment: junyou id: minpou-art-595-p2 -->
 第五百八十三条第二項の規定は、前項の通常の必要費以外の費用について準用する。

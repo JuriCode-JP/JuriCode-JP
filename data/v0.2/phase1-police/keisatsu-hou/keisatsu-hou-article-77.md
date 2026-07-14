@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 地方警察職員で次に掲げるものは、恩給法（大正十二年法律第四十八号）第十九条に規定する公務員とみなして、同法の規定を準用する。
     modality: unspecified
+  - id: keisatsu-hou-art-77-p1-kou-1
+    type: kou
+    text: 一　警部補、巡査部長又は巡査である警察官
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-77-p1-kou-2
+    type: kou
+    text: 二　警視又は警部である警察官
+    modality: unspecified
+    item_number: 2
+  - id: keisatsu-hou-art-77-p1-kou-3
+    type: kou
+    text: 三　その他の職員
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,10 +46,10 @@ paragraphs:
     text: 前項の規定を適用する場合においては、同項第一号に掲げる職員は恩給法第二十三条に規定する警察監獄職員とみなし、同項第二号及び第三号に掲げる職員は同法第二十条第一項に規定する文官とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -60,15 +75,18 @@ parent_section:
 
 ### 第七十七条第一項
 
-<!-- segment: hashira id: keisatsu-hou-art-77-p1-hashira -->
 地方警察職員で次に掲げるものは、恩給法（大正十二年法律第四十八号）第十九条に規定する公務員とみなして、同法の規定を準用する。
+
+一　警部補、巡査部長又は巡査である警察官
+
+二　警視又は警部である警察官
+
+三　その他の職員
 
 ### 第七十七条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-77-p2 -->
 前項の規定を適用する場合においては、同項第一号に掲げる職員は恩給法第二十三条に規定する警察監獄職員とみなし、同項第二号及び第三号に掲げる職員は同法第二十条第一項に規定する文官とみなす。
 
 ### 第七十七条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-77-p3 -->
 第一項各号に掲げる地方警察職員が引き続き恩給法第十九条に規定する公務員若しくは他の都道府県警察の同項各号に掲げる地方警察職員となつた場合又は同条に規定する公務員若しくは公務員とみなされる者が引き続き同項各号に掲げる地方警察職員となつた場合においては、恩給に関する法令の適用については、勤続とみなす。但し、同法第二十六条第二項の規定の準用を妨げない。

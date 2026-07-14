@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-198-4-p1
+    type: simple
+    text: 第百六条の十第一項又は第三項の規定に違反したときは、当該違反行為をした者は、二年以下の拘禁刑若しくは三百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

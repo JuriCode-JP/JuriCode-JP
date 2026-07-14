@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-3-p1
+    type: simple
+    text: 公安委員会は、内閣府令で定めるところにより、基準該当初心運転者に対し、その者が第百条の二第一項に規定する行為をし、当該行為が同項本文の政令で定める基準に該当することとなつた後速やかに、前条第一項第十号に掲げる講習（以下「初心運転者講習」という。）を受けることができる旨を書面で通知するものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-3-p2
+    type: simple
+    text: 前項の通知を受けた者は、当該通知を受けた日の翌日から起算した期間（講習を受けないことについて政令で定めるやむを得ない理由がある者にあつては、当該期間から当該事情の存する期間を除いた期間）が通算して一月を超えることとなるまでの間に限り、初心運転者講習を受けることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

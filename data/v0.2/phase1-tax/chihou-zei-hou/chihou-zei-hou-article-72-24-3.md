@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-3-p1-zen
+    type: zen_dan
+    text: 特定内国法人の収入割の課税標準は、当該特定内国法人の事業の収入金額の総額からこの法律の施行地外の事業に帰属する収入金額を控除して得た額とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-72-24-3-p1-kou
+    type: kou_dan
+    text: この場合において、この法律の施行地外の事業に帰属する収入金額の計算が困難であるときは、政令で定めるところにより計算した金額をもつて、当該特定内国法人のこの法律の施行地外の事業に帰属する収入金額とみなす。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-72-24-3-p1-zen
 cases: []
 amendments: []
 tags:

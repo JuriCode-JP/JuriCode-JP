@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-46-p1
+    type: simple
+    text: 指定紛争解決機関は、暴力団員等（暴力団員による不当な行為の防止等に関する法律第二条第六号に規定する暴力団員（以下この条において「暴力団員」という。）又は暴力団員でなくなつた日から五年を経過しない者をいう。）を紛争解決等業務に従事させ、又は紛争解決等業務の補助者として使用してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

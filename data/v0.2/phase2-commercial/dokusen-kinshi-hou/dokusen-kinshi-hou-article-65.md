@@ -64,15 +64,12 @@ parent_section:
 
 ### 第六十五条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-65-p1 -->
 排除措置命令、納付命令、競争回復措置命令、第四十八条の三第三項の認定及び第四十八条の七第三項の認定並びにこの節の規定による決定（第七十条第二項に規定する支払決定を除く。以下同じ。）は、委員長及び委員の合議によらなければならない。
 
 ### 第六十五条第二項
 
-<!-- segment: junyou id: dokusen-kinshi-hou-art-65-p2 -->
 第三十四条第一項、第二項及び第四項の規定は、前項の合議について準用する。
 
 ### 第六十五条第三項
 
-<!-- segment: tokusoku id: dokusen-kinshi-hou-art-65-p3 override_flag: true override_target: 第三十四条 -->
 競争回復措置命令をするには、前項において準用する第三十四条第二項の規定にかかわらず、三人以上の意見が一致しなければならない。

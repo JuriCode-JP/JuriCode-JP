@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-52-p1
+    type: simple
+    text: 指定都市等の区域内において事業所等を新設し、又は廃止した者は、当該指定都市等の条例の定めるところにより、その旨その他必要な事項を当該事業所等所在の指定都市等の長に申告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-52-p2
+    type: simple
+    text: 事業所税の納税義務者に事業所用家屋を貸し付けている者は、当該指定都市等の条例の定めるところにより、当該事業所用家屋の床面積その他必要な事項を当該事業所用家屋所在の指定都市等の長に申告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

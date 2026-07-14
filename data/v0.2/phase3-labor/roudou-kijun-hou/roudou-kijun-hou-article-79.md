@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十九条
 
-<!-- segment: simple id: roudou-kijun-hou-art-79-p1 -->
 労働者が業務上死亡した場合においては、使用者は、遺族に対して、平均賃金の千日分の遺族補償を行わなければならない。

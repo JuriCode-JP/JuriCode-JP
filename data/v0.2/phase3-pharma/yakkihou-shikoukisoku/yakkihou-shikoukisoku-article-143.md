@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十三条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-143-p1 -->
 法第二十九条の二第一項の厚生労働省令で定める店舗販売業者が遵守すべき事項は、次条から第百四十七条の十一まで及び第百四十七条の十一の三に定めるものとする。

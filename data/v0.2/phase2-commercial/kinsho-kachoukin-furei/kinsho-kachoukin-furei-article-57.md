@@ -63,15 +63,12 @@ parent_section:
 
 ### 第五十七条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-57-p1 -->
 審判官は、鑑定人に口頭で意見を述べさせる場合には、鑑定人が意見の陳述をした後に、鑑定人に対し質問をすることができる。
 
 ### 第五十七条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-57-p2 -->
 前項の質問は、審判長、その鑑定の申出をした者、相手方の順序でする。
 
 ### 第五十七条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-57-p3 -->
 審判長は、適当と認めるときは、指定職員及び被審人又はその代理人の意見を聴いて、前項の順序を変更することができる。

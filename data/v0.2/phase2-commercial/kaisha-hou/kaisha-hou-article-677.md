@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kaisha-hou-art-677-p1-kou-1
+    type: kou
+    text: 一　会社の商号
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-677-p1-kou-2
+    type: kou
+    text: 二　当該募集に係る前条各号に掲げる事項
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-677-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -34,6 +49,21 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kaisha-hou-art-677-p2-kou-1
+    type: kou
+    text: 一　申込みをする者の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-677-p2-kou-2
+    type: kou
+    text: 二　引き受けようとする募集社債の金額及び金額ごとの数
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-677-p2-kou-3
+    type: kou
+    text: 三　会社が前条第九号の最低金額を定めたときは、希望する払込金額
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -111,36 +141,40 @@ parent_section:
 
 ### 第六百七十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-677-p1-hashira -->
-会社は、<!-- segment: hashira id: kaisha-hou-art-677-p2-hashira -->
-前条の募集に応じて募集社債の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
+会社は、前条の募集に応じて募集社債の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
+
+一　会社の商号
+
+二　当該募集に係る前条各号に掲げる事項
+
+三　前二号に掲げるもののほか、法務省令で定める事項
 
 ### 第六百七十七条第二項
 
 前条の募集に応じて募集社債の引受けの申込みをする者は、次に掲げる事項を記載した書面を会社に交付しなければならない。
 
+一　申込みをする者の氏名又は名称及び住所
+
+二　引き受けようとする募集社債の金額及び金額ごとの数
+
+三　会社が前条第九号の最低金額を定めたときは、希望する払込金額
+
 ### 第六百七十七条第三項
 
-<!-- segment: zen_dan id: kaisha-hou-art-677-p3-zen -->
-前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、会社の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。<!-- segment: kou_dan id: kaisha-hou-art-677-p3-kou depends_on: kaisha-hou-art-677-p3-zen -->
-この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
+前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、会社の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
 
 ### 第六百七十七条第四項
 
-<!-- segment: simple id: kaisha-hou-art-677-p4 -->
 第一項の規定は、会社が同項各号に掲げる事項を記載した金融商品取引法第二条第十項に規定する目論見書を第一項の申込みをしようとする者に対して交付している場合その他募集社債の引受けの申込みをしようとする者の保護に欠けるおそれがないものとして法務省令で定める場合には、適用しない。
 
 ### 第六百七十七条第五項
 
-<!-- segment: simple id: kaisha-hou-art-677-p5 -->
 会社は、第一項各号に掲げる事項について変更があったときは、直ちに、その旨及び当該変更があった事項を第二項の申込みをした者（以下この章において「申込者」という。）に通知しなければならない。
 
 ### 第六百七十七条第六項
 
-<!-- segment: simple id: kaisha-hou-art-677-p6 -->
 会社が申込者に対してする通知又は催告は、第二項第一号の住所（当該申込者が別に通知又は催告を受ける場所又は連絡先を当該会社に通知した場合にあっては、その場所又は連絡先）にあてて発すれば足りる。
 
 ### 第六百七十七条第七項
 
-<!-- segment: simple id: kaisha-hou-art-677-p7 -->
 前項の通知又は催告は、その通知又は催告が通常到達すべきであった時に、到達したものとみなす。

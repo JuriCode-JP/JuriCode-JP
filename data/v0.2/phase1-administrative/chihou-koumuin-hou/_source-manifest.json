@@ -4,13 +4,13 @@
   "law_name_ja": "地方公務員法",
   "law_abbrev": "chihou-koumuin-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000261",
-  "source_xml_path": "../../../cache/laws/325AC0000000261.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\325AC0000000261.xml",
   "source_xml_sha256": "795cbca7671007d9adfa5125fc8601b8d4cac1b4bd129a791af34b00caa58efd",
   "source_xml_bytes": 474070,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:38+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-14T01:43:39+00:00",
   "version_date": "1950-12-13",
   "article_count": 106,
   "articles": [
@@ -18,72 +18,72 @@
       "article_id": "chihou-koumuin-hou-art-1",
       "article_number": "1",
       "filename": "chihou-koumuin-hou-article-1.md",
-      "ja_text_sha256": "3472e8cb62dae99aaca23118d3f01744847d57f337983130bdfc0c9ef5b585d1",
-      "ja_text_bytes": 618,
+      "ja_text_sha256": "066440b3cf99dac9cfeace8bac47429f3bcf24c06b012e41728af8a3ce66b5d7",
+      "ja_text_bytes": 561,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-10",
       "article_number": "10",
       "filename": "chihou-koumuin-hou-article-10.md",
-      "ja_text_sha256": "e94f313616a5bcf6daa79c5a073351b11c8eab9e6bd8064d47f47896fe668aa9",
-      "ja_text_bytes": 514,
+      "ja_text_sha256": "37a17447b24977fa1d6626d6d7e1b4e915b32fc7298afd53535ae4a5d7d6fdba",
+      "ja_text_bytes": 340,
       "paragraph_count": 3
     },
     {
       "article_id": "chihou-koumuin-hou-art-11",
       "article_number": "11",
       "filename": "chihou-koumuin-hou-article-11.md",
-      "ja_text_sha256": "598b5ff99359f1242a0533f35123eedbd00384ba963cadd228ce538e0752a277",
-      "ja_text_bytes": 1160,
+      "ja_text_sha256": "cd89f0dd8fa4f12eba8ce4f09d44a75e7644099087d1f66c133d28018582a0ce",
+      "ja_text_bytes": 824,
       "paragraph_count": 5
     },
     {
       "article_id": "chihou-koumuin-hou-art-12",
       "article_number": "12",
       "filename": "chihou-koumuin-hou-article-12.md",
-      "ja_text_sha256": "c7ec46c0fc7da10d9b78f1eb5f667e862b955540d57cec716b2075341130ad97",
-      "ja_text_bytes": 2300,
+      "ja_text_sha256": "431dabac9541639d3151b61d13e1ca6830821c4a6d8ffdbe8abb47f692fce133",
+      "ja_text_bytes": 1575,
       "paragraph_count": 10
     },
     {
       "article_id": "chihou-koumuin-hou-art-13",
       "article_number": "13",
       "filename": "chihou-koumuin-hou-article-13.md",
-      "ja_text_sha256": "ce7e1c1c1cfb5cff89792604befeb872140d6e9476f50e42922cfcab27950e2c",
-      "ja_text_bytes": 397,
+      "ja_text_sha256": "0286cee03b9c775f9b67485f8f6d56c82fdcfbb2d0b407c9316b73ceed5ae2fc",
+      "ja_text_bytes": 339,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-14",
       "article_number": "14",
       "filename": "chihou-koumuin-hou-article-14.md",
-      "ja_text_sha256": "34384dc01f9a6f03c40105e14cb03423ed35a95c3d664597b1d3e7f10ce96c7d",
-      "ja_text_bytes": 493,
+      "ja_text_sha256": "d9a93f4fcb2e471668cc79e88f64d6c9fcb56d1381eecb10a835780659f6d409",
+      "ja_text_bytes": 377,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-15-2",
       "article_number": "15-2",
       "filename": "chihou-koumuin-hou-article-15-2.md",
-      "ja_text_sha256": "9a1bd22ae5baec882efc795368813f9cb9bc2e800f6f7d0ac9a2fcb610c498e4",
-      "ja_text_bytes": 493,
+      "ja_text_sha256": "5b33ae859e6c3bca646deb91b15f6977fe872e37201dafd8f7666c9b3b63cc20",
+      "ja_text_bytes": 1338,
       "paragraph_count": 3
     },
     {
       "article_id": "chihou-koumuin-hou-art-15",
       "article_number": "15",
       "filename": "chihou-koumuin-hou-article-15.md",
-      "ja_text_sha256": "0584f8c3b91f2080f70bf0eb18ecb6118c9bde0242d05bd783932a7482c3be23",
-      "ja_text_bytes": 226,
+      "ja_text_sha256": "86f036e358d4e6f62747b61e4a97718ce2b646abf3f7d207faba9684f5ebdf8d",
+      "ja_text_bytes": 168,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-16",
       "article_number": "16",
       "filename": "chihou-koumuin-hou-article-16.md",
-      "ja_text_sha256": "d2f3b8ec07cc0f7f4c0e0343efcf3df904202d311a47ec2539fce8fcef67f724",
-      "ja_text_bytes": 250,
+      "ja_text_sha256": "372f475ca78d36c187b874e5a996a65b0d3cd42dd042a824ee931146507049e2",
+      "ja_text_bytes": 831,
       "paragraph_count": 1
     },
     {
@@ -98,8 +98,8 @@
       "article_id": "chihou-koumuin-hou-art-17",
       "article_number": "17",
       "filename": "chihou-koumuin-hou-article-17.md",
-      "ja_text_sha256": "90f303ec1ce1441ce633fdd79af2f9a9b161a860cc337b442443102858ab7bec",
-      "ja_text_bytes": 607,
+      "ja_text_sha256": "cbdeced2ff488b0096a4568bdd202c561c75dcc64bd6f60c13a111b1b5655827",
+      "ja_text_bytes": 491,
       "paragraph_count": 2
     },
     {
@@ -122,32 +122,32 @@
       "article_id": "chihou-koumuin-hou-art-18",
       "article_number": "18",
       "filename": "chihou-koumuin-hou-article-18.md",
-      "ja_text_sha256": "b39a0055a0ee5f8530eb484b7cc54732f7b7c4c32459fb6c40e1ad377bbbd216",
-      "ja_text_bytes": 546,
+      "ja_text_sha256": "eeeaf52ed8981ee90857922b136dee12ed3cbc115f5031f28898f7a6afdf32d1",
+      "ja_text_bytes": 414,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-19",
       "article_number": "19",
       "filename": "chihou-koumuin-hou-article-19.md",
-      "ja_text_sha256": "7136f4a282fae9432dee1f5c8e09771a050ee6919c6cf15ce8136ecb1f163add",
-      "ja_text_bytes": 247,
+      "ja_text_sha256": "35c88bded27f4b868fceef641bdeac44963b4ef0375243a595c1cd6534f38e8f",
+      "ja_text_bytes": 189,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-2",
       "article_number": "2",
       "filename": "chihou-koumuin-hou-article-2.md",
-      "ja_text_sha256": "e564c8ddf80894aae2611ab629271b65abef69c3b2534bc87e1bdeaa8fe5d257",
-      "ja_text_bytes": 363,
+      "ja_text_sha256": "4d88d28406163610e9ab779a9f04d3107cbcb0e17820bd231e6e911cd28446c3",
+      "ja_text_bytes": 306,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-20",
       "article_number": "20",
       "filename": "chihou-koumuin-hou-article-20.md",
-      "ja_text_sha256": "c40b6d239e32cd6f15aa3380c6c99a23148182f3b45305cb6c5d98e3c50916f9",
-      "ja_text_bytes": 520,
+      "ja_text_sha256": "37b10f8177e4a028ac091db917750dae894ed6f209ba6bff8b56f3ca09060238",
+      "ja_text_bytes": 404,
       "paragraph_count": 2
     },
     {
@@ -186,16 +186,16 @@
       "article_id": "chihou-koumuin-hou-art-21",
       "article_number": "21",
       "filename": "chihou-koumuin-hou-article-21.md",
-      "ja_text_sha256": "865d6c3ac9a27fe01e0458a7436436874e2d5cb110d44496924f782cd07d73fd",
-      "ja_text_bytes": 1288,
+      "ja_text_sha256": "686f072fc26c015fe197507854009f55189c428cadc6d0f4f229f1392a7a70aa",
+      "ja_text_bytes": 998,
       "paragraph_count": 5
     },
     {
       "article_id": "chihou-koumuin-hou-art-22-2",
       "article_number": "22-2",
       "filename": "chihou-koumuin-hou-article-22-2.md",
-      "ja_text_sha256": "269120b1fef689a42de7d6b53861c19541a7e0b4b2acaaa1cec7aa62718c5c39",
-      "ja_text_bytes": 1428,
+      "ja_text_sha256": "8e294e19d9065cec5dab671d2846da53fc716653a09af05b9ece9f45fbe315f2",
+      "ja_text_bytes": 2100,
       "paragraph_count": 7
     },
     {
@@ -226,8 +226,8 @@
       "article_id": "chihou-koumuin-hou-art-22",
       "article_number": "22",
       "filename": "chihou-koumuin-hou-article-22.md",
-      "ja_text_sha256": "e33626ca060ea71975aeac418b28408e026df292a68ab8125466777ec3b5108c",
-      "ja_text_bytes": 786,
+      "ja_text_sha256": "acb950792118927f12594d189a14b4f44f362d736d88994125689eb821c9161c",
+      "ja_text_bytes": 615,
       "paragraph_count": 1
     },
     {
@@ -258,24 +258,24 @@
       "article_id": "chihou-koumuin-hou-art-23",
       "article_number": "23",
       "filename": "chihou-koumuin-hou-article-23.md",
-      "ja_text_sha256": "ef6796432b0b0b288f878fc54d7c906abea179aa1ae6347e01d7a8b9e4469851",
-      "ja_text_bytes": 319,
+      "ja_text_sha256": "28e75e23c2460c791d41611c2d5cdd61effc38ea4b13346268d8da24ea3e0897",
+      "ja_text_bytes": 203,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-24",
       "article_number": "24",
       "filename": "chihou-koumuin-hou-article-24.md",
-      "ja_text_sha256": "b3f70a857e72852d709c6ff8f1464b99bbcbad1e6f3497e25949d1bff01ac090",
-      "ja_text_bytes": 1018,
+      "ja_text_sha256": "a6c91eb763b019f7824fc43c55478919b9cbb4f94417ab05513389d57043733a",
+      "ja_text_bytes": 728,
       "paragraph_count": 5
     },
     {
       "article_id": "chihou-koumuin-hou-art-25",
       "article_number": "25",
       "filename": "chihou-koumuin-hou-article-25.md",
-      "ja_text_sha256": "5de400a7d1359b54ea160ca15d67ef9de7d266cc72c670488a57586373d59c7c",
-      "ja_text_bytes": 1177,
+      "ja_text_sha256": "57b59d2a18718632f67e3c8afa817e749ca37c5936edcbb0aabf6667387d8d30",
+      "ja_text_bytes": 1472,
       "paragraph_count": 5
     },
     {
@@ -314,24 +314,24 @@
       "article_id": "chihou-koumuin-hou-art-26-6",
       "article_number": "26-6",
       "filename": "chihou-koumuin-hou-article-26-6.md",
-      "ja_text_sha256": "6caa4ede1e3733a205cc053a273ca52431fb6f8fe251b79e395c94f161d9d3c0",
-      "ja_text_bytes": 3416,
+      "ja_text_sha256": "095b7d88b7d2dab38eb4c5a01b63de7566ce235c50c62394c888015f7dff1650",
+      "ja_text_bytes": 3623,
       "paragraph_count": 11
     },
     {
       "article_id": "chihou-koumuin-hou-art-26",
       "article_number": "26",
       "filename": "chihou-koumuin-hou-article-26.md",
-      "ja_text_sha256": "92fb5c1fa80081b8e35eb34eaff121470d7a6b50e35fb2fa66a0eb90009223cc",
-      "ja_text_bytes": 439,
+      "ja_text_sha256": "6b29986249753abdf96034f60fe1183e6b3505426f1bd18757f3c3f4629630d2",
+      "ja_text_bytes": 381,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-27",
       "article_number": "27",
       "filename": "chihou-koumuin-hou-article-27.md",
-      "ja_text_sha256": "4f507947a99433aeb5b86d71baf08eef38f0992eb5db9ec1173a83925f81b8fd",
-      "ja_text_bytes": 673,
+      "ja_text_sha256": "bdde9b9e52b7d0143be7623daa75303d1919c649558eb9882742abcd225076f8",
+      "ja_text_bytes": 499,
       "paragraph_count": 3
     },
     {
@@ -362,8 +362,8 @@
       "article_id": "chihou-koumuin-hou-art-28-5",
       "article_number": "28-5",
       "filename": "chihou-koumuin-hou-article-28-5.md",
-      "ja_text_sha256": "03bfb922e20ad05bb91536c9cce9df5ca1a8db226376b1dd183074b915639b1b",
-      "ja_text_bytes": 4238,
+      "ja_text_sha256": "675474f08b53be05ba20161a3d091aa79ffa0c46d79b384264e9e6d1ff7a0c6c",
+      "ja_text_bytes": 4745,
       "paragraph_count": 5
     },
     {
@@ -378,112 +378,112 @@
       "article_id": "chihou-koumuin-hou-art-28-7",
       "article_number": "28-7",
       "filename": "chihou-koumuin-hou-article-28-7.md",
-      "ja_text_sha256": "e50c4c5513b2c75b9968dd6aa7dac543aa64b2cf5c4c4ea5e1521f8e202038bc",
-      "ja_text_bytes": 1855,
+      "ja_text_sha256": "839169a6fdb7692b8ff91c041b234ed85e7204737378061eac3a40856a380647",
+      "ja_text_bytes": 2446,
       "paragraph_count": 3
     },
     {
       "article_id": "chihou-koumuin-hou-art-28",
       "article_number": "28",
       "filename": "chihou-koumuin-hou-article-28.md",
-      "ja_text_sha256": "c8ddf008374adac09443e0138c17fcb9281e934db1dbe3fcca92bd9d2f2b39ad",
-      "ja_text_bytes": 949,
+      "ja_text_sha256": "749d6911ed34393641a5f12938834f8ee58016019770c26dd1b0d542dc8c0404",
+      "ja_text_bytes": 1218,
       "paragraph_count": 4
     },
     {
       "article_id": "chihou-koumuin-hou-art-29-2",
       "article_number": "29-2",
       "filename": "chihou-koumuin-hou-article-29-2.md",
-      "ja_text_sha256": "ccf29efef2675e8d6cb214ccbc29ff89836fcb464be9d5052b7e69675e2ac010",
-      "ja_text_bytes": 404,
+      "ja_text_sha256": "d50b8ef3ecf8e6c3f03bfb42369a1e1301765bf3043d29f3cd3dca1af0edb1c8",
+      "ja_text_bytes": 482,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-29",
       "article_number": "29",
       "filename": "chihou-koumuin-hou-article-29.md",
-      "ja_text_sha256": "0570b09fb6a65c013f566d38970c502bc6f6af7fa5d39ede3947460778520313",
-      "ja_text_bytes": 2749,
+      "ja_text_sha256": "a60cc5f1d23bb430d48f161b624b98a4d0a5ac557248543b9677ae54f1537587",
+      "ja_text_bytes": 2880,
       "paragraph_count": 4
     },
     {
       "article_id": "chihou-koumuin-hou-art-3",
       "article_number": "3",
       "filename": "chihou-koumuin-hou-article-3.md",
-      "ja_text_sha256": "4f48e3a8ad151d4d2e78621dbe0479af4e2158553537302eb05b8270760c42b9",
-      "ja_text_bytes": 640,
+      "ja_text_sha256": "70a994c5e941fa680eaea7d024a49007a25811a37735245d2c5ff4ba9d7a80b7",
+      "ja_text_bytes": 1840,
       "paragraph_count": 3
     },
     {
       "article_id": "chihou-koumuin-hou-art-30",
       "article_number": "30",
       "filename": "chihou-koumuin-hou-article-30.md",
-      "ja_text_sha256": "2b667cce144b152fc845c4fcc22f6334124030afc2666a04244158d9d8bb50c7",
-      "ja_text_bytes": 250,
+      "ja_text_sha256": "2d0805d07c41f1d1a5ce824ffdc6926631f4aaf2cc380028e5a060dbea902cd4",
+      "ja_text_bytes": 192,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-31",
       "article_number": "31",
       "filename": "chihou-koumuin-hou-article-31.md",
-      "ja_text_sha256": "36dbe1ff6f8d54c09ac10559db4109fcd3f16a67174312cc7a9431d107684416",
-      "ja_text_bytes": 157,
+      "ja_text_sha256": "c5a4bc2eea5ddc542b7425860c649bc4e3154323ea5abb1f553f14db28b3abe2",
+      "ja_text_bytes": 99,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-32",
       "article_number": "32",
       "filename": "chihou-koumuin-hou-article-32.md",
-      "ja_text_sha256": "fd545d0030ae4aaef5cead53f5af27b7181e92101f81cc40cc9aff9243e42bce",
-      "ja_text_bytes": 301,
+      "ja_text_sha256": "11c7cfa93ddbba7770122635688d21a05221b8c3030c752e636252c485f4231c",
+      "ja_text_bytes": 243,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-33",
       "article_number": "33",
       "filename": "chihou-koumuin-hou-article-33.md",
-      "ja_text_sha256": "568c499796684bca3a4c8707f2e84fc15c2578a4eec8994d57586b7a66835330",
-      "ja_text_bytes": 190,
+      "ja_text_sha256": "054baa0723b815a3feab36ddeb478e122f805c2120f7c8f80426e8b40f07c729",
+      "ja_text_bytes": 132,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-34",
       "article_number": "34",
       "filename": "chihou-koumuin-hou-article-34.md",
-      "ja_text_sha256": "3549ca6e33fd195820c17881f30aa36d47d35a63b212cad986d8afc0efd5e0e2",
-      "ja_text_bytes": 694,
+      "ja_text_sha256": "3418845804e1bb0299199f1c5f778dd7f2deed2b53d6f450b1989d8f53d34495",
+      "ja_text_bytes": 520,
       "paragraph_count": 3
     },
     {
       "article_id": "chihou-koumuin-hou-art-35",
       "article_number": "35",
       "filename": "chihou-koumuin-hou-article-35.md",
-      "ja_text_sha256": "ea823968d8c305247b985e1f3827b0ef886d188e9e228366d55b08eacbbcdaf8",
-      "ja_text_bytes": 337,
+      "ja_text_sha256": "c92b6dbb18cc0d0031b7116da4af568d099f9f7b26217a48a10d42d710fa8e44",
+      "ja_text_bytes": 279,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-36",
       "article_number": "36",
       "filename": "chihou-koumuin-hou-article-36.md",
-      "ja_text_sha256": "9ede984a683a1c818512a744e9261ababc02bad63cb9d8ea2aabec43fbb7e0ac",
-      "ja_text_bytes": 2389,
+      "ja_text_sha256": "fa7f68166a892a8386c71b40a1dd0a63ee323495dde8bbb30e65485b579babb4",
+      "ja_text_bytes": 2843,
       "paragraph_count": 5
     },
     {
       "article_id": "chihou-koumuin-hou-art-37",
       "article_number": "37",
       "filename": "chihou-koumuin-hou-article-37.md",
-      "ja_text_sha256": "d02d3484421ba3319ff6d111696896ddfbc1406997f50843b209edd27174e43e",
-      "ja_text_bytes": 889,
+      "ja_text_sha256": "e4bf7991e07fd997d88e0b3f264d335b232aa8ba331a371b0929b5863820b0e2",
+      "ja_text_bytes": 773,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-38-2",
       "article_number": "38-2",
       "filename": "chihou-koumuin-hou-article-38-2.md",
-      "ja_text_sha256": "052c96f8023f53a5e0b2c880d4f9f1e9fcdc4dc3dfec200c25db96de5b38dea3",
-      "ja_text_bytes": 8174,
+      "ja_text_sha256": "287f0c861f276a5df9b27b1312340d8789c5ae172e166d6ccfacdbfd313d2db5",
+      "ja_text_bytes": 10538,
       "paragraph_count": 8
     },
     {
@@ -530,96 +530,96 @@
       "article_id": "chihou-koumuin-hou-art-38",
       "article_number": "38",
       "filename": "chihou-koumuin-hou-article-38.md",
-      "ja_text_sha256": "3118764e4f3e71a152c48530a3d2d87c5537721f4c5c7b78898fc39616ba6c04",
-      "ja_text_bytes": 1095,
+      "ja_text_sha256": "6aa62a1207a16f7a5e87b2d33f8022eb18aebaa9d6b207997d2209f0f8f9083b",
+      "ja_text_bytes": 905,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-39",
       "article_number": "39",
       "filename": "chihou-koumuin-hou-article-39.md",
-      "ja_text_sha256": "3031bda236bd3500f7445d21339572c3fd7cf378c627692a15ec0cfd52abca40",
-      "ja_text_bytes": 742,
+      "ja_text_sha256": "77c4fc4fbdb2595fff7c6b40a89abdab949f0afe5e63ddf947703b4a21e4ff50",
+      "ja_text_bytes": 510,
       "paragraph_count": 4
     },
     {
       "article_id": "chihou-koumuin-hou-art-4",
       "article_number": "4",
       "filename": "chihou-koumuin-hou-article-4.md",
-      "ja_text_sha256": "2846b2d455d7d4776c579f16558fb4d0f5bdeb4162912bfa2423a5e4f71fa177",
-      "ja_text_bytes": 383,
+      "ja_text_sha256": "27dff4d538ea0d95af5a601f44757ea3217d0d3bc970229e41b883a1179d1134",
+      "ja_text_bytes": 269,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-40",
       "article_number": "40",
       "filename": "chihou-koumuin-hou-article-40.md",
-      "ja_text_sha256": "82cf30cdc2310080f21aa15ce8d9fcc20f854d576a1fe6a5da693864b62ace18",
-      "ja_text_bytes": 64,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-41",
       "article_number": "41",
       "filename": "chihou-koumuin-hou-article-41.md",
-      "ja_text_sha256": "32c74e26376004194b2e5d15cbf10f304b41e531a0441c4182c654075676b097",
-      "ja_text_bytes": 163,
+      "ja_text_sha256": "75bc41a018afad0829c2d96ef47a9de6dbf48ef6202ae5ec2e0ef0c197ee204c",
+      "ja_text_bytes": 105,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-42",
       "article_number": "42",
       "filename": "chihou-koumuin-hou-article-42.md",
-      "ja_text_sha256": "987e479b4ee045f3ad7ef4da82a2ee8de2ba3ccb73c0a424f80957356b1ab58a",
-      "ja_text_bytes": 223,
+      "ja_text_sha256": "2c710dccc5f917bcf04ddc559623ec5d7777e12e1e11e6fe3de0defda81adc27",
+      "ja_text_bytes": 165,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-43",
       "article_number": "43",
       "filename": "chihou-koumuin-hou-article-43.md",
-      "ja_text_sha256": "956561c8df167c5f345b3147dda0dd00191a07fd3b40bfec18a7a09f76962744",
-      "ja_text_bytes": 1585,
+      "ja_text_sha256": "235ca3c647161061e0db00155a052c99686fc33b8a4248986f8b34865951228c",
+      "ja_text_bytes": 1237,
       "paragraph_count": 6
     },
     {
       "article_id": "chihou-koumuin-hou-art-44",
       "article_number": "44",
       "filename": "chihou-koumuin-hou-article-44.md",
-      "ja_text_sha256": "5730e2254e8ef23a3f2b6b7880a4c43ea17cf05bc16e5b0e9759447e687abc6c",
-      "ja_text_bytes": 64,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-45",
       "article_number": "45",
       "filename": "chihou-koumuin-hou-article-45.md",
-      "ja_text_sha256": "275de159c0cc130daecfd69efcb546826b7209625fd94ba01163ef1160392253",
-      "ja_text_bytes": 1159,
+      "ja_text_sha256": "2f9cc389498abd3b72f5e5314ccd22187d3a45734e29e70aff1732d900d3f274",
+      "ja_text_bytes": 1689,
       "paragraph_count": 4
     },
     {
       "article_id": "chihou-koumuin-hou-art-46",
       "article_number": "46",
       "filename": "chihou-koumuin-hou-article-46.md",
-      "ja_text_sha256": "1ddc6243aa03d14e8df1aa5163e212bff020d429e004422038a1a80bb99330dd",
-      "ja_text_bytes": 292,
+      "ja_text_sha256": "879fa6b357b2c74822d53631593aa2930171038ac03678ccb8288c044286779f",
+      "ja_text_bytes": 234,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-47",
       "article_number": "47",
       "filename": "chihou-koumuin-hou-article-47.md",
-      "ja_text_sha256": "6dee0622d22cf12e366c1bf0979f975730de6a2ed5b378978198cdf6f74a825b",
-      "ja_text_bytes": 511,
+      "ja_text_sha256": "5e8d95e4d5a20bb4254dc70d1d8ff5048c55111afbeb9743572e02af7746dbd3",
+      "ja_text_bytes": 453,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-48",
       "article_number": "48",
       "filename": "chihou-koumuin-hou-article-48.md",
-      "ja_text_sha256": "ebfccb02a4eed1d9b70c6b9f4e16aad0a356eedce21cd32cc0c192a91dd778fd",
-      "ja_text_bytes": 286,
+      "ja_text_sha256": "7aa1b454ade121703fd1d4e721b872de73788620d8b384409583c73dbf1c0ea7",
+      "ja_text_bytes": 228,
       "paragraph_count": 1
     },
     {
@@ -642,24 +642,24 @@
       "article_id": "chihou-koumuin-hou-art-49",
       "article_number": "49",
       "filename": "chihou-koumuin-hou-article-49.md",
-      "ja_text_sha256": "38517921d61e12bce93c75e4664f330898b765241cd683b178241a96d9e965ca",
-      "ja_text_bytes": 1314,
+      "ja_text_sha256": "d7e483dbdaf8f910906d6b853d609903c56eab9ad3ead0ad0f025066891a53de",
+      "ja_text_bytes": 1008,
       "paragraph_count": 4
     },
     {
       "article_id": "chihou-koumuin-hou-art-5",
       "article_number": "5",
       "filename": "chihou-koumuin-hou-article-5.md",
-      "ja_text_sha256": "61c10c02af0a7347ed1082ecc2b67f2bbab8f45d159332112766188bef31ac5b",
-      "ja_text_bytes": 815,
+      "ja_text_sha256": "d6d98c7f62c709125093b8cf42498cc910d3d89860a894980a8f4925d4f83723",
+      "ja_text_bytes": 701,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-50",
       "article_number": "50",
       "filename": "chihou-koumuin-hou-article-50.md",
-      "ja_text_sha256": "d0b1783153ea4b923d1f52606142845ce94f71110dd2fc90010350750ab324c6",
-      "ja_text_bytes": 1422,
+      "ja_text_sha256": "915c965a381899d70228aaaf9a7f76d04279c7aab7b66041efa1d3b27e18404c",
+      "ja_text_bytes": 1135,
       "paragraph_count": 3
     },
     {
@@ -674,32 +674,32 @@
       "article_id": "chihou-koumuin-hou-art-51",
       "article_number": "51",
       "filename": "chihou-koumuin-hou-article-51.md",
-      "ja_text_sha256": "67fdd211c23543f85cb4406b4f9cb547ad51d15ab6f401dbce282ff2049ff308",
-      "ja_text_bytes": 232,
+      "ja_text_sha256": "157b95f8673e7a685f94bfdcb59208bb3a3837bf84e1d7663005ea2372650f5d",
+      "ja_text_bytes": 174,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-52",
       "article_number": "52",
       "filename": "chihou-koumuin-hou-article-52.md",
-      "ja_text_sha256": "a1a3ae867cb7c6e8139e98186b51a858aeabaae13e16c9078b3dde3b4dfb1fca",
-      "ja_text_bytes": 2115,
+      "ja_text_sha256": "cd2b043e152b1f231f14d9a327f0ccb223feae3e213941ab31ca645c87ca71bc",
+      "ja_text_bytes": 1751,
       "paragraph_count": 5
     },
     {
       "article_id": "chihou-koumuin-hou-art-53",
       "article_number": "53",
       "filename": "chihou-koumuin-hou-article-53.md",
-      "ja_text_sha256": "b84e622739a3f26af40174e33490ef3912b370caa2285e0b2d2682dcb4a752c9",
-      "ja_text_bytes": 5303,
+      "ja_text_sha256": "c340362f099effcda27c908af179ffbf82aea50585ee85c13fe0d004dcab2dbb",
+      "ja_text_bytes": 4872,
       "paragraph_count": 10
     },
     {
       "article_id": "chihou-koumuin-hou-art-54",
       "article_number": "54",
       "filename": "chihou-koumuin-hou-article-54.md",
-      "ja_text_sha256": "4650747d065cc3ca1600da26457de28fa393e7e907f77ce20f8a477486b8c54e",
-      "ja_text_bytes": 64,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
@@ -714,24 +714,24 @@
       "article_id": "chihou-koumuin-hou-art-55",
       "article_number": "55",
       "filename": "chihou-koumuin-hou-article-55.md",
-      "ja_text_sha256": "347245bb2a5a6bc377176b7a9bfb15b8414fb05fce89a2863b199959c838d7c9",
-      "ja_text_bytes": 3401,
+      "ja_text_sha256": "f256aff054e3c353eb1010664787de2362e5ab49b873220f223eb0eb9a5f3566",
+      "ja_text_bytes": 2681,
       "paragraph_count": 11
     },
     {
       "article_id": "chihou-koumuin-hou-art-56",
       "article_number": "56",
       "filename": "chihou-koumuin-hou-article-56.md",
-      "ja_text_sha256": "a99c4a635ad0b8ba5514feb2a25cde5dd4c7489f3689991667cabb4b109b5ad0",
-      "ja_text_bytes": 337,
+      "ja_text_sha256": "0074b5c79b2ce1686bb17e5cb3d2c24e9977e9cd0518228992a1c3256419a0e8",
+      "ja_text_bytes": 279,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-57",
       "article_number": "57",
       "filename": "chihou-koumuin-hou-article-57.md",
-      "ja_text_sha256": "e503d8f1420ca930d76d744a05b18982402412a2d73c61c0e8227f966a9023b6",
-      "ja_text_bytes": 1641,
+      "ja_text_sha256": "cb2b8577fd93733a6ffd0f214369fc4e2a20fe0f650d3b894df0febb0ee48c05",
+      "ja_text_bytes": 1509,
       "paragraph_count": 1
     },
     {
@@ -754,80 +754,80 @@
       "article_id": "chihou-koumuin-hou-art-58",
       "article_number": "58",
       "filename": "chihou-koumuin-hou-article-58.md",
-      "ja_text_sha256": "2506b42ec38b65c2b88b7cc9ad3667fd1988c68947e23680d3854a03cd725daf",
-      "ja_text_bytes": 5592,
+      "ja_text_sha256": "f7a1843b3286cf1044bca49bcfcd9c3e64458c6e4ebcabd1043b5200055ba87d",
+      "ja_text_bytes": 5219,
       "paragraph_count": 5
     },
     {
       "article_id": "chihou-koumuin-hou-art-59",
       "article_number": "59",
       "filename": "chihou-koumuin-hou-article-59.md",
-      "ja_text_sha256": "0f42c937061e887752b86438b69b4eb81f0d458bb0c6d85815714eae0d60b433",
-      "ja_text_bytes": 277,
+      "ja_text_sha256": "c31e5638719b655ec095d074a1a04a976ccf90a82a052bb0cb5777f7d32d144d",
+      "ja_text_bytes": 219,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-6",
       "article_number": "6",
       "filename": "chihou-koumuin-hou-article-6.md",
-      "ja_text_sha256": "7469ead4bba78103233bddccc91f90a7ffd47f8917a735a87d1bab6a0396172a",
-      "ja_text_bytes": 1178,
+      "ja_text_sha256": "3303658776c84f4f5f1df354f0faa4ac55c615d25e4189312374f03b90445005",
+      "ja_text_bytes": 1064,
       "paragraph_count": 2
     },
     {
       "article_id": "chihou-koumuin-hou-art-60",
       "article_number": "60",
       "filename": "chihou-koumuin-hou-article-60.md",
-      "ja_text_sha256": "5748f46ddfff48e2ecba8ee0a428ea3c86cb2a91f94a15852c7c55a678e493c1",
-      "ja_text_bytes": 190,
+      "ja_text_sha256": "5f9bea2a2e1e3c34980210c326ab963915aa5cc29a248d263aefaac854e8a584",
+      "ja_text_bytes": 3993,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-61",
       "article_number": "61",
       "filename": "chihou-koumuin-hou-article-61.md",
-      "ja_text_sha256": "426b80b4e4b80eafbc1642f17b7aaf1fecbfa565859d50f06c0808e52f5b5360",
-      "ja_text_bytes": 187,
+      "ja_text_sha256": "2e3b6335bd64d477dbf4e852946c6e409ad2b9e6223a12ba736432fb6af85736",
+      "ja_text_bytes": 1194,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-62",
       "article_number": "62",
       "filename": "chihou-koumuin-hou-article-62.md",
-      "ja_text_sha256": "4370d0331bffa989c5aa9e306058f70d20a2486038a5e3d34897392a997daf9c",
-      "ja_text_bytes": 316,
+      "ja_text_sha256": "af0a107356135d701fb502e789268451932bfb049819ee61a29a632f0ba5e73e",
+      "ja_text_bytes": 252,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-63",
       "article_number": "63",
       "filename": "chihou-koumuin-hou-article-63.md",
-      "ja_text_sha256": "9d9d0b3c6c42358030ba2a4ae54935e50666e7a0ddfc824c9f7fce1bf201d786",
-      "ja_text_bytes": 265,
+      "ja_text_sha256": "eab71dcf3ef8c0401815c6159b4f9050b69848adef8cb649aabc65185c8ae8aa",
+      "ja_text_bytes": 2661,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-64",
       "article_number": "64",
       "filename": "chihou-koumuin-hou-article-64.md",
-      "ja_text_sha256": "6c99013329c833c4f967e6ff68fe29e8cd4b8a66372420773c1bf254c1c0ebc9",
-      "ja_text_bytes": 688,
+      "ja_text_sha256": "8a90c97eaf63833a44bf3201e5e441f99bdb5e475f106dbd748898b82597d4bb",
+      "ja_text_bytes": 630,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-65",
       "article_number": "65",
       "filename": "chihou-koumuin-hou-article-65.md",
-      "ja_text_sha256": "8dc31ddb4c4abf02c85e2845dfd84749e315af962550a5842f4361234051dce1",
-      "ja_text_bytes": 223,
+      "ja_text_sha256": "50401bf88b0592d8f68b3e1439906d773754440ed37a5b3e838b9b76eb9c2746",
+      "ja_text_bytes": 165,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-koumuin-hou-art-7",
       "article_number": "7",
       "filename": "chihou-koumuin-hou-article-7.md",
-      "ja_text_sha256": "881f70629c7e6ab17649612a04c88165cf33fddd563ce45e2da07172363833cb",
-      "ja_text_bytes": 1194,
+      "ja_text_sha256": "faae6846739efcef64dcbbe1f375d6581ff1dc6b8604f30e80ff6db5238bf816",
+      "ja_text_bytes": 966,
       "paragraph_count": 4
     },
     {
@@ -842,8 +842,8 @@
       "article_id": "chihou-koumuin-hou-art-8",
       "article_number": "8",
       "filename": "chihou-koumuin-hou-article-8.md",
-      "ja_text_sha256": "c769c177e9bce8d1078496d7ca6344e7085f86a81217fc8a9fe5480e1b02312b",
-      "ja_text_bytes": 2329,
+      "ja_text_sha256": "b7be0f5aeb7cb71e81fb71750dc61e8fe67db1c7b09209fc692e577c749cf82d",
+      "ja_text_bytes": 3853,
       "paragraph_count": 9
     },
     {
@@ -858,8 +858,8 @@
       "article_id": "chihou-koumuin-hou-art-9",
       "article_number": "9",
       "filename": "chihou-koumuin-hou-article-9.md",
-      "ja_text_sha256": "f8e0f572b172084859c610fc3ee79d72f76e0cd1c4887f98b8f655a44c70a034",
-      "ja_text_bytes": 1579,
+      "ja_text_sha256": "142dab588eb299670b3ca8edba2a901378a2a6ced257febad9d4b834c5433f15",
+      "ja_text_bytes": 1408,
       "paragraph_count": 3
     }
   ]

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-17-p1
+    type: simple
+    text: 前条の登記がされている根抵当権の担保すべき債権の範囲、債務者若しくは極度額の変更又はその譲渡若しくは一部譲渡は、その根抵当権が設定されているすべての不動産について登記をしなければ、その効力を生じない。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-17-p2
+    type: simple
+    text: 前条の登記がされている根抵当権の担保すべき元本は、一個の不動産についてのみ確定すべき事由が生じた場合においても、確定する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

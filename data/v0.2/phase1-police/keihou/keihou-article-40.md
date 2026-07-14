@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: keihou-art-40-p1 -->
 削除

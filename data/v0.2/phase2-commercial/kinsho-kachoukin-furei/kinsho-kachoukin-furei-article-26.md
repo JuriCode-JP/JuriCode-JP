@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 審判手続の調書には、主張、証拠の申出及び証拠調べの要領を記載し、特に、次に掲げる事項を明確にしなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-26-p1-kou-1
+    type: kou
+    text: 一　参考人、被審人及び鑑定人の陳述
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-26-p1-kou-2
+    type: kou
+    text: 二　参考人及び鑑定人の宣誓の有無並びに参考人及び鑑定人に宣誓をさせなかった理由
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-26-p1-kou-3
+    type: kou
+    text: 三　立入検査の結果
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-26-p1-kou-4
+    type: kou
+    text: 四　審判長が記載を命じた事項及び指定職員又は被審人若しくはその代理人の請求により記載を許した事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第二十六条
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-26-p1-hashira -->
 審判手続の調書には、主張、証拠の申出及び証拠調べの要領を記載し、特に、次に掲げる事項を明確にしなければならない。
+
+一　参考人、被審人及び鑑定人の陳述
+
+二　参考人及び鑑定人の宣誓の有無並びに参考人及び鑑定人に宣誓をさせなかった理由
+
+三　立入検査の結果
+
+四　審判長が記載を命じた事項及び指定職員又は被審人若しくはその代理人の請求により記載を許した事項

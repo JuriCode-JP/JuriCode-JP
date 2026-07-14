@@ -50,10 +50,8 @@ parent_section:
 
 ### 第八十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-88-p1 -->
 勾留されている被告人又はその弁護人、法定代理人、保佐人、配偶者、直系の親族若しくは兄弟姉妹は、保釈の請求をすることができる。
 
 ### 第八十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-88-p2 -->
 第八十二条第三項の規定は、前項の請求についてこれを準用する。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十一条
 
-<!-- segment: simple id: roudou-kijun-hou-art-11-p1 -->
 この法律で賃金とは、賃金、給料、手当、賞与その他名称の如何を問わず、労働の対償として使用者が労働者に支払うすべてのものをいう。

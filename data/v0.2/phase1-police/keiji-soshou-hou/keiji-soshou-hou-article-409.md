@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-409-p1 -->
 上告審においては、公判期日に被告人を召喚することを要しない。

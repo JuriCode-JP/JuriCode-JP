@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-hashira
+    type: hashira
+    text: 法第七百十八条の八第一項の規定による国民健康保険税の特別徴収の方法による徴収は、次の各号に掲げる者が当該各号に定める日において特別徴収対象被保険者である場合に行うものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-kou-1
+    type: kou
+    text: 一　法第七百十八条の八第一項第一号に掲げる者　当該年度の初日の属する年の前年の十月一日
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-kou-2
+    type: kou
+    text: 二　法第七百十八条の八第一項第二号に掲げる者　当該年度の初日の属する年の前年の十二月一日
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-kou-3
+    type: kou
+    text: 三　法第七百十八条の八第一項第三号に掲げる者　当該年度の初日の属する年の二月一日
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第五十六条の八十九の八
 
 法第七百十八条の八第一項の規定による国民健康保険税の特別徴収の方法による徴収は、次の各号に掲げる者が当該各号に定める日において特別徴収対象被保険者である場合に行うものとする。
+
+一　法第七百十八条の八第一項第一号に掲げる者　当該年度の初日の属する年の前年の十月一日
+
+二　法第七百十八条の八第一項第二号に掲げる者　当該年度の初日の属する年の前年の十二月一日
+
+三　法第七百十八条の八第一項第三号に掲げる者　当該年度の初日の属する年の二月一日

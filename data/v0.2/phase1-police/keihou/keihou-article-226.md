@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百二十六条
 
-<!-- segment: simple id: keihou-art-226-p1 -->
 所在国外に移送する目的で、人を略取し、又は誘拐した者は、二年以上の有期拘禁刑に処する。

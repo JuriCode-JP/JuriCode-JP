@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百八十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-282-p1 -->
 公判期日における取調は、公判廷でこれを行う。
 
 ### 第二百八十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-282-p2 -->
 公判廷は、裁判官及び裁判所書記が列席し、且つ検察官が出席してこれを開く。

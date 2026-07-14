@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-413-2-p1
+    type: tokusoku
+    text: 第一審裁判所が即決裁判手続によつて判決をした事件については、第四百十一条の規定にかかわらず、上告裁判所は、当該判決の言渡しにおいて示された罪となるべき事実について同条第三号に規定する事由があることを理由としては、原判決を破棄することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第四百十一条
 cases: []
 amendments: []
 tags:

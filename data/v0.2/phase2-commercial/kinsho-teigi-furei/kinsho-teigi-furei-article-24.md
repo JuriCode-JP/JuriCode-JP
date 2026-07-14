@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第二条第三十四項に規定する法人に類するものとして内閣府令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-teigi-furei-art-24-p1-kou-1
+    type: kou
+    text: 一　法人でない団体
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-teigi-furei-art-24-p1-kou-2
+    type: kou
+    text: 二　事業を行う個人
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-teigi-furei-art-24-p1-kou-3
+    type: kou
+    text: 三　法人又は個人の集合体
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-teigi-furei-art-24-p1-kou-4
+    type: kou
+    text: 四　信託財産
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -39,6 +59,31 @@ paragraphs:
     type: hashira
     text: 法第二条第三十四項に規定する主として信用評価以外の事項を勘案して定められる等級として内閣府令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-teigi-furei-art-24-p3-kou-1
+    type: kou
+    text: 一　金利、通貨又は商品の価格、金融商品市場における流動性及び相場その他の指標に係る変動に関する評価の結果について表示した等級
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-teigi-furei-art-24-p3-kou-2
+    type: kou
+    text: 二　有価証券の発行者その他の者が行う資産の運用その他これに類似する事業の遂行能力に関する評価の結果について表示した等級
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-teigi-furei-art-24-p3-kou-3
+    type: kou
+    text: 三　債権の管理及び回収に関する業務の遂行能力に関する評価の結果について表示した等級
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-teigi-furei-art-24-p3-kou-4
+    type: kou
+    text: 四　信託財産の管理能力その他信託業務の運営の適切性に関する評価の結果について表示した等級
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-teigi-furei-art-24-p3-kou-5
+    type: kou
+    text: 五　前各号に掲げるもののほか、主として信用状態以外の事項に関する評価の結果について表示した等級
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -52,15 +97,30 @@ tags:
 
 ### 第二十四条第一項
 
-<!-- segment: hashira id: kinsho-teigi-furei-art-24-p1-hashira -->
 法第二条第三十四項に規定する法人に類するものとして内閣府令で定めるものは、次に掲げるものとする。
+
+一　法人でない団体
+
+二　事業を行う個人
+
+三　法人又は個人の集合体
+
+四　信託財産
 
 ### 第二十四条第二項
 
-<!-- segment: simple id: kinsho-teigi-furei-art-24-p2 -->
 法第二条第三十四項に規定する記号又は数字に類するものとして内閣府令で定めるものは、順序を示す簡易な文章又は文字とする。
 
 ### 第二十四条第三項
 
-<!-- segment: hashira id: kinsho-teigi-furei-art-24-p3-hashira -->
 法第二条第三十四項に規定する主として信用評価以外の事項を勘案して定められる等級として内閣府令で定めるものは、次に掲げるものとする。
+
+一　金利、通貨又は商品の価格、金融商品市場における流動性及び相場その他の指標に係る変動に関する評価の結果について表示した等級
+
+二　有価証券の発行者その他の者が行う資産の運用その他これに類似する事業の遂行能力に関する評価の結果について表示した等級
+
+三　債権の管理及び回収に関する業務の遂行能力に関する評価の結果について表示した等級
+
+四　信託財産の管理能力その他信託業務の運営の適切性に関する評価の結果について表示した等級
+
+五　前各号に掲げるもののほか、主として信用状態以外の事項に関する評価の結果について表示した等級

@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-65-p1
+    type: simple
+    text: 取引情報蓄積機関は、内閣府令で定めるところにより、第百五十六条の六十三第一項及び前条第一項の規定に基づき提供を受けた取引情報について内閣府令で定める事項に関する記録を作成し、これを保存しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-65-p2
+    type: simple
+    text: 取引情報蓄積機関は、内閣府令で定めるところにより、前項の規定に基づき保存する取引情報を内閣総理大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-65-p3
+    type: simple
+    text: 取引情報蓄積機関が、前項の規定による報告に代えて、内閣総理大臣が電子情報処理組織を使用する方法を利用して同項の規定による報告の対象となつている取引情報を閲覧することができる状態に置く措置であつて内閣府令で定めるものを講じたときは、当該報告をしたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

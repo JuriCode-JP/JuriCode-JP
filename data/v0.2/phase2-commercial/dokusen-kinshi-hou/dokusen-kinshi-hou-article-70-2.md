@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-2-p1
+    type: simple
+    text: 公正取引委員会は、第十一条第一項又は第二項の認可の申請があつた場合において、当該申請を理由がないと認めるときは、決定でこれを却下しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-2-p2
+    type: junyou
+    text: 第四十五条第二項の規定は、前項の認可の申請があつた場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-2-p3
+    type: junyou
+    text: 第六十三条第三項及び第四項の規定は、第一項の規定による決定について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

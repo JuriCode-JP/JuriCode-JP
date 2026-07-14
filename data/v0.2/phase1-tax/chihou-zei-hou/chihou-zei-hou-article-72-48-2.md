@@ -16,67 +16,158 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p1
+    type: simple
+    text: 前条第一項の法人の行う事業に係る課税標準額の総額について第七十二条の三十九、第七十二条の四十一又は第七十二条の四十一の二の規定によつてすべき更正又は決定は、当該法人の主たる事務所又は事業所所在地の道府県知事が行う。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p2-hashira
+    type: hashira
+    text: 関係道府県知事は、前条第一項の法人の行う事業に係る課税標準額の総額について第七十二条の四十一又は第七十二条の四十一の二の規定による更正又は決定をする必要があると認める場合においては、更正又は決定をすべき事由を記載した書類を添えて、当該法人の主たる事務所又は事業所所在地の道府県知事に対し、更正又は決定をすべき旨を請求することができる。この場合において、当該更正又は決定の請求が次の各号のいずれかに該当するときは、当該更正又は決定の請求は、それぞれ当該各号に掲げる日から二月以内にしなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-72-48-2-p2-kou-1
+    type: kou
+    text: 一　第七十二条の四十一第一項又は第七十二条の四十一の二第一項の規定によつてすべき更正の請求にあつては、申告書又は修正申告書の提出があつた日
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-48-2-p2-kou-2
+    type: kou
+    text: 二　第七十二条の四十一第二項又は第七十二条の四十一の二第二項の規定によつてすべき決定の請求にあつては、申告書の提出期限
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-72-48-2-p2-kou-3
+    type: kou
+    text: 三　第七十二条の四十一第三項又は第七十二条の四十一の二第三項の規定によつてすべき更正の請求にあつては、第七十二条の四十一第一項若しくは第七十二条の四十一の二第一項の規定による更正又は第七十二条の四十一第二項若しくは第七十二条の四十一の二第二項の規定による決定があつた日
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p3
+    type: simple
+    text: 前条第一項の法人の主たる事務所又は事業所所在地の道府県知事は、同項の法人が提出した申告書若しくは修正申告書に係る分割課税標準額（関係道府県ごとに分割された又は分割されるべき課税標準額をいう。以下本条において同じ。）の分割基準又は本項の規定による修正若しくは決定をした分割基準に誤りがあると認める場合（課税標準額の総額についてすべき分割をしなかつた場合を含む。）には、これを修正し、同条第一項の法人が申告書を提出しなかつた場合（第七十二条の二十六第五項の規定により申告書の提出があつたものとみなされる場合を除く。）には、その分割基準を決定するものとする。
+    modality: gimu
+    references:
+    - 本条
+    - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p4
+    type: simple
+    text: 前条第一項の法人が主たる事務所又は事業所所在地の道府県知事に申告書若しくは修正申告書を提出した場合又は第七十二条の三十九、第七十二条の四十一若しくは第七十二条の四十一の二の規定による更正若しくは決定を受けた場合において、当該申告若しくは修正申告又は当該更正若しくは決定に係る分割課税標準額の分割基準に誤りがあつたこと（課税標準額の総額についてすべき分割をしなかつた場合を含む。）により、分割課税標準額又は事業税額が過大である関係道府県があるときは、当該法人は、総務省令の定めるところにより、当該関係道府県知事に対し、当該過大となつた分割課税標準額又は事業税額につき、第七十二条の三十九、第七十二条の四十一又は第七十二条の四十一の二の規定による更正をすべき旨を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p5
+    type: simple
+    text: 前項の規定による更正の請求をしようとする法人は、その請求に係る更正後の第二十条の九の三第六項に規定する課税標準等又は税額等、当該請求に係る更正前の納付すべき税額及び申告書又は修正申告書に記載すべきこの法律の規定による還付金の額に相当する税額その他参考となるべき事項を記載した更正請求書を関係道府県知事に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p6
+    type: simple
+    text: 関係道府県知事は、分割基準について第三項の規定による修正又は決定の必要があると認めるときは、その事由を記載した書類を添えて、当該法人の主たる事務所又は事業所所在地の道府県知事に対し、分割基準の修正又は決定の請求をすることができる。
+    modality: kanou_kenri
 - number: 7
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p7
+    type: simple
+    text: 前条第一項の法人の主たる事務所又は事業所所在地の道府県知事は、当該法人の課税標準額の総額について第二項の規定による更正若しくは決定の請求に係る書類又は当該法人の分割基準について前項の規定による修正若しくは決定の請求に係る書類を受け取つた場合において、必要があると認めたときは、当該法人の課税標準額の総額の更正若しくは決定をし、又は当該法人の分割基準の修正若しくは決定をしなければならない。但し、関係道府県知事と意見を異にする場合においては、当該書類を受け取つた日から二月以内に、自己の意見を附して、当該書類を総務大臣に送付するとともに、その指示を受けなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p8-zen
+    type: zen_dan
+    text: 総務大臣は、前項ただし書の規定による指示の請求があつた場合において、課税標準額の総額の更正若しくは決定又は分割基準の修正若しくは決定の必要があると認めたときは、当該法人の主たる事務所又は事業所所在地の道府県知事に対し、その課税標準額の総額の更正若しくは決定又は分割基準の修正若しくは決定の指示をしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-72-48-2-p8-kou
+    type: kou_dan
+    text: この場合においては、当該法人の主たる事務所又は事業所所在地の道府県知事は、その指示に基いて当該法人の課税標準額の総額の更正若しくは決定又は分割基準の修正若しくは決定をし、その旨を関係道府県知事に通知するとともに、総務大臣に報告しなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-72-48-2-p8-zen
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p9
+    type: simple
+    text: 総務大臣は、第七項ただし書の規定による指示の請求があつた場合において、課税標準額の総額の更正若しくは決定又は分割基準の修正若しくは決定の必要がないと認めたときは、その旨を当該法人の主たる事務所又は事業所所在地の道府県知事及び関係道府県知事に通知しなければならない。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p10
+    type: simple
+    text: 総務大臣は、第八項前段の指示又は前項の規定による通知をしようとするときは、地方財政審議会の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p11
+    type: simple
+    text: 第一項又は第三項の規定によつて当該法人の主たる事務所又は事業所所在地の道府県知事がした課税標準額の総額の更正若しくは決定又は分割基準の修正若しくは決定は、それぞれ関係道府県知事がした課税標準額の総額の更正若しくは決定又は分割基準の修正若しくは決定とみなす。
+    modality: unspecified
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p12
+    type: simple
+    text: 法人の主たる事務所又は事業所所在地の道府県知事は、第一項又は第三項の規定によつて当該法人の課税標準の総額の更正若しくは決定又は分割基準の修正若しくは決定を行つた場合においては、その旨を関係道府県知事に通知しなければならない。
+    modality: gimu
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-48-2-p13
+    type: simple
+    text: 外国法人に対する前各項の規定の適用については、これらの規定中「主たる事務所又は事業所所在地の道府県知事」とあるのは、「この法律の施行地において行う事業の経営の責任者が主として執務する事務所又は事業所所在地の道府県知事」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -102,6 +193,12 @@ parent_section:
 ### 第七十二条の四十八の二第二項
 
 関係道府県知事は、前条第一項の法人の行う事業に係る課税標準額の総額について第七十二条の四十一又は第七十二条の四十一の二の規定による更正又は決定をする必要があると認める場合においては、更正又は決定をすべき事由を記載した書類を添えて、当該法人の主たる事務所又は事業所所在地の道府県知事に対し、更正又は決定をすべき旨を請求することができる。この場合において、当該更正又は決定の請求が次の各号のいずれかに該当するときは、当該更正又は決定の請求は、それぞれ当該各号に掲げる日から二月以内にしなければならない。
+
+一　第七十二条の四十一第一項又は第七十二条の四十一の二第一項の規定によつてすべき更正の請求にあつては、申告書又は修正申告書の提出があつた日
+
+二　第七十二条の四十一第二項又は第七十二条の四十一の二第二項の規定によつてすべき決定の請求にあつては、申告書の提出期限
+
+三　第七十二条の四十一第三項又は第七十二条の四十一の二第三項の規定によつてすべき更正の請求にあつては、第七十二条の四十一第一項若しくは第七十二条の四十一の二第一項の規定による更正又は第七十二条の四十一第二項若しくは第七十二条の四十一の二第二項の規定による決定があつた日
 
 ### 第七十二条の四十八の二第三項
 

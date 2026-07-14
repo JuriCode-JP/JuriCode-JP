@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-133-2-p1
+    type: junyou
+    text: 第百三条の二第五項の規定は、第百二十二条第一項、第百二十三条及び第百二十四条第一項から第三項までの規定を適用する場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

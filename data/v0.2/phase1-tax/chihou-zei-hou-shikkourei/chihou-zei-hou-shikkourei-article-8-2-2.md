@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-8-2-2-p1-hashira
+    type: hashira
+    text: 法第四十五条の三の二第五項に規定する政令で定める要件は、次に掲げる要件とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-8-2-2-p1-kou-1
+    type: kou
+    text: 一　法第四十五条の三の二第五項に規定する給与所得者（次号において「給与所得者」という。）が行う同項に規定する電磁的方法による同項に規定する申告書に記載すべき事項（以下この条において「記載事項」という。）の提供を適正に受けることができる措置を講じていること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-8-2-2-p1-kou-2
+    type: kou
+    text: 二　法第四十五条の三の二第五項の規定により提供を受けた記載事項について、その提供をした給与所得者を特定するための必要な措置を講じていること。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-8-2-2-p1-kou-3
+    type: kou
+    text: 三　法第四十五条の三の二第五項の規定により提供を受けた記載事項について、電子計算機の映像面への表示及び書面への出力をするための必要な措置を講じていること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第八条の二の二
 
 法第四十五条の三の二第五項に規定する政令で定める要件は、次に掲げる要件とする。
+
+一　法第四十五条の三の二第五項に規定する給与所得者（次号において「給与所得者」という。）が行う同項に規定する電磁的方法による同項に規定する申告書に記載すべき事項（以下この条において「記載事項」という。）の提供を適正に受けることができる措置を講じていること。
+
+二　法第四十五条の三の二第五項の規定により提供を受けた記載事項について、その提供をした給与所得者を特定するための必要な措置を講じていること。
+
+三　法第四十五条の三の二第五項の規定により提供を受けた記載事項について、電子計算機の映像面への表示及び書面への出力をするための必要な措置を講じていること。

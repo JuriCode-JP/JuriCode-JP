@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百二十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-421-p1 -->
 抗告は、即時抗告を除いては、何時でもこれをすることができる。但し、原決定を取り消しても実益がないようになつたときは、この限りでない。

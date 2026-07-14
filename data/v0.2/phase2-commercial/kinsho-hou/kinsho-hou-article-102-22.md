@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-22-p1
+    type: simple
+    text: 自主規制法人は、自主規制業務及びこれに附帯する業務のほか、他の業務を行うことができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-14-p1
+    type: simple
+    text: 第五十一条の八から前条までに定めるもののほか、確認事務の委託の手続及び駐車監視員資格者証に関し必要な事項は、国家公安委員会規則で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

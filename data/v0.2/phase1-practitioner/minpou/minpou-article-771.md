@@ -45,5 +45,4 @@ parent_section:
 
 ### 第七百七十一条
 
-<!-- segment: junyou id: minpou-art-771-p1 applies_provisions: 第七百六十六条から第七百六十九条まで -->
 第七百六十六条から第七百六十九条までの規定は、裁判上の離婚について準用する。

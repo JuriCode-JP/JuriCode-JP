@@ -22,7 +22,7 @@ paragraphs:
     text: 合同会社が資本金の額を減少する場合には、当該合同会社の債権者は、当該合同会社に対し、資本金の額の減少について異議を述べることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,16 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前項
+  - id: kaisha-hou-art-627-p2-kou-1
+    type: kou
+    text: 一　当該資本金の額の減少の内容
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-627-p2-kou-2
+    type: kou
+    text: 二　債権者が一定の期間内に異議を述べることができる旨
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -100,31 +110,28 @@ parent_section:
 
 ### 第六百二十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-627-p1 -->
 合同会社が資本金の額を減少する場合には、当該合同会社の債権者は、当該合同会社に対し、資本金の額の減少について異議を述べることができる。
 
 ### 第六百二十七条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-627-p2-hashira -->
 前項に規定する場合には、合同会社は、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第二号の期間は、一箇月を下ることができない。
+
+一　当該資本金の額の減少の内容
+
+二　債権者が一定の期間内に異議を述べることができる旨
 
 ### 第六百二十七条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-627-p3 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、合同会社が同項の規定による公告を、官報のほか、第九百三十九条第一項の規定による定款の定めに従い、同項第二号又は第三号に掲げる公告方法によりするときは、前項の規定による各別の催告は、することを要しない。
 
 ### 第六百二十七条第四項
 
-<!-- segment: simple id: kaisha-hou-art-627-p4 -->
-<!-- segment: honbun id: kaisha-hou-art-627-p5-honbun -->
 債権者が第二項第二号の期間内に異議を述べなかったときは、当該債権者は、当該資本金の額の減少について承認をしたものとみなす。
 
 ### 第六百二十七条第五項
 
-債権者が第二項第二号の期間内に異議を述べたときは、合同会社は、当該債権者に対し、弁済し、若しくは相当の担保を提供し、又は当該債権者に弁済を受けさせることを目的として信託会社等に相当の財産を信託しなければならない。<!-- segment: tadashi id: kaisha-hou-art-627-p5-tadashi -->
-ただし、当該資本金の額の減少をしても当該債権者を害するおそれがないときは、この限りでない。
+債権者が第二項第二号の期間内に異議を述べたときは、合同会社は、当該債権者に対し、弁済し、若しくは相当の担保を提供し、又は当該債権者に弁済を受けさせることを目的として信託会社等に相当の財産を信託しなければならない。ただし、当該資本金の額の減少をしても当該債権者を害するおそれがないときは、この限りでない。
 
 ### 第六百二十七条第六項
 
-<!-- segment: simple id: kaisha-hou-art-627-p6 -->
 資本金の額の減少は、前各項の手続が終了した日に、その効力を生ずる。

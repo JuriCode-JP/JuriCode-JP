@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-1-3-p1
+    type: simple
+    text: 地方公共団体は、普通地方公共団体及び特別地方公共団体とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-1-3-p2
+    type: simple
+    text: 普通地方公共団体は、都道府県及び市町村とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-1-3-p3
+    type: simple
+    text: 特別地方公共団体は、特別区、地方公共団体の組合及び財産区とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

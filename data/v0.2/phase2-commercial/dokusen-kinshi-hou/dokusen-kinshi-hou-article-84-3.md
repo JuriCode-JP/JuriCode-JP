@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-84-3-p1
+    type: simple
+    text: 第八十九条から第九十一条までの罪に係る訴訟の第一審の裁判権は、地方裁判所に属する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

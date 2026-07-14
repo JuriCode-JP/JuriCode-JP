@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-857-2-p1
+    type: simple
+    text: 未成年後見人が数人あるときは、共同してその権限を行使する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-857-2-p2
+    type: simple
+    text: 未成年後見人が数人あるときは、家庭裁判所は、職権で、その一部の者について、財産に関する権限のみを行使すべきことを定めることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-857-2-p3
+    type: simple
+    text: 未成年後見人が数人あるときは、家庭裁判所は、職権で、財産に関する権限について、各未成年後見人が単独で又は数人の未成年後見人が事務を分掌して、その権限を行使すべきことを定めることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-857-2-p4
+    type: simple
+    text: 家庭裁判所は、職権で、前二項の規定による定めを取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前二項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-857-2-p5
+    type: simple
+    text: 未成年後見人が数人あるときは、第三者の意思表示は、その一人に対してすれば足りる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

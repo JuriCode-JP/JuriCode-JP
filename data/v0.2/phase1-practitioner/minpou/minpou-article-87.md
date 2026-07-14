@@ -48,10 +48,8 @@ parent_section:
 
 ### 第八十七条第一項
 
-<!-- segment: simple id: minpou-art-87-p1 -->
 物の所有者が、その物の常用に供するため、自己の所有に属する他の物をこれに附属させたときは、その附属させた物を従物とする。
 
 ### 第八十七条第二項
 
-<!-- segment: simple id: minpou-art-87-p2 -->
 従物は、主物の処分に従う。

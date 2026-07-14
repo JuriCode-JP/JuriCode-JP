@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-15-p1
+    type: simple
+    text: 民法第九十三条第一項ただし書及び第九十四条第一項の規定は、組織変更時発行株式の引受けの申込み及び割当てに係る意思表示については、適用しない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-15-p2
+    type: simple
+    text: 組織変更時発行株式の引受人は、効力発生日から一年を経過した後又はその株式について権利を行使した後は、錯誤、詐欺又は強迫を理由として組織変更時発行株式の引受けの取消しをすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

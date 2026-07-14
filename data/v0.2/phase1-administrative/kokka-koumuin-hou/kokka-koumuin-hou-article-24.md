@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十四条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-24-p1 -->
 人事院は、毎年、国会及び内閣に対し、業務の状況を報告しなければならない。
 
 ### 第二十四条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-24-p2 -->
 内閣は、前項の報告を公表しなければならない。

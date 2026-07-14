@@ -16,27 +16,74 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-13-p1-zen
+    type: zen_dan
+    text: 二以上の市町村において事務所又は事業所を有する法人（予定申告法人及び第三百二十一条の八第二項の規定により申告書を提出すべき法人を除く。）が同条（同条第一項後段を除く。）の規定により法人の市町村民税を申告納付する場合には、当該法人の法人税額を関係市町村に分割し、その分割した額を課税標準とし、関係市町村ごとに法人税割額を算定して、これに均等割額を加算した額を申告納付しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-321-13-p1-kou
+    type: kou_dan
+    text: この場合において、主たる事務所又は事業所所在地の市町村長に提出すべき申告書には、総務省令で定める課税標準の分割に関する明細書を添付しなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-321-13-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-13-p2
+    type: simple
+    text: 前項の規定による分割は、関係市町村ごとに、法人税額の課税標準の算定期間中において有する法人の事務所又は事業所について、当該法人の法人税額を当該算定期間の末日現在における従業者の数に按分して行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-13-p3-hashira
+    type: hashira
+    text: 前項の場合において、次の各号に掲げる事務所又は事業所については、当該各号に掲げる数（その数に一人に満たない端数を生じたときは、これを一人とする。）を同項に規定する従業者の数とみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+  - id: chihou-zei-hou-art-321-13-p3-kou-1
+    type: kou
+    text: 一　法人税額の課税標準の算定期間の中途において新設された事務所又は事業所　当該算定期間の末日現在における従業者の数に当該算定期間の月数に対する当該事務所又は事業所が新設された日から当該算定期間の末日までの月数の割合を乗じて得た数
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-321-13-p3-kou-2
+    type: kou
+    text: 二　法人税額の課税標準の算定期間の中途において廃止された事務所又は事業所　当該廃止の日の属する月の直前の月の末日現在における従業者の数に、当該算定期間の月数に対する当該廃止された事務所又は事業所が当該算定期間中において所在していた月数の割合を乗じて得た数
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-321-13-p3-kou-3
+    type: kou
+    text: 三　法人税額の課税標準の算定期間中を通じて従業者の数に著しい変動がある事務所又は事業所として政令で定める事務所又は事業所　当該算定期間に属する各月の末日現在における従業者の数を合計した数を当該算定期間の月数で除して得た数
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-13-p4
+    type: simple
+    text: 前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-13-p5
+    type: simple
+    text: 前各項に定めるもののほか、法人税割の課税標準たる法人税額の分割について必要な事項は、総務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -66,6 +113,12 @@ parent_section:
 ### 第三百二十一条の十三第三項
 
 前項の場合において、次の各号に掲げる事務所又は事業所については、当該各号に掲げる数（その数に一人に満たない端数を生じたときは、これを一人とする。）を同項に規定する従業者の数とみなす。
+
+一　法人税額の課税標準の算定期間の中途において新設された事務所又は事業所　当該算定期間の末日現在における従業者の数に当該算定期間の月数に対する当該事務所又は事業所が新設された日から当該算定期間の末日までの月数の割合を乗じて得た数
+
+二　法人税額の課税標準の算定期間の中途において廃止された事務所又は事業所　当該廃止の日の属する月の直前の月の末日現在における従業者の数に、当該算定期間の月数に対する当該廃止された事務所又は事業所が当該算定期間中において所在していた月数の割合を乗じて得た数
+
+三　法人税額の課税標準の算定期間中を通じて従業者の数に著しい変動がある事務所又は事業所として政令で定める事務所又は事業所　当該算定期間に属する各月の末日現在における従業者の数を合計した数を当該算定期間の月数で除して得た数
 
 ### 第三百二十一条の十三第四項
 

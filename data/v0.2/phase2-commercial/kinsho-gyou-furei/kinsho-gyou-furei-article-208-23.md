@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-23-p1
+    type: simple
+    text: 法第五十七条の十五第一項の規定により最終指定親会社が提出する事業報告書は、別紙様式第十七号の五により作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-23-p2
+    type: simple
+    text: 最終指定親会社は、前項の事業報告書を作成する場合には、一般に公正妥当と認められる企業会計の慣行又は指定国際会計基準に従うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

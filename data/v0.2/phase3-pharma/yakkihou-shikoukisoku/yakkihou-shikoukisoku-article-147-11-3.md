@@ -16,22 +16,84 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-11-3-p1
+    type: simple
+    text: 店舗販売業者は、その店舗において業務に従事する登録販売者に、研修を毎年度受講させなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-11-3-p2-hashira
+    type: hashira
+    text: 前項の研修を実施しようとする者は、次に掲げる事項をあらかじめ厚生労働大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-147-11-3-p2-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-147-11-3-p2-kou-2
+    type: kou
+    text: 二　研修の実施場所
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-11-3-p3-hashira
+    type: hashira
+    text: 前項の届出を行つた者（次項において「研修実施機関」という。）が行う研修の実施の基準は、次のとおりとする。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
+  - id: yakkihou-shikoukisoku-art-147-11-3-p3-kou-1
+    type: kou
+    text: '一　研修は次に掲げる事項について講義により行うものとし、総時間数が十二時間以上であること。
+
+      イ　医薬品に共通する特性と基本的な知識
+
+      ロ　人体の働きと医薬品
+
+      ハ　主な医薬品とその作用
+
+      ニ　薬事に関する法規と制度
+
+      ホ　医薬品の適正使用と安全対策
+
+      ヘ　リスク区分等の変更があつた医薬品
+
+      ト　店舗の管理に関する事項
+
+      チ　その他登録販売者として求められる理念、倫理、関連法規等'
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-147-11-3-p3-kou-2
+    type: kou
+    text: 二　前号イからチまでに掲げる事項を教授するのに適当な講師を有すること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-147-11-3-p3-kou-3
+    type: kou
+    text: 三　正当な理由なく受講を制限するものでないこと。
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-11-3-p4
+    type: simple
+    text: 研修実施機関については、第十五条の十一の三第四項から第七項までの規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -54,9 +116,35 @@ parent_section:
 
 前項の研修を実施しようとする者は、次に掲げる事項をあらかじめ厚生労働大臣に届け出なければならない。
 
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　研修の実施場所
+
 ### 第百四十七条の十一の三第三項
 
 前項の届出を行つた者（次項において「研修実施機関」という。）が行う研修の実施の基準は、次のとおりとする。
+
+一　研修は次に掲げる事項について講義により行うものとし、総時間数が十二時間以上であること。
+
+　イ　医薬品に共通する特性と基本的な知識
+
+　ロ　人体の働きと医薬品
+
+　ハ　主な医薬品とその作用
+
+　ニ　薬事に関する法規と制度
+
+　ホ　医薬品の適正使用と安全対策
+
+　ヘ　リスク区分等の変更があつた医薬品
+
+　ト　店舗の管理に関する事項
+
+　チ　その他登録販売者として求められる理念、倫理、関連法規等
+
+二　前号イからチまでに掲げる事項を教授するのに適当な講師を有すること。
+
+三　正当な理由なく受講を制限するものでないこと。
 
 ### 第百四十七条の十一の三第四項
 

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-14-p1-hashira
+    type: hashira
+    text: 特定医療機器に関する記録は、次の各号のいずれかに該当するに至るまでの間、これを保存しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-228-14-p1-kou-1
+    type: kou
+    text: 一　特定医療機器利用者が死亡したとき。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-14-p1-kou-2
+    type: kou
+    text: 二　当該特定医療機器が利用に供されなくなつたとき。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-228-14-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののほか、当該記録を保存する理由が消滅したとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第二百二十八条の十四
 
 特定医療機器に関する記録は、次の各号のいずれかに該当するに至るまでの間、これを保存しなければならない。
+
+一　特定医療機器利用者が死亡したとき。
+
+二　当該特定医療機器が利用に供されなくなつたとき。
+
+三　前二号に掲げるもののほか、当該記録を保存する理由が消滅したとき。

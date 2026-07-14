@@ -24,6 +24,16 @@ paragraphs:
     references:
     - 前条
     - 次条
+  - id: kaisha-hou-art-175-p1-kou-1
+    type: kou
+    text: 一　次条第一項の規定による請求をする株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-175-p1-kou-2
+    type: kou
+    text: 二　前号の株式を有する者の氏名又は名称
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: true
   has_items: false
@@ -62,11 +72,12 @@ parent_section:
 
 ### 第百七十五条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-175-p1-hashira -->
 株式会社は、前条の規定による定款の定めがある場合において、次条第一項の規定による請求をしようとするときは、その都度、株主総会の決議によって、次に掲げる事項を定めなければならない。
+
+一　次条第一項の規定による請求をする株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+
+二　前号の株式を有する者の氏名又は名称
 
 ### 第百七十五条第二項
 
-<!-- segment: honbun id: kaisha-hou-art-175-p2-honbun -->
-前項第二号の者は、同項の株主総会において議決権を行使することができない。<!-- segment: tadashi id: kaisha-hou-art-175-p2-tadashi -->
-ただし、同号の者以外の株主の全部が当該株主総会において議決権を行使することができない場合は、この限りでない。
+前項第二号の者は、同項の株主総会において議決権を行使することができない。ただし、同号の者以外の株主の全部が当該株主総会において議決権を行使することができない場合は、この限りでない。

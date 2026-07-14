@@ -36,7 +36,7 @@ paragraphs:
     - 前項
     - 同項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -46,6 +46,16 @@ paragraphs:
     modality: jogai
     references:
     - 同項
+  - id: kaisha-hou-art-244-p3-kou-1
+    type: kou
+    text: 一　募集新株予約権の目的である株式の全部又は一部が譲渡制限株式であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-244-p3-kou-2
+    type: kou
+    text: 二　募集新株予約権が譲渡制限新株予約権であるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -68,15 +78,16 @@ parent_section:
 
 ### 第二百四十四条第一項
 
-<!-- segment: simple id: kaisha-hou-art-244-p1 -->
 前二条の規定は、募集新株予約権を引き受けようとする者がその総数の引受けを行う契約を締結する場合には、適用しない。
 
 ### 第二百四十四条第二項
 
-<!-- segment: simple id: kaisha-hou-art-244-p2 -->
 募集新株予約権が新株予約権付社債に付されたものである場合における前項の規定の適用については、同項中「の引受け」とあるのは、「及び当該募集新株予約権を付した社債の総額の引受け」とする。
 
 ### 第二百四十四条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-244-p3-hashira -->
 第一項に規定する場合において、次に掲げるときは、株式会社は、株主総会（取締役会設置会社にあっては、取締役会）の決議によって、同項の契約の承認を受けなければならない。ただし、定款に別段の定めがある場合は、この限りでない。
+
+一　募集新株予約権の目的である株式の全部又は一部が譲渡制限株式であるとき。
+
+二　募集新株予約権が譲渡制限新株予約権であるとき。

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-10-p1
+    type: simple
+    text: 被告人は、第九十八条の八第一項第二号に該当すること又は監督者が死亡したことを知つたときは、速やかに、その旨を裁判所に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-10-p2
+    type: simple
+    text: 裁判所は、前項の規定による届出がなかつたときは、検察官の請求により、又は職権で、決定で、保釈又は勾留の執行停止を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-10-p3
+    type: simple
+    text: 前項の規定により保釈を取り消す場合には、裁判所は、決定で、保証金の全部又は一部を没取することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-232-10-p1-hashira
+    type: hashira
+    text: 法第六十条の十四第二項において準用する法第六十条の六において準用する法第四十六条の二の規定により電子店頭デリバティブ取引等許可業者が作成し、保存しなければならない帳簿書類は、第百五十七条第一項第三号、第四号及び第十五号の二に掲げる帳簿書類又は外国の法令に基づいて作成される書類であってこれらの帳簿書類に類するもの（以下この条において「外国帳簿書類」といい、外国帳簿書類が外国語で作成される場合にあっては、次に掲げる書類）とする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-232-10-p1-kou-1
+    type: kou
+    text: 一　外国帳簿書類
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-232-10-p1-kou-2
+    type: kou
+    text: 二　外国帳簿書類の様式の訳文
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-232-10-p2
+    type: simple
+    text: 前項に規定する帳簿書類又は外国帳簿書類（外国帳簿書類の様式の訳文を含む。）は、その作成の日から十年間保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -43,6 +63,10 @@ parent_section:
 ### 第二百三十二条の十第一項
 
 法第六十条の十四第二項において準用する法第六十条の六において準用する法第四十六条の二の規定により電子店頭デリバティブ取引等許可業者が作成し、保存しなければならない帳簿書類は、第百五十七条第一項第三号、第四号及び第十五号の二に掲げる帳簿書類又は外国の法令に基づいて作成される書類であってこれらの帳簿書類に類するもの（以下この条において「外国帳簿書類」といい、外国帳簿書類が外国語で作成される場合にあっては、次に掲げる書類）とする。
+
+一　外国帳簿書類
+
+二　外国帳簿書類の様式の訳文
 
 ### 第二百三十二条の十第二項
 

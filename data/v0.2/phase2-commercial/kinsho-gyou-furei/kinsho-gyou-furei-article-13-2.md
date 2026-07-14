@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-13-2-p1
+    type: simple
+    text: 法第二十九条の四第一項第二号イに規定する内閣府令で定める者は、精神の機能の障害により金融商品取引業に係る業務を適正に行うに当たって必要な認知、判断及び意思疎通を適切に行うことができない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

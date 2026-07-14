@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-23-p1
+    type: simple
+    text: 解散した認可地縁団体は、清算の目的の範囲内において、その清算の結了に至るまではなお存続するものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

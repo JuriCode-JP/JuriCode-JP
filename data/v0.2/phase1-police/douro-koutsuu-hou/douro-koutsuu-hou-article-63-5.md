@@ -13,10 +13,17 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-5-p1
+    type: tokusoku
+    text: 普通自転車は、道路標識等により並進することができることとされている道路においては、第十九条の規定にかかわらず、他の普通自転車と並進することができる。ただし、普通自転車が三台以上並進することとなる場合においては、この限りでない。
+    modality: jogai
+    override_flag: true
+    override_target:
+    - 第十九条
 cases: []
 amendments: []
 tags:

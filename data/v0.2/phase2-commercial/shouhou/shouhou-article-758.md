@@ -21,6 +21,66 @@ paragraphs:
     type: hashira
     text: 船荷証券には、次に掲げる事項（受取船荷証券にあっては、第七号及び第八号に掲げる事項を除く。）を記載し、運送人又は船長がこれに署名し、又は記名押印しなければならない。
     modality: gimu
+  - id: shouhou-art-758-p1-kou-1
+    type: kou
+    text: 一　運送品の種類
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-758-p1-kou-2
+    type: kou
+    text: 二　運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
+    modality: unspecified
+    item_number: 2
+  - id: shouhou-art-758-p1-kou-3
+    type: kou
+    text: 三　外部から認められる運送品の状態
+    modality: unspecified
+    item_number: 3
+  - id: shouhou-art-758-p1-kou-4
+    type: kou
+    text: 四　荷送人又は傭船者の氏名又は名称
+    modality: unspecified
+    item_number: 4
+  - id: shouhou-art-758-p1-kou-5
+    type: kou
+    text: 五　荷受人の氏名又は名称
+    modality: unspecified
+    item_number: 5
+  - id: shouhou-art-758-p1-kou-6
+    type: kou
+    text: 六　運送人の氏名又は名称
+    modality: unspecified
+    item_number: 6
+  - id: shouhou-art-758-p1-kou-7
+    type: kou
+    text: 七　船舶の名称
+    modality: unspecified
+    item_number: 7
+  - id: shouhou-art-758-p1-kou-8
+    type: kou
+    text: 八　船積港及び船積みの年月日
+    modality: unspecified
+    item_number: 8
+  - id: shouhou-art-758-p1-kou-9
+    type: kou
+    text: 九　陸揚港
+    modality: unspecified
+    item_number: 9
+  - id: shouhou-art-758-p1-kou-10
+    type: kou
+    text: 十　運送賃
+    modality: unspecified
+    item_number: 10
+  - id: shouhou-art-758-p1-kou-11
+    type: kou
+    text: 十一　数通の船荷証券を作成したときは、その数
+    modality: unspecified
+    item_number: 11
+  - id: shouhou-art-758-p1-kou-12
+    type: kou
+    text: 十二　作成地及び作成の年月日
+    modality: unspecified
+    item_number: 12
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,11 +117,32 @@ parent_section:
 
 ### 第七百五十八条第一項
 
-<!-- segment: hashira id: shouhou-art-758-p1-hashira -->
 船荷証券には、次に掲げる事項（受取船荷証券にあっては、第七号及び第八号に掲げる事項を除く。）を記載し、運送人又は船長がこれに署名し、又は記名押印しなければならない。
+
+一　運送品の種類
+
+二　運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
+
+三　外部から認められる運送品の状態
+
+四　荷送人又は傭船者の氏名又は名称
+
+五　荷受人の氏名又は名称
+
+六　運送人の氏名又は名称
+
+七　船舶の名称
+
+八　船積港及び船積みの年月日
+
+九　陸揚港
+
+十　運送賃
+
+十一　数通の船荷証券を作成したときは、その数
+
+十二　作成地及び作成の年月日
 
 ### 第七百五十八条第二項
 
-<!-- segment: zen_dan id: shouhou-art-758-p2-zen -->
-受取船荷証券と引換えに船積船荷証券の交付の請求があったときは、その受取船荷証券に船積みがあった旨を記載し、かつ、署名し、又は記名押印して、船積船荷証券の作成に代えることができる。<!-- segment: kou_dan id: shouhou-art-758-p2-kou depends_on: shouhou-art-758-p2-zen -->
-この場合においては、前項第七号及び第八号に掲げる事項をも記載しなければならない。
+受取船荷証券と引換えに船積船荷証券の交付の請求があったときは、その受取船荷証券に船積みがあった旨を記載し、かつ、署名し、又は記名押印して、船積船荷証券の作成に代えることができる。この場合においては、前項第七号及び第八号に掲げる事項をも記載しなければならない。

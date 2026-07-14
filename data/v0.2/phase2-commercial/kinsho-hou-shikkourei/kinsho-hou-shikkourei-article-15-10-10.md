@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-10-p1-hashira
+    type: hashira
+    text: 法第二十九条の五第四項第二号に規定する政令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-10-10-p1-kou-1
+    type: kou
+    text: 一　金融商品取引業者等（投資運用業を行う者に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-10-10-p1-kou-2
+    type: kou
+    text: 二　外国の法令に準拠して設立された法人で外国において投資運用業を行う者（前号に掲げる者を除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十五条の十の十
 
 法第二十九条の五第四項第二号に規定する政令で定める者は、次に掲げる者とする。
+
+一　金融商品取引業者等（投資運用業を行う者に限る。）
+
+二　外国の法令に準拠して設立された法人で外国において投資運用業を行う者（前号に掲げる者を除く。）

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-3-p1-honbun
+    type: honbun
+    text: 何人も、直接の容器若しくは直接の被包に第五十条（第八十三条第一項の規定により読み替えて適用される場合を含む。）に規定する事項が記載されている医薬品以外の医薬品又は直接の容器若しくは直接の被包に第六十五条の二（第八十三条第一項の規定により読み替えて適用される場合を含む。）に規定する事項が記載されている再生医療等製品以外の再生医療等製品を対象動物に使用してはならない。
+    modality: gimu_negative
+  - id: yakkihou-art-83-3-p1-tadashi
+    type: tadashi
+    text: ただし、試験研究の目的で使用する場合その他の農林水産省令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

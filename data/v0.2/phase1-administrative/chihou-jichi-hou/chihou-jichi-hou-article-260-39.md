@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-39-p1
+    type: simple
+    text: 認可地縁団体が合併しようとするときは、総会の決議を経なければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-39-p2-honbun
+    type: honbun
+    text: 前項の決議は、総構成員の四分の三以上の多数をもつてしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-260-39-p2-tadashi
+    type: tadashi
+    text: ただし、規約に別段の定めがあるときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-39-p3
+    type: simple
+    text: 合併は、市町村長の認可を受けなければ、その効力を生じない。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-39-p4
+    type: junyou
+    text: 第二百六十条の二第二項及び第五項の規定は、前項の認可について準用する。この場合において、同条第二項第一号中「現にその活動を」とあるのは、「合併しようとする各認可地縁団体が連携して当該目的に資する活動を現に」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

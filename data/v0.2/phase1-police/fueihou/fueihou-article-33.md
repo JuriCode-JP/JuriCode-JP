@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: fueihou-art-33-p1
     type: simple
     text: 酒類提供飲食店営業を深夜において営もうとする者は、営業所ごとに、当該営業所の所在地を管轄する公安委員会に、次の事項を記載した届出書を提出しなければならない。
     modality: gimu
+  - id: fueihou-art-33-p1-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-33-p1-kou-2
+    type: kou
+    text: 二　営業所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-33-p1-kou-3
+    type: kou
+    text: 三　営業所の構造及び設備の概要
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +46,8 @@ paragraphs:
     text: 前項の届出書を提出した者は、当該営業を廃止したとき、又は同項各号（同項第二号に掲げる事項にあつては、営業所の名称に限る。）に掲げる事項に変更（内閣府令で定める軽微な変更を除く。）があつたときは、公安委員会に、廃止又は変更に係る事項その他の内閣府令で定める事項を記載した届出書を提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -93,30 +108,30 @@ parent_section:
 
 ### 第三十三条第一項
 
-<!-- segment: simple id: fueihou-art-33-p1 -->
 酒類提供飲食店営業を深夜において営もうとする者は、営業所ごとに、当該営業所の所在地を管轄する公安委員会に、次の事項を記載した届出書を提出しなければならない。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　営業所の名称及び所在地
+
+三　営業所の構造及び設備の概要
 
 ### 第三十三条第二項
 
-<!-- segment: simple id: fueihou-art-33-p2 -->
 前項の届出書を提出した者は、当該営業を廃止したとき、又は同項各号（同項第二号に掲げる事項にあつては、営業所の名称に限る。）に掲げる事項に変更（内閣府令で定める軽微な変更を除く。）があつたときは、公安委員会に、廃止又は変更に係る事項その他の内閣府令で定める事項を記載した届出書を提出しなければならない。
 
 ### 第三十三条第三項
 
-<!-- segment: simple id: fueihou-art-33-p3 -->
 前二項の届出書には、営業の方法を記載した書類その他の内閣府令で定める書類を添付しなければならない。
 
 ### 第三十三条第四項
 
-<!-- segment: simple id: fueihou-art-33-p4 -->
 都道府県は、善良の風俗若しくは清浄な風俗環境を害する行為又は少年の健全な育成に障害を及ぼす行為を防止するため必要があるときは、政令で定める基準に従い条例で定めるところにより、地域を定めて、深夜において酒類提供飲食店営業を営むことを禁止することができる。
 
 ### 第三十三条第五項
 
-<!-- segment: simple id: fueihou-art-33-p5 -->
 前項の規定に基づく条例の規定は、その規定の施行又は適用の際現に第一項の届出書を提出して深夜において酒類提供飲食店営業を営んでいる者の当該営業については、適用しない。
 
 ### 第三十三条第六項
 
-<!-- segment: junyou id: fueihou-art-33-p6 -->
 第十八条の二の規定は、酒類提供飲食店営業（午前六時から午後十時までの時間においてのみ営むものを除く。）を営む者について準用する。

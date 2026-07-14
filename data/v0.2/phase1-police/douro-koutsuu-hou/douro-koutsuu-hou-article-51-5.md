@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-5-p1
+    type: simple
+    text: 公安委員会は、前条の規定の施行のため必要があると認めるときは、同条第一項の規定により標章を取り付けられた車両の使用者、所有者その他の関係者に対し、当該車両の使用に関し必要な報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-5-p2
+    type: simple
+    text: 公安委員会は、前条の規定の施行のため必要があると認めるときは、官庁、公共団体その他の者に照会し、又は協力を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: douro-koutsuu-hou-art-51-5-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の三第二項第一号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +61,5 @@ parent_section:
 ### 第五十一条の五第二項
 
 公安委員会は、前条の規定の施行のため必要があると認めるときは、官庁、公共団体その他の者に照会し、又は協力を求めることができる。
+
+（罰則　第一項については第百十九条の三第二項第一号、第百二十三条）

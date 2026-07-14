@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三百六十七条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-367-p1 -->
 令第四十三条の二の四に規定する内閣府令で定める財務局長又は財務支局長は、関東財務局長とする。

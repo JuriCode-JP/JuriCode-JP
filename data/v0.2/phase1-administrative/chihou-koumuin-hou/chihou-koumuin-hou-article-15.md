@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-15-p1 -->
 職員の任用は、この法律の定めるところにより、受験成績、人事評価その他の能力の実証に基づいて行わなければならない。

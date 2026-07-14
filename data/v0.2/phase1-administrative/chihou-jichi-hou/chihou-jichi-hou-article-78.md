@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七十八条
 
-<!-- segment: simple id: chihou-jichi-hou-art-78-p1 -->
 普通地方公共団体の議会は、第七十六条第三項の規定による解散の投票において過半数の同意があつたときは、解散するものとする。

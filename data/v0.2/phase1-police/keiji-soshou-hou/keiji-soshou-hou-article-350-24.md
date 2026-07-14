@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-24-p1
+    type: simple
+    text: 第三百五十条の二十二の決定のための審理及び即決裁判手続による審判については、第二百八十四条、第二百八十五条、第二百九十六条、第二百九十七条、第三百条から第三百二条まで及び第三百四条から第三百七条の二までの規定は、これを適用しない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-24-p2
+    type: simple
+    text: 即決裁判手続による証拠調べは、公判期日において、適当と認める方法でこれを行うことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

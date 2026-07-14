@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-2-p1
+    type: simple
+    text: 市町村は、国、非課税独立行政法人、国立大学法人等、日本年金機構、福島国際研究教育機構及び国立健康危機管理研究機構並びに都道府県、市町村、特別区、これらの組合、財産区、合併特例区及び地方独立行政法人に対しては、都市計画税を課することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-2-p2
+    type: simple
+    text: 前項に規定するもののほか、市町村は、第三百四十八条第二項から第五項まで、第七項若しくは第九項又は第三百五十一条の規定により固定資産税を課することができない土地又は家屋に対しては、都市計画税を課することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

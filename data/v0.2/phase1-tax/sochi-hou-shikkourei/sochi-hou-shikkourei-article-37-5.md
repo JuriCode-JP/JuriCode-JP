@@ -32,6 +32,21 @@ paragraphs:
     type: hashira
     text: 法第六十一条の四第六項第三号に規定する政令で定める費用は、次に掲げる費用とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-37-5-p2-kou-1
+    type: kou
+    text: 一　カレンダー、手帳、扇子、うちわ、手拭いその他これらに類する物品を贈与するために通常要する費用
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-37-5-p2-kou-2
+    type: kou
+    text: 二　会議に関連して、茶菓、弁当その他これらに類する飲食物を供与するために通常要する費用
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-37-5-p2-kou-3
+    type: kou
+    text: 三　新聞、雑誌等の出版物又は放送番組を編集するために行われる座談会その他記事の収集のために、又は放送のための取材に通常要する費用
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第三十七条の五第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-37-5-p1 -->
 法第六十一条の四第六項第二号に規定する政令で定めるところにより計算した金額は、同項に規定する飲食費として支出する金額を当該飲食費に係る飲食その他これに類する行為に参加した者の数で除して計算した金額とし、同号に規定する政令で定める金額は、一万円とする。
 
 ### 第三十七条の五第二項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-37-5-p2-hashira -->
 法第六十一条の四第六項第三号に規定する政令で定める費用は、次に掲げる費用とする。
+
+一　カレンダー、手帳、扇子、うちわ、手拭いその他これらに類する物品を贈与するために通常要する費用
+
+二　会議に関連して、茶菓、弁当その他これらに類する飲食物を供与するために通常要する費用
+
+三　新聞、雑誌等の出版物又は放送番組を編集するために行われる座談会その他記事の収集のために、又は放送のための取材に通常要する費用

@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の二十八
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-28-p1 -->
 法第七百一条の七十三の事業所税の徴収に要する費用は、当該年度の歳入に所属する事業所税の額の百分の五に相当する額とする。

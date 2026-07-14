@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百三条
 
-<!-- segment: simple id: kenpou-art-103-p1 -->
 この憲法施行の際現に在職する国務大臣、衆議院議員及び裁判官並びにその他の公務員で、その地位に相応する地位がこの憲法で認められてゐる者は、法律で特別の定をした場合を除いては、この憲法施行のため、当然にはその地位を失ふことはない。但し、この憲法によつて、後任者が選挙又は任命されたときは、当然その地位を失ふ。

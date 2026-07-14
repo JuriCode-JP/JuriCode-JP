@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-19-p1 -->
 事業者は、不公正な取引方法を用いてはならない。

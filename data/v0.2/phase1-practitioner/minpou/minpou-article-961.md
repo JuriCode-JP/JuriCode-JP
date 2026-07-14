@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百六十一条
 
-<!-- segment: simple id: minpou-art-961-p1 -->
 十五歳に達した者は、遺言をすることができる。

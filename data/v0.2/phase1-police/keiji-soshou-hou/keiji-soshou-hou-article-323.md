@@ -23,6 +23,21 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前条
+  - id: keiji-soshou-hou-art-323-p1-kou-1
+    type: kou
+    text: 一　戸籍謄本、公正証書謄本その他公務員（外国の公務員を含む。）がその職務上証明することができる事実についてその公務員の作成した書面
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-323-p1-kou-2
+    type: kou
+    text: 二　商業帳簿、航海日誌その他業務の通常の過程において作成された書面
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-323-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののほか特に信用すべき情況の下に作成された書面
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第三百二十三条
 
-<!-- segment: hashira id: keiji-soshou-hou-art-323-p1-hashira -->
 第三百二十一条から前条までに掲げる書面以外の書面は、次に掲げるものに限り、これを証拠とすることができる。
+
+一　戸籍謄本、公正証書謄本その他公務員（外国の公務員を含む。）がその職務上証明することができる事実についてその公務員の作成した書面
+
+二　商業帳簿、航海日誌その他業務の通常の過程において作成された書面
+
+三　前二号に掲げるもののほか特に信用すべき情況の下に作成された書面

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-4-4-p1
+    type: simple
+    text: 法第百七十一条の二第一項に規定する政令で定める行為は、売出し又は私募の取扱いとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

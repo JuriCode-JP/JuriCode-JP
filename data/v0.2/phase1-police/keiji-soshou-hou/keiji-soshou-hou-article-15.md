@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-15-p1
     type: simple
     text: 検察官は、左の場合には、関係のある第一審裁判所に共通する直近上級の裁判所に管轄指定の請求をしなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-15-p1-kou-1
+    type: kou
+    text: 一　裁判所の管轄区域が明らかでないため管轄裁判所が定まらないとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-15-p1-kou-2
+    type: kou
+    text: 二　管轄違を言い渡した裁判が確定した事件について他に管轄裁判所がないとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-15-p1 -->
 検察官は、左の場合には、関係のある第一審裁判所に共通する直近上級の裁判所に管轄指定の請求をしなければならない。
+
+一　裁判所の管轄区域が明らかでないため管轄裁判所が定まらないとき。
+
+二　管轄違を言い渡した裁判が確定した事件について他に管轄裁判所がないとき。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-14-p1
+    type: simple
+    text: 法第二十七条の三十一第一項に規定する政令で定める場合は、五十名未満の者を相手方として行う場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

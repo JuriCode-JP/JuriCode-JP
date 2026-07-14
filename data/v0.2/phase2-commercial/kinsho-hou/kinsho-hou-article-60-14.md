@@ -16,12 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-14-p1
+    type: simple
+    text: 外国の法令に準拠し、外国において店頭デリバティブ取引等を業として行う者であつて、金融商品取引業者又は金融機関（銀行、協同組織金融機関その他政令で定める金融機関をいう。）のいずれにも該当しないものは、有価証券関連業を行う者を相手方とする場合その他これに準ずる場合として政令で定める場合には、第二十九条及び第五十八条の二の規定にかかわらず、内閣総理大臣の許可を受けて、その店頭デリバティブ取引等の業務の用に供する電子情報処理組織を使用して特定店頭デリバティブ取引又はその媒介、取次ぎ（有価証券等清算取次ぎを除く。）若しくは代理を業として行うこと（次項において「電子店頭デリバティブ取引等業務」という。）ができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-14-p2-zen
+    type: zen_dan
+    text: 第六十条第二項から第四項まで、第六十条の二（第一項第四号、第七号及び第十号を除く。）及び第六十条の三（第一項第一号ニ及び第三号を除く。）の規定は前項の許可について、第四十条の七第二項及び第六十条の四から前条までの規定は前項の許可を受けた者（以下「電子店頭デリバティブ取引等許可業者」という。）の電子店頭デリバティブ取引等業務について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
+  - id: kinsho-hou-art-60-14-p2-kou
+    type: kou_dan
+    text: この場合において、第四十条の七第二項中「前項の規定により電子情報処理組織を使用に供した者は、当該」とあるのは、「第六十条の十四第二項に規定する電子店頭デリバティブ取引等許可業者は、その店頭デリバティブ取引の業務の用に供する」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
+    depends_on: kinsho-hou-art-60-14-p2-zen
 cases: []
 amendments: []
 tags:

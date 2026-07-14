@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-13-p1-zen
+    type: zen_dan
+    text: この法律の施行地に主たる事務所又は事業所を有する個人で、この法律の施行地外にその事業が行われる場所で政令で定めるものを有するものの事業税の課税標準とすべき所得は、当該個人の事業の所得の総額からこの法律の施行地外の事業に帰属する所得を控除して得た額とする。
+    modality: gimu
+  - id: chihou-zei-hou-art-72-49-13-p1-kou
+    type: kou_dan
+    text: この場合において、この法律の施行地外の事業に帰属する所得の計算が困難であるときは、政令で定めるところにより計算した金額をもつて、当該個人のこの法律の施行地外の事業に帰属する所得とみなす。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-72-49-13-p1-zen
 cases: []
 amendments: []
 tags:

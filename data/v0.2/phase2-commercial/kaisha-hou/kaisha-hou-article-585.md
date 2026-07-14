@@ -78,20 +78,16 @@ parent_section:
 
 ### 第五百八十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-585-p1 -->
 社員は、他の社員の全員の承諾がなければ、その持分の全部又は一部を他人に譲渡することができない。
 
 ### 第五百八十五条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-585-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、業務を執行しない有限責任社員は、業務を執行する社員の全員の承諾があるときは、その持分の全部又は一部を他人に譲渡することができる。
 
 ### 第五百八十五条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-585-p3 override_flag: true override_target: 第六百三十七条 -->
 第六百三十七条の規定にかかわらず、業務を執行しない有限責任社員の持分の譲渡に伴い定款の変更を生ずるときは、その持分の譲渡による定款の変更は、業務を執行する社員の全員の同意によってすることができる。
 
 ### 第五百八十五条第四項
 
-<!-- segment: simple id: kaisha-hou-art-585-p4 -->
 前三項の規定は、定款で別段の定めをすることを妨げない。

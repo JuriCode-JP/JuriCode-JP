@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 株式会社が株主との合意により当該株式会社の株式を有償で取得するには、あらかじめ、株主総会の決議によって、次に掲げる事項を定めなければならない。ただし、第三号の期間は、一年を超えることができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-156-p1-kou-1
+    type: kou
+    text: 一　取得する株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-156-p1-kou-2
+    type: kou
+    text: 二　株式を取得するのと引換えに交付する金銭等（当該株式会社の株式等を除く。以下この款において同じ。）の内容及びその総額
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-156-p1-kou-3
+    type: kou
+    text: 三　株式を取得することができる期間
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +46,8 @@ paragraphs:
     text: 前項の規定は、前条第一号及び第二号並びに第四号から第十三号までに掲げる場合には、適用しない。
     modality: jogai
     references:
-    - 前項
     - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -57,10 +72,14 @@ parent_section:
 
 ### 第百五十六条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-156-p1-hashira -->
 株式会社が株主との合意により当該株式会社の株式を有償で取得するには、あらかじめ、株主総会の決議によって、次に掲げる事項を定めなければならない。ただし、第三号の期間は、一年を超えることができない。
+
+一　取得する株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+
+二　株式を取得するのと引換えに交付する金銭等（当該株式会社の株式等を除く。以下この款において同じ。）の内容及びその総額
+
+三　株式を取得することができる期間
 
 ### 第百五十六条第二項
 
-<!-- segment: simple id: kaisha-hou-art-156-p2 -->
 前項の規定は、前条第一号及び第二号並びに第四号から第十三号までに掲げる場合には、適用しない。

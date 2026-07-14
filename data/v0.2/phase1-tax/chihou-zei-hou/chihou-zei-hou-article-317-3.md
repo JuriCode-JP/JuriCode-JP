@@ -13,20 +13,43 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-317-3-p1-honbun
+    type: honbun
+    text: 第二百九十四条第一項第一号の者が前年分の所得税につき所得税法第二条第一項第三十七号の確定申告書（以下本条において「確定申告書」という。）を提出した場合（政令で定める場合を除く。）には、本節の規定の適用については、当該確定申告書が提出された日に前条第一項から第四項までの規定による申告書が提出されたものとみなす。
+    modality: unspecified
+    references:
+    - 本条
+    - 前条
+  - id: chihou-zei-hou-art-317-3-p1-tadashi
+    type: tadashi
+    text: ただし、同日前に当該申告書が提出された場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-317-3-p2
+    type: simple
+    text: 前項本文の場合には、当該確定申告書に記載された事項（総務省令で定める事項を除く。）のうち前条第一項各号又は第三項に規定する事項に相当するもの及び次項の規定により付記された事項（総務省令で定める事項を除く。）は、同条第一項から第四項までの規定による申告書に記載されたものとみなす。
+    modality: unspecified
+    references:
+    - 次項
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-317-3-p3
+    type: simple
+    text: 第一項本文の場合には、確定申告書を提出する者は、当該確定申告書に、総務省令で定めるところにより、市町村民税の賦課徴収につき必要な事項を付記しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

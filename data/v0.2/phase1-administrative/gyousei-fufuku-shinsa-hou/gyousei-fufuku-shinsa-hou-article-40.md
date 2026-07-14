@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-40-p1 -->
 審理員は、必要があると認める場合には、審査庁に対し、執行停止をすべき旨の意見書を提出することができる。

@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-2-p1
+    type: simple
+    text: 自動車の使用者その他自動車の装置の整備について責任を有する者又は運転者は、道路運送車両法第三章又はこれに基づく命令の規定により運行記録計を備えなければならないこととされている自動車で、これらの規定により定められた運行記録計を備えていないか、又は当該運行記録計についての調整がされていないためこれらの規定により定められた事項を記録することができないものを運転させ、又は運転してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-2-p2
+    type: simple
+    text: 前項の運行記録計を備えなければならないこととされている自動車の使用者は、運行記録計により記録された当該自動車に係る記録を、内閣府令で定めるところにより一年間保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-63-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十一条第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -45,3 +59,5 @@ parent_section:
 ### 第六十三条の二第二項
 
 前項の運行記録計を備えなければならないこととされている自動車の使用者は、運行記録計により記録された当該自動車に係る記録を、内閣府令で定めるところにより一年間保存しなければならない。
+
+（罰則　第百二十一条第二項第三号、第百二十三条）

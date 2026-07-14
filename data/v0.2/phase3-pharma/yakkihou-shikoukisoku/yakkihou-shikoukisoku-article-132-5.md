@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-5-p1
+    type: simple
+    text: 法第二十三条の十六第二項第七号の検査を実施する日数は、当該検査に係る事務所ごとに三日として旅費相当額を計算する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-5-p2
+    type: simple
+    text: 国家公務員等の旅費に関する法律施行令（令和六年政令第三百六号）第四条の渡航雑費は、一万円として旅費相当額を計算する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-5-p3
+    type: simple
+    text: 厚生労働大臣が、旅費法第八条第一項の規定により、実費を超えることとなる部分又は必要としない部分の旅費を支給しないときは、当該部分に相当する額は、職員旅費相当額に算入しない。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-132-5-p4
+    type: simple
+    text: 機構が、旅費法第八条第一項の規定の例により、実費を超えることとなる部分又は必要としない部分の旅費を支給しないときは、当該部分に相当する額は、機構職員旅費相当額に算入しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-6-p1
+    type: simple
+    text: 法第五十七条の四に規定する届出日から起算して政令で定める期間は、一月とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-6-p2
+    type: simple
+    text: 法第五十七条の四に規定する毎事業年度経過後政令で定める期間は、四月とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

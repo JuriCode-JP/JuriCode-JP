@@ -16,12 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-47-p1
+    type: tokusoku
+    text: 不動産登記法第七十四条第一項の規定にかかわらず、前条第四項に規定する証する情報を提供された認可地縁団体が申請情報（同法第十八条に規定する申請情報をいう。次項において同じ。）と併せて当該証する情報を登記所に提供するときは、当該認可地縁団体が当該証する情報に係る前条第一項に規定する不動産の所有権の保存の登記を申請することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第七十四条
+    references:
+    - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-47-p2
+    type: tokusoku
+    text: 不動産登記法第六十条の規定にかかわらず、前条第四項に規定する証する情報を提供された認可地縁団体が申請情報と併せて当該証する情報を登記所に提供するときは、当該認可地縁団体のみで当該証する情報に係る同条第一項に規定する不動産の所有権の移転の登記を申請することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第六十条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

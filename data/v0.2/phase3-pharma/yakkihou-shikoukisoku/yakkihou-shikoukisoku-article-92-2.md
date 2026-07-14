@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-92-2-p1
+    type: simple
+    text: 医薬品の製造販売業者は、店舗販売業者に対し、要指導医薬品又は一般用医薬品以外の医薬品を、配置販売業者に対し、一般用医薬品以外の医薬品を販売し、又は授与してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

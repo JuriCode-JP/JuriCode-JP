@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 当事者が従前の債務に代えて、新たな債務であって次に掲げるものを発生させる契約をしたときは、従前の債務は、更改によって消滅する。
     modality: unspecified
+  - id: minpou-art-513-p1-kou-1
+    type: kou
+    text: 一　従前の給付の内容について重要な変更をするもの
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-513-p1-kou-2
+    type: kou
+    text: 二　従前の債務者が第三者と交替するもの
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-513-p1-kou-3
+    type: kou
+    text: 三　従前の債権者が第三者と交替するもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第五百十三条
 
-<!-- segment: hashira id: minpou-art-513-p1-hashira -->
 当事者が従前の債務に代えて、新たな債務であって次に掲げるものを発生させる契約をしたときは、従前の債務は、更改によって消滅する。
+
+一　従前の給付の内容について重要な変更をするもの
+
+二　従前の債務者が第三者と交替するもの
+
+三　従前の債権者が第三者と交替するもの

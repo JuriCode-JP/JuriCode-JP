@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-7-p1
+    type: junyou
+    text: 民法第三編第一章第二節第二款及び第三款の規定は、地方団体の徴収金の徴収について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,63 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-97-3-p1-zen
+    type: zen_dan
+    text: 審理関係人は、次条第一項又は第二項の規定により審理手続が終結するまでの間、担当審判官に対し、第九十六条第一項若しくは第二項（証拠書類等の提出）又は第九十七条第一項第二号（審理のための質問、検査等）の規定により提出された書類その他の物件の閲覧（電磁的記録にあつては、記録された事項を財務省令で定めるところにより表示したものの閲覧）又は当該書類の写し若しくは当該電磁的記録に記録された事項を記載した書面の交付を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+  - id: kokuzei-tsuusoku-hou-art-97-3-p1-kou
+    type: kou_dan
+    text: この場合において、担当審判官は、第三者の利益を害するおそれがあると認めるとき、その他正当な理由があるときでなければ、その閲覧又は交付を拒むことができない。
+    modality: kanou_negative
+    depends_on: kokuzei-tsuusoku-hou-art-97-3-p1-zen
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-97-3-p2-honbun
+    type: honbun
+    text: 担当審判官は、前項の規定による閲覧をさせ、又は同項の規定による交付をしようとするときは、当該閲覧又は交付に係る書類その他の物件の提出人の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+  - id: kokuzei-tsuusoku-hou-art-97-3-p2-tadashi
+    type: tadashi
+    text: ただし、担当審判官が、その必要がないと認めるときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-97-3-p3
+    type: simple
+    text: 担当審判官は、第一項の規定による閲覧について、日時及び場所を指定することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-97-3-p4
+    type: simple
+    text: 第一項の規定による交付を受ける審査請求人又は参加人は、政令で定めるところにより、実費の範囲内において政令で定める額の手数料を納めなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-97-3-p5
+    type: simple
+    text: 担当審判官は、経済的困難その他特別の理由があると認めるときは、政令で定めるところにより、前項の手数料を減額し、又は免除することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

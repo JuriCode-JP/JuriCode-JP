@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-141-3-p1
+    type: simple
+    text: 金融商品取引業者等は、個別顧客分別金額及び顧客分別金必要額を毎日算定しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

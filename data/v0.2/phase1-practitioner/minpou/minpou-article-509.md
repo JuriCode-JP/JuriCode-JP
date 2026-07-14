@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる債務の債務者は、相殺をもって債権者に対抗することができない。ただし、その債権者がその債務に係る債権を他人から譲り受けたときは、この限りでない。
     modality: jogai
+  - id: minpou-art-509-p1-kou-1
+    type: kou
+    text: 一　悪意による不法行為に基づく損害賠償の債務
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-509-p1-kou-2
+    type: kou
+    text: 二　人の生命又は身体の侵害による損害賠償の債務（前号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第五百九条
 
-<!-- segment: hashira id: minpou-art-509-p1-hashira -->
 次に掲げる債務の債務者は、相殺をもって債権者に対抗することができない。ただし、その債権者がその債務に係る債権を他人から譲り受けたときは、この限りでない。
+
+一　悪意による不法行為に基づく損害賠償の債務
+
+二　人の生命又は身体の侵害による損害賠償の債務（前号に掲げるものを除く。）

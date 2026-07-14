@@ -16,32 +16,78 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-p1-zen
+    type: zen_dan
+    text: 海外旅行その他政令で定めるやむを得ない理由のため更新期間内に適性検査を受けることが困難であると予想される者は、その者の住所地を管轄する公安委員会に当該更新期間前における免許証等の更新を申請することができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-101-2-p1-kou
+    type: kou_dan
+    text: この場合においては、当該公安委員会に内閣府令で定める様式の特例更新申請書（次項の規定による質問票の交付を受けた者にあつては、当該特例更新申請書及び必要な事項を記載した当該質問票）を提出しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    depends_on: douro-koutsuu-hou-art-101-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-p2
+    type: simple
+    text: 前項に規定する公安委員会は、同項後段の規定により特例更新申請書を提出しようとする者に対し、その者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかの判断に必要な質問をするため、内閣府令で定める様式の質問票を交付することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-p3
+    type: simple
+    text: 第一項の規定による申請があつたときは、当該公安委員会は、その者について、速やかに適性検査を行わなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-p4
+    type: simple
+    text: 前項の規定による適性検査の結果から判断して、当該免許証等の更新を受けようとする者が自動車等を運転することが支障がないと認めたときは、当該公安委員会は、速やかに当該免許証等の更新をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-p5-honbun
+    type: honbun
+    text: 免許証及び免許情報記録個人番号カードを有する者は、前項の規定による免許証の有効期間の更新若しくは免許情報記録の有効期間の更新又はその双方を受けることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-101-2-p5-tadashi
+    type: tadashi
+    text: ただし、その双方を受けようとする者は、その双方を同時に申請しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-2-p6
+    type: simple
+    text: 前各項に定めるもののほか、更新期間前における免許証等の更新の申請及び適性検査について必要な事項は、内閣府令で定める。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-101-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の四第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -81,3 +127,5 @@ parent_section:
 ### 第百一条の二第六項
 
 前各項に定めるもののほか、更新期間前における免許証等の更新の申請及び適性検査について必要な事項は、内閣府令で定める。
+
+（罰則　第一項については第百十七条の四第一項第三号）

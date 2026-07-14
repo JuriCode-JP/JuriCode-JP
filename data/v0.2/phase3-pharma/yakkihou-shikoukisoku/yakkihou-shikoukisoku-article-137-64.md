@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-64-p1-zen
+    type: zen_dan
+    text: 前条の規定により保存することとされている文書その他の記録の保存期間については、第百三十七条の六十二の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-137-64-p1-kou
+    type: kou_dan
+    text: この場合において、同条第二項中「製造販売業者」とあるのは、「受託者」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-137-64-p1-zen
 cases: []
 amendments: []
 tags:

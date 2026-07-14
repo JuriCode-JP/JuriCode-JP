@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百五十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-352-p1 -->
 検察官又は被告人以外の者で決定を受けたものは、抗告をすることができる。

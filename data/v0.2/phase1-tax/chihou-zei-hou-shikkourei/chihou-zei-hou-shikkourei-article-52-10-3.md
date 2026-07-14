@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-hashira
+    type: hashira
+    text: 法第三百四十九条の三第十八項に規定する固定資産で政令で定めるものは、次に掲げる固定資産以外の固定資産とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-1
+    type: kou
+    text: 一　宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-2
+    type: kou
+    text: 二　職員の福利及び厚生の用に供する固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-3
+    type: kou
+    text: 三　他の者に貸し付けている固定資産
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-4
+    type: kou
+    text: 四　遊休状態にある土地及び家屋（鉄道事業の用に供するものとして建設計画が確定しているものを除く。）
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-5
+    type: kou
+    text: 五　観光その他旅客誘致のための施設の用に供する固定資産
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-6
+    type: kou
+    text: 六　私人のための専用側線の用に供する固定資産
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -36,3 +70,15 @@ parent_section:
 ### 第五十二条の十の三
 
 法第三百四十九条の三第十八項に規定する固定資産で政令で定めるものは、次に掲げる固定資産以外の固定資産とする。
+
+一　宿舎の用に供する固定資産
+
+二　職員の福利及び厚生の用に供する固定資産
+
+三　他の者に貸し付けている固定資産
+
+四　遊休状態にある土地及び家屋（鉄道事業の用に供するものとして建設計画が確定しているものを除く。）
+
+五　観光その他旅客誘致のための施設の用に供する固定資産
+
+六　私人のための専用側線の用に供する固定資産

@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-12-p1
+    type: simple
+    text: 応募株主等（公開買付けに係る株券等の買付け等の申込みに対する承諾又は売付け等の申込みをした者をいう。以下この節において同じ。）は、公開買付期間（第二十七条の八第八項の規定により延長しなければならない期間を含む。次条第一項及び第四項、第二十七条の十四第一項並びに第二十七条の二十一第一項第二号及び第二項第二号において同じ。）中においては、いつでも、当該公開買付けに係る契約の解除をすることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-12-p2-zen
+    type: zen_dan
+    text: 応募株主等は、前項の規定により契約の解除をする場合において、公開買付開始公告及び公開買付届出書において当該公開買付けに係る契約の解除に関し政令で定める方法による旨の条件が付されているときは、当該方法によらなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-27-12-p2-kou
+    type: kou_dan
+    text: この場合において、当該契約の解除は、政令で定める時に、その効力を生ずる。
+    modality: unspecified
+    depends_on: kinsho-hou-art-27-12-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-12-p3
+    type: simple
+    text: 第一項の規定により応募株主等による契約の解除があつた場合においては、公開買付者は、当該契約の解除に伴う損害賠償又は違約金の支払を請求することができないものとし、応募株券等（応募株主等が公開買付けに応じて売付け等をした株券等をいう。以下この節において同じ。）を金融商品取引業者又は銀行等に管理させているときは、その返還に要する費用は、公開買付者の負担とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

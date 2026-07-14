@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十九条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-169-p1 -->
 委員会は、この法律の円滑な運用を確保するため、総合的な案内所を整備するものとする。

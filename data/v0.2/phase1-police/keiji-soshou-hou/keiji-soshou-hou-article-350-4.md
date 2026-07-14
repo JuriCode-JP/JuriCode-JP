@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-4-p1-honbun
+    type: honbun
+    text: 第三百五十条の二第一項の合意をするため必要な協議は、検察官と被疑者又は被告人及び弁護人との間で行うものとする。
+    modality: gimu
+  - id: keiji-soshou-hou-art-350-4-p1-tadashi
+    type: tadashi
+    text: ただし、被疑者又は被告人及び弁護人に異議がないときは、協議の一部を弁護人のみとの間で行うことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

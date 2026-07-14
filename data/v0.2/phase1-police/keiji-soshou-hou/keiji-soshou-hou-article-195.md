@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百九十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-195-p1 -->
 検察官及び検察事務官は、捜査のため必要があるときは、管轄区域外で職務を行うことができる。

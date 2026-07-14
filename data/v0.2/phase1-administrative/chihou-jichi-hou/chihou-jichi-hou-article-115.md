@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百十五条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-115-p1 -->
 普通地方公共団体の議会の会議は、これを公開する。但し、議長又は議員三人以上の発議により、出席議員の三分の二以上の多数で議決したときは、秘密会を開くことができる。
 
 ### 第百十五条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-115-p2 -->
 前項但書の議長又は議員の発議は、討論を行わないでその可否を決しなければならない。

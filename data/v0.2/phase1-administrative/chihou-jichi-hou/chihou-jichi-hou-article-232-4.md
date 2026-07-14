@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-4-p1
+    type: simple
+    text: 会計管理者は、普通地方公共団体の長の政令で定めるところによる命令がなければ、支出をすることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-4-p2
+    type: simple
+    text: 会計管理者は、前項の命令を受けた場合においても、当該支出負担行為が法令又は予算に違反していないこと及び当該支出負担行為に係る債務が確定していることを確認したうえでなければ、支出をすることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

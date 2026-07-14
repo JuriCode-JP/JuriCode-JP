@@ -47,5 +47,4 @@ parent_section:
 
 ### 第六十五条
 
-<!-- segment: simple id: shotoku-zei-hou-art-65-p1 -->
 削除

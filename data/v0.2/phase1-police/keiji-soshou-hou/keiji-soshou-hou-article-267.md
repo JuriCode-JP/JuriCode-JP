@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百六十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-267-p1 -->
 前条第二号の決定があつたときは、その事件について公訴の提起があつたものとみなす。

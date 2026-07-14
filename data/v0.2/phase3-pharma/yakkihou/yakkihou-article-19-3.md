@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-3-p1
+    type: simple
+    text: 外国製造医薬品等特例承認取得者は、選任外国製造医薬品等製造販売業者を変更したとき、又は選任外国製造医薬品等製造販売業者につき、その氏名若しくは名称その他厚生労働省令で定める事項に変更があつたときは、三十日以内に、厚生労働大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-3-p2
+    type: tokusoku
+    text: 前条第五項において準用する第十四条の二の三第一項の規定により、機構に前条第一項の承認のための審査を行わせることとしたときは、同条第五項において準用する第十四条の二の三第一項の政令で定める医薬品、医薬部外品又は化粧品に係る選任外国製造医薬品等製造販売業者についての前項の規定による届出は、同項の規定にかかわらず、機構に行わなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前条
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-19-3-p3
+    type: simple
+    text: 機構は、前項の規定による届出を受理したときは、遅滞なく、届出の状況を厚生労働省令で定めるところにより厚生労働大臣に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

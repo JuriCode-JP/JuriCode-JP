@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当するものは、二年以下の拘禁刑又は三百万円以下の罰金に処する。
     modality: gimu_kei
+  - id: dokusen-kinshi-hou-art-90-p1-kou-1
+    type: kou
+    text: 一　第六条又は第八条第二号の規定に違反して不当な取引制限に該当する事項を内容とする国際的協定又は国際的契約をしたもの
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-90-p1-kou-2
+    type: kou
+    text: 二　第八条第三号又は第四号の規定に違反したもの
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-90-p1-kou-3
+    type: kou
+    text: 三　排除措置命令又は競争回復措置命令が確定した後においてこれに従わないもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第九十条
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-90-p1-hashira -->
 次の各号のいずれかに該当するものは、二年以下の拘禁刑又は三百万円以下の罰金に処する。
+
+一　第六条又は第八条第二号の規定に違反して不当な取引制限に該当する事項を内容とする国際的協定又は国際的契約をしたもの
+
+二　第八条第三号又は第四号の規定に違反したもの
+
+三　排除措置命令又は競争回復措置命令が確定した後においてこれに従わないもの

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-15-2-p1
+    type: simple
+    text: 警察官等は、遠隔操作により道路を通行している遠隔操作型小型車が著しく道路における交通の危険を生じさせ、又は交通の妨害となるおそれがあり、かつ、急を要すると認めるときは、道路における交通の危険を防止し、又は交通の妨害を排除するため必要な限度において、当該遠隔操作型小型車を停止させ、又は移動させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

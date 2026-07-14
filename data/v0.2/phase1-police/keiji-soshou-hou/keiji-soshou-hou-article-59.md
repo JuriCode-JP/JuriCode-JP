@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-59-p1 -->
 勾引した被告人は、裁判所に引致した時から二十四時間以内にこれを釈放しなければならない。但し、その時間内に勾留状が発せられたときは、この限りでない。

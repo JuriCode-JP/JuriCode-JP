@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十九条
 
-<!-- segment: simple id: keihou-art-169-p1 -->
 法律により宣誓した証人が虚偽の陳述をしたときは、三月以上十年以下の拘禁刑に処する。

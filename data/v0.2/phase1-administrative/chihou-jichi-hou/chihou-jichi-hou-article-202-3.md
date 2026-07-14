@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-3-p1
+    type: simple
+    text: 普通地方公共団体の執行機関の附属機関は、法律若しくはこれに基く政令又は条例の定めるところにより、その担任する事項について調停、審査、審議又は調査等を行う機関とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-3-p2
+    type: simple
+    text: 附属機関を組織する委員その他の構成員は、非常勤とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-3-p3
+    type: simple
+    text: 附属機関の庶務は、法律又はこれに基く政令に特別の定があるものを除く外、その属する執行機関において掌るものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

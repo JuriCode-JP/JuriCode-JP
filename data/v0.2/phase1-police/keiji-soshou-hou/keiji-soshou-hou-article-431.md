@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百三十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-431-p1 -->
 前二条の請求をするには、請求書を管轄裁判所に差し出さなければならない。

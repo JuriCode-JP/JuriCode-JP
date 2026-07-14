@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百条
 
-<!-- segment: simple id: minpou-art-300-p1 -->
 留置権の行使は、債権の消滅時効の進行を妨げない。

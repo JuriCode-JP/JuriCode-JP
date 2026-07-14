@@ -31,8 +31,8 @@ paragraphs:
     text: 前項に規定する親族以外の親族との間で犯した同項に規定する罪は、告訴がなければ公訴を提起することができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -62,15 +62,12 @@ parent_section:
 
 ### 第二百四十四条第一項
 
-<!-- segment: simple id: keihou-art-244-p1 -->
 配偶者、直系血族又は同居の親族との間で第二百三十五条の罪、第二百三十五条の二の罪又はこれらの罪の未遂罪を犯した者は、その刑を免除する。
 
 ### 第二百四十四条第二項
 
-<!-- segment: simple id: keihou-art-244-p2 -->
 前項に規定する親族以外の親族との間で犯した同項に規定する罪は、告訴がなければ公訴を提起することができない。
 
 ### 第二百四十四条第三項
 
-<!-- segment: simple id: keihou-art-244-p3 -->
 前二項の規定は、親族でない共犯については、適用しない。

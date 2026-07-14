@@ -50,10 +50,8 @@ parent_section:
 
 ### 第六百八十五条第一項
 
-<!-- segment: simple id: shouhou-art-685-p1 -->
 船舶の属具目録に記載した物は、その従物と推定する。
 
 ### 第六百八十五条第二項
 
-<!-- segment: simple id: shouhou-art-685-p2 -->
 属具目録の書式は、国土交通省令で定める。

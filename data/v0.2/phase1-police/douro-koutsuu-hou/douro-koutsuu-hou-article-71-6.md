@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-6-p1
+    type: simple
+    text: 第八十五条第一項若しくは第二項又は第八十六条第一項若しくは第二項の規定により準中型自動車を運転することができる免許を受けた者で政令で定める程度の聴覚障害のあることを理由に当該免許に条件を付されているものは、内閣府令で定めるところにより準中型自動車の前面及び後面に内閣府令で定める様式の標識を付けないで準中型自動車を運転してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-6-p2
+    type: simple
+    text: 普通自動車対応免許を受けた者で政令で定める程度の聴覚障害のあることを理由に当該普通自動車対応免許に条件を付されているものは、内閣府令で定めるところにより普通自動車の前面及び後面に内閣府令で定める様式の標識を付けないで普通自動車を運転してはならない。
+    modality: gimu_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-6-p3
+    type: simple
+    text: 普通自動車対応免許を受けた者で肢体不自由であることを理由に当該普通自動車対応免許に条件を付されているものは、当該肢体不自由が自動車の運転に影響を及ぼすおそれがあるときは、内閣府令で定めるところにより普通自動車の前面及び後面に内閣府令で定める様式の標識を付けて普通自動車を運転するように努めなければならない。
+    modality: doryoku_gimu
+  - id: douro-koutsuu-hou-art-71-6-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百二十一条第一項第十一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -54,3 +70,5 @@ parent_section:
 ### 第七十一条の六第三項
 
 普通自動車対応免許を受けた者で肢体不自由であることを理由に当該普通自動車対応免許に条件を付されているものは、当該肢体不自由が自動車の運転に影響を及ぼすおそれがあるときは、内閣府令で定めるところにより普通自動車の前面及び後面に内閣府令で定める様式の標識を付けて普通自動車を運転するように努めなければならない。
+
+（罰則　第一項及び第二項については第百二十一条第一項第十一号、同条第三項）

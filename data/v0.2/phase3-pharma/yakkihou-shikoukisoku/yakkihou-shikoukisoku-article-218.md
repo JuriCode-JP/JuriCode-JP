@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百十八条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-218-p1 -->
 法第五十条から第五十二条までに規定する事項の記載は、邦文でされていなければならない。

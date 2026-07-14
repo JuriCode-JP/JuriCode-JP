@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-32-p1
+    type: simple
+    text: 事業所税は、事業所等において法人又は個人の行う事業に対し、当該事業所等所在の指定都市等において、当該事業を行う者に資産割額及び従業者割額の合算額によつて課する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-32-p2
+    type: simple
+    text: 特殊関係者（親族その他の特殊の関係のある個人又は同族会社（これに類する法人を含む。）で政令で定めるものをいう。以下本項において同じ。）を有する者がある場合において、当該特殊関係者が行う事業について政令で定める特別の事情があるときは、事業所税の賦課徴収については、当該事業は、その者及び当該特殊関係者の共同事業とみなす。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-32-p3
+    type: simple
+    text: 法人でない社団又は財団で代表者又は管理人の定めがあるもの（以下本節において「人格のない社団等」という。）は、法人とみなして、本節中法人に関する規定を適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-5-p1
+    type: simple
+    text: 認可協会は、政令で定めるところにより、登記しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-5-p2
+    type: simple
+    text: 認可協会は、その主たる事務所の所在地において、設立の登記をすることによつて成立する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-5-p3
+    type: simple
+    text: 第一項の規定により登記しなければならない事項は、登記の後でなければ、これをもつて第三者に対抗することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

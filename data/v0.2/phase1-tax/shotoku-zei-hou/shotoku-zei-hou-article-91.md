@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十一条
 
-<!-- segment: simple id: shotoku-zei-hou-art-91-p1 -->
 削除

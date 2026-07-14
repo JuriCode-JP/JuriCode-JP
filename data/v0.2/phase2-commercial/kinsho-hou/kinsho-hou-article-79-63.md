@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-63-p1
+    type: simple
+    text: 基金は、第七十九条の四十九第一項各号に掲げる業務に要する費用に充てるための資金（以下「投資者保護資金」という。）を設けるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-63-p2
+    type: simple
+    text: 投資者保護資金は、第七十九条の四十九第一項各号に掲げる業務に要する費用に充てる場合でなければ、これを使用してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

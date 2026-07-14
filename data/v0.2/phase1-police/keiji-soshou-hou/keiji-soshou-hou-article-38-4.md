@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-38-4-p1
+    type: simple
+    text: 裁判所又は裁判官の判断を誤らせる目的で、その資力について虚偽の記載のある資力申告書を提出した者は、十万円以下の過料に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

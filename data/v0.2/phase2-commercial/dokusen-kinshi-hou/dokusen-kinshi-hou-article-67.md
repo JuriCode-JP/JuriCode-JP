@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十七条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-67-p1 -->
 関係のある公務所又は公共的な団体は、公共の利益を保護するため、公正取引委員会に対して意見を述べることができる。

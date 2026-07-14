@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-3-p1
+    type: simple
+    text: 成年後見人は、成年被後見人に宛てた郵便物等を受け取ったときは、これを開いて見ることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-3-p2
+    type: simple
+    text: 成年後見人は、その受け取った前項の郵便物等で成年後見人の事務に関しないものは、速やかに成年被後見人に交付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-860-3-p3
+    type: simple
+    text: 成年被後見人は、成年後見人に対し、成年後見人が受け取った第一項の郵便物等（前項の規定により成年被後見人に交付されたものを除く。）の閲覧を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

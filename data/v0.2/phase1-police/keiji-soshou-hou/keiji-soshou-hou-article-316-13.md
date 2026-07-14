@@ -16,22 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-13-p1-zen
+    type: zen_dan
+    text: 検察官は、事件が公判前整理手続に付されたときは、その証明予定事実（公判期日において証拠により証明しようとする事実をいう。以下同じ。）を記載した書面を、裁判所に提出し、及び被告人又は弁護人に送付しなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-13-p1-kou
+    type: kou_dan
+    text: この場合においては、当該書面には、証拠とすることができず、又は証拠としてその取調べを請求する意思のない資料に基づいて、裁判所に事件について偏見又は予断を生じさせるおそれのある事項を記載することができない。
+    modality: kanou_negative
+    depends_on: keiji-soshou-hou-art-316-13-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-13-p2
+    type: simple
+    text: 検察官は、前項の証明予定事実を証明するために用いる証拠の取調べを請求しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-13-p3
+    type: simple
+    text: 前項の規定により証拠の取調べを請求するについては、第二百九十九条第一項の規定は適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-13-p4
+    type: simple
+    text: 裁判所は、検察官及び被告人又は弁護人の意見を聴いた上で、第一項の書面の提出及び送付並びに第二項の請求の期限を定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

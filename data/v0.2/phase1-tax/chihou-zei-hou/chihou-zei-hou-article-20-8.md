@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-8-p1
+    type: junyou
+    text: 民法第四百九十四条並びに第四百九十五条第一項及び第三項の規定は、この法律又はこれに基く条例の規定により債権者、納税者、特別徴収義務者その他の者に金銭その他の物件を交付し、又は引き渡すべき場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

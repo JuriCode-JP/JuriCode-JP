@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-89-p1
+    type: simple
+    text: 内閣総理大臣は、第六十六条の七十一の登録又は第六十六条の七十五第四項の変更登録を拒否しようとするときは、登録申請者又は投資運用関係業務受託業者に通知して、当該職員に、当該登録申請者又は当該投資運用関係業務受託業者につき審問を行わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-89-p2
+    type: simple
+    text: 内閣総理大臣は、第六十六条の八十四又は第六十六条の八十五第一項の規定に基づいて処分をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-89-p3
+    type: simple
+    text: 内閣総理大臣は、第六十六条の七十一の登録若しくは第六十六条の七十五第四項の変更登録をし、若しくはしないこととしたとき、又は第六十六条の八十四若しくは第六十六条の八十五第一項若しくは第二項の規定に基づいて処分をすることとしたときは、書面により、その旨を登録申請者又は投資運用関係業務受託業者に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

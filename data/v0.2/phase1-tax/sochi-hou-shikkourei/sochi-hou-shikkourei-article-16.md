@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-16-p1 -->
 削除

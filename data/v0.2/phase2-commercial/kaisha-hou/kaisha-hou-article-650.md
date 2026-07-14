@@ -64,15 +64,12 @@ parent_section:
 
 ### 第六百五十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-650-p1 -->
 清算人は、清算持分会社の業務を執行する。
 
 ### 第六百五十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-650-p2 -->
 清算人が二人以上ある場合には、清算持分会社の業務は、定款に別段の定めがある場合を除き、清算人の過半数をもって決定する。
 
 ### 第六百五十条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-650-p3 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、社員が二人以上ある場合には、清算持分会社の事業の全部又は一部の譲渡は、社員の過半数をもって決定する。

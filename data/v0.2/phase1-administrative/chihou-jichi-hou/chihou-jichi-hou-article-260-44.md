@@ -16,27 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-44-p1
+    type: simple
+    text: 市町村長は、第二百六十条の四十一第三項の規定による届出があつたときは、当該届出に係る合併について第二百六十条の三十九第三項の認可をした旨その他総務省令で定める事項を告示しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-44-p2
+    type: simple
+    text: 認可地縁団体の合併は、前項の規定による告示によりその効力を生ずる。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-44-p3
+    type: simple
+    text: 合併により設立した団体は、第一項の規定による告示の日において認可地縁団体となつたものとみなす。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-44-p4-zen
+    type: zen_dan
+    text: 第一項の規定により告示した事項は、第二百六十条の二第十項の規定により告示した事項とみなす。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-260-44-p4-kou
+    type: kou_dan
+    text: この場合において、合併後存続する認可地縁団体に係る同項の規定による従前の告示は、その効力を失う。
+    modality: unspecified
+    references:
+    - 同項
+    depends_on: chihou-jichi-hou-art-260-44-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-44-p5
+    type: junyou
+    text: 第二百六十条の四第一項の規定は、第一項の規定による告示があつた場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

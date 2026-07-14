@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、人事院規則で定める場合を除くほか、官職に就く能力を有しない。
     modality: unspecified
+  - id: kokka-koumuin-hou-art-38-p1-kou-1
+    type: kou
+    text: 一　拘禁刑以上の刑に処せられ、その執行を終わるまで又はその執行を受けることがなくなるまでの者
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-38-p1-kou-2
+    type: kou
+    text: 二　懲戒免職の処分を受け、当該処分の日から二年を経過しない者
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-38-p1-kou-3
+    type: kou
+    text: 三　人事院の人事官又は事務総長の職にあつて、第百九条から第百十二条までに規定する罪を犯し、刑に処せられた者
+    modality: unspecified
+    item_number: 3
+  - id: kokka-koumuin-hou-art-38-p1-kou-4
+    type: kou
+    text: 四　日本国憲法施行の日以後において、日本国憲法又はその下に成立した政府を暴力で破壊することを主張する政党その他の団体を結成し、又はこれに加入した者
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第三十八条
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-38-p1-hashira -->
 次の各号のいずれかに該当する者は、人事院規則で定める場合を除くほか、官職に就く能力を有しない。
+
+一　拘禁刑以上の刑に処せられ、その執行を終わるまで又はその執行を受けることがなくなるまでの者
+
+二　懲戒免職の処分を受け、当該処分の日から二年を経過しない者
+
+三　人事院の人事官又は事務総長の職にあつて、第百九条から第百十二条までに規定する罪を犯し、刑に処せられた者
+
+四　日本国憲法施行の日以後において、日本国憲法又はその下に成立した政府を暴力で破壊することを主張する政党その他の団体を結成し、又はこれに加入した者

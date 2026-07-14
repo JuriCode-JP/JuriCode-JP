@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百六十三条
 
-<!-- segment: simple id: shotoku-zei-hou-art-163-p1 -->
 前二条に定めるもののほか、国内源泉所得の範囲に関し必要な事項は、政令で定める。

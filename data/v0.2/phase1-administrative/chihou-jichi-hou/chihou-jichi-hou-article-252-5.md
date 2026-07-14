@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-5-p1
+    type: simple
+    text: 普通地方公共団体の協議会が関係普通地方公共団体又は関係普通地方公共団体の長その他の執行機関の名においてした事務の管理及び執行は、関係普通地方公共団体の長その他の執行機関が管理し及び執行したものとしての効力を有する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

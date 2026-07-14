@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-4-p1
+    type: simple
+    text: 法第三十六条の十一第一項の厚生労働省令で定める方法は、同項に規定する電磁的記録に記録された事項を紙面又は出力装置の映像面に表示する方法とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

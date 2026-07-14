@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: kenpou-art-3-p1 -->
 天皇の国事に関するすべての行為には、内閣の助言と承認を必要とし、内閣が、その責任を負ふ。

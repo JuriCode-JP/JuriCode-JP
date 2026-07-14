@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-6-p1 -->
 土地管轄を異にする数個の事件が関連するときは、一個の事件につき管轄権を有する裁判所は、併せて他の事件を管轄することができる。但し、他の法律の規定により特定の裁判所の管轄に属する事件は、これを管轄することができない。

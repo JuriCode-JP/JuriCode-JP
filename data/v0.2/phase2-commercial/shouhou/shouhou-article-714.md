@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百十四条
 
-<!-- segment: simple id: shouhou-art-714-p1 -->
 船長は、遅滞なく、航海に関する重要な事項を船舶所有者に報告しなければならない。

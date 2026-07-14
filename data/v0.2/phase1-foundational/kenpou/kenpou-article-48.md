@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十八条
 
-<!-- segment: simple id: kenpou-art-48-p1 -->
 何人も、同時に両議院の議員たることはできない。

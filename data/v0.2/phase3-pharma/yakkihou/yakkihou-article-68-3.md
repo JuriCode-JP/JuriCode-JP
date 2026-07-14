@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-3-p1
+    type: simple
+    text: 国、都道府県、保健所を設置する市及び特別区は、関係機関及び関係団体の協力の下に、医薬品、医療機器及び再生医療等製品の適正な使用に関する啓発及び知識の普及に努めるものとする。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

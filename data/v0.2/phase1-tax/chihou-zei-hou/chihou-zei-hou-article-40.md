@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: chihou-zei-hou-art-40-p1 -->
 削除

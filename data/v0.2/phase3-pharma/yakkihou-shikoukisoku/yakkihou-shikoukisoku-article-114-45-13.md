@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-13-p1
+    type: simple
+    text: 法第二十三条の二の十の二第六項の厚生労働省令で定める日数は、三十日とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-3-4-p1
+    type: simple
+    text: 公安委員会は、第百八条の三第一項又は前二条の規定による通知の実施に係る事務（次項において「講習通知事務」という。）の全部又は一部を内閣府令で定める法人に委託することができる。
+    modality: kanou_kenri
+    references:
+    - 前二条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-3-4-p2
+    type: simple
+    text: 前項の規定により講習通知事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該委託に係る講習通知事務に関して知り得た秘密を漏らしてはならない。
+    modality: gimu_negative
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-108-3-4-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十七条の五第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -43,3 +60,5 @@ parent_section:
 ### 第百八条の三の四第二項
 
 前項の規定により講習通知事務の委託を受けた法人の役員若しくは職員又はこれらの職にあつた者は、当該委託に係る講習通知事務に関して知り得た秘密を漏らしてはならない。
+
+（罰則　第二項については第百十七条の五第一項第二号）

@@ -14,29 +14,108 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-34-p1-hashira
+    type: hashira
+    text: 外国法人又は外国に住所を有する個人である海外投資家等特例業務届出者又は金融商品取引業者（以下この条及び第二百四十六条の三十六において「外国法人等である海外投資家等特例業務届出者等」という。）は、令第十七条の十三の八ただし書の承認を受けようとするときは、次に掲げる事項を記載した承認申請書を海外投資家等特例業務届出者にあっては海外投資家等特例業務届出所管金融庁長官等、金融商品取引業者にあっては所管金融庁長官等に提出しなければならない。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-246-34-p1-kou-1
+    type: kou
+    text: 一　商号、名称又は氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-246-34-p1-kou-2
+    type: kou
+    text: 二　法第六十三条の九第一項又は第六十三条の十一第一項の規定による届出の年月日
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-246-34-p1-kou-3
+    type: kou
+    text: 三　事業報告書の提出に関し当該承認を受けようとする期間
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-246-34-p1-kou-4
+    type: kou
+    text: 四　事業報告書に係る事業年度終了の日
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-246-34-p1-kou-5
+    type: kou
+    text: 五　事業報告書の提出に関し当該承認を必要とする理由
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-34-p2-hashira
+    type: hashira
+    text: 前項の承認申請書には、次に掲げる書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-gyou-furei-art-246-34-p2-kou-1
+    type: kou
+    text: 一　定款又はこれに代わる書面
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-246-34-p2-kou-2
+    type: kou
+    text: 二　当該承認申請書に記載された外国法人等である海外投資家等特例業務届出者等の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-246-34-p2-kou-3
+    type: kou
+    text: 三　当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-34-p3
+    type: simple
+    text: 海外投資家等特例業務届出所管金融庁長官等又は所管金融庁長官等は、第一項の承認の申請があった場合において、外国法人等である海外投資家等特例業務届出者等が、その本国の法令又は慣行により、その事業年度経過後三月以内に事業報告書を提出することができないと認められるときは、当該申請のあった日の属する事業年度（その日が事業年度開始後三月以内（直前事業年度に係る事業報告書の提出に関して当該承認を受けている場合にあっては、当該承認を受けた期間内）の日である場合にあっては、その直前事業年度）から当該申請に係る同項第五号に規定する理由について消滅又は変更があることとなる日の属する事業年度の直前事業年度までの事業年度に係る事業報告書について、承認をするものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-34-p4-hashira
+    type: hashira
+    text: 前項の承認は、同項の外国法人等である海外投資家等特例業務届出者等が毎事業年度経過後三月以内に次に掲げる事項を記載した書類を海外投資家等特例業務届出者にあっては海外投資家等特例業務届出所管金融庁長官等、金融商品取引業者にあっては所管金融庁長官等に提出することを条件として、行われるものとする。ただし、第二号に掲げる事項については、当該書類の提出前五年以内に提出された書類に記載された事項と同一の内容のものである場合には、当該事項は記載しないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
+  - id: kinsho-gyou-furei-art-246-34-p4-kou-1
+    type: kou
+    text: 一　当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかった旨
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-246-34-p4-kou-2
+    type: kou
+    text: 二　前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-34-p5
+    type: simple
+    text: 第一項の承認申請書、第二項各号に掲げる書類及び前項の書類（海外投資家等特例業務届出者に係るものに限る。）は、英語で記載することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -57,9 +136,25 @@ parent_section:
 
 外国法人又は外国に住所を有する個人である海外投資家等特例業務届出者又は金融商品取引業者（以下この条及び第二百四十六条の三十六において「外国法人等である海外投資家等特例業務届出者等」という。）は、令第十七条の十三の八ただし書の承認を受けようとするときは、次に掲げる事項を記載した承認申請書を海外投資家等特例業務届出者にあっては海外投資家等特例業務届出所管金融庁長官等、金融商品取引業者にあっては所管金融庁長官等に提出しなければならない。
 
+一　商号、名称又は氏名
+
+二　法第六十三条の九第一項又は第六十三条の十一第一項の規定による届出の年月日
+
+三　事業報告書の提出に関し当該承認を受けようとする期間
+
+四　事業報告書に係る事業年度終了の日
+
+五　事業報告書の提出に関し当該承認を必要とする理由
+
 ### 第二百四十六条の三十四第二項
 
 前項の承認申請書には、次に掲げる書類を添付しなければならない。
+
+一　定款又はこれに代わる書面
+
+二　当該承認申請書に記載された外国法人等である海外投資家等特例業務届出者等の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
+
+三　当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
 
 ### 第二百四十六条の三十四第三項
 
@@ -68,6 +163,10 @@ parent_section:
 ### 第二百四十六条の三十四第四項
 
 前項の承認は、同項の外国法人等である海外投資家等特例業務届出者等が毎事業年度経過後三月以内に次に掲げる事項を記載した書類を海外投資家等特例業務届出者にあっては海外投資家等特例業務届出所管金融庁長官等、金融商品取引業者にあっては所管金融庁長官等に提出することを条件として、行われるものとする。ただし、第二号に掲げる事項については、当該書類の提出前五年以内に提出された書類に記載された事項と同一の内容のものである場合には、当該事項は記載しないことができる。
+
+一　当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかった旨
+
+二　前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
 
 ### 第二百四十六条の三十四第五項
 

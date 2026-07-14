@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百六条
 
-<!-- segment: simple id: minpou-art-206-p1 -->
 所有者は、法令の制限内において、自由にその所有物の使用、収益及び処分をする権利を有する。

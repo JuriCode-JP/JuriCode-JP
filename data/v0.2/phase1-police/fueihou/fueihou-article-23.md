@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 第二条第一項第四号の営業（ぱちんこ屋その他政令で定めるものに限る。）を営む者は、その営業に関し、次に掲げる行為をしてはならない。
     modality: gimu_negative
+  - id: fueihou-art-23-p1-kou-1
+    type: kou
+    text: 一　現金又は有価証券を賞品として提供すること。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-23-p1-kou-2
+    type: kou
+    text: 二　客に提供した賞品を買い取ること。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-23-p1-kou-3
+    type: kou
+    text: 三　遊技の用に供する玉、メダルその他これらに類する物（次号において「遊技球等」という。）を客に営業所外に持ち出させること。
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-23-p1-kou-4
+    type: kou
+    text: 四　遊技球等を客のために保管したことを表示する書面を客に発行すること。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,15 +77,20 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: hashira id: fueihou-art-23-p1-hashira -->
 第二条第一項第四号の営業（ぱちんこ屋その他政令で定めるものに限る。）を営む者は、その営業に関し、次に掲げる行為をしてはならない。
+
+一　現金又は有価証券を賞品として提供すること。
+
+二　客に提供した賞品を買い取ること。
+
+三　遊技の用に供する玉、メダルその他これらに類する物（次号において「遊技球等」という。）を客に営業所外に持ち出させること。
+
+四　遊技球等を客のために保管したことを表示する書面を客に発行すること。
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: fueihou-art-23-p2 -->
 第二条第一項第四号のまあじやん屋又は同項第五号の営業を営む者は、その営業に関し、遊技の結果に応じて賞品を提供してはならない。
 
 ### 第二十三条第三項
 
-<!-- segment: junyou id: fueihou-art-23-p3 -->
 第一項第三号及び第四号の規定は、第二条第一項第五号の営業を営む者について準用する。

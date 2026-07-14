@@ -54,10 +54,8 @@ parent_section:
 
 ### 第八百八十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-885-p1 -->
 この節の規定による公告は、官報に掲載してする。
 
 ### 第八百八十五条第二項
 
-<!-- segment: simple id: kaisha-hou-art-885-p2 -->
 前項の公告は、掲載があった日の翌日に、その効力を生ずる。

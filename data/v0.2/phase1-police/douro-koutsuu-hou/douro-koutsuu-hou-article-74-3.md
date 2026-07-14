@@ -16,47 +16,95 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p1
+    type: simple
+    text: 自動車の使用者（道路運送法の規定による自動車運送事業者（貨物自動車運送事業法（平成元年法律第八十三号）の規定による貨物軽自動車運送事業を経営する者を除く。以下同じ。）、貨物利用運送事業法の規定による第二種貨物利用運送事業を経営する者及び道路運送法第七十九条の規定による登録を受けた者を除く。以下この条において同じ。）は、内閣府令で定める台数以上の自動車の使用の本拠ごとに、年齢、自動車の運転の管理の経験その他について内閣府令で定める要件を備える者のうちから、次項の業務を行う者として、安全運転管理者を選任しなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p2
+    type: simple
+    text: 安全運転管理者は、自動車の安全な運転を確保するために必要な当該使用者の業務に従事する運転者に対して行う交通安全教育その他自動車の安全な運転に必要な業務（自動車の装置の整備に関する業務を除く。第七十五条の二の二第一項において同じ。）で内閣府令で定めるものを行わなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p3
+    type: simple
+    text: 前項の交通安全教育は、第百八条の二十八第一項の交通安全教育指針に従つて行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p4
+    type: simple
+    text: 自動車の使用者は、安全運転管理者の業務を補助させるため、内閣府令で定める台数以上の自動車を使用する本拠ごとに、年齢、自動車の運転の経験その他について内閣府令で定める要件を備える者のうちから、内閣府令で定めるところにより、副安全運転管理者を選任しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p5
+    type: simple
+    text: 自動車の使用者は、安全運転管理者又は副安全運転管理者（以下「安全運転管理者等」という。）を選任したときは、選任した日から十五日以内に、内閣府令で定める事項を当該自動車の使用の本拠の位置を管轄する公安委員会に届け出なければならない。これを解任したときも、同様とする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p6
+    type: simple
+    text: 公安委員会は、安全運転管理者等が第一項若しくは第四項の内閣府令で定める要件を備えないこととなつたとき、又は安全運転管理者が第二項の規定を遵守していないため自動車の安全な運転が確保されていないと認めるときは、自動車の使用者に対し、当該安全運転管理者等の解任を命ずることができる。
+    modality: kanou_kenri
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p7
+    type: simple
+    text: 自動車の使用者は、安全運転管理者に対し、第二項の業務を行うため必要な権限を与えるとともに、同項の業務を行うため必要な機材を整備しなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p8
+    type: simple
+    text: 公安委員会は、自動車の使用者が前項の規定を遵守していないため自動車の安全な運転が確保されていないと認めるときは、自動車の使用者に対し、その是正のために必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-74-3-p9
+    type: simple
+    text: 自動車の使用者は、公安委員会からその選任に係る安全運転管理者等について第百八条の二第一項第一号に掲げる講習を行う旨の通知を受けたときは、当該安全運転管理者等に当該講習を受けさせなければならない。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-74-3-supplnote-1
+    type: supplnote
+    text: （罰則　第一項、第四項、第六項及び第八項については第百十九条の二、第百二十三条　第五項については第百二十条第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -108,3 +156,5 @@ parent_section:
 ### 第七十四条の三第九項
 
 自動車の使用者は、公安委員会からその選任に係る安全運転管理者等について第百八条の二第一項第一号に掲げる講習を行う旨の通知を受けたときは、当該安全運転管理者等に当該講習を受けさせなければならない。
+
+（罰則　第一項、第四項、第六項及び第八項については第百十九条の二、第百二十三条　第五項については第百二十条第二項第三号、第百二十三条）

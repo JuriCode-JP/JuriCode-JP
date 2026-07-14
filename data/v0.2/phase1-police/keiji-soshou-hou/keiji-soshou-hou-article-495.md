@@ -23,13 +23,23 @@ paragraphs:
     modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-495-p2
     type: simple
     text: 上訴申立後の未決勾留の日数は、左の場合には、全部これを本刑に通算する。
     modality: unspecified
+  - id: keiji-soshou-hou-art-495-p2-kou-1
+    type: kou
+    text: 一　検察官が上訴を申し立てたとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-495-p2-kou-2
+    type: kou
+    text: 二　検察官以外の者が上訴を申し立てた場合においてその上訴審において原判決が破棄されたとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -68,20 +78,20 @@ parent_section:
 
 ### 第四百九十五条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-495-p1 -->
 上訴の提起期間中の未決勾留の日数は、上訴申立後の未決勾留の日数を除き、全部これを本刑に通算する。
 
 ### 第四百九十五条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-495-p2 -->
 上訴申立後の未決勾留の日数は、左の場合には、全部これを本刑に通算する。
+
+一　検察官が上訴を申し立てたとき。
+
+二　検察官以外の者が上訴を申し立てた場合においてその上訴審において原判決が破棄されたとき。
 
 ### 第四百九十五条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-495-p3 -->
 前二項の規定による通算については、未決勾留の一日を刑期の一日又は金額の四千円に折算する。
 
 ### 第四百九十五条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-495-p4 -->
 上訴裁判所が原判決を破棄した後の未決勾留は、上訴中の未決勾留日数に準じて、これを通算する。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十九条第一項
 
-<!-- segment: simple id: keihou-art-39-p1 -->
 心神喪失者の行為は、罰しない。
 
 ### 第三十九条第二項
 
-<!-- segment: simple id: keihou-art-39-p2 -->
 心神耗弱者の行為は、その刑を減軽する。

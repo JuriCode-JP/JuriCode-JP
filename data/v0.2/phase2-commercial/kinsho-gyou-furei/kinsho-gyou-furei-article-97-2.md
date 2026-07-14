@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-97-2-p1
+    type: simple
+    text: 法第三十七条の三第三項ただし書に規定する内閣府令で定める場合は、同項に規定する金融商品取引契約の締結の勧誘に関し法第四条第一項又は第二項の届出がされている場合（その届出の書面に契約締結前交付書面に記載すべき事項の全てが記載されている場合に限る。）とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

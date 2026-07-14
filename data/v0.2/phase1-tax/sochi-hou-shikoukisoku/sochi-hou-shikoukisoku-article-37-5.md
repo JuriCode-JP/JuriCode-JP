@@ -46,10 +46,8 @@ parent_section:
 
 ### 第三十七条の五第一項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-37-5-p1 -->
 施行令第四十六条の十一第一号に規定する財務省令で定める場所は、揮発油税法施行規則（昭和三十七年大蔵省令第三十号）第一条第一号に掲げる場所とする。
 
 ### 第三十七条の五第二項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-37-5-p2 -->
 施行令第四十六条の十一第二号に規定する財務省令で定める場所は、二以上の者が揮発油を混合して蔵置する場所とする。

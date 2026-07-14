@@ -16,32 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p1
+    type: simple
+    text: 道府県は、毎年度、法第七十二条の七十六の規定により同条に規定する額を当該道府県内の市町村に対し交付する場合には、次の表の上欄に掲げる交付時期に、それぞれ同表の下欄に掲げる額を同条に規定する各市町村の従業者数で按分して得た額を交付するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p2
+    type: simple
+    text: 超過税率課税道府県は、毎年度、第一号に掲げる額が第二号に掲げる額を上回る場合には第一号に掲げる額から第二号に掲げる額を控除した額の百分の七・七に相当する額を翌年度八月の交付時期に交付すべき額から減額し、第一号に掲げる額が第二号に掲げる額を下回る場合には同号に掲げる額から第一号に掲げる額を控除した額の百分の七・七に相当する額を当該交付時期に交付すべき額に加算するものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p2-kou-1
+    type: kou
+    text: 一　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額（還付金支出額がある場合には、当該還付金支出額を控除した額。次号において同じ。）に当該年度の標準税率超過率を乗じて得た額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p2-kou-2
+    type: kou
+    text: 二　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額に前年度の標準税率超過率を乗じて得た額
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p3
+    type: simple
+    text: 第一項に規定する各交付時期に交付することができなかつた金額があるとき、又は当該交付時期において交付すべき額を超えて交付した金額があるときは、それぞれこれらの金額を、その次の交付時期に交付すべき額に加算し、又はこれから減額するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p4
+    type: simple
+    text: 第一項の規定により市町村に対して交付すべき額を交付した後において、その交付した額の算定に錯誤があつたため、交付した額を増加し、又は減少する必要が生じた場合には、当該錯誤に係る額を、当該錯誤を発見した日以後に到来する交付時期において交付すべき額に加算し、又はこれから減額するものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p5
+    type: simple
+    text: 第一項に規定する各交付時期に各市町村に対し交付すべき額として同項又は第二項の規定を適用して計算する場合において、当該計算した金額に千円未満の端数金額があるときは、その端数金額を控除した金額をもつて、当該交付時期に交付すべき額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-4-7-p6
+    type: simple
+    text: 前各項に定めるもののほか、法人の行う事業に対する事業税の交付に関し必要な事項は、総務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -71,6 +107,10 @@ parent_section:
 ### 第三十五条の四の七第二項
 
 超過税率課税道府県は、毎年度、第一号に掲げる額が第二号に掲げる額を上回る場合には第一号に掲げる額から第二号に掲げる額を控除した額の百分の七・七に相当する額を翌年度八月の交付時期に交付すべき額から減額し、第一号に掲げる額が第二号に掲げる額を下回る場合には同号に掲げる額から第一号に掲げる額を控除した額の百分の七・七に相当する額を当該交付時期に交付すべき額に加算するものとする。
+
+一　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額（還付金支出額がある場合には、当該還付金支出額を控除した額。次号において同じ。）に当該年度の標準税率超過率を乗じて得た額
+
+二　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額に前年度の標準税率超過率を乗じて得た額
 
 ### 第三十五条の四の七第三項
 

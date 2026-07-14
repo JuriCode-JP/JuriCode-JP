@@ -16,27 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-15-p1
+    type: simple
+    text: 新設合併消滅株式会社金融商品取引所は、株主総会の決議によつて、新設合併契約の承認を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-15-p2-zen
+    type: zen_dan
+    text: 前項の株主総会の決議は、当該株主総会において議決権を行使することができる株主の議決権の過半数（三分の一以上の割合を定款で定めた場合にあつては、その割合以上）を有する株主が出席し、出席した当該株主の議決権の三分の二（これを上回る割合を定款で定めた場合にあつては、その割合）以上に当たる多数をもつて行わなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-139-15-p2-kou
+    type: kou_dan
+    text: この場合においては、当該決議の要件に加えて、一定の数以上の株主の賛成を要する旨その他の要件を定款で定めることを妨げない。
+    modality: jogai
+    depends_on: kinsho-hou-art-139-15-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-15-p3
+    type: tokusoku
+    text: 前項の規定にかかわらず、新設合併消滅株式会社金融商品取引所が公開会社である場合において、新設合併消滅株式会社金融商品取引所の株主に対して交付する新設合併設立株式会社金融商品取引所の株式の全部又は一部が譲渡制限株式であるときは、第一項の株主総会（種類株式発行会社の株主総会を除く。）の決議は、会社法第三百九条第三項に定める決議によらなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-15-p4-honbun
+    type: honbun
+    text: 新設合併消滅株式会社金融商品取引所が種類株式発行会社である場合において、新設合併消滅株式会社金融商品取引所の株主に対して交付する新設合併設立株式会社金融商品取引所の株式の全部又は一部が譲渡制限株式であるときは、当該新設合併は、当該譲渡制限株式の割当てを受ける種類の株式（譲渡制限株式を除く。）の種類株主を構成員とする種類株主総会（当該種類株主に係る株式の種類が二以上ある場合にあつては、当該二以上の株式の種類別に区分された種類株主を構成員とする各種類株主総会）の決議がなければ、その効力を生じない。
+    modality: unspecified
+  - id: kinsho-hou-art-139-15-p4-tadashi
+    type: tadashi
+    text: ただし、当該種類株主総会において議決権を行使することができる株主が存しない場合は、この限りでない。
+    modality: jogai
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-15-p5
+    type: simple
+    text: 前項の種類株主総会の決議は、当該種類株主総会において議決権を行使することができる株主の半数以上（これを上回る割合を定款で定めた場合にあつては、その割合以上）であつて、当該株主の議決権の三分の二（これを上回る割合を定款で定めた場合にあつては、その割合）以上に当たる多数をもつて行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

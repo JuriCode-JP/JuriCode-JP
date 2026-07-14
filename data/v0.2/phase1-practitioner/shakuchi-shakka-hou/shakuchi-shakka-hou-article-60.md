@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十条
 
-<!-- segment: junyou id: shakuchi-shakka-hou-art-60-p1 applies_provisions: 第五十二条 -->
 第四十九条、第五十条及び第五十二条の規定は、第五十五条第一項の裁判に対する即時抗告があった場合について準用する。

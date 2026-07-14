@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-667-2-p1
+    type: simple
+    text: 第五百三十三条及び第五百三十六条の規定は、組合契約については、適用しない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-667-2-p2
+    type: simple
+    text: 組合員は、他の組合員が組合契約に基づく債務の履行をしないことを理由として、組合契約を解除することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-15-p1
+    type: simple
+    text: 第三百二十八条から前条までに定めるもののほか、退職所得の金額の算定及び分離課税に係る所得割の徴収に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

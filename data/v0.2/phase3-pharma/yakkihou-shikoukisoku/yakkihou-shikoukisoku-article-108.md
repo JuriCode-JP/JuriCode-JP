@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第三十四条第一項の厚生労働省令で定める事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-108-p1-kou-1
+    type: kou
+    text: 一　外国製造医薬品等特例承認取得者の氏名又は住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-108-p1-kou-2
+    type: kou
+    text: 二　外国製造医薬品等特例承認取得者が法人であるときは、薬事に関する業務に責任を有する役員
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-108-p1-kou-3
+    type: kou
+    text: 三　承認を受けた品目を製造する製造所又はその名称
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -60,15 +75,18 @@ parent_section:
 
 ### 第百八条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-108-p1-hashira -->
 令第三十四条第一項の厚生労働省令で定める事項は、次のとおりとする。
+
+一　外国製造医薬品等特例承認取得者の氏名又は住所
+
+二　外国製造医薬品等特例承認取得者が法人であるときは、薬事に関する業務に責任を有する役員
+
+三　承認を受けた品目を製造する製造所又はその名称
 
 ### 第百八条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-108-p2 -->
 前項の届出は、品目ごとに様式第五十四の三による届書（正副二通）を提出することによつて行うものとする。
 
 ### 第百八条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-108-p3 -->
 第一項の届出が、同項第一号に掲げる事項に係るものであるときは、これを証する書類を、同項第二号に掲げる事項に係るものであるときは、変更後の役員が法第十九条の二第二項に規定する者であるかないかを明らかにする書類を、前項の届書に添えなければならない。

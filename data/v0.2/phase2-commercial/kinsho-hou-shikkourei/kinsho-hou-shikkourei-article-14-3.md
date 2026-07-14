@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-p1
+    type: simple
+    text: 法第二十七条の十四第三項に規定する政令で定める認可金融商品取引業協会は、第十一条に規定する認可金融商品取引業協会とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

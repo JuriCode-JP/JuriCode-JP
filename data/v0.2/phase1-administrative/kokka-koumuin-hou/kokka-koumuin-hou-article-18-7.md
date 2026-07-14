@@ -16,52 +16,94 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p1
+    type: simple
+    text: 内閣府に、官民人材交流センターを置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p2
+    type: simple
+    text: 官民人材交流センターは、この法律及び他の法律の規定によりその権限に属させられた事項を処理する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p3
+    type: simple
+    text: 官民人材交流センターの長は、官民人材交流センター長とし、内閣官房長官をもつて充てる。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p4
+    type: simple
+    text: 官民人材交流センター長は、官民人材交流センターの事務を統括する。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p5
+    type: simple
+    text: 官民人材交流センター長は、官民人材交流センターの所掌事務を遂行するために必要があると認めるときは、関係行政機関の長に対し、資料の提出、意見の開陳、説明その他必要な協力を求め、又は意見を述べることができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p6
+    type: simple
+    text: 官民人材交流センターに、官民人材交流副センター長を置く。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p7
+    type: simple
+    text: 官民人材交流副センター長は、官民人材交流センター長の職務を助ける。
+    modality: unspecified
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p8
+    type: simple
+    text: 官民人材交流センターに、所要の職員を置く。
+    modality: unspecified
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p9
+    type: simple
+    text: 内閣総理大臣は、官民人材交流センターの所掌事務の全部又は一部を分掌させるため、所要の地に、官民人材交流センターの支所を置くことができる。
+    modality: kanou_kenri
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-7-p10
+    type: simple
+    text: 第三項から前項までに定めるもののほか、官民人材交流センターの組織に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

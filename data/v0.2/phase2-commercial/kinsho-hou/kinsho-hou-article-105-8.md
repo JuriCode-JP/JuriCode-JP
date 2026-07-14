@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-8-p1
+    type: junyou
+    text: 第百五条の五第三項の規定は、監査役会設置会社又は監査等委員会設置会社である特定株式会社金融商品取引所が株主総会に提出する取締役の選任及び解任に関する議案の内容を決定する場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

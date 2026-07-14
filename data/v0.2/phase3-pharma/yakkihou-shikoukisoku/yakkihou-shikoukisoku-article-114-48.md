@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-48-p1
+    type: simple
+    text: 法第二十三条の二の十三第二項の規定により厚生労働大臣に対して行う製造販売の届出の受理に係る通知は、様式第四十一による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

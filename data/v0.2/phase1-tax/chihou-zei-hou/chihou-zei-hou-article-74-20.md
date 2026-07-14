@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-20-p1
+    type: simple
+    text: 道府県知事は、第七十四条の十第一項から第三項まで若しくは第五項の規定による申告書（以下この節において「申告書」という。）又は第七十四条の十二第二項の規定による修正申告書（以下この節において「修正申告書」という。）の提出があつた場合において、当該申告書又は修正申告書に係る課税標準数量、税額又は還付金の額がその調査したところと異なるときは、これを更正する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-20-p2
+    type: simple
+    text: 道府県知事は、申告書を提出すべき者が当該申告書を提出しなかつた場合には、その調査によつて、申告すべき課税標準数量及び税額を決定する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-20-p3
+    type: simple
+    text: 道府県知事は、第一項若しくはこの項の規定によつて更正し、又は前項の規定によつて決定した課税標準数量、税額又は還付金の額について過不足があることを知つたときは、その調査によつてこれを更正する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-20-p4
+    type: simple
+    text: 道府県知事は、前三項の規定によつて更正し、又は決定した場合には、遅滞なく、これを申告納税者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第五百八十六条第二項第五号の三に規定する政令で定める施設は、厚生年金保険法第百三十条第四項又は第百五十九条第五項の規定により設置又は運営する施設のうち次に掲げる施設以外の施設とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-54-16-p1-kou-1
+    type: kou
+    text: 一　事務所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-54-16-p1-kou-2
+    type: kou
+    text: 二　宿舎
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-54-16-p1-kou-3
+    type: kou
+    text: 三　その利用について対価又は負担として支払うべき金額の定めのある施設で総務省令で定めるもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第五十四条の十六
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-54-16-p1-hashira -->
 法第五百八十六条第二項第五号の三に規定する政令で定める施設は、厚生年金保険法第百三十条第四項又は第百五十九条第五項の規定により設置又は運営する施設のうち次に掲げる施設以外の施設とする。
+
+一　事務所
+
+二　宿舎
+
+三　その利用について対価又は負担として支払うべき金額の定めのある施設で総務省令で定めるもの

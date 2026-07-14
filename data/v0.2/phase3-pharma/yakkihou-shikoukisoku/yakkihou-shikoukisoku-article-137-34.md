@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-p1
+    type: simple
+    text: 令第四十三条の二十七第一項の厚生労働省令で定める変更は、当該品目の用法、用量、効能又は効果に関する追加、変更又は削除その他の当該品目の製造管理又は品質管理の方法に影響を与えない変更とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

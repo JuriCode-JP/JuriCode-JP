@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-6-p1
+    type: simple
+    text: 内閣総理大臣は、任命権者を異にする管理職（自衛隊法第三十条の二第一項第七号に規定する管理職を含む。）への任用の円滑な実施に資するよう、任命権者に対する情報提供、任命権者相互間の情報交換の促進その他の必要な調整を行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

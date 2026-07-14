@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-16-p1
+    type: simple
+    text: 法第四十六条の三第三項及び第四十八条の二第三項の規定による命令は、これらの規定による公告を時事に関する事項を掲載する日刊新聞紙に掲載すべき旨を定めて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

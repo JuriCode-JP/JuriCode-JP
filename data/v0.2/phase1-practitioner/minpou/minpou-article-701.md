@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百一条
 
-<!-- segment: junyou id: minpou-art-701-p1 applies_provisions: 第六百四十五条から第六百四十七条まで -->
 第六百四十五条から第六百四十七条までの規定は、事務管理について準用する。

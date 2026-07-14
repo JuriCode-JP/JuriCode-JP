@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十七条
 
-<!-- segment: simple id: keihou-art-57-p1 -->
 再犯の刑は、その罪について定めた拘禁刑の長期の二倍以下とする。

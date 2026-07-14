@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-161-2-p1
+    type: simple
+    text: 人の事務処理を誤らせる目的で、その事務処理の用に供する権利、義務又は事実証明に関する電磁的記録を不正に作った者は、五年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-161-2-p2
+    type: simple
+    text: 前項の罪が公務所又は公務員により作られるべき電磁的記録に係るときは、十年以下の拘禁刑又は百万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-161-2-p3
+    type: simple
+    text: 不正に作られた権利、義務又は事実証明に関する電磁的記録を、第一項の目的で、人の事務処理の用に供した者は、その電磁的記録を不正に作った者と同一の刑に処する。
+    modality: gimu_kei
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-161-2-p4
+    type: simple
+    text: 前項の罪の未遂は、罰する。
+    modality: gimu_kei
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

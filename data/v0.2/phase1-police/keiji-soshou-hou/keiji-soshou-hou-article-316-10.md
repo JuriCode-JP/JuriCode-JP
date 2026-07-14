@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-10-p1
+    type: simple
+    text: 裁判所は、弁護人の陳述又は弁護人が提出する書面について被告人の意思を確かめる必要があると認めるときは、公判前整理手続期日において被告人に対し質問を発し、及び弁護人に対し被告人と連署した書面の提出を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

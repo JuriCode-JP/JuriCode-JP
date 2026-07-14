@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-400-2-p1
+    type: simple
+    text: 市町村長は、第七百四十三条又は第七百四十四条の規定による通知を受けた場合においては、遅滞なく、当該通知に係る償却資産の価格等及び市町村が課する固定資産税の課税標準となるべき金額を固定資産課税台帳に登録し、又は登録されているこれらの事項を修正して登録しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-400-2-p2
+    type: simple
+    text: 市町村長は、前項の規定によつて市町村が課する固定資産税の課税標準となるべき金額を修正して登録した場合においては、固定資産税の賦課後であつても、その登録した金額に基いて、すでに決定した賦課額を更正しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-66-p1-zen
+    type: zen_dan
+    text: 受託者が管理医療機器又は体外診断用医薬品（処方箋体外診断用医薬品を除く。）の製造販売後安全管理業務のうち第百十四条の五十九各号に掲げる業務を再委託する場合においては、前条（第一項第二号、第二項第四号及び第三項第二号を除く。）の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-114-66-p1-kou
+    type: kou_dan
+    text: この場合において、同条第四項中「を受託安全管理実施責任者」とあるのは「を受託者があらかじめ指定する者」と、同項第二号及び第三号中「再受託安全管理実施責任者」とあるのは「再受託者があらかじめ指定する者」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: yakkihou-shikoukisoku-art-114-66-p1-zen
 cases: []
 amendments: []
 tags:

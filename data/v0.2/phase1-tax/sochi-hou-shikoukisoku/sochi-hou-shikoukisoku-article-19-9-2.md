@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-19-9-2-p1
+    type: simple
+    text: 法第四十一条の十五の二の規定により所得税法第二百二十五条第一項の調書を同一の居住者又は恒久的施設を有する非居住者に対する一回の支払ごとに作成し、提出する場合における所得税法施行規則第九十条の五の規定の適用については、同条第一号、第二号及び第四号中「その年中に」とあるのは、「その」とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-19-9-2-p2
+    type: simple
+    text: 法第四十一条の十五の二の規定による所得税法第二百二十五条第一項の調書の提出は、同法第二百二十四条の五第一項に規定する商品先物取引業者等ごとに選択しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-19-9-2-p3
+    type: simple
+    text: 前項の調書には、法第四十一条の十五の二の規定によるものである旨を表示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

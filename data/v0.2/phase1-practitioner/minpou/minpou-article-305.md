@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百五条
 
-<!-- segment: junyou id: minpou-art-305-p1 applies_provisions: 第二百九十六条 -->
 第二百九十六条の規定は、先取特権について準用する。

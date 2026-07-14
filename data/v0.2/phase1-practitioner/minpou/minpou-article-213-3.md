@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-3-p1-zen
+    type: zen_dan
+    text: 分割によって他の土地に設備を設置しなければ継続的給付を受けることができない土地が生じたときは、その土地の所有者は、継続的給付を受けるため、他の分割者の所有地のみに設備を設置することができる。
+    modality: kanou_kenri
+  - id: minpou-art-213-3-p1-kou
+    type: kou_dan
+    text: この場合においては、前条第五項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    depends_on: minpou-art-213-3-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-3-p2
+    type: junyou
+    text: 前項の規定は、土地の所有者がその土地の一部を譲り渡した場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

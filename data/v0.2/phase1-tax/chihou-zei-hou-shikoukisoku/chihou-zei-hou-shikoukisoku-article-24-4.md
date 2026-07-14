@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の四
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-4-p1 -->
 政令第五十六条の二十八第二項第二号に規定する総務省令で定める施設は、農林水産業に関する試験研究のための施設とする。

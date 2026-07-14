@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-34-p1
+    type: simple
+    text: 普通地方公共団体の議会は、外部監査人の監査に関し必要があると認めるときは、外部監査人又は外部監査人であつた者の説明を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-34-p2
+    type: simple
+    text: 普通地方公共団体の議会は、外部監査人の監査に関し必要があると認めるときは、外部監査人に対し意見を述べることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

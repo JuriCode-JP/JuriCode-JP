@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-9-p1
+    type: simple
+    text: 被告人は、公判前整理手続期日に出頭することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-9-p2
+    type: simple
+    text: 裁判所は、必要と認めるときは、被告人に対し、公判前整理手続期日に出頭することを求めることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-9-p3
+    type: simple
+    text: 裁判長は、被告人を出頭させて公判前整理手続をする場合には、被告人が出頭する最初の公判前整理手続期日において、まず、被告人に対し、終始沈黙し、又は個々の質問に対し陳述を拒むことができる旨を告知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

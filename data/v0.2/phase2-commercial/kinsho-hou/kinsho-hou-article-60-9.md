@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-9-p1
+    type: simple
+    text: 内閣総理大臣は、取引所取引許可業者が正当な理由がないのに、取引所取引業務を行うことができることとなつた日から三月以内に業務を開始しないとき、又は引き続き三月以上その業務を休止したときは、当該取引所取引許可業者の第六十条第一項の許可を取り消すことができる。
+    modality: koka_torikeshi
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-9-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定に基づいて処分をすることとしたときは、書面により、その旨を取引所取引許可業者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-4-p1
+    type: simple
+    text: 普通地方公共団体の長は、各執行機関を通じて組織及び運営の合理化を図り、その相互の間に権衡を保持するため、必要があると認めるときは、当該普通地方公共団体の委員会若しくは委員の事務局又は委員会若しくは委員の管理に属する事務を掌る機関（以下本条中「事務局等」という。）の組織、事務局等に属する職員の定数又はこれらの職員の身分取扱について、委員会又は委員に必要な措置を講ずべきことを勧告することができる。
+    modality: kanou_kenri
+    references:
+    - 本条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-4-p2
+    type: simple
+    text: 普通地方公共団体の委員会又は委員は、事務局等の組織、事務局等に属する職員の定数又はこれらの職員の身分取扱で当該委員会又は委員の権限に属する事項の中政令で定めるものについて、当該委員会又は委員の規則その他の規程を定め、又は変更しようとする場合においては、予め当該普通地方公共団体の長に協議しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

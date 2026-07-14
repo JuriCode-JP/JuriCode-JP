@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第八十九条の二第二項に規定する政令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-47-2-p1-kou-1
+    type: kou
+    text: 一　当該製品の製造者の住所及び氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-47-2-p1-kou-2
+    type: kou
+    text: 二　当該製品の製造場の所在地及び名称
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-47-2-p1-kou-3
+    type: kou
+    text: 三　当該製品の種類、当該種類ごとの数量その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第四十七条の二
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-47-2-p1-hashira -->
 法第八十九条の二第二項に規定する政令で定める事項は、次に掲げる事項とする。
+
+一　当該製品の製造者の住所及び氏名又は名称
+
+二　当該製品の製造場の所在地及び名称
+
+三　当該製品の種類、当該種類ごとの数量その他参考となるべき事項

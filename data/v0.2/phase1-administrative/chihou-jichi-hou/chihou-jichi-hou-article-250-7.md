@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-7-p1
+    type: simple
+    text: 総務省に、国地方係争処理委員会（以下本節において「委員会」という。）を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-7-p2
+    type: simple
+    text: 委員会は、普通地方公共団体に対する国又は都道府県の関与のうち国の行政機関が行うもの（以下本節において「国の関与」という。）に関する審査の申出につき、この法律の規定によりその権限に属させられた事項を処理する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

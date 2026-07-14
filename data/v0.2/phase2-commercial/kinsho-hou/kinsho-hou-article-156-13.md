@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-13-p1
+    type: simple
+    text: 金融商品取引清算機関は、第百五十六条の三第一項第三号から第五号までに掲げる事項のいずれかに変更があつたときは、内閣府令で定めるところにより、同条第二項第一号又は第三号に掲げる書類を添えて、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

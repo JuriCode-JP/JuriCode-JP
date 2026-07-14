@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-240-p1 -->
 告訴は、代理人によりこれをすることができる。告訴の取消についても、同様である。

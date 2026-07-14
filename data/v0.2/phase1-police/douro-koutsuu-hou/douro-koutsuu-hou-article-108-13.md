@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-13-p1
+    type: simple
+    text: 国家公安委員会は、交通事故の防止及び交通事故による被害の軽減に資するための調査研究等を行うことにより道路における交通の安全と円滑に寄与することを目的とする一般社団法人又は一般財団法人であつて、次条に規定する事業を適正かつ確実に行うことができると認められるものを、その申出により、全国に一を限つて、交通事故調査分析センター（以下この章において「分析センター」という。）として指定することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-13-p2
+    type: simple
+    text: 国家公安委員会は、前項の規定による指定をしたときは、分析センターの名称、住所及び事務所の所在地を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-13-p3
+    type: simple
+    text: 分析センターは、その名称、住所又は事務所の所在地を変更しようとするときは、あらかじめ、その旨を国家公安委員会に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-13-p4
+    type: simple
+    text: 国家公安委員会は、前項の規定による届出があつたときは、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

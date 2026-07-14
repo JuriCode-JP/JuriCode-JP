@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五十五条
 
-<!-- segment: simple id: chihou-zei-hou-art-155-p1 -->
 自動車税の賦課期日は、四月一日とする。

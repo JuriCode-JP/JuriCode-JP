@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四百三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-403-p1 -->
 原裁判所が不法に公訴棄却の決定をしなかつたときは、決定で公訴を棄却しなければならない。
 
 ### 第四百三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-403-p2 -->
 第三百八十五条第二項の規定は、前項の決定についてこれを準用する。

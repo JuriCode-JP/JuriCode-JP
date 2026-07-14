@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 委員会は、認定個人情報保護団体が次の各号のいずれかに該当するときは、その認定を取り消すことができる。
     modality: koka_torikeshi
+  - id: kojin-jouhou-hogo-hou-art-155-p1-kou-1
+    type: kou
+    text: 一　第四十八条第一号又は第三号に該当するに至ったとき。
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-155-p1-kou-2
+    type: kou
+    text: 二　第四十九条各号のいずれかに適合しなくなったとき。
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-155-p1-kou-3
+    type: kou
+    text: 三　第五十五条の規定に違反したとき。
+    modality: unspecified
+    item_number: 3
+  - id: kojin-jouhou-hogo-hou-art-155-p1-kou-4
+    type: kou
+    text: 四　前条の命令に従わないとき。
+    modality: unspecified
+    item_number: 4
+  - id: kojin-jouhou-hogo-hou-art-155-p1-kou-5
+    type: kou
+    text: 五　不正の手段により第四十七条第一項の認定又は第五十条第一項の変更の認定を受けたとき。
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +77,18 @@ parent_section:
 
 ### 第百五十五条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-155-p1-hashira -->
 委員会は、認定個人情報保護団体が次の各号のいずれかに該当するときは、その認定を取り消すことができる。
+
+一　第四十八条第一号又は第三号に該当するに至ったとき。
+
+二　第四十九条各号のいずれかに適合しなくなったとき。
+
+三　第五十五条の規定に違反したとき。
+
+四　前条の命令に従わないとき。
+
+五　不正の手段により第四十七条第一項の認定又は第五十条第一項の変更の認定を受けたとき。
 
 ### 第百五十五条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-155-p2 -->
 委員会は、前項の規定により認定を取り消したときは、その旨を公示しなければならない。

@@ -33,7 +33,7 @@ paragraphs:
     references:
     - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -61,15 +61,12 @@ parent_section:
 
 ### 第百条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-100-p1 -->
 裁判所は、被告人から発し、又は被告人に対して発した郵便物、信書便物又は電信に関する書類で法令の規定に基づき通信事務を取り扱う者が保管し、又は所持するものを差し押え、又は提出させることができる。
 
 ### 第百条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-100-p2 -->
 前項の規定に該当しない郵便物、信書便物又は電信に関する書類で法令の規定に基づき通信事務を取り扱う者が保管し、又は所持するものは、被告事件に関係があると認めるに足りる状況のあるものに限り、これを差し押え、又は提出させることができる。
 
 ### 第百条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-100-p3 -->
 前二項の規定による処分をしたときは、その旨を発信人又は受信人に通知しなければならない。但し、通知によつて審理が妨げられる虞がある場合は、この限りでない。

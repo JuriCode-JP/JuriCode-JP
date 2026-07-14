@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-31-p1
+    type: simple
+    text: 外部監査人は、外部監査契約の本旨に従い、善良な管理者の注意をもつて、誠実に監査を行う義務を負う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-31-p2
+    type: simple
+    text: 外部監査人は、外部監査契約の履行に当たつては、常に公正不偏の態度を保持し、自らの判断と責任において監査をしなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-31-p3
+    type: simple
+    text: 外部監査人は、監査の実施に関して知り得た秘密を漏らしてはならない。外部監査人でなくなつた後であつても、同様とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-31-p4
+    type: simple
+    text: 前項の規定に違反した者は、二年以下の拘禁刑又は百万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-31-p5
+    type: simple
+    text: 外部監査人は、監査の事務に関しては、刑法（明治四十年法律第四十五号）その他の罰則の適用については、法令により公務に従事する職員とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

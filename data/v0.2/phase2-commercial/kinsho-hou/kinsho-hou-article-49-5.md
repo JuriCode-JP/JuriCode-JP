@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-49-5-p1
+    type: simple
+    text: 金融商品取引業者は、内閣府令で定めるところにより、金融商品取引責任準備金の額、損失準備金の額及びその全ての営業所又は事務所の計算に属する負債のうち政令で定めるものの額を合計した金額に相当する資産を、国内において保有しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

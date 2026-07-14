@@ -45,6 +45,4 @@ parent_section:
 
 ### 第四百五十条
 
-<!-- segment: honbun id: chihou-zei-hou-art-450-p1-honbun -->
-軽自動車税の納期は、四月中において、当該市町村の条例で定める。<!-- segment: tadashi id: chihou-zei-hou-art-450-p1-tadashi -->
-ただし、特別の事情がある場合には、これと異なる納期を定めることができる。
+軽自動車税の納期は、四月中において、当該市町村の条例で定める。ただし、特別の事情がある場合には、これと異なる納期を定めることができる。

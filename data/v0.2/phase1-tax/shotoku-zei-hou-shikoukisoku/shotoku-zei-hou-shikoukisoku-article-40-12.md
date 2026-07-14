@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 令第二百二十一条の四第三項第一号ハ（国外事業所等に帰せられるべき純資産に対応する負債の利子）に規定する財務省令で定める理由により発生し得る危険は、次に掲げるものとする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-40-12-p1-kou-1
+    type: kou
+    text: 一　取引の相手方の契約不履行により発生し得る危険
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-40-12-p1-kou-2
+    type: kou
+    text: 二　保有する有価証券等（有価証券その他の資産及び取引をいう。）の価格の変動により発生し得る危険
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-40-12-p1-kou-3
+    type: kou
+    text: 三　事務処理の誤りその他日常的な業務の遂行上発生し得る危険
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-40-12-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げるものに類する危険
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第四十条の十二
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-40-12-p1-hashira -->
 令第二百二十一条の四第三項第一号ハ（国外事業所等に帰せられるべき純資産に対応する負債の利子）に規定する財務省令で定める理由により発生し得る危険は、次に掲げるものとする。
+
+一　取引の相手方の契約不履行により発生し得る危険
+
+二　保有する有価証券等（有価証券その他の資産及び取引をいう。）の価格の変動により発生し得る危険
+
+三　事務処理の誤りその他日常的な業務の遂行上発生し得る危険
+
+四　前三号に掲げるものに類する危険

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百九十六条
 
-<!-- segment: simple id: keihou-art-196-p1 -->
 前二条の罪を犯し、よって人を死傷させた者は、傷害の罪と比較して、重い刑により処断する。

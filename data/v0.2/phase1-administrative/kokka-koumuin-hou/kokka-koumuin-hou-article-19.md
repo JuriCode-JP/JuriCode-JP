@@ -66,18 +66,14 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-19-p1 -->
 内閣総理大臣は、職員の人事記録に関することを管理する。
 
 ### 第十九条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-19-p2 -->
-<!-- segment: simple id: kokka-koumuin-hou-art-19-p4 -->
 内閣総理大臣は、内閣府、デジタル庁、各省その他の機関をして、当該機関の職員の人事に関する一切の事項について、人事記録を作成し、これを保管せしめるものとする。
 
 ### 第十九条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-19-p3 -->
 人事記録の記載事項及び様式その他人事記録に関し必要な事項は、政令でこれを定める。
 
 ### 第十九条第四項

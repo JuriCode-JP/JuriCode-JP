@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-161-2-p1
+    type: simple
+    text: 信用取引その他の内閣府令で定める取引については、金融商品取引業者は、内閣府令で定めるところにより、顧客から、当該取引に係る有価証券の時価に内閣総理大臣が有価証券の売買その他の取引の公正を確保することを考慮して定める率を乗じた額を下らない額の金銭の預託を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-161-2-p2
+    type: simple
+    text: 前項の金銭は、内閣府令で定めるところにより、有価証券をもつて充てることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

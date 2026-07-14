@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 市町村は、次の各号のいずれかに該当する者に対しては市町村民税（第二号に該当する者にあつては、第三百二十八条の規定により課する所得割（以下「分離課税に係る所得割」という。）を除く。）を課することができない。ただし、この法律の施行地に住所を有しない者については、この限りでない。
     modality: jogai
+  - id: chihou-zei-hou-art-295-p1-kou-1
+    type: kou
+    text: 一　生活保護法の規定による生活扶助を受けている者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-295-p1-kou-2
+    type: kou
+    text: 二　障害者、未成年者、寡婦又はひとり親（これらの者の前年の合計所得金額が百三十五万円を超える場合を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +71,16 @@ parent_section:
 
 ### 第二百九十五条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-art-295-p1-hashira -->
 市町村は、次の各号のいずれかに該当する者に対しては市町村民税（第二号に該当する者にあつては、第三百二十八条の規定により課する所得割（以下「分離課税に係る所得割」という。）を除く。）を課することができない。ただし、この法律の施行地に住所を有しない者については、この限りでない。
+
+一　生活保護法の規定による生活扶助を受けている者
+
+二　障害者、未成年者、寡婦又はひとり親（これらの者の前年の合計所得金額が百三十五万円を超える場合を除く。）
 
 ### 第二百九十五条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-295-p2 -->
 分離課税に係る所得割につき前項第一号の規定を適用する場合における同号に掲げる者であるかどうかの判定は、退職手当等の支払を受けるべき日の属する年の一月一日の現況によるものとする。
 
 ### 第二百九十五条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-295-p3 -->
 市町村は、この法律の施行地に住所を有する者で均等割のみを課すべきもののうち、前年の合計所得金額が政令で定める基準に従い当該市町村の条例で定める金額以下である者に対しては、均等割を課することができない。

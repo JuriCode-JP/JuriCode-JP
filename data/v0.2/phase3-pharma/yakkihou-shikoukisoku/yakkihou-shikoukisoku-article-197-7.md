@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-7-p1
+    type: simple
+    text: 検査機関は、第百九十七条の三の申請を行つた製造販売業者又は法第八十条の六第一項に規定する原薬等を製造する者に対して、製造・試験記録等要約書の様式の作成又は変更のために必要な資料の提出を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

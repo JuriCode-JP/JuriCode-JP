@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十四条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-134-p1 -->
 普通地方公共団体の議会は、この法律並びに会議規則及び委員会に関する条例に違反した議員に対し、議決により懲罰を科することができる。
 
 ### 第百三十四条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-134-p2 -->
 懲罰に関し必要な事項は、会議規則中にこれを定めなければならない。

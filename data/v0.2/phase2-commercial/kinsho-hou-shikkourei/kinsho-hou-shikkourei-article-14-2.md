@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-2-p1
+    type: simple
+    text: 法第二十七条の十二第二項に規定する政令で定める方法は、公開買付けに係る契約の解除を行う旨の書面を公開買付者が指定した者（内閣府令で定める者に限る。）に交付し、又は送付する方法とし、同項に規定する政令で定める時は、当該書面が当該指定した者に交付され、又は到達した時とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

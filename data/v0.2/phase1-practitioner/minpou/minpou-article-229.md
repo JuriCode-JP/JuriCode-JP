@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百二十九条
 
-<!-- segment: simple id: minpou-art-229-p1 -->
 境界線上に設けた境界標、囲障、障壁、溝及び堀は、相隣者の共有に属するものと推定する。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-13-p1
+    type: simple
+    text: 法第二十九条の四の規定による掲示のうち、要指導医薬品又は一般用医薬品を販売し、又は授与する開店時間は、当該店舗内の見やすい場所及び当該店舗の外側の見やすい場所に掲示することにより行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

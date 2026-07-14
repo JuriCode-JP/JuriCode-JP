@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-209-3-p1
+    type: simple
+    text: 前条の規定により徴収すべき所得税の額は、同条に規定する給付補てん金、利息、利益又は差益の額に百分の十五の税率を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

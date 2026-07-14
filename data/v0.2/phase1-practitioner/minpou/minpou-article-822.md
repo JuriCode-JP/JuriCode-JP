@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百二十二条
 
-<!-- segment: simple id: minpou-art-822-p1 -->
 子は、親権を行う者が指定した場所に、その居所を定めなければならない。

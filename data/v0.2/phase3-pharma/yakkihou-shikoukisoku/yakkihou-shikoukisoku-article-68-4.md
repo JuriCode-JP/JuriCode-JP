@@ -14,9 +14,48 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-4-p1-hashira
+    type: hashira
+    text: 法第十四条の七の二第一項第二号の厚生労働省令で定める変更は、次の各号に掲げる変更とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-1
+    type: kou
+    text: 一　法第四十二条第一項又は第二項の規定により定められた基準に適合しないこととなる変更
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-2
+    type: kou
+    text: 二　実施した場合に品質への影響を予測することが困難な新たな製造方法への変更
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-3
+    type: kou
+    text: 三　病原因子の不活化又は除去方法に関する重要な変更
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-4
+    type: kou
+    text: 四　実施の前後において、当該医薬品、医薬部外品又は化粧品の品質、有効性及び安全性が同等であることを確かめるために品質試験以外の試験を行わなければならないと認められる変更
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-5
+    type: kou
+    text: 五　前四号に掲げるもののほか、当該医薬品、医薬部外品又は化粧品の品質、有効性及び安全性に重大な影響を与えるおそれのある変更
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-6
+    type: kou
+    text: 六　薬局製造販売医薬品に係る変更
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-68-4-p1-kou-7
+    type: kou
+    text: 七　令第八十条第二項第五号に基づき承認された医薬品又は医薬部外品に係る変更
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -34,3 +73,17 @@ parent_section:
 ### 第六十八条の四
 
 法第十四条の七の二第一項第二号の厚生労働省令で定める変更は、次の各号に掲げる変更とする。
+
+一　法第四十二条第一項又は第二項の規定により定められた基準に適合しないこととなる変更
+
+二　実施した場合に品質への影響を予測することが困難な新たな製造方法への変更
+
+三　病原因子の不活化又は除去方法に関する重要な変更
+
+四　実施の前後において、当該医薬品、医薬部外品又は化粧品の品質、有効性及び安全性が同等であることを確かめるために品質試験以外の試験を行わなければならないと認められる変更
+
+五　前四号に掲げるもののほか、当該医薬品、医薬部外品又は化粧品の品質、有効性及び安全性に重大な影響を与えるおそれのある変更
+
+六　薬局製造販売医薬品に係る変更
+
+七　令第八十条第二項第五号に基づき承認された医薬品又は医薬部外品に係る変更

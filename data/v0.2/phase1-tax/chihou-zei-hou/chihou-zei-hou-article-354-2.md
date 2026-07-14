@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-354-2-p1
+    type: simple
+    text: 市町村長が固定資産税の賦課徴収について、政府に対し、固定資産税の納税義務者で所得税若しくは法人税の納税義務があるものが政府に提出した申告書若しくは修正申告書又は政府が当該納税義務者の所得税若しくは法人税に係る課税標準若しくは税額についてした更正若しくは決定に関する書類を閲覧し、又は記録することを請求した場合には、政府は、関係書類を市町村長又はその指定する職員に閲覧させ、又は記録させるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

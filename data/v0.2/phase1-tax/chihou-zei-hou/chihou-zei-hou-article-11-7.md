@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-11-7-p1-honbun
+    type: honbun
+    text: 納税者又は特別徴収義務者が生計を一にする親族その他納税者又は特別徴収義務者と特殊の関係のある個人又は被支配会社（当該納税者を判定の基礎となる株主又は社員として選定した場合に法人税法第六十七条第二項に規定する会社に該当する会社をいい、これに類する法人を含む。）で政令で定めるものに事業を譲渡し、かつ、その譲受人が同一又は類似の事業を営んでいる場合において、納税者又は特別徴収義務者の当該事業に係る地方団体の徴収金につき滞納処分をしてもなおその徴収すべき額に不足すると認められるときは、その譲受人は、譲受財産の価額の限度において、当該滞納に係る地方団体の徴収金の第二次納税義務を負う。
+    modality: unspecified
+  - id: chihou-zei-hou-art-11-7-p1-tadashi
+    type: tadashi
+    text: ただし、その譲渡が当該滞納に係る地方団体の徴収金の法定納期限より一年以上前にされている場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-86-2-p1
+    type: simple
+    text: 第二十三条の十六第二項の規定による業務の停止の命令に違反したときは、その違反行為をした登録認証機関の役員又は職員は、一年以下の拘禁刑又は百万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

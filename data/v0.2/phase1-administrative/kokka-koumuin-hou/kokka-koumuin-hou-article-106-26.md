@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-26-p1
+    type: simple
+    text: 内閣総理大臣は、あらかじめ、第五十五条第一項に規定する任命権者及び法律で別に定められた任命権者と協議して職員の退職管理に関する基本的な方針（以下「退職管理基本方針」という。）の案を作成し、閣議の決定を求めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-26-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による閣議の決定があつたときは、遅滞なく、退職管理基本方針を公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-26-p3
+    type: junyou
+    text: 前二項の規定は、退職管理基本方針の変更について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-26-p4
+    type: simple
+    text: 任命権者は、退職管理基本方針に沿つて、職員の退職管理を行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

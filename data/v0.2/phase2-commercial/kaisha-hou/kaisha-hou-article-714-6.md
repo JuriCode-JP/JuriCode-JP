@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-714-6-p1
+    type: simple
+    text: 第七百二条の規定による委託に係る契約又は担保付社債信託法（明治三十八年法律第五十二号）第二条第一項に規定する信託契約の効力が生じた場合には、第七百十四条の二の規定による委託に係る契約は、終了する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

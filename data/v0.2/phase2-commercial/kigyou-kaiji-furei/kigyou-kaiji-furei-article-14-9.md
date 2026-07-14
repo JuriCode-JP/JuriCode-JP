@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-9-p1
+    type: simple
+    text: 法第二十三条の八第一項ただし書（法第二十七条において準用する場合を含む。）に規定する内閣府令で定めるものは、第二条第五項各号に掲げるもの以外の募集又は売出しとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

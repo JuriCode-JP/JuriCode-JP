@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百九十七条
 
-<!-- segment: simple id: chihou-jichi-hou-art-297-p1 -->
 この法律に規定するものを除く外、財産区の事務に関しては、政令でこれを定める。

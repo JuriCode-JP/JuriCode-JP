@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-7-p1-honbun
+    type: honbun
+    text: 普通地方公共団体の委員会又は委員は、その権限に属する事務の一部を、当該普通地方公共団体の長と協議して、普通地方公共団体の長の補助機関である職員若しくはその管理に属する支庁若しくは地方事務所、支所若しくは出張所、第二百二条の四第二項に規定する地域自治区の事務所、第二百五十二条の十九第一項に規定する指定都市の区若しくは総合区の事務所若しくはその出張所、保健所その他の行政機関の長に委任し、若しくは普通地方公共団体の長の補助機関である職員若しくはその管理に属する行政機関に属する職員をして補助執行させ、又は専門委員に委託して必要な事項を調査させることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-180-7-p1-tadashi
+    type: tadashi
+    text: ただし、政令で定める事務については、この限りではない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-22-p1
+    type: simple
+    text: この節に定めるもののほか、製造販売業の許可又は許可の更新、製造業又は医療機器等外国製造業者の登録又は登録の更新、製造販売品目の承認又は使用成績に関する評価、製造所の管理その他医療機器又は体外診断用医薬品の製造販売業又は製造業（外国製造医療機器等特例承認取得者の行う製造を含む。）に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

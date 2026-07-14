@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第七十三条の四第一項第二十七号に規定する国立研究開発法人海洋研究開発機構が国立研究開発法人海洋研究開発機構法（平成十五年法律第九十五号）第十七条第一号、第三号、第四号又は第六号に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-8-p1-kou-1
+    type: kou
+    text: 一　事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-8-p1-kou-2
+    type: kou
+    text: 二　宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第三十七条の八
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-37-8-p1-hashira -->
 法第七十三条の四第一項第二十七号に規定する国立研究開発法人海洋研究開発機構が国立研究開発法人海洋研究開発機構法（平成十五年法律第九十五号）第十七条第一号、第三号、第四号又は第六号に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産

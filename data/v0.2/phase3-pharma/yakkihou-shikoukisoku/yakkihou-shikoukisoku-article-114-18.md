@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-18-p1
+    type: simple
+    text: 法第二十三条の二の五第二項第三号ハ（同条第十三項において準用する場合を含む。）の医療機器又は体外診断用医薬品として不適当なものとして厚生労働省令で定める場合は、申請に係る医療機器又は体外診断用医薬品の性状又は品質が保健衛生上著しく不適当な場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yuukashouken-kisei-furei-art-15-6-p1
+    type: simple
+    text: 令第二十六条の六第一項（同条第三項において準用する場合を含む。）に規定する内閣府令で定めるものは、売戻条件付売買又はこれに類似する取引による買付けとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

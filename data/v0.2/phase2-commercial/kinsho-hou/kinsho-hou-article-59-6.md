@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-59-6-p1
+    type: junyou
+    text: 第三十六条の三、第三十六条の四第一項、第三十八条（第一号から第三号まで及び第九号に係る部分に限る。）及び第四十四条の四の規定は、第五十九条第一項の許可を受けた外国証券業者の引受業務について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

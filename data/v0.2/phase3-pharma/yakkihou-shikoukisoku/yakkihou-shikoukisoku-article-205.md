@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百五条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-205-p1 -->
 法第四十六条第一項の規定により作成する文書は、譲受人の署名又は記名押印のある文書とする。

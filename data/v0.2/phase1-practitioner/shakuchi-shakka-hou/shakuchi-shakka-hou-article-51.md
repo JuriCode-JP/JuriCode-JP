@@ -46,10 +46,8 @@ parent_section:
 
 ### 第五十一条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-51-p1 -->
 裁判所は、審問期日を開き、当事者の陳述を聴かなければならない。
 
 ### 第五十一条第二項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-51-p2 -->
 当事者は、他の当事者の審問に立ち会うことができる。

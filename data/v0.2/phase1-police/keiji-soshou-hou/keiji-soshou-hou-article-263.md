@@ -53,10 +53,8 @@ parent_section:
 
 ### 第二百六十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-263-p1 -->
 前条第一項の請求は、第二百六十六条の決定があるまでこれを取り下げることができる。
 
 ### 第二百六十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-263-p2 -->
 前項の取下をした者は、その事件について更に前条第一項の請求をすることができない。

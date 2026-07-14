@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第五十条第六項（交換により取得した資産の圧縮額の損金算入）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-25-p1-kou-1
+    type: kou
+    text: 一　法第五十条第五項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-25-p1-kou-2
+    type: kou
+    text: 二　法第五十条第五項に規定する適格分割等（次号及び第四号において「適格分割等」という。）に係る分割承継法人、被現物出資法人又は被現物分配法人（第四号において「分割承継法人等」という。）の名称及び納税地並びに代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-25-p1-kou-3
+    type: kou
+    text: 三　適格分割等の日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-25-p1-kou-4
+    type: kou
+    text: 四　適格分割等により分割承継法人等に移転をする法第五十条第五項に規定する取得資産に係る同項に規定する帳簿価額を減額した金額に相当する金額及び当該金額の計算に関する明細
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-25-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-25-p1-hashira -->
 法第五十条第六項（交換により取得した資産の圧縮額の損金算入）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第五十条第五項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　法第五十条第五項に規定する適格分割等（次号及び第四号において「適格分割等」という。）に係る分割承継法人、被現物出資法人又は被現物分配法人（第四号において「分割承継法人等」という。）の名称及び納税地並びに代表者の氏名
+
+三　適格分割等の日
+
+四　適格分割等により分割承継法人等に移転をする法第五十条第五項に規定する取得資産に係る同項に規定する帳簿価額を減額した金額に相当する金額及び当該金額の計算に関する明細
+
+五　その他参考となるべき事項

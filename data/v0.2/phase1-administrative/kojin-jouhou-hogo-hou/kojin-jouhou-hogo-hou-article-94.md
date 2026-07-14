@@ -40,8 +40,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -62,11 +62,8 @@ parent_section:
 
 ### 第九十四条第一項
 
-<!-- segment: honbun id: kojin-jouhou-hogo-hou-art-94-p1-honbun -->
-前条各項の決定（以下この節において「訂正決定等」という。）は、訂正請求があった日から三十日以内にしなければならない。<!-- segment: tadashi id: kojin-jouhou-hogo-hou-art-94-p1-tadashi -->
-ただし、第九十一条第三項の規定により補正を求めた場合にあっては、当該補正に要した日数は、当該期間に算入しない。
+前条各項の決定（以下この節において「訂正決定等」という。）は、訂正請求があった日から三十日以内にしなければならない。ただし、第九十一条第三項の規定により補正を求めた場合にあっては、当該補正に要した日数は、当該期間に算入しない。
 
 ### 第九十四条第二項
 
-<!-- segment: tokusoku id: kojin-jouhou-hogo-hou-art-94-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、行政機関の長等は、事務処理上の困難その他正当な理由があるときは、同項に規定する期間を三十日以内に限り延長することができる。この場合において、行政機関の長等は、訂正請求者に対し、遅滞なく、延長後の期間及び延長の理由を書面により通知しなければならない。

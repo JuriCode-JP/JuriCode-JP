@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百五十八条
 
-<!-- segment: simple id: minpou-art-558-p1 -->
 売買契約に関する費用は、当事者双方が等しい割合で負担する。

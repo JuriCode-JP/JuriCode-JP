@@ -16,12 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-20-p1-zen
+    type: zen_dan
+    text: 検察官は、第三百十六条の十四第一項並びに第三百十六条の十五第一項及び第二項の規定による開示をした証拠以外の証拠であつて、第三百十六条の十七第一項の主張に関連すると認められるものについて、被告人又は弁護人から開示の請求があつた場合において、その関連性の程度その他の被告人の防御の準備のために当該開示をすることの必要性の程度並びに当該開示によつて生じるおそれのある弊害の内容及び程度を考慮し、相当と認めるときは、速やかに、第三百十六条の十四第一項第一号に定める方法による開示をしなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-20-p1-kou
+    type: kou_dan
+    text: この場合において、検察官は、必要と認めるときは、開示の時期若しくは方法を指定し、又は条件を付することができる。
+    modality: kanou_kenri
+    depends_on: keiji-soshou-hou-art-316-20-p1-zen
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-20-p2-hashira
+    type: hashira
+    text: 被告人又は弁護人は、前項の開示の請求をするときは、次に掲げる事項を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-316-20-p2-kou-1
+    type: kou
+    text: 一　開示の請求に係る証拠を識別するに足りる事項
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-316-20-p2-kou-2
+    type: kou
+    text: 二　第三百十六条の十七第一項の主張と開示の請求に係る証拠との関連性その他の被告人の防御の準備のために当該開示が必要である理由
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -51,3 +76,7 @@ parent_section:
 ### 第三百十六条の二十第二項
 
 被告人又は弁護人は、前項の開示の請求をするときは、次に掲げる事項を明らかにしなければならない。
+
+一　開示の請求に係る証拠を識別するに足りる事項
+
+二　第三百十六条の十七第一項の主張と開示の請求に係る証拠との関連性その他の被告人の防御の準備のために当該開示が必要である理由

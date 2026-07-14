@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-10-p1 -->
 法人でない社団又は財団で代表者又は管理人の定めがあるものは、その名で審査請求をすることができる。

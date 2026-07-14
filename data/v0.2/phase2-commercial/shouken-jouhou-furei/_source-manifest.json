@@ -4,13 +4,13 @@
   "law_name_ja": "証券情報等の提供又は公表に関する内閣府令",
   "law_abbrev": "shouken-jouhou-furei",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/420M60000002078",
-  "source_xml_path": "../../../cache/laws/420M60000002078.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\420M60000002078.xml",
   "source_xml_sha256": "5c2f4ff01a2dd2ec4b282fb26ebcf3fb3e3cdc95372a343d86174163fbf8f345",
   "source_xml_bytes": 128759,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:28:40+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-14T01:45:15+00:00",
   "version_date": "2008-12-05",
   "article_count": 19,
   "articles": [
@@ -18,152 +18,152 @@
       "article_id": "shouken-jouhou-furei-art-1",
       "article_number": "1",
       "filename": "shouken-jouhou-furei-article-1.md",
-      "ja_text_sha256": "fbd34efbf99590c3845d8685189ac0de4dd33fc83278226a5403c87d93c62e1f",
-      "ja_text_bytes": 185,
+      "ja_text_sha256": "eab43feb76f4adb78ce4d246376d24939c008c3361fb820f60f9176669458ee5",
+      "ja_text_bytes": 1275,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-10-2",
       "article_number": "10-2",
       "filename": "shouken-jouhou-furei-article-10-2.md",
-      "ja_text_sha256": "15a161bc475086da35e876053dac9ffa160474d6b3509c875d9c82ec8766b91c",
-      "ja_text_bytes": 362,
+      "ja_text_sha256": "e8c40c7499f4564304890606ad12b273f171286d231a55ad64a8f51d277b1457",
+      "ja_text_bytes": 1439,
       "paragraph_count": 2
     },
     {
       "article_id": "shouken-jouhou-furei-art-10",
       "article_number": "10",
       "filename": "shouken-jouhou-furei-article-10.md",
-      "ja_text_sha256": "16bc6147ebb74722d4ea00cc27a5f2b90643cf3407d9c3cc590c3191b21f2e86",
-      "ja_text_bytes": 309,
+      "ja_text_sha256": "18be011a5d084014389deabcfc6d77c7a3c83d8fa97446b9903b8a1ef7282076",
+      "ja_text_bytes": 650,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-11",
       "article_number": "11",
       "filename": "shouken-jouhou-furei-article-11.md",
-      "ja_text_sha256": "a4b560bc5ee94c4371da8b0a41f199ae7e4efe44892171828262f5797a63b50d",
-      "ja_text_bytes": 384,
+      "ja_text_sha256": "8ae1dc288e7b81fed37dcd41da760f4b5fd1356a26df807b66c31b64b899673b",
+      "ja_text_bytes": 579,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-12",
       "article_number": "12",
       "filename": "shouken-jouhou-furei-article-12.md",
-      "ja_text_sha256": "e4458d975a56b60625495163a1541809ce134d097bed606f2de656e88daa4779",
-      "ja_text_bytes": 1225,
+      "ja_text_sha256": "d7e9b1ccf8d754ead43cc951f1bb6d61253359270c44daa785cfd0785bb59c41",
+      "ja_text_bytes": 1708,
       "paragraph_count": 3
     },
     {
       "article_id": "shouken-jouhou-furei-art-13",
       "article_number": "13",
       "filename": "shouken-jouhou-furei-article-13.md",
-      "ja_text_sha256": "2b3c3bf9fd274867334426774f901bec9d31a41f96bec644055be4d2639b9596",
-      "ja_text_bytes": 255,
+      "ja_text_sha256": "b65a791cdcebefdc29c12160293a5a6e12abdfcc9c686a358bfd90ab4617d452",
+      "ja_text_bytes": 2868,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-14",
       "article_number": "14",
       "filename": "shouken-jouhou-furei-article-14.md",
-      "ja_text_sha256": "d07f7ae270df497c51975e9b1591fd4420cdb1dddb49876d6c67accb3494ae82",
-      "ja_text_bytes": 201,
+      "ja_text_sha256": "87dbaa94b3d3d8f14f00850fa8ced6465563941c0db74befaa1481b6411ae5ca",
+      "ja_text_bytes": 1839,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-15",
       "article_number": "15",
       "filename": "shouken-jouhou-furei-article-15.md",
-      "ja_text_sha256": "9465b703a5dee276b0d40957177b56ed8ec17015f091c87d223b5d7f1a5ed4e6",
-      "ja_text_bytes": 650,
+      "ja_text_sha256": "dd7a101e6324fa6da20040ff0226be386c8d6bc5a4bc9efec961ec67ace1de17",
+      "ja_text_bytes": 1511,
       "paragraph_count": 2
     },
     {
       "article_id": "shouken-jouhou-furei-art-16",
       "article_number": "16",
       "filename": "shouken-jouhou-furei-article-16.md",
-      "ja_text_sha256": "053d7036672c67b8f2d3912782572f0e3765e20a294c01d707a413db9d687aff",
-      "ja_text_bytes": 219,
+      "ja_text_sha256": "8364326a3e19c19780a10966a697916e8db43dc6fd1fdfc9ca7caefd73c72cbe",
+      "ja_text_bytes": 687,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-17",
       "article_number": "17",
       "filename": "shouken-jouhou-furei-article-17.md",
-      "ja_text_sha256": "8b758ab11fbd3ccc29f09864d4814666e25e7ae55980738d6035f8ebe0bcc910",
-      "ja_text_bytes": 1384,
+      "ja_text_sha256": "2fb925a24f60a34121f272265b65fb7cccd5ce04cb3deec7ab2e62b63256424f",
+      "ja_text_bytes": 2614,
       "paragraph_count": 3
     },
     {
       "article_id": "shouken-jouhou-furei-art-18",
       "article_number": "18",
       "filename": "shouken-jouhou-furei-article-18.md",
-      "ja_text_sha256": "4eefc1f7570e2558011e58b8bb171ebea4bec2b3f60eb868ec7515c2f148a81c",
-      "ja_text_bytes": 264,
+      "ja_text_sha256": "07c394103e3ffaafe2442392ab5c6f7262f6aa52150f9c12cd2bdc3e4f91d7f2",
+      "ja_text_bytes": 204,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-2",
       "article_number": "2",
       "filename": "shouken-jouhou-furei-article-2.md",
-      "ja_text_sha256": "069a41a2b48551bb8204fa06e76aa68e40d93685bb23d222a0ef8af9244f86af",
-      "ja_text_bytes": 753,
+      "ja_text_sha256": "a8ab550eaa076994110455d28677019c7d192fb52a09b13862ea81b8b79abbb3",
+      "ja_text_bytes": 3837,
       "paragraph_count": 2
     },
     {
       "article_id": "shouken-jouhou-furei-art-3",
       "article_number": "3",
       "filename": "shouken-jouhou-furei-article-3.md",
-      "ja_text_sha256": "d6a823884b2a8913732b1781b59182cb976202e2dcf7f6dd7f75e3ad399cb132",
-      "ja_text_bytes": 272,
+      "ja_text_sha256": "adfd674c0e0082fa906fd1c8275c553fa3b674479d3d349942a3cd027e5a7667",
+      "ja_text_bytes": 486,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-4",
       "article_number": "4",
       "filename": "shouken-jouhou-furei-article-4.md",
-      "ja_text_sha256": "404432687de42121aa2089132b9e7e0613bd3f7116a9a02de792949a2147004f",
-      "ja_text_bytes": 1216,
+      "ja_text_sha256": "ba07248578a8cec9b222f3bd9ac4227c04a92366a7415cffbe2309148ea17020",
+      "ja_text_bytes": 1527,
       "paragraph_count": 3
     },
     {
       "article_id": "shouken-jouhou-furei-art-5",
       "article_number": "5",
       "filename": "shouken-jouhou-furei-article-5.md",
-      "ja_text_sha256": "468661ebc71a6a558ca3f221637bff452585cbcfcd2da240a84923439a7a7b14",
-      "ja_text_bytes": 1384,
+      "ja_text_sha256": "13078bb9181f18b16f8db100d12a910089c3a3fa28bafb48a44b8238f8eedce4",
+      "ja_text_bytes": 2888,
       "paragraph_count": 3
     },
     {
       "article_id": "shouken-jouhou-furei-art-6",
       "article_number": "6",
       "filename": "shouken-jouhou-furei-article-6.md",
-      "ja_text_sha256": "7975a2903c596c47b9f5d51fe47cdf130338b724ef1340c3a39b86b88d51e551",
-      "ja_text_bytes": 371,
+      "ja_text_sha256": "1e399e5ecd4d558f104bc8876654615ad92806868811538f3cee72d556f16e2f",
+      "ja_text_bytes": 312,
       "paragraph_count": 1
     },
     {
       "article_id": "shouken-jouhou-furei-art-7",
       "article_number": "7",
       "filename": "shouken-jouhou-furei-article-7.md",
-      "ja_text_sha256": "c5245de7dbbbb8ce56bbc1422db0800eeb441b8117bc4b45066e2237b057451e",
-      "ja_text_bytes": 1960,
+      "ja_text_sha256": "d16e5d86c0893544f014af4be24ae6cf5b71224cdba86f70aebaf6f32469e233",
+      "ja_text_bytes": 5454,
       "paragraph_count": 6
     },
     {
       "article_id": "shouken-jouhou-furei-art-8",
       "article_number": "8",
       "filename": "shouken-jouhou-furei-article-8.md",
-      "ja_text_sha256": "3b8b4c53926ea9d3262332d13d6ddce1e65f8081f21745a5f7c4d2e41710b3f5",
-      "ja_text_bytes": 1044,
+      "ja_text_sha256": "ac494e2ac98b385b2fdc1548dcd9a39d561cfffe547cc1ccda4b9cd059fb4c91",
+      "ja_text_bytes": 1958,
       "paragraph_count": 2
     },
     {
       "article_id": "shouken-jouhou-furei-art-9",
       "article_number": "9",
       "filename": "shouken-jouhou-furei-article-9.md",
-      "ja_text_sha256": "540408039045f1b21e7691c8d8a9388b7a3dfbd6b22e50e5ff87029b09e94ed1",
-      "ja_text_bytes": 701,
+      "ja_text_sha256": "06d57af1de7e0ed9a400d8ba0aae80f2727d0e500e40f1ee9e82f83d7c2a56a3",
+      "ja_text_bytes": 897,
       "paragraph_count": 1
     }
   ]

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-66-2-p1
+    type: simple
+    text: 法第十四条の六第一項の規定による公示は、官報に掲載する方法により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

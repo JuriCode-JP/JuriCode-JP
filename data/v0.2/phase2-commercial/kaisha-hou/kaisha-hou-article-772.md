@@ -55,11 +55,8 @@ parent_section:
 
 ### 第七百七十二条第一項
 
-<!-- segment: zen_dan id: kaisha-hou-art-772-p1-zen -->
-一又は二以上の株式会社は、株式移転をすることができる。<!-- segment: kou_dan id: kaisha-hou-art-772-p1-kou depends_on: kaisha-hou-art-772-p1-zen -->
-この場合においては、株式移転計画を作成しなければならない。
+一又は二以上の株式会社は、株式移転をすることができる。この場合においては、株式移転計画を作成しなければならない。
 
 ### 第七百七十二条第二項
 
-<!-- segment: simple id: kaisha-hou-art-772-p2 -->
 二以上の株式会社が共同して株式移転をする場合には、当該二以上の株式会社は、共同して株式移転計画を作成しなければならない。

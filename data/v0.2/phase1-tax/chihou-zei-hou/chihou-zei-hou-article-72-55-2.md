@@ -13,20 +13,44 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-55-2-p1-honbun
+    type: honbun
+    text: 個人の行なう事業に対する事業税の納税義務者が前年分の所得税につき所得税法第二条第一項第三十七号の確定申告書を提出し、又は道府県民税につき第四十五条の二第一項の申告書を提出した場合（政令で定める場合を除く。）には、本節の規定の適用については、当該申告書が提出された日に前条第一項から第三項までの規定による申告がされたものとみなす。
+    modality: unspecified
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-72-55-2-p1-tadashi
+    type: tadashi
+    text: ただし、同日前に当該申告がされた場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-55-2-p2
+    type: simple
+    text: 前項本文の場合には、当該申告書に記載された事項のうち前条第一項から第三項までに規定する事項に相当するもの及び次項の規定により附記された事項は、同条第一項から第三項までの規定により申告されたものとみなす。
+    modality: unspecified
+    references:
+    - 次項
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-55-2-p3
+    type: simple
+    text: 第一項本文の場合には、同項に規定する申告書を提出する者は、当該申告書に、総務省令で定めるところにより、事業税の賦課徴収につき必要な事項を附記しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

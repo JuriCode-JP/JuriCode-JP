@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-5-2-p1
+    type: simple
+    text: 法第八十八条の七第一項第二号に規定する財務省令で定めるアルコールは、エネルギー源の環境適合利用に関する石油精製業者の判断の基準（令和五年経済産業省告示第三十二号）に規定するカーボンリサイクル技術を用いて製造されたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

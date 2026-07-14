@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-7-p1
+    type: simple
+    text: 前条第一項に定める発行予定期間を経過する日前において発行予定額全額の有価証券の募集又は売出しが終了したときは、発行登録者は、内閣府令で定めるところによりその旨を記載した発行登録取下届出書を内閣総理大臣に提出して、発行登録を取り下げなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-7-p2
+    type: tokusoku
+    text: 前項の場合においては、発行登録は、前条第二項の規定にかかわらず、内閣総理大臣が当該発行登録取下届出書を受理した日に、その効力を失う。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -43,6 +43,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: honbun id: kinsho-kachoukin-furei-art-18-p1-honbun -->
-審判手続の期日は、金融庁の審判廷で行う。<!-- segment: tadashi id: kinsho-kachoukin-furei-art-18-p1-tadashi -->
-ただし、審判官は、必要があると認めるときは、審判手続の期日に適当な場所を審判廷に定めることができる。
+審判手続の期日は、金融庁の審判廷で行う。ただし、審判官は、必要があると認めるときは、審判手続の期日に適当な場所を審判廷に定めることができる。

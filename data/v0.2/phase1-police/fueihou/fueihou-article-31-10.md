@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-10-p1
+    type: simple
+    text: 映像送信型性風俗特殊営業を営む者又はその代理人等が、当該営業に関し、第三十一条の八第三項又は第四項の規定に違反したときは、当該違反行為が行われた時における事務所の所在地を管轄する公安委員会は、当該映像送信型性風俗特殊営業を営む者に対し、当該営業を営む方法について、十八歳未満の者を客としないため必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

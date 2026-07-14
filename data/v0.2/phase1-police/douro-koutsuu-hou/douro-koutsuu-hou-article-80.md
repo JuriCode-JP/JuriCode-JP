@@ -53,10 +53,8 @@ parent_section:
 
 ### 第八十条第一項
 
-<!-- segment: tokusoku id: douro-koutsuu-hou-art-80-p1 override_flag: true override_target: 第七十七条 -->
 道路法による道路の管理者が道路の維持、修繕その他の管理のため工事又は作業を行なおうとするときは、当該道路の管理者は、第七十七条第一項の規定にかかわらず、所轄警察署長に協議すれば足りる。
 
 ### 第八十条第二項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-80-p2 -->
 前項の協議について必要な事項は、内閣府令・国土交通省令で定める。

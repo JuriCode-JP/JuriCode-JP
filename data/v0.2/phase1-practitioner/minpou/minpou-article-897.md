@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -36,8 +36,8 @@ paragraphs:
     text: 前項本文の場合において慣習が明らかでないときは、同項の権利を承継すべき者は、家庭裁判所が定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -58,10 +58,8 @@ parent_section:
 
 ### 第八百九十七条第一項
 
-<!-- segment: tokusoku id: minpou-art-897-p1 override_flag: true override_target: 前条 -->
 系譜、祭具及び墳墓の所有権は、前条の規定にかかわらず、慣習に従って祖先の祭祀を主宰すべき者が承継する。ただし、被相続人の指定に従って祖先の祭祀を主宰すべき者があるときは、その者が承継する。
 
 ### 第八百九十七条第二項
 
-<!-- segment: simple id: minpou-art-897-p2 -->
 前項本文の場合において慣習が明らかでないときは、同項の権利を承継すべき者は、家庭裁判所が定める。

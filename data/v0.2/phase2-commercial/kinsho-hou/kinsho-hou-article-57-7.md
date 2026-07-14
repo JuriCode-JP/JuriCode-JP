@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-7-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、次に掲げる場合には、内閣府令で定めるところにより、その旨を公告しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-57-7-p1-kou-1
+    type: kou
+    text: 一　前条第一項の規定により業務の全部又は一部の停止を命じたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-57-7-p1-kou-2
+    type: kou
+    text: 二　前条第三項の規定により第二十九条の登録を取り消したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +52,7 @@ parent_section:
 ### 第五十七条の七
 
 内閣総理大臣は、次に掲げる場合には、内閣府令で定めるところにより、その旨を公告しなければならない。
+
+一　前条第一項の規定により業務の全部又は一部の停止を命じたとき。
+
+二　前条第三項の規定により第二十九条の登録を取り消したとき。

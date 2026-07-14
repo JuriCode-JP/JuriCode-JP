@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-50-4-p1
+    type: simple
+    text: 分離課税に係る所得割の税率は、百分の四とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

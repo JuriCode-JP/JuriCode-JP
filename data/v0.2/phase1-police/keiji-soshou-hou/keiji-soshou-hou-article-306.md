@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三百六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-306-p1 -->
 検察官、被告人又は弁護人の請求により、証拠物の取調をするについては、裁判長は、請求をした者をしてこれを示させなければならない。但し、裁判長は、自らこれを示し、又は陪席の裁判官若しくは裁判所書記にこれを示させることができる。
 
 ### 第三百六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-306-p2 -->
 裁判所が職権で証拠物の取調をするについては、裁判長は、自らこれを訴訟関係人に示し、又は陪席の裁判官若しくは裁判所書記にこれを示させなければならない。

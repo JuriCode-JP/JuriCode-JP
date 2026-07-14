@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第十二号に規定する公益社団法人又は公益財団法人で学術の研究を目的とするものがその目的のため直接その研究の用に供する固定資産で政令で定めるものは、次に掲げる固定資産以外の固定資産とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-50-5-p1-kou-1
+    type: kou
+    text: 一　宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-50-5-p1-kou-2
+    type: kou
+    text: 二　他の者に貸し付けている固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-50-5-p1-kou-3
+    type: kou
+    text: 三　職員の福利及び厚生の用に供する固定資産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第五十条の五
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-50-5-p1-hashira -->
 法第三百四十八条第二項第十二号に規定する公益社団法人又は公益財団法人で学術の研究を目的とするものがその目的のため直接その研究の用に供する固定資産で政令で定めるものは、次に掲げる固定資産以外の固定資産とする。
+
+一　宿舎の用に供する固定資産
+
+二　他の者に貸し付けている固定資産
+
+三　職員の福利及び厚生の用に供する固定資産

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十六条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-46-p1 -->
 法第二百九十二条第一項第十号に規定する政令で定める者は、第七条に規定する者とする。

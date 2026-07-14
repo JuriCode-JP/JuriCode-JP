@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十条
 
-<!-- segment: simple id: minpou-art-90-p1 -->
 公の秩序又は善良の風俗に反する法律行為は、無効とする。

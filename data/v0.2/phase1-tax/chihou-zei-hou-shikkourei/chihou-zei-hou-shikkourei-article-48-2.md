@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十八条の二第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-2-p1 -->
 法第三百十二条第六項に規定する政令で定める日は、第四十五条の三において読み替えて準用する第六条の二十三第一号に掲げる日とする。
 
 ### 第四十八条の二第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-2-p2 -->
 法第三百十二条第七項に規定する政令で定める日は、第四十五条の三において読み替えて準用する第六条の二十三第二号に掲げる日とする。

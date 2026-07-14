@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十八条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-168-p1 -->
 委員会は、毎年、内閣総理大臣を経由して国会に対し所掌事務の処理状況を報告するとともに、その概要を公表しなければならない。

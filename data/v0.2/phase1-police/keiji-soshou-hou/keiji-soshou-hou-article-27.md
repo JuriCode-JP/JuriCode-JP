@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-27-p1 -->
 被告人又は被疑者が法人であるときは、その代表者が、訴訟行為についてこれを代表する。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-27-p2 -->
 数人が共同して法人を代表する場合にも、訴訟行為については、各自が、これを代表する。

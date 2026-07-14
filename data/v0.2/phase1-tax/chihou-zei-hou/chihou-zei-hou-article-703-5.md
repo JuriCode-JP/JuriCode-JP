@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-703-5-p1
+    type: simple
+    text: 市町村は、国民健康保険税の納税義務者並びにその世帯に属する被保険者及び特定同一世帯所属者につき算定した第三百十四条の二第一項に規定する総所得金額（青色専従者給与額又は事業専従者控除額については、第三百十三条第三項、第四項又は第五項の規定を適用せず、また、所得税法第五十七条第一項、第三項又は第四項の規定の例によらないものとする。以下この項中山林所得金額の算定について同じ。）及び山林所得金額の合算額が、低所得者世帯の負担能力を考慮して政令で定める金額を超えない場合には、政令で定める基準に従い当該市町村の条例で定めるところにより、当該納税義務者に対して課する被保険者均等割額及び十八歳以上被保険者均等割額又は世帯別平等割額を減額するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-703-5-p2
+    type: simple
+    text: 市町村は、国民健康保険税の納税義務者の属する世帯内に六歳に達する日以後の最初の三月三十一日以前である被保険者がある場合には、政令で定める基準に従い当該市町村の条例で定めるところにより、当該納税義務者に対して課する被保険者均等割額を減額するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-703-5-p3
+    type: simple
+    text: 市町村は、国民健康保険税の納税義務者又はその世帯に属する被保険者が出産する予定の場合又は出産した場合には、政令で定める基準に従い当該市町村の条例で定めるところにより、当該納税義務者に対して課する所得割額、被保険者均等割額及び十八歳以上被保険者均等割額を減額するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-703-5-p4
+    type: simple
+    text: 市町村は、国民健康保険税の納税義務者の属する世帯内に十八歳に達する日以後の最初の三月三十一日以前である被保険者がある場合には、政令で定める基準に従い当該市町村の条例で定めるところにより、当該納税義務者に対して課する前条第三十項の被保険者均等割額を減額するものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

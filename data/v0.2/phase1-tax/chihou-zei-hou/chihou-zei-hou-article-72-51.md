@@ -13,20 +13,36 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-51-p1
+    type: simple
+    text: 個人の行う事業に対する事業税の納期は、八月及び十一月中において当該道府県の条例で定める。但し、特別の事情がある場合においては、これと異なる納期を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-51-p2
+    type: simple
+    text: 個人の事業税額が道府県の条例で定める金額以下であるものについては、当該道府県は、前項の規定によつて定められた納期のうちいずれか一の納期において、その全額を徴収することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-51-p3
+    type: simple
+    text: 年の中途において事業を廃止した場合における個人の行う事業に対する事業税は、前二項の規定にかかわらず、当該事業の廃止後（当該個人が当該年の一月一日から三月三十一日までの間において事業を廃止した場合においては、当該年の三月三十一日後）直ちに課するものとする。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

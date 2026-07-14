@@ -16,27 +16,52 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-5-p1
+    type: simple
+    text: 地域自治区に、地域協議会を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-5-p2
+    type: simple
+    text: 地域協議会の構成員は、地域自治区の区域内に住所を有する者のうちから、市町村長が選任する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-5-p3
+    type: simple
+    text: 市町村長は、前項の規定による地域協議会の構成員の選任に当たつては、地域協議会の構成員の構成が、地域自治区の区域内に住所を有する者の多様な意見が適切に反映されるものとなるよう配慮しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-5-p4
+    type: simple
+    text: 地域協議会の構成員の任期は、四年以内において条例で定める期間とする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-5-p5
+    type: tokusoku
+    text: 第二百三条の二第一項の規定にかかわらず、地域協議会の構成員には報酬を支給しないこととすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 cases: []
 amendments: []
 tags:

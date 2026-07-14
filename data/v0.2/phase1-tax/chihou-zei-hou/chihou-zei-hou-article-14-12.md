@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-12-p1-honbun
+    type: honbun
+    text: 前三条の規定に基き地方団体の徴収金に先だつ質権又は抵当権により担保される債権の元本の金額は、その質権者又は抵当権者がその地方団体の徴収金に係る差押又は交付要求の通知を受けた時における債権額を限度とする。
+    modality: gimu
+    references:
+    - 前三条
+  - id: chihou-zei-hou-art-14-12-p1-tadashi
+    type: tadashi
+    text: ただし、その地方団体の徴収金に優先する他の債権を有する者の権利を害することとなるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-12-p2
+    type: simple
+    text: 質権又は抵当権により担保される債権額又は極度額を増加する登記がされた場合には、その登記がされた時において、その増加した債権額又は極度額につき新たに質権又は抵当権が設定されたものとみなして、前三条の規定を適用する。
+    modality: unspecified
+    references:
+    - 前三条
 cases: []
 amendments: []
 tags:

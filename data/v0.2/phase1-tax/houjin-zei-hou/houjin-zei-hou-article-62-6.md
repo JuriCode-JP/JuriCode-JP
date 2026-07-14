@@ -16,17 +16,48 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-6-p1
+    type: simple
+    text: 分割法人が分割により交付を受ける第二条第十二号の九イ（定義）に規定する分割対価資産（次項において「分割対価資産」という。）の一部のみを当該分割法人の株主等に交付をする分割（二以上の法人を分割法人とする分割で法人を設立するものを除く。）が行われたときは、分割型分割と分社型分割の双方が行われたものとみなす。
+    modality: unspecified
+    references:
+    - 次項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-6-p2-hashira
+    type: hashira
+    text: 二以上の法人を分割法人とする分割で法人を設立するものが行われた場合において、分割法人のうちに、次の各号のうち二以上の号に掲げる法人があるとき、又は第三号に掲げる法人があるときは、当該各号に掲げる法人を分割法人とする当該各号に定める分割がそれぞれ行われたものとみなす。
+    modality: unspecified
+  - id: houjin-zei-hou-art-62-6-p2-kou-1
+    type: kou
+    text: 一　当該分割により交付を受けた分割対価資産の全部をその株主等に交付した法人　分割型分割
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-62-6-p2-kou-2
+    type: kou
+    text: 二　当該分割により交付を受けた分割対価資産をその株主等に交付しなかつた法人　分社型分割
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-art-62-6-p2-kou-3
+    type: kou
+    text: 三　当該分割により交付を受けた分割対価資産の一部のみをその株主等に交付した法人　分割型分割及び分社型分割の双方
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-6-p3
+    type: simple
+    text: 前二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:
@@ -54,6 +85,12 @@ parent_section:
 ### 第六十二条の六第二項
 
 二以上の法人を分割法人とする分割で法人を設立するものが行われた場合において、分割法人のうちに、次の各号のうち二以上の号に掲げる法人があるとき、又は第三号に掲げる法人があるときは、当該各号に掲げる法人を分割法人とする当該各号に定める分割がそれぞれ行われたものとみなす。
+
+一　当該分割により交付を受けた分割対価資産の全部をその株主等に交付した法人　分割型分割
+
+二　当該分割により交付を受けた分割対価資産をその株主等に交付しなかつた法人　分社型分割
+
+三　当該分割により交付を受けた分割対価資産の一部のみをその株主等に交付した法人　分割型分割及び分社型分割の双方
 
 ### 第六十二条の六第三項
 

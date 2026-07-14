@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第百九十五条第二号（小規模事業者の要件）に規定する税務署長の承認を受けようとする者は、再び法第六十七条第一項（小規模事業者等の収入及び費用の帰属時期）の規定の適用を受けようとする年の一月三十一日までに、次に掲げる事項を記載した申請書を、納税地の所轄税務署長に提出しなければならない。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-39-2-p1-kou-1
+    type: kou
+    text: 一　その申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-39-2-p1-kou-2
+    type: kou
+    text: 二　前に法第六十七条第一項の規定の適用を受けていた期間及びその適用を受けないこととなつた事由
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-39-2-p1-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +85,22 @@ parent_section:
 
 ### 第三十九条の二第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-39-2-p1-hashira -->
 令第百九十五条第二号（小規模事業者の要件）に規定する税務署長の承認を受けようとする者は、再び法第六十七条第一項（小規模事業者等の収入及び費用の帰属時期）の規定の適用を受けようとする年の一月三十一日までに、次に掲げる事項を記載した申請書を、納税地の所轄税務署長に提出しなければならない。
+
+一　その申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　前に法第六十七条第一項の規定の適用を受けていた期間及びその適用を受けないこととなつた事由
+
+三　その他参考となるべき事項
 
 ### 第三十九条の二第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-39-2-p2 -->
 税務署長は、前項の申請書の提出があつた場合において、法第六十七条第一項の規定による不動産所得の金額又は事業所得の金額の計算によつてはその者のその後の各年分の不動産所得の金額又は事業所得の金額の計算が適正に行われ難いと認めるときは、その申請を却下することができる。
 
 ### 第三十九条の二第三項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-39-2-p3 -->
 税務署長は、第一項の申請書の提出があつた場合において、その申請につき承認又は却下の処分をするときは、その申請をした者に対し、書面によりその旨を通知する。
 
 ### 第三十九条の二第四項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-39-2-p4 -->
 第一項の申請書の提出があつた場合において、再び法第六十七条第一項の規定の適用を受けようとする年の三月十五日までにその申請につき承認又は却下の処分がなかつたときは、その日においてその承認があつたものとみなす。

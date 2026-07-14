@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-5-p1-hashira
+    type: hashira
+    text: 道府県は、次に掲げる軽油の引取りに対しては、第百四十四条の十四第四項の規定による道府県知事の承認があつた場合に限り、軽油引取税を課さないものとする。
+    modality: gimu
+  - id: chihou-zei-hou-art-144-5-p1-kou-1
+    type: kou
+    text: 一　軽油の引取りで本邦からの輸出として行われたもの
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-144-5-p1-kou-2
+    type: kou
+    text: 二　既に軽油引取税を課された軽油に係る引取り
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +52,7 @@ parent_section:
 ### 第百四十四条の五
 
 道府県は、次に掲げる軽油の引取りに対しては、第百四十四条の十四第四項の規定による道府県知事の承認があつた場合に限り、軽油引取税を課さないものとする。
+
+一　軽油の引取りで本邦からの輸出として行われたもの
+
+二　既に軽油引取税を課された軽油に係る引取り

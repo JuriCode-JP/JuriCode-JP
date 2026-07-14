@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-7-p1
+    type: simple
+    text: 法第二十三条の二の六の三第一項の規定により条件及び期限を付した法第二十三条の二の五の承認を受けた医療機器又は体外診断用医薬品につき当該承認を受けた者が行う法第二十三条の二の六の三第四項の調査は、当該期限（同条第三項の規定による延長が行われたときは、その延長後のもの）までの期間、当該医療機器又は体外診断用医薬品の不具合等の発現状況その他の品質、有効性及び安全性に関する事項について行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-7-p2
+    type: simple
+    text: 法第二十三条の二の六の三第四項の規定による厚生労働大臣に対する報告は、当該調査に係る医療機器又は体外診断用医薬品の製造販売の承認の際に厚生労働大臣が指示した日から起算して一年（厚生労働大臣が指示する医療機器又は体外診断用医薬品にあつては、厚生労働大臣が指示する期間）ごとに、その期間の満了後二月以内に行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

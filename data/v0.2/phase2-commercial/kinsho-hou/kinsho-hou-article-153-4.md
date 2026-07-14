@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-153-4-p1
+    type: junyou
+    text: 第百四十八条、第百四十九条、第百五十条第一項及び第百五十一条から第百五十三条までの規定は、自主規制法人が第八十五条第一項の認可により金融商品取引所から委託を受けて当該金融商品取引所に係る自主規制業務を行う場合の監督について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第百五十一条から第百五十三条まで
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-4-p1
+    type: simple
+    text: 内閣総理大臣は、前条の規定による権限を再就職等監視委員会に委任する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

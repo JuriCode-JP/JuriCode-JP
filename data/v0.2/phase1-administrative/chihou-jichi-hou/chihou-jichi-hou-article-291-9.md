@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-9-p1
+    type: simple
+    text: 第二百九十一条の四第一項第九号に掲げる広域連合の経費の支弁の方法として、広域連合を組織する普通地方公共団体又は特別区の分賦金に関して定める場合には、広域連合が作成する広域計画の実施のために必要な連絡調整及び広域計画に基づく総合的かつ計画的な事務の処理に資するため、当該広域連合を組織する普通地方公共団体又は特別区の人口、面積、地方税の収入額、財政力その他の客観的な指標に基づかなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-9-p2
+    type: simple
+    text: 前項の規定により定められた広域連合の規約に基づく地方公共団体の分賦金については、当該地方公共団体は、必要な予算上の措置をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

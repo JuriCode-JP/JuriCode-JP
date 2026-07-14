@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-146-5-p1
+    type: simple
+    text: 法第四十三条の六第二項に規定する内閣府令で定める事項は、第七十八条第五号から第七号まで及び第十三号ロからホまでに掲げる事項とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

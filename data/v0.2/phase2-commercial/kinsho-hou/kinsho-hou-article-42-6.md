@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-42-6-p1-honbun
+    type: honbun
+    text: 金融商品取引業者等は、その行う投資運用業に関して、顧客に対し金銭若しくは有価証券を貸し付け、又は顧客への第三者による金銭若しくは有価証券の貸付けにつき媒介、取次ぎ若しくは代理をしてはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-42-6-p1-tadashi
+    type: tadashi
+    text: ただし、金融商品取引業者が第百五十六条の二十四第一項に規定する信用取引に付随して顧客に対し金銭又は有価証券を貸し付ける場合その他政令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

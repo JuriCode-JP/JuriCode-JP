@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百六十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-367-p1 -->
 前条の規定は、刑事施設にいる被告人が上訴の放棄若しくは取下げ又は上訴権回復の請求をする場合にこれを準用する。

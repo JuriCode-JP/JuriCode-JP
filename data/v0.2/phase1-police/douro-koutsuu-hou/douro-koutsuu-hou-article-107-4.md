@@ -16,22 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-4-p1-zen
+    type: zen_dan
+    text: 公安委員会は、国際運転免許証等を所持する者について、当該国際運転免許証等に係る発給の条件が満たされなくなつたと疑う理由があるとき（その者が第百三条第一項第一号から第三号までのいずれかに該当することとなつたと疑う理由があるときに限る。）は、臨時に適性検査を行うことができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-107-4-p1-kou
+    type: kou_dan
+    text: この場合において、公安委員会は、前条の規定による報告の内容その他の事情を考慮するとともに、あらかじめ、適性検査を行う期日、場所その他必要な事項をその者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: douro-koutsuu-hou-art-107-4-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-4-p2
+    type: simple
+    text: 前項後段の規定による通知を受けた者は、通知された期日に通知された場所に出頭して適性検査を受けなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-4-p3
+    type: simple
+    text: 公安委員会は、道路における危険を防止し、その他交通の安全を図るため必要があると認めるときは、第一項の適性検査を受けた者に対し、運転をするに当たつてその者の身体の状態に応じた必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-4-p4
+    type: simple
+    text: 前三項に定めるもののほか、第一項の規定による適性検査について必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前三項
+  - id: douro-koutsuu-hou-art-107-4-supplnote-1
+    type: supplnote
+    text: （罰則　第三項については第百十九条第一項第二十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -63,3 +94,5 @@ parent_section:
 ### 第百七条の四第四項
 
 前三項に定めるもののほか、第一項の規定による適性検査について必要な事項は、内閣府令で定める。
+
+（罰則　第三項については第百十九条第一項第二十号）

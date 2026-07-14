@@ -68,20 +68,16 @@ parent_section:
 
 ### 第三十一条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-31-p1 -->
 指定職員又は被審人若しくはその代理人は、証拠の申出をすることができる。
 
 ### 第三十一条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-31-p2 -->
 証拠の申出は、証明すべき事実を特定し、証明すべき事実と証拠との関係を具体的に明示してしなければならない。
 
 ### 第三十一条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-31-p3 -->
 証拠の申出は、期日前においてもすることができる。
 
 ### 第三十一条第四項
 
-<!-- segment: junyou id: kinsho-kachoukin-furei-art-31-p4 -->
 第二十八条第二項、第三項及び第五項の規定は、証拠の申出を記載した書面について準用する。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -52,10 +52,8 @@ parent_section:
 
 ### 第三百七十一条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-371-p1 -->
 納税者が納期限までに固定資産税に係る地方団体の徴収金を完納しない場合においては、市町村の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。但し、繰上徴収をする場合においては、この限りでない。
 
 ### 第三百七十一条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-371-p2 -->
 特別の事情がある市町村においては、当該市町村の条例で前項に規定する期間と異なる期間を定めることができる。

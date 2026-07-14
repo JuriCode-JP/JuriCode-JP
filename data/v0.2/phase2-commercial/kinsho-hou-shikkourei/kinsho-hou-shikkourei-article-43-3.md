@@ -14,29 +14,77 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-3-p1-hashira
+    type: hashira
+    text: 長官権限のうち次の各号に掲げるものは、当該各号に定める所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-43-3-p1-kou-1
+    type: kou
+    text: 一　法第六十四条の七第五項（法第六十六条の二十五において準用する場合を含む。）の規定による届出の受理　当該届出に係る外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-43-3-p1-kou-2
+    type: kou
+    text: 二　法第六十四条の七第七項（法第六十六条の二十五において準用する場合を含む。）の規定による命令　法第六十四条の五第一項各号のいずれかに該当する外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-43-3-p1-kou-3
+    type: kou
+    text: 三　法第六十四条の七第八項（法第六十六条の二十五において準用する場合を含む。）の規定による聴聞　法第六十四条の五第一項各号のいずれかに該当する外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-43-3-p1-kou-4
+    type: kou
+    text: 四　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち前号に規定する聴聞に係るもの　法第六十四条の五第一項第一号又は第二号に該当する外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-3-p2
+    type: simple
+    text: 長官権限のうち法第六十七条の十三の規定による権限は、認可金融商品取引業協会の主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-3-p3-honbun
+    type: honbun
+    text: 長官権限のうち法第七十五条及び第七十九条の四の規定による権限（法第百九十四条の七第二項第四号及び第五号の規定並びに第三十八条の二第二項の規定により委員会に委任されたものを除く。）は、協会の主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-43-3-p3-tadashi
+    type: tadashi
+    text: ただし、金融庁長官が自らその権限を行うことを妨げない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-3-p4
+    type: simple
+    text: 前項に規定する権限で協会の主たる事務所以外の事務所、当該協会から業務の委託を受けた者（その者から委託（二以上の段階にわたる委託を含む。）を受けた者を含む。以下この項において同じ。）又は認可金融商品取引業協会に登録されている店頭売買有価証券若しくは当該認可金融商品取引業協会が取扱有価証券としての指定をする有価証券の発行者（以下この条において「従たる事務所等」という。）に関するものについては、前項に規定する財務局長又は福岡財務支局長のほか、従たる事務所等の所在地（業務の委託を受けた者が個人の場合にあつては、その住所又は居所）を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地が国外にある場合にあつては関東財務局長）も行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-3-p5
+    type: simple
+    text: 前項の規定により従たる事務所等に対して検査等を行つた財務局長又は福岡財務支局長は、当該協会の主たる事務所又は当該従たる事務所等以外の従たる事務所等に対して検査等の必要を認めたときは、当該主たる事務所又は当該従たる事務所等以外の従たる事務所等に対し、検査等を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -54,6 +102,14 @@ parent_section:
 ### 第四十三条の三第一項
 
 長官権限のうち次の各号に掲げるものは、当該各号に定める所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+
+一　法第六十四条の七第五項（法第六十六条の二十五において準用する場合を含む。）の規定による届出の受理　当該届出に係る外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+
+二　法第六十四条の七第七項（法第六十六条の二十五において準用する場合を含む。）の規定による命令　法第六十四条の五第一項各号のいずれかに該当する外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+
+三　法第六十四条の七第八項（法第六十六条の二十五において準用する場合を含む。）の規定による聴聞　法第六十四条の五第一項各号のいずれかに該当する外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
+
+四　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち前号に規定する聴聞に係るもの　法第六十四条の五第一項第一号又は第二号に該当する外務員の所属する金融商品取引業者、登録金融機関又は金融商品仲介業者の本店等の所在地
 
 ### 第四十三条の三第二項
 

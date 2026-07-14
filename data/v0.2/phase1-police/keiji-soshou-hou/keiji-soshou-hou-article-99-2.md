@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-99-2-p1
+    type: simple
+    text: 裁判所は、必要があるときは、記録命令付差押え（電磁的記録を保管する者その他電磁的記録を利用する権限を有する者に命じて必要な電磁的記録を記録媒体に記録させ、又は印刷させた上、当該記録媒体を差し押さえることをいう。以下同じ。）をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

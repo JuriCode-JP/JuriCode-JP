@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: roudou-kijun-hou-art-3-p1 -->
 使用者は、労働者の国籍、信条又は社会的身分を理由として、賃金、労働時間その他の労働条件について、差別的取扱をしてはならない。

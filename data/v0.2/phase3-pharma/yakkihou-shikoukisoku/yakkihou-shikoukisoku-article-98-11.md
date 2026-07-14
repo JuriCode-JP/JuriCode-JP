@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-98-11-p1-hashira
+    type: hashira
+    text: 法第十八条の三の規定による報告は、次に掲げる事項について行うものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-98-11-p1-kou-1
+    type: kou
+    text: 一　製造販売業者の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-98-11-p1-kou-2
+    type: kou
+    text: 二　当該品目の名称
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-98-11-p1-kou-3
+    type: kou
+    text: 三　六月以内に出荷の停止若しくは制限をすることとした理由又は六月以内に出荷の停止若しくは制限をするおそれがあると認める理由
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-98-11-p1-kou-4
+    type: kou
+    text: 四　出荷の停止若しくは制限をする時期又は出荷の停止若しくは制限をすると見込まれる時期
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-98-11-p1-kou-5
+    type: kou
+    text: 五　代替薬（法第十八条の五に規定する代替薬をいう。）の製造販売業者、医療機関その他の関係者との調整の状況
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-98-11-p1-kou-6
+    type: kou
+    text: 六　その他必要な事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第九十八条の十一
 
 法第十八条の三の規定による報告は、次に掲げる事項について行うものとする。
+
+一　製造販売業者の氏名又は名称
+
+二　当該品目の名称
+
+三　六月以内に出荷の停止若しくは制限をすることとした理由又は六月以内に出荷の停止若しくは制限をするおそれがあると認める理由
+
+四　出荷の停止若しくは制限をする時期又は出荷の停止若しくは制限をすると見込まれる時期
+
+五　代替薬（法第十八条の五に規定する代替薬をいう。）の製造販売業者、医療機関その他の関係者との調整の状況
+
+六　その他必要な事項

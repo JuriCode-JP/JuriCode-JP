@@ -16,42 +16,99 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p1
+    type: simple
+    text: 課徴金納付命令を受けた者は、第七十五条の五の二第一項、第七十五条の五の三又は前条の規定により計算した課徴金を納付しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p2
+    type: simple
+    text: 第七十五条の五の二第一項、第七十五条の五の三又は前条の規定により計算した課徴金の額に一万円未満の端数があるときは、その端数は、切り捨てる。
+    modality: unspecified
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p3
+    type: simple
+    text: 課徴金対象行為者が法人である場合において、当該法人が合併により消滅したときは、当該法人がした課徴金対象行為は、合併後存続し、又は合併により設立された法人がした課徴金対象行為とみなして、第七十五条の五の二からこの条までの規定を適用する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p4-zen
+    type: zen_dan
+    text: 課徴金対象行為者が法人である場合において、当該法人が当該課徴金対象行為に係る事案について報告徴収等（第六十九条第五項の規定による報告の徴収、帳簿書類その他の物件の提出の命令、立入検査又は質問をいう。以下この項において同じ。）が最初に行われた日（当該報告徴収等が行われなかつたときは、当該法人が当該課徴金対象行為について第七十五条の五の八第一項の規定による通知を受けた日。以下この項において「調査開始日」という。）以後においてその一若しくは二以上の子会社等（課徴金対象行為者の子会社若しくは親会社（会社を子会社とする他の会社をいう。以下この項において同じ。）又は当該課徴金対象行為者と親会社が同一である他の会社をいう。以下この項において同じ。）に対して当該課徴金対象行為に係る事業の全部を譲渡し、又は当該法人（会社に限る。）が当該課徴金対象行為に係る事案についての調査開始日以後においてその一若しくは二以上の子会社等に対して分割により当該課徴金対象行為に係る事業の全部を承継させ、かつ、合併以外の事由により消滅したときは、当該法人がした課徴金対象行為は、当該事業の全部若しくは一部を譲り受け、又は分割により当該事業の全部若しくは一部を承継した子会社等（以下この項において「特定事業承継子会社等」という。）がした課徴金対象行為とみなして、第七十五条の五の二からこの条までの規定を適用する。
+    modality: unspecified
+  - id: yakkihou-art-75-5-5-p4-kou
+    type: kou_dan
+    text: この場合において、当該特定事業承継子会社等が二以上あるときは、第七十五条の五の二第一項中「当該課徴金対象行為者に対し」とあるのは「特定事業承継子会社等（第七十五条の五の五第四項に規定する特定事業承継子会社等をいう。以下この項において同じ。）に対し、この項の規定による命令を受けた他の特定事業承継子会社等と連帯して」と、第七十五条の五の五第一項中「受けた者は、第七十五条の五の二第一項」とあるのは「受けた特定事業承継子会社等（第四項に規定する特定事業承継子会社等をいう。以下この項において同じ。）は、第七十五条の五の二第一項の規定による命令を受けた他の特定事業承継子会社等と連帯して、同項」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: yakkihou-art-75-5-5-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p5-zen
+    type: zen_dan
+    text: 前項に規定する「子会社」とは、会社がその総株主（総社員を含む。以下この項において同じ。）の議決権（株主総会において決議をすることができる事項の全部につき議決権を行使することができない株式についての議決権を除き、会社法第八百七十九条第三項の規定により議決権を有するものとみなされる株式についての議決権を含む。以下この項において同じ。）の過半数を有する他の会社をいう。
+    modality: teigi
+    references:
+    - 前項
+  - id: yakkihou-art-75-5-5-p5-kou
+    type: kou_dan
+    text: この場合において、会社及びその一若しくは二以上の子会社又は会社の一若しくは二以上の子会社がその総株主の議決権の過半数を有する他の会社は、当該会社の子会社とみなす。
+    modality: unspecified
+    depends_on: yakkihou-art-75-5-5-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p6
+    type: simple
+    text: 第三項及び第四項の場合において、第七十五条の五の二第二項及び第三項、第七十五条の五の三並びに前条の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p7
+    type: simple
+    text: 課徴金対象行為をやめた日から五年を経過したときは、厚生労働大臣は、当該課徴金対象行為に係る課徴金の納付を命ずることができない。
+    modality: kanou_negative
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-5-p8-zen
+    type: zen_dan
+    text: 厚生労働大臣は、課徴金納付命令を受けた者に対し、当該課徴金対象行為について、不当景品類及び不当表示防止法第八条第一項の規定による命令があつたとき、又は同法第十一条の規定により課徴金の納付を命じないものとされたときは、当該課徴金納付命令に係る課徴金の額を、対価合計額に百分の三を乗じて得た額を第七十五条の五の二第一項の規定により計算した課徴金の額から控除した額（以下この項において「控除後の額」という。）（当該課徴金納付命令に係る課徴金の額が第七十五条の五の四の規定により計算したものであるときは、控除後の額に百分の五十を乗じて得た額を控除後の額から控除した額）に変更しなければならない。
+    modality: gimu
+  - id: yakkihou-art-75-5-5-p8-kou
+    type: kou_dan
+    text: この場合において、変更後の課徴金の額に一万円未満の端数があるときは、その端数は、切り捨てる。
+    modality: unspecified
+    depends_on: yakkihou-art-75-5-5-p8-zen
 cases: []
 amendments: []
 tags:

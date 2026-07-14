@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-11-p1
+    type: simple
+    text: 配置販売業者は、指定第二類医薬品を配置する場合は、当該指定第二類医薬品を配置販売によつて購入し、又は譲り受けようとする者が別表第一の四第二の五に掲げる事項を確実に認識できるようにするために必要な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

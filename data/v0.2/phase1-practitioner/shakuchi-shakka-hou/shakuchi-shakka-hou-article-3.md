@@ -43,6 +43,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: honbun id: shakuchi-shakka-hou-art-3-p1-honbun -->
-借地権の存続期間は、三十年とする。<!-- segment: tadashi id: shakuchi-shakka-hou-art-3-p1-tadashi -->
-ただし、契約でこれより長い期間を定めたときは、その期間とする。
+借地権の存続期間は、三十年とする。ただし、契約でこれより長い期間を定めたときは、その期間とする。

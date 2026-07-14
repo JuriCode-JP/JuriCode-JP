@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-17-p1 -->
 何らの名義を以てするかを問わず、第九条から前条までの規定による禁止又は制限を免れる行為をしてはならない。

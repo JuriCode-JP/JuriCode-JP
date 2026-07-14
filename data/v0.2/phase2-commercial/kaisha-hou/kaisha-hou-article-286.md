@@ -23,6 +23,21 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
+  - id: kaisha-hou-art-286-p1-kou-1
+    type: kou
+    text: 一　当該新株予約権者の募集に関する職務を行った業務執行取締役（指名委員会等設置会社にあっては、執行役。以下この号において同じ。）その他当該業務執行取締役の行う業務の執行に職務上関与した者として法務省令で定めるもの
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-286-p1-kou-2
+    type: kou
+    text: 二　現物出資財産の価額の決定に関する株主総会の決議があったときは、当該株主総会に議案を提案した取締役として法務省令で定めるもの
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-286-p1-kou-3
+    type: kou
+    text: 三　現物出資財産の価額の決定に関する取締役会の決議があったときは、当該取締役会に議案を提案した取締役（指名委員会等設置会社にあっては、取締役又は執行役）として法務省令で定めるもの
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -38,6 +53,16 @@ paragraphs:
     references:
     - 前項
     - 同項
+  - id: kaisha-hou-art-286-p2-kou-1
+    type: kou
+    text: 一　現物出資財産の価額について第二百八十四条第二項の検査役の調査を経た場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-286-p2-kou-2
+    type: kou
+    text: 二　当該取締役等がその職務を行うについて注意を怠らなかったことを証明した場合
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: true
   has_items: false
@@ -64,6 +89,16 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kaisha-hou-art-286-p4-kou-1
+    type: kou
+    text: 一　取締役等　第一項の義務
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-286-p4-kou-2
+    type: kou
+    text: 二　証明者　前項本文の義務
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -86,21 +121,30 @@ parent_section:
 
 ### 第二百八十六条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-286-p1-hashira -->
 前条第一項第三号に掲げる場合には、次に掲げる者（以下この条において「取締役等」という。）は、株式会社に対し、同号に定める額を支払う義務を負う。
+
+一　当該新株予約権者の募集に関する職務を行った業務執行取締役（指名委員会等設置会社にあっては、執行役。以下この号において同じ。）その他当該業務執行取締役の行う業務の執行に職務上関与した者として法務省令で定めるもの
+
+二　現物出資財産の価額の決定に関する株主総会の決議があったときは、当該株主総会に議案を提案した取締役として法務省令で定めるもの
+
+三　現物出資財産の価額の決定に関する取締役会の決議があったときは、当該取締役会に議案を提案した取締役（指名委員会等設置会社にあっては、取締役又は執行役）として法務省令で定めるもの
 
 ### 第二百八十六条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-286-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、次に掲げる場合には、取締役等は、現物出資財産について同項の義務を負わない。
+
+一　現物出資財産の価額について第二百八十四条第二項の検査役の調査を経た場合
+
+二　当該取締役等がその職務を行うについて注意を怠らなかったことを証明した場合
 
 ### 第二百八十六条第三項
 
-<!-- segment: honbun id: kaisha-hou-art-286-p3-honbun -->
-第一項に規定する場合には、第二百八十四条第九項第四号に規定する証明をした者（以下この条において「証明者」という。）は、株式会社に対し前条第一項第三号に定める額を支払う義務を負う。<!-- segment: tadashi id: kaisha-hou-art-286-p3-tadashi -->
-ただし、当該証明者が当該証明をするについて注意を怠らなかったことを証明したときは、この限りでない。
+第一項に規定する場合には、第二百八十四条第九項第四号に規定する証明をした者（以下この条において「証明者」という。）は、株式会社に対し前条第一項第三号に定める額を支払う義務を負う。ただし、当該証明者が当該証明をするについて注意を怠らなかったことを証明したときは、この限りでない。
 
 ### 第二百八十六条第四項
 
-<!-- segment: hashira id: kaisha-hou-art-286-p4-hashira -->
 新株予約権者がその給付した現物出資財産についての前条第一項第三号に定める額を支払う義務を負う場合において、次に掲げる者が当該現物出資財産について当該各号に定める義務を負うときは、これらの者は、連帯債務者とする。
+
+一　取締役等　第一項の義務
+
+二　証明者　前項本文の義務

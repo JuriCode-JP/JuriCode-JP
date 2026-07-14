@@ -66,20 +66,16 @@ parent_section:
 
 ### 第二百三条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-203-p1 -->
 普通地方公共団体は、その議会の議員に対し、議員報酬を支給しなければならない。
 
 ### 第二百三条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-203-p2 -->
 普通地方公共団体の議会の議員は、職務を行うため要する費用の弁償を受けることができる。
 
 ### 第二百三条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-203-p3 -->
 普通地方公共団体は、条例で、その議会の議員に対し、期末手当を支給することができる。
 
 ### 第二百三条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-203-p4 -->
 議員報酬、費用弁償及び期末手当の額並びにその支給方法は、条例でこれを定めなければならない。

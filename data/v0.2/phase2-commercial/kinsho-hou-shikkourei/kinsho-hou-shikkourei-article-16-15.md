@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-15-p1
+    type: simple
+    text: 法第四十三条の二第一項第二号に規定する政令で定める取引は、店頭デリバティブ取引に類するものとして金融庁長官が指定する取引に該当するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

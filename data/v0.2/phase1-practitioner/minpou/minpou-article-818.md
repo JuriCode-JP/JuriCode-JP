@@ -39,6 +39,16 @@ paragraphs:
     type: hashira
     text: 子が養子であるときは、次に掲げる者を親権者とする。
     modality: gimu
+  - id: minpou-art-818-p3-kou-1
+    type: kou
+    text: 一　養親（当該子を養子とする縁組が二以上あるときは、直近の縁組により養親となった者に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-818-p3-kou-2
+    type: kou
+    text: 二　子の父母であって、前号に掲げる養親の配偶者であるもの
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -59,15 +69,16 @@ parent_section:
 
 ### 第八百十八条第一項
 
-<!-- segment: simple id: minpou-art-818-p1 -->
 親権は、成年に達しない子について、その子の利益のために行使しなければならない。
 
 ### 第八百十八条第二項
 
-<!-- segment: simple id: minpou-art-818-p2 -->
 父母の婚姻中はその双方を親権者とする。
 
 ### 第八百十八条第三項
 
-<!-- segment: hashira id: minpou-art-818-p3-hashira -->
 子が養子であるときは、次に掲げる者を親権者とする。
+
+一　養親（当該子を養子とする縁組が二以上あるときは、直近の縁組により養親となった者に限る。）
+
+二　子の父母であって、前号に掲げる養親の配偶者であるもの

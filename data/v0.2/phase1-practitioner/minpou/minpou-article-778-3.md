@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-778-3-p1
+    type: simple
+    text: 第七百七十四条の規定により嫡出であることが否認された場合であっても、子は、父であった者が支出した子の監護に要した費用を償還する義務を負わない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

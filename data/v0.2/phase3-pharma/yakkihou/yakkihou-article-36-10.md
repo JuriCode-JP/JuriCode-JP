@@ -13,40 +13,85 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p1-honbun
+    type: honbun
+    text: 薬局開設者又は店舗販売業者は、第一類医薬品の適正な使用のため、第一類医薬品を販売し、又は授与する場合には、厚生労働省令で定めるところにより、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師に、厚生労働省令で定める事項を記載した書面（当該事項が電磁的記録に記録されているときは、当該電磁的記録に記録された事項を厚生労働省令で定める方法により表示したものを含む。）を用いて必要な情報を提供させなければならない。
+    modality: gimu
+  - id: yakkihou-art-36-10-p1-tadashi
+    type: tadashi
+    text: ただし、薬剤師等に販売し、又は授与するときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p2
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、前項の規定による情報の提供を行わせるに当たつては、当該薬剤師に、あらかじめ、第一類医薬品を使用しようとする者の年齢、他の薬剤又は医薬品の使用の状況その他の厚生労働省令で定める事項を確認させなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p3-honbun
+    type: honbun
+    text: 薬局開設者又は店舗販売業者は、第二類医薬品の適正な使用のため、第二類医薬品を販売し、又は授与する場合には、厚生労働省令で定めるところにより、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師又は登録販売者に、必要な情報を提供させるよう努めなければならない。
+    modality: doryoku_gimu
+  - id: yakkihou-art-36-10-p3-tadashi
+    type: tadashi
+    text: ただし、薬剤師等に販売し、又は授与するときは、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p4
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、前項の規定による情報の提供を行わせるに当たつては、当該薬剤師又は登録販売者に、あらかじめ、第二類医薬品を使用しようとする者の年齢、他の薬剤又は医薬品の使用の状況その他の厚生労働省令で定める事項を確認させるよう努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p5
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、一般用医薬品の適正な使用のため、その薬局若しくは店舗において一般用医薬品を購入し、若しくは譲り受けようとする者又はその薬局若しくは店舗において一般用医薬品を購入し、若しくは譲り受けた者若しくはこれらの者によつて購入され、若しくは譲り受けられた一般用医薬品を使用する者から相談があつた場合には、厚生労働省令で定めるところにより、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師又は登録販売者に、必要な情報を提供させなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p6
+    type: simple
+    text: 第一項の規定は、第一類医薬品を購入し、又は譲り受ける者から説明を要しない旨の意思の表明があつた場合（第一類医薬品が適正に使用されると認められる場合に限る。）には、適用しない。
+    modality: jogai
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-10-p7-zen
+    type: zen_dan
+    text: 配置販売業者については、前各項（第一項ただし書及び第三項ただし書を除く。）の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-art-36-10-p7-kou
+    type: kou_dan
+    text: この場合において、第一項本文及び第三項本文中「販売し、又は授与する場合」とあるのは「配置する場合」と、「薬局又は店舗」とあるのは「業務に係る都道府県の区域」と、「医薬品の販売又は授与」とあるのは「医薬品の配置販売」と、第五項中「その薬局若しくは店舗において一般用医薬品を購入し、若しくは譲り受けようとする者又はその薬局若しくは店舗において一般用医薬品を購入し、若しくは譲り受けた者若しくはこれらの者によつて購入され、若しくは譲り受けられた一般用医薬品を使用する者」とあるのは「配置販売によつて一般用医薬品を購入し、若しくは譲り受けようとする者又は配置した一般用医薬品を使用する者」と、「薬局又は店舗」とあるのは「業務に係る都道府県の区域」と、「医薬品の販売又は授与」とあるのは「医薬品の配置販売」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-art-36-10-p7-zen
 cases: []
 amendments: []
 tags:

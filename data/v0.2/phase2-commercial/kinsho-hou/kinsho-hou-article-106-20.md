@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-20-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、金融商品取引所持株会社の主要株主（第百六条の十七第一項の認可を受けた者をいう。以下この目において同じ。）に対し当該金融商品取引所持株会社若しくはその子会社である株式会社金融商品取引所の業務若しくは財産に関し参考となる報告若しくは資料の提出を命じ、又は当該職員に当該主要株主の書類その他の物件の検査（当該金融商品取引所持株会社又はその子会社である株式会社金融商品取引所の業務又は財産に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-20-p2
+    type: junyou
+    text: 前項の規定は、金融商品取引所持株会社の保有基準割合以上の数の対象議決権を保有する商品取引所について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

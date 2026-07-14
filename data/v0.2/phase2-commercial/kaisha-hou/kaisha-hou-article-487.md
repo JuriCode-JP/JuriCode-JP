@@ -22,7 +22,7 @@ paragraphs:
     text: 清算人がその職務を行うについて悪意又は重大な過失があったときは、当該清算人は、これによって第三者に生じた損害を賠償する責任を負う。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,26 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: kaisha-hou-art-487-p2-kou-1
+    type: kou
+    text: 一　株式、新株予約権、社債若しくは新株予約権付社債を引き受ける者の募集をする際に通知しなければならない重要な事項についての虚偽の通知又は当該募集のための当該清算株式会社の事業その他の事項に関する説明に用いた資料についての虚偽の記載若しくは記録
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-487-p2-kou-2
+    type: kou
+    text: 二　第四百九十二条第一項に規定する財産目録等並びに第四百九十四条第一項の貸借対照表及び事務報告並びにこれらの附属明細書に記載し、又は記録すべき重要な事項についての虚偽の記載又は記録
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-487-p2-kou-3
+    type: kou
+    text: 三　虚偽の登記
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-487-p2-kou-4
+    type: kou
+    text: 四　虚偽の公告
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -56,10 +76,16 @@ parent_section:
 
 ### 第四百八十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-487-p1 -->
 清算人がその職務を行うについて悪意又は重大な過失があったときは、当該清算人は、これによって第三者に生じた損害を賠償する責任を負う。
 
 ### 第四百八十七条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-487-p2-hashira -->
 清算人が、次に掲げる行為をしたときも、前項と同様とする。ただし、当該清算人が当該行為をすることについて注意を怠らなかったことを証明したときは、この限りでない。
+
+一　株式、新株予約権、社債若しくは新株予約権付社債を引き受ける者の募集をする際に通知しなければならない重要な事項についての虚偽の通知又は当該募集のための当該清算株式会社の事業その他の事項に関する説明に用いた資料についての虚偽の記載若しくは記録
+
+二　第四百九十二条第一項に規定する財産目録等並びに第四百九十四条第一項の貸借対照表及び事務報告並びにこれらの附属明細書に記載し、又は記録すべき重要な事項についての虚偽の記載又は記録
+
+三　虚偽の登記
+
+四　虚偽の公告

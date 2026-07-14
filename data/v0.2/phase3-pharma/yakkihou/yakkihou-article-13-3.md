@@ -16,17 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-3-p1
+    type: simple
+    text: 外国において本邦に輸出される医薬品、医薬部外品又は化粧品を製造しようとする者（以下「医薬品等外国製造業者」という。）は、厚生労働大臣の認定を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-3-p2
+    type: simple
+    text: 前項の認定は、厚生労働省令で定める区分に従い、製造所ごとに与える。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-3-p3-zen
+    type: zen_dan
+    text: 第一項の認定については、第十三条第三項（同項第一号、第二号及び第六号に係る部分に限る。）及び第四項から第九項まで並びに第十三条の二の規定を準用する。
+    modality: unspecified
+    references:
+    - 同項
+  - id: yakkihou-art-13-3-p3-kou
+    type: kou_dan
+    text: この場合において、第十三条第三項から第八項までの規定中「許可」とあるのは「認定」と、同条第九項中「許可」とあるのは「認定」と、「第一項」とあるのは「第二項」と、第十三条の二第一項中「前条第一項若しくは第八項の許可又は同条第四項（同条第九項において準用する場合を含む。以下この条において同じ。）の許可の更新についての同条第七項（同条第九項」とあるのは「第十三条の三第一項若しくは同条第三項において準用する前条第八項の認定又は第十三条の三第三項において準用する前条第四項（第十三条の三第三項において準用する前条第九項において準用する場合を含む。以下この条において同じ。）の認定の更新についての第十三条の三第三項において準用する前条第七項（第十三条の三第三項において準用する前条第九項」と、同条第二項及び第三項中「前条第一項若しくは第八項の許可又は同条第四項の許可の更新」とあるのは「第十三条の三第一項若しくは同条第三項において準用する前条第八項の認定又は第十三条の三第三項において準用する前条第四項の認定の更新」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: yakkihou-art-13-3-p3-zen
 cases: []
 amendments: []
 tags:

@@ -24,6 +24,16 @@ paragraphs:
     override_flag: true
     override_target:
     - 第二十三条
+  - id: sochi-hou-art-87-2-p1-kou-1
+    type: kou
+    text: 一　アルコール分が十一度未満のもの　十万円
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-art-87-2-p1-kou-2
+    type: kou
+    text: 二　アルコール分が十一度以上十三度未満のもの　十万円にアルコール分が十度を超える一度ごとに一万円を加えた金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -42,5 +52,8 @@ parent_section:
 
 ### 第八十七条の二
 
-<!-- segment: tokusoku id: sochi-hou-art-87-2-p1 override_flag: true override_target: 第二十三条 -->
 酒類の製造場から移出され、又は保税地域から引き取られる酒税法第三条第五号に規定する蒸留酒類（同号ホに掲げる酒類及び発泡性を有するものを除く。）及び同条第二十一号に規定するリキュール（発泡性を有するものを除く。）でアルコール分（同条第一号に規定するアルコール分をいう。以下この条において同じ。）が十三度未満のもの（リキュールについては、アルコール分が十二度未満のものに限る。）に係る酒税の税率は、同法第二十三条の規定にかかわらず、次の各号に掲げる区分に応じ、一キロリットルにつき、当該各号に定める金額とする。
+
+一　アルコール分が十一度未満のもの　十万円
+
+二　アルコール分が十一度以上十三度未満のもの　十万円にアルコール分が十度を超える一度ごとに一万円を加えた金額

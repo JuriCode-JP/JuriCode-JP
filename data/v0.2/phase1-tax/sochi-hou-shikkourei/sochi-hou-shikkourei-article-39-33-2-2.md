@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-33-2-2-p1
+    type: simple
+    text: 法第六十七条の十六の二第一項に規定する政令で定める国内源泉所得は、法人税法施行令第百八十条第一号、第二号及び第五号に掲げる所得とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-33-2-2-p2
+    type: simple
+    text: 法第六十七条の十六の二第二項に規定する損失の額として政令で定める金額は、同項の外国法人の当該事業年度の同条第一項に規定する対象国内源泉所得に係る所得の金額の計算上損金の額に算入すべき金額が益金の額に算入すべき金額を超える場合におけるその超える部分の金額に相当する金額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-33-2-2-p3
+    type: simple
+    text: 法第六十七条の十六の二第一項の規定の適用がある場合における法人税法施行令第二百三条及び第二百十三条の規定の適用については、同令第二百三条第一項中「規定は、」とあるのは「規定は、租税特別措置法第六十七条の十六の二第一項（令和九年に開催される二千二十七年国際園芸博覧会の公式参加者である外国法人等に係る課税の特例）の規定並びに」と、同条第二項中「規定は、」とあるのは「規定は、租税特別措置法第六十七条の十六の二第一項の規定並びに」と、同令第二百十三条第一項中「規定は、」とあるのは「規定は、租税特別措置法第六十七条の十六の二第一項（令和九年に開催される二千二十七年国際園芸博覧会の公式参加者である外国法人等に係る課税の特例）の規定並びに」と、同条第二項中「規定は、」とあるのは「規定は、租税特別措置法第六十七条の十六の二第一項の規定並びに」とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-33-2-2-p4
+    type: simple
+    text: 前三項に定めるもののほか、法第六十七条の十六の二第一項の規定の適用に関し必要な事項は、財務省令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-21-p1 -->
 令第五条第二項の申請書は、様式第三によるものとする。

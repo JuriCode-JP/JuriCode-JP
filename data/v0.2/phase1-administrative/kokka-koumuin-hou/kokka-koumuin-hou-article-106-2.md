@@ -16,22 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-2-p1
+    type: simple
+    text: 職員は、営利企業等（営利企業及び営利企業以外の法人（国、国際機関、地方公共団体、行政執行法人及び地方独立行政法人法（平成十五年法律第百十八号）第二条第二項に規定する特定地方独立行政法人を除く。）をいう。以下同じ。）に対し、他の職員若しくは行政執行法人の役員（以下「役職員」という。）をその離職後に、若しくは役職員であつた者を、当該営利企業等若しくはその子法人（当該営利企業等に財務及び営業又は事業の方針を決定する機関（株主総会その他これに準ずる機関をいう。）を支配されている法人として政令で定めるものをいう。以下同じ。）の地位に就かせることを目的として、当該役職員若しくは役職員であつた者に関する情報を提供し、若しくは当該地位に関する情報の提供を依頼し、又は当該役職員をその離職後に、若しくは役職員であつた者を、当該営利企業等若しくはその子法人の地位に就かせることを要求し、若しくは依頼してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-2-p2-hashira
+    type: hashira
+    text: 前項の規定は、次に掲げる場合には適用しない。
+    modality: jogai
+    references:
+    - 前項
+  - id: kokka-koumuin-hou-art-106-2-p2-kou-1
+    type: kou
+    text: 一　職業安定法（昭和二十二年法律第百四十一号）、船員職業安定法（昭和二十三年法律第百三十号）その他の法令の定める職業の安定に関する事務として行う場合
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-106-2-p2-kou-2
+    type: kou
+    text: 二　退職手当通算予定職員を退職手当通算法人の地位に就かせることを目的として行う場合（独立行政法人通則法第五十四条第一項において読み替えて準用する第四項に規定する退職手当通算予定役員を同条第一項において準用する次項に規定する退職手当通算法人の地位に就かせることを目的として行う場合を含む。）
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-106-2-p2-kou-3
+    type: kou
+    text: 三　官民人材交流センター（以下「センター」という。）の職員が、その職務として行う場合
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-2-p3
+    type: simple
+    text: 前項第二号の「退職手当通算法人」とは、独立行政法人（独立行政法人通則法第二条第一項に規定する独立行政法人をいう。以下同じ。）その他特別の法律により設立された法人でその業務が国の事務又は事業と密接な関連を有するもののうち政令で定めるもの（退職手当（これに相当する給付を含む。）に関する規程において、職員が任命権者又はその委任を受けた者の要請に応じ、引き続いて当該法人の役員又は当該法人に使用される者となつた場合に、職員としての勤続期間を当該法人の役員又は当該法人に使用される者としての勤続期間に通算することと定めている法人に限る。）をいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-2-p4
+    type: simple
+    text: 第二項第二号の「退職手当通算予定職員」とは、任命権者又はその委任を受けた者の要請に応じ、引き続いて退職手当通算法人（前項に規定する退職手当通算法人をいう。以下同じ。）の役員又は退職手当通算法人に使用される者となるため退職することとなる職員であつて、当該退職手当通算法人に在職した後、特別の事情がない限り引き続いて選考による採用が予定されている者のうち政令で定めるものをいう。
+    modality: teigi
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -57,6 +94,12 @@ parent_section:
 ### 第百六条の二第二項
 
 前項の規定は、次に掲げる場合には適用しない。
+
+一　職業安定法（昭和二十二年法律第百四十一号）、船員職業安定法（昭和二十三年法律第百三十号）その他の法令の定める職業の安定に関する事務として行う場合
+
+二　退職手当通算予定職員を退職手当通算法人の地位に就かせることを目的として行う場合（独立行政法人通則法第五十四条第一項において読み替えて準用する第四項に規定する退職手当通算予定役員を同条第一項において準用する次項に規定する退職手当通算法人の地位に就かせることを目的として行う場合を含む。）
+
+三　官民人材交流センター（以下「センター」という。）の職員が、その職務として行う場合
 
 ### 第百六条の二第三項
 

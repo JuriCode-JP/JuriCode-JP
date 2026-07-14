@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-61-p1
+    type: simple
+    text: 基金は、会員である金融商品取引業者の委託を受けて行う当該金融商品取引業者に係る第四十三条の二第二項に規定する信託の受益者代理人としての業務その他の顧客資産の迅速な返還に資するための業務として内閣府令・財務省令で定める業務を行うことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

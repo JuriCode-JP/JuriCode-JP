@@ -56,11 +56,8 @@ parent_section:
 
 ### 第五十一条第一項
 
-<!-- segment: honbun id: chihou-zei-hou-art-51-p1-honbun -->
-法人税割の標準税率は、百分の一とする。<!-- segment: tadashi id: chihou-zei-hou-art-51-p1-tadashi -->
-ただし、標準税率を超える税率で課する場合においても、百分の二を超えることができない。
+法人税割の標準税率は、百分の一とする。ただし、標準税率を超える税率で課する場合においても、百分の二を超えることができない。
 
 ### 第五十一条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-51-p2 -->
 法人税割の税率は、第五十三条第一項に規定する法人税額の課税標準の算定期間の末日現在における税率による。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-75-2-p1
+    type: simple
+    text: 法第二十三条の二の十八第三項の規定により機構が厚生労働大臣に対して行う選任外国製造医療機器等製造販売業者に関する変更の届出の状況の通知は、様式第五十四の二による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

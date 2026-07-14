@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四十六条
 
-<!-- segment: simple id: minpou-art-146-p1 -->
 時効の利益は、あらかじめ放棄することができない。

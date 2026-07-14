@@ -16,17 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-8-p1
+    type: simple
+    text: 委員長及び委員は、人格が高潔であり、職員の退職管理に関する事項に関し公正な判断をすることができ、法律又は社会に関する学識経験を有する者であつて、かつ、役職員又は自衛隊員としての前歴（検察官その他の職務の特殊性を勘案して政令で定める者としての前歴を除く。）を有しない者のうちから、両議院の同意を得て、内閣総理大臣が任命する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-8-p2
+    type: tokusoku
+    text: 委員長又は委員の任期が満了し、又は欠員を生じた場合において、国会の閉会又は衆議院の解散のために両議院の同意を得ることができないときは、内閣総理大臣は、前項の規定にかかわらず、委員長又は委員を任命することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-8-p3-zen
+    type: zen_dan
+    text: 前項の場合においては、任命後最初の国会において両議院の事後の承認を得なければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kokka-koumuin-hou-art-106-8-p3-kou
+    type: kou_dan
+    text: この場合において、両議院の事後の承認を得られないときは、内閣総理大臣は、直ちにその委員長又は委員を罷免しなければならない。
+    modality: gimu
+    depends_on: kokka-koumuin-hou-art-106-8-p3-zen
 cases: []
 amendments: []
 tags:

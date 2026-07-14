@@ -16,12 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-3-p1
+    type: simple
+    text: 前条第四項の規定により所有者不明土地管理人が選任された場合には、所有者不明土地管理命令の対象とされた土地又は共有持分及び所有者不明土地管理命令の効力が及ぶ動産並びにその管理、処分その他の事由により所有者不明土地管理人が得た財産（以下「所有者不明土地等」という。）の管理及び処分をする権利は、所有者不明土地管理人に専属する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-3-p2-hashira
+    type: hashira
+    text: 所有者不明土地管理人が次に掲げる行為の範囲を超える行為をするには、裁判所の許可を得なければならない。ただし、この許可がないことをもって善意の第三者に対抗することはできない。
+    modality: kanou_negative
+  - id: minpou-art-264-3-p2-kou-1
+    type: kou
+    text: 一　保存行為
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-264-3-p2-kou-2
+    type: kou
+    text: 二　所有者不明土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -47,3 +67,7 @@ parent_section:
 ### 第二百六十四条の三第二項
 
 所有者不明土地管理人が次に掲げる行為の範囲を超える行為をするには、裁判所の許可を得なければならない。ただし、この許可がないことをもって善意の第三者に対抗することはできない。
+
+一　保存行為
+
+二　所有者不明土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為

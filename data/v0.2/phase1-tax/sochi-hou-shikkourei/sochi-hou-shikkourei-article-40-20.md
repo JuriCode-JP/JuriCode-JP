@@ -43,6 +43,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikkourei-art-40-20-p3-kou-1
+    type: kou
+    text: 一　当該木材市場等として使用されている建物等のうち専ら当該木材市場等の用に供している部分の床面積
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-40-20-p3-kou-2
+    type: kou
+    text: 二　前号の建物等のうち専ら当該木材市場等の用以外の用に供している部分の床面積
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -79,25 +89,24 @@ parent_section:
 
 ### 第四十条の二十第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-20-p1 -->
 法第七十一条の十第一項に規定する政令で定める市場は、木材の卸売取引のために定期に又は継続して開設される市場のうち、当該市場における取引価格が適正に形成されるものとして林野庁長官の認定を受けたもの（次項において「木材市場」という。）とする。
 
 ### 第四十条の二十第二項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-20-p2 -->
 法第七十一条の十第一項に規定する政令で定める者は、製材その他の木材の加工を業とする者又は木材の卸売を業とする者のうち木材市場において木材を安定的に供給し又は購入しているものとして林野庁長官の認定を受けたものとする。
 
 ### 第四十条の二十第三項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-40-20-p3-hashira -->
 法第七十一条の十第一項に規定する政令で定める部分は、木材市場等（同項に規定する木材市場等をいう。以下この条において同じ。）の用にも木材市場等の用以外の用にも供されている土地等のうち、当該土地等の面積に次に掲げる床面積の合計のうちに第二号に掲げる床面積の占める割合を乗じて計算した面積に係る土地等の価額に相当する部分とする。
+
+一　当該木材市場等として使用されている建物等のうち専ら当該木材市場等の用に供している部分の床面積
+
+二　前号の建物等のうち専ら当該木材市場等の用以外の用に供している部分の床面積
 
 ### 第四十条の二十第四項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-20-p4 -->
 前項の割合に百分の十未満の端数があるときは、その端数を切り捨てる。
 
 ### 第四十条の二十第五項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-20-p5 -->
 法第七十一条の十第一項に規定する政令で定める建物等は、建物等を有する者により一の者に対して貸し付けられ、かつ、専ら木材市場等として使用されている当該建物等とする。

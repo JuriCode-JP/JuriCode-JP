@@ -16,17 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-63-p1
+    type: simple
+    text: 金融商品取引清算機関等（金融商品取引清算機関又は外国金融商品取引清算機関をいう。以下この章において同じ。）は、内閣府令で定めるところにより、取引情報蓄積機関（第百五十六条の六十七第一項の規定による指定を受けた者をいう。以下同じ。）又は指定外国取引情報蓄積機関（外国において取引情報蓄積業務（取引情報の収集及び保存に関する業務をいう。以下同じ。）と同種類の業務を行う者のうち、内閣総理大臣がその者の収集及び保存に係る取引情報を取得することが見込まれる者として内閣総理大臣が指定する者をいう。次項及び次条において同じ。）に対し、清算集中等取引情報を提供しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-63-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、金融商品取引清算機関等は、取引情報蓄積機関又は指定外国取引情報蓄積機関に対し、災害その他内閣府令で定めるやむを得ない理由により清算集中等取引情報を提供することができない場合には、内閣府令で定めるところにより、清算集中等取引情報について内閣府令で定める事項に関する記録を作成し、これを保存し、内閣府令で定めるところにより、その保存する清算集中等取引情報を内閣総理大臣に報告しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-63-p3
+    type: simple
+    text: 第一項及びこの項の「取引情報」とは、投資者保護のため、金融商品取引業者等の取引の状況を明らかにする必要があるものとして内閣府令で定める取引に関する情報をいい、前二項の「清算集中等取引情報」とは、取引情報のうち、金融商品取引清算機関等が債務を負担した取引に係る情報であつて、前条各号に掲げる取引その他取引の状況等を勘案して内閣府令で定める取引に関するものをいう。
+    modality: teigi
+    references:
+    - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:

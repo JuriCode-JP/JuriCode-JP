@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-255-3-p1
+    type: simple
+    text: 普通地方公共団体の長が過料の処分をしようとする場合においては、過料の処分を受ける者に対し、あらかじめその旨を告知するとともに、弁明の機会を与えなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

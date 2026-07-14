@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-5-p1-honbun
+    type: honbun
+    text: 何らかの事由により指図証券の占有を失った者がある場合において、その所持人が前条の規定によりその権利を証明するときは、その所持人は、その証券を返還する義務を負わない。
+    modality: unspecified
+    references:
+    - 前条
+  - id: minpou-art-520-5-p1-tadashi
+    type: tadashi
+    text: ただし、その所持人が悪意又は重大な過失によりその証券を取得したときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる事由がある場合には、その事由が終了した時から六箇月を経過するまでの間は、時効は、完成しない。
     modality: unspecified
+  - id: minpou-art-149-p1-kou-1
+    type: kou
+    text: 一　仮差押え
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-149-p1-kou-2
+    type: kou
+    text: 二　仮処分
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第百四十九条
 
-<!-- segment: hashira id: minpou-art-149-p1-hashira -->
 次に掲げる事由がある場合には、その事由が終了した時から六箇月を経過するまでの間は、時効は、完成しない。
+
+一　仮差押え
+
+二　仮処分

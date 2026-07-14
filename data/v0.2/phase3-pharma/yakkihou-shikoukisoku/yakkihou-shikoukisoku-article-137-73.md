@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-73-p1
+    type: simple
+    text: 外国製造再生医療等製品特例承認取得者は、帳簿を備え、選任外国製造再生医療等製品製造販売業者に対する情報の提供その他の外国製造再生医療等製品特例承認取得者としての業務に関する事項を記載し、かつ、これを最終の記載の日から三年間、保存しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

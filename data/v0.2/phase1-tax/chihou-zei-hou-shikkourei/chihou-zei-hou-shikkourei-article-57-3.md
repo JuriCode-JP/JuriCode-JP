@@ -42,5 +42,4 @@ parent_section:
 
 ### 第五十七条の三
 
-<!-- segment: tokusoku id: chihou-zei-hou-shikkourei-art-57-3-p1 override_flag: true override_target: 第一条 -->
 法第七百三十四条第一項及び第七百三十五条第一項の規定により都がその特別区の存する区域内において課する固定資産税、特別土地保有税、事業所税及び都市計画税については、第一条の規定にかかわらず、第三章第二節及び第五節、第三章の四並びに第三章の五の規定を準用する。

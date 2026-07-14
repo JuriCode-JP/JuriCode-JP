@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-27-p1
+    type: simple
+    text: 公安委員会は、適正な交通の方法及び交通事故防止について住民の理解を深めるため、住民に対する交通安全教育を行うように努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

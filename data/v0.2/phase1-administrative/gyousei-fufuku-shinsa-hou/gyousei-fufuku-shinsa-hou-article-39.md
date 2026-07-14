@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十九条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-39-p1 -->
 審理員は、必要があると認める場合には、数個の審査請求に係る審理手続を併合し、又は併合された数個の審査請求に係る審理手続を分離することができる。

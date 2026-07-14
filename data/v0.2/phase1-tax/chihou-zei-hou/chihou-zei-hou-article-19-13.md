@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-13-p1
+    type: junyou
+    text: 第十九条の四の規定は、行政事件訴訟法第八条第二項第二号又は第三号の規定による訴えの提起について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

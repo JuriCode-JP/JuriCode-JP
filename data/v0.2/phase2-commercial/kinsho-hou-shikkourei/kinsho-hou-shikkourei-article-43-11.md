@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-11-p1
+    type: simple
+    text: 長官権限のうち第三十六条の三第一項の規定による書類の写しの受理の権限は、居住者に関するものにあつては当該居住者の本店又は主たる事務所の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に、非居住者に関するものにあつては関東財務局長に委任する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

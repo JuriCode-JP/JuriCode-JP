@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十一条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-131-p1 -->
 法第二十三条の十四第一項（法第二十三条の十四の二において準用する場合を含む。）の規定による申請は、様式第七十五による申請書を厚生労働大臣に提出することによつて行うものとする。
 
 ### 第百三十一条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-131-p2 -->
 前項の申請書には、当該申請に係る概要その他必要な資料を添付しなければならない。

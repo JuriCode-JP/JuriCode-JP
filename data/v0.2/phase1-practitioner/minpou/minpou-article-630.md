@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百三十条
 
-<!-- segment: junyou id: minpou-art-630-p1 applies_provisions: 第六百二十条 -->
 第六百二十条の規定は、雇用について準用する。

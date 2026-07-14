@@ -23,6 +23,16 @@ paragraphs:
     modality: unspecified
     references:
     - 次項
+  - id: minpou-art-395-p1-kou-1
+    type: kou
+    text: 一　競売手続の開始前から使用又は収益をする者
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-395-p1-kou-2
+    type: kou
+    text: 二　強制管理又は担保不動産収益執行の管理人が競売手続の開始後にした賃貸借により使用又は収益をする者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,8 +43,8 @@ paragraphs:
     text: 前項の規定は、買受人の買受けの時より後に同項の建物の使用をしたことの対価について、買受人が抵当建物使用者に対し相当の期間を定めてその一箇月分以上の支払の催告をし、その相当の期間内に履行がない場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -55,10 +65,12 @@ parent_section:
 
 ### 第三百九十五条第一項
 
-<!-- segment: hashira id: minpou-art-395-p1-hashira -->
 抵当権者に対抗することができない賃貸借により抵当権の目的である建物の使用又は収益をする者であって次に掲げるもの（次項において「抵当建物使用者」という。）は、その建物の競売における買受人の買受けの時から六箇月を経過するまでは、その建物を買受人に引き渡すことを要しない。
+
+一　競売手続の開始前から使用又は収益をする者
+
+二　強制管理又は担保不動産収益執行の管理人が競売手続の開始後にした賃貸借により使用又は収益をする者
 
 ### 第三百九十五条第二項
 
-<!-- segment: simple id: minpou-art-395-p2 -->
 前項の規定は、買受人の買受けの時より後に同項の建物の使用をしたことの対価について、買受人が抵当建物使用者に対し相当の期間を定めてその一箇月分以上の支払の催告をし、その相当の期間内に履行がない場合には、適用しない。

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-17-p1
+    type: simple
+    text: 任命権者は、職員又は職員であつた者に再就職等規制違反行為を行つた疑いがあると思料して当該再就職等規制違反行為に関して調査を行おうとするときは、委員会にその旨を通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-17-p2
+    type: simple
+    text: 委員会は、任命権者が行う前項の調査の経過について、報告を求め、又は意見を述べることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-17-p3
+    type: simple
+    text: 任命権者は、第一項の調査を終了したときは、遅滞なく、委員会に対し、当該調査の結果を報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

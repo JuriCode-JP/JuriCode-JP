@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-2-p1
+    type: simple
+    text: 金融商品会員制法人は、金融商品取引業者等でなければ、設立することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-2-p2
+    type: simple
+    text: 金融商品会員制法人を設立するには、会員になろうとする金融商品取引業者等が発起人とならなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

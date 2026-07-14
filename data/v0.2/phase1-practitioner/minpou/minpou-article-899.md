@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百九十九条
 
-<!-- segment: simple id: minpou-art-899-p1 -->
 各共同相続人は、その相続分に応じて被相続人の権利義務を承継する。

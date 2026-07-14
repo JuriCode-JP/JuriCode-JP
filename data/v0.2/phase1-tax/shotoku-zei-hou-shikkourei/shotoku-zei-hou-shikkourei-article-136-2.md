@@ -45,5 +45,4 @@ parent_section:
 
 ### 第百三十六条の二
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-136-2-p1 -->
 前三目（減価償却資産の償却の方法等）に定めるもののほか、減価償却資産の償却費の計算に関する細目は、財務省令で定める。

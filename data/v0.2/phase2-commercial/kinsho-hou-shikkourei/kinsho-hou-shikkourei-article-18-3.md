@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-3-p1
+    type: simple
+    text: 法第六十六条の十五に規定する金融商品仲介業者若しくはその顧客、法第六十六条の二十三に規定する法第六十六条の登録若しくは金融商品仲介業者又は法第六十六条の二十五に規定する金融商品仲介業者について、法の規定を準用する場合における法第六十六条の十五、第六十六条の二十三及び第六十六条の二十五の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

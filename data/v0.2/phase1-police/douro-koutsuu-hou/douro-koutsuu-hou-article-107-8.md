@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-8-p1
+    type: simple
+    text: 国外運転免許証の有効期間は、当該国外運転免許証の発給の日から起算して一年とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

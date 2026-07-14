@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百九条
 
-<!-- segment: simple id: minpou-art-809-p1 -->
 養子は、縁組の日から、養親の嫡出子の身分を取得する。

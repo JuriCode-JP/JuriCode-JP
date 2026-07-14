@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-41-p1 -->
 弁護人は、この法律に特別の定のある場合に限り、独立して訴訟行為をすることができる。

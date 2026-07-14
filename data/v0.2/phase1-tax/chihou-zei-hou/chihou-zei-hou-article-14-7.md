@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-7-p1
+    type: simple
+    text: 納税者又は特別徴収義務者の財産につき強制換価手続（破産手続を除く。）が行われた場合において、地方団体の徴収金及び国税の交付要求があつたときは、その換価代金につき、先にされた交付要求に係る地方団体の徴収金は、後にされた交付要求に係る地方団体の徴収金又は国税に先だつて徴収し、後にされた交付要求に係る地方団体の徴収金は、先にされた交付要求に係る地方団体の徴収金又は国税に次いで徴収する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

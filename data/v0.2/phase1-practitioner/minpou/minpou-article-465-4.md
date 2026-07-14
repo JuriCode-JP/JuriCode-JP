@@ -13,15 +13,50 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-4-p1-hashira
+    type: hashira
+    text: 次に掲げる場合には、個人根保証契約における主たる債務の元本は、確定する。ただし、第一号に掲げる場合にあっては、強制執行又は担保権の実行の手続の開始があったときに限る。
+    modality: unspecified
+  - id: minpou-art-465-4-p1-kou-1
+    type: kou
+    text: 一　債権者が、保証人の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-465-4-p1-kou-2
+    type: kou
+    text: 二　保証人が破産手続開始の決定を受けたとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-465-4-p1-kou-3
+    type: kou
+    text: 三　主たる債務者又は保証人が死亡したとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-465-4-p2-hashira
+    type: hashira
+    text: 前項に規定する場合のほか、個人貸金等根保証契約における主たる債務の元本は、次に掲げる場合にも確定する。ただし、第一号に掲げる場合にあっては、強制執行又は担保権の実行の手続の開始があったときに限る。
+    modality: unspecified
+    references:
+    - 前項
+  - id: minpou-art-465-4-p2-kou-1
+    type: kou
+    text: 一　債権者が、主たる債務者の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-465-4-p2-kou-2
+    type: kou
+    text: 二　主たる債務者が破産手続開始の決定を受けたとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,6 +83,16 @@ parent_section:
 
 次に掲げる場合には、個人根保証契約における主たる債務の元本は、確定する。ただし、第一号に掲げる場合にあっては、強制執行又は担保権の実行の手続の開始があったときに限る。
 
+一　債権者が、保証人の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
+
+二　保証人が破産手続開始の決定を受けたとき。
+
+三　主たる債務者又は保証人が死亡したとき。
+
 ### 第四百六十五条の四第二項
 
 前項に規定する場合のほか、個人貸金等根保証契約における主たる債務の元本は、次に掲げる場合にも確定する。ただし、第一号に掲げる場合にあっては、強制執行又は担保権の実行の手続の開始があったときに限る。
+
+一　債権者が、主たる債務者の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
+
+二　主たる債務者が破産手続開始の決定を受けたとき。

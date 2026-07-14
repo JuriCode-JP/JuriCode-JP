@@ -13,15 +13,33 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-42-7-p1-honbun
+    type: honbun
+    text: 金融商品取引業者等は、運用財産について、内閣府令で定めるところにより、定期に、当該運用財産に係る知れている権利者に対し、当該運用財産に関する運用の状況その他の内閣府令で定める事項に係る情報を提供しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-42-7-p1-tadashi
+    type: tadashi
+    text: ただし、当該情報を権利者に提供しなくても権利者の保護に支障を生ずることがない場合として内閣府令で定める場合は、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-42-7-p2-honbun
+    type: honbun
+    text: 金融商品取引業者等は、その行う投資運用業（第二条第八項第十五号に掲げる行為を行う業務に限る。）に関して、前項の規定により情報を提供するときは、内閣府令で定めるところにより、遅滞なく、当該情報を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-42-7-p2-tadashi
+    type: tadashi
+    text: ただし、一の運用財産の権利者の数が政令で定める数以下である場合その他投資者の保護に支障を生ずることがない場合として内閣府令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

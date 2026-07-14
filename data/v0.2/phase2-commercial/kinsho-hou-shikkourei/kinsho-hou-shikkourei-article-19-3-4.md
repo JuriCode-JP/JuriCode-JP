@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-3-4-p1
+    type: simple
+    text: 法第百二十二条第一項に規定する政令で定める市場は、外国金融商品市場（これに準ずるものとして内閣府令で定めるものを含む。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

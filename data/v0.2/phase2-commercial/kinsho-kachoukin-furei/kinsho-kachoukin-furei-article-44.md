@@ -22,7 +22,7 @@ paragraphs:
     text: 質問は、できる限り、個別的かつ具体的にしなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +30,31 @@ paragraphs:
     type: hashira
     text: 指定職員並びに被審人及びその代理人は、次に掲げる質問をしてはならない。ただし、第二号から第五号までに掲げる質問については、正当な理由がある場合には、この限りでない。
     modality: jogai
+  - id: kinsho-kachoukin-furei-art-44-p2-kou-1
+    type: kou
+    text: 一　参考人を侮辱し、又は困惑させる質問
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-44-p2-kou-2
+    type: kou
+    text: 二　誘導質問
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-44-p2-kou-3
+    type: kou
+    text: 三　既にした質問と重複する質問
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-44-p2-kou-4
+    type: kou
+    text: 四　争点に関係ない質問
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-kachoukin-furei-art-44-p2-kou-5
+    type: kou
+    text: 五　意見の陳述を求める質問
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
@@ -61,15 +86,22 @@ parent_section:
 
 ### 第四十四条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-44-p1 -->
 質問は、できる限り、個別的かつ具体的にしなければならない。
 
 ### 第四十四条第二項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-44-p2-hashira -->
 指定職員並びに被審人及びその代理人は、次に掲げる質問をしてはならない。ただし、第二号から第五号までに掲げる質問については、正当な理由がある場合には、この限りでない。
+
+一　参考人を侮辱し、又は困惑させる質問
+
+二　誘導質問
+
+三　既にした質問と重複する質問
+
+四　争点に関係ない質問
+
+五　意見の陳述を求める質問
 
 ### 第四十四条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-44-p3 -->
 審判長は、質問が前項の規定に違反するものであると認めるときは、申立てにより又は職権で、これを制限することができる。

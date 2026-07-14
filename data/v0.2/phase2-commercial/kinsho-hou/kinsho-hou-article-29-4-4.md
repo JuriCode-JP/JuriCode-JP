@@ -16,42 +16,102 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p1
+    type: simple
+    text: 第二十九条の登録を受けようとする者が第一種金融商品取引業のうち非上場有価証券特例仲介等業務のみを行おうとする場合における非上場有価証券特例仲介等業務についての第二十九条の二第一項第五号及び第二項第一号の規定の適用については、同条第一項第五号中「投資運用業の種別」とあるのは「投資運用業の種別（第二十九条の四の四第八項に規定する非上場有価証券特例仲介等業務にあつては、これに該当する旨を含む。）」と、同条第二項第一号中「第五号ハ」とあるのは「第五号ハ、第六号イ」とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p2
+    type: simple
+    text: 第二十九条の四第一項第五号ハ及び第六号イの規定（これらの規定を第三十一条第五項において準用する場合を含む。）は、前項の場合又は第三十一条第四項の変更登録を受けようとする者が第一種金融商品取引業のうち非上場有価証券特例仲介等業務のみを行おうとする場合における非上場有価証券特例仲介等業務については、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p3
+    type: tokusoku
+    text: 非上場有価証券特例仲介等業者（投資運用業を行う者を除く。次項において同じ。）は、第三十五条第三項の規定にかかわらず、同条第二項各号に掲げる業務を行うこととなつた旨を内閣総理大臣に届け出ることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第三十五条
+    references:
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p4
+    type: tokusoku
+    text: 非上場有価証券特例仲介等業者は、金融商品取引業並びに第三十五条第一項及び第二項の規定により行う業務以外の業務を行う場合には、同条第四項の規定にかかわらず、内閣総理大臣の承認を受けることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第四項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p5
+    type: simple
+    text: 第四十六条の五及び第四十六条の六の規定は、非上場有価証券特例仲介等業者については、適用しない。
+    modality: jogai
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p6
+    type: simple
+    text: 非上場有価証券特例仲介等業者が非上場有価証券特例仲介等業務を行う場合における第二十七条の二第四項（第二十七条の二十二の二第二項において準用する場合を含む。）、第二十七条の二十六第一項及び第六十六条の二第一項第四号の規定の適用については、これらの規定中「第一種金融商品取引業」とあるのは「第一種金融商品取引業（第二十九条の四の四第八項に規定する非上場有価証券特例仲介等業務を除く。）」と、第二十七条の二十六第一項中「同条第四項」とあるのは「第二十八条第四項」とする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p7
+    type: simple
+    text: 第三項から前項までの「非上場有価証券特例仲介等業者」とは、登録申請書に非上場有価証券特例仲介等業務に該当する旨を記載して第二十九条の登録又は第三十一条第四項の変更登録を受けた者（第三十条第一項の認可を受けた者を除く。）をいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 8
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-4-p8-hashira
+    type: hashira
+    text: 第一項、第二項及び前二項の「非上場有価証券特例仲介等業務」とは、第一種金融商品取引業のうち、次に掲げる行為のいずれかを業として行うことをいう。
+    modality: teigi
+    references:
+    - 前二項
+  - id: kinsho-hou-art-29-4-4-p8-kou-1
+    type: kou
+    text: '一　有価証券（金融商品取引所に上場されていないものに限り、政令で定めるものを除く。）に係る次に掲げる行為
+
+      イ　売付けの媒介又は第二条第八項第九号に掲げる行為（一般投資家（特定投資家等、当該有価証券の発行者その他内閣府令で定める者以外の者をいう。以下この号において同じ。）を相手方として行うもの及び一般投資家に対する勧誘に基づき当該一般投資家のために行うものを除く。）
+
+      ロ　買付けの媒介（一般投資家のために行うもの及び一般投資家に対する勧誘に基づき当該一般投資家を相手方として行うものを除く。）'
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-29-4-4-p8-kou-2
+    type: kou
+    text: 二　前号に掲げる行為に関して顧客から金銭の預託を受けること（同号に掲げる行為による取引の決済のために必要なものであつて、当該預託の期間が政令で定める期間を超えないものに限る。）。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -101,3 +161,11 @@ parent_section:
 ### 第二十九条の四の四第八項
 
 第一項、第二項及び前二項の「非上場有価証券特例仲介等業務」とは、第一種金融商品取引業のうち、次に掲げる行為のいずれかを業として行うことをいう。
+
+一　有価証券（金融商品取引所に上場されていないものに限り、政令で定めるものを除く。）に係る次に掲げる行為
+
+　イ　売付けの媒介又は第二条第八項第九号に掲げる行為（一般投資家（特定投資家等、当該有価証券の発行者その他内閣府令で定める者以外の者をいう。以下この号において同じ。）を相手方として行うもの及び一般投資家に対する勧誘に基づき当該一般投資家のために行うものを除く。）
+
+　ロ　買付けの媒介（一般投資家のために行うもの及び一般投資家に対する勧誘に基づき当該一般投資家を相手方として行うものを除く。）
+
+二　前号に掲げる行為に関して顧客から金銭の預託を受けること（同号に掲げる行為による取引の決済のために必要なものであつて、当該預託の期間が政令で定める期間を超えないものに限る。）。

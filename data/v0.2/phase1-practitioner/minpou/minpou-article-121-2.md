@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-121-2-p1
+    type: simple
+    text: 無効な行為に基づく債務の履行として給付を受けた者は、相手方を原状に復させる義務を負う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-121-2-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、無効な無償行為に基づく債務の履行として給付を受けた者は、給付を受けた当時その行為が無効であること（給付を受けた後に前条の規定により初めから無効であったものとみなされた行為にあっては、給付を受けた当時その行為が取り消すことができるものであること）を知らなかったときは、その行為によって現に利益を受けている限度において、返還の義務を負う。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-121-2-p3
+    type: tokusoku
+    text: 第一項の規定にかかわらず、行為の時に意思能力を有しなかった者は、その行為によって現に利益を受けている限度において、返還の義務を負う。行為の時に制限行為能力者であった者についても、同様とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一項
 cases: []
 amendments: []
 tags:

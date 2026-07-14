@@ -68,20 +68,16 @@ parent_section:
 
 ### 第四十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-43-p1 -->
 判決は、この法律に特別の定のある場合を除いては、口頭弁論に基いてこれをしなければならない。
 
 ### 第四十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-43-p2 -->
 決定又は命令は、口頭弁論に基いてこれをすることを要しない。
 
 ### 第四十三条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-43-p3 -->
 決定又は命令をするについて必要がある場合には、事実の取調をすることができる。
 
 ### 第四十三条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-43-p4 -->
 前項の取調は、合議体の構成員にこれをさせ、又は地方裁判所、家庭裁判所若しくは簡易裁判所の裁判官にこれを嘱託することができる。

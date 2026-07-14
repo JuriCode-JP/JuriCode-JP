@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-20-p1
+    type: simple
+    text: 会社法第二編第一章（第二十七条（第四号及び第五号を除く。）、第二十九条、第三十一条、第三十七条第三項、第三十九条、第六節及び第四十九条を除く。）の規定は、新設合併設立株式会社金融商品取引所の設立については、適用しない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-20-p2
+    type: simple
+    text: 新設合併設立株式会社金融商品取引所の定款は、新設合併消滅金融商品取引所が作成する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

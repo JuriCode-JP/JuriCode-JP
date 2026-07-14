@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 警備局においては、警察庁の所掌事務に関し、次に掲げる事務をつかさどる。
     modality: unspecified
+  - id: keisatsu-hou-art-24-p1-kou-1
+    type: kou
+    text: 一　警備警察に関すること。
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-24-p1-kou-2
+    type: kou
+    text: 二　警衛に関すること。
+    modality: unspecified
+    item_number: 2
+  - id: keisatsu-hou-art-24-p1-kou-3
+    type: kou
+    text: 三　警護に関すること。
+    modality: unspecified
+    item_number: 3
+  - id: keisatsu-hou-art-24-p1-kou-4
+    type: kou
+    text: 四　警備実施に関すること。
+    modality: unspecified
+    item_number: 4
+  - id: keisatsu-hou-art-24-p1-kou-5
+    type: kou
+    text: 五　第七十一条の緊急事態に対処するための計画及びその実施に関すること。
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +84,22 @@ parent_section:
 
 ### 第二十四条第一項
 
-<!-- segment: hashira id: keisatsu-hou-art-24-p1-hashira -->
 警備局においては、警察庁の所掌事務に関し、次に掲げる事務をつかさどる。
+
+一　警備警察に関すること。
+
+二　警衛に関すること。
+
+三　警護に関すること。
+
+四　警備実施に関すること。
+
+五　第七十一条の緊急事態に対処するための計画及びその実施に関すること。
 
 ### 第二十四条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-24-p2 -->
 外事情報部においては、前項第一号に掲げる事務のうち外国人又はその活動の本拠が外国に在る日本人に係るものをつかさどる。
 
 ### 第二十四条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-24-p3 -->
 警備運用部においては、第一項第二号から第五号までに掲げる事務をつかさどる。

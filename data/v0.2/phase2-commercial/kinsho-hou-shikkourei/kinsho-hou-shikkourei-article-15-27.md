@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-27-p1-hashira
+    type: hashira
+    text: 法第三十六条第二項に規定する政令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-27-p1-kou-1
+    type: kou
+    text: 一　有価証券関連業（法第二十八条第八項に規定する有価証券関連業をいう。以下同じ。）を行う金融商品取引業者（第一種金融商品取引業を行うことにつき法第二十九条の登録を受けた者に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-27-p1-kou-2
+    type: kou
+    text: 二　登録金融機関
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十五条の二十七
 
 法第三十六条第二項に規定する政令で定める者は、次に掲げる者とする。
+
+一　有価証券関連業（法第二十八条第八項に規定する有価証券関連業をいう。以下同じ。）を行う金融商品取引業者（第一種金融商品取引業を行うことにつき法第二十九条の登録を受けた者に限る。）
+
+二　登録金融機関

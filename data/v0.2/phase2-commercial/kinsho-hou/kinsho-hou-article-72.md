@@ -50,8 +50,6 @@ parent_section:
 
 ### 第七十二条第一項
 
-<!-- segment: simple id: kinsho-hou-art-72-p1 -->
-<!-- segment: simple id: kinsho-hou-art-72-p2 -->
 認可協会の役員若しくは職員又はこれらの職にあつた者は、その職務に関して知り得た秘密を漏らし、又は盗用してはならない。
 
 ### 第七十二条第二項

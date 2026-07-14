@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十条の四第五号及び第三十一条第六項に規定する内閣府令で定める業務の内容及び方法は、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-19-p1-kou-1
+    type: kou
+    text: 一　第十七条第五号、第七号、第八号、第十号、第十一号及び第十三号に掲げるもの（上場株券等を取り扱わない場合には、第七号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-19-p1-kou-2
+    type: kou
+    text: 二　その他私設取引システム運営業務に係る取引の公正の確保に関する重要な事項
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-19-p1-hashira -->
 法第三十条の四第五号及び第三十一条第六項に規定する内閣府令で定める業務の内容及び方法は、次に掲げるものとする。
+
+一　第十七条第五号、第七号、第八号、第十号、第十一号及び第十三号に掲げるもの（上場株券等を取り扱わない場合には、第七号に掲げるものを除く。）
+
+二　その他私設取引システム運営業務に係る取引の公正の確保に関する重要な事項

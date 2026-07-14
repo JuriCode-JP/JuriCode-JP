@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-7-p1
+    type: simple
+    text: 法第百六十二条の二に規定する政令で定める有価証券は、金融商品取引所に上場されている投資証券等及び店頭売買有価証券に該当する投資証券等とし、同条に規定する政令で定める法令の規定は、投資信託及び投資法人に関する法律第八十条の五第二項の規定により読み替えて適用する同法第八十条の二第一項の規定とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

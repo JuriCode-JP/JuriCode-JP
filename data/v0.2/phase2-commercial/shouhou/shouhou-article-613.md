@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百十三条
 
-<!-- segment: simple id: shouhou-art-613-p1 -->
 倉荷証券が作成されたときは、これと引換えでなければ、寄託物の返還を請求することができない。

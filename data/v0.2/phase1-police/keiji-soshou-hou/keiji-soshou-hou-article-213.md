@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-213-p1 -->
 現行犯人は、何人でも、逮捕状なくしてこれを逮捕することができる。

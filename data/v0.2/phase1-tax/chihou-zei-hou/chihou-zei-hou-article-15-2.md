@@ -16,62 +16,152 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p1
+    type: simple
+    text: 徴収の猶予（前条第一項の規定によるものに限る。）の申請をしようとする者は、同項各号のいずれかに該当する事実があること及びその該当する事実に基づき当該徴収の猶予に係る地方団体の徴収金を一時に納付し、又は納入することができない事情の詳細、当該徴収の猶予を受けようとする金額及びその期間その他の当該地方団体の条例で定める事項を記載した申請書に、当該該当する事実を証するに足りる書類、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類を添付し、これを当該地方団体の長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p2
+    type: simple
+    text: 徴収の猶予（前条第二項の規定によるものに限る。）の申請をしようとする者は、当該徴収の猶予に係る地方団体の徴収金を一時に納付し、又は納入することができない事情の詳細、当該徴収の猶予を受けようとする金額及びその期間その他の当該地方団体の条例で定める事項を記載した申請書に、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類を添付し、これを当該地方団体の長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p3
+    type: simple
+    text: 徴収の猶予期間の延長を申請しようとする者は、徴収の猶予を受けた期間内に当該徴収の猶予を受けた金額を納付し、又は納入することができないやむを得ない理由、徴収の猶予期間の延長を受けようとする期間その他の当該地方団体の条例で定める事項を記載した申請書に、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類を添付し、これを当該地方団体の長に提出しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p4
+    type: simple
+    text: 第一項又は前項の規定により添付すべき書類（地方団体の条例で定める書類を除く。）については、これらの規定にかかわらず、前条第一項（第一号、第二号又は第五号（同項第一号又は第二号に該当する事実に類する事実に係る部分に限る。）に係る部分に限る。）の規定による徴収の猶予（以下この項及び第十五条の九第一項において「災害等による徴収の猶予」という。）又は当該災害等による徴収の猶予をした期間の延長をする場合において、当該災害等による徴収の猶予又は当該災害等による徴収の猶予をした期間の延長を受けようとする者が当該添付すべき書類を提出することが困難であると地方団体の長が認めるときは、添付することを要しない。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p5
+    type: simple
+    text: 地方団体の長は、第一項から第三項までの規定による申請書の提出があつた場合には、当該申請に係る事項について調査を行い、徴収の猶予若しくは徴収の猶予期間の延長をし、又は徴収の猶予若しくは徴収の猶予期間の延長を認めないものとする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p6
+    type: simple
+    text: 地方団体の長は、第一項から第三項までの規定による申請書の提出があつた場合において、これらの申請書についてその記載に不備があるとき、又はこれらの申請書に添付すべき書類についてその記載に不備があるとき、若しくはその提出がないときは、当該申請書を提出した者に対して当該申請書の訂正又は当該添付すべき書類の訂正若しくは提出を求めることができる。
+    modality: kanou_kenri
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p7
+    type: simple
+    text: 地方団体の長は、前項の規定により申請書の訂正又は添付すべき書類の訂正若しくは提出を求める場合には、その旨を記載した書面により、これを当該申請書を提出した者に通知するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p8-zen
+    type: zen_dan
+    text: 第六項の規定により申請書の訂正又は添付すべき書類の訂正若しくは提出を求められた者は、前項の規定による通知を受けた日から当該地方団体の条例で定める期間内に当該申請書の訂正又は当該添付すべき書類の訂正若しくは提出をしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-15-2-p8-kou
+    type: kou_dan
+    text: この場合において、当該期間内に当該申請書の訂正又は当該添付すべき書類の訂正若しくは提出をしなかつたときは、当該申請書の訂正又は添付すべき書類の訂正若しくは提出を求められた者は、当該期間を経過した日において当該申請を取り下げたものとみなす。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-15-2-p8-zen
 - number: 9
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p9-hashira
+    type: hashira
+    text: 地方団体の長は、第一項から第三項までの規定による申請書の提出があつた場合において、当該申請書を提出した者について前条第一項、第二項又は第四項の規定に該当すると認められるときであつても、次の各号のいずれかに該当するときは、徴収の猶予又は徴収の猶予期間の延長を認めないことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-15-2-p9-kou-1
+    type: kou
+    text: 一　第十五条の三第一項第一号に掲げる場合に該当するとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-15-2-p9-kou-2
+    type: kou
+    text: 二　当該申請書を提出した者が、次項の規定による質問に対して答弁せず、若しくは偽りの答弁をし、同項の規定による検査を拒み、妨げ、若しくは忌避し、又は同項の規定による物件の提示若しくは提出の要求に対し、正当な理由がなくこれに応じず、若しくは偽りの記載若しくは記録をした帳簿書類（その作成又は保存に代えて電磁的記録（電子的方式、磁気的方式その他人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。以下この章において同じ。）の作成又は保存がされている場合における当該電磁的記録を含む。同項において同じ。）その他の物件（その写しを含む。）を提示し、若しくは提出したとき。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-15-2-p9-kou-3
+    type: kou
+    text: 三　不当な目的で徴収の猶予又は徴収の猶予期間の延長の申請がされたとき、その他その申請が誠実にされたものでないとき。
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-15-2-p9-kou-4
+    type: kou
+    text: 四　前三号に掲げるもののほか、これらに類する場合として当該地方団体の条例で定める場合に該当するとき。
+    modality: unspecified
+    item_number: 4
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p10
+    type: simple
+    text: 地方団体の長は、第五項の規定による調査をするため必要があると認めるときは、その必要な限度で、その徴税吏員に、当該申請書を提出した者に質問させ、その者の帳簿書類その他の物件を検査させ、当該物件（その写しを含む。）の提示若しくは提出を求めさせ、又は当該調査において提出された物件を留め置かせることができる。
+    modality: kanou_kenri
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p11
+    type: simple
+    text: 前項の規定により質問、検査又は提示若しくは提出の要求を行う徴税吏員は、その身分を示す証明書を携帯し、関係人の請求があつたときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-p12
+    type: simple
+    text: 第十項の規定による地方団体の徴税吏員の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:
@@ -123,6 +213,14 @@ parent_section:
 ### 第十五条の二第九項
 
 地方団体の長は、第一項から第三項までの規定による申請書の提出があつた場合において、当該申請書を提出した者について前条第一項、第二項又は第四項の規定に該当すると認められるときであつても、次の各号のいずれかに該当するときは、徴収の猶予又は徴収の猶予期間の延長を認めないことができる。
+
+一　第十五条の三第一項第一号に掲げる場合に該当するとき。
+
+二　当該申請書を提出した者が、次項の規定による質問に対して答弁せず、若しくは偽りの答弁をし、同項の規定による検査を拒み、妨げ、若しくは忌避し、又は同項の規定による物件の提示若しくは提出の要求に対し、正当な理由がなくこれに応じず、若しくは偽りの記載若しくは記録をした帳簿書類（その作成又は保存に代えて電磁的記録（電子的方式、磁気的方式その他人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。以下この章において同じ。）の作成又は保存がされている場合における当該電磁的記録を含む。同項において同じ。）その他の物件（その写しを含む。）を提示し、若しくは提出したとき。
+
+三　不当な目的で徴収の猶予又は徴収の猶予期間の延長の申請がされたとき、その他その申請が誠実にされたものでないとき。
+
+四　前三号に掲げるもののほか、これらに類する場合として当該地方団体の条例で定める場合に該当するとき。
 
 ### 第十五条の二第十項
 

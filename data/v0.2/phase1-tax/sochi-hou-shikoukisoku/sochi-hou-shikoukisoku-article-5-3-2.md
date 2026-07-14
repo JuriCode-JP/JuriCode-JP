@@ -14,19 +14,56 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p1-hashira
+    type: hashira
+    text: 法第九条の四の二第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p1-kou-1
+    type: kou
+    text: 一　その法第九条の四の二第一項に規定する上場証券投資信託等（以下この項において「上場証券投資信託等」という。）の同条第二項に規定する償還金等（次号において「償還金等」という。）の支払を受ける者の名称、本店又は主たる事務所の所在地（国内に本店又は主たる事務所を有しない法人にあつては、所得税法施行規則第八十一条第四号に定める場所）及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p1-kou-2
+    type: kou
+    text: 二　その支払の確定した上場証券投資信託等の償還金等の金額及び当該上場証券投資信託等の終了又は一部の解約の日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p1-kou-3
+    type: kou
+    text: 三　その上場証券投資信託等の受益権の名称及び口数
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p1-kou-4
+    type: kou
+    text: 四　その支払を受ける者が国税通則法第百十七条第二項の規定により届け出た納税管理人が明らかな場合には、その氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p2
+    type: simple
+    text: 法第九条の四の二第二項に規定する上場証券投資信託等の償還金等の支払調書の書式は、別表第五による。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-3-2-p3
+    type: simple
+    text: 国税庁長官は、別表第五の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:
@@ -44,6 +81,16 @@ parent_section:
 ### 第五条の三の二第一項
 
 法第九条の四の二第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　その法第九条の四の二第一項に規定する上場証券投資信託等（以下この項において「上場証券投資信託等」という。）の同条第二項に規定する償還金等（次号において「償還金等」という。）の支払を受ける者の名称、本店又は主たる事務所の所在地（国内に本店又は主たる事務所を有しない法人にあつては、所得税法施行規則第八十一条第四号に定める場所）及び法人番号
+
+二　その支払の確定した上場証券投資信託等の償還金等の金額及び当該上場証券投資信託等の終了又は一部の解約の日
+
+三　その上場証券投資信託等の受益権の名称及び口数
+
+四　その支払を受ける者が国税通則法第百十七条第二項の規定により届け出た納税管理人が明らかな場合には、その氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
+
+五　その他参考となるべき事項
 
 ### 第五条の三の二第二項
 

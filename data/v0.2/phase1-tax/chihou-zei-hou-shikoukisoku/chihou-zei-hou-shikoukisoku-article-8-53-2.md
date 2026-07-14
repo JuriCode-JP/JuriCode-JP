@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-8-53-2-p1
+    type: simple
+    text: 法第百四十四条の三十八の二第四項に規定する総務省令で定める場合は、税理士法施行規則第十五条の税務代理権限証書（次項において「税務代理権限証書」という。）に、法第百四十四条の三十八の二第一項に規定する元売業者等への調査の通知は税務代理人に対してすれば足りる旨の記載がある場合とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-8-53-2-p2
+    type: simple
+    text: 法第百四十四条の三十八の二第五項に規定する総務省令で定める場合は、税務代理権限証書に、当該税務代理権限証書を提出する者を同項の代表する税務代理人として定めた旨の記載がある場合とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-12-p1
+    type: simple
+    text: 理事長又は理事の代表権に加えた制限は、善意の第三者に対抗することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

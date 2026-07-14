@@ -50,10 +50,8 @@ parent_section:
 
 ### 第八百八十六条第一項
 
-<!-- segment: simple id: minpou-art-886-p1 -->
 胎児は、相続については、既に生まれたものとみなす。
 
 ### 第八百八十六条第二項
 
-<!-- segment: simple id: minpou-art-886-p2 -->
 前項の規定は、胎児が死体で生まれたときは、適用しない。

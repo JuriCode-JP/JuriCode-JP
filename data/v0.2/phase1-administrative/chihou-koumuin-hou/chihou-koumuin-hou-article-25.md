@@ -41,6 +41,41 @@ paragraphs:
     type: hashira
     text: 給与に関する条例には、次に掲げる事項を規定するものとする。
     modality: gimu
+  - id: chihou-koumuin-hou-art-25-p3-kou-1
+    type: kou
+    text: 一　給料表
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-25-p3-kou-2
+    type: kou
+    text: 二　等級別基準職務表
+    modality: unspecified
+    item_number: 2
+  - id: chihou-koumuin-hou-art-25-p3-kou-3
+    type: kou
+    text: 三　昇給の基準に関する事項
+    modality: unspecified
+    item_number: 3
+  - id: chihou-koumuin-hou-art-25-p3-kou-4
+    type: kou
+    text: 四　時間外勤務手当、夜間勤務手当及び休日勤務手当に関する事項
+    modality: unspecified
+    item_number: 4
+  - id: chihou-koumuin-hou-art-25-p3-kou-5
+    type: kou
+    text: 五　前号に規定するものを除くほか、地方自治法第二百四条第二項に規定する手当を支給する場合には、当該手当に関する事項
+    modality: unspecified
+    item_number: 5
+  - id: chihou-koumuin-hou-art-25-p3-kou-6
+    type: kou
+    text: 六　非常勤の職その他勤務条件の特別な職があるときは、これらについて行う給与の調整に関する事項
+    modality: unspecified
+    item_number: 6
+  - id: chihou-koumuin-hou-art-25-p3-kou-7
+    type: kou
+    text: 七　前各号に規定するものを除くほか、給与の支給方法及び支給条件に関する事項
+    modality: unspecified
+    item_number: 7
 - number: 4
   has_proviso: false
   has_items: false
@@ -81,25 +116,34 @@ parent_section:
 
 ### 第二十五条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-25-p1 -->
 職員の給与は、前条第五項の規定による給与に関する条例に基づいて支給されなければならず、また、これに基づかずには、いかなる金銭又は有価物も職員に支給してはならない。
 
 ### 第二十五条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-25-p2 -->
 職員の給与は、法律又は条例により特に認められた場合を除き、通貨で、直接職員に、その全額を支払わなければならない。
 
 ### 第二十五条第三項
 
-<!-- segment: hashira id: chihou-koumuin-hou-art-25-p3-hashira -->
 給与に関する条例には、次に掲げる事項を規定するものとする。
+
+一　給料表
+
+二　等級別基準職務表
+
+三　昇給の基準に関する事項
+
+四　時間外勤務手当、夜間勤務手当及び休日勤務手当に関する事項
+
+五　前号に規定するものを除くほか、地方自治法第二百四条第二項に規定する手当を支給する場合には、当該手当に関する事項
+
+六　非常勤の職その他勤務条件の特別な職があるときは、これらについて行う給与の調整に関する事項
+
+七　前各号に規定するものを除くほか、給与の支給方法及び支給条件に関する事項
 
 ### 第二十五条第四項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-25-p4 -->
 前項第一号の給料表には、職員の職務の複雑、困難及び責任の度に基づく等級ごとに明確な給料額の幅を定めていなければならない。
 
 ### 第二十五条第五項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-25-p5 -->
 第三項第二号の等級別基準職務表には、職員の職務を前項の等級ごとに分類する際に基準となるべき職務の内容を定めていなければならない。

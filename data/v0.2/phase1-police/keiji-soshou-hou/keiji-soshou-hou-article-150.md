@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百五十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-150-p1 -->
 召喚を受けた証人が正当な理由がなく出頭しないときは、決定で、十万円以下の過料に処し、かつ、出頭しないために生じた費用の賠償を命ずることができる。
 
 ### 第百五十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-150-p2 -->
 前項の決定に対しては、即時抗告をすることができる。

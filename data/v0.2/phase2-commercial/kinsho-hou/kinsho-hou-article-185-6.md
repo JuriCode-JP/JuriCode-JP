@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-6-p1
+    type: simple
+    text: 審判官は、審判手続を経た後、審判事件についての決定案を作成し、内閣総理大臣に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

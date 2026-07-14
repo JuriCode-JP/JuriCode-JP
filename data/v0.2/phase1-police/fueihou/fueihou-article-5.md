@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: fueihou-art-5-p1-zen
@@ -26,6 +26,36 @@ paragraphs:
     text: この場合において、当該許可申請書には、営業の方法を記載した書類その他の内閣府令で定める書類を添付しなければならない。
     modality: gimu
     depends_on: fueihou-art-5-p1-zen
+  - id: fueihou-art-5-p1-kou-1
+    type: kou
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-5-p1-kou-2
+    type: kou
+    text: 二　営業所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-5-p1-kou-3
+    type: kou
+    text: 三　風俗営業の種別
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-5-p1-kou-4
+    type: kou
+    text: 四　営業所の構造及び設備の概要
+    modality: unspecified
+    item_number: 4
+  - id: fueihou-art-5-p1-kou-5
+    type: kou
+    text: 五　第二十四条第一項の管理者の氏名及び住所
+    modality: unspecified
+    item_number: 5
+  - id: fueihou-art-5-p1-kou-6
+    type: kou
+    text: 六　法人にあつては、その役員の氏名及び住所
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -69,21 +99,28 @@ parent_section:
 
 ### 第五条第一項
 
-<!-- segment: zen_dan id: fueihou-art-5-p1-zen -->
-第三条第一項の許可を受けようとする者は、公安委員会に、次の事項を記載した許可申請書を提出しなければならない。<!-- segment: kou_dan id: fueihou-art-5-p1-kou depends_on: fueihou-art-5-p1-zen -->
-この場合において、当該許可申請書には、営業の方法を記載した書類その他の内閣府令で定める書類を添付しなければならない。
+第三条第一項の許可を受けようとする者は、公安委員会に、次の事項を記載した許可申請書を提出しなければならない。この場合において、当該許可申請書には、営業の方法を記載した書類その他の内閣府令で定める書類を添付しなければならない。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　営業所の名称及び所在地
+
+三　風俗営業の種別
+
+四　営業所の構造及び設備の概要
+
+五　第二十四条第一項の管理者の氏名及び住所
+
+六　法人にあつては、その役員の氏名及び住所
 
 ### 第五条第二項
 
-<!-- segment: simple id: fueihou-art-5-p2 -->
 公安委員会は、第三条第一項の許可をしたときは、国家公安委員会規則で定めるところにより、許可証を交付しなければならない。
 
 ### 第五条第三項
 
-<!-- segment: simple id: fueihou-art-5-p3 -->
 公安委員会は、第三条第一項の許可をしないときは、国家公安委員会規則で定めるところにより、申請者にその旨を通知しなければならない。
 
 ### 第五条第四項
 
-<!-- segment: simple id: fueihou-art-5-p4 -->
 許可証の交付を受けた者は、当該許可証を亡失し、又は当該許可証が滅失したときは、速やかにその旨を公安委員会に届け出て、許可証の再交付を受けなければならない。

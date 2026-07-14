@@ -16,42 +16,101 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p1
+    type: tokusoku
+    text: 普通地方公共団体の議会は、前条の規定にかかわらず、条例で定めるところにより、定例会及び臨時会とせず、毎年、条例で定める日から翌年の当該日の前日までを会期とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p2
+    type: simple
+    text: 前項の議会は、第四項の規定により招集しなければならないものとされる場合を除き、前項の条例で定める日の到来をもつて、普通地方公共団体の長が当該日にこれを招集したものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p3
+    type: tokusoku
+    text: 第一項の会期中において、議員の任期が満了したとき、議会が解散されたとき又は議員が全てなくなつたときは、同項の規定にかかわらず、その任期満了の日、その解散の日又はその議員が全てなくなつた日をもつて、会期は終了するものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p4-zen
+    type: zen_dan
+    text: 前項の規定により会期が終了した場合には、普通地方公共団体の長は、同項に規定する事由により行われた一般選挙により選出された議員の任期が始まる日から三十日以内に議会を招集しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+  - id: chihou-jichi-hou-art-102-2-p4-kou
+    type: kou_dan
+    text: この場合においては、その招集の日から同日後の最初の第一項の条例で定める日の前日までを会期とするものとする。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-102-2-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p5
+    type: junyou
+    text: 第三項の規定は、前項後段に規定する会期について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p6
+    type: simple
+    text: 第一項の議会は、条例で、定期的に会議を開く日（以下「定例日」という。）を定めなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p7-zen
+    type: zen_dan
+    text: 普通地方公共団体の長は、第一項の議会の議長に対し、会議に付議すべき事件を示して定例日以外の日において会議を開くことを請求することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-102-2-p7-kou
+    type: kou_dan
+    text: この場合において、議長は、当該請求のあつた日から、都道府県及び市にあつては七日以内、町村にあつては三日以内に会議を開かなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-102-2-p7-zen
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-102-2-p8
+    type: simple
+    text: 第一項の場合における第七十四条第三項、第百二十一条第一項、第二百四十三条の三第二項及び第三項並びに第二百五十二条の三十九第四項の規定の適用については、第七十四条第三項中「二十日以内に議会を招集し、」とあるのは「二十日以内に」と、第百二十一条第一項中「議会の審議」とあるのは「定例日に開かれる会議の審議又は議案の審議」と、第二百四十三条の三第二項及び第三項中「次の議会」とあるのは「次の定例日に開かれる会議」と、第二百五十二条の三十九第四項中「二十日以内に議会を招集し」とあるのは「二十日以内に」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

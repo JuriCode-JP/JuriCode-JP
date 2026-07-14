@@ -22,7 +22,7 @@ paragraphs:
     text: 死者の名誉を毀損した罪については、死者の親族又は子孫は、告訴をすることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百三十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-233-p1 -->
 死者の名誉を毀損した罪については、死者の親族又は子孫は、告訴をすることができる。
 
 ### 第二百三十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-233-p2 -->
 名誉を毀損した罪について被害者が告訴をしないで死亡したときも、前項と同様である。但し、被害者の明示した意思に反することはできない。

@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-8-2-p1
+    type: simple
+    text: 法第六十一条の二第八項（有価証券の譲渡益又は譲渡損の益金又は損金算入）に規定する政令で定めるところにより計算した金額は、同項に規定する所有株式を発行した法人の行つた株式分配の直前の当該所有株式の帳簿価額に当該株式分配に係る第二十三条第一項第三号（所有株式に対応する資本金等の額の計算方法等）に規定する割合を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-8-2-p2
+    type: simple
+    text: 前項に規定する所有株式を発行した法人は、株式分配を行つた場合には、当該所有株式を有していた法人に対し、当該株式分配に係る同項に規定する割合を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

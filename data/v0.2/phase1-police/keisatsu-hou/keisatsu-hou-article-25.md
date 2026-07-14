@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: サイバー警察局においては、警察庁の所掌事務に関し、次に掲げる事務をつかさどる。
     modality: unspecified
+  - id: keisatsu-hou-art-25-p1-kou-1
+    type: kou
+    text: 一　サイバー事案に関する警察に関すること。
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-25-p1-kou-2
+    type: kou
+    text: 二　犯罪の取締りのための情報技術の解析に関すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: hashira id: keisatsu-hou-art-25-p1-hashira -->
 サイバー警察局においては、警察庁の所掌事務に関し、次に掲げる事務をつかさどる。
+
+一　サイバー事案に関する警察に関すること。
+
+二　犯罪の取締りのための情報技術の解析に関すること。

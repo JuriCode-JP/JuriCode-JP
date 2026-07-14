@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 政令第五十七条の五第一項に規定する総務省令で定める事項は、次の各号に掲げる地方団体の徴収金に応じ、それぞれ当該各号に掲げる事項とする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-24-41-p1-kou-1
+    type: kou
+    text: 一　第二十四条の四十三第一項第一号に規定する方法により納付し、又は納入する地方団体の徴収金　同号に規定する符号
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-24-41-p1-kou-2
+    type: kou
+    text: 二　第二十四条の四十三第一項第二号に規定する方法により納付し、又は納入する地方団体の徴収金　同号柱書に規定する符号
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,5 +44,8 @@ tags:
 
 ### 第二十四条の四十一
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-24-41-p1-hashira -->
 政令第五十七条の五第一項に規定する総務省令で定める事項は、次の各号に掲げる地方団体の徴収金に応じ、それぞれ当該各号に掲げる事項とする。
+
+一　第二十四条の四十三第一項第一号に規定する方法により納付し、又は納入する地方団体の徴収金　同号に規定する符号
+
+二　第二十四条の四十三第一項第二号に規定する方法により納付し、又は納入する地方団体の徴収金　同号柱書に規定する符号

@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-138-p1 -->
 正当な理由がなく身体の検査を拒んだ者は、十万円以下の罰金又は拘留に処する。
 
 ### 第百三十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-138-p2 -->
 前項の罪を犯した者には、情状により、罰金及び拘留を併科することができる。

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 意思表示は、次に掲げる錯誤に基づくものであって、その錯誤が法律行為の目的及び取引上の社会通念に照らして重要なものであるときは、取り消すことができる。
     modality: koka_torikeshi
+  - id: minpou-art-95-p1-kou-1
+    type: kou
+    text: 一　意思表示に対応する意思を欠く錯誤
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-95-p1-kou-2
+    type: kou
+    text: 二　表意者が法律行為の基礎とした事情についてのその認識が真実に反する錯誤
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -41,6 +51,16 @@ paragraphs:
     type: hashira
     text: 錯誤が表意者の重大な過失によるものであった場合には、次に掲げる場合を除き、第一項の規定による意思表示の取消しをすることができない。
     modality: kanou_negative
+  - id: minpou-art-95-p3-kou-1
+    type: kou
+    text: 一　相手方が表意者に錯誤があることを知り、又は重大な過失によって知らなかったとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-95-p3-kou-2
+    type: kou
+    text: 二　相手方が表意者と同一の錯誤に陥っていたとき。
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -70,20 +90,24 @@ parent_section:
 
 ### 第九十五条第一項
 
-<!-- segment: hashira id: minpou-art-95-p1-hashira -->
 意思表示は、次に掲げる錯誤に基づくものであって、その錯誤が法律行為の目的及び取引上の社会通念に照らして重要なものであるときは、取り消すことができる。
+
+一　意思表示に対応する意思を欠く錯誤
+
+二　表意者が法律行為の基礎とした事情についてのその認識が真実に反する錯誤
 
 ### 第九十五条第二項
 
-<!-- segment: simple id: minpou-art-95-p2 -->
 前項第二号の規定による意思表示の取消しは、その事情が法律行為の基礎とされていることが表示されていたときに限り、することができる。
 
 ### 第九十五条第三項
 
-<!-- segment: hashira id: minpou-art-95-p3-hashira -->
 錯誤が表意者の重大な過失によるものであった場合には、次に掲げる場合を除き、第一項の規定による意思表示の取消しをすることができない。
+
+一　相手方が表意者に錯誤があることを知り、又は重大な過失によって知らなかったとき。
+
+二　相手方が表意者と同一の錯誤に陥っていたとき。
 
 ### 第九十五条第四項
 
-<!-- segment: simple id: minpou-art-95-p4 -->
 第一項の規定による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない。

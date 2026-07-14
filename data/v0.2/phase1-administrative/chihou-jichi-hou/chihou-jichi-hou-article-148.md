@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百四十八条
 
-<!-- segment: simple id: chihou-jichi-hou-art-148-p1 -->
 普通地方公共団体の長は、当該普通地方公共団体の事務を管理し及びこれを執行する。

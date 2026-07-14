@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-9-p1
+    type: simple
+    text: 家庭裁判所は、第十五条第一項本文に規定する者又は補助人若しくは補助監督人の請求によって、被補助人のために特定の法律行為について補助人に代理権を付与する旨の審判をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-9-p2
+    type: junyou
+    text: 第八百七十六条の四第二項及び第三項の規定は、前項の審判について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

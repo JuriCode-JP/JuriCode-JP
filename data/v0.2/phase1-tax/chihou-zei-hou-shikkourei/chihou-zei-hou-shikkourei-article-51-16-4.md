@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-16-4-p1-hashira
+    type: hashira
+    text: 法第三百四十八条第八項に規定する政令で定める固定資産は、次に掲げる固定資産とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-16-4-p1-kou-1
+    type: kou
+    text: 一　当該固定資産を所有する地方独立行政法人（公立大学法人を除く。）以外の者が使用している固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-16-4-p1-kou-2
+    type: kou
+    text: 二　発電所、変電所又は送電施設の用に供する固定資産（法第三百四十八条第二項第四十五号に掲げるもの及び前号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-51-16-4-p1-kou-3
+    type: kou
+    text: 三　水道法第三条第八項に規定する水道施設若しくは工業用水道事業法第二条第六項に規定する工業用水道施設のうちダム以外のものの用に供する土地又は水道若しくは工業用水道の用に供するダムの用に供する固定資産で、総務省令で定めるもの（法第三百四十八条第二項第四十五号に掲げるもの及び第一号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第五十一条の十六の四
 
 法第三百四十八条第八項に規定する政令で定める固定資産は、次に掲げる固定資産とする。
+
+一　当該固定資産を所有する地方独立行政法人（公立大学法人を除く。）以外の者が使用している固定資産
+
+二　発電所、変電所又は送電施設の用に供する固定資産（法第三百四十八条第二項第四十五号に掲げるもの及び前号に掲げるものを除く。）
+
+三　水道法第三条第八項に規定する水道施設若しくは工業用水道事業法第二条第六項に規定する工業用水道施設のうちダム以外のものの用に供する土地又は水道若しくは工業用水道の用に供するダムの用に供する固定資産で、総務省令で定めるもの（法第三百四十八条第二項第四十五号に掲げるもの及び第一号に掲げるものを除く。）

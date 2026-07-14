@@ -27,7 +27,7 @@ paragraphs:
     modality: gimu
     depends_on: kaisha-hou-art-711-p1-zen
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -70,16 +70,12 @@ parent_section:
 
 ### 第七百十一条第一項
 
-<!-- segment: zen_dan id: kaisha-hou-art-711-p1-zen -->
-社債管理者は、社債発行会社及び社債権者集会の同意を得て辞任することができる。<!-- segment: kou_dan id: kaisha-hou-art-711-p1-kou depends_on: kaisha-hou-art-711-p1-zen -->
-この場合において、他に社債管理者がないときは、当該社債管理者は、あらかじめ、事務を承継する社債管理者を定めなければならない。
+社債管理者は、社債発行会社及び社債権者集会の同意を得て辞任することができる。この場合において、他に社債管理者がないときは、当該社債管理者は、あらかじめ、事務を承継する社債管理者を定めなければならない。
 
 ### 第七百十一条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-711-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、社債管理者は、第七百二条の規定による委託に係る契約に定めた事由があるときは、辞任することができる。ただし、当該契約に事務を承継する社債管理者に関する定めがないときは、この限りでない。
 
 ### 第七百十一条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-711-p3 override_flag: true override_target: 第一項 -->
 第一項の規定にかかわらず、社債管理者は、やむを得ない事由があるときは、裁判所の許可を得て、辞任することができる。

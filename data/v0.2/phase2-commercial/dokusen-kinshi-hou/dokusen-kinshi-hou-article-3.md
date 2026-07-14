@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-3-p1 -->
 事業者は、私的独占又は不当な取引制限をしてはならない。

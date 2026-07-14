@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-13-p1
+    type: simple
+    text: 第七百四十七条の二から前条までに定めるもののほか、第七百四十七条の二第一項の規定により行われる書面等地方税関係申告等及び第七百四十七条の三第一項の規定により行われる書面等以外地方税関係申告等並びに第七百四十七条の四第一項の規定により行われる特定書面等地方税関係通知及び第七百四十七条の五第一項の規定により行われる特定地方税関係通知等並びに第七百四十七条の六から前条までの規定により行われる特定徴収金の収納に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

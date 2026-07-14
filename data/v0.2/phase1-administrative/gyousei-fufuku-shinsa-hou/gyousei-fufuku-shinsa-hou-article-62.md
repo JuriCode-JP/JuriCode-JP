@@ -54,12 +54,8 @@ parent_section:
 
 ### 第六十二条第一項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-62-p1-honbun -->
-再審査請求は、原裁決があったことを知った日の翌日から起算して一月を経過したときは、することができない。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-62-p1-tadashi -->
-<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-62-p2-tadashi -->
-ただし、正当な理由があるときは、この限りでない。
+再審査請求は、原裁決があったことを知った日の翌日から起算して一月を経過したときは、することができない。ただし、正当な理由があるときは、この限りでない。
 
 ### 第六十二条第二項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-62-p2-honbun -->
 再審査請求は、原裁決があった日の翌日から起算して一年を経過したときは、することができない。ただし、正当な理由があるときは、この限りでない。

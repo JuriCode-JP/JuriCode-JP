@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十八条第四項（繰上保全差押）において準用する国税徴収法第百五十九条第三項（保全差押に係る通知）の書面には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-9-p1-kou-1
+    type: kou
+    text: 一　法第三十八条第三項の規定により決定した金額
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-9-p1-kou-2
+    type: kou
+    text: 二　前号の金額の決定の基因となつた国税の年度及び税目
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-shikkourei-art-9-p1-hashira -->
 法第三十八条第四項（繰上保全差押）において準用する国税徴収法第百五十九条第三項（保全差押に係る通知）の書面には、次に掲げる事項を記載しなければならない。
+
+一　法第三十八条第三項の規定により決定した金額
+
+二　前号の金額の決定の基因となつた国税の年度及び税目

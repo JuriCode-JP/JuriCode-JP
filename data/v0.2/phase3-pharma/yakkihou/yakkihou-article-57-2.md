@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-57-2-p1
+    type: simple
+    text: 薬局開設者又は医薬品の販売業者は、医薬品を他の物と区別して貯蔵し、又は陳列しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-57-2-p2
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、要指導医薬品及び一般用医薬品（専ら動物のために使用されることが目的とされているものを除く。）を陳列する場合には、厚生労働省令で定めるところにより、これらを区別して陳列しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-57-2-p3
+    type: simple
+    text: 薬局開設者、店舗販売業者又は配置販売業者は、一般用医薬品を陳列する場合には、厚生労働省令で定めるところにより、第一類医薬品、第二類医薬品又は第三類医薬品の区分ごとに、陳列しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-57-2-p4
+    type: simple
+    text: 薬局開設者又は店舗販売業者は、指定濫用防止医薬品を陳列する場合には、指定濫用防止医薬品の適正な使用を確保するよう、厚生労働省令で定めるところにより、陳列しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

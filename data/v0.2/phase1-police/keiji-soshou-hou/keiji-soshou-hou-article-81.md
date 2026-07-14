@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-81-p1 -->
 裁判所は、逃亡し又は罪証を隠滅すると疑うに足りる相当な理由があるときは、検察官の請求により又は職権で、勾留されている被告人と第三十九条第一項に規定する者以外の者との接見を禁じ、又はこれと授受すべき書類その他の物を検閲し、その授受を禁じ、若しくはこれを差し押えることができる。但し、糧食の授受を禁じ、又はこれを差し押えることはできない。

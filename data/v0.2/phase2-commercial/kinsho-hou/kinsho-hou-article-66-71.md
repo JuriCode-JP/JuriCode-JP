@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-71-p1
+    type: simple
+    text: 投資運用関係業務受託業を行う者は、内閣総理大臣の登録を受けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

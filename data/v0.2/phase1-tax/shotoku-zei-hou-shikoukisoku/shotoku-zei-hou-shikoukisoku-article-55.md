@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第百四十四条（青色申告の承認の申請）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-55-p1-kou-1
+    type: kou
+    text: 一　法第百四十四条に規定する申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-55-p1-kou-2
+    type: kou
+    text: 二　前号の申請書を提出した後最初に青色申告書を提出しようとする年
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-55-p1-kou-3
+    type: kou
+    text: 三　法第百五十条第一項（青色申告の承認の取消し）の規定により青色申告書の提出の承認を取り消され、又は法第百五十一条第一項（青色申告の取りやめ）の規定により青色申告書による申告書の提出をやめる旨の届出書を提出した後再び第一号の申請書を提出しようとする場合には、その取消しに係る同条第二項の規定による通知を受けた日又は取りやめの届出書の提出をした日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-55-p1-kou-4
+    type: kou
+    text: 四　その年一月十六日以後新たに法第百四十三条（青色申告）に規定する業務を開始した場合には、その開始した年月日
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-55-p1-kou-5
+    type: kou
+    text: 五　その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -41,5 +66,14 @@ parent_section:
 
 ### 第五十五条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-55-p1-hashira -->
 法第百四十四条（青色申告の承認の申請）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百四十四条に規定する申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+
+二　前号の申請書を提出した後最初に青色申告書を提出しようとする年
+
+三　法第百五十条第一項（青色申告の承認の取消し）の規定により青色申告書の提出の承認を取り消され、又は法第百五十一条第一項（青色申告の取りやめ）の規定により青色申告書による申告書の提出をやめる旨の届出書を提出した後再び第一号の申請書を提出しようとする場合には、その取消しに係る同条第二項の規定による通知を受けた日又は取りやめの届出書の提出をした日
+
+四　その年一月十六日以後新たに法第百四十三条（青色申告）に規定する業務を開始した場合には、その開始した年月日
+
+五　その他参考となるべき事項

@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-7-p1 -->
 金融庁長官は、その職員に審判手続に関する事務を行わせる。
 
 ### 第七条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-7-p2 -->
 前項の職員（以下「審判手続の事務を行う職員」という。）は、金融庁長官又は審判官の命を受けて、審判手続における調書その他の書類の作成、保管、送達及び送付に関する事務並びにこの章の規定による通知に関する事務を行う。

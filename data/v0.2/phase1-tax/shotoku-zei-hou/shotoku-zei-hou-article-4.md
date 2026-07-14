@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四条
 
-<!-- segment: simple id: shotoku-zei-hou-art-4-p1 -->
 人格のない社団等は、法人とみなして、この法律（別表第一を除く。）の規定を適用する。

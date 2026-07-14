@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-21-p1
+    type: simple
+    text: 法第五十七条の十三第三項に規定する内閣府令で定めるものは、電磁的記録媒体をもって調製するファイルに情報を記録したものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

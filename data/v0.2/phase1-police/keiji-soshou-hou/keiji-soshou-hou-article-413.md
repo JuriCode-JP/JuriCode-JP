@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-413-p1 -->
 前条に規定する理由以外の理由によつて原判決を破棄するときは、判決で、事件を原裁判所若しくは第一審裁判所に差し戻し、又はこれらと同等の他の裁判所に移送しなければならない。但し、上告裁判所は、訴訟記録並びに原裁判所及び第一審裁判所において取り調べた証拠によつて、直ちに判決をすることができるものと認めるときは、被告事件について更に判決をすることができる。

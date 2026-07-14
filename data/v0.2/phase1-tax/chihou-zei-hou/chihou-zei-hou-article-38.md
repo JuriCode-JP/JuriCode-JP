@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三十八条
 
-<!-- segment: simple id: chihou-zei-hou-art-38-p1 -->
 個人の均等割の標準税率は、千円とする。

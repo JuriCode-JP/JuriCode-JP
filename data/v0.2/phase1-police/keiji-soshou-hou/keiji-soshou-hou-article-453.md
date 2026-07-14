@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百五十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-453-p1 -->
 再審において無罪の言渡をしたときは、官報及び新聞紙に掲載して、その判決を公示しなければならない。

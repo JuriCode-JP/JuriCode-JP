@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-11-p1-honbun
+    type: honbun
+    text: 元本の確定前においては、根抵当権者は、第三百七十六条第一項の規定による根抵当権の処分をすることができない。
+    modality: kanou_negative
+  - id: minpou-art-398-11-p1-tadashi
+    type: tadashi
+    text: ただし、その根抵当権を他の債権の担保とすることを妨げない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-11-p2
+    type: simple
+    text: 第三百七十七条第二項の規定は、前項ただし書の場合において元本の確定前にした弁済については、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

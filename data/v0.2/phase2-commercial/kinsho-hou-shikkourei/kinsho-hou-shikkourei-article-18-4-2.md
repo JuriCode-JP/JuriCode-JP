@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-2-p1-honbun
+    type: honbun
+    text: 法第六十六条の三十八に規定する政令で定める期間は、三月とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-18-4-2-p1-tadashi
+    type: tadashi
+    text: ただし、外国法人（法人でない外国の団体で代表者又は管理人の定めのあるものを含む。次条及び第十八条の四の五において同じ。）が、その本国の法令又は慣行により、その事業年度経過後三月以内に事業報告書を提出することができないと認められる場合には、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

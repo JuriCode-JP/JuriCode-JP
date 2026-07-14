@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-12-p1
+    type: simple
+    text: 内国法人に対して課する各対象会計年度の国際最低課税残余額に対する法人税の課税標準は、各対象会計年度の内国法人に係る課税標準国際最低課税残余額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-12-p2
+    type: simple
+    text: 各対象会計年度の内国法人に係る課税標準国際最低課税残余額は、各対象会計年度の国際最低課税残余額とする。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2026-04-01'

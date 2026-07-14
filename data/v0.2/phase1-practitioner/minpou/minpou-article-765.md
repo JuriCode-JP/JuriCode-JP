@@ -23,6 +23,16 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前条
+  - id: minpou-art-765-p1-kou-1
+    type: kou
+    text: 一　親権者の定めがされていること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-765-p1-kou-2
+    type: kou
+    text: 二　親権者の指定を求める家事審判又は家事調停の申立てがされていること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -56,10 +66,12 @@ parent_section:
 
 ### 第七百六十五条第一項
 
-<!-- segment: hashira id: minpou-art-765-p1-hashira -->
 離婚の届出は、その離婚が前条において準用する第七百三十九条第二項の規定その他の法令の規定に違反しないこと及び夫婦間に成年に達しない子がある場合には次の各号のいずれかに該当することを認めた後でなければ、受理することができない。
+
+一　親権者の定めがされていること。
+
+二　親権者の指定を求める家事審判又は家事調停の申立てがされていること。
 
 ### 第七百六十五条第二項
 
-<!-- segment: simple id: minpou-art-765-p2 -->
 離婚の届出が前項の規定に違反して受理されたときであっても、離婚は、そのためにその効力を妨げられない。

@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-23-2-p1
+    type: simple
+    text: 法第百八十一条第四項に規定する内閣府令で定める範囲は、事件の同一性を失わせることとならない範囲とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-23-2-p2
+    type: simple
+    text: 法第百八十一条第四項の規定による主張は、同項に規定する変更（以下この条において単に「変更」という。）により著しく審判手続を遅滞させることとなるときは、することができない。
+    modality: kanou_negative
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-23-2-p3
+    type: simple
+    text: 審判官は、変更により被審人の防御に実質的な不利益を生ずることとならないよう配慮しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-23-2-p4
+    type: simple
+    text: 審判官は、変更を許さないときは、審判手続の期日において、その旨及びその理由を明らかにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

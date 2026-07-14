@@ -16,47 +16,96 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p1
+    type: simple
+    text: 再生医療等製品の製造販売業者は、厚生労働省令で定めるところにより、再生医療等製品の品質管理及び製造販売後安全管理を行わせるために、医師、歯科医師、薬剤師、獣医師その他の厚生労働省令で定める基準に該当する技術者を置かなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p2
+    type: simple
+    text: 前項の規定により再生医療等製品の品質管理及び製造販売後安全管理を行う者として置かれる者（以下「再生医療等製品総括製造販売責任者」という。）は、次項に規定する義務及び第四項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p3
+    type: simple
+    text: 再生医療等製品総括製造販売責任者は、再生医療等製品の品質管理及び製造販売後安全管理を公正かつ適正に行うために必要があるときは、製造販売業者に対し、意見を書面により述べなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p4
+    type: simple
+    text: 再生医療等製品総括製造販売責任者が行う再生医療等製品の品質管理及び製造販売後安全管理のために必要な業務並びに再生医療等製品総括製造販売責任者が遵守すべき事項については、厚生労働省令で定める。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p5
+    type: simple
+    text: 再生医療等製品の製造業者は、厚生労働大臣の承認を受けて自らその製造を実地に管理する場合のほか、その製造を実地に管理させるために、製造所ごとに、厚生労働大臣の承認を受けて、再生医療等製品に係る生物学的知識を有する者その他の技術者を置かなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p6
+    type: simple
+    text: 前項の規定により再生医療等製品の製造を管理する者として置かれる者（以下「再生医療等製品製造管理者」という。）は、次項及び第八項において準用する第八条第一項に規定する義務並びに第九項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p7
+    type: simple
+    text: 再生医療等製品製造管理者は、再生医療等製品の製造の管理を公正かつ適正に行うために必要があるときは、製造業者に対し、意見を書面により述べなければならない。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p8-zen
+    type: zen_dan
+    text: 再生医療等製品製造管理者については、第七条第四項及び第八条第一項の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-art-23-34-p8-kou
+    type: kou_dan
+    text: この場合において、第七条第四項中「その薬局の所在地の都道府県知事」とあるのは、「厚生労働大臣」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-art-23-34-p8-zen
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-34-p9
+    type: simple
+    text: 再生医療等製品製造管理者が行う再生医療等製品の製造の管理のために必要な業務及び再生医療等製品製造管理者が遵守すべき事項については、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる行為をする持分会社は、新設合併契約等について当該持分会社の総社員の同意を得なければならない。ただし、定款に別段の定めがある場合は、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-813-p1-kou-1
+    type: kou
+    text: 一　新設合併
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-813-p1-kou-2
+    type: kou
+    text: 二　新設分割（当該持分会社（合同会社に限る。）がその事業に関して有する権利義務の全部を他の会社に承継させる場合に限る。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +64,12 @@ parent_section:
 
 ### 第八百十三条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-813-p1-hashira -->
 次に掲げる行為をする持分会社は、新設合併契約等について当該持分会社の総社員の同意を得なければならない。ただし、定款に別段の定めがある場合は、この限りでない。
+
+一　新設合併
+
+二　新設分割（当該持分会社（合同会社に限る。）がその事業に関して有する権利義務の全部を他の会社に承継させる場合に限る。）
 
 ### 第八百十三条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-813-p2 -->
 第八百十条（第一項第三号及び第二項第三号を除く。）の規定は、新設合併消滅持分会社又は合同会社である新設分割会社（以下この節において「新設分割合同会社」という。）について準用する。この場合において、同条第一項第二号中「債権者（第七百六十三条第一項第十二号又は第七百六十五条第一項第八号に掲げる事項についての定めがある場合にあっては、新設分割株式会社の債権者）」とあるのは「債権者」と、同条第三項中「消滅株式会社等」とあるのは「新設合併消滅持分会社（新設合併設立会社が株式会社又は合同会社である場合にあっては、合同会社に限る。）又は新設分割合同会社」と読み替えるものとする。

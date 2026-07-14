@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: kinsho-hou-shikkourei-art-19-p1 -->
 法第八十三条の二に規定する政令で定める金額は、十億円とする。

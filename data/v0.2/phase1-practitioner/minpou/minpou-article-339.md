@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百三十九条
 
-<!-- segment: simple id: minpou-art-339-p1 -->
 前二条の規定に従って登記をした先取特権は、抵当権に先立って行使することができる。

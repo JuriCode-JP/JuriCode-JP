@@ -22,7 +22,7 @@ paragraphs:
     text: 両議院は、各々その議長その他の役員を選任する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -46,10 +46,8 @@ parent_section:
 
 ### 第五十八条第一項
 
-<!-- segment: simple id: kenpou-art-58-p1 -->
 両議院は、各々その議長その他の役員を選任する。
 
 ### 第五十八条第二項
 
-<!-- segment: simple id: kenpou-art-58-p2 -->
 両議院は、各々その会議その他の手続及び内部の規律に関する規則を定め、又、院内の秩序をみだした議員を懲罰することができる。但し、議員を除名するには、出席議員の三分の二以上の多数による議決を必要とする。

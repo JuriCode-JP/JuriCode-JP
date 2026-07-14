@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-593-2-p1-honbun
+    type: honbun
+    text: 貸主は、借主が借用物を受け取るまで、契約の解除をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-593-2-p1-tadashi
+    type: tadashi
+    text: ただし、書面による使用貸借については、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

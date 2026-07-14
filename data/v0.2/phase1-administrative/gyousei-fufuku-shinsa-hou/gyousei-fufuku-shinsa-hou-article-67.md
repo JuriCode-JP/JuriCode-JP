@@ -50,10 +50,8 @@ parent_section:
 
 ### 第六十七条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-67-p1 -->
 総務省に、行政不服審査会（以下「審査会」という。）を置く。
 
 ### 第六十七条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-67-p2 -->
 審査会は、この法律の規定によりその権限に属させられた事項を処理する。

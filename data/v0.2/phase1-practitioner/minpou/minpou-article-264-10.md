@@ -16,17 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-10-p1
+    type: simple
+    text: 管理不全土地管理人は、管理不全土地管理命令の対象とされた土地及び管理不全土地管理命令の効力が及ぶ動産並びにその管理、処分その他の事由により管理不全土地管理人が得た財産（以下「管理不全土地等」という。）の管理及び処分をする権限を有する。
+    modality: unspecified
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-10-p2-hashira
+    type: hashira
+    text: 管理不全土地管理人が次に掲げる行為の範囲を超える行為をするには、裁判所の許可を得なければならない。ただし、この許可がないことをもって善意でかつ過失がない第三者に対抗することはできない。
+    modality: kanou_negative
+  - id: minpou-art-264-10-p2-kou-1
+    type: kou
+    text: 一　保存行為
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-264-10-p2-kou-2
+    type: kou
+    text: 二　管理不全土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-10-p3
+    type: simple
+    text: 管理不全土地管理命令の対象とされた土地の処分についての前項の許可をするには、その所有者の同意がなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -52,6 +76,10 @@ parent_section:
 ### 第二百六十四条の十第二項
 
 管理不全土地管理人が次に掲げる行為の範囲を超える行為をするには、裁判所の許可を得なければならない。ただし、この許可がないことをもって善意でかつ過失がない第三者に対抗することはできない。
+
+一　保存行為
+
+二　管理不全土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
 
 ### 第二百六十四条の十第三項
 

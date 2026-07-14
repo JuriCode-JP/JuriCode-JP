@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-10-p1
+    type: simple
+    text: 法第二十三条の八第三項（法第二十七条において準用する場合を含む。）に規定する内閣府令で定める場合は、第三条各号に掲げる有価証券の募集又は売出しを行う場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

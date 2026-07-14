@@ -38,8 +38,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -60,11 +60,8 @@ parent_section:
 
 ### 第八十三条第一項
 
-<!-- segment: honbun id: kojin-jouhou-hogo-hou-art-83-p1-honbun -->
-開示決定等は、開示請求があった日から三十日以内にしなければならない。<!-- segment: tadashi id: kojin-jouhou-hogo-hou-art-83-p1-tadashi -->
-ただし、第七十七条第三項の規定により補正を求めた場合にあっては、当該補正に要した日数は、当該期間に算入しない。
+開示決定等は、開示請求があった日から三十日以内にしなければならない。ただし、第七十七条第三項の規定により補正を求めた場合にあっては、当該補正に要した日数は、当該期間に算入しない。
 
 ### 第八十三条第二項
 
-<!-- segment: tokusoku id: kojin-jouhou-hogo-hou-art-83-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、行政機関の長等は、事務処理上の困難その他正当な理由があるときは、同項に規定する期間を三十日以内に限り延長することができる。この場合において、行政機関の長等は、開示請求者に対し、遅滞なく、延長後の期間及び延長の理由を書面により通知しなければならない。

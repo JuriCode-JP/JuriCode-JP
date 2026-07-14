@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-42-p1 -->
 削除

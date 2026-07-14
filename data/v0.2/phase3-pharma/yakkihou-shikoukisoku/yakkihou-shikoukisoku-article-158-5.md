@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-5-p1
+    type: simple
+    text: 卸売販売業者は、その営業所において第百五十四条第一号ロ若しくはハ又は第二号ロ若しくはハに規定する業務に従事した者から、その業務に従事したことの証明を求められたときは、速やかにその証明を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-5-p2
+    type: simple
+    text: 前項の場合において、卸売販売業者は、虚偽又は不正の証明を行つてはならない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 次に掲げる原因によって生じた債権を有する者は、債務者の総財産について先取特権を有する。
     modality: unspecified
+  - id: minpou-art-306-p1-kou-1
+    type: kou
+    text: 一　共益の費用
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-306-p1-kou-2
+    type: kou
+    text: 二　雇用関係
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-306-p1-kou-3
+    type: kou
+    text: 三　子の監護の費用
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-306-p1-kou-4
+    type: kou
+    text: 四　葬式の費用
+    modality: unspecified
+    item_number: 4
+  - id: minpou-art-306-p1-kou-5
+    type: kou
+    text: 五　日用品の供給
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第三百六条
 
-<!-- segment: hashira id: minpou-art-306-p1-hashira -->
 次に掲げる原因によって生じた債権を有する者は、債務者の総財産について先取特権を有する。
+
+一　共益の費用
+
+二　雇用関係
+
+三　子の監護の費用
+
+四　葬式の費用
+
+五　日用品の供給

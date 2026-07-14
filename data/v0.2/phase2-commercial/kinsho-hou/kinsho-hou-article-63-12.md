@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-12-p1
+    type: simple
+    text: 海外投資家等特例業務届出者は、内閣府令で定めるところにより、その業務に関する帳簿書類を作成し、これを保存しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-12-p2
+    type: simple
+    text: 海外投資家等特例業務届出者は、事業年度ごとに、内閣府令で定めるところにより、事業報告書を作成し、毎事業年度経過後三月以内（当該海外投資家等特例業務届出者が外国法人である場合にあつては、政令で定める期間内）に、これを内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-12-p3
+    type: simple
+    text: 海外投資家等特例業務届出者は、事業年度ごとに、内閣府令で定めるところにより、前項の事業報告書に記載されている事項のうち投資者保護のため必要と認められるものとして内閣府令で定めるものを記載した説明書類を作成し、毎事業年度経過後政令で定める期間を経過した日から一年間、これを主たる営業所若しくは事務所及び海外投資家等特例業務を行う全ての営業所若しくは事務所に備え置いて公衆の縦覧に供し、又は内閣府令で定めるところにより、インターネットの利用その他の方法により公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

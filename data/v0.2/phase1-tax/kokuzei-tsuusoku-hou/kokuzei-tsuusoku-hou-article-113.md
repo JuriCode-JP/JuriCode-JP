@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百十三条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-113-p1 -->
 この法律に基づく国税不服審判所長の権限は、政令で定めるところにより、その一部を首席国税審判官に委任することができる。

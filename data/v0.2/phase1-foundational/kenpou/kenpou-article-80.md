@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -46,10 +46,8 @@ parent_section:
 
 ### 第八十条第一項
 
-<!-- segment: simple id: kenpou-art-80-p1 -->
 下級裁判所の裁判官は、最高裁判所の指名した者の名簿によつて、内閣でこれを任命する。その裁判官は、任期を十年とし、再任されることができる。但し、法律の定める年齢に達した時には退官する。
 
 ### 第八十条第二項
 
-<!-- segment: simple id: kenpou-art-80-p2 -->
 下級裁判所の裁判官は、すべて定期に相当額の報酬を受ける。この報酬は、在任中、これを減額することができない。

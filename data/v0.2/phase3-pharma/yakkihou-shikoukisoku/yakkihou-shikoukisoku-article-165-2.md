@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-165-2-p1-hashira
+    type: hashira
+    text: 高度管理医療機器等の販売業者等は、医療機器プログラムを電気通信回線を通じて提供することについて広告をするときは、次に掲げる事項を表示しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-165-2-p1-kou-1
+    type: kou
+    text: 一　高度管理医療機器等の販売業者等の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-165-2-p1-kou-2
+    type: kou
+    text: 二　電話番号その他連絡先
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-165-2-p1-kou-3
+    type: kou
+    text: 三　その他必要な事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第百六十五条の二
 
 高度管理医療機器等の販売業者等は、医療機器プログラムを電気通信回線を通じて提供することについて広告をするときは、次に掲げる事項を表示しなければならない。
+
+一　高度管理医療機器等の販売業者等の氏名又は名称及び住所
+
+二　電話番号その他連絡先
+
+三　その他必要な事項

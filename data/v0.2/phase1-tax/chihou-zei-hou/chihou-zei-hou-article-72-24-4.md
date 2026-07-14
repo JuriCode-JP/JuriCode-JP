@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-24-4-p1
+    type: simple
+    text: 第七十二条の二第一項第一号イに掲げる法人以外の法人の行う事業（電気供給業、ガス供給業、保険業及び貿易保険業を除く。）に対する事業税の課税標準については、事業の情況に応じ、第七十二条の十二第三号の所得と併せて、資本金額、売上金額、家屋の床面積又は価格、土地の地積又は価格、従業員数等を用いることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

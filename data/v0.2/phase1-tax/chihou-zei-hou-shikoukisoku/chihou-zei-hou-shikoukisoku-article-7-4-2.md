@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-4-2-p1
+    type: simple
+    text: 政令第三十七条の二の二に規定する総務省令で定める施設は、飲食店、喫茶店及び物品販売施設（これらの施設のうち法第七十三条の四第一項第八号に規定する病院及び診療所の利用者の利便に供することを目的とするものを除く。）並びに駐車施設とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号イに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p1-kou-1
+    type: kou
+    text: 一　抵当権の目的となつている不動産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p1-kou-2
+    type: kou
+    text: 二　譲渡により担保の目的となつている不動産
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p1-kou-3
+    type: kou
+    text: 三　差押えがされている不動産
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p1-kou-4
+    type: kou
+    text: 四　買戻しの特約が付されている不動産
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p1-kou-5
+    type: kou
+    text: 五　前各号に掲げる不動産以外の不動産で、その処分が制限されているもの
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +55,16 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号ロに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p2-kou-1
+    type: kou
+    text: 一　所有権の存否又は帰属について争いがある不動産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p2-kou-2
+    type: kou
+    text: 二　地上権、永小作権、賃借権その他の所有権以外の使用及び収益を目的とする権利の存否又は帰属について争いがある不動産
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +74,16 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号ハに規定する財務省令で定める土地は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p3-kou-1
+    type: kou
+    text: 一　境界標の設置（隣地の所有者との間の合意に基づくものに限る。）がされていないことにより他の土地との境界を認識することができない土地（境界標の設置がされていない場合であつても当該土地の取引において通常行われる他の土地との境界の確認方法により境界を認識できるものを除く。）
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p3-kou-2
+    type: kou
+    text: 二　土地使用収益権（地上権、永小作権、賃借権その他の土地の使用及び収益を目的とする権利をいう。以下この条及び次条において同じ。）が設定されている土地の範囲が明らかでない土地
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: true
@@ -48,6 +93,36 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号ニに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p4-kou-1
+    type: kou
+    text: 一　隣地の上に存する建物、工作物又は樹木その他これらに類するもの（以下この号及び次号において「建物等」という。）が、土地の境界を越える場合又は境界上に存する場合における当該土地（当該建物のひさし、当該工作物又は当該樹木の枝その他これらに類するもの（以下この号において「ひさし等」という。）の境界を越える度合が軽微な場合又は境界上にある場合で、当該建物等の所有者が改築等を行うに際して当該ひさし等を撤去し、又は移動することを約するときにおける当該土地を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p4-kou-2
+    type: kou
+    text: 二　建物等がその敷地である土地の隣地との境界を越える場合又は境界上に存する場合における当該土地（借地借家法（平成三年法律第九十号）第二条第一号（定義）に規定する借地権（以下この条及び次条において「借地権」という。）を含み、当該隣地の所有者（当該隣地を使用する権利を有する者がいる場合には、その者）が当該土地の収納後においても建物等の撤去及び隣地の使用料その他の負担を求めないことを約する場合における当該土地並びに借地権が設定されている当該土地を除く。）
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p4-kou-3
+    type: kou
+    text: 三　土地使用収益権の設定契約（以下この条及び次条において「土地使用収益契約」という。）の内容が当該土地使用収益権を設定している者にとつて著しく不利な場合における当該土地使用収益権の目的となつている土地
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p4-kou-4
+    type: kou
+    text: 四　建物の使用又は収益をする契約（次号において「建物使用収益契約」という。）の内容が当該使用又は収益をする権利を設定している者にとつて著しく不利な場合における当該使用又は収益をする権利の目的となつている建物
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p4-kou-5
+    type: kou
+    text: 五　賃貸料の滞納がある不動産その他収納後の円滑な土地使用収益契約又は建物使用収益契約の履行に著しい支障を及ぼす事情が存すると見込まれる不動産
+    modality: unspecified
+    item_number: 5
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p4-kou-6
+    type: kou
+    text: 六　その敷地を通常支払うべき地代により国が借り受けられる見込みがない場合における当該敷地の上に存する建物
+    modality: unspecified
+    item_number: 6
 - number: 5
   has_proviso: false
   has_items: true
@@ -57,6 +132,35 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号トに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p5-kou-1
+    type: kou
+    text: '一　二以上の者の共有に属する不動産で次に掲げる不動産以外のもの
+
+      イ　当該不動産の全ての共有者が当該不動産について物納の許可の申請をする場合における当該不動産
+
+      ロ　私道の用に供されている土地（一体となつてその効用を有する他の土地とともに物納の許可の申請をする場合における当該土地に限る。）'
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p5-kou-2
+    type: kou
+    text: 二　がけ地、面積が著しく狭い土地又は形状が著しく不整形である土地でこれらの土地のみでは使用することが困難であるもの
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p5-kou-3
+    type: kou
+    text: 三　私道の用に供されている土地（一体となつてその効用を有する他の土地とともに物納の許可の申請をする場合における当該土地を除く。）
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p5-kou-4
+    type: kou
+    text: 四　敷地とともに物納の許可の申請がされる建物以外の建物（当該建物の敷地に借地権が設定されているものを除く。）
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p5-kou-5
+    type: kou
+    text: 五　他の不動産と一体となつてその効用を有する不動産（これらの不動産の全てが一の土地使用収益権の目的となつている場合で収納後の円滑な土地使用収益契約の履行が可能なものを除く。）
+    modality: unspecified
+    item_number: 5
 - number: 6
   has_proviso: false
   has_items: true
@@ -66,6 +170,21 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号リに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p6-kou-1
+    type: kou
+    text: 一　敷金その他の財産の返還に係る債務を国が負うこととなる不動産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p6-kou-2
+    type: kou
+    text: 二　施行令第十九条第三号イからニまでに掲げる事業（次号及び次条第三項第六号において「土地区画整理事業等」という。）が施行されている場合において、収納の時までに発生した当該不動産に係る土地区画整理法（昭和二十九年法律第百十九号）第四十条（経費の賦課徴収）の規定による賦課金その他これに類する債務を国が負うこととなる不動産
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p6-kou-3
+    type: kou
+    text: 三　土地区画整理事業等の清算金の授受の義務を国が負うこととなる不動産
+    modality: unspecified
+    item_number: 3
 - number: 7
   has_proviso: false
   has_items: true
@@ -75,6 +194,26 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号ヌに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p7-kou-1
+    type: kou
+    text: 一　土壌汚染対策法（平成十四年法律第五十三号）第二条第一項（定義）に規定する特定有害物質その他これに類する有害物質により汚染されている不動産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p7-kou-2
+    type: kou
+    text: 二　廃棄物の処理及び清掃に関する法律（昭和四十五年法律第百三十七号）第二条第一項（定義）に規定する廃棄物（第九項において「廃棄物」という。）その他の物で除去しなければ通常の使用ができないものが地下にある不動産
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p7-kou-3
+    type: kou
+    text: 三　農地法（昭和二十七年法律第二百二十九号）第四条第一項（農地の転用の制限）又は第五条第一項（農地又は採草放牧地の転用のための権利移動の制限）の規定による許可を受けずに転用されている土地
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p7-kou-4
+    type: kou
+    text: 四　土留その他の施設の設置、護岸の建設その他の現状を維持するための工事が必要となる不動産
+    modality: unspecified
+    item_number: 4
 - number: 8
   has_proviso: false
   has_items: true
@@ -84,6 +223,16 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号ルに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p8-kou-1
+    type: kou
+    text: 一　風俗営業等の規制及び業務の適正化等に関する法律（昭和二十三年法律第百二十二号）第二条第一項（用語の意義）に規定する風俗営業、同条第五項に規定する性風俗関連特殊営業又は同条第十一項に規定する特定遊興飲食店営業の用に供されている不動産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p8-kou-2
+    type: kou
+    text: 二　暴力団員による不当な行為の防止等に関する法律（平成三年法律第七十七号）第二条第二号（定義）に規定する暴力団の事務所その他これに類するものの用に供されている不動産
+    modality: unspecified
+    item_number: 2
 - number: 9
   has_proviso: false
   has_items: true
@@ -93,6 +242,21 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第一号ヲに規定する財務省令で定める不動産は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p9-kou-1
+    type: kou
+    text: 一　その上の建物が既に滅失している場合において、当該建物の滅失の登記がされていない土地
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p9-kou-2
+    type: kou
+    text: 二　その上に廃棄物その他の物がある不動産
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p9-kou-3
+    type: kou
+    text: 三　生産緑地法（昭和四十九年法律第六十八号）第二条第三号（定義）に規定する生産緑地で、同法第七条から第九条まで（生産緑地の管理等）の規定が適用されるもの（当該生産緑地において、農林漁業を営む権利を有する者が当該農林漁業を営んでいる土地を除く。）
+    modality: unspecified
+    item_number: 3
 - number: 10
   has_proviso: false
   has_items: true
@@ -102,6 +266,16 @@ paragraphs:
     type: hashira
     text: 施行令第十八条第二号イに規定する財務省令で定める株式は、次に掲げるものとする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p10-kou-1
+    type: kou
+    text: 一　物納に充てる財産（以下「物納財産」という。）である株式を一般競争入札により売却することとした場合（金融商品取引法第四条第一項（募集又は売出しの届出）の届出及び同法第十五条第二項（届出の効力発生前の有価証券の取引禁止及び目論見書の交付）の目論見書（同法第二条第十項（定義）に規定する目論見書をいう。以下この項において同じ。）の交付（次号において「目論見書の交付」という。）が必要とされる場合に限る。）において、当該届出に係る書類及び当該目論見書の提出がされる見込みがないもの
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-21-p10-kou-2
+    type: kou
+    text: 二　物納財産である株式を一般競争入札により売却することとした場合（金融商品取引法第四条第六項の通知書の提出及び目論見書の交付が必要とされる場合に限る。）において、当該通知書及び目論見書の提出がされる見込みがないもの
+    modality: unspecified
+    item_number: 2
 - number: 11
   has_proviso: false
   has_items: false
@@ -124,55 +298,116 @@ tags:
 
 ### 第二十一条第一項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p1-hashira -->
 施行令第十八条第一号イに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　抵当権の目的となつている不動産
+
+二　譲渡により担保の目的となつている不動産
+
+三　差押えがされている不動産
+
+四　買戻しの特約が付されている不動産
+
+五　前各号に掲げる不動産以外の不動産で、その処分が制限されているもの
 
 ### 第二十一条第二項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p2-hashira -->
 施行令第十八条第一号ロに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　所有権の存否又は帰属について争いがある不動産
+
+二　地上権、永小作権、賃借権その他の所有権以外の使用及び収益を目的とする権利の存否又は帰属について争いがある不動産
 
 ### 第二十一条第三項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p3-hashira -->
 施行令第十八条第一号ハに規定する財務省令で定める土地は、次に掲げるものとする。
+
+一　境界標の設置（隣地の所有者との間の合意に基づくものに限る。）がされていないことにより他の土地との境界を認識することができない土地（境界標の設置がされていない場合であつても当該土地の取引において通常行われる他の土地との境界の確認方法により境界を認識できるものを除く。）
+
+二　土地使用収益権（地上権、永小作権、賃借権その他の土地の使用及び収益を目的とする権利をいう。以下この条及び次条において同じ。）が設定されている土地の範囲が明らかでない土地
 
 ### 第二十一条第四項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p4-hashira -->
 施行令第十八条第一号ニに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　隣地の上に存する建物、工作物又は樹木その他これらに類するもの（以下この号及び次号において「建物等」という。）が、土地の境界を越える場合又は境界上に存する場合における当該土地（当該建物のひさし、当該工作物又は当該樹木の枝その他これらに類するもの（以下この号において「ひさし等」という。）の境界を越える度合が軽微な場合又は境界上にある場合で、当該建物等の所有者が改築等を行うに際して当該ひさし等を撤去し、又は移動することを約するときにおける当該土地を除く。）
+
+二　建物等がその敷地である土地の隣地との境界を越える場合又は境界上に存する場合における当該土地（借地借家法（平成三年法律第九十号）第二条第一号（定義）に規定する借地権（以下この条及び次条において「借地権」という。）を含み、当該隣地の所有者（当該隣地を使用する権利を有する者がいる場合には、その者）が当該土地の収納後においても建物等の撤去及び隣地の使用料その他の負担を求めないことを約する場合における当該土地並びに借地権が設定されている当該土地を除く。）
+
+三　土地使用収益権の設定契約（以下この条及び次条において「土地使用収益契約」という。）の内容が当該土地使用収益権を設定している者にとつて著しく不利な場合における当該土地使用収益権の目的となつている土地
+
+四　建物の使用又は収益をする契約（次号において「建物使用収益契約」という。）の内容が当該使用又は収益をする権利を設定している者にとつて著しく不利な場合における当該使用又は収益をする権利の目的となつている建物
+
+五　賃貸料の滞納がある不動産その他収納後の円滑な土地使用収益契約又は建物使用収益契約の履行に著しい支障を及ぼす事情が存すると見込まれる不動産
+
+六　その敷地を通常支払うべき地代により国が借り受けられる見込みがない場合における当該敷地の上に存する建物
 
 ### 第二十一条第五項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p5-hashira -->
 施行令第十八条第一号トに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　二以上の者の共有に属する不動産で次に掲げる不動産以外のもの
+
+　イ　当該不動産の全ての共有者が当該不動産について物納の許可の申請をする場合における当該不動産
+
+　ロ　私道の用に供されている土地（一体となつてその効用を有する他の土地とともに物納の許可の申請をする場合における当該土地に限る。）
+
+二　がけ地、面積が著しく狭い土地又は形状が著しく不整形である土地でこれらの土地のみでは使用することが困難であるもの
+
+三　私道の用に供されている土地（一体となつてその効用を有する他の土地とともに物納の許可の申請をする場合における当該土地を除く。）
+
+四　敷地とともに物納の許可の申請がされる建物以外の建物（当該建物の敷地に借地権が設定されているものを除く。）
+
+五　他の不動産と一体となつてその効用を有する不動産（これらの不動産の全てが一の土地使用収益権の目的となつている場合で収納後の円滑な土地使用収益契約の履行が可能なものを除く。）
 
 ### 第二十一条第六項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p6-hashira -->
 施行令第十八条第一号リに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　敷金その他の財産の返還に係る債務を国が負うこととなる不動産
+
+二　施行令第十九条第三号イからニまでに掲げる事業（次号及び次条第三項第六号において「土地区画整理事業等」という。）が施行されている場合において、収納の時までに発生した当該不動産に係る土地区画整理法（昭和二十九年法律第百十九号）第四十条（経費の賦課徴収）の規定による賦課金その他これに類する債務を国が負うこととなる不動産
+
+三　土地区画整理事業等の清算金の授受の義務を国が負うこととなる不動産
 
 ### 第二十一条第七項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p7-hashira -->
 施行令第十八条第一号ヌに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　土壌汚染対策法（平成十四年法律第五十三号）第二条第一項（定義）に規定する特定有害物質その他これに類する有害物質により汚染されている不動産
+
+二　廃棄物の処理及び清掃に関する法律（昭和四十五年法律第百三十七号）第二条第一項（定義）に規定する廃棄物（第九項において「廃棄物」という。）その他の物で除去しなければ通常の使用ができないものが地下にある不動産
+
+三　農地法（昭和二十七年法律第二百二十九号）第四条第一項（農地の転用の制限）又は第五条第一項（農地又は採草放牧地の転用のための権利移動の制限）の規定による許可を受けずに転用されている土地
+
+四　土留その他の施設の設置、護岸の建設その他の現状を維持するための工事が必要となる不動産
 
 ### 第二十一条第八項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p8-hashira -->
 施行令第十八条第一号ルに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　風俗営業等の規制及び業務の適正化等に関する法律（昭和二十三年法律第百二十二号）第二条第一項（用語の意義）に規定する風俗営業、同条第五項に規定する性風俗関連特殊営業又は同条第十一項に規定する特定遊興飲食店営業の用に供されている不動産
+
+二　暴力団員による不当な行為の防止等に関する法律（平成三年法律第七十七号）第二条第二号（定義）に規定する暴力団の事務所その他これに類するものの用に供されている不動産
 
 ### 第二十一条第九項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p9-hashira -->
 施行令第十八条第一号ヲに規定する財務省令で定める不動産は、次に掲げるものとする。
+
+一　その上の建物が既に滅失している場合において、当該建物の滅失の登記がされていない土地
+
+二　その上に廃棄物その他の物がある不動産
+
+三　生産緑地法（昭和四十九年法律第六十八号）第二条第三号（定義）に規定する生産緑地で、同法第七条から第九条まで（生産緑地の管理等）の規定が適用されるもの（当該生産緑地において、農林漁業を営む権利を有する者が当該農林漁業を営んでいる土地を除く。）
 
 ### 第二十一条第十項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-21-p10-hashira -->
 施行令第十八条第二号イに規定する財務省令で定める株式は、次に掲げるものとする。
+
+一　物納に充てる財産（以下「物納財産」という。）である株式を一般競争入札により売却することとした場合（金融商品取引法第四条第一項（募集又は売出しの届出）の届出及び同法第十五条第二項（届出の効力発生前の有価証券の取引禁止及び目論見書の交付）の目論見書（同法第二条第十項（定義）に規定する目論見書をいう。以下この項において同じ。）の交付（次号において「目論見書の交付」という。）が必要とされる場合に限る。）において、当該届出に係る書類及び当該目論見書の提出がされる見込みがないもの
+
+二　物納財産である株式を一般競争入札により売却することとした場合（金融商品取引法第四条第六項の通知書の提出及び目論見書の交付が必要とされる場合に限る。）において、当該通知書及び目論見書の提出がされる見込みがないもの
 
 ### 第二十一条第十一項
 
-<!-- segment: junyou id: souzoku-zei-hou-shikoukisoku-art-21-p11 -->
 前各項の規定は、施行令第二十五条の三第三項又は第二十五条の七第三項において準用する施行令第十八条各号に規定する財務省令で定めるものについて準用する。

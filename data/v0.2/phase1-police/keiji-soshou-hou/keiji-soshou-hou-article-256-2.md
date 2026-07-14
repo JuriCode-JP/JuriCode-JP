@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-256-2-p1-honbun
+    type: honbun
+    text: 検察官は、公訴の提起と同時に、被告人に送達するものとして、起訴状の謄本を裁判所に提出しなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-256-2-p1-tadashi
+    type: tadashi
+    text: ただし、やむを得ない事情があるときは、公訴の提起後速やかにこれを提出すれば足りる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

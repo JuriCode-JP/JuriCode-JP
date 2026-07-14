@@ -59,15 +59,12 @@ parent_section:
 
 ### 第二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-2-p1 -->
 裁判所の土地管轄は、犯罪地又は被告人の住所、居所若しくは現在地による。
 
 ### 第二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-2-p2 -->
 国外に在る日本船舶内で犯した罪については、前項に規定する地の外、その船舶の船籍の所在地又は犯罪後その船舶の寄泊した地による。
 
 ### 第二条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-2-p3 -->
 国外に在る日本航空機内で犯した罪については、第一項に規定する地の外、犯罪後その航空機の着陸（着水を含む。）した地による。

@@ -49,10 +49,8 @@ parent_section:
 
 ### 第四百六十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-462-p1 -->
 略式命令の請求は、公訴の提起と同時に、書面でこれをしなければならない。
 
 ### 第四百六十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-462-p2 -->
 前項の書面には、前条第二項の書面を添附しなければならない。

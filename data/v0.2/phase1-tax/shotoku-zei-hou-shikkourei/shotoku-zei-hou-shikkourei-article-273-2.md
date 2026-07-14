@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第百五十一条の六第一項第四号（遺産分割等があつた場合の修正申告の特例）に規定する政令で定める事由は、次に掲げる事由とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-273-2-p1-kou-1
+    type: kou
+    text: 一　相続又は遺贈により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-273-2-p1-kou-2
+    type: kou
+    text: 二　条件付の遺贈について、条件が成就したこと。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第二百七十三条の二
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-273-2-p1-hashira -->
 法第百五十一条の六第一項第四号（遺産分割等があつた場合の修正申告の特例）に規定する政令で定める事由は、次に掲げる事由とする。
+
+一　相続又は遺贈により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
+
+二　条件付の遺贈について、条件が成就したこと。

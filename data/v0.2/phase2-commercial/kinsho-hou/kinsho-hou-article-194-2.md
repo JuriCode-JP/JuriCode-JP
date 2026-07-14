@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-194-2-p1
+    type: simple
+    text: 外国金融商品市場において行われる有価証券の売買又は外国市場デリバティブ取引の委託の媒介、取次ぎ又は代理に対しこの法律の規定を適用する場合における技術的読替えその他外国金融商品市場において行われるこれらの取引に対するこの法律の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

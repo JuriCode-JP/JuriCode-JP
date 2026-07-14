@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-2-p1
+    type: simple
+    text: 法第三百四十九条の三第七項に規定する国際路線に就航する航空機のうち総務省令で定めるものは、当該年度の初日の属する年の前年中において国際路線に就航した時間の全就航時間に対する割合が百分の八十以上である航空機とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-2-p2
+    type: simple
+    text: 法第三百四十九条の三第七項に規定する国際路線専用機として総務省令で定めるものは、当該年度の初日の属する年の前年中において国際路線にのみ就航した航空機とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-11-3-2-p3
+    type: simple
+    text: 法第三百四十九条の三第七項に規定する国際路線専用機に準ずるものとして総務省令で定めるものは、当該年度の初日の属する年の前年中において国際路線に就航した時間の全就航時間に対する割合が百分の九十五以上である航空機（前項に規定するものを除く。）とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-417-2-p1
+    type: simple
+    text: 将来において取得すべき利益についての損害賠償の額を定める場合において、その利益を取得すべき時までの利息相当額を控除するときは、その損害賠償の請求権が生じた時点における法定利率により、これをする。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-417-2-p2
+    type: simple
+    text: 将来において負担すべき費用についての損害賠償の額を定める場合において、その費用を負担すべき時までの利息相当額を控除するときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

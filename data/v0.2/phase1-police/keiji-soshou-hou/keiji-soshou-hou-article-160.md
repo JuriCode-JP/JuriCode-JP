@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百六十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-160-p1 -->
 証人が正当な理由がなく宣誓又は証言を拒んだときは、決定で、十万円以下の過料に処し、かつ、その拒絶により生じた費用の賠償を命ずることができる。
 
 ### 第百六十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-160-p2 -->
 前項の決定に対しては、即時抗告をすることができる。

@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: jouhou-koukai-hou-art-4-p1-kou-1
+    type: kou
+    text: 一　開示請求をする者の氏名又は名称及び住所又は居所並びに法人その他の団体にあっては代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: jouhou-koukai-hou-art-4-p1-kou-2
+    type: kou
+    text: 二　行政文書の名称その他の開示請求に係る行政文書を特定するに足りる事項
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -53,11 +63,12 @@ parent_section:
 
 ### 第四条第一項
 
-<!-- segment: hashira id: jouhou-koukai-hou-art-4-p1-hashira -->
 前条の規定による開示の請求（以下「開示請求」という。）は、次に掲げる事項を記載した書面（以下「開示請求書」という。）を行政機関の長に提出してしなければならない。
+
+一　開示請求をする者の氏名又は名称及び住所又は居所並びに法人その他の団体にあっては代表者の氏名
+
+二　行政文書の名称その他の開示請求に係る行政文書を特定するに足りる事項
 
 ### 第四条第二項
 
-<!-- segment: zen_dan id: jouhou-koukai-hou-art-4-p2-zen -->
-行政機関の長は、開示請求書に形式上の不備があると認めるときは、開示請求をした者（以下「開示請求者」という。）に対し、相当の期間を定めて、その補正を求めることができる。<!-- segment: kou_dan id: jouhou-koukai-hou-art-4-p2-kou depends_on: jouhou-koukai-hou-art-4-p2-zen -->
-この場合において、行政機関の長は、開示請求者に対し、補正の参考となる情報を提供するよう努めなければならない。
+行政機関の長は、開示請求書に形式上の不備があると認めるときは、開示請求をした者（以下「開示請求者」という。）に対し、相当の期間を定めて、その補正を求めることができる。この場合において、行政機関の長は、開示請求者に対し、補正の参考となる情報を提供するよう努めなければならない。

@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-12-p1
+    type: simple
+    text: 法第四十三条第二項の規定による医療機器の検査の申請は、同一の製造番号又は製造記号の医療機器ごとに、様式第九十五による検査申請書を、第三項に掲げる検査機関に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-12-p2
+    type: simple
+    text: 前項の申請書には、自家試験の記録を記載した書類を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-12-p3
+    type: simple
+    text: 令第五十八条の検査機関は、医療機器については、国立医薬品食品衛生研究所とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-12-p4
+    type: simple
+    text: 令第五十八条の出願者は、医療機器については、当該品目に係る法第二十三条の二の五第一項若しくは第十三項の承認若しくは基準適合性認証を取得している製造販売業者又は法第二十三条の二の十七第一項若しくは同条第五項において準用する法第二十三条の二の五第十三項の承認を取得している外国製造医療機器等特例承認取得者に係る選任外国製造医療機器等製造販売業者若しくは基準適合性認証を取得している外国指定高度管理医療機器製造等事業者（以下「外国製造医療機器等特例認証取得者」という。）に係る選任外国製造指定高度管理医療機器等製造販売業者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

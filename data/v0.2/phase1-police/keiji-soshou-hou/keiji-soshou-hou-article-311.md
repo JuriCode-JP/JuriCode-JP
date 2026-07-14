@@ -61,15 +61,12 @@ parent_section:
 
 ### 第三百十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-311-p1 -->
 被告人は、終始沈黙し、又は個々の質問に対し、供述を拒むことができる。
 
 ### 第三百十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-311-p2 -->
 被告人が任意に供述をする場合には、裁判長は、何時でも必要とする事項につき被告人の供述を求めることができる。
 
 ### 第三百十一条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-311-p3 -->
 陪席の裁判官、検察官、弁護人、共同被告人又はその弁護人は、裁判長に告げて、前項の供述を求めることができる。

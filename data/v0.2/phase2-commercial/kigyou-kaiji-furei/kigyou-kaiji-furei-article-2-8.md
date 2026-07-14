@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-8-p1
+    type: simple
+    text: 法第四条第三項第三号に規定する内閣府令で定めるものは、定義府令第十条の二第一項各号に掲げる有価証券の区分に応じ、当該各号に定める事項が同一である有価証券とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

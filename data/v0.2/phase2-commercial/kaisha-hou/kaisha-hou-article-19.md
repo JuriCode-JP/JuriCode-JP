@@ -55,10 +55,8 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: simple id: kaisha-hou-art-19-p1 -->
 会社及び代理商は、契約の期間を定めなかったときは、二箇月前までに予告し、その契約を解除することができる。
 
 ### 第十九条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-19-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、やむを得ない事由があるときは、会社及び代理商は、いつでもその契約を解除することができる。

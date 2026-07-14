@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-3-p1-honbun
+    type: honbun
+    text: 再生医療等製品区分適合性調査を行つた者が令第四十三条の三十の規定により都道府県知事に対して行う再生医療等製品区分適合性調査の結果の通知は、様式第七十五の六の三による通知書によつて行うものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-34-3-p1-tadashi
+    type: tadashi
+    text: ただし、機構が厚生労働大臣に対して行う当該通知については、第百三十七条の三十七第三項に規定する結果の通知をもつてこれに代えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

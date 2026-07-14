@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-6-p1
+    type: simple
+    text: 外国法人が第百四十四条の二第一項（外国法人に係る外国税額の控除）に規定する控除対象外国法人税の額につき同条又は第百四十四条の十一第一項（所得税額等の還付）若しくは第百四十七条の三第一項（更正等による所得税額等の還付）の規定の適用を受ける場合には、当該控除対象外国法人税の額は、その外国法人の各事業年度の恒久的施設帰属所得に係る所得の金額の計算上、損金の額に算入しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

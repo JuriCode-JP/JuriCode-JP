@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-teigi-furei-art-13-2-p1-hashira
+    type: hashira
+    text: 法第二条第四項に規定する内閣府令で定めるものは、次の各号に掲げるものとする。
+    modality: gimu
+  - id: kinsho-teigi-furei-art-13-2-p1-kou-1
+    type: kou
+    text: 一　法第六十七条の十九に規定する通知その他法令上の義務の履行として行う当該有価証券に関する情報の提供
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-teigi-furei-art-13-2-p1-kou-2
+    type: kou
+    text: 二　認可金融商品取引業協会（令第一条の七の三第六号に規定する認可金融商品取引業協会をいう。次条第一項第四号及び第十三条の七第十項において同じ。）その他金融商品取引業者等を会員とする協会その他の団体に対して、当該協会その他の団体の規則に基づき行われる当該有価証券に関する情報の提供
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -31,3 +45,7 @@ tags:
 ### 第十三条の二
 
 法第二条第四項に規定する内閣府令で定めるものは、次の各号に掲げるものとする。
+
+一　法第六十七条の十九に規定する通知その他法令上の義務の履行として行う当該有価証券に関する情報の提供
+
+二　認可金融商品取引業協会（令第一条の七の三第六号に規定する認可金融商品取引業協会をいう。次条第一項第四号及び第十三条の七第十項において同じ。）その他金融商品取引業者等を会員とする協会その他の団体に対して、当該協会その他の団体の規則に基づき行われる当該有価証券に関する情報の提供

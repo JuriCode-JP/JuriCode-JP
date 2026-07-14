@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kinsho-hou-art-81-p1-kou-1
+    type: kou
+    text: 一　名称又は商号
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-81-p1-kou-2
+    type: kou
+    text: 二　事務所又は本店、支店その他の営業所の所在の場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-81-p1-kou-3
+    type: kou
+    text: 三　役員の氏名又は名称及び会員又は取引参加者（以下「会員等」という。）の商号、名称又は氏名
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +78,18 @@ parent_section:
 
 ### 第八十一条第一項
 
-<!-- segment: hashira id: kinsho-hou-art-81-p1-hashira -->
 前条第一項の免許を受けようとする者は、次に掲げる事項を記載した免許申請書を内閣総理大臣に提出しなければならない。
+
+一　名称又は商号
+
+二　事務所又は本店、支店その他の営業所の所在の場所
+
+三　役員の氏名又は名称及び会員又は取引参加者（以下「会員等」という。）の商号、名称又は氏名
 
 ### 第八十一条第二項
 
-<!-- segment: simple id: kinsho-hou-art-81-p2 -->
 前項の免許申請書には、定款、業務規程、受託契約準則その他内閣府令で定める書類を添付しなければならない。
 
 ### 第八十一条第三項
 
-<!-- segment: simple id: kinsho-hou-art-81-p3 -->
 前項の場合において、定款が電磁的記録で作成されているときは、書面に代えて電磁的記録（内閣府令で定めるものに限る。）を添付することができる。

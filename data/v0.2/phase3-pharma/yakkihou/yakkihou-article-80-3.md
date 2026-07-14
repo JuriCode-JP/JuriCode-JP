@@ -16,27 +16,60 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-3-p1
+    type: simple
+    text: 厚生労働大臣は、機構に、治験の対象とされる薬物等（専ら動物のために使用されることが目的とされているものを除く。以下この条及び次条において同じ。）のうち政令で定めるものに係る治験の計画についての前条第三項後段の規定による調査を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-3-p2
+    type: simple
+    text: 厚生労働大臣は、前項の規定により機構に調査を行わせるときは、当該調査を行わないものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-3-p3
+    type: simple
+    text: 機構は、厚生労働大臣が第一項の規定により機構に調査を行わせることとした場合において、当該調査を行つたときは、遅滞なく、当該調査の結果を厚生労働省令で定めるところにより厚生労働大臣に通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-3-p4
+    type: tokusoku
+    text: 厚生労働大臣が第一項の規定により機構に調査を行わせることとしたときは、同項の政令で定める薬物等に係る治験の計画についての前条第二項の規定による届出をしようとする者は、同項の規定にかかわらず、厚生労働省令で定めるところにより、機構に届け出なければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 前条
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-3-p5
+    type: simple
+    text: 機構は、前項の規定による届出を受理したときは、厚生労働省令で定めるところにより、厚生労働大臣にその旨を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

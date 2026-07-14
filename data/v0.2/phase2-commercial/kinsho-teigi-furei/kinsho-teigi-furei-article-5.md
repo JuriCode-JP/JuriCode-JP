@@ -34,5 +34,4 @@ tags:
 
 ### 第五条
 
-<!-- segment: simple id: kinsho-teigi-furei-art-5-p1 -->
 令第一条の三第四号に規定する内閣府令で定めるものは、競走用馬とする。

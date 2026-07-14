@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-4-p1-hashira
+    type: hashira
+    text: 法第二十三条の三十二の二第一項第二号の厚生労働省令で定める変更は、次の各号に掲げる変更とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-48-4-p1-kou-1
+    type: kou
+    text: 一　法第四十一条第三項又は法第四十二条第一項の規定により定められた基準に適合しないこととなる変更
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-48-4-p1-kou-2
+    type: kou
+    text: 二　実施した場合に品質への影響を予測することが困難な新たな製造方法への変更
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-48-4-p1-kou-3
+    type: kou
+    text: 三　病原因子の不活化又は除去方法に関する重要な変更
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-48-4-p1-kou-4
+    type: kou
+    text: 四　実施の前後において、当該再生医療等製品の品質、有効性及び安全性が同等であることを確かめるために品質試験以外の試験を行わなければならないと認められる変更
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-48-4-p1-kou-5
+    type: kou
+    text: 五　前各号に掲げるもののほか、当該再生医療等製品の品質、有効性及び安全性に重大な影響を与えるおそれのある変更
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第百三十七条の四十八の四
 
 法第二十三条の三十二の二第一項第二号の厚生労働省令で定める変更は、次の各号に掲げる変更とする。
+
+一　法第四十一条第三項又は法第四十二条第一項の規定により定められた基準に適合しないこととなる変更
+
+二　実施した場合に品質への影響を予測することが困難な新たな製造方法への変更
+
+三　病原因子の不活化又は除去方法に関する重要な変更
+
+四　実施の前後において、当該再生医療等製品の品質、有効性及び安全性が同等であることを確かめるために品質試験以外の試験を行わなければならないと認められる変更
+
+五　前各号に掲げるもののほか、当該再生医療等製品の品質、有効性及び安全性に重大な影響を与えるおそれのある変更

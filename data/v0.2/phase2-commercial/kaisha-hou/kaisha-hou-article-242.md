@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 株式会社は、第二百三十八条第一項の募集に応じて募集新株予約権の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-242-p1-kou-1
+    type: kou
+    text: 一　株式会社の商号
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-242-p1-kou-2
+    type: kou
+    text: 二　募集事項
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-242-p1-kou-3
+    type: kou
+    text: 三　新株予約権の行使に際して金銭の払込みをすべきときは、払込みの取扱いの場所
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-242-p1-kou-4
+    type: kou
+    text: 四　前三号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,16 @@ paragraphs:
     type: hashira
     text: 第二百三十八条第一項の募集に応じて募集新株予約権の引受けの申込みをする者は、次に掲げる事項を記載した書面を株式会社に交付しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-242-p2-kou-1
+    type: kou
+    text: 一　申込みをする者の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-242-p2-kou-2
+    type: kou
+    text: 二　引き受けようとする募集新株予約権の数
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -120,41 +150,44 @@ parent_section:
 
 ### 第二百四十二条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-242-p1-hashira -->
-株式会社は、<!-- segment: hashira id: kaisha-hou-art-242-p2-hashira -->
-第二百三十八条第一項の募集に応じて募集新株予約権の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
+株式会社は、第二百三十八条第一項の募集に応じて募集新株予約権の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
+
+一　株式会社の商号
+
+二　募集事項
+
+三　新株予約権の行使に際して金銭の払込みをすべきときは、払込みの取扱いの場所
+
+四　前三号に掲げるもののほか、法務省令で定める事項
 
 ### 第二百四十二条第二項
 
 第二百三十八条第一項の募集に応じて募集新株予約権の引受けの申込みをする者は、次に掲げる事項を記載した書面を株式会社に交付しなければならない。
 
+一　申込みをする者の氏名又は名称及び住所
+
+二　引き受けようとする募集新株予約権の数
+
 ### 第二百四十二条第三項
 
-<!-- segment: zen_dan id: kaisha-hou-art-242-p3-zen -->
-前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、株式会社の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。<!-- segment: kou_dan id: kaisha-hou-art-242-p3-kou depends_on: kaisha-hou-art-242-p3-zen -->
-この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
+前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、株式会社の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
 
 ### 第二百四十二条第四項
 
-<!-- segment: simple id: kaisha-hou-art-242-p4 -->
 第一項の規定は、株式会社が同項各号に掲げる事項を記載した金融商品取引法第二条第十項に規定する目論見書を第一項の申込みをしようとする者に対して交付している場合その他募集新株予約権の引受けの申込みをしようとする者の保護に欠けるおそれがないものとして法務省令で定める場合には、適用しない。
 
 ### 第二百四十二条第五項
 
-<!-- segment: simple id: kaisha-hou-art-242-p5 -->
 株式会社は、第一項各号に掲げる事項について変更があったときは、直ちに、その旨及び当該変更があった事項を第二項の申込みをした者（以下この款において「申込者」という。）に通知しなければならない。
 
 ### 第二百四十二条第六項
 
-<!-- segment: simple id: kaisha-hou-art-242-p6 -->
 募集新株予約権が新株予約権付社債に付されたものである場合には、申込者（募集新株予約権のみの申込みをした者に限る。）は、その申込みに係る募集新株予約権を付した新株予約権付社債の引受けの申込みをしたものとみなす。
 
 ### 第二百四十二条第七項
 
-<!-- segment: simple id: kaisha-hou-art-242-p7 -->
 株式会社が申込者に対してする通知又は催告は、第二項第一号の住所（当該申込者が別に通知又は催告を受ける場所又は連絡先を当該株式会社に通知した場合にあっては、その場所又は連絡先）にあてて発すれば足りる。
 
 ### 第二百四十二条第八項
 
-<!-- segment: simple id: kaisha-hou-art-242-p8 -->
 前項の通知又は催告は、その通知又は催告が通常到達すべきであった時に、到達したものとみなす。

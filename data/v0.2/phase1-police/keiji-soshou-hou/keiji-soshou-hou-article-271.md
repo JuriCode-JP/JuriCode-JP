@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百七十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-271-p1 -->
 裁判所は、公訴の提起があつたときは、遅滞なく起訴状の謄本を被告人に送達しなければならない。
 
 ### 第二百七十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-271-p2 -->
 公訴の提起があつた日から二箇月以内に起訴状の謄本が送達されないときは、公訴の提起は、さかのぼつてその効力を失う。

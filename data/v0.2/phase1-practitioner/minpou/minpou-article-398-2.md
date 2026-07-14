@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-2-p1
+    type: simple
+    text: 抵当権は、設定行為で定めるところにより、一定の範囲に属する不特定の債権を極度額の限度において担保するためにも設定することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-2-p2
+    type: simple
+    text: 前項の規定による抵当権（以下「根抵当権」という。）の担保すべき不特定の債権の範囲は、債務者との特定の継続的取引契約によって生ずるものその他債務者との一定の種類の取引によって生ずるものに限定して、定めなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-2-p3
+    type: tokusoku
+    text: 特定の原因に基づいて債務者との間に継続して生ずる債権、手形上若しくは小切手上の請求権又は電子記録債権（電子記録債権法（平成十九年法律第百二号）第二条第一項に規定する電子記録債権をいう。次条第二項において同じ。）は、前項の規定にかかわらず、根抵当権の担保すべき債権とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

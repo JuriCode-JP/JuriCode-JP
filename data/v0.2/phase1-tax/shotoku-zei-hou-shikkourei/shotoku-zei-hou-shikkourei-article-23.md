@@ -52,10 +52,8 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-23-p1 -->
 法第九条第一項第八号（非課税所得）に規定する政令で定める国際機関は、国際間の取極に基づき設立された機関のうち日本国が構成員となつているものその他国を構成員とするもので、財務大臣が指定するものとする。
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-23-p2 -->
 財務大臣は、前項の指定をしたときは、これを告示する。

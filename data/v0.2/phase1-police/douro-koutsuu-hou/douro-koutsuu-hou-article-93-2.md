@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-93-2-p1
+    type: simple
+    text: 公安委員会は、前条第一項各号に掲げる事項又は同条第二項若しくは第三項の規定により記載され若しくは表示されるものの一部を、内閣府令で定めるところにより、免許証に電磁的方法（電子的方法、磁気的方法その他の人の知覚によつて認識することができない方法をいう。以下同じ。）により記録することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

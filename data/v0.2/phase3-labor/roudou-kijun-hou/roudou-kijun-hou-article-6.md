@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六条
 
-<!-- segment: simple id: roudou-kijun-hou-art-6-p1 -->
 何人も、法律に基いて許される場合の外、業として他人の就業に介入して利益を得てはならない。

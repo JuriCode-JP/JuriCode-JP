@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-220-2-p1-hashira
+    type: hashira
+    text: 法第五十九条第八号に掲げる事項が次の各号のいずれかのものに記載されている医薬部外品（人体に直接使用されないものを除く。）については、直接の容器又は直接の被包への当該事項の記載を省略することができる。
+    modality: kanou_kenri
+  - id: yakkihou-shikoukisoku-art-220-2-p1-kou-1
+    type: kou
+    text: 一　外部の容器又は外部の被包
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-220-2-p1-kou-2
+    type: kou
+    text: 二　直接の容器又は直接の被包に固着したタツグ又はデイスプレイカード
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-220-2-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののいずれをも有しない小容器の見本品にあつては、これに添付する文書
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第二百二十条の二
 
 法第五十九条第八号に掲げる事項が次の各号のいずれかのものに記載されている医薬部外品（人体に直接使用されないものを除く。）については、直接の容器又は直接の被包への当該事項の記載を省略することができる。
+
+一　外部の容器又は外部の被包
+
+二　直接の容器又は直接の被包に固着したタツグ又はデイスプレイカード
+
+三　前二号に掲げるもののいずれをも有しない小容器の見本品にあつては、これに添付する文書

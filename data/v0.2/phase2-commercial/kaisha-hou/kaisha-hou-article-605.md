@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百五条
 
-<!-- segment: simple id: kaisha-hou-art-605-p1 -->
 持分会社の成立後に加入した社員は、その加入前に生じた持分会社の債務についても、これを弁済する責任を負う。

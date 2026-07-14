@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百二十四条
 
-<!-- segment: simple id: chihou-zei-hou-art-424-p1 -->
 削除

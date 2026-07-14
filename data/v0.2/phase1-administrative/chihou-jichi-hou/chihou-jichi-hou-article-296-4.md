@@ -13,15 +13,26 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-4-p1
+    type: simple
+    text: 前二条に定めるものを除く外、財産区管理委員の選任、財産区管理会の運営その他財産区管理会に関し必要な事項は、条例でこれを定める。但し、第二百九十六条の二第一項但書の規定により財産区管理会を置く場合においては、同項但書に規定する協議によりこれを定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前二条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-4-p2
+    type: simple
+    text: 市町村長及び特別区の区長は、財産区管理会の同意を得て、条例で第二百九十六条の二第一項但書に規定する協議の内容を変更することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

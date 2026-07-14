@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-134-2-p1
+    type: simple
+    text: 法第四十二条の七第二項の規定により届出を行う金融商品取引業者等は、運用報告書を所管金融庁長官等に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

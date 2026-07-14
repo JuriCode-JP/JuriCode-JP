@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百九十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-399-p1 -->
 不法に管轄を認めたことを理由として原判決を破棄するときは、判決で事件を管轄第一審裁判所に移送しなければならない。但し、控訴裁判所は、その事件について第一審の管轄権を有するときは、第一審として審判をしなければならない。

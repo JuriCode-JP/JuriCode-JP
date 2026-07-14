@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-27-p1
+    type: simple
+    text: 信用格付業を行う法人（法人でない団体で代表者又は管理人の定めのあるものを含む。次条第一項第二号及び第六十六条の四十七を除き、以下この章において同じ。）は、内閣総理大臣の登録を受けることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

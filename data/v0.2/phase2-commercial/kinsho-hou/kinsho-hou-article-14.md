@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十四条
 
-<!-- segment: simple id: kinsho-hou-art-14-p1 -->
 削除

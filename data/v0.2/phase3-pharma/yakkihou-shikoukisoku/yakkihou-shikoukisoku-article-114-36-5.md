@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-5-p1
+    type: simple
+    text: 法第二十三条の二の六の二第二項後段の厚生労働省令で定める医療機器又は体外診断用医薬品については、第百十四条の四十一の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

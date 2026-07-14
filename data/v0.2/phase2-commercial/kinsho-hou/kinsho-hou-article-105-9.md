@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-9-p1
+    type: tokusoku
+    text: 第百五条の四第二項及び第三項の規定にかかわらず、特定株式会社金融商品取引所の代表取締役又は代表執行役は、公益又は投資者の保護を図るため特に必要があると認める場合であつて、状況に照らし緊急を要するときは、上場の廃止その他の内閣府令で定める自主規制業務に関する事項を決定することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第三項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-9-p2
+    type: simple
+    text: 前項の規定により特定株式会社金融商品取引所が上場の廃止その他の内閣府令で定める自主規制業務に関する事項の決定をした場合には、当該株式会社金融商品取引所の代表取締役又は代表執行役は、自主規制委員会に対し、速やかに、その旨を報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

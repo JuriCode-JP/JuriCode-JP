@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十五条
 
-<!-- segment: simple id: kenpou-art-75-p1 -->
 国務大臣は、その在任中、内閣総理大臣の同意がなければ、訴追されない。但し、これがため、訴追の権利は、害されない。

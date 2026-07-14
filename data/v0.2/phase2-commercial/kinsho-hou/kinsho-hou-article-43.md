@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十三条
 
-<!-- segment: simple id: kinsho-hou-art-43-p1 -->
 金融商品取引業者等は、顧客に対し、善良な管理者の注意をもつて有価証券等管理業務を行わなければならない。

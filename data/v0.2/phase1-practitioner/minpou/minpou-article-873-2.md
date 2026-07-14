@@ -13,10 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-873-2-p1-hashira
+    type: hashira
+    text: 成年後見人は、成年被後見人が死亡した場合において、必要があるときは、成年被後見人の相続人の意思に反することが明らかなときを除き、相続人が相続財産を管理することができるに至るまで、次に掲げる行為をすることができる。ただし、第三号に掲げる行為をするには、家庭裁判所の許可を得なければならない。
+    modality: gimu
+  - id: minpou-art-873-2-p1-kou-1
+    type: kou
+    text: 一　相続財産に属する特定の財産の保存に必要な行為
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-873-2-p1-kou-2
+    type: kou
+    text: 二　相続財産に属する債務（弁済期が到来しているものに限る。）の弁済
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-873-2-p1-kou-3
+    type: kou
+    text: 三　その死体の火葬又は埋葬に関する契約の締結その他相続財産の保存に必要な行為（前二号に掲げる行為を除く。）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -38,3 +57,9 @@ parent_section:
 ### 第八百七十三条の二
 
 成年後見人は、成年被後見人が死亡した場合において、必要があるときは、成年被後見人の相続人の意思に反することが明らかなときを除き、相続人が相続財産を管理することができるに至るまで、次に掲げる行為をすることができる。ただし、第三号に掲げる行為をするには、家庭裁判所の許可を得なければならない。
+
+一　相続財産に属する特定の財産の保存に必要な行為
+
+二　相続財産に属する債務（弁済期が到来しているものに限る。）の弁済
+
+三　その死体の火葬又は埋葬に関する契約の締結その他相続財産の保存に必要な行為（前二号に掲げる行為を除く。）

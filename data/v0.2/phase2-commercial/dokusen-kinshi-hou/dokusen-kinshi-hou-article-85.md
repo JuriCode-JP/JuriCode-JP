@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる訴訟及び事件は、東京地方裁判所の管轄に専属する。
     modality: unspecified
+  - id: dokusen-kinshi-hou-art-85-p1-kou-1
+    type: kou
+    text: 一　排除措置命令等に係る行政事件訴訟法第三条第一項に規定する抗告訴訟
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-85-p1-kou-2
+    type: kou
+    text: 二　第七十条の四第一項、第七十条の五第一項及び第二項、第九十七条並びに第九十八条に規定する事件
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第八十五条
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-85-p1-hashira -->
 次に掲げる訴訟及び事件は、東京地方裁判所の管轄に専属する。
+
+一　排除措置命令等に係る行政事件訴訟法第三条第一項に規定する抗告訴訟
+
+二　第七十条の四第一項、第七十条の五第一項及び第二項、第九十七条並びに第九十八条に規定する事件

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-13-p1 -->
 国は、前章に定めるデジタル社会の形成についての基本理念（以下「基本理念」という。）にのっとり、デジタル社会の形成に関する施策を策定し、及び実施する責務を有する。

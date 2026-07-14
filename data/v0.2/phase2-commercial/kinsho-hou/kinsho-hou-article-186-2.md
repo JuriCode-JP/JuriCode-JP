@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-186-2-p1-honbun
+    type: honbun
+    text: この法律の規定による処分に係る聴聞は、公開して行う。
+    modality: unspecified
+  - id: kinsho-hou-art-186-2-p1-tadashi
+    type: tadashi
+    text: ただし、聴聞される者から非公開の申出があつたとき（非公開を相当とする理由があると認められるときに限る。）、又は公益上必要があると認めるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

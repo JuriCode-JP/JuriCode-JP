@@ -16,32 +16,72 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-28-p1
+    type: simple
+    text: 内閣総理大臣は、内閣府令で定めるところにより、大量保有報告書及び変更報告書並びにこれらの訂正報告書を、これらの書類を受理した日（訂正報告書にあつては、当該訂正の対象となつた大量保有報告書又は変更報告書を受理した日）から五年間、公衆の縦覧に供しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-28-p2
+    type: simple
+    text: 金融商品取引所及び政令で定める認可金融商品取引業協会は、前条の規定により送付された前項に規定する書類（以下この条において「縦覧書類」という。）の写しを、内閣府令で定めるところにより、その事務所に備え置き、当該縦覧書類の写しの送付を受けた日（訂正報告書の写しにあつては、当該訂正の対象となつた大量保有報告書又は変更報告書の写しの送付を受けた日）から五年間、公衆の縦覧に供しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-28-p3
+    type: tokusoku
+    text: 縦覧書類に記載された取得資金に関する事項について、当該資金が銀行、協同組織金融機関その他政令で定める金融機関（以下この項において「銀行等」という。）からの借入れによる場合（内閣府令で定める場合を除く。）には、内閣総理大臣は、第一項の規定にかかわらず、当該銀行等の名称を公衆の縦覧に供しないものとし、当該縦覧書類を提出した者は、当該銀行等の名称を削除して当該縦覧書類の写しを送付するものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-28-p4
+    type: tokusoku
+    text: 内閣総理大臣は、次条第一項において準用する第九条第一項又は第十条第一項の規定による訂正報告書の提出命令をする場合には、第一項の規定にかかわらず、当該提出命令に係る縦覧書類について、その全部又は一部を公衆の縦覧に供しないものとすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 次条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-28-p5
+    type: simple
+    text: 前項の場合において、内閣総理大臣は、大量保有者及び第二項の規定により当該縦覧書類の写しを公衆の縦覧に供する金融商品取引所又は同項の政令で定める認可金融商品取引業協会に対し、当該縦覧書類の全部又は一部を公衆の縦覧に供しないこととした旨を通知するものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-28-p6
+    type: simple
+    text: 前項の規定により金融商品取引所又は認可金融商品取引業協会が内閣総理大臣からの通知を受けたときは、その時以後、当該通知に係る縦覧書類については、第二項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

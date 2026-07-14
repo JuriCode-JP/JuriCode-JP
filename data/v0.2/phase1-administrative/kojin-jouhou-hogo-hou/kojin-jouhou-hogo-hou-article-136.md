@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 委員長及び委員は、次の各号のいずれかに該当する場合を除いては、在任中、その意に反して罷免されることがない。
     modality: unspecified
+  - id: kojin-jouhou-hogo-hou-art-136-p1-kou-1
+    type: kou
+    text: 一　破産手続開始の決定を受けたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-136-p1-kou-2
+    type: kou
+    text: 二　この法律又は番号利用法の規定に違反して刑に処せられたとき。
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-136-p1-kou-3
+    type: kou
+    text: 三　拘禁刑以上の刑に処せられたとき。
+    modality: unspecified
+    item_number: 3
+  - id: kojin-jouhou-hogo-hou-art-136-p1-kou-4
+    type: kou
+    text: 四　委員会により、心身の故障のため職務を執行することができないと認められたとき、又は職務上の義務違反その他委員長若しくは委員たるに適しない非行があると認められたとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第百三十六条
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-136-p1-hashira -->
 委員長及び委員は、次の各号のいずれかに該当する場合を除いては、在任中、その意に反して罷免されることがない。
+
+一　破産手続開始の決定を受けたとき。
+
+二　この法律又は番号利用法の規定に違反して刑に処せられたとき。
+
+三　拘禁刑以上の刑に処せられたとき。
+
+四　委員会により、心身の故障のため職務を執行することができないと認められたとき、又は職務上の義務違反その他委員長若しくは委員たるに適しない非行があると認められたとき。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-9-p1
+    type: simple
+    text: 法第五十七条の二第四項の規定により届出を行う特別金融商品取引業者は、変更の内容、変更年月日及び変更の理由を記載した届出書に、同条第二項第一号、第三号又は第四号に掲げる書類（内容に変更のあるものに限る。）を添付して、金融庁長官に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

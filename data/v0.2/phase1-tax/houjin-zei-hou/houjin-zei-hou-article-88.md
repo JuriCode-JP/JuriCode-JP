@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 退職年金業務等を行なう内国法人は、その事業年度が六月をこえる場合には、当該事業年度開始の日以後六月を経過した日から二月以内に、税務署長に対し、次に掲げる事項を記載した申告書を提出しなければならない。
     modality: gimu
+  - id: houjin-zei-hou-art-88-p1-kou-1
+    type: kou
+    text: 一　当該事業年度開始の日以後六月の期間を一事業年度とみなして計算した場合における当該期間に係る課税標準である退職年金等積立金の額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-88-p1-kou-2
+    type: kou
+    text: 二　前号に掲げる退職年金等積立金の額につき前条の規定を適用して計算した法人税の額
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-art-88-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第八十八条
 
-<!-- segment: hashira id: houjin-zei-hou-art-88-p1-hashira -->
 退職年金業務等を行なう内国法人は、その事業年度が六月をこえる場合には、当該事業年度開始の日以後六月を経過した日から二月以内に、税務署長に対し、次に掲げる事項を記載した申告書を提出しなければならない。
+
+一　当該事業年度開始の日以後六月の期間を一事業年度とみなして計算した場合における当該期間に係る課税標準である退職年金等積立金の額
+
+二　前号に掲げる退職年金等積立金の額につき前条の規定を適用して計算した法人税の額
+
+三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項

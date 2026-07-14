@@ -13,20 +13,51 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-824-2-p1-hashira
+    type: hashira
+    text: 親権は、父母が共同して行う。ただし、次に掲げるときは、その一方が行う。
+    modality: unspecified
+  - id: minpou-art-824-2-p1-kou-1
+    type: kou
+    text: 一　その一方のみが親権者であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-824-2-p1-kou-2
+    type: kou
+    text: 二　他の一方が親権を行うことができないとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-824-2-p1-kou-3
+    type: kou
+    text: 三　子の利益のため急迫の事情があるとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-824-2-p2
+    type: simple
+    text: 父母は、その双方が親権者であるときであっても、前項本文の規定にかかわらず、監護及び教育に関する日常の行為に係る親権の行使を単独ですることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-824-2-p3
+    type: simple
+    text: 特定の事項に係る親権の行使（第一項ただし書又は前項の規定により父母の一方が単独で行うことができるものを除く。）について、父母間に協議が調わない場合であって、子の利益のため必要があると認めるときは、家庭裁判所は、父又は母の請求により、当該事項に係る親権の行使を父母の一方が単独ですることができる旨を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -48,6 +79,12 @@ parent_section:
 ### 第八百二十四条の二第一項
 
 親権は、父母が共同して行う。ただし、次に掲げるときは、その一方が行う。
+
+一　その一方のみが親権者であるとき。
+
+二　他の一方が親権を行うことができないとき。
+
+三　子の利益のため急迫の事情があるとき。
 
 ### 第八百二十四条の二第二項
 

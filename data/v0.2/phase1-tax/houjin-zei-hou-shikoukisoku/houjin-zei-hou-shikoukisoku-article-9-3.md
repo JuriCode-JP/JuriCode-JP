@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第四十八条の四第二項（減価償却資産の特別な償却の方法）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-9-3-p1-kou-1
+    type: kou
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-9-3-p1-kou-2
+    type: kou
+    text: 二　その採用しようとする償却の方法が令第五十九条第一項第一号又は第二号（事業年度の中途で事業の用に供した減価償却資産の償却限度額の特例）に掲げる償却の方法のいずれに類するかの別
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-9-3-p1-kou-3
+    type: kou
+    text: 三　その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第九条の三
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-9-3-p1-hashira -->
 令第四十八条の四第二項（減価償却資産の特別な償却の方法）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　その採用しようとする償却の方法が令第五十九条第一項第一号又は第二号（事業年度の中途で事業の用に供した減価償却資産の償却限度額の特例）に掲げる償却の方法のいずれに類するかの別
+
+三　その他参考となるべき事項

@@ -61,15 +61,12 @@ parent_section:
 
 ### 第四百二十条第一項
 
-<!-- segment: simple id: minpou-art-420-p1 -->
 当事者は、債務の不履行について損害賠償の額を予定することができる。
 
 ### 第四百二十条第二項
 
-<!-- segment: simple id: minpou-art-420-p2 -->
 賠償額の予定は、履行の請求又は解除権の行使を妨げない。
 
 ### 第四百二十条第三項
 
-<!-- segment: simple id: minpou-art-420-p3 -->
 違約金は、賠償額の予定と推定する。

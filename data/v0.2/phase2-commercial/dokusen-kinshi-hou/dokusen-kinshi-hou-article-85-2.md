@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-85-2-p1
+    type: simple
+    text: 第二十五条の規定による損害賠償に係る訴訟の第一審の裁判権は、東京地方裁判所に属する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-157-5-p1-honbun
+    type: honbun
+    text: 裁判所は、証人を尋問する場合において、犯罪の性質、証人の年齢、心身の状態、被告人との関係その他の事情により、証人が被告人の面前（次条第一項及び第二項に規定する方法による場合を含む。）において供述するときは圧迫を受け精神の平穏を著しく害されるおそれがあると認める場合であつて、相当と認めるときは、検察官及び被告人又は弁護人の意見を聴き、被告人とその証人との間で、一方から又は相互に相手の状態を認識することができないようにするための措置を採ることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+  - id: keiji-soshou-hou-art-157-5-p1-tadashi
+    type: tadashi
+    text: ただし、被告人から証人の状態を認識することができないようにするための措置については、弁護人が出頭している場合に限り、採ることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-157-5-p2
+    type: simple
+    text: 裁判所は、証人を尋問する場合において、犯罪の性質、証人の年齢、心身の状態、名誉に対する影響その他の事情を考慮し、相当と認めるときは、検察官及び被告人又は弁護人の意見を聴き、傍聴人とその証人との間で、相互に相手の状態を認識することができないようにするための措置を採ることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

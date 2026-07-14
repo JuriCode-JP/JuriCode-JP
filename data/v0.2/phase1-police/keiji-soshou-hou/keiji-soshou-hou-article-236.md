@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百三十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-236-p1 -->
 告訴をすることができる者が数人ある場合には、一人の期間の徒過は、他の者に対しその効力を及ぼさない。

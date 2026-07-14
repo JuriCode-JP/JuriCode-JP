@@ -14,19 +14,53 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-202-2-p1-hashira
+    type: hashira
+    text: 金融商品取引法第二条第十六項に規定する金融商品取引所に上場されている株式を発行している株式会社は、定款又は株主総会の決議による第三百六十一条第一項第三号に掲げる事項についての定めに従いその発行する株式又はその処分する自己株式を引き受ける者の募集をするときは、第百九十九条第一項第二号及び第四号に掲げる事項を定めることを要しない。この場合において、当該株式会社は、募集株式について次に掲げる事項を定めなければならない。
+    modality: gimu
+  - id: kaisha-hou-art-202-2-p1-kou-1
+    type: kou
+    text: 一　取締役の報酬等（第三百六十一条第一項に規定する報酬等をいう。第二百三十六条第三項第一号において同じ。）として当該募集に係る株式の発行又は自己株式の処分をするものであり、募集株式と引換えにする金銭の払込み又は第百九十九条第一項第三号の財産の給付を要しない旨
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-202-2-p1-kou-2
+    type: kou
+    text: 二　募集株式を割り当てる日（以下この節において「割当日」という。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-202-2-p2-zen
+    type: zen_dan
+    text: 前項各号に掲げる事項を定めた場合における第百九十九条第二項の規定の適用については、同項中「前項各号」とあるのは、「前項各号（第二号及び第四号を除く。）及び第二百二条の二第一項各号」とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+  - id: kaisha-hou-art-202-2-p2-kou
+    type: kou_dan
+    text: この場合においては、第二百条及び前条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    depends_on: kaisha-hou-art-202-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-202-2-p3
+    type: simple
+    text: 指名委員会等設置会社における第一項の規定の適用については、同項中「定款又は株主総会の決議による第三百六十一条第一項第三号に掲げる事項についての定め」とあるのは「報酬委員会による第四百九条第三項第三号に定める事項についての決定」と、「取締役」とあるのは「執行役又は取締役」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -50,6 +84,10 @@ parent_section:
 ### 第二百二条の二第一項
 
 金融商品取引法第二条第十六項に規定する金融商品取引所に上場されている株式を発行している株式会社は、定款又は株主総会の決議による第三百六十一条第一項第三号に掲げる事項についての定めに従いその発行する株式又はその処分する自己株式を引き受ける者の募集をするときは、第百九十九条第一項第二号及び第四号に掲げる事項を定めることを要しない。この場合において、当該株式会社は、募集株式について次に掲げる事項を定めなければならない。
+
+一　取締役の報酬等（第三百六十一条第一項に規定する報酬等をいう。第二百三十六条第三項第一号において同じ。）として当該募集に係る株式の発行又は自己株式の処分をするものであり、募集株式と引換えにする金銭の払込み又は第百九十九条第一項第三号の財産の給付を要しない旨
+
+二　募集株式を割り当てる日（以下この節において「割当日」という。）
 
 ### 第二百二条の二第二項
 

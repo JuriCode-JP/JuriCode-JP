@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百九十九条
 
-<!-- segment: simple id: keihou-art-199-p1 -->
 人を殺した者は、死刑又は無期若しくは五年以上の拘禁刑に処する。

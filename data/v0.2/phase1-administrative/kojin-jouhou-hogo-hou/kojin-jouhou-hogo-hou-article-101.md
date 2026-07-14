@@ -50,8 +50,6 @@ parent_section:
 
 ### 第百一条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-101-p1 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-101-p2 -->
 行政機関の長等は、利用停止請求に係る保有個人情報の利用停止をするときは、その旨の決定をし、利用停止請求者に対し、その旨を書面により通知しなければならない。
 
 ### 第百一条第二項

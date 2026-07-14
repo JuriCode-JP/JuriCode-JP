@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十一条
 
-<!-- segment: simple id: fueihou-art-11-p1 -->
 第三条第一項の許可を受けた者は、自己の名義をもつて、他人に風俗営業を営ませてはならない。

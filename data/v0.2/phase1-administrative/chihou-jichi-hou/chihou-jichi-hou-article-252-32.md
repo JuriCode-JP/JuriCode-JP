@@ -16,52 +16,107 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p1-zen
+    type: zen_dan
+    text: 外部監査人は、監査の事務を他の者に補助させることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-252-32-p1-kou
+    type: kou_dan
+    text: この場合においては、外部監査人は、政令の定めるところにより、あらかじめ監査委員に協議しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-32-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p2
+    type: simple
+    text: 監査委員は、前項の規定による協議が調つた場合には、直ちに当該監査の事務を補助する者の氏名及び住所並びに当該監査の事務を補助する者が外部監査人の監査の事務を補助できる期間を告示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p3
+    type: simple
+    text: 第一項の規定による協議は、監査委員の合議によるものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p4
+    type: simple
+    text: 外部監査人は、監査が適正かつ円滑に行われるよう外部監査人補助者（第二項の規定により外部監査人の監査の事務を補助する者として告示された者であつて、かつ、外部監査人の監査の事務を補助できる期間内にあるものをいう。以下本条において同じ。）を監督しなければならない。
+    modality: gimu
+    references:
+    - 本条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p5
+    type: simple
+    text: 外部監査人補助者は、外部監査人の監査の事務を補助したことに関して知り得た秘密を漏らしてはならない。外部監査人補助者でなくなつた後であつても、同様とする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p6
+    type: simple
+    text: 前項の規定に違反した者は、二年以下の拘禁刑又は百万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p7
+    type: simple
+    text: 外部監査人補助者は、外部監査人の監査の事務の補助に関しては、刑法その他の罰則の適用については、法令により公務に従事する職員とみなす。
+    modality: unspecified
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p8
+    type: simple
+    text: 外部監査人は、第二項の規定により告示された者に監査の事務を補助させる必要がなくなつたときは、速やかに、その旨を監査委員に通知しなければならない。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p9
+    type: simple
+    text: 前項の通知があつたときは、監査委員は、速やかに、当該通知があつた者の氏名及び住所並びにその者が外部監査人を補助する者でなくなつたことを告示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-32-p10
+    type: simple
+    text: 前項の規定による告示があつたときは、当該告示された者が外部監査人の監査の事務を補助できる期間は終了する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

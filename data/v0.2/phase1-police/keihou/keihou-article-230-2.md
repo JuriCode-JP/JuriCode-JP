@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-230-2-p1
+    type: simple
+    text: 前条第一項の行為が公共の利害に関する事実に係り、かつ、その目的が専ら公益を図ることにあったと認める場合には、事実の真否を判断し、真実であることの証明があったときは、これを罰しない。
+    modality: gimu_negative
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-230-2-p2
+    type: simple
+    text: 前項の規定の適用については、公訴が提起されるに至っていない人の犯罪行為に関する事実は、公共の利害に関する事実とみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-230-2-p3
+    type: simple
+    text: 前条第一項の行為が公務員又は公選による公務員の候補者に関する事実に係る場合には、事実の真否を判断し、真実であることの証明があったときは、これを罰しない。
+    modality: gimu_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

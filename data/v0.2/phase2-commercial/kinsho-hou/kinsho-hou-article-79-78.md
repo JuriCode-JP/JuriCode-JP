@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-78-p1-hashira
+    type: hashira
+    text: 基金は、次に掲げる事由によつて解散する。
+    modality: unspecified
+  - id: kinsho-hou-art-79-78-p1-kou-1
+    type: kou
+    text: 一　総会の議決
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-79-78-p1-kou-2
+    type: kou
+    text: 二　設立の認可の取消し
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-78-p2
+    type: simple
+    text: 前項第一号に掲げる理由による解散は、内閣総理大臣及び財務大臣の認可を受けなければ、その効力を生じない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +61,10 @@ parent_section:
 ### 第七十九条の七十八第一項
 
 基金は、次に掲げる事由によつて解散する。
+
+一　総会の議決
+
+二　設立の認可の取消し
 
 ### 第七十九条の七十八第二項
 

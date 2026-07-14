@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-16-p1
+    type: simple
+    text: 新設合併消滅株式会社金融商品取引所は、第百三十九条の十五第一項の株主総会の決議の日から二週間以内に、その株主及び登録株式質権者並びにその新株予約権者及び登録新株予約権質権者に対し、新設合併をする旨並びに他の新設合併消滅金融商品取引所及び新設合併設立株式会社金融商品取引所の名称又は商号及び住所を通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-16-p2
+    type: simple
+    text: 前項の規定による通知は、公告をもつてこれに代えることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-16-p3
+    type: junyou
+    text: 会社法第九百四十条第一項（第一号に係る部分に限る。）及び第三項の規定は、新設合併消滅株式会社金融商品取引所が電子公告により前項の公告をする場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

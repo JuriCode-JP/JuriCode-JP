@@ -14,24 +14,66 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p1-hashira
+    type: hashira
+    text: 法第三百二十一条の七の十一第一項の規定により市町村長が地方税共同機構（以下この項及び第三項において「機構」という。）を経由して行わせるものとされた同条第一項に規定する年金保険者が市町村長に対して行う通知は、年金保険者が次の各号に掲げる者である場合には、当該年金保険者が、当該各号に定める者及び機構の順に経由して行われるよう当該各号に定める者に伝達することにより、これらを経由して行うものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p1-kou-1
+    type: kou
+    text: 一　特定年金保険者（厚生労働大臣及び地方公務員共済組合（全国市町村職員共済組合連合会を含む。以下この条及び次条において同じ。）以外の年金保険者をいう。第三項第一号において同じ。）　厚生労働大臣
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p1-kou-2
+    type: kou
+    text: 二　地方公務員共済組合　地方公務員共済組合連合会
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p2
+    type: simple
+    text: 法第三百二十一条の七の十一第二項に規定する政令で定める規定は、第四十八条の九の十五第二項並びに前条第二項及び第七項の規定とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p3-hashira
+    type: hashira
+    text: 法第三百二十一条の七の十一第二項の規定により市町村長が機構を経由して行うものとされた同項に規定する年金保険者に対して行う通知は、年金保険者が次の各号に掲げる者である場合には、市町村長が、機構及び当該各号に定める者の順に経由して行われるよう機構に伝達することにより、これらを経由して行うものとする。
+    modality: gimu
+    references:
+    - 同項
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p3-kou-1
+    type: kou
+    text: 一　特定年金保険者　厚生労働大臣
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p3-kou-2
+    type: kou
+    text: 二　地方公務員共済組合　地方公務員共済組合連合会
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-17-p4
+    type: simple
+    text: 前三項に定めるもののほか、これらの規定に規定する通知の方法その他市町村長と年金保険者との間における通知に関し必要な事項は、総務省令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:
@@ -52,6 +94,10 @@ parent_section:
 
 法第三百二十一条の七の十一第一項の規定により市町村長が地方税共同機構（以下この項及び第三項において「機構」という。）を経由して行わせるものとされた同条第一項に規定する年金保険者が市町村長に対して行う通知は、年金保険者が次の各号に掲げる者である場合には、当該年金保険者が、当該各号に定める者及び機構の順に経由して行われるよう当該各号に定める者に伝達することにより、これらを経由して行うものとする。
 
+一　特定年金保険者（厚生労働大臣及び地方公務員共済組合（全国市町村職員共済組合連合会を含む。以下この条及び次条において同じ。）以外の年金保険者をいう。第三項第一号において同じ。）　厚生労働大臣
+
+二　地方公務員共済組合　地方公務員共済組合連合会
+
 ### 第四十八条の九の十七第二項
 
 法第三百二十一条の七の十一第二項に規定する政令で定める規定は、第四十八条の九の十五第二項並びに前条第二項及び第七項の規定とする。
@@ -59,6 +105,10 @@ parent_section:
 ### 第四十八条の九の十七第三項
 
 法第三百二十一条の七の十一第二項の規定により市町村長が機構を経由して行うものとされた同項に規定する年金保険者に対して行う通知は、年金保険者が次の各号に掲げる者である場合には、市町村長が、機構及び当該各号に定める者の順に経由して行われるよう機構に伝達することにより、これらを経由して行うものとする。
+
+一　特定年金保険者　厚生労働大臣
+
+二　地方公務員共済組合　地方公務員共済組合連合会
 
 ### 第四十八条の九の十七第四項
 

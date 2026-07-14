@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百八十二条
 
-<!-- segment: simple id: minpou-art-882-p1 -->
 相続は、死亡によって開始する。

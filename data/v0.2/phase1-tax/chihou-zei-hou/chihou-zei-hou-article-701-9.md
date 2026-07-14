@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-9-p1
+    type: simple
+    text: 市町村長は、第七百一条の四第二項の規定による納入申告書の提出があつた場合において、当該納入申告に係る課税標準額又は税額がその調査したところと異なるときは、これを更正することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-9-p2
+    type: simple
+    text: 市町村長は、特別徴収義務者が前項の納入申告書を提出しなかつた場合においては、その調査によつて、納入申告すべき課税標準額及び税額を決定することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-9-p3
+    type: simple
+    text: 市町村長は、前二項の規定によつて更正し、又は決定した課税標準額又は税額について、調査によつて、過大であることを発見した場合又は過少であり、かつ、過少であることが特別徴収義務者の詐偽その他不正の行為によるものであることを発見した場合に限り、これを更正することができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-9-p4
+    type: simple
+    text: 市町村長は、前三項の規定によつて更正し、又は決定した場合においては、遅滞なく、これを特別徴収義務者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

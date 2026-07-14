@@ -48,10 +48,8 @@ parent_section:
 
 ### 第八条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-8-p1 -->
 国は、その機関が保有する個人情報の適正な取扱いが確保されるよう必要な措置を講ずるものとする。
 
 ### 第八条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-8-p2 -->
 国は、独立行政法人等について、その保有する個人情報の適正な取扱いが確保されるよう必要な措置を講ずるものとする。

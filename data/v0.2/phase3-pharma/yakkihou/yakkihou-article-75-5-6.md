@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-6-p1
+    type: simple
+    text: 厚生労働大臣は、課徴金納付命令をしようとするときは、当該課徴金納付命令の名宛人となるべき者に対し、弁明の機会を与えなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

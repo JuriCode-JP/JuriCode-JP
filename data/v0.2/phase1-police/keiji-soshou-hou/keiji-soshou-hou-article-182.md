@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百八十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-182-p1 -->
 共犯の訴訟費用は、共犯人に、連帯して、これを負担させることができる。

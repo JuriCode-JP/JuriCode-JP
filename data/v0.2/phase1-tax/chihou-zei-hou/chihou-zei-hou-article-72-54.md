@@ -16,42 +16,99 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p1
+    type: simple
+    text: 二以上の道府県において事務所又は事業所を設けて事業を行う個人に課する事業税の課税標準とすべき所得の総額は、主たる事務所又は事業所所在地の道府県知事が決定しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p2-zen
+    type: zen_dan
+    text: 二以上の道府県において事務所又は事業所を設けて事業を行う個人に関係道府県において所得を課税標準として事業税を課する場合には、その所得（第七十二条の四十九の十七第一項の規定により、異なる税率を適用される所得があるときは、その異なる税率を適用される所得ごとに区分した所得とする。以下この条において同じ。）は、総務省令で定めるところにより、前項の道府県知事が関係道府県内に所在する事務所又は事業所について同項の所得の総額を当該事務所又は事業所の従業者の数に按分して定める。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+  - id: chihou-zei-hou-art-72-54-p2-kou
+    type: kou_dan
+    text: この場合において、従業者の数は、第七十二条の四十八第四項第一号本文、第五項及び第六項の規定の例により算定した数によるものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-72-54-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p3-zen
+    type: zen_dan
+    text: 第一項の道府県知事が所得の総額を決定した場合には、直ちに前項の規定により関係道府県において課する事業税の課税標準とすべき所得を決定しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-72-54-p3-kou
+    type: kou_dan
+    text: この場合において、当該道府県知事は、当該所得の総額及び当該課税標準とすべき所得を関係道府県知事及び当該納税者に通知しなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-72-54-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p4
+    type: simple
+    text: 関係道府県知事は、第一項の道府県知事が第二項の規定により定めた所得について不服がある場合には、その事由を記載した書類を添えて、総務大臣に対し、前項の通知を受けた日から三十日以内に決定を求める旨を申し出ることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p5
+    type: simple
+    text: 前項の規定による申出に対する総務大臣の決定は、その申出を受理した日から六十日以内にしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p6
+    type: simple
+    text: 総務大臣は、前項の決定をした場合には、遅滞なく、その旨を関係道府県知事及び当該納税者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p7
+    type: simple
+    text: 総務大臣は、特別の必要があると認める場合には、第一項の規定により同項の道府県知事が定めた所得の総額又は第二項の規定により第一項の道府県知事が定めた所得の変更の指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-54-p8
+    type: simple
+    text: 総務大臣は、第五項の決定又は前項の指示をしようとするときは、地方財政審議会の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikkourei-art-118-2-p1
     type: simple
     text: 法第六十条第一項ただし書（保険会社の契約者配当の損金算入）に規定する政令で定める金額は、内国法人である生命保険会社で法第二十三条（受取配当等の益金不算入）の規定の適用を受けるものの第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-118-2-p1-kou-1
+    type: kou
+    text: 一　当該事業年度において保険契約に基づき保険契約者に対して分配する金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-118-2-p1-kou-2
+    type: kou
+    text: 二　当該事業年度において受けた法第二十三条第一項に規定する配当等の額のうち当該会社が同条の規定により益金の額に算入しないこととしている金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -45,5 +55,8 @@ parent_section:
 
 ### 第百十八条の二
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-118-2-p1 -->
 法第六十条第一項ただし書（保険会社の契約者配当の損金算入）に規定する政令で定める金額は、内国法人である生命保険会社で法第二十三条（受取配当等の益金不算入）の規定の適用を受けるものの第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
+
+一　当該事業年度において保険契約に基づき保険契約者に対して分配する金額
+
+二　当該事業年度において受けた法第二十三条第一項に規定する配当等の額のうち当該会社が同条の規定により益金の額に算入しないこととしている金額

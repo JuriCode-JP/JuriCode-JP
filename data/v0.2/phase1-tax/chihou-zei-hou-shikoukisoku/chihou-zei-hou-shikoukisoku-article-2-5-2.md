@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-5-2-p1
+    type: simple
+    text: 法第五十条の七第三項及び第三百二十八条の七第三項の規定による退職所得申告書に記載すべき事項の電磁的方法による提供は、所得税法第二百三条第四項の規定による同項に規定する申告書に記載すべき事項の電磁的方法による提供と併せて行わなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

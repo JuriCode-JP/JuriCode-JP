@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 総務大臣は、毎年度、次に掲げる事項を記載した報告書を作成しなければならない。
     modality: gimu
+  - id: chihou-zei-hou-art-758-p1-kou-1
+    type: kou
+    text: 一　税負担軽減措置等に該当する措置又は特例ごとの適用額の総額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-758-p1-kou-2
+    type: kou
+    text: 二　適用実態調査情報に基づき推計した租税特別措置（所得税又は法人税に係るもので財務大臣が適用実態調査を実施したものに限る。次号及び次条において同じ。）ごとの道府県民税、事業税又は市町村民税への影響額
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-758-p1-kou-3
+    type: kou
+    text: 三　その他税負担軽減措置等の適用の状況及び租税特別措置の道府県民税、事業税又は市町村民税への影響の状況の透明化を図るために必要な事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -53,11 +68,14 @@ parent_section:
 
 ### 第七百五十八条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-art-758-p1-hashira -->
 総務大臣は、毎年度、次に掲げる事項を記載した報告書を作成しなければならない。
+
+一　税負担軽減措置等に該当する措置又は特例ごとの適用額の総額
+
+二　適用実態調査情報に基づき推計した租税特別措置（所得税又は法人税に係るもので財務大臣が適用実態調査を実施したものに限る。次号及び次条において同じ。）ごとの道府県民税、事業税又は市町村民税への影響額
+
+三　その他税負担軽減措置等の適用の状況及び租税特別措置の道府県民税、事業税又は市町村民税への影響の状況の透明化を図るために必要な事項
 
 ### 第七百五十八条第二項
 
-<!-- segment: zen_dan id: chihou-zei-hou-art-758-p2-zen -->
-総務大臣は、前項の規定により作成した報告書を国会に提出しなければならない。<!-- segment: kou_dan id: chihou-zei-hou-art-758-p2-kou depends_on: chihou-zei-hou-art-758-p2-zen -->
-この場合において、当該報告書は、作成した年度に開会される国会の常会に提出することを常例とする。
+総務大臣は、前項の規定により作成した報告書を国会に提出しなければならない。この場合において、当該報告書は、作成した年度に開会される国会の常会に提出することを常例とする。

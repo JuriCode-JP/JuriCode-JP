@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三十三条第二項第一号（譲渡所得）に規定する政令で定めるものは、次に掲げる資産とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-81-p1-kou-1
+    type: kou
+    text: 一　不動産所得、山林所得又は雑所得を生ずべき業務に係る第三条各号（棚卸資産の範囲）に掲げる資産に準ずる資産
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-81-p1-kou-2
+    type: kou
+    text: 二　減価償却資産で第百三十八条第一項（少額の減価償却資産の取得価額の必要経費算入）の規定に該当するもの（同項に規定する取得価額が十万円未満であるもののうち、その者の業務の性質上基本的に重要なものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-81-p1-kou-3
+    type: kou
+    text: 三　減価償却資産で第百三十九条第一項（一括償却資産の必要経費算入）の規定の適用を受けたもの（その者の業務の性質上基本的に重要なものを除く。）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第八十一条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-81-p1-hashira -->
 法第三十三条第二項第一号（譲渡所得）に規定する政令で定めるものは、次に掲げる資産とする。
+
+一　不動産所得、山林所得又は雑所得を生ずべき業務に係る第三条各号（棚卸資産の範囲）に掲げる資産に準ずる資産
+
+二　減価償却資産で第百三十八条第一項（少額の減価償却資産の取得価額の必要経費算入）の規定に該当するもの（同項に規定する取得価額が十万円未満であるもののうち、その者の業務の性質上基本的に重要なものを除く。）
+
+三　減価償却資産で第百三十九条第一項（一括償却資産の必要経費算入）の規定の適用を受けたもの（その者の業務の性質上基本的に重要なものを除く。）

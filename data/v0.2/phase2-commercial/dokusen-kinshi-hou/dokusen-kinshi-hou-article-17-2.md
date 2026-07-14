@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-17-2-p1
+    type: simple
+    text: 第十条第一項、第十一条第一項、第十五条第一項、第十五条の二第一項、第十五条の三第一項、第十六条第一項又は前条の規定に違反する行為があるときは、公正取引委員会は、第八章第二節に規定する手続に従い、事業者に対し、株式の全部又は一部の処分、事業の一部の譲渡その他これらの規定に違反する行為を排除するために必要な措置を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-17-2-p2
+    type: simple
+    text: 第九条第一項若しくは第二項、第十三条、第十四条又は前条の規定に違反する行為があるときは、公正取引委員会は、第八章第二節に規定する手続に従い、当該違反行為者に対し、株式の全部又は一部の処分、会社の役員の辞任その他これらの規定に違反する行為を排除するために必要な措置を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

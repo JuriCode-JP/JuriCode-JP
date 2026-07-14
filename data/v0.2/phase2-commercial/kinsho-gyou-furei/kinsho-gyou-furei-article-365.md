@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百六十五条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-365-p1 -->
 法第六十六条の八十六の規定による公告は、官報により行うものとする。

@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-607-2-p1-hashira
+    type: hashira
+    text: 賃借物の修繕が必要である場合において、次に掲げるときは、賃借人は、その修繕をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-607-2-p1-kou-1
+    type: kou
+    text: 一　賃借人が賃貸人に修繕が必要である旨を通知し、又は賃貸人がその旨を知ったにもかかわらず、賃貸人が相当の期間内に必要な修繕をしないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-607-2-p1-kou-2
+    type: kou
+    text: 二　急迫の事情があるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,3 +54,7 @@ parent_section:
 ### 第六百七条の二
 
 賃借物の修繕が必要である場合において、次に掲げるときは、賃借人は、その修繕をすることができる。
+
+一　賃借人が賃貸人に修繕が必要である旨を通知し、又は賃貸人がその旨を知ったにもかかわらず、賃貸人が相当の期間内に必要な修繕をしないとき。
+
+二　急迫の事情があるとき。

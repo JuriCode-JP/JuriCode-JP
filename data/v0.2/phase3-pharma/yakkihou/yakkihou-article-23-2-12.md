@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-12-p1
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造販売業者は、第二十三条の二の五第一項又は第二十三条の二の二十三第一項に規定する医療機器及び体外診断用医薬品以外の医療機器又は体外診断用医薬品の製造販売をしようとするときは、あらかじめ、品目ごとに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-12-p2
+    type: simple
+    text: 医療機器又は体外診断用医薬品の製造販売業者は、前項の規定により届け出た事項を変更したときは、三十日以内に、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

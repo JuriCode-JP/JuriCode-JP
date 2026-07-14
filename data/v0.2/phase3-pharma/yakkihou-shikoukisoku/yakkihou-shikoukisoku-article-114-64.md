@@ -13,15 +13,45 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-64-p1-hashira
+    type: hashira
+    text: 前三条の規定により保存することとされている文書その他の記録の保存期間は、当該記録を利用しなくなつた日から五年間とする。ただし、次に掲げる記録の保存期間はそれぞれ各号に定める期間とする。
+    modality: gimu
+    references:
+    - 前三条
+  - id: yakkihou-shikoukisoku-art-114-64-p1-kou-1
+    type: kou
+    text: 一　生物由来製品（次号及び第三号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-64-p1-kou-2
+    type: kou
+    text: 二　特定生物由来製品に係る記録　利用しなくなつた日から三十年間
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-64-p1-kou-3
+    type: kou
+    text: 三　特定保守管理医療機器及び設置管理医療機器（前号に掲げるものを除く。）に係る記録　利用しなくなつた日から十五年間
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-64-p2
+    type: tokusoku
+    text: 製造販売業者は、前三条の規定にかかわらず、製造販売後安全管理業務手順書等又はあらかじめ定めた文書に基づき、前三条の規定により記録を保存しなければならないとされている者に代えて、製造販売業者が指定する者に、当該記録を保存させることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前三条
+    references:
+    - 前三条
 cases: []
 amendments: []
 tags:
@@ -41,6 +71,12 @@ parent_section:
 ### 第百十四条の六十四第一項
 
 前三条の規定により保存することとされている文書その他の記録の保存期間は、当該記録を利用しなくなつた日から五年間とする。ただし、次に掲げる記録の保存期間はそれぞれ各号に定める期間とする。
+
+一　生物由来製品（次号及び第三号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+
+二　特定生物由来製品に係る記録　利用しなくなつた日から三十年間
+
+三　特定保守管理医療機器及び設置管理医療機器（前号に掲げるものを除く。）に係る記録　利用しなくなつた日から十五年間
 
 ### 第百十四条の六十四第二項
 

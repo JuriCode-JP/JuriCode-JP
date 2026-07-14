@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-2-p1
+    type: simple
+    text: 金融商品会員制法人が解散した場合における残余財産は、定款又は総会の決議により別に定める場合のほか、会員に平等に分配しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

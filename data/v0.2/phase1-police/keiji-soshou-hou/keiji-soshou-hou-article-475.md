@@ -22,7 +22,7 @@ paragraphs:
     text: 死刑の執行は、法務大臣の命令による。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四百七十五条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-475-p1 -->
 死刑の執行は、法務大臣の命令による。
 
 ### 第四百七十五条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-475-p2 -->
 前項の命令は、判決確定の日から六箇月以内にこれをしなければならない。但し、上訴権回復若しくは再審の請求、非常上告又は恩赦の出願若しくは申出がされその手続が終了するまでの期間及び共同被告人であつた者に対する判決が確定するまでの期間は、これをその期間に算入しない。

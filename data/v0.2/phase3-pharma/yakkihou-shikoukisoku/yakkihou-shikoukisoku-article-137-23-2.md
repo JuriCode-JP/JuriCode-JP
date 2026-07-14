@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-23-2-p1
+    type: simple
+    text: 厚生労働大臣は、申請者が法第二十三条の二十六の二第一項の規定による法第二十三条の二十五の承認を受けて製造販売しようとする再生医療等製品について、前条第一項各号（第七号を除く。）に掲げる資料を添付することができないと認めるときは、相当の期間その提出を猶予することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

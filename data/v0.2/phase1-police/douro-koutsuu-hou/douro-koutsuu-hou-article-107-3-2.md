@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-3-2-p1
+    type: simple
+    text: 公安委員会は、国際運転免許証等を所持する者が当該国際運転免許証等に係る発給の条件を満たしているかどうかを調査するため必要があると認めるとき（その者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかを調査するため必要があると認めるときに限る。）は、内閣府令で定めるところにより、その者に対し、必要な報告を求めることができる。
+    modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-107-3-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の四第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -36,3 +44,5 @@ parent_section:
 ### 第百七条の三の二
 
 公安委員会は、国際運転免許証等を所持する者が当該国際運転免許証等に係る発給の条件を満たしているかどうかを調査するため必要があると認めるとき（その者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかを調査するため必要があると認めるときに限る。）は、内閣府令で定めるところにより、その者に対し、必要な報告を求めることができる。
+
+（罰則　第百十七条の四第一項第三号）

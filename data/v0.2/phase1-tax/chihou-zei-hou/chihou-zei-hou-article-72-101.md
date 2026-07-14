@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-101-p1
+    type: simple
+    text: 消費税法第四十七条第一項の規定により消費税に係る申告書を提出する義務がある者は、前章第二節から第十四節までの規定にかかわらず、当該申告書に記載すべき同項第二号に掲げる課税標準額に対する消費税額、これを課税標準として算定した貨物割額その他必要な事項を記載した申告書を、消費税の申告の例により、消費税の申告と併せて、税関長に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

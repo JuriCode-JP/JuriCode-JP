@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-74-7-p1
+    type: simple
+    text: 国税庁等又は税関の当該職員は、国税の調査について必要があるときは、当該調査において提出された物件を留め置くことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

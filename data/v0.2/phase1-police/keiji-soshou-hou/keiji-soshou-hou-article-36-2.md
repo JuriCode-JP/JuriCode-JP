@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-36-2-p1
+    type: simple
+    text: この法律により弁護人を要する場合を除いて、被告人が前条の請求をするには、資力申告書（その者に属する現金、預金その他政令で定めるこれらに準ずる資産の合計額（以下「資力」という。）及びその内訳を申告する書面をいう。以下同じ。）を提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-12-p1
+    type: simple
+    text: 金融庁長官は、ファイルに記録されている事項を法第二十七条の三十の七第一項の規定により公衆の縦覧に供する場合においては、当該事項を財務局及び福岡財務支局においてその使用に係る電子計算機の入出力装置の映像面に表示するほか、インターネットを利用して公衆の縦覧に供するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-5-p1
+    type: simple
+    text: 内国法人が残余財産の全部の分配又は引渡し（適格現物分配を除く。次項において同じ。）により被現物分配法人その他の者にその有する資産の移転をするときは、当該被現物分配法人その他の者に当該移転をする資産の当該残余財産の確定の時の価額による譲渡をしたものとして、当該内国法人の各事業年度の所得の金額を計算する。
+    modality: unspecified
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-5-p2
+    type: simple
+    text: 残余財産の全部の分配又は引渡しにより被現物分配法人その他の者に移転をする資産の当該移転による譲渡に係る譲渡利益額（当該残余財産の確定の時の価額が当該譲渡に係る原価の額を超える場合におけるその超える部分の金額をいう。）又は譲渡損失額（当該譲渡に係る原価の額が当該残余財産の確定の時の価額を超える場合におけるその超える部分の金額をいう。）は、その残余財産の確定の日の属する事業年度の所得の金額の計算上、益金の額又は損金の額に算入する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-5-p3
+    type: simple
+    text: 内国法人が適格現物分配又は適格株式分配により被現物分配法人その他の株主等にその有する資産の移転をしたときは、当該被現物分配法人その他の株主等に当該移転をした資産の当該適格現物分配又は適格株式分配の直前の帳簿価額（当該適格現物分配が残余財産の全部の分配である場合には、その残余財産の確定の時の帳簿価額）による譲渡をしたものとして、当該内国法人の各事業年度の所得の金額を計算する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-5-p4
+    type: simple
+    text: 内国法人が適格現物分配により資産の移転を受けたことにより生ずる収益の額は、その内国法人の各事業年度の所得の金額の計算上、益金の額に算入しない。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-5-p5
+    type: simple
+    text: 内国法人の残余財産の確定の日の属する事業年度に係る地方税法の規定による事業税の額及び特別法人事業税及び特別法人事業譲与税に関する法律（平成三十一年法律第四号）の規定による特別法人事業税の額は、当該内国法人の当該事業年度の所得の金額の計算上、損金の額に算入する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-5-p6
+    type: simple
+    text: 被現物分配法人の資産の取得価額その他前各項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

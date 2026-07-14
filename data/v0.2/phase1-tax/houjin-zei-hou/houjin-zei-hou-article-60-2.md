@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-60-2-p1-hashira
+    type: hashira
+    text: 協同組合等が各事業年度の決算の確定の時にその支出すべき旨を決議する次に掲げる金額は、当該事業年度の所得の金額の計算上、損金の額に算入する。
+    modality: unspecified
+  - id: houjin-zei-hou-art-60-2-p1-kou-1
+    type: kou
+    text: 一　その組合員その他の構成員に対しその者が当該事業年度中に取り扱つた物の数量、価額その他その協同組合等の事業を利用した分量に応じて分配する金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-60-2-p1-kou-2
+    type: kou
+    text: 二　その組合員その他の構成員に対しその者が当該事業年度中にその協同組合等の事業に従事した程度に応じて分配する金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -42,3 +56,7 @@ parent_section:
 ### 第六十条の二
 
 協同組合等が各事業年度の決算の確定の時にその支出すべき旨を決議する次に掲げる金額は、当該事業年度の所得の金額の計算上、損金の額に算入する。
+
+一　その組合員その他の構成員に対しその者が当該事業年度中に取り扱つた物の数量、価額その他その協同組合等の事業を利用した分量に応じて分配する金額
+
+二　その組合員その他の構成員に対しその者が当該事業年度中にその協同組合等の事業に従事した程度に応じて分配する金額

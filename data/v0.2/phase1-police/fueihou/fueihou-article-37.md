@@ -22,7 +22,7 @@ paragraphs:
     text: 公安委員会は、この法律の施行に必要な限度において、風俗営業者、性風俗関連特殊営業を営む者、特定遊興飲食店営業者、第三十三条第六項に規定する酒類提供飲食店営業を営む者、深夜において飲食店営業（酒類提供飲食店営業を除く。）を営む者又は接客業務受託営業を営む者に対し、その業務に関し報告又は資料の提出を求めることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +30,41 @@ paragraphs:
     type: hashira
     text: 警察職員は、この法律の施行に必要な限度において、次に掲げる場所に立ち入ることができる。ただし、第一号、第二号又は第四号から第七号までに掲げる営業所に設けられている個室その他これに類する施設で客が在室するものについては、この限りでない。
     modality: jogai
+  - id: fueihou-art-37-p2-kou-1
+    type: kou
+    text: 一　風俗営業の営業所
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-37-p2-kou-2
+    type: kou
+    text: 二　店舗型性風俗特殊営業の営業所
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-37-p2-kou-3
+    type: kou
+    text: 三　第二条第七項第一号の営業の事務所、受付所又は待機所
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-37-p2-kou-4
+    type: kou
+    text: 四　店舗型電話異性紹介営業の営業所
+    modality: unspecified
+    item_number: 4
+  - id: fueihou-art-37-p2-kou-5
+    type: kou
+    text: 五　特定遊興飲食店営業の営業所
+    modality: unspecified
+    item_number: 5
+  - id: fueihou-art-37-p2-kou-6
+    type: kou
+    text: 六　第三十三条第六項に規定する酒類提供飲食店営業の営業所
+    modality: unspecified
+    item_number: 6
+  - id: fueihou-art-37-p2-kou-7
+    type: kou
+    text: 七　前各号に掲げるもののほか、設備を設けて客に飲食をさせる営業の営業所（深夜において営業しているものに限る。）
+    modality: unspecified
+    item_number: 7
 - number: 3
   has_proviso: false
   has_items: false
@@ -66,20 +101,30 @@ parent_section:
 
 ### 第三十七条第一項
 
-<!-- segment: simple id: fueihou-art-37-p1 -->
 公安委員会は、この法律の施行に必要な限度において、風俗営業者、性風俗関連特殊営業を営む者、特定遊興飲食店営業者、第三十三条第六項に規定する酒類提供飲食店営業を営む者、深夜において飲食店営業（酒類提供飲食店営業を除く。）を営む者又は接客業務受託営業を営む者に対し、その業務に関し報告又は資料の提出を求めることができる。
 
 ### 第三十七条第二項
 
-<!-- segment: hashira id: fueihou-art-37-p2-hashira -->
 警察職員は、この法律の施行に必要な限度において、次に掲げる場所に立ち入ることができる。ただし、第一号、第二号又は第四号から第七号までに掲げる営業所に設けられている個室その他これに類する施設で客が在室するものについては、この限りでない。
+
+一　風俗営業の営業所
+
+二　店舗型性風俗特殊営業の営業所
+
+三　第二条第七項第一号の営業の事務所、受付所又は待機所
+
+四　店舗型電話異性紹介営業の営業所
+
+五　特定遊興飲食店営業の営業所
+
+六　第三十三条第六項に規定する酒類提供飲食店営業の営業所
+
+七　前各号に掲げるもののほか、設備を設けて客に飲食をさせる営業の営業所（深夜において営業しているものに限る。）
 
 ### 第三十七条第三項
 
-<!-- segment: simple id: fueihou-art-37-p3 -->
 前項の規定により警察職員が立ち入るときは、その身分を示す証明書を携帯し、関係者に提示しなければならない。
 
 ### 第三十七条第四項
 
-<!-- segment: simple id: fueihou-art-37-p4 -->
 第二項の規定による権限は、犯罪捜査のために認められたものと解してはならない。

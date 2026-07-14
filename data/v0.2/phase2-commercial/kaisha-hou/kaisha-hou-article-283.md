@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 新株予約権を行使した場合において、当該新株予約権の新株予約権者に交付する株式の数に一株に満たない端数があるときは、株式会社は、当該新株予約権者に対し、次の各号に掲げる場合の区分に応じ、当該各号に定める額にその端数を乗じて得た額に相当する金銭を交付しなければならない。ただし、第二百三十六条第一項第九号に掲げる事項についての定めがある場合は、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-283-p1-kou-1
+    type: kou
+    text: 一　当該株式が市場価格のある株式である場合　当該株式一株の市場価格として法務省令で定める方法により算定される額
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-283-p1-kou-2
+    type: kou
+    text: 二　前号に掲げる場合以外の場合　一株当たり純資産額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二百八十三条
 
-<!-- segment: hashira id: kaisha-hou-art-283-p1-hashira -->
 新株予約権を行使した場合において、当該新株予約権の新株予約権者に交付する株式の数に一株に満たない端数があるときは、株式会社は、当該新株予約権者に対し、次の各号に掲げる場合の区分に応じ、当該各号に定める額にその端数を乗じて得た額に相当する金銭を交付しなければならない。ただし、第二百三十六条第一項第九号に掲げる事項についての定めがある場合は、この限りでない。
+
+一　当該株式が市場価格のある株式である場合　当該株式一株の市場価格として法務省令で定める方法により算定される額
+
+二　前号に掲げる場合以外の場合　一株当たり純資産額

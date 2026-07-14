@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-463-2-p1
+    type: simple
+    text: 前条の場合を除いて、略式命令の請求があつた日から四箇月以内に略式命令が被告人に告知されないときは、公訴の提起は、さかのぼつてその効力を失う。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-463-2-p2
+    type: simple
+    text: 前項の場合には、裁判所は、決定で、公訴を棄却しなければならない。略式命令が既に検察官に告知されているときは、略式命令を取り消した上、その決定をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-463-2-p3
+    type: simple
+    text: 前項の決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

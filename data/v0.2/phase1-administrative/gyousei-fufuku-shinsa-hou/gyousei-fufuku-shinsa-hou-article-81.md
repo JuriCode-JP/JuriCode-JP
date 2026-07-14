@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -77,20 +77,16 @@ parent_section:
 
 ### 第八十一条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-81-p1 -->
 地方公共団体に、執行機関の附属機関として、この法律の規定によりその権限に属させられた事項を処理するための機関を置く。
 
 ### 第八十一条第二項
 
-<!-- segment: tokusoku id: gyousei-fufuku-shinsa-hou-art-81-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、地方公共団体は、当該地方公共団体における不服申立ての状況等に鑑み同項の機関を置くことが不適当又は困難であるときは、条例で定めるところにより、事件ごとに、執行機関の附属機関として、この法律の規定によりその権限に属させられた事項を処理するための機関を置くこととすることができる。
 
 ### 第八十一条第三項
 
-<!-- segment: junyou id: gyousei-fufuku-shinsa-hou-art-81-p3 -->
 前節第二款の規定は、前二項の機関について準用する。この場合において、第七十八条第四項及び第五項中「政令」とあるのは、「条例」と読み替えるものとする。
 
 ### 第八十一条第四項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-81-p4 -->
 前三項に定めるもののほか、第一項又は第二項の機関の組織及び運営に関し必要な事項は、当該機関を置く地方公共団体の条例（地方自治法第二百五十二条の七第一項の規定により共同設置する機関にあっては、同項の規約）で定める。

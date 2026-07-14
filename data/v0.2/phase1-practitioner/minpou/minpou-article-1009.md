@@ -41,5 +41,4 @@ parent_section:
 
 ### 第千九条
 
-<!-- segment: simple id: minpou-art-1009-p1 -->
 未成年者及び破産者は、遺言執行者となることができない。

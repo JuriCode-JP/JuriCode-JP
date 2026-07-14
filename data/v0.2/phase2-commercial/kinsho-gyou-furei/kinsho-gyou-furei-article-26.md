@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二十六条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-26-p1 -->
 令第十五条の十三に規定する内閣府令で定める金融機関は、協同組織金融機関及び株式会社商工組合中央金庫とする。

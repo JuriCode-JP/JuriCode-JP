@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-10-p1
+    type: simple
+    text: 機構指定納付受託者は、第七百四十七条の七の規定により特定徴収金を納付し、又は納入しようとする者の委託を受けたときは、機構が指定する日までに当該委託を受けた特定徴収金を機構に納付し、又は納入しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-10-p2
+    type: simple
+    text: 機構指定納付受託者は、第七百四十七条の七の規定により特定徴収金を納付し、又は納入しようとする者の委託を受けたときは、遅滞なく、総務省令で定めるところにより、その旨及び当該委託を受けた年月日を機構に報告しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-10-p3
+    type: simple
+    text: 機構は、前項の規定による報告を受けたときは、速やかに、総務省令で定めるところにより、当該報告に係る事項を当該報告に係る特定徴収金を納付し、又は納入すべき地方団体に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-10-p4
+    type: simple
+    text: 第一項の場合において、当該機構指定納付受託者が同項の指定する日までに当該特定徴収金を機構に納付し、又は納入したときは、当該委託を受けた日に当該特定徴収金の納付又は納入がされたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

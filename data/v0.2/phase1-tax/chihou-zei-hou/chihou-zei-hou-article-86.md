@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -57,8 +57,8 @@ paragraphs:
     text: 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -79,20 +79,16 @@ parent_section:
 
 ### 第八十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-86-p1 -->
 第八十三条第二項の規定により徴収して納入すべきゴルフ場利用税に係る納入金の全部又は一部を納入しなかつたときは、その違反行為をした者は、五年以下の拘禁刑若しくは百万円以下の罰金に処し、又はこれを併科する。
 
 ### 第八十六条第二項
 
-<!-- segment: tokusoku id: chihou-zei-hou-art-86-p2 override_flag: true override_target: 同項 -->
 前項の納入しなかつた金額が百万円を超える場合には、情状により、同項の罰金の額は、同項の規定にかかわらず、百万円を超える額でその納入しなかつた金額に相当する額以下の額とすることができる。
 
 ### 第八十六条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-86-p3 -->
 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務に関して第一項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
 
 ### 第八十六条第四項
 
-<!-- segment: simple id: chihou-zei-hou-art-86-p4 -->
 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。

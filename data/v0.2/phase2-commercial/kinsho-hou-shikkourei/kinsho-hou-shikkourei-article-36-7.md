@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-36-7-p1
+    type: simple
+    text: 外国金融商品市場において、市場デリバティブ取引（約定数値及び現実数値に基づき金銭の授受を約する取引に限る。）と類似の取引のため、利率、償還期限その他の条件を標準化して設定された標準物は、法の適用については、金融商品とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

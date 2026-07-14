@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-178-p1 -->
 前章の規定は、通訳及び翻訳についてこれを準用する。

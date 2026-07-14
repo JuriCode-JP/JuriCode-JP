@@ -35,22 +35,19 @@ from _canonicalize import canonicalize
 _V02_DIR = Path(__file__).resolve().parent / "v0.2"
 if str(_V02_DIR) not in sys.path:
     sys.path.insert(0, str(_V02_DIR))
+_SHARED_SRC = Path(__file__).resolve().parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+from juricode_shared import headings as _headings  # noqa: E402
 from table_core import is_gfm_separator_line  # noqa: E402
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
-JA_SECTION_RE = re.compile(
-    r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)",
-    re.DOTALL,
-)
-PARAGRAPH_HEADING_RE = re.compile(
-    r"^###\s+第[一二三四五六七八九十百千0-9]+条"
-    # Allow 0 or more branch suffixes like "の二", "の三", "の二の三"
-    # (e.g. 刑法第三条の二, 刑法第二十六条の二の二)
-    r"(?:の[一二三四五六七八九十百千0-9]+)*"
-    # Optional paragraph number "第X項"
-    r"(?:第([一二三四五六七八九十百千0-9]+)項)?\s*$",
-    re.MULTILINE,
-)
+
+# FU-554: 項見出し / 原文セクションの regex は juricode_shared.headings が単一の真実源。
+# 生成側 (segment_parser) と検証側 (本ファイル / canonical_hash) で別実装だったため、
+# 枝番条の扱いが食い違い「生成が落としたものを検証が見逃す」状態になっていた。
+JA_SECTION_RE = _headings.JA_SECTION_RE
+PARAGRAPH_HEADING_RE = _headings.PARAGRAPH_HEADING_RE
 
 REQUIRED_MANIFEST_FIELDS = (
     "schema_version",

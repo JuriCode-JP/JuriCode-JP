@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-23-2-p1
+    type: simple
+    text: 交通局においては、警察庁の所掌事務に関し、交通警察に関する事務をつかさどる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

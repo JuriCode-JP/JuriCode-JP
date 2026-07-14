@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-26-4-p1
+    type: simple
+    text: 法第七百一条の三十四第三項第十号の五に規定する政令で定める老人福祉施設は、老人福祉法第二十条の二の二に規定する老人デイサービスセンター、同法第二十条の三に規定する老人短期入所施設、同法第二十条の四に規定する養護老人ホーム、同法第二十条の五に規定する特別養護老人ホーム、同法第二十条の六に規定する軽費老人ホーム、同法第二十条の七に規定する老人福祉センター及び同法第二十条の七の二に規定する老人介護支援センターとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

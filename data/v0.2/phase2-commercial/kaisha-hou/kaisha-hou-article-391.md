@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百九十一条
 
-<!-- segment: simple id: kaisha-hou-art-391-p1 -->
 監査役会は、各監査役が招集する。

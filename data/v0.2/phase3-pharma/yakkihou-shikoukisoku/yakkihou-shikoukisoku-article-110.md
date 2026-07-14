@@ -57,15 +57,12 @@ parent_section:
 
 ### 第百十条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-110-p1 -->
 外国製造医薬品等特例承認取得者については、第百一条の規定を準用する。
 
 ### 第百十条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-110-p2 -->
 外国製造医薬品等特例承認取得者は、法第七十五条の二の二第一項第二号の規定により厚生労働大臣に報告した事項の根拠となつた資料を、厚生労働大臣に報告した日から五年間保存しなければならない。
 
 ### 第百十条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-110-p3 -->
 前項の資料の保存については、第百一条各号列記以外の部分ただし書の規定を準用する。

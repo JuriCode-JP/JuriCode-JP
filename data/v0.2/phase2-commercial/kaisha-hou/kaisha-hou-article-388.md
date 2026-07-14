@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 監査役がその職務の執行について監査役設置会社（監査役の監査の範囲を会計に関するものに限定する旨の定款の定めがある株式会社を含む。）に対して次に掲げる請求をしたときは、当該監査役設置会社は、当該請求に係る費用又は債務が当該監査役の職務の執行に必要でないことを証明した場合を除き、これを拒むことができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-388-p1-kou-1
+    type: kou
+    text: 一　費用の前払の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-388-p1-kou-2
+    type: kou
+    text: 二　支出した費用及び支出の日以後におけるその利息の償還の請求
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-388-p1-kou-3
+    type: kou
+    text: 三　負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第三百八十八条
 
-<!-- segment: hashira id: kaisha-hou-art-388-p1-hashira -->
 監査役がその職務の執行について監査役設置会社（監査役の監査の範囲を会計に関するものに限定する旨の定款の定めがある株式会社を含む。）に対して次に掲げる請求をしたときは、当該監査役設置会社は、当該請求に係る費用又は債務が当該監査役の職務の執行に必要でないことを証明した場合を除き、これを拒むことができない。
+
+一　費用の前払の請求
+
+二　支出した費用及び支出の日以後におけるその利息の償還の請求
+
+三　負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求

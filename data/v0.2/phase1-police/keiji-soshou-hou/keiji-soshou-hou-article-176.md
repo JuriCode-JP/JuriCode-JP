@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-176-p1 -->
 耳の聞えない者又は口のきけない者に陳述をさせる場合には、通訳人に通訳をさせることができる。

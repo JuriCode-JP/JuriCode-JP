@@ -16,32 +16,67 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-38-p1
+    type: simple
+    text: 包括外部監査人は、監査のため必要があると認めるときは、監査委員と協議して、関係人の出頭を求め、若しくは関係人について調査し、若しくは関係人の帳簿、書類その他の記録の提出を求め、又は学識経験を有する者等から意見を聴くことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-38-p2
+    type: simple
+    text: 包括外部監査人は、監査の結果に基づいて必要があると認めるときは、当該包括外部監査対象団体の組織及び運営の合理化に資するため、監査の結果に関する報告に添えてその意見を提出することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-38-p3
+    type: simple
+    text: 監査委員は、前条第五項の規定により監査の結果に関する報告の提出があつたときは、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-38-p4
+    type: simple
+    text: 監査委員は、包括外部監査人の監査の結果に関し必要があると認めるときは、当該包括外部監査対象団体の議会及び長並びに関係のある教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員にその意見を提出することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-38-p5
+    type: simple
+    text: 第一項の規定による協議又は前項の規定による意見の決定は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-38-p6-zen
+    type: zen_dan
+    text: 前条第五項の規定による監査の結果に関する報告の提出があつた場合において、当該監査の結果に関する報告の提出を受けた包括外部監査対象団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員は、当該監査の結果に基づき、又は当該監査の結果を参考として措置を講じたときは、その旨を監査委員に通知するものとする。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-jichi-hou-art-252-38-p6-kou
+    type: kou_dan
+    text: この場合においては、監査委員は、当該通知に係る事項を公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-252-38-p6-zen
 cases: []
 amendments: []
 tags:

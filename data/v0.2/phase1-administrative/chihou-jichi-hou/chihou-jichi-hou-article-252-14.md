@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-14-p1
+    type: simple
+    text: 普通地方公共団体は、協議により規約を定め、普通地方公共団体の事務の一部を、他の普通地方公共団体に委託して、当該他の普通地方公共団体の長又は同種の委員会若しくは委員をして管理し及び執行させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-14-p2
+    type: simple
+    text: 前項の規定により委託した事務を変更し、又はその事務の委託を廃止しようとするときは、関係普通地方公共団体は、同項の例により、協議してこれを行わなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-14-p3
+    type: simple
+    text: 第二百五十二条の二の二第二項及び第三項本文の規定は前二項の規定により普通地方公共団体の事務を委託し、又は委託した事務を変更し、若しくはその事務の委託を廃止する場合に、同条第四項の規定は第一項の場合にこれを準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

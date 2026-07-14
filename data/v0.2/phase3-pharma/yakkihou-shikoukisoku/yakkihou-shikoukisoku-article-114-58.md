@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-58-p1
+    type: simple
+    text: 医療機器若しくは体外診断用医薬品の製造販売業者（選任外国製造医療機器等製造販売業者及び法第二十三条の三第一項の規定により選任された製造販売業者（次項において「選任外国製造医療機器等製造販売業者等」という。）を除く。）、外国製造医療機器等特例承認取得者又は外国指定高度管理医療機器製造等事業者（次項において「製造販売業者等」という。）は、その製造販売する医療機器又は体外診断用医薬品の製造管理又は品質管理の方法を、法第二十三条の二の五第二項第四号に規定する厚生労働省令で定める基準に適合させなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-58-p2
+    type: simple
+    text: 医療機器若しくは体外診断用医薬品の選任外国製造医療機器等製造販売業者等、製造業者（輸出用の医療機器又は体外診断用医薬品のみを製造する者を除く。）又は法第二十三条の二の四第一項の登録を受けた医療機器等外国製造業者（以下「登録医療機器等外国製造業者」という。）は、医療機器又は体外診断用医薬品の取扱い又は製造に当たり、当該医療機器又は体外診断用医薬品に係る製造販売業者等が行う製造管理及び品質管理に協力しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-58-p3
+    type: simple
+    text: 輸出用の医療機器又は体外診断用医薬品（令第七十三条の二に規定する医療機器又は体外診断用医薬品に限る。）の製造業者は、その製造所における製造管理又は品質管理の方法を、法第八十条第二項に規定する厚生労働省令で定める基準に適合させなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

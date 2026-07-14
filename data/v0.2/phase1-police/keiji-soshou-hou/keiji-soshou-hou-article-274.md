@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百七十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-274-p1 -->
 裁判所の構内にいる被告人に対し公判期日を通知したときは、召喚状の送達があつた場合と同一の効力を有する。

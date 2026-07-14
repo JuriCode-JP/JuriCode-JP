@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-11-p1
+    type: simple
+    text: 公正取引委員会がする排除措置命令、納付命令、競争回復措置命令及び第七十条の二第一項に規定する認可の申請に係る処分並びにこの節の規定による認定、決定その他の処分（第四十七条第二項の規定によつて審査官がする処分及びこの節の規定によつて指定職員がする処分を含む。）については、行政手続法（平成五年法律第八十八号）第二章及び第三章の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-18-3-p1
+    type: simple
+    text: 施行令第三十九条の三十二第八項に規定する財務省令で定める承継は、法第六十七条の十三第一項に規定する有限責任事業組合契約を締結している組合員と当該有限責任事業組合契約を締結している他の組合員との間で行うその地位の承継とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

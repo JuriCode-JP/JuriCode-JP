@@ -70,9 +70,6 @@ parent_section:
 
 ### 第二百三十六条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-236-p1 -->
-<!-- segment: simple id: chihou-jichi-hou-art-236-p2 -->
-<!-- segment: simple id: chihou-jichi-hou-art-236-p3 -->
 金銭の給付を目的とする普通地方公共団体の権利は、時効に関し他の法律に定めがあるものを除くほか、これを行使することができる時から五年間行使しないときは、時効によつて消滅する。普通地方公共団体に対する権利で、金銭の給付を目的とするものについても、また同様とする。
 
 ### 第二百三十六条第二項
@@ -85,5 +82,4 @@ parent_section:
 
 ### 第二百三十六条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-236-p4 -->
 法令の規定により普通地方公共団体がする納入の通知及び督促は、時効の更新の効力を有する。

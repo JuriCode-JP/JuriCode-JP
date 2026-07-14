@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-6-p1
+    type: simple
+    text: 基準適合性認証の業務に従事する登録認証機関の役員又は職員が、その職務に関し、賄賂を収受し、要求し、又は約束したときは、五年以下の拘禁刑に処する。これによつて不正の行為をし、又は相当の行為をしなかつたときは、七年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-6-p2
+    type: simple
+    text: 基準適合性認証の業務に従事する登録認証機関の役員又は職員になろうとする者が、就任後担当すべき職務に関し、請託を受けて賄賂を収受し、要求し、又は約束したときは、役員又は職員になつた場合において、五年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-6-p3
+    type: simple
+    text: 基準適合性認証の業務に従事する登録認証機関の役員又は職員であつた者が、その在職中に請託を受けて、職務上不正の行為をしたこと又は相当の行為をしなかつたことに関し、賄賂を収受し、要求し、又は約束したときは、五年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-6-p4
+    type: simple
+    text: 前三項の場合において、犯人が収受した賄賂は、没収する。その全部又は一部を没収することができないときは、その価額を追徴する。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

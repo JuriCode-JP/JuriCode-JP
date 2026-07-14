@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-32-p1
+    type: simple
+    text: 設立の認可があつたときは、発起人は、遅滞なく、その事務を理事長となるべき者に引き継がなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

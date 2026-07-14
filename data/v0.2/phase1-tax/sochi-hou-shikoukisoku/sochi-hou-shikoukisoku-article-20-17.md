@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十条の十七
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-20-17-p1 -->
 施行令第二十八条の十第五項に規定する財務省令で定める書類は、システム仕様書その他の書類とする。

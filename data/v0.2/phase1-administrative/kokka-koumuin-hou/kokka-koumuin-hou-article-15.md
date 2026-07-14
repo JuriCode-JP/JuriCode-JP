@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-15-p1 -->
 人事官及び事務総長は、他の官職を兼ねてはならない。

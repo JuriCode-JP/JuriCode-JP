@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-3-7-2-p1
+    type: simple
+    text: 各道府県ごとの利子割清算基準額（法第七十一条の二十五第一項に規定する各道府県ごとの利子割清算基準額をいう。次項において同じ。）を計算する場合において千円未満の端数があるときは、その端数を四捨五入する。
+    modality: unspecified
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-3-7-2-p2
+    type: simple
+    text: 総務大臣は、毎年度、当該年度の各道府県ごとの利子割清算基準額を告示するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

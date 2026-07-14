@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百八十八条
 
-<!-- segment: junyou id: minpou-art-788-p1 -->
 第七百六十六条から第七百六十六条の三までの規定は、父が認知する場合について準用する。

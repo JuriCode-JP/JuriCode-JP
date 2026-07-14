@@ -55,15 +55,12 @@ parent_section:
 
 ### 第五条第一項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-5-p1 -->
 行政庁は、審査基準を定めるものとする。
 
 ### 第五条第二項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-5-p2 -->
 行政庁は、審査基準を定めるに当たっては、許認可等の性質に照らしてできる限り具体的なものとしなければならない。
 
 ### 第五条第三項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-5-p3 -->
 行政庁は、行政上特別の支障があるときを除き、法令により申請の提出先とされている機関の事務所における備付けその他の適当な方法により審査基準を公にしておかなければならない。

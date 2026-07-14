@@ -16,52 +16,126 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p1
+    type: simple
+    text: 法第六十六条の六第十項各号列記以外の部分に規定する政令で定めるところにより計算した金額は、同条第一項各号に掲げる内国法人に係る部分対象外国関係会社（同条第十項各号列記以外の部分に規定する部分対象外国関係会社をいう。以下この条において同じ。）の各事業年度の法第六十六条の六第十項に規定する金融子会社等部分適用対象金額に、当該各事業年度終了の時における当該内国法人の当該部分対象外国関係会社に係る第三十九条の十四第二項第一号に規定する請求権等勘案合算割合を乗じて計算した金額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p2
+    type: junyou
+    text: 第三十九条の十七第四項及び第五項の規定は、法第六十六条の六第十項第一号に規定する政令で定める関係について準用する。
+    modality: unspecified
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p3-hashira
+    type: hashira
+    text: 法第六十六条の六第十項第一号に規定する政令で定める要件を満たす部分対象外国関係会社は、一の内国法人及び当該一の内国法人との間に同号に規定する特定資本関係のある内国法人（次項において「一の内国法人等」という。）によつてその発行済株式等の全部を直接又は間接に保有されている部分対象外国関係会社（次に掲げるものを除く。）とする。
+    modality: gimu
+    references:
+    - 次項
+  - id: sochi-hou-shikkourei-art-39-17-4-p3-kou-1
+    type: kou
+    text: 一　その設立の日から同日以後五年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-39-17-4-p3-kou-2
+    type: kou
+    text: 二　その解散の日から同日以後三年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社（前号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-39-17-4-p3-kou-3
+    type: kou
+    text: 三　当該事業年度が特例清算事業年度である場合における部分対象外国関係会社（前二号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p4
+    type: simple
+    text: 前項において、発行済株式等の全部を直接又は間接に保有されているかどうかの判定は、同項の一の内国法人等の部分対象外国関係会社に係る直接保有株式等保有割合（当該一の内国法人等の有する外国法人の株式等の数又は金額が当該外国法人の発行済株式等のうちに占める割合をいう。）と当該一の内国法人等の当該部分対象外国関係会社に係る間接保有株式等保有割合とを合計した割合により行うものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p5
+    type: junyou
+    text: 第三十九条の十七第七項の規定は、前項に規定する間接保有株式等保有割合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p6
+    type: simple
+    text: 法第六十六条の六第十項第一号に規定する純資産につき剰余金その他に関する調整を加えた金額として政令で定める金額は、部分対象外国関係会社の当該事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額から、剰余金その他の財務省令で定めるものの額を控除した残額とする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p7
+    type: simple
+    text: 法第六十六条の六第十項第一号に規定する総資産の額として政令で定める金額は、部分対象外国関係会社の当該事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額（保険業を行う部分対象外国関係会社にあつては、財務省令で定めるものの額を含む。）とする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p8
+    type: simple
+    text: 法第六十六条の六第十項第一号に規定する本店所在地国の法令に基づき下回ることができない資本の額を勘案して政令で定める金額は、部分対象外国関係会社の本店所在地国の法令に基づき下回ることができない資本の額の二倍に相当する金額とする。
+    modality: gimu
 - number: 9
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p9
+    type: simple
+    text: 法第六十六条の六第十項第一号に規定する政令で定めるところにより計算した金額は、部分対象外国関係会社の当該事業年度に係る同号に規定する親会社等資本持分相当額から前項に規定する金額を控除した残額に、当該部分対象外国関係会社の当該事業年度終了の日の翌日から四月を経過する日を含む同条第一項各号に掲げる内国法人の事業年度（以下この項において「親会社等事業年度」という。）に係る第一号に掲げる金額の第二号に掲げる金額に対する割合（当該割合が百分の十を下回る場合には、百分の十）を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: sochi-hou-shikkourei-art-39-17-4-p9-kou-1
+    type: kou
+    text: 一　親会社等事業年度の決算に基づく所得の金額
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-39-17-4-p9-kou-2
+    type: kou
+    text: 二　親会社等事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額
+    modality: unspecified
+    item_number: 2
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-4-p10
+    type: simple
+    text: 法第六十六条の六第十一項第二号に規定する政令で定めるところにより調整を加えた金額は、部分対象外国関係会社の各事業年度の同条第十項第四号に掲げる金額（当該金額が零を下回る場合には、零）から当該部分対象外国関係会社の当該各事業年度開始の日前七年以内に開始した事業年度（平成三十年四月一日前に開始した事業年度、部分対象外国関係会社（法第四十条の四第十項各号列記以外の部分に規定する部分対象外国関係会社を含む。）に該当しなかつた事業年度及び法第六十六条の六第十二項第一号に該当する事実がある場合のその該当する事業年度（法第四十条の四第十二項第一号に該当する事実がある場合のその該当する事業年度を含む。）を除く。）において生じた金融子会社等部分適用対象損失額（法第六十六条の六第十項第四号に掲げる金額が零を下回る場合のその下回る額をいい、この項の規定により当該各事業年度前の事業年度において控除されたものを除く。）の合計額に相当する金額を控除した残額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -90,6 +164,12 @@ parent_section:
 
 法第六十六条の六第十項第一号に規定する政令で定める要件を満たす部分対象外国関係会社は、一の内国法人及び当該一の内国法人との間に同号に規定する特定資本関係のある内国法人（次項において「一の内国法人等」という。）によつてその発行済株式等の全部を直接又は間接に保有されている部分対象外国関係会社（次に掲げるものを除く。）とする。
 
+一　その設立の日から同日以後五年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社
+
+二　その解散の日から同日以後三年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社（前号に掲げるものを除く。）
+
+三　当該事業年度が特例清算事業年度である場合における部分対象外国関係会社（前二号に掲げるものを除く。）
+
 ### 第三十九条の十七の四第四項
 
 前項において、発行済株式等の全部を直接又は間接に保有されているかどうかの判定は、同項の一の内国法人等の部分対象外国関係会社に係る直接保有株式等保有割合（当該一の内国法人等の有する外国法人の株式等の数又は金額が当該外国法人の発行済株式等のうちに占める割合をいう。）と当該一の内国法人等の当該部分対象外国関係会社に係る間接保有株式等保有割合とを合計した割合により行うものとする。
@@ -113,6 +193,10 @@ parent_section:
 ### 第三十九条の十七の四第九項
 
 法第六十六条の六第十項第一号に規定する政令で定めるところにより計算した金額は、部分対象外国関係会社の当該事業年度に係る同号に規定する親会社等資本持分相当額から前項に規定する金額を控除した残額に、当該部分対象外国関係会社の当該事業年度終了の日の翌日から四月を経過する日を含む同条第一項各号に掲げる内国法人の事業年度（以下この項において「親会社等事業年度」という。）に係る第一号に掲げる金額の第二号に掲げる金額に対する割合（当該割合が百分の十を下回る場合には、百分の十）を乗じて計算した金額とする。
+
+一　親会社等事業年度の決算に基づく所得の金額
+
+二　親会社等事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額
 
 ### 第三十九条の十七の四第十項
 

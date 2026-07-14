@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-12-p1
+    type: simple
+    text: 委員長及び委員は、職務上知ることのできた秘密を漏らしてはならない。その職を退いた後も同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-12-p2
+    type: simple
+    text: 委員長及び委員は、在任中、政党その他の政治的団体の役員となり、又は積極的に政治運動をしてはならない。
+    modality: gimu_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-12-p3
+    type: simple
+    text: 委員長は、在任中、内閣総理大臣の許可のある場合を除くほか、報酬を得て他の職務に従事し、又は営利事業を営み、その他金銭上の利益を目的とする業務を行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

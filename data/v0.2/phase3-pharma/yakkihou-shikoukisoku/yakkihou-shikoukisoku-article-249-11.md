@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-11-p1
+    type: simple
+    text: 法第七十六条の六第三項に規定する厚生労働省令で定める事項は、同条第二項の規定により製造等を禁止される者の氏名及び住所とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

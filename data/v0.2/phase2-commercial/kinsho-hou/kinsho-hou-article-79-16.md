@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-16-p1
+    type: simple
+    text: 内閣総理大臣は、この節の規定の施行に必要な限度において、認定団体に対し、認定業務に関し報告をさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

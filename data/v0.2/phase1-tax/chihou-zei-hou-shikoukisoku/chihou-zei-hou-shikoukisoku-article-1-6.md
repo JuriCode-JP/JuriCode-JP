@@ -34,5 +34,4 @@ tags:
 
 ### 第一条の六
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-1-6-p1 -->
 法第十六条の二第二項の規定による納付受託証書又は納入受託証書の様式は、第一号の二様式によるものとする。

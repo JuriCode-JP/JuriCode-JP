@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-7-p1
+    type: tokusoku
+    text: 信用格付業者が法人でない外国の団体で代表者又は管理人の定めのあるものである場合について、法第六十六条の四十第一項第三号及び第四号の規定の適用に当たつての法第六十六条の四十七の規定による技術的読替えは、前二条の規定にかかわらず、次の表のとおりとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前二条
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

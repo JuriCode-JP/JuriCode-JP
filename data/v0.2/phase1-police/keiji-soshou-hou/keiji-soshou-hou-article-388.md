@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百八十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-388-p1 -->
 控訴審では、被告人のためにする弁論は、弁護人でなければ、これをすることができない。

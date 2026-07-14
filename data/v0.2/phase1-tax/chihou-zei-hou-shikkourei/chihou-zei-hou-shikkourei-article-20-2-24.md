@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-24-p1
+    type: simple
+    text: 法第七十二条の二十一第六項第二号に規定する政令で定めるものは、同号に規定する他の法人が有する自己の株式又は出資とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

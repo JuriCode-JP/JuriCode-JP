@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-7-p1-hashira
+    type: hashira
+    text: 店舗販売業者は、特定販売を行う場合は、次に掲げるところにより行わなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-147-7-p1-kou-1
+    type: kou
+    text: 一　当該店舗に貯蔵し、若しくは陳列している要指導医薬品（特定要指導医薬品を除く。）又は一般用医薬品を販売し、又は授与すること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-147-7-p1-kou-2
+    type: kou
+    text: 二　特定販売を行うことについて広告をするときは、インターネットを利用する場合はホームページに、その他の広告方法を用いる場合は当該広告に、別表第一の二及び別表第一の三に掲げる情報を、見やすく表示すること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-147-7-p1-kou-3
+    type: kou
+    text: 三　特定販売を行うことについて広告をするときは、要指導医薬品（特定要指導医薬品を除く。）、第一類医薬品、指定第二類医薬品、第二類医薬品及び第三類医薬品の区分ごとに表示すること。
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-147-7-p1-kou-4
+    type: kou
+    text: 四　特定販売を行うことについてインターネットを利用して広告をするときは、都道府県知事及び厚生労働大臣が容易に閲覧することができるホームページで行うこと。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第百四十七条の七
 
 店舗販売業者は、特定販売を行う場合は、次に掲げるところにより行わなければならない。
+
+一　当該店舗に貯蔵し、若しくは陳列している要指導医薬品（特定要指導医薬品を除く。）又は一般用医薬品を販売し、又は授与すること。
+
+二　特定販売を行うことについて広告をするときは、インターネットを利用する場合はホームページに、その他の広告方法を用いる場合は当該広告に、別表第一の二及び別表第一の三に掲げる情報を、見やすく表示すること。
+
+三　特定販売を行うことについて広告をするときは、要指導医薬品（特定要指導医薬品を除く。）、第一類医薬品、指定第二類医薬品、第二類医薬品及び第三類医薬品の区分ごとに表示すること。
+
+四　特定販売を行うことについてインターネットを利用して広告をするときは、都道府県知事及び厚生労働大臣が容易に閲覧することができるホームページで行うこと。

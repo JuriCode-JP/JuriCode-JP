@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: simple id: roudou-kijun-hou-art-16-p1 -->
 使用者は、労働契約の不履行について違約金を定め、又は損害賠償額を予定する契約をしてはならない。

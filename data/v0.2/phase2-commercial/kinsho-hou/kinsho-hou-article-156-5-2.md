@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-2-p1
+    type: simple
+    text: 金融商品取引清算機関（金融商品取引清算機関が金融商品取引所である場合を除く。次条、第百五十六条の五の五第一項から第五項まで、第百五十六条の五の六第一項、第百五十六条の五の八、第百五十六条の五の九第一項及び第二項、第百五十六条の五の十第二項、第百五十六条の六第二項及び第三項、第百五十六条の十二の二から第百五十六条の十四まで並びに第百五十六条の十七第一項において同じ。）の資本金の額は、政令で定める金額以上でなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

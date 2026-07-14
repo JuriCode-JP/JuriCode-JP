@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-5-p1
+    type: simple
+    text: 利子割の課税標準は、支払を受けるべき利子等の額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-5-p2
+    type: simple
+    text: 前項の利子等の額は、所得税法その他の所得税に関する法令の規定の例によつて算定する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

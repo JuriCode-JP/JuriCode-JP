@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第百四十四条第一項第一号ホ（個別評価貸金等に係る貸倒引当金勘定への繰入限度額）に規定する財務省令で定める事由は、法令の規定による整理手続によらない関係者の協議決定で次に掲げるもの（同号ニに掲げる事由を除く。）とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-35-p1-kou-1
+    type: kou
+    text: 一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-35-p1-kou-2
+    type: kou
+    text: 二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議により締結された契約でその内容が前号に準ずるもの
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第三十五条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-35-p1-hashira -->
 令第百四十四条第一項第一号ホ（個別評価貸金等に係る貸倒引当金勘定への繰入限度額）に規定する財務省令で定める事由は、法令の規定による整理手続によらない関係者の協議決定で次に掲げるもの（同号ニに掲げる事由を除く。）とする。
+
+一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+
+二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議により締結された契約でその内容が前号に準ずるもの

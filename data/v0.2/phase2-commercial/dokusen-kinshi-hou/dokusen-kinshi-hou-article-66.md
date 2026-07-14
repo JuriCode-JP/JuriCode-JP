@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十六条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-66-p1 -->
 公正取引委員会の合議は、公開しない。

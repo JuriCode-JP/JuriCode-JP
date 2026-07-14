@@ -16,27 +16,60 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-17-p1
+    type: tokusoku
+    text: 地方公共団体等は、第百六条の十四第一項の規定にかかわらず、内閣府令で定めるところにより、内閣総理大臣の認可を受けて、金融商品取引所持株会社の総株主の議決権の保有基準割合以上百分の五十以下の数の対象議決権を取得し、又は保有することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-17-p2
+    type: tokusoku
+    text: 前項の認可を受けた地方公共団体等は、同項及び第百六条の十四第一項の規定にかかわらず、その保有する対象議決権の数に増加がない場合その他の内閣府令で定める場合には、金融商品取引所持株会社の総株主の議決権の百分の五十を超える対象議決権を取得し、又は保有することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-17-p3
+    type: simple
+    text: 前項の場合において、金融商品取引所持株会社の総株主の議決権の百分の五十を超える対象議決権を取得し、又は保有することとなつた地方公共団体等（以下この条において「特定保有団体等」という。）は、特定保有団体等となつた日から三月以内に、金融商品取引所持株会社の総株主の議決権の百分の五十以下の数の対象議決権の保有者となるために必要な措置をとらなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-17-p4
+    type: junyou
+    text: 第百六条の三第三項及び第五項の規定は、特定保有団体等について準用する。この場合において、同条第三項中「前項」とあるのは「第百六条の十七第二項」と、同条第五項中「前項」とあるのは「第百六条の十七第三項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-17-p5
+    type: junyou
+    text: 第三十条の二の規定は、第一項の認可について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

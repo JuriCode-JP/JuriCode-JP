@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-3-p1
+    type: simple
+    text: 法第三十六条の十一第一項の厚生労働省令で定める事項は、第百五十八条の八第二項に定める事項のほか、指定濫用防止医薬品の濫用をした場合における保健衛生上の危害の発生のおそれがある旨とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-3-p2
+    type: simple
+    text: 要指導医薬品における前項の規定の適用については、同項中「第百五十八条の八第二項」とあるのは「第百五十八条の十二第二項各号」とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-3-p3
+    type: simple
+    text: 第一類医薬品における第一項の規定の適用については、同項中「第百五十八条の八第二項」とあるのは「第百五十九条の十五第二項各号（第百五十九条の十八において読み替えて準用する場合を含む。）」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-3-p4
+    type: simple
+    text: 第二類医薬品及び第三類医薬品における第一項の規定の適用については、「事項は、第百五十八条の八第二項に定める事項のほか」とあるのは「事項は」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

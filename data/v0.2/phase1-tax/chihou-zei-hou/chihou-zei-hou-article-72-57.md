@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-p1
+    type: simple
+    text: 道府県は、個人の行う事業に対する事業税の納税義務者が第七十二条の五十五の規定によつて申告し、又は報告すべき事項について正当な理由がなくて申告又は報告をしなかつた場合においては、その者に対し、当該道府県の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

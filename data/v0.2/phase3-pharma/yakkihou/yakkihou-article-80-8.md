@@ -16,12 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-8-p1-zen
+    type: zen_dan
+    text: 第八十条の六第一項の登録を受けた者は、同項に規定する厚生労働省令で定める事項の一部を変更しようとするとき（当該変更が厚生労働省令で定める軽微な変更であるときを除く。）は、その変更について、原薬等登録原簿に登録を受けなければならない。
+    modality: gimu
+    references:
+    - 同項
+  - id: yakkihou-art-80-8-p1-kou
+    type: kou_dan
+    text: この場合においては、同条第二項及び第三項並びに前条の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+    depends_on: yakkihou-art-80-8-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-8-p2
+    type: simple
+    text: 第八十条の六第一項の登録を受けた者は、前項の厚生労働省令で定める軽微な変更について、厚生労働省令で定めるところにより、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

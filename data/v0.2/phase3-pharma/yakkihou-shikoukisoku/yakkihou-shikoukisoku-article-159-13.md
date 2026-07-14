@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-13-p1
+    type: simple
+    text: 登録販売者は、販売従事登録の消除を申請するときは、販売従事登録証を、登録を受けた都道府県知事に返納しなければならない。第百五十九条の十第二項の規定により販売従事登録の消除を申請する者についても、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-13-p2
+    type: simple
+    text: 登録販売者は、登録を消除されたときは、前項に規定する場合を除き、五日以内に、販売従事登録証を、登録を消除された都道府県知事に返納しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

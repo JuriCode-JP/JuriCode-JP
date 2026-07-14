@@ -13,25 +13,58 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-3-p1-honbun
+    type: honbun
+    text: 市町村は、納税義務者が前年中において給与の支払を受けた者であり、かつ、当該年度の初日において給与の支払を受けている者（支給期間が一月を超える期間により定められている給与のみの支払を受けていることその他これに類する理由があることにより、特別徴収の方法によつて徴収することが著しく困難であると認められる者を除く。以下この条及び次条において「給与所得者」という。）である場合においては、当該納税義務者に対して課する個人の市町村民税のうち当該納税義務者の前年中の給与所得に係る所得割額及び均等割額の合算額は、特別徴収の方法によつて徴収するものとする。
+    modality: gimu
+    references:
+    - 次条
+  - id: chihou-zei-hou-art-321-3-p1-tadashi
+    type: tadashi
+    text: ただし、当該市町村内に給与所得者が少ないことその他特別の事情により特別徴収を行うことが適当でないと認められる市町村においては、特別徴収の方法によらないことができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-3-p2-honbun
+    type: honbun
+    text: 前項の給与所得者について、当該給与所得者の前年中の所得に給与所得以外の所得がある場合においては、市町村は、当該市町村の条例の定めるところによつて、当該給与所得以外の所得に係る所得割額を同項本文の規定によつて特別徴収の方法によつて徴収すべき給与所得に係る所得割額及び均等割額の合算額に加算して特別徴収の方法によつて徴収することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
+  - id: chihou-zei-hou-art-321-3-p2-tadashi
+    type: tadashi
+    text: ただし、第三百十七条の二第一項の申告書に給与所得以外の所得に係る所得割額を普通徴収の方法によつて徴収されたい旨の記載があるときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-3-p3
+    type: simple
+    text: 前項本文の規定によつて給与所得者の給与所得以外の所得に係る所得割額を特別徴収の方法によつて徴収することとなつた後において、当該給与所得者について給与所得以外の所得に係る所得割額の全部又は一部を特別徴収の方法によつて徴収することが適当でないと認められる特別の事情が生じたため当該給与所得者から給与所得以外の所得に係る所得割額の全部又は一部を普通徴収の方法により徴収することとされたい旨の申出があつた場合でその事情がやむを得ないと認められるときは、市町村は、当該特別徴収の方法によつて徴収すべき給与所得以外の所得に係る所得割額でまだ特別徴収により徴収していない額の全部又は一部を普通徴収の方法により徴収するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-3-p4
+    type: simple
+    text: 第一項の給与所得者が前年中において公的年金等の支払を受けた者であり、かつ、当該年度の初日において第三百二十一条の七の二第一項に規定する老齢等年金給付の支払を受けている年齢六十五歳以上の者である場合における前二項の規定の適用については、これらの規定中「給与所得以外」とあるのは、「給与所得及び公的年金等に係る所得以外」とする。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

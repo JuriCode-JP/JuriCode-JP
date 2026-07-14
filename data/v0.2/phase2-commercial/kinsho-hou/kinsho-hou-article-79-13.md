@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-13-p1
+    type: junyou
+    text: 第七十七条の二第一項から第三項まで及び第五項から第九項までの規定は、認定団体があつせん（対象事業者に関するものに限る。）を行う場合について準用する。この場合において、同条第一項中「協会員又は金融商品仲介業者」とあるのは「第七十九条の十一第一項に規定する対象事業者」と、「デリバティブ取引等」とあるのは「デリバティブ取引等（これらの取引に付随する取引その他の内閣府令で定める取引を含む。）」と、同条第五項中「協会員又は金融商品仲介業者」とあるのは「第七十九条の十一第一項に規定する対象事業者」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

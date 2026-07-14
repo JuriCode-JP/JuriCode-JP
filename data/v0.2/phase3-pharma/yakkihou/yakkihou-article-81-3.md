@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-81-3-p1
+    type: simple
+    text: 第二十一条、第二十三条の二の二十一、第二十三条の四十一、第六十九条第一項、第四項、第六項及び第七項、第六十九条の二第二項、第七十条第一項及び第三項、第七十一条、第七十二条第三項、第七十二条の五、第七十六条の六第一項から第五項まで及び第七項、第七十六条の七第一項及び第二項、第七十六条の七の二並びに第七十六条の八第一項の規定により都道府県が処理することとされている事務は、地方自治法（昭和二十二年法律第六十七号）第二条第九項第一号に規定する第一号法定受託事務（次項において単に「第一号法定受託事務」という。）とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-81-3-p2
+    type: simple
+    text: 第二十一条、第六十九条第一項、第四項及び第六項、第七十条第一項及び第三項、第七十一条、第七十二条第三項並びに第七十二条の五の規定により保健所を設置する市又は特別区が処理することとされている事務は、第一号法定受託事務とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

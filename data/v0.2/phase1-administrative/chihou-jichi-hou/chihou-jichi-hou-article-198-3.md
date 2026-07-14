@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-3-p1
+    type: simple
+    text: 監査委員は、その職務を遂行するに当たつては、法令に特別の定めがある場合を除くほか、監査基準（法令の規定により監査委員が行うこととされている監査、検査、審査その他の行為（以下この項において「監査等」という。）の適切かつ有効な実施を図るための基準をいう。次条において同じ。）に従い、常に公正不偏の態度を保持して、監査等をしなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-3-p2
+    type: simple
+    text: 監査委員は、職務上知り得た秘密を漏らしてはならない。その職を退いた後も、同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-69-2-p1
+    type: simple
+    text: 厚生労働大臣は、機構に、前条第一項若しくは第七項の規定による立入検査若しくは質問又は同条第六項の規定による立入検査、質問若しくは収去のうち政令で定めるものを行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-69-2-p2
+    type: simple
+    text: 都道府県知事は、機構に、前条第一項の規定による立入検査若しくは質問又は同条第六項の規定による立入検査、質問若しくは収去のうち政令で定めるものを行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-69-2-p3
+    type: simple
+    text: 機構は、第一項の規定により同項の政令で定める立入検査、質問又は収去をしたときは、厚生労働省令で定めるところにより、当該立入検査、質問又は収去の結果を厚生労働大臣に、前項の規定により同項の政令で定める立入検査、質問又は収去をしたときは、厚生労働省令で定めるところにより、当該立入検査、質問又は収去の結果を都道府県知事に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-69-2-p4
+    type: simple
+    text: 第一項又は第二項の政令で定める立入検査、質問又は収去の業務に従事する機構の職員は、政令で定める資格を有する者でなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-69-2-p5
+    type: simple
+    text: 前項に規定する機構の職員は、第一項又は第二項の政令で定める立入検査、質問又は収去をする場合には、その身分を示す証明書を携帯し、関係人の請求があつたときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

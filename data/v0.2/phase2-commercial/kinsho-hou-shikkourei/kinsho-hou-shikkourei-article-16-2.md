@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-2-p1
+    type: simple
+    text: 法第三十七条の三第三項に規定する政令で定めるものは、当該勧誘に応ずることにより五百名以上の者が当該勧誘に係る金融商品取引契約を締結することとなるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

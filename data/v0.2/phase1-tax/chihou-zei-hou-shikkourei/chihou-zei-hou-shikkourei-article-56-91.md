@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十六条の九十一
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-91-p1 -->
 法第七百三十一条第二項に規定する政令で定める変更は、法定外目的税の税率の引下げ、廃止及び法定外目的税に係る条例の規定が効力を有する期間の短縮とする。

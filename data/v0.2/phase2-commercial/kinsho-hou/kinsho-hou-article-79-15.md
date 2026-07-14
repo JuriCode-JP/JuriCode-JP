@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-15-p1
+    type: simple
+    text: 認定団体でない者は、認定投資者保護団体という名称又はこれに紛らわしい名称を用いてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

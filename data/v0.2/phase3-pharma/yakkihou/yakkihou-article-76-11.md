@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-11-p1
+    type: simple
+    text: 国及び地方公共団体は、指定薬物等の薬物の濫用の防止に関する国民の理解を深めるための教育及び啓発に努めるものとする。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

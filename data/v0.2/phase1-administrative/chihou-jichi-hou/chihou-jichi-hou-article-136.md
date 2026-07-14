@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百三十六条
 
-<!-- segment: simple id: chihou-jichi-hou-art-136-p1 -->
 普通地方公共団体の議会は、除名された議員で再び当選した議員を拒むことができない。

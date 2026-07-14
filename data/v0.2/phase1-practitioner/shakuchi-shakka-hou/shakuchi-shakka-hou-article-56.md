@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十六条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-56-p1 -->
 前条第一項の裁判には、理由を付さなければならない。

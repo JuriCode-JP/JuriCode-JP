@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-4-p1
+    type: simple
+    text: 厚生労働大臣は、法第七十五条の五の五第八項の規定による変更の処分に係る文書には、変更後の課徴金の額、変更の理由及び変更後の課徴金の納付期限を記載しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-4-p2
+    type: simple
+    text: 厚生労働大臣は、法第七十五条の五の五第八項の規定による変更の処分をした場合であつて、当該変更の処分をした後の法第七十五条の五の二第一項の命令に係る課徴金の額を超える額の課徴金が既に納付されているときは、速やかに、当該超える額を当該課徴金を納付した者に還付する手続をとらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

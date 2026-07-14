@@ -64,20 +64,16 @@ parent_section:
 
 ### 第四条の二第一項
 
-<!-- segment: junyou id: sochi-hou-shikoukisoku-art-4-2-p1 -->
 第二条の四第十一項の規定は、施行令第四条第五項に規定する財務省令で定める事項について準用する。
 
 ### 第四条の二第二項
 
-<!-- segment: junyou id: sochi-hou-shikoukisoku-art-4-2-p2 -->
 第二条の四第十二項の規定は、施行令第四条第六項に規定する財務省令で定める事項について準用する。
 
 ### 第四条の二第三項
 
-<!-- segment: junyou id: sochi-hou-shikoukisoku-art-4-2-p3 -->
 第二条の四第十三項の規定は、施行令第四条第七項に規定する財務省令で定める事項について準用する。
 
 ### 第四条の二第四項
 
-<!-- segment: junyou id: sochi-hou-shikoukisoku-art-4-2-p4 -->
 第二条の四第十四項の規定は、施行令第四条第八項に規定する財務省令で定める事項について準用する。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十五条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-15-p1 -->
 借地権を設定する場合においては、他の者と共に有することとなるときに限り、借地権設定者が自らその借地権を有することを妨げない。
 
 ### 第十五条第二項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-15-p2 -->
 借地権が借地権設定者に帰した場合であっても、他の者と共にその借地権を有するときは、その借地権は、消滅しない。

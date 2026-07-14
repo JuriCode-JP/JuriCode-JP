@@ -14,14 +14,47 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-53-p1-hashira
+    type: hashira
+    text: 法第二十三条の二の十四第九項の医療機器責任技術者が行う医療機器の製造の管理のために必要な業務は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-53-p1-kou-1
+    type: kou
+    text: 一　製造管理及び品質管理に係る業務を統括し、その適正かつ円滑な実施が図られるよう管理監督すること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-53-p1-kou-2
+    type: kou
+    text: 二　品質不良その他製品の品質に重大な影響が及ぶおそれがある場合においては、所要の措置が速やかにとられていること及びその進捗状況を確認し、必要に応じ、改善等所要の措置をとるよう指示すること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-53-p1-kou-3
+    type: kou
+    text: 三　法第二十三条の二の十五の二第三項第一号に規定する医療機器責任技術者が有する権限に係る業務
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-53-p2-hashira
+    type: hashira
+    text: 法第二十三条の二の十四第九項の医療機器責任技術者が遵守すべき事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-53-p2-kou-1
+    type: kou
+    text: 一　製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-53-p2-kou-2
+    type: kou
+    text: 二　法第二十三条の二の十四第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -42,6 +75,16 @@ parent_section:
 
 法第二十三条の二の十四第九項の医療機器責任技術者が行う医療機器の製造の管理のために必要な業務は、次のとおりとする。
 
+一　製造管理及び品質管理に係る業務を統括し、その適正かつ円滑な実施が図られるよう管理監督すること。
+
+二　品質不良その他製品の品質に重大な影響が及ぶおそれがある場合においては、所要の措置が速やかにとられていること及びその進捗状況を確認し、必要に応じ、改善等所要の措置をとるよう指示すること。
+
+三　法第二十三条の二の十五の二第三項第一号に規定する医療機器責任技術者が有する権限に係る業務
+
 ### 第百十四条の五十三第二項
 
 法第二十三条の二の十四第九項の医療機器責任技術者が遵守すべき事項は、次のとおりとする。
+
+一　製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+
+二　法第二十三条の二の十四第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。

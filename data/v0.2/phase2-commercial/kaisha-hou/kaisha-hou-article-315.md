@@ -52,10 +52,8 @@ parent_section:
 
 ### 第三百十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-315-p1 -->
 株主総会の議長は、当該株主総会の秩序を維持し、議事を整理する。
 
 ### 第三百十五条第二項
 
-<!-- segment: simple id: kaisha-hou-art-315-p2 -->
 株主総会の議長は、その命令に従わない者その他当該株主総会の秩序を乱す者を退場させることができる。

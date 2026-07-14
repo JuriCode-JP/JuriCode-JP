@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五十条
 
-<!-- segment: simple id: keihou-art-150-p1 -->
 行使の目的で、偽造又は変造の貨幣、紙幣又は銀行券を収得した者は、三年以下の拘禁刑に処する。

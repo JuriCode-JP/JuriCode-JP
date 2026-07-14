@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-342-2-p1
+    type: simple
+    text: 拘禁刑以上の刑に処する判決の宣告を受けた者は、裁判所の許可を受けなければ本邦から出国してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

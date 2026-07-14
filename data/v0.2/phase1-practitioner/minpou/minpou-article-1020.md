@@ -43,5 +43,4 @@ parent_section:
 
 ### 第千二十条
 
-<!-- segment: junyou id: minpou-art-1020-p1 applies_provisions: 第六百五十五条 -->
 第六百五十四条及び第六百五十五条の規定は、遺言執行者の任務が終了した場合について準用する。

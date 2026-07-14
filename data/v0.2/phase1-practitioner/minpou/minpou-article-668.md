@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百六十八条
 
-<!-- segment: simple id: minpou-art-668-p1 -->
 各組合員の出資その他の組合財産は、総組合員の共有に属する。

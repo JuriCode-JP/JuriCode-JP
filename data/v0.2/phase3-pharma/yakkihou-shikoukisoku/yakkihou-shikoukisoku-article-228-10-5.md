@@ -14,14 +14,44 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-5-p1-hashira
+    type: hashira
+    text: 法第六十八条の二第二項第三号ホの厚生労働省令で定める事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-228-10-5-p1-kou-1
+    type: kou
+    text: 一　遺伝子組換え技術を応用して製造される場合にあつては、その旨
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-10-5-p1-kou-2
+    type: kou
+    text: 二　当該再生医療等製品の原料又は材料のうち、人その他の生物（植物を除く。以下同じ。）に由来する成分の名称
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-228-10-5-p1-kou-3
+    type: kou
+    text: 三　当該再生医療等製品の原材料である人その他の生物の部位等の名称（当該人その他の生物の名称を含む。）
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-228-10-5-p1-kou-4
+    type: kou
+    text: 四　その他当該再生医療等製品を適正に使用するために必要な事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-5-p2
+    type: simple
+    text: 指定再生医療等製品にあつては、前項各号に掲げる事項のほか、原材料に由来する感染症を完全に排除することはできない旨が公表されていなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +69,14 @@ parent_section:
 ### 第二百二十八条の十の五第一項
 
 法第六十八条の二第二項第三号ホの厚生労働省令で定める事項は、次のとおりとする。
+
+一　遺伝子組換え技術を応用して製造される場合にあつては、その旨
+
+二　当該再生医療等製品の原料又は材料のうち、人その他の生物（植物を除く。以下同じ。）に由来する成分の名称
+
+三　当該再生医療等製品の原材料である人その他の生物の部位等の名称（当該人その他の生物の名称を含む。）
+
+四　その他当該再生医療等製品を適正に使用するために必要な事項
 
 ### 第二百二十八条の十の五第二項
 

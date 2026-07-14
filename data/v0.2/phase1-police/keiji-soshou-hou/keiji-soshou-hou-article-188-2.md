@@ -13,20 +13,38 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-2-p1-honbun
+    type: honbun
+    text: 無罪の判決が確定したときは、国は、当該事件の被告人であつた者に対し、その裁判に要した費用の補償をする。
+    modality: unspecified
+  - id: keiji-soshou-hou-art-188-2-p1-tadashi
+    type: tadashi
+    text: ただし、被告人であつた者の責めに帰すべき事由によつて生じた費用については、補償をしないことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-2-p2
+    type: simple
+    text: 被告人であつた者が、捜査又は審判を誤らせる目的で、虚偽の自白をし、又は他の有罪の証拠を作ることにより、公訴の提起を受けるに至つたものと認められるときは、前項の補償の全部又は一部をしないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-2-p3
+    type: simple
+    text: 第百八十八条の五第一項の規定による補償の請求がされている場合には、第百八十八条の四の規定により補償される費用については、第一項の補償をしない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

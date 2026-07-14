@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-11-4-p1
+    type: simple
+    text: 振替機関（社債、株式等の振替に関する法律第二条第二項に規定する振替機関をいう。以下この条において同じ。）は、政令で定めるところにより、加入者情報（当該振替機関又はその下位機関（同法第二条第九項に規定する下位機関をいう。）の加入者の氏名及び住所又は居所その他株式等（社債等のうち総務省令で定めるものをいう。）の内容に関する事項であつて総務省令で定めるものをいう。）を当該振替機関が保有する当該加入者の個人番号により検索することができる状態で管理しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -45,5 +45,4 @@ parent_section:
 
 ### 第六百二十二条
 
-<!-- segment: junyou id: minpou-art-622-p1 applies_provisions: 第六百条 -->
 第五百九十七条第一項、第五百九十九条第一項及び第二項並びに第六百条の規定は、賃貸借について準用する。

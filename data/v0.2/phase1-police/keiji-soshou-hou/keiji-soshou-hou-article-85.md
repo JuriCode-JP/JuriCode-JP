@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-85-p1 -->
 勾留の理由の開示は、合議体の構成員にこれをさせることができる。

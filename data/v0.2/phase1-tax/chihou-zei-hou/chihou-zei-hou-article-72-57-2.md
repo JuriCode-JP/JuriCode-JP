@@ -13,35 +13,106 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-2-p1-honbun
+    type: honbun
+    text: 事業を行う個人が租税条約（所得税法第百六十二条第一項に規定する租税条約をいう。以下この項において同じ。）の規定に基づき国税庁長官に対し当該租税条約に規定する申立て（租税特別措置法第四十条の三の三第一項又は第四十一条の十九の五第一項の規定の適用がある場合の申立てに限る。以下この項において同じ。）をした場合（次条において「国税庁長官に対する申立てが行われた場合」という。）又は租税条約の我が国以外の締約国若しくは締約者（以下この項において「条約相手国等」という。）の権限ある当局に対し当該租税条約に規定する申立てをし、かつ、条約相手国等の権限ある当局から当該条約相手国等との間の租税条約に規定する協議（以下この項及び同条において「相互協議」という。）の申入れがあつた場合（同条において「条約相手国等の権限ある当局に対する申立てが行われた場合」という。）には、道府県知事は、これらの申立てに係る同法第四十条の三の三第二十二項第一号（同法第四十一条の十九の五第十三項において準用する場合を含む。次条第一項において同じ。）に掲げる更正決定に係る所得税の額（これらの申立てに係る相互協議の対象となるものに限る。以下この項及び次条において同じ。）の計算の基礎となつた所得に基づいて課された事業税額を限度として、これらの申立てをした者の申請に基づき、その納期限（第七十二条の六十六第一項に規定する納期限をいい、当該申請が当該納期限後であるときは、当該申請の日とする。）から国税庁長官と当該条約相手国等の権限ある当局との間の合意に基づく国税通則法第二十六条の規定による更正に係る所得税の額の計算の基礎となつた所得に基づいて事業税を課した日（当該合意がない場合その他の政令で定める場合には、政令で定める日）の翌日から一月を経過する日までの期間（第五項において「徴収の猶予期間」という。）に限り、その徴収を猶予することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+  - id: chihou-zei-hou-art-72-57-2-p1-tadashi
+    type: tadashi
+    text: ただし、当該申請を行う者につき当該申請の時において当該事業税額以外の当該道府県の地方税の滞納がある場合は、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-2-p2-honbun
+    type: honbun
+    text: 道府県知事は、前項の規定による徴収の猶予（以下この条において「徴収の猶予」という。）をする場合には、その猶予に係る金額に相当する担保で第十六条第一項各号に掲げるものを、政令で定めるところにより徴さなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-72-57-2-p2-tadashi
+    type: tadashi
+    text: ただし、その猶予に係る税額が百万円以下である場合、その猶予の期間が三月以内である場合又は担保を徴することができない特別の事情がある場合は、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-2-p3
+    type: simple
+    text: 第十五条の二の二、第十五条の二の三、第十六条の二第一項から第三項まで及び第十八条の二第四項の規定は徴収の猶予について、第十一条、第十六条第二項及び第三項、第十六条の二第四項並びに第十六条の五第一項及び第二項の規定は前項の規定による担保について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-2-p4-hashira
+    type: hashira
+    text: 徴収の猶予を受けた者が次の各号のいずれかに該当する場合には、道府県知事は、その徴収の猶予を取り消すことができる。この場合においては、第十五条の三第二項及び第三項の規定を準用する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-72-57-2-p4-kou-1
+    type: kou
+    text: 一　第一項の申立てを取り下げたとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-57-2-p4-kou-2
+    type: kou
+    text: 二　第十三条の二第一項各号のいずれかに該当する事実がある場合において、その者がその猶予に係る事業税額を猶予期間内に完納することができないと認められるとき。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-72-57-2-p4-kou-3
+    type: kou
+    text: 三　前項において準用する第十六条第三項の規定による担保の提供又は変更その他担保を確保するため必要な行為に関する道府県知事の求めに応じないとき。
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-72-57-2-p4-kou-4
+    type: kou
+    text: 四　新たにその猶予に係る事業税額以外の当該道府県に係る地方団体の徴収金を滞納したとき（道府県知事がやむを得ない理由があると認めるときを除く。）。
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-art-72-57-2-p4-kou-5
+    type: kou
+    text: 五　徴収の猶予を受けた者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
+    modality: unspecified
+    item_number: 5
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-2-p5-honbun
+    type: honbun
+    text: 徴収の猶予をした場合には、その猶予をした事業税に係る延滞金額のうち徴収の猶予期間（第一項の申請が同項の納期限以前である場合には、当該申請の日を起算日として当該納期限までの期間を含む。）に対応する部分の金額は、免除する。
+    modality: unspecified
+    references:
+    - 同項
+  - id: chihou-zei-hou-art-72-57-2-p5-tadashi
+    type: tadashi
+    text: ただし、前項の規定による取消しの基因となるべき事実が生じた場合には、その生じた日後の期間に対応する部分の金額については、道府県知事は、その免除をしないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-57-2-p6
+    type: simple
+    text: 徴収の猶予に関する申請の手続に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -75,6 +146,16 @@ parent_section:
 ### 第七十二条の五十七の二第四項
 
 徴収の猶予を受けた者が次の各号のいずれかに該当する場合には、道府県知事は、その徴収の猶予を取り消すことができる。この場合においては、第十五条の三第二項及び第三項の規定を準用する。
+
+一　第一項の申立てを取り下げたとき。
+
+二　第十三条の二第一項各号のいずれかに該当する事実がある場合において、その者がその猶予に係る事業税額を猶予期間内に完納することができないと認められるとき。
+
+三　前項において準用する第十六条第三項の規定による担保の提供又は変更その他担保を確保するため必要な行為に関する道府県知事の求めに応じないとき。
+
+四　新たにその猶予に係る事業税額以外の当該道府県に係る地方団体の徴収金を滞納したとき（道府県知事がやむを得ない理由があると認めるときを除く。）。
+
+五　徴収の猶予を受けた者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
 
 ### 第七十二条の五十七の二第五項
 

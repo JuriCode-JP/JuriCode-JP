@@ -16,32 +16,70 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-42-p1
+    type: simple
+    text: 普通地方公共団体が第百九十九条第七項に規定する財政的援助を与えているものの出納その他の事務の執行で当該財政的援助に係るもの、普通地方公共団体が出資しているもので同項の政令で定めるものの出納その他の事務の執行で当該出資に係るもの、普通地方公共団体が借入金の元金若しくは利子の支払を保証しているものの出納その他の事務の執行で当該保証に係るもの、普通地方公共団体が受益権を有する信託で同項の政令で定めるものの受託者の出納その他の事務の執行で当該信託に係るもの又は普通地方公共団体が第二百四十四条の二第三項の規定に基づき公の施設の管理を行わせているものの出納その他の事務の執行で当該管理の業務に係るものについての第百九十九条第七項の要求に係る監査について、監査委員の監査に代えて契約に基づく監査によることができることを条例により定める普通地方公共団体の長は、同項の要求をする場合において、特に必要があると認めるときは、その理由を付して、併せて監査委員の監査に代えて個別外部監査契約に基づく監査によることを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-42-p2
+    type: tokusoku
+    text: 前項の規定により個別外部監査契約に基づく監査によることが求められた第百九十九条第七項の要求（以下本条において「財政的援助を与えているもの等に係る個別外部監査の要求」という。）については、同項の規定にかかわらず、監査委員は、当該財政的援助を与えているもの等に係る個別外部監査の要求に係る事項についての監査は行わない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 本条
+    - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-42-p3
+    type: simple
+    text: 財政的援助を与えているもの等に係る個別外部監査の要求があつたときは、監査委員は、直ちに、監査委員の監査に代えて個別外部監査契約に基づく監査によることについての意見を当該普通地方公共団体の長に通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-42-p4
+    type: junyou
+    text: 第二百五十二条の三十九第四項から第十一項までの規定は、前項の規定による通知があつた場合について準用する。この場合において、同条第四項中「前項」とあるのは「第二百五十二条の四十二第三項」と、「長は、当該通知があつた日から二十日以内に議会を招集し」とあるのは「長は」と、「事務の監査の請求に係る個別外部監査の請求」とあるのは「同条第二項に規定する財政的援助を与えているもの等に係る個別外部監査の要求」と、「付議し、その結果を監査委員に通知しなければならない」とあるのは「付議しなければならない」と、同条第五項中「事務の監査の請求に係る個別外部監査の請求について」とあるのは「第二百五十二条の四十二第二項に規定する財政的援助を与えているもの等に係る個別外部監査の要求について」と、「事務の監査の請求に係る個別外部監査の請求に係る」とあるのは「同項に規定する財政的援助を与えているもの等に係る個別外部監査の要求に係る」と、同条第七項中「第三項」とあるのは「第二百五十二条の四十二第三項」と、同条第八項第一号中「事務の監査の請求に係る個別外部監査の請求」とあるのは「第二百五十二条の四十二第二項に規定する財政的援助を与えているもの等に係る個別外部監査の要求」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-42-p5
+    type: simple
+    text: 前項において準用する第二百五十二条の三十九第五項の個別外部監査契約を締結した者は、当該個別外部監査契約で定める個別外部監査契約の期間内に、財政的援助を与えているもの等に係る個別外部監査の要求に係る事項につき監査しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-42-p6
+    type: junyou
+    text: 第二百五十二条の三十七第五項及び第二百五十二条の三十八の規定は、財政的援助を与えているもの等に係る個別外部監査の要求に係る事項についての個別外部監査人の監査について準用する。この場合において、第二百五十二条の三十七第五項並びに第二百五十二条の三十八第二項、第四項及び第六項中「包括外部監査対象団体」とあるのは、「個別外部監査契約を締結した普通地方公共団体」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

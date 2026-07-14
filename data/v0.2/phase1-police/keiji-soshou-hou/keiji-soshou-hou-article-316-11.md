@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-11-p1-zen
+    type: zen_dan
+    text: 裁判所は、合議体の構成員に命じ、公判前整理手続（第三百十六条の五第二号、第三号、第八号及び第十号から第十二号までの決定を除く。）をさせることができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-316-11-p1-kou
+    type: kou_dan
+    text: この場合において、受命裁判官は、裁判所又は裁判長と同一の権限を有する。
+    modality: unspecified
+    depends_on: keiji-soshou-hou-art-316-11-p1-zen
 cases: []
 amendments: []
 tags:

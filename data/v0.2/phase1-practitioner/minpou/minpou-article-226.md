@@ -45,5 +45,4 @@ parent_section:
 
 ### 第二百二十六条
 
-<!-- segment: simple id: minpou-art-226-p1 -->
 前条の囲障の設置及び保存の費用は、相隣者が等しい割合で負担する。

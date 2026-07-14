@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 募集株式の引受人は、次の各号に掲げる場合には、当該各号に定める日に、出資の履行をした募集株式の株主となる。
     modality: unspecified
+  - id: kaisha-hou-art-209-p1-kou-1
+    type: kou
+    text: 一　第百九十九条第一項第四号の期日を定めた場合　当該期日
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-209-p1-kou-2
+    type: kou
+    text: 二　第百九十九条第一項第四号の期間を定めた場合　出資の履行をした日
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -81,21 +91,20 @@ parent_section:
 
 ### 第二百九条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-209-p1-hashira -->
 募集株式の引受人は、次の各号に掲げる場合には、当該各号に定める日に、出資の履行をした募集株式の株主となる。
+
+一　第百九十九条第一項第四号の期日を定めた場合　当該期日
+
+二　第百九十九条第一項第四号の期間を定めた場合　出資の履行をした日
 
 ### 第二百九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-209-p2 -->
 募集株式の引受人は、第二百十三条の二第一項各号に掲げる場合には、当該各号に定める支払若しくは給付又は第二百十三条の三第一項の規定による支払がされた後でなければ、出資の履行を仮装した募集株式について、株主の権利を行使することができない。
 
 ### 第二百九条第三項
 
-<!-- segment: honbun id: kaisha-hou-art-209-p3-honbun -->
-前項の募集株式を譲り受けた者は、当該募集株式についての株主の権利を行使することができる。<!-- segment: tadashi id: kaisha-hou-art-209-p3-tadashi -->
-ただし、その者に悪意又は重大な過失があるときは、この限りでない。
+前項の募集株式を譲り受けた者は、当該募集株式についての株主の権利を行使することができる。ただし、その者に悪意又は重大な過失があるときは、この限りでない。
 
 ### 第二百九条第四項
 
-<!-- segment: tokusoku id: kaisha-hou-art-209-p4 override_flag: true override_target: 第一項 -->
 第一項の規定にかかわらず、第二百二条の二第一項後段の規定による同項各号に掲げる事項についての定めがある場合には、募集株式の引受人は、割当日に、その引き受けた募集株式の株主となる。

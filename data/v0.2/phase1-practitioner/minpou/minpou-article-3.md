@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三条第一項
 
-<!-- segment: simple id: minpou-art-3-p1 -->
 私権の享有は、出生に始まる。
 
 ### 第三条第二項
 
-<!-- segment: simple id: minpou-art-3-p2 -->
 外国人は、法令又は条約の規定により禁止される場合を除き、私権を享有する。

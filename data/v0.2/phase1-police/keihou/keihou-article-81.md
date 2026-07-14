@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十一条
 
-<!-- segment: simple id: keihou-art-81-p1 -->
 外国と通謀して日本国に対し武力を行使させた者は、死刑に処する。

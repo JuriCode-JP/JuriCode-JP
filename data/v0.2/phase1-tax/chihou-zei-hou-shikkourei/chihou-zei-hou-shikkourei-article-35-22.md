@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十五条の二十二
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-35-22-p1 -->
 第三十五条の五から前条までに定めるもののほか、法第二章第三節及び本節の規定の実施のための手続その他その施行に関し必要な事項は、総務省令で定める。

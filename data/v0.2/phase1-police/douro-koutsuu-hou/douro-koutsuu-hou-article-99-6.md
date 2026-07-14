@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-6-p1
+    type: simple
+    text: 公安委員会は、この節の規定を施行するため必要な限度において、指定自動車教習所を設置し、若しくは管理する者に対し、当該指定自動車教習所の業務に関し報告若しくは資料の提出を求め、又は警察職員に当該指定自動車教習所に立ち入り、書類その他の物件を検査させ、若しくは関係者に質問させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-6-p2
+    type: simple
+    text: 前項の規定により立入検査をする警察職員は、その身分を示す証票を携帯し、関係者の請求があるときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-6-p3
+    type: simple
+    text: 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

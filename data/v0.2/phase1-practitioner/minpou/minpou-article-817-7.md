@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-7-p1
+    type: simple
+    text: 特別養子縁組は、父母による養子となる者の監護が著しく困難又は不適当であることその他特別の事情がある場合において、子の利益のため特に必要があると認めるときに、これを成立させるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

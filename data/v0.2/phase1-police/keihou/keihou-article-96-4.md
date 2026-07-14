@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-96-4-p1
+    type: simple
+    text: 偽計又は威力を用いて、強制執行において行われ、又は行われるべき売却の公正を害すべき行為をした者は、三年以下の拘禁刑若しくは二百五十万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-6-p1
+    type: simple
+    text: 地方団体は、特定徴収金の収納の事務については、政令で定めるところにより、機構に行わせるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-6-p2
+    type: simple
+    text: 前項の「特定徴収金」とは、地方税に係る地方団体の徴収金のうち、納税義務者又は特別徴収義務者が総務省令で定める方法により納付し、又は納入するものをいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-6-p3
+    type: simple
+    text: 機構は、第一項の規定により行う前項に規定する特定徴収金（以下この章において「特定徴収金」という。）の収納の事務の一部を、政令で定めるところにより、特定金融機関等（第二十条の十一の二に規定する金融機関等のうち、特定徴収金の収納の事務を適切かつ確実に遂行することができるものとして総務省令で定める基準に適合するものをいう。）に委託することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

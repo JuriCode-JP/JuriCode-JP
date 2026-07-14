@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二十四条
 
-<!-- segment: simple id: minpou-art-24-p1 -->
 ある行為について仮住所を選定したときは、その行為に関しては、その仮住所を住所とみなす。

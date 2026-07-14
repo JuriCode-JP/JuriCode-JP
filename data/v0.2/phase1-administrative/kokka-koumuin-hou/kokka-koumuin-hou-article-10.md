@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-10-p1 -->
 人事官の給与は、別に法律で定める。

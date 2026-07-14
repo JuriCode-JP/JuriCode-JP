@@ -16,32 +16,60 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-2-p1
+    type: simple
+    text: 総務大臣又は都道府県知事は、第二百五十二条の二第七項の規定により普通地方公共団体から自治紛争処理委員による同条第一項に規定する連携協約に係る紛争を処理するための方策（以下この条において「処理方策」という。）の提示を求める旨の申請があつたときは、第二百五十一条第二項の規定により自治紛争処理委員を任命し、処理方策を定めさせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-2-p2
+    type: simple
+    text: 前項の申請をした普通地方公共団体は、総務大臣又は都道府県知事の同意を得て、当該申請を取り下げることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-2-p3
+    type: simple
+    text: 自治紛争処理委員は、処理方策を定めたときは、これを当事者である普通地方公共団体に提示するとともに、その旨及び当該処理方策を総務大臣又は都道府県知事に通知し、かつ、これらを公表しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-2-p4
+    type: simple
+    text: 自治紛争処理委員は、処理方策を定めるため必要があると認めるときは、当事者及び関係人の出頭及び陳述を求め、又は当事者及び関係人並びに紛争に係る事件に関係のある者に対し、処理方策を定めるため必要な記録の提出を求めることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-2-p5
+    type: simple
+    text: 第三項の規定による処理方策の決定並びに前項の規定による出頭、陳述及び記録の提出の求めについての決定は、自治紛争処理委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-2-p6
+    type: simple
+    text: 第三項の規定により処理方策の提示を受けたときは、当事者である普通地方公共団体は、これを尊重して必要な措置を執るようにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

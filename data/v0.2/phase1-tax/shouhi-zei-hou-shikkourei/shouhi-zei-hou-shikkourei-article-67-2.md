@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十七条の二
 
-<!-- segment: simple id: shouhi-zei-hou-shikkourei-art-67-2-p1 -->
 法第五十一条第三項後段の規定による命令は、提供すべき担保の金額を記載した書面でしなければならない。

@@ -16,42 +16,86 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p1
+    type: simple
+    text: 大型自動二輪車又は普通自動二輪車の運転者は、乗車用ヘルメットをかぶらないで大型自動二輪車若しくは普通自動二輪車を運転し、又は乗車用ヘルメットをかぶらない者を乗車させて大型自動二輪車若しくは普通自動二輪車を運転してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p2
+    type: simple
+    text: 一般原動機付自転車の運転者は、乗車用ヘルメットをかぶらないで一般原動機付自転車を運転してはならない。
+    modality: gimu_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p3
+    type: simple
+    text: 特定小型原動機付自転車の運転者は、乗車用ヘルメットをかぶるよう努めなければならない。
+    modality: doryoku_gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p4
+    type: simple
+    text: 第八十四条第三項の大型自動二輪車免許を受けた者で、二十歳に満たないもの又は当該大型自動二輪車免許を受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して三年に達しないもの（同項の普通自動二輪車免許を現に受けており、かつ、当該普通自動二輪車免許を受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して三年以上である者その他の者で政令で定めるものを除く。）は、高速自動車国道及び自動車専用道路においては、運転者以外の者を乗車させて大型自動二輪車（側車付きのものを除く。以下この条において同じ。）又は普通自動二輪車（側車付きのものを除く。以下この条において同じ。）を運転してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p5
+    type: simple
+    text: 第八十四条第三項の普通自動二輪車免許を受けた者（同項の大型自動二輪車免許を現に受けている者を除く。）で、二十歳に満たないもの又は当該普通自動二輪車免許を受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して三年に達しないもの（当該免許を受けた日前六月以内に普通自動二輪車免許を受けていたことがある者その他の者で政令で定めるものを除く。）は、高速自動車国道及び自動車専用道路においては、運転者以外の者を乗車させて普通自動二輪車を運転してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p6
+    type: simple
+    text: 第八十四条第三項の大型自動二輪車免許を受けた者で、当該大型自動二輪車免許を受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して一年に達しないもの（同項の普通自動二輪車免許を現に受けており、かつ、当該普通自動二輪車免許を受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して一年以上である者その他の者で政令で定めるものを除く。）は、運転者以外の者を乗車させて大型自動二輪車又は普通自動二輪車を運転してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p7
+    type: simple
+    text: 第八十四条第三項の普通自動二輪車免許を受けた者（同項の大型自動二輪車免許を現に受けている者を除く。）で、当該普通自動二輪車免許を受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して一年に達しないもの（当該免許を受けた日前六月以内に普通自動二輪車免許を受けていたことがある者その他の者で政令で定めるものを除く。）は、運転者以外の者を乗車させて普通自動二輪車を運転してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-71-4-p8
+    type: simple
+    text: 第一項及び第二項の乗車用ヘルメットの基準は、内閣府令で定める。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-71-4-supplnote-1
+    type: supplnote
+    text: （罰則　第四項から第七項までについては第百十九条の三第一項第五号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -99,3 +143,5 @@ parent_section:
 ### 第七十一条の四第八項
 
 第一項及び第二項の乗車用ヘルメットの基準は、内閣府令で定める。
+
+（罰則　第四項から第七項までについては第百十九条の三第一項第五号）

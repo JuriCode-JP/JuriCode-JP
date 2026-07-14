@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-30-p1
+    type: simple
+    text: 理事会の決議は、議決に加わることができる理事の過半数が出席し、出席した当該理事の過半数で、かつ、出席した外部理事の過半数をもつて行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-30-p2
+    type: simple
+    text: 前項の決議について特別の利害関係を有する理事は、議決に加わることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-30-p3
+    type: simple
+    text: 理事会の議事については、内閣府令で定めるところにより、議事録を作成し、議事録が書面をもつて作成されているときは、出席した理事は、これに署名し、又は記名押印しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-30-p4
+    type: simple
+    text: 前項の議事録が電磁的記録をもつて作成されている場合における当該電磁的記録に記録された事項については、内閣府令で定める署名又は記名押印に代わる措置をとらなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-7-p1
+    type: simple
+    text: 家庭裁判所は、補助開始の審判をするときは、職権で、補助人を選任する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-7-p2
+    type: junyou
+    text: 第八百四十三条第二項から第四項まで及び第八百四十四条から第八百四十七条までの規定は、補助人について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第八百四十四条から第八百四十七条まで
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-7-p3-honbun
+    type: honbun
+    text: 補助人又はその代表する者と被補助人との利益が相反する行為については、補助人は、臨時補助人の選任を家庭裁判所に請求しなければならない。
+    modality: gimu
+  - id: minpou-art-876-7-p3-tadashi
+    type: tadashi
+    text: ただし、補助監督人がある場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

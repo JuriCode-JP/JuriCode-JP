@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-9-p1
+    type: junyou
+    text: 第七条の五の規定は、法第七十二条の四十九の十二第二項又は第三項の事業を行う個人と生計を一にする親族で専ら当該個人の行う事業に従事するものの範囲について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

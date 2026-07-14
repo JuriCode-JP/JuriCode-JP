@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 社債管理者は、次に掲げる者でなければならない。
     modality: gimu
+  - id: kaisha-hou-art-703-p1-kou-1
+    type: kou
+    text: 一　銀行
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-703-p1-kou-2
+    type: kou
+    text: 二　信託会社
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-703-p1-kou-3
+    type: kou
+    text: 三　前二号に掲げるもののほか、これらに準ずるものとして法務省令で定める者
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第七百三条
 
-<!-- segment: hashira id: kaisha-hou-art-703-p1-hashira -->
 社債管理者は、次に掲げる者でなければならない。
+
+一　銀行
+
+二　信託会社
+
+三　前二号に掲げるもののほか、これらに準ずるものとして法務省令で定める者

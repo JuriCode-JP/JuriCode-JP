@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: shouhou-art-11-p1 -->
 商人（会社及び外国会社を除く。以下この編において同じ。）は、その氏、氏名その他の名称をもってその商号とすることができる。
 
 ### 第十一条第二項
 
-<!-- segment: simple id: shouhou-art-11-p2 -->
 商人は、その商号の登記をすることができる。

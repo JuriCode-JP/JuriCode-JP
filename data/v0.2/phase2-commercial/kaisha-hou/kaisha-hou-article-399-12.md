@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-12-p1
+    type: simple
+    text: 取締役、会計参与又は会計監査人が監査等委員の全員に対して監査等委員会に報告すべき事項を通知したときは、当該事項を監査等委員会へ報告することを要しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

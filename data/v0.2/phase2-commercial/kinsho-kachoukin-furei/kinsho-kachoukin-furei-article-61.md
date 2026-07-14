@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第百八十五条の七第一項、第二項、第四項から第八項まで及び第十項から第十七項までの決定には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-61-p1-kou-1
+    type: kou
+    text: 一　主文
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-61-p1-kou-2
+    type: kou
+    text: 二　事実及び理由
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-61-p1-kou-3
+    type: kou
+    text: 三　被審人及びその代理人
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -55,6 +70,16 @@ paragraphs:
     type: hashira
     text: 法第百八十五条の七第十八項の決定には、次の各号のいずれかに該当する旨及びその理由を記載しなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-61-p4-kou-1
+    type: kou
+    text: 一　法第百七十八条第一項各号に掲げる事実がないこと。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-61-p4-kou-2
+    type: kou
+    text: 二　法第百八十五条の七第三項、第五項ただし書、第七項ただし書、第九項、第十一項ただし書、第十六項ただし書又は第十七項ただし書に該当すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -73,21 +98,26 @@ parent_section:
 
 ### 第六十一条第一項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-61-p1-hashira -->
 法第百八十五条の七第一項、第二項、第四項から第八項まで及び第十項から第十七項までの決定には、次に掲げる事項を記載しなければならない。
+
+一　主文
+
+二　事実及び理由
+
+三　被審人及びその代理人
 
 ### 第六十一条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-61-p2 -->
 前項第一号に掲げる事項には、納付すべき課徴金の額及び納付期限を記載しなければならない。
 
 ### 第六十一条第三項
 
-<!-- segment: zen_dan id: kinsho-kachoukin-furei-art-61-p3-zen -->
-第一項第二号に掲げる事項には、課徴金に係る法第百七十八条第一項各号に掲げる事実、法令の適用及び課徴金の計算の基礎を記載しなければならない。<!-- segment: kou_dan id: kinsho-kachoukin-furei-art-61-p3-kou depends_on: kinsho-kachoukin-furei-art-61-p3-zen -->
-この場合においては、審判手続開始決定書を引用することができる。
+第一項第二号に掲げる事項には、課徴金に係る法第百七十八条第一項各号に掲げる事実、法令の適用及び課徴金の計算の基礎を記載しなければならない。この場合においては、審判手続開始決定書を引用することができる。
 
 ### 第六十一条第四項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-61-p4-hashira -->
 法第百八十五条の七第十八項の決定には、次の各号のいずれかに該当する旨及びその理由を記載しなければならない。
+
+一　法第百七十八条第一項各号に掲げる事実がないこと。
+
+二　法第百八十五条の七第三項、第五項ただし書、第七項ただし書、第九項、第十一項ただし書、第十六項ただし書又は第十七項ただし書に該当すること。

@@ -13,10 +13,26 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-784-2-p1-hashira
+    type: hashira
+    text: 次に掲げる場合において、消滅株式会社等の株主が不利益を受けるおそれがあるときは、消滅株式会社等の株主は、消滅株式会社等に対し、吸収合併等をやめることを請求することができる。ただし、前条第二項に規定する場合は、この限りでない。
+    modality: jogai
+    references:
+    - 前条
+  - id: kaisha-hou-art-784-2-p1-kou-1
+    type: kou
+    text: 一　当該吸収合併等が法令又は定款に違反する場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-784-2-p1-kou-2
+    type: kou
+    text: 二　前条第一項本文に規定する場合において、第七百四十九条第一項第二号若しくは第三号、第七百五十一条第一項第三号若しくは第四号、第七百五十八条第四号、第七百六十条第四号若しくは第五号、第七百六十八条第一項第二号若しくは第三号又は第七百七十条第一項第三号若しくは第四号に掲げる事項が消滅株式会社等又は存続会社等の財産の状況その他の事情に照らして著しく不当であるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -42,3 +58,7 @@ parent_section:
 ### 第七百八十四条の二
 
 次に掲げる場合において、消滅株式会社等の株主が不利益を受けるおそれがあるときは、消滅株式会社等の株主は、消滅株式会社等に対し、吸収合併等をやめることを請求することができる。ただし、前条第二項に規定する場合は、この限りでない。
+
+一　当該吸収合併等が法令又は定款に違反する場合
+
+二　前条第一項本文に規定する場合において、第七百四十九条第一項第二号若しくは第三号、第七百五十一条第一項第三号若しくは第四号、第七百五十八条第四号、第七百六十条第四号若しくは第五号、第七百六十八条第一項第二号若しくは第三号又は第七百七十条第一項第三号若しくは第四号に掲げる事項が消滅株式会社等又は存続会社等の財産の状況その他の事情に照らして著しく不当であるとき。

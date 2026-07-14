@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-2-p1
+    type: simple
+    text: 贈与により財産を取得した者がその年中における贈与による財産の取得について第一条の四第一項第一号又は第二号の規定に該当する者である場合においては、その者については、その年中において贈与により取得した財産の価額の合計額をもつて、贈与税の課税価格とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-2-p2
+    type: simple
+    text: 贈与により財産を取得した者がその年中における贈与による財産の取得について第一条の四第一項第三号又は第四号の規定に該当する者である場合においては、その者については、その年中において贈与により取得した財産でこの法律の施行地にあるものの価額の合計額をもつて、贈与税の課税価格とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-2-p3
+    type: simple
+    text: 贈与により財産を取得した者がその年中における贈与による財産の取得について第一条の四第一項第一号の規定に該当し、かつ、同項第三号若しくは第四号の規定に該当する者又は同項第二号の規定に該当し、かつ、同項第三号若しくは第四号の規定に該当する者である場合においては、その者については、その者がこの法律の施行地に住所を有していた期間内に贈与により取得した財産で政令で定めるものの価額及びこの法律の施行地に住所を有していなかつた期間内に贈与により取得した財産で政令で定めるものの価額の合計額をもつて、贈与税の課税価格とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-2-p4
+    type: simple
+    text: 相続又は遺贈により財産を取得した者が相続開始の年において当該相続に係る被相続人から受けた贈与により取得した財産の価額で第十九条の規定により相続税の課税価格に加算されるものは、前三項の規定にかかわらず、贈与税の課税価格に算入しない。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-8-p1
+    type: simple
+    text: 認可地縁団体の代表者は、規約又は総会の決議によつて禁止されていないときに限り、特定の行為の代理を他人に委任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

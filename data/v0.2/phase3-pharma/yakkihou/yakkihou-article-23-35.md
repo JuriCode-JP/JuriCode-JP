@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-35-p1
+    type: simple
+    text: 厚生労働大臣は、厚生労働省令で、再生医療等製品の製造管理若しくは品質管理又は製造販売後安全管理の実施方法、再生医療等製品総括製造販売責任者の義務の遂行のための配慮事項その他再生医療等製品の製造販売業者がその業務に関し遵守すべき事項を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-35-p2
+    type: simple
+    text: 再生医療等製品の製造販売業者は、前条第三項の規定により述べられた再生医療等製品総括製造販売責任者の意見を尊重するとともに、法令遵守のために措置を講ずる必要があるときは、当該措置を講じ、かつ、講じた措置の内容（措置を講じない場合にあつては、その旨及びその理由）を記録し、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-35-p3
+    type: simple
+    text: 厚生労働大臣は、厚生労働省令で、製造所における再生医療等製品の試験検査の実施方法、再生医療等製品製造管理者の義務の遂行のための配慮事項その他再生医療等製品の製造業者又は再生医療等製品外国製造業者がその業務に関し遵守すべき事項を定めることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-35-p4
+    type: simple
+    text: 再生医療等製品の製造業者は、前条第七項の規定により述べられた再生医療等製品製造管理者の意見を尊重するとともに、法令遵守のために措置を講ずる必要があるときは、当該措置を講じ、かつ、講じた措置の内容（措置を講じない場合にあつては、その旨及びその理由）を記録し、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-35-p5
+    type: simple
+    text: 再生医療等製品の製造販売業者は、製造販売後安全管理に係る業務のうち厚生労働省令で定めるものについて、厚生労働省令で定めるところにより、その業務を適正かつ確実に行う能力のある者に委託することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

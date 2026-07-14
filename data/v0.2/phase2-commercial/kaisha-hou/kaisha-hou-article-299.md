@@ -34,6 +34,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kaisha-hou-art-299-p2-kou-1
+    type: kou
+    text: 一　前条第一項第三号又は第四号に掲げる事項を定めた場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-299-p2-kou-2
+    type: kou
+    text: 二　株式会社が取締役会設置会社である場合
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -62,8 +72,8 @@ paragraphs:
     text: 前二項の通知には、前条第一項各号に掲げる事項を記載し、又は記録しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -86,21 +96,20 @@ parent_section:
 
 ### 第二百九十九条第一項
 
-<!-- segment: simple id: kaisha-hou-art-299-p1 -->
 株主総会を招集するには、取締役は、株主総会の日の二週間（前条第一項第三号又は第四号に掲げる事項を定めたときを除き、公開会社でない株式会社にあっては、一週間（当該株式会社が取締役会設置会社以外の株式会社である場合において、これを下回る期間を定款で定めた場合にあっては、その期間））前までに、株主に対してその通知を発しなければならない。
 
 ### 第二百九十九条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-299-p2-hashira -->
 次に掲げる場合には、前項の通知は、書面でしなければならない。
+
+一　前条第一項第三号又は第四号に掲げる事項を定めた場合
+
+二　株式会社が取締役会設置会社である場合
 
 ### 第二百九十九条第三項
 
-<!-- segment: zen_dan id: kaisha-hou-art-299-p3-zen -->
-取締役は、前項の書面による通知の発出に代えて、政令で定めるところにより、株主の承諾を得て、電磁的方法により通知を発することができる。<!-- segment: kou_dan id: kaisha-hou-art-299-p3-kou depends_on: kaisha-hou-art-299-p3-zen -->
-この場合において、当該取締役は、同項の書面による通知を発したものとみなす。
+取締役は、前項の書面による通知の発出に代えて、政令で定めるところにより、株主の承諾を得て、電磁的方法により通知を発することができる。この場合において、当該取締役は、同項の書面による通知を発したものとみなす。
 
 ### 第二百九十九条第四項
 
-<!-- segment: simple id: kaisha-hou-art-299-p4 -->
 前二項の通知には、前条第一項各号に掲げる事項を記載し、又は記録しなければならない。

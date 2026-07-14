@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-75-2-p1-hashira
+    type: hashira
+    text: 道府県は、次の各号に掲げる者がゴルフ場の利用を行う場合（次の各号に掲げる者が当該各号に掲げる者である旨を証明する場合に限る。）には、当該ゴルフ場の利用に対しては、ゴルフ場利用税を課することができない。
+    modality: kanou_negative
+  - id: chihou-zei-hou-art-75-2-p1-kou-1
+    type: kou
+    text: 一　年齢十八歳未満の者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-75-2-p1-kou-2
+    type: kou
+    text: 二　年齢七十歳以上の者
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-75-2-p1-kou-3
+    type: kou
+    text: 三　第二十三条第一項第十号に規定する障害者（前二号に掲げる者を除く。）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -38,3 +57,9 @@ parent_section:
 ### 第七十五条の二
 
 道府県は、次の各号に掲げる者がゴルフ場の利用を行う場合（次の各号に掲げる者が当該各号に掲げる者である旨を証明する場合に限る。）には、当該ゴルフ場の利用に対しては、ゴルフ場利用税を課することができない。
+
+一　年齢十八歳未満の者
+
+二　年齢七十歳以上の者
+
+三　第二十三条第一項第十号に規定する障害者（前二号に掲げる者を除く。）

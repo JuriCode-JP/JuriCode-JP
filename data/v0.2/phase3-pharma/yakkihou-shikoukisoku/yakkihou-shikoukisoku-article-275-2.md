@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-275-2-p1
+    type: simple
+    text: 法第八十条の二第二項の厚生労働省令で定める人若しくは動物の細胞に培養その他の加工を施したもの又は人若しくは動物の細胞に導入され、これらの体内で発現する遺伝子を含有するもの（以下「加工細胞等」という。）は、再生医療等製品となることが見込まれる加工細胞等とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

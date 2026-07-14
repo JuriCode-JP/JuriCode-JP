@@ -131,50 +131,40 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-12-p1 -->
 人事委員会に事務局を置き、事務局に事務局長その他の事務職員を置く。
 
 ### 第十二条第二項
 
-<!-- segment: tokusoku id: chihou-koumuin-hou-art-12-p2 override_flag: true override_target: 第九項 -->
 人事委員会は、第九条の二第九項の規定にかかわらず、委員に事務局長の職を兼ねさせることができる。
 
 ### 第十二条第三項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-12-p3 -->
 事務局長は、人事委員会の指揮監督を受け、事務局の局務を掌理する。
 
 ### 第十二条第四項
 
-<!-- segment: tokusoku id: chihou-koumuin-hou-art-12-p4 override_flag: true override_target: 第一項 -->
 第七条第二項の規定により人事委員会を置く地方公共団体は、第一項の規定にかかわらず、事務局を置かないで事務職員を置くことができる。
 
 ### 第十二条第五項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-12-p5 -->
 公平委員会に、事務職員を置く。
 
 ### 第十二条第六項
 
-<!-- segment: tokusoku id: chihou-koumuin-hou-art-12-p6 override_flag: true override_target: 前項 -->
 競争試験等を行う公平委員会を置く地方公共団体は、前項の規定にかかわらず、事務局を置き、事務局に事務局長その他の事務職員を置くことができる。
 
 ### 第十二条第七項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-12-p7 -->
 第一項及び第四項又は前二項の事務職員は、人事委員会又は公平委員会がそれぞれ任免する。
 
 ### 第十二条第八項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-12-p8 -->
 第一項の事務局の組織は、人事委員会が定める。
 
 ### 第十二条第九項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-12-p9 -->
 第一項及び第四項から第六項までの事務職員の定数は、条例で定める。
 
 ### 第十二条第十項
 
-<!-- segment: junyou id: chihou-koumuin-hou-art-12-p10 -->
 第二項及び第三項の規定は第六項の事務局長について、第八項の規定は第六項の事務局について準用する。この場合において、第二項及び第三項中「人事委員会」とあるのは「競争試験等を行う公平委員会」と、第八項中「第一項の事務局」とあるのは「第六項の事務局」と、「人事委員会」とあるのは「競争試験等を行う公平委員会」と読み替えるものとする。

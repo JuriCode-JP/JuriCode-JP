@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-6-p1-hashira
+    type: hashira
+    text: 次の各号に掲げる都道府県の執行機関は、市町村の当該各号に定める自治事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該市町村に対し、当該自治事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを勧告することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-245-6-p1-kou-1
+    type: kou
+    text: 一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する自治事務
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-245-6-p1-kou-2
+    type: kou
+    text: 二　都道府県教育委員会　市町村教育委員会の担任する自治事務
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-245-6-p1-kou-3
+    type: kou
+    text: 三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する自治事務
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -40,3 +59,9 @@ parent_section:
 ### 第二百四十五条の六
 
 次の各号に掲げる都道府県の執行機関は、市町村の当該各号に定める自治事務の処理が法令の規定に違反していると認めるとき、又は著しく適正を欠き、かつ、明らかに公益を害していると認めるときは、当該市町村に対し、当該自治事務の処理について違反の是正又は改善のため必要な措置を講ずべきことを勧告することができる。
+
+一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する自治事務
+
+二　都道府県教育委員会　市町村教育委員会の担任する自治事務
+
+三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する自治事務

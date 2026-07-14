@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-15-2-p1
+    type: simple
+    text: この法律において「対象会計年度」とは、第八十二条第三号（定義）に規定する多国籍企業グループ等の同条第十号に規定する最終親会社等の同条第一号に規定する連結等財務諸表の作成に係る期間をいう。
+    modality: teigi
 cases: []
 amendments:
 - effective_date: '2022-04-01'

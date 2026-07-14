@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-17-p1
     type: simple
     text: 検察官は、左の場合には、直近上級の裁判所に管轄移転の請求をしなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-17-p1-kou-1
+    type: kou
+    text: 一　管轄裁判所が法律上の理由又は特別の事情により裁判権を行うことができないとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-17-p1-kou-2
+    type: kou
+    text: 二　地方の民心、訴訟の状況その他の事情により裁判の公平を維持することができない虞があるとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-17-p1 -->
 検察官は、左の場合には、直近上級の裁判所に管轄移転の請求をしなければならない。
+
+一　管轄裁判所が法律上の理由又は特別の事情により裁判権を行うことができないとき。
+
+二　地方の民心、訴訟の状況その他の事情により裁判の公平を維持することができない虞があるとき。
 
 ### 第十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-17-p2 -->
 前項各号の場合には、被告人も管轄移転の請求をすることができる。

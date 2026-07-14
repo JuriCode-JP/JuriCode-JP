@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-19-p1
+    type: simple
+    text: 金融商品会員制法人の清算人の選任の裁判に対しては、不服を申し立てることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

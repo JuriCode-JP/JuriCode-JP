@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-20-p1
+    type: simple
+    text: 金融商品会員制法人と特定の会員との関係について議決をする場合には、その会員は、議決権を有しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

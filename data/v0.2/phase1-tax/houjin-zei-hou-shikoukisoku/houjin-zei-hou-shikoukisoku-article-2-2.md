@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 令第三条第一項第四号及び第二項第七号（非営利型法人の範囲）に規定する理事と財務省令で定める特殊の関係のある者は、次に掲げる者とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-1
+    type: kou
+    text: 一　当該理事（清算人を含む。以下この項において同じ。）の配偶者
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-2
+    type: kou
+    text: 二　当該理事の三親等以内の親族
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-3
+    type: kou
+    text: 三　当該理事と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-4
+    type: kou
+    text: 四　当該理事の使用人
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-5
+    type: kou
+    text: 五　前各号に掲げる者以外の者で当該理事から受ける金銭その他の資産によつて生計を維持しているもの
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-6
+    type: kou
+    text: 六　前三号に掲げる者と生計を一にするこれらの者の配偶者又は三親等以内の親族
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,12 +78,22 @@ parent_section:
 
 ### 第二条の二第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-2-2-p1-hashira -->
 令第三条第一項第四号及び第二項第七号（非営利型法人の範囲）に規定する理事と財務省令で定める特殊の関係のある者は、次に掲げる者とする。
+
+一　当該理事（清算人を含む。以下この項において同じ。）の配偶者
+
+二　当該理事の三親等以内の親族
+
+三　当該理事と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+
+四　当該理事の使用人
+
+五　前各号に掲げる者以外の者で当該理事から受ける金銭その他の資産によつて生計を維持しているもの
+
+六　前三号に掲げる者と生計を一にするこれらの者の配偶者又は三親等以内の親族
 
 ### 第二条の二第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-2-2-p2 -->
 令第三条第四項の規定により令第五条（収益事業の範囲）の規定を読み替えて適用する場合における第三章（収益事業の範囲）の規定の適用については、次の表の上欄に掲げる同章の規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
 
 | 第五条第一号（医師会法人等が行う医療保健業で収益事業に該当しないものの要件） | 公益社団法人又は法別表第二に掲げる一般社団法人 | 一般社団法人 |

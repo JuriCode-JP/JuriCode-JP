@@ -39,6 +39,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合には、当該定款の変更後の発行可能株式総数は、当該定款の変更が効力を生じた時における発行済株式の総数の四倍を超えることができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-113-p3-kou-1
+    type: kou
+    text: 一　公開会社が定款を変更して発行可能株式総数を増加する場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-113-p3-kou-2
+    type: kou
+    text: 二　公開会社でない株式会社が定款を変更して公開会社となる場合
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -68,20 +78,20 @@ parent_section:
 
 ### 第百十三条第一項
 
-<!-- segment: simple id: kaisha-hou-art-113-p1 -->
 株式会社は、定款を変更して発行可能株式総数についての定めを廃止することができない。
 
 ### 第百十三条第二項
 
-<!-- segment: simple id: kaisha-hou-art-113-p2 -->
 定款を変更して発行可能株式総数を減少するときは、変更後の発行可能株式総数は、当該定款の変更が効力を生じた時における発行済株式の総数を下ることができない。
 
 ### 第百十三条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-113-p3-hashira -->
 次に掲げる場合には、当該定款の変更後の発行可能株式総数は、当該定款の変更が効力を生じた時における発行済株式の総数の四倍を超えることができない。
+
+一　公開会社が定款を変更して発行可能株式総数を増加する場合
+
+二　公開会社でない株式会社が定款を変更して公開会社となる場合
 
 ### 第百十三条第四項
 
-<!-- segment: simple id: kaisha-hou-art-113-p4 -->
 新株予約権（第二百三十六条第一項第四号の期間の初日が到来していないものを除く。）の新株予約権者が第二百八十二条第一項の規定により取得することとなる株式の数は、発行可能株式総数から発行済株式（自己株式（株式会社が有する自己の株式をいう。以下同じ。）を除く。）の総数を控除して得た数を超えてはならない。

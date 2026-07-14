@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-153-2-p1
+    type: simple
+    text: 勾引状の執行を受けた証人を護送する場合又は引致した場合において必要があるときは、一時最寄の警察署その他の適当な場所にこれを留置することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

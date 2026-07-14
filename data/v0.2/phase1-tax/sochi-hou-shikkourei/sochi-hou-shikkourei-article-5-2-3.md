@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-2-3-p1
+    type: tokusoku
+    text: 法第九条の九第一項の金融商品取引業者等は、同条第二項に規定する契約不履行等事由が生じたことにより同条第一項の規定の適用がなかつたものとみなされた同項に規定する未成年者口座内上場株式等の配当等につき法第八条の三第三項、第九条の二第二項又は第九条の三の二第一項の規定により徴収した所得税を納付する場合には、所得税法第二百二十条の規定にかかわらず、その納付の際、国税通則法第三十四条第一項に規定する納付書に財務省令で定める計算書を添付しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第二百二十条
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-2-3-p2
+    type: simple
+    text: 前項の場合において同項の金融商品取引業者等は、第二十五条の十三の八第二十項において準用する第二十五条の十三の六第一項の規定により備え付ける帳簿に、前項の未成年者口座内上場株式等の配当等の額及び当該未成年者口座内上場株式等の配当等について法第八条の三第三項、第九条の二第二項又は第九条の三の二第一項の規定により徴収した所得税の額に関する事項を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

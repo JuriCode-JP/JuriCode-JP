@@ -21,6 +21,51 @@ paragraphs:
     type: hashira
     text: 法第三十四条第一項第三号に規定する政令で定める場合は、同号の納税義務者が同号の相続税に係る被相続人から相続又は遺贈により取得した財産について次に掲げる規定の適用を受けた場合とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-1
+    type: kou
+    text: 一　租税特別措置法（昭和三十二年法律第二十六号）第七十条の六第一項本文（農地等についての相続税の納税猶予及び免除等）の規定
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-2
+    type: kou
+    text: 二　租税特別措置法第七十条の六の六第一項（山林についての相続税の納税猶予及び免除）の規定
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-3
+    type: kou
+    text: 三　租税特別措置法第七十条の六の七第一項（特定の美術品についての相続税の納税猶予及び免除）の規定
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-4
+    type: kou
+    text: 四　租税特別措置法第七十条の六の十第一項（個人の事業用資産についての相続税の納税猶予及び免除）の規定
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-5
+    type: kou
+    text: 五　租税特別措置法第七十条の七の二第一項（非上場株式等についての相続税の納税猶予及び免除）の規定
+    modality: unspecified
+    item_number: 5
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-6
+    type: kou
+    text: 六　租税特別措置法第七十条の七の四第一項（非上場株式等の贈与者が死亡した場合の相続税の納税猶予及び免除）の規定
+    modality: unspecified
+    item_number: 6
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-7
+    type: kou
+    text: 七　租税特別措置法第七十条の七の六第一項（非上場株式等についての相続税の納税猶予及び免除の特例）の規定
+    modality: unspecified
+    item_number: 7
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-8
+    type: kou
+    text: 八　租税特別措置法第七十条の七の八第一項（非上場株式等の特例贈与者が死亡した場合の相続税の納税猶予及び免除の特例）の規定
+    modality: unspecified
+    item_number: 8
+  - id: souzoku-zei-hou-shikkourei-art-10-2-p1-kou-9
+    type: kou
+    text: 九　租税特別措置法第七十条の七の十二第一項（医療法人の持分についての相続税の納税猶予及び免除）の規定
+    modality: unspecified
+    item_number: 9
 cases: []
 amendments: []
 tags:
@@ -37,5 +82,22 @@ parent_section:
 
 ### 第十条の二
 
-<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-10-2-p1-hashira -->
 法第三十四条第一項第三号に規定する政令で定める場合は、同号の納税義務者が同号の相続税に係る被相続人から相続又は遺贈により取得した財産について次に掲げる規定の適用を受けた場合とする。
+
+一　租税特別措置法（昭和三十二年法律第二十六号）第七十条の六第一項本文（農地等についての相続税の納税猶予及び免除等）の規定
+
+二　租税特別措置法第七十条の六の六第一項（山林についての相続税の納税猶予及び免除）の規定
+
+三　租税特別措置法第七十条の六の七第一項（特定の美術品についての相続税の納税猶予及び免除）の規定
+
+四　租税特別措置法第七十条の六の十第一項（個人の事業用資産についての相続税の納税猶予及び免除）の規定
+
+五　租税特別措置法第七十条の七の二第一項（非上場株式等についての相続税の納税猶予及び免除）の規定
+
+六　租税特別措置法第七十条の七の四第一項（非上場株式等の贈与者が死亡した場合の相続税の納税猶予及び免除）の規定
+
+七　租税特別措置法第七十条の七の六第一項（非上場株式等についての相続税の納税猶予及び免除の特例）の規定
+
+八　租税特別措置法第七十条の七の八第一項（非上場株式等の特例贈与者が死亡した場合の相続税の納税猶予及び免除の特例）の規定
+
+九　租税特別措置法第七十条の七の十二第一項（医療法人の持分についての相続税の納税猶予及び免除）の規定

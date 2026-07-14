@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-15-p1
+    type: simple
+    text: 最終指定親会社は、最終指定親会社になつた日から起算して政令で定める期間が経過した日の属する事業年度以降、内閣府令で定めるところにより、当該最終指定親会社及びその子法人等の業務及び財産の状況を連結して記載した事業報告書を作成し、毎事業年度経過後三月以内に、これを内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-15-p2
+    type: simple
+    text: 最終指定親会社は、前項の規定により事業報告書を提出するほか、内閣府令で定めるところにより、当該最終指定親会社及びその子法人等の業務又は財産の状況を内閣総理大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-15-p3
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、最終指定親会社に対し、政令で定めるところにより、第一項の事業報告書の全部又は一部の公告を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

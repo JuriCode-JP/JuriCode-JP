@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-222-2-p1
+    type: simple
+    text: 通信の当事者のいずれの同意も得ないで電気通信の傍受を行う強制の処分については、別に法律で定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-2-p1
+    type: simple
+    text: 法第二十七条の二十二の二第一項に規定する政令で定める取引は、店頭売買有価証券市場における店頭売買有価証券の取引とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-2-p2
+    type: simple
+    text: 法第二十七条の二十二の二第一項第一号に規定する政令で定めるものは、投資信託及び投資法人に関する法律第八十条の二第一項（同法第八十条の五第二項の規定により読み替えて適用する場合を含む。）の規定とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-2-p3
+    type: simple
+    text: 法第二十七条の二十二の二第一項第二号に規定する多数の者が買付け等（同項に規定する買付け等をいう。以下この節において同じ。）に関する事項を知り得る状態に置かれる方法により行われる買付け等として政令で定めるものは、当該買付け等に関する事項（当該買付け等に係る上場株券等（法第二十四条の六第一項に規定する上場株券等をいう。以下この節において同じ。）の買付け等の申込み又は売付け等の申込みの勧誘を行う旨の文言が含まれるものに限る。）を新聞若しくは雑誌に掲載し、又は文書、放送、映画その他の方法を用いることにより多数の者に知らせて行う買付け等とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

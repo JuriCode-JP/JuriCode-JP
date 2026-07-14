@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-90-p1
+    type: simple
+    text: 内閣総理大臣は、特定金融指標算出業務の運営に関し改善が必要であると認めるときは、その必要の限度において、特定金融指標算出者に対し、その改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-90-p2
+    type: simple
+    text: 内閣総理大臣は、特定金融指標算出者が特定金融指標算出業務に関し法令又は法令に基づく処分に違反したときは、当該特定金融指標算出者に対し、六月以内の期間を定めてその業務の全部又は一部の停止を命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-90-p3
+    type: simple
+    text: 内閣総理大臣は、前項の規定により業務の全部又は一部の停止を命じたときは、その旨を官報で公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-90-p4
+    type: simple
+    text: 内閣総理大臣は、第一項又は第二項の規定に基づいて処分をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

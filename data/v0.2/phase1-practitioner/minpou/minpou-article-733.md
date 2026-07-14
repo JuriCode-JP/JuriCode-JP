@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百三十三条
 
-<!-- segment: simple id: minpou-art-733-p1 -->
 削除

@@ -16,27 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-2-p1
+    type: simple
+    text: 厚生労働大臣は、独立行政法人医薬品医療機器総合機構（以下「機構」という。）に、医薬品（専ら動物のために使用されることが目的とされているものを除く。以下この条において同じ。）、医薬部外品（専ら動物のために使用されることが目的とされているものを除く。以下この条において同じ。）又は化粧品のうち政令で定めるものに係る前条第一項若しくは第八項の許可又は同条第四項（同条第九項において準用する場合を含む。以下この条において同じ。）の許可の更新についての同条第七項（同条第九項において準用する場合を含む。）に規定する調査を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-2-p2-zen
+    type: zen_dan
+    text: 厚生労働大臣は、前項の規定により機構に調査を行わせるときは、当該調査を行わないものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-art-13-2-p2-kou
+    type: kou_dan
+    text: この場合において、厚生労働大臣は、前条第一項若しくは第八項の許可又は同条第四項の許可の更新をするときは、機構が第四項の規定により通知する調査の結果を考慮しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: yakkihou-art-13-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-2-p3
+    type: simple
+    text: 厚生労働大臣が第一項の規定により機構に調査を行わせることとしたときは、同項の政令で定める医薬品、医薬部外品又は化粧品に係る前条第一項若しくは第八項の許可又は同条第四項の許可の更新の申請者は、機構が行う当該調査を受けなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-2-p4
+    type: simple
+    text: 機構は、前項の調査を行つたときは、遅滞なく、当該調査の結果を厚生労働省令で定めるところにより厚生労働大臣に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-2-p5-zen
+    type: zen_dan
+    text: 機構が行う調査に係る処分（調査の結果を除く。）又はその不作為については、厚生労働大臣に対して、審査請求をすることができる。
+    modality: kanou_kenri
+  - id: yakkihou-art-13-2-p5-kou
+    type: kou_dan
+    text: この場合において、厚生労働大臣は、行政不服審査法（平成二十六年法律第六十八号）第二十五条第二項及び第三項、第四十六条第一項及び第二項、第四十七条並びに第四十九条第三項の規定の適用については、機構の上級行政庁とみなす。
+    modality: unspecified
+    depends_on: yakkihou-art-13-2-p5-zen
 cases: []
 amendments: []
 tags:

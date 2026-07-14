@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-423-4-p1
+    type: simple
+    text: 債権者が被代位権利を行使したときは、相手方は、債務者に対して主張することができる抗弁をもって、債権者に対抗することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

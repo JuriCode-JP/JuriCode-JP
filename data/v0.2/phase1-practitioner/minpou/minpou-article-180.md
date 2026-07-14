@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百八十条
 
-<!-- segment: simple id: minpou-art-180-p1 -->
 占有権は、自己のためにする意思をもって物を所持することによって取得する。

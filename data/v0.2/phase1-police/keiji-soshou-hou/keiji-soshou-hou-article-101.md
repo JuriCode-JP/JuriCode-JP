@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-101-p1 -->
 被告人その他の者が遺留した物又は所有者、所持者若しくは保管者が任意に提出した物は、これを領置することができる。

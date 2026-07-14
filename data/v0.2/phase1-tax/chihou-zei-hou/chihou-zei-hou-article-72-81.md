@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-81-p1
+    type: simple
+    text: 第六条及び第七条の規定は、地方消費税については適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

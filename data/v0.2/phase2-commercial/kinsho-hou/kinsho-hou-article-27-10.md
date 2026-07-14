@@ -16,72 +16,157 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p1
+    type: simple
+    text: 公開買付けに係る株券等の発行者（以下この節及び第二十七条の三十の十一第四項において「対象者」という。）は、内閣府令で定めるところにより、公開買付開始公告が行われた日から政令で定める期間内に、当該公開買付けに関する意見その他の内閣府令で定める事項を記載した書類（以下「意見表明報告書」という。）を内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p2-hashira
+    type: hashira
+    text: 意見表明報告書には、当該公開買付けに関する意見のほか、次に掲げる事項を記載することができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-27-10-p2-kou-1
+    type: kou
+    text: 一　公開買付者に対する質問
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-27-10-p2-kou-2
+    type: kou
+    text: 二　公開買付開始公告に記載された買付け等の期間を政令で定める期間に延長することを請求する旨及びその理由（当該買付け等の期間が政令で定める期間より短い場合に限る。）
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p3
+    type: simple
+    text: 前項の規定により意見表明報告書に同項第二号に掲げる請求をする旨の記載があり、かつ、第二十七条の十四第一項の規定により内閣総理大臣が当該意見表明報告書を公衆の縦覧に供したときは、公開買付者は、買付け等の期間を政令で定める期間に延長しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p4
+    type: simple
+    text: 対象者は、第二項の規定により意見表明報告書に同項第二号に掲げる請求をする旨の記載をした場合には、第一項に規定する期間の末日の翌日までに、政令で定めるところにより、前項の規定による延長後の買付け等の期間その他の内閣府令で定める事項を公告しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p5
+    type: simple
+    text: 前項の規定による公告（次項において「期間延長請求公告」という。）を行つた対象者は、その内容に形式上の不備があり、又は記載された内容が事実と相違していると認めたときは、その内容を訂正して、内閣府令で定めるところにより、公告し、又は公表しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p6
+    type: simple
+    text: 内閣総理大臣は、期間延長請求公告の内容について訂正をする必要があると認められるときは、当該期間延長請求公告を行つた対象者に対し、期限を指定して、内閣府令で定めるところにより、その訂正の内容を公告し、又は公表することを命ずることができる。
+    modality: kanou_kenri
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p7
+    type: simple
+    text: 前項の規定による処分は、当該公開買付期間（第二十七条の八第八項の規定により延長しなければならない期間を含む。）の末日後は、することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p8
+    type: junyou
+    text: 第二十七条の八第一項から第五項まで（第三項第二号及び第三号を除く。）の規定は、意見表明報告書について準用する。この場合において、同条第一項中「訂正届出書」とあるのは「訂正報告書」と、「公開買付者」とあるのは「第二十七条の十第一項に規定する対象者」と、同条第二項中「買付条件等の変更」とあるのは「公開買付けに関する意見の変更」と、「公開買付者」とあるのは「第二十七条の十第一項に規定する対象者」と、「訂正届出書」とあるのは「訂正報告書」と、同条第三項及び第四項中「公開買付者」とあるのは「第二十七条の十第一項に規定する対象者」と、「訂正届出書」とあるのは「訂正報告書」と、同条第五項中「第三項の規定による処分」とあるのは「第二十七条の十第八項において準用する第三項の規定による処分」と、「訂正届出書」とあるのは「訂正報告書」と、「前項の規定による処分」とあるのは「同条第八項において準用する前項の規定による処分」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p9
+    type: simple
+    text: 公開買付けに係る対象者が意見表明報告書を提出したときは、直ちに当該意見表明報告書の写しを当該公開買付けに係る公開買付者（当該意見表明報告書を提出した日において、当該公開買付者以外の者で既に当該対象者である発行者の株券等に係る公開買付届出書を提出している者がある場合には、当該提出している者を含む。）に送付するとともに、当該公開買付けに係る株券等が第二十七条の三第四項各号に掲げる株券等に該当する場合には、当該各号に掲げる株券等の区分に応じ、当該各号に定める者に送付しなければならない。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p10
+    type: junyou
+    text: 前項の規定は、第八項において準用する第二十七条の八第一項から第四項までの規定により訂正報告書が提出された場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p11
+    type: simple
+    text: 意見表明報告書に第二項第一号の質問が記載されている場合には、第九項の規定により当該意見表明報告書の写しの送付を受けた公開買付者は、当該送付を受けた日から政令で定める期間内に、内閣府令で定めるところにより、当該質問に対する回答（当該質問に対して回答する必要がないと認めた場合には、その理由）その他の内閣府令で定める事項を記載した書類（以下「対質問回答報告書」という。）を内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p12
+    type: junyou
+    text: 第二十七条の八第一項から第五項まで（第三項第二号及び第三号を除く。）の規定は、対質問回答報告書について準用する。この場合において、同条第一項中「訂正届出書」とあるのは「訂正報告書」と、同条第二項中「買付条件等の変更」とあるのは「回答内容の変更」と、「訂正届出書」とあるのは「訂正報告書」と、同条第三項及び第四項中「訂正届出書」とあるのは「訂正報告書」と、同条第五項中「第三項の規定による処分」とあるのは「第二十七条の十第十二項において準用する第三項の規定による処分」と、「訂正届出書」とあるのは「訂正報告書」と、「前項の規定による処分」とあるのは「同条第十二項において準用する前項の規定による処分」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p13
+    type: simple
+    text: 公開買付者が対質問回答報告書を提出したときは、直ちに当該対質問回答報告書の写しを当該対象者（当該対質問回答報告書を提出した日において、既に当該発行者の株券等に係る公開買付届出書を提出している者がある場合には、当該提出している者を含む。）に送付するとともに、当該公開買付けに係る株券等が第二十七条の三第四項各号に掲げる株券等に該当する場合には、当該各号に掲げる株券等の区分に応じ、当該各号に定める者に送付しなければならない。
+    modality: gimu
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-10-p14
+    type: junyou
+    text: 前項の規定は、第十二項において準用する第二十七条の八第一項から第四項までの規定により訂正報告書が提出された場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -105,6 +190,10 @@ parent_section:
 ### 第二十七条の十第二項
 
 意見表明報告書には、当該公開買付けに関する意見のほか、次に掲げる事項を記載することができる。
+
+一　公開買付者に対する質問
+
+二　公開買付開始公告に記載された買付け等の期間を政令で定める期間に延長することを請求する旨及びその理由（当該買付け等の期間が政令で定める期間より短い場合に限る。）
 
 ### 第二十七条の十第三項
 

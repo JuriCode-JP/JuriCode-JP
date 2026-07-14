@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-10-p1
+    type: simple
+    text: 金融商品会員制法人の住所は、その主たる事務所の所在地にあるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

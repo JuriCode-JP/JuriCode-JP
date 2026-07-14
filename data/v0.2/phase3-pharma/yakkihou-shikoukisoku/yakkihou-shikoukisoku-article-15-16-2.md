@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-16-2-p1-hashira
+    type: hashira
+    text: 認定薬局開設者は、当該薬局内の見やすい場所及び当該薬局の外側の見やすい場所に、次に掲げる事項を掲示しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-15-16-2-p1-kou-1
+    type: kou
+    text: 一　地域連携薬局等である旨
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-15-16-2-p1-kou-2
+    type: kou
+    text: 二　地域連携薬局等の機能に係る説明
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十五条の十六の二
 
 認定薬局開設者は、当該薬局内の見やすい場所及び当該薬局の外側の見やすい場所に、次に掲げる事項を掲示しなければならない。
+
+一　地域連携薬局等である旨
+
+二　地域連携薬局等の機能に係る説明

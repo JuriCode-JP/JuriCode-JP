@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百十条
 
-<!-- segment: simple id: chihou-jichi-hou-art-210-p1 -->
 一会計年度における一切の収入及び支出は、すべてこれを歳入歳出予算に編入しなければならない。

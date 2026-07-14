@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-5-p1
+    type: simple
+    text: 地方団体の徴収金を滞納処分により徴収する場合において、当該地方団体の徴収金に配当された金銭を地方税及び当該地方税の延滞金、過少申告加算金、不申告加算金又は重加算金に充てるべきときは、その金銭は、まず地方税に充てるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-5-p2
+    type: simple
+    text: 滞納処分費については、その徴収の基因となつた地方団体の徴収金に先立つて配当し、又は充当する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

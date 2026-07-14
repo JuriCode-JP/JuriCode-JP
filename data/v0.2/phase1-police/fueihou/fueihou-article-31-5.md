@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-5-p1
+    type: simple
+    text: 無店舗型性風俗特殊営業を営む者若しくはその代理人等が当該営業に関しこの法律に規定する罪若しくは第四条第一項第二号ロからトまで、リ、ヌ、ヲ若しくはワに掲げる罪に当たる違法な行為その他善良の風俗を害し若しくは少年の健全な育成に障害を及ぼす重大な不正行為で政令で定めるものをしたとき、又は無店舗型性風俗特殊営業を営む者がこの法律に基づく処分に違反したときは、当該行為又は当該違反行為が行われた時における事務所の所在地を管轄する公安委員会は、当該無店舗型性風俗特殊営業を営む者に対し、八月を超えない範囲内で期間を定めて、当該営業の全部又は一部の停止を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-5-p2
+    type: simple
+    text: 公安委員会は、前項の場合において、当該無店舗型性風俗特殊営業を営む者が第三十一条の三第二項の規定により適用する第二十八条第一項の規定又は同条第二項の規定に基づく条例の規定により受付所営業を営んではならないこととされる区域又は地域において受付所営業を営む者であるときは、その者に対し、前項の規定による当該受付所営業の停止の命令に代えて、当該受付所営業の廃止を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-5-p3
+    type: junyou
+    text: 第三十一条の規定は、第一項の規定により受付所営業の停止を命じた場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第三十一条
 cases: []
 amendments: []
 tags:

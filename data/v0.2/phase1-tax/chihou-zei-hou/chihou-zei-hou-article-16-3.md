@@ -14,49 +14,141 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p1-hashira
+    type: hashira
+    text: 次に掲げる地方税の納税者又は特別徴収義務者がこれらの地方税に係る地方団体の徴収金を滞納した場合において、その後その者に課されるべきこれらの地方団体の徴収金の徴収を確保することができないと認められるときは、地方団体の長は、その地方団体の徴収金の担保として、金額及び期限を指定して、その者に第十六条第一項各号に掲げるもの又は金銭の提供を命ずることができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-16-3-p1-kou-1
+    type: kou
+    text: 一　道府県たばこ税
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-16-3-p1-kou-2
+    type: kou
+    text: 二　ゴルフ場利用税
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-16-3-p1-kou-3
+    type: kou
+    text: 三　軽油引取税
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-16-3-p1-kou-4
+    type: kou
+    text: 四　市町村たばこ税
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-art-16-3-p1-kou-5
+    type: kou
+    text: 五　入湯税
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-art-16-3-p1-kou-6
+    type: kou
+    text: 六　特別徴収の方法によつて徴収する道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p2
+    type: simple
+    text: 前項の規定により指定する金額は、その提供を命ずる月の前月分の当該地方団体の徴収金の額の三倍に相当する金額（その金額が前年におけるその提供を命ずる月に対応する月分及びその後二月分の当該地方団体の徴収金として納入し、又は納付すべき金額に満たないときは、その金額）を限度とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p3
+    type: junyou
+    text: 第十六条第三項及び第四項の規定は、第一項の規定による担保について準用する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p4
+    type: simple
+    text: 地方団体の長は、第一項の規定により同項に規定する地方団体の徴収金の担保の提供を命じた場合において、納税者又は特別徴収義務者がその指定された期限までにその命ぜられた担保の提供をしないときは、その地方団体の徴収金に関し、その者の財産で抵当権の目的となるものにつき、同項の規定により指定した金額を限度として抵当権を設定することを文書で納税者又は特別徴収義務者に通知することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p5-zen
+    type: zen_dan
+    text: 前項の通知があつたときは、その通知を受けた納税者又は特別徴収義務者は、同項の抵当権を設定したものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+  - id: chihou-zei-hou-art-16-3-p5-kou
+    type: kou_dan
+    text: この場合において、地方団体の長は、抵当権の設定の登記を関係機関に嘱託しなければならない。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-16-3-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p6
+    type: simple
+    text: 前項後段の場合（次項に規定する場合を除く。）においては、その嘱託に係る書面には、第四項の文書が同項の納税者又は特別徴収義務者に到達したことを証する書面を添付しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p7
+    type: tokusoku
+    text: 第五項後段の場合において、不動産登記法（平成十六年法律第百二十三号）第十六条第二項（他の法令において準用する場合を含む。）において準用する同法第十八条の規定による嘱託をするときは、その嘱託情報と併せて第四項の文書が同項の納税者又は特別徴収義務者に到達したことを証する情報を提供しなければならない。この場合においては、同法第百十六条第一項の規定にかかわらず、登記義務者の承諾を得ることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第百十六条
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p8
+    type: simple
+    text: 地方団体の長は、第一項の規定による担保の提供又は第五項の規定による抵当権の設定（以下「担保の提供等」という。）があつた場合において、第一項の命令に係る地方団体の徴収金の滞納がない期間が継続して三月に達したときは、その担保を解除しなければならない。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-3-p9
+    type: tokusoku
+    text: 地方団体の長は、担保の提供等があつた納税者又は特別徴収義務者の資力その他の事情の変化により担保の提供等の必要がなくなつたと認めるときは、前項の規定にかかわらず、直ちにその解除をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -76,6 +168,18 @@ parent_section:
 ### 第十六条の三第一項
 
 次に掲げる地方税の納税者又は特別徴収義務者がこれらの地方税に係る地方団体の徴収金を滞納した場合において、その後その者に課されるべきこれらの地方団体の徴収金の徴収を確保することができないと認められるときは、地方団体の長は、その地方団体の徴収金の担保として、金額及び期限を指定して、その者に第十六条第一項各号に掲げるもの又は金銭の提供を命ずることができる。
+
+一　道府県たばこ税
+
+二　ゴルフ場利用税
+
+三　軽油引取税
+
+四　市町村たばこ税
+
+五　入湯税
+
+六　特別徴収の方法によつて徴収する道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税
 
 ### 第十六条の三第二項
 

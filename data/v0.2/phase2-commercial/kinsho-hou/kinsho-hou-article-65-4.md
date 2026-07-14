@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-65-4-p1
+    type: simple
+    text: 第三十四条の五、第六十三条の七及び第六十三条の十五に定めるもののほか、第二十九条から前条までの規定を実施するための手続その他必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

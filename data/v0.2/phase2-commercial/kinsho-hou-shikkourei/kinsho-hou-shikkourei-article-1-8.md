@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-8-p1
+    type: simple
+    text: 法第二条第四項第一号に規定する多数の者を相手方として行う場合として政令で定める場合は、五十名以上の者を相手方として行う場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

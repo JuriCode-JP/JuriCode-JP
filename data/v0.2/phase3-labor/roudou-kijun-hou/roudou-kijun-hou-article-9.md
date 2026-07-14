@@ -37,5 +37,4 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: simple id: roudou-kijun-hou-art-9-p1 -->
 この法律で「労働者」とは、職業の種類を問わず、事業又は事務所（以下「事業」という。）に使用される者で、賃金を支払われる者をいう。

@@ -34,5 +34,4 @@ tags:
 
 ### 第十六条の八
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-8-p1 -->
 政令第五十四条の十六第三号に規定する総務省令で定める施設は、駐車施設、遊技施設、飲食店、喫茶店及び物品販売施設とする。

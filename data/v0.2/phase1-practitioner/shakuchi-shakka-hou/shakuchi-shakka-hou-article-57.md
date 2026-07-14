@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十七条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-57-p1 -->
 第五十五条第一項の裁判は、当事者又は最終の審問期日の後裁判の確定前の承継人に対し、その効力を有する。

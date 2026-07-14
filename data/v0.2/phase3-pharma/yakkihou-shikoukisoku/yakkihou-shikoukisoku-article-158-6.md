@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-158-6-p1
+    type: simple
+    text: 卸売販売業者は、自ら視覚、聴覚若しくは音声機能若しくは言語機能に障害を有する薬剤師であるとき、又はその営業所において薬事に関する実務に従事する薬剤師が視覚、聴覚若しくは音声機能若しくは言語機能に障害を有するときは、保健衛生上支障を生ずるおそれがないように、必要な設備の設置その他の措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

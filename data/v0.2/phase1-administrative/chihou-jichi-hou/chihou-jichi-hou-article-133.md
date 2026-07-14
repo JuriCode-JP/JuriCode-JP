@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百三十三条
 
-<!-- segment: simple id: chihou-jichi-hou-art-133-p1 -->
 普通地方公共団体の議会の会議又は委員会において、侮辱を受けた議員は、これを議会に訴えて処分を求めることができる。

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-65-3-p1-honbun
+    type: honbun
+    text: 再生医療等製品は、その容器又は被包に、電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて厚生労働省令で定めるものにより、第六十八条の二第一項の規定により公表された同条第二項に規定する注意事項等情報を入手するために必要な番号、記号その他の符号が記載されていなければならない。
+    modality: gimu
+  - id: yakkihou-art-65-3-p1-tadashi
+    type: tadashi
+    text: ただし、厚生労働省令で別段の定めをしたときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

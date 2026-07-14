@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-805-2-p1-honbun
+    type: honbun
+    text: 新設合併等が法令又は定款に違反する場合において、消滅株式会社等の株主が不利益を受けるおそれがあるときは、消滅株式会社等の株主は、消滅株式会社等に対し、当該新設合併等をやめることを請求することができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-805-2-p1-tadashi
+    type: tadashi
+    text: ただし、前条に規定する場合は、この限りでない。
+    modality: jogai
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

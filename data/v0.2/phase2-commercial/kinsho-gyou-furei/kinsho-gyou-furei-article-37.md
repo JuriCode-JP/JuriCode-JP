@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三十二条第一項に規定する内閣府令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-37-p1-kou-1
+    type: kou
+    text: 一　商号、名称又は氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-37-p1-kou-2
+    type: kou
+    text: 二　本店又は主たる事務所の所在地（個人にあっては、住所又は居所）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-37-p1-kou-3
+    type: kou
+    text: 三　法人であるときは、代表者の氏名
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-37-p1-kou-4
+    type: kou
+    text: 四　保有する議決権の数
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: true
   has_items: false
@@ -54,11 +74,16 @@ parent_section:
 
 ### 第三十七条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-37-p1-hashira -->
 法第三十二条第一項に規定する内閣府令で定める事項は、次に掲げる事項とする。
+
+一　商号、名称又は氏名
+
+二　本店又は主たる事務所の所在地（個人にあっては、住所又は居所）
+
+三　法人であるときは、代表者の氏名
+
+四　保有する議決権の数
 
 ### 第三十七条第二項
 
-<!-- segment: honbun id: kinsho-gyou-furei-art-37-p2-honbun -->
-法第三十二条第一項の総株主等の議決権の数は、対象議決権（法第二十九条の四第二項に規定する対象議決権をいう。）を保有することとなった日の総株主等の議決権の数とする。<!-- segment: tadashi id: kinsho-gyou-furei-art-37-p2-tadashi -->
-ただし、当該総株主等の議決権の数を知ることが困難な場合には、直近の有価証券報告書等（法第二十四条第一項に規定する有価証券報告書又は法第二十四条の五第一項に規定する半期報告書をいう。以下この項において同じ。）に記載された総株主等の議決権の数（有価証券報告書等が提出されていない場合にあっては、商業登記簿その他の書類の記載内容により計算された総株主等の議決権の数）とすることができる。
+法第三十二条第一項の総株主等の議決権の数は、対象議決権（法第二十九条の四第二項に規定する対象議決権をいう。）を保有することとなった日の総株主等の議決権の数とする。ただし、当該総株主等の議決権の数を知ることが困難な場合には、直近の有価証券報告書等（法第二十四条第一項に規定する有価証券報告書又は法第二十四条の五第一項に規定する半期報告書をいう。以下この項において同じ。）に記載された総株主等の議決権の数（有価証券報告書等が提出されていない場合にあっては、商業登記簿その他の書類の記載内容により計算された総株主等の議決権の数）とすることができる。

@@ -45,5 +45,4 @@ parent_section:
 
 ### 第二百十七条
 
-<!-- segment: simple id: minpou-art-217-p1 -->
 前二条の場合において、費用の負担について別段の慣習があるときは、その慣習に従う。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百九十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-192-p1 -->
 検察官と都道府県公安委員会及び司法警察職員とは、捜査に関し、互に協力しなければならない。

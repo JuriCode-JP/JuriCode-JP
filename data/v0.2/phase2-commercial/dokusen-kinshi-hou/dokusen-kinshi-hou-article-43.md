@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十三条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-43-p1 -->
 公正取引委員会は、この法律の適正な運用を図るため、事業者の秘密を除いて、必要な事項を一般に公表することができる。

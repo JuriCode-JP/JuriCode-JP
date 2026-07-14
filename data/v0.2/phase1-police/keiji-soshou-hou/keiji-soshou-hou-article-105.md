@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-105-p1 -->
 医師、歯科医師、助産師、看護師、弁護士（外国法事務弁護士を含む。）、弁理士、公証人、宗教の職に在る者又はこれらの職に在つた者は、業務上委託を受けたため、保管し、又は所持する物で他人の秘密に関するものについては、押収を拒むことができる。但し、本人が承諾した場合、押収の拒絶が被告人のためのみにする権利の濫用と認められる場合（被告人が本人である場合を除く。）その他裁判所の規則で定める事由がある場合は、この限りでない。

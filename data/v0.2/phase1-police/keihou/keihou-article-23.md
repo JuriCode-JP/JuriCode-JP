@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: simple id: keihou-art-23-p1 -->
 刑期は、裁判が確定した日から起算する。
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: keihou-art-23-p2 -->
 拘禁されていない日数は、裁判が確定した後であっても、刑期に算入しない。

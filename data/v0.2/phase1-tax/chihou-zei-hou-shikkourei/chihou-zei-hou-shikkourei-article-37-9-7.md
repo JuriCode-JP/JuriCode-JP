@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-9-7-p1-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第三十四号に規定する国立研究開発法人情報通信研究機構が国立研究開発法人情報通信研究機構法（平成十一年法律第百六十二号）第十四条第一項第一号から第八号までに規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-9-7-p1-kou-1
+    type: kou
+    text: 一　事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-9-7-p1-kou-2
+    type: kou
+    text: 二　宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第三十七条の九の七
 
 法第七十三条の四第一項第三十四号に規定する国立研究開発法人情報通信研究機構が国立研究開発法人情報通信研究機構法（平成十一年法律第百六十二号）第十四条第一項第一号から第八号までに規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産

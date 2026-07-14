@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-5-p1
+    type: simple
+    text: 第百九十七条第一項第五号若しくは第六号若しくは第二項、第百九十七条の二第一項第十三号又は第二百条第十四号の罪に関し没収された債権等は、検察官がこれを処分しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-5-p2
+    type: simple
+    text: 第百九十七条第一項第五号若しくは第六号若しくは第二項、第百九十七条の二第一項第十三号又は第二百条第十四号の罪に関し没収すべき債権の没収の裁判が確定したときは、検察官は、当該債権の債務者に対し没収の裁判の裁判書の抄本を送付してその旨を通知するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

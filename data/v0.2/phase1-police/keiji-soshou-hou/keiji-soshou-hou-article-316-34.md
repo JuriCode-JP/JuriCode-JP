@@ -16,27 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-34-p1
+    type: simple
+    text: 被害者参加人又はその委託を受けた弁護士は、公判期日に出席することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-34-p2
+    type: simple
+    text: 公判期日は、これを被害者参加人に通知しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-34-p3
+    type: simple
+    text: 裁判所は、被害者参加人又はその委託を受けた弁護士が多数である場合において、必要があると認めるときは、これらの者の全員又はその一部に対し、その中から、公判期日に出席する代表者を選定するよう求めることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-34-p4
+    type: simple
+    text: 裁判所は、審理の状況、被害者参加人又はその委託を受けた弁護士の数その他の事情を考慮して、相当でないと認めるときは、公判期日の全部又は一部への出席を許さないことができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-34-p5
+    type: junyou
+    text: 前各項の規定は、公判準備において証人の尋問又は検証が行われる場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

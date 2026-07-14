@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百四十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-243-p1 -->
 前二条の規定は、告訴又は告発の取消についてこれを準用する。

@@ -39,6 +39,16 @@ paragraphs:
     type: hashira
     text: 不作為についての審査請求が理由がある場合には、審査庁は、裁決で、当該不作為が違法又は不当である旨を宣言する。この場合において、次の各号に掲げる審査庁は、当該申請に対して一定の処分をすべきものと認めるときは、当該各号に定める措置をとる。
     modality: unspecified
+  - id: gyousei-fufuku-shinsa-hou-art-49-p3-kou-1
+    type: kou
+    text: 一　不作為庁の上級行政庁である審査庁　当該不作為庁に対し、当該処分をすべき旨を命ずること。
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-49-p3-kou-2
+    type: kou
+    text: 二　不作為庁である審査庁　当該処分をすること。
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -79,25 +89,24 @@ parent_section:
 
 ### 第四十九条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-49-p1 -->
 不作為についての審査請求が当該不作為に係る処分についての申請から相当の期間が経過しないでされたものである場合その他不適法である場合には、審査庁は、裁決で、当該審査請求を却下する。
 
 ### 第四十九条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-49-p2 -->
 不作為についての審査請求が理由がない場合には、審査庁は、裁決で、当該審査請求を棄却する。
 
 ### 第四十九条第三項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-49-p3-hashira -->
 不作為についての審査請求が理由がある場合には、審査庁は、裁決で、当該不作為が違法又は不当である旨を宣言する。この場合において、次の各号に掲げる審査庁は、当該申請に対して一定の処分をすべきものと認めるときは、当該各号に定める措置をとる。
+
+一　不作為庁の上級行政庁である審査庁　当該不作為庁に対し、当該処分をすべき旨を命ずること。
+
+二　不作為庁である審査庁　当該処分をすること。
 
 ### 第四十九条第四項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-49-p4 -->
 審査請求に係る不作為に係る処分に関し、第四十三条第一項第一号に規定する議を経るべき旨の定めがある場合において、審査庁が前項各号に定める措置をとるために必要があると認めるときは、審査庁は、当該定めに係る審議会等の議を経ることができる。
 
 ### 第四十九条第五項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-49-p5 -->
 前項に規定する定めがある場合のほか、審査請求に係る不作為に係る処分に関し、他の法令に関係行政機関との協議の実施その他の手続をとるべき旨の定めがある場合において、審査庁が第三項各号に定める措置をとるために必要があると認めるときは、審査庁は、当該手続をとることができる。

@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-9-3-p1-honbun
+    type: honbun
+    text: 受益者連続型信託（信託法（平成十八年法律第百八号）第九十一条（受益者の死亡により他の者が新たに受益権を取得する旨の定めのある信託の特例）に規定する信託、同法第八十九条第一項（受益者指定権等）に規定する受益者指定権等を有する者の定めのある信託その他これらの信託に類するものとして政令で定めるものをいう。以下この項において同じ。）に関する権利を受益者（受益者が存しない場合にあつては、前条第五項に規定する特定委託者）が適正な対価を負担せずに取得した場合において、当該受益者連続型信託に関する権利（異なる受益者が性質の異なる受益者連続型信託に係る権利（当該権利のいずれかに収益に関する権利が含まれるものに限る。）をそれぞれ有している場合にあつては、収益に関する権利が含まれるものに限る。）で当該受益者連続型信託の利益を受ける期間の制限その他の当該受益者連続型信託に関する権利の価値に作用する要因としての制約が付されているものについては、当該制約は、付されていないものとみなす。
+    modality: unspecified
+    references:
+    - 前条
+  - id: souzoku-zei-hou-art-9-3-p1-tadashi
+    type: tadashi
+    text: ただし、当該受益者連続型信託に関する権利を有する者が法人（代表者又は管理者の定めのある人格のない社団又は財団を含む。以下第六十四条までにおいて同じ。）である場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-9-3-p2
+    type: simple
+    text: 前項の「受益者」とは、受益者としての権利を現に有する者をいう。
+    modality: teigi
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

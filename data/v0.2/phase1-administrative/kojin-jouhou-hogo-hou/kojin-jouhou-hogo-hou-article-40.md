@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四十条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-40-p1 -->
 個人情報取扱事業者は、個人情報の取扱いに関する苦情の適切かつ迅速な処理に努めなければならない。
 
 ### 第四十条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-40-p2 -->
 個人情報取扱事業者は、前項の目的を達成するために必要な体制の整備に努めなければならない。

@@ -59,15 +59,12 @@ parent_section:
 
 ### 第七十一条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-71-p1 -->
 職員の能率は、充分に発揮され、且つ、その増進がはかられなければならない。
 
 ### 第七十一条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-71-p2 -->
 前項の根本基準の実施につき、必要な事項は、この法律に定めるものを除いては、人事院規則でこれを定める。
 
 ### 第七十一条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-71-p3 -->
 内閣総理大臣は、職員の能率の発揮及び増進について、調査研究を行い、その確保のため適切な方策を講じなければならない。

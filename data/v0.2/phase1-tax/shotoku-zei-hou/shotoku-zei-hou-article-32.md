@@ -49,8 +49,8 @@ paragraphs:
     text: 前項に規定する山林所得の特別控除額は、五十万円（同項に規定する残額が五十万円に満たない場合には、当該残額）とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -73,20 +73,16 @@ parent_section:
 
 ### 第三十二条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-art-32-p1 -->
 山林所得とは、山林の伐採又は譲渡による所得をいう。
 
 ### 第三十二条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-art-32-p2 -->
 山林をその取得の日以後五年以内に伐採し又は譲渡することによる所得は、山林所得に含まれないものとする。
 
 ### 第三十二条第三項
 
-<!-- segment: simple id: shotoku-zei-hou-art-32-p3 -->
 山林所得の金額は、その年中の山林所得に係る総収入金額から必要経費を控除し、その残額から山林所得の特別控除額を控除した金額とする。
 
 ### 第三十二条第四項
 
-<!-- segment: simple id: shotoku-zei-hou-art-32-p4 -->
 前項に規定する山林所得の特別控除額は、五十万円（同項に規定する残額が五十万円に満たない場合には、当該残額）とする。

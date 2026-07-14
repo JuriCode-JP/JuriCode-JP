@@ -14,19 +14,48 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-35-p1-hashira
+    type: hashira
+    text: 法第六十三条の十二第三項（法第六十三条の十一第二項において準用する場合を含む。以下この条において同じ。）の規定により海外投資家等特例業務届出者又は金融商品取引業者は、別紙様式第二十一号の八により作成した説明書類又は第二百四十六条の三十三第一項の事業報告書（次に掲げる部分を除く。第三項において同じ。）の写しを主たる営業所若しくは事務所及び海外投資家等特例業務を行う全ての営業所若しくは事務所（外国法人又は外国に住所を有する個人にあっては、国内における主たる営業所又は事務所及び海外投資家等特例業務を行うため国内に設ける全ての営業所又は事務所）に備え置く方法その他の方法により法第六十三条の十二第三項の説明書類を公衆の縦覧に供し、又はインターネットの利用その他の方法により、投資者が常に容易に閲覧することができるよう公表しなければならない。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-246-35-p1-kou-1
+    type: kou
+    text: 一　当該海外投資家等特例業務届出者又は金融商品取引業者の住所又は所在地に係る部分
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-246-35-p1-kou-2
+    type: kou
+    text: 二　国内における代表者の状況のうち住所又は所在地に係る部分
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-246-35-p1-kou-3
+    type: kou
+    text: 三　株主の状況のうち住所又は所在地に係る部分
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-35-p2
+    type: simple
+    text: 前項の説明書類は、別紙様式第二十一号の八に準じて英語で作成することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-35-p3
+    type: simple
+    text: 法第六十三条の十二第三項に規定する内閣府令で定めるものは、別紙様式第二十一号の八又は第二百四十六条の三十三第一項の事業報告書に記載されている事項とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -46,6 +75,12 @@ parent_section:
 ### 第二百四十六条の三十五第一項
 
 法第六十三条の十二第三項（法第六十三条の十一第二項において準用する場合を含む。以下この条において同じ。）の規定により海外投資家等特例業務届出者又は金融商品取引業者は、別紙様式第二十一号の八により作成した説明書類又は第二百四十六条の三十三第一項の事業報告書（次に掲げる部分を除く。第三項において同じ。）の写しを主たる営業所若しくは事務所及び海外投資家等特例業務を行う全ての営業所若しくは事務所（外国法人又は外国に住所を有する個人にあっては、国内における主たる営業所又は事務所及び海外投資家等特例業務を行うため国内に設ける全ての営業所又は事務所）に備え置く方法その他の方法により法第六十三条の十二第三項の説明書類を公衆の縦覧に供し、又はインターネットの利用その他の方法により、投資者が常に容易に閲覧することができるよう公表しなければならない。
+
+一　当該海外投資家等特例業務届出者又は金融商品取引業者の住所又は所在地に係る部分
+
+二　国内における代表者の状況のうち住所又は所在地に係る部分
+
+三　株主の状況のうち住所又は所在地に係る部分
 
 ### 第二百四十六条の三十五第二項
 

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第五十八条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-58-p1 -->
 再調査の請求が法定の期間経過後にされたものである場合その他不適法である場合には、処分庁は、決定で、当該再調査の請求を却下する。
 
 ### 第五十八条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-58-p2 -->
 再調査の請求が理由がない場合には、処分庁は、決定で、当該再調査の請求を棄却する。

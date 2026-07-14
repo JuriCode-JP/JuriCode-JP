@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-19-p1 -->
 審判手続の期日の非公開の申出は、非公開とすべき範囲、理由及び期間を明らかにして行わなければならない。
 
 ### 第十九条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-19-p2 -->
 審判官は、審判手続の期日を非公開とするときは、その旨及び理由を述べなければならない。

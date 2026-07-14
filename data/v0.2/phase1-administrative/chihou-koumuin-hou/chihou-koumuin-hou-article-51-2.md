@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-51-2-p1
+    type: simple
+    text: 第四十九条第一項に規定する処分であつて人事委員会又は公平委員会に対して審査請求をすることができるものの取消しの訴えは、審査請求に対する人事委員会又は公平委員会の裁決を経た後でなければ、提起することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

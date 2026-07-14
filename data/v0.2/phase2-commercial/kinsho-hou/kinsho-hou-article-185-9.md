@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-9-p1
+    type: simple
+    text: 送達すべき書類は、この節に規定するもののほか、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

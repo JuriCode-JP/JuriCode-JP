@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-15-p1
+    type: simple
+    text: 第三百五十条の二第一項の合意に違反して、検察官、検察事務官又は司法警察職員に対し、虚偽の供述をし又は偽造若しくは変造の証拠を提出した者は、五年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-15-p2
+    type: simple
+    text: 前項の罪を犯した者が、当該合意に係る他人の刑事事件の裁判が確定する前であつて、かつ、当該合意に係る自己の刑事事件の裁判が確定する前に自白したときは、その刑を減軽し、又は免除することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

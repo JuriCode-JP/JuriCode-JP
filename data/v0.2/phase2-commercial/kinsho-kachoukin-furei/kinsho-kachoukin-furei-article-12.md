@@ -57,8 +57,6 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-12-p1 -->
-<!-- segment: simple id: kinsho-kachoukin-furei-art-12-p2 -->
 法第百八十五条の十において準用する民事訴訟法（平成八年法律第百九号）第百六条第二項の規定による補充送達がされたときは、審判手続の事務を行う職員は、その旨を送達を受けた者に通知しなければならない。
 
 ### 第十二条第二項
@@ -67,5 +65,4 @@ parent_section:
 
 ### 第十二条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-12-p3 -->
 金融庁長官又は審判官は、公示送達があったことを官報又は新聞紙に掲載することができる。外国においてすべき送達については、金融庁長官又は審判官は、官報又は新聞紙への掲載に代えて、公示送達があったことを通知することができる。
