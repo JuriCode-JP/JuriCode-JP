@@ -167,6 +167,9 @@ class BuildReport:
     suppl_docs: int = 0
     suppl_chunks: int = 0
     articles_not_in_corpus: int = 0
+    #: 旧索引にあって新 corpus に無い chunk_id の数。索引が corpus より古いときだけ
+    #: 非ゼロになる (index_coverage="measure" のとき集計され、"assert" では 0 か STOP)。
+    stale_index_chunk_ids: int = 0
 
 
 # =====================================================
@@ -614,9 +617,18 @@ def assert_invariants(
     chunk_rows: list[dict],
     embed_ids: set[str],
     expected: dict[str, int],
-) -> None:
+    index_coverage: str = "assert",
+) -> int:
     """Hard gates (§6): uniqueness, orphans, hash_basis presence, counts,
-    embed-index coverage. Any failure is a STOP."""
+    embed-index coverage. Any failure is a STOP.
+
+    index_coverage:
+        "assert"  -- 索引の chunk_id が corpus に全て存在すること (既定)。
+        "measure" -- 存在しない数を報告するだけ (索引が corpus より古い移行期用)。
+
+    Returns:
+        索引にあって corpus に無い chunk_id の数 (0 なら索引は corpus に追随している)。
+    """
     doc_ids = [d["juri_id"] for d in documents]
     if len(doc_ids) != len(set(doc_ids)):
         seen: set[str] = set()
@@ -636,10 +648,19 @@ def assert_invariants(
     chunk_ids = {c["chunk_id"] for c in chunk_rows}
     uncovered = sorted(embed_ids - chunk_ids)
     if uncovered:
-        raise RegistryError(
+        msg = (
             f"{len(uncovered)} embed-index chunk_ids missing from chunks.jsonl "
             f"(get_article coverage hole), first 5: {uncovered[:5]}"
         )
+        if index_coverage == "assert":
+            raise RegistryError(msg)
+        # measure モード: 索引がまだ corpus に追いついていない移行期に使う。
+        # Why: PR #138 で chunk が全面的に作り直され (枝番・号が入った)、旧索引 v8b の
+        # chunk_id はもう新 corpus に存在しない。再 embed (索引 v9) ができるまでこの
+        # assert は必ず落ちるが、それは索引が古いという既知の事実であって、
+        # レジストリ側の欠陥ではない。**落として止めるのではなく、数を報告する**。
+        # 索引を作り直したら assert モードに戻すこと。
+        print(f"WARN [index-coverage=measure] {msg}", file=sys.stderr)
     got = {
         "articles": sum(1 for d in documents if d["hash_basis"] == HASH_EGOV_CANONICAL),
         "taxanswer": sum(1 for d in documents if d["layer"] == "taxanswer"),
@@ -649,6 +670,7 @@ def assert_invariants(
     for key, want in expected.items():
         if got[key] != want:
             raise RegistryError(f"document count drift for {key}: expected {want}, got {got[key]}")
+    return len(uncovered)
 
 
 # =====================================================
@@ -657,7 +679,9 @@ def assert_invariants(
 
 
 def build_registry(
-    paths: RegistryPaths, expected: dict[str, int] | None = None
+    paths: RegistryPaths,
+    expected: dict[str, int] | None = None,
+    index_coverage: str = "assert",
 ) -> tuple[bytes, bytes, BuildReport]:
     """Assemble both ledgers in memory. Returns (documents_bytes,
     chunks_bytes, report); writing is the caller's job so determinism can be
@@ -719,9 +743,12 @@ def build_registry(
         raise RegistryError("duplicate chunk_id in corpus")
 
     embed_ids = {json.loads(line)["chunk_id"] for line in paths.embed_path.open(encoding="utf-8")}
-    assert_invariants(documents, chunk_rows, embed_ids, expected)
+    stale_index_ids = assert_invariants(
+        documents, chunk_rows, embed_ids, expected, index_coverage=index_coverage
+    )
 
     report = BuildReport(law_num_duplicate_values=dup_values)
+    report.stale_index_chunk_ids = stale_index_ids
     for d in documents:
         report.docs_by_layer[d["layer"]] = report.docs_by_layer.get(d["layer"], 0) + 1
         report.docs_by_hash_basis[d["hash_basis"]] = (
@@ -827,6 +854,17 @@ def _build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--embed", type=Path, default=_REPO / "build" / "corpus-v8-embed.jsonl")
     p.add_argument("--out-dir", type=Path, default=_REPO / "build" / "registry")
     p.add_argument("--sample-verify", type=int, default=20, help="samples per layer (0=skip)")
+    p.add_argument(
+        "--index-coverage",
+        choices=("assert", "measure"),
+        default="assert",
+        help=(
+            "embed index chunk_ids must all exist in the corpus. "
+            "'measure' only reports the shortfall -- use while the index is "
+            "older than the corpus (e.g. after a chunk rebuild, until re-embed). "
+            "Return to 'assert' once the index is rebuilt."
+        ),
+    )
     return p
 
 
@@ -840,8 +878,10 @@ def main(argv: list[str] | None = None) -> int:
         embed_path=args.embed,
         out_dir=args.out_dir,
     )
-    docs1, chunks1, report = build_registry(paths)
-    docs2, chunks2, _ = build_registry(paths)  # determinism gate (§5)
+    docs1, chunks1, report = build_registry(paths, index_coverage=args.index_coverage)
+    docs2, chunks2, _ = build_registry(  # determinism gate (§5)
+        paths, index_coverage=args.index_coverage
+    )
     if docs1 != docs2 or chunks1 != chunks2:
         raise RegistryError("nondeterministic build: two runs differ byte-wise")
     if args.sample_verify:
