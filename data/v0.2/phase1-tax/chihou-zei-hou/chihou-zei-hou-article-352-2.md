@@ -52,8 +52,8 @@ paragraphs:
     text: この場合において、同項中「前二項」とあるのは、「次条第一項」と読み替えるものとする。
     modality: gimu
     references:
-    - 前二項
     - 同項
+    - 前二項
     - 次条
     depends_on: chihou-zei-hou-art-352-2-p2-zen
 - number: 3
@@ -115,8 +115,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 次項
     - 前項
+    - 次項
     - 同項
 - number: 7
   has_proviso: false

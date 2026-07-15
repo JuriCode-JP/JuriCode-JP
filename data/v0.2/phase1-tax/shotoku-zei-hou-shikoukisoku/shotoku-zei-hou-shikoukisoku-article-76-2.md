@@ -116,10 +116,10 @@ paragraphs:
     text: 給与等の支払者は、前項の帳簿を、最後に法第百九十八条第四項の規定の適用を受けて提出された同項に規定する扶養控除等申告書（次項において「扶養控除等申告書」という。）に係る次条ただし書の規定による期限まで保存しなければならない。
     modality: gimu
     references:
-    - 次条
-    - 次項
     - 前項
     - 同項
+    - 次項
+    - 次条
 - number: 7
   has_proviso: false
   has_items: false
@@ -139,8 +139,8 @@ paragraphs:
     text: 第五項の規定により同項の帳簿を作成した給与等の支払者は、前項の届出書を受理した場合には、当該帳簿の第五項各号に掲げる事項を、当該届出書に記載されている事項に訂正しておかなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false

@@ -31,8 +31,8 @@ paragraphs:
     text: 厚生労働大臣は、前項の申請があつた場合において、当該申請に係る登録認証機関が第二十三条の九の規定に違反していると認めるときは、当該登録認証機関に対し、前条の規定による命令をするものとする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
@@ -43,8 +43,8 @@ paragraphs:
     text: 厚生労働大臣は、前項の場合において、前条の規定による命令をし、又は命令をしないことの決定をしたときは、遅滞なく、当該申請をした者に通知するものとする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

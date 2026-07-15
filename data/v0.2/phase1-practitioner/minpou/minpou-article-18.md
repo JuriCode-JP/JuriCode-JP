@@ -31,8 +31,8 @@ paragraphs:
     text: 家庭裁判所は、前項に規定する者の請求により、前条第一項の審判の全部又は一部を取り消すことができる。
     modality: koka_torikeshi
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

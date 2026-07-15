@@ -33,9 +33,9 @@ paragraphs:
     text: 前項に規定する公安委員会は、同項の規定により免許申請書を提出しようとする者に対し、その者が次条第一項第一号から第二号までのいずれかに該当するかどうかの判断に必要な質問をするため、内閣府令で定める様式の質問票を交付することができる。
     modality: kanou_kenri
     references:
-    - 次条
     - 前項
     - 同項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false

@@ -33,8 +33,8 @@ paragraphs:
     text: 株式会社は、前項の規定による決定をしようとするときは、法務省令で定める時までに、株主（種類株式発行会社にあっては、取得する株式の種類の種類株主）に対し、次項の規定による請求をすることができる旨を通知しなければならない。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

@@ -53,8 +53,8 @@ paragraphs:
     text: 第八十三条第二項の規定は、店頭デリバティブ取引契約について準用する。この場合において、同項中「前項各号」とあるのは、「第九十四条第一項各号」と読み替えるものとする。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

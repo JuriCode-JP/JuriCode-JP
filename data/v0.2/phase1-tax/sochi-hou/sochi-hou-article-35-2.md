@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の土地等の譲渡には、譲渡所得の基因となる不動産等の貸付けを含むものとし、所得税法第五十八条の規定又は第三十三条の四若しくは第三十四条から前条までの規定の適用を受ける譲渡を含まないものとする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

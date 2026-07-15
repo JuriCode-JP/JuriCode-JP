@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の書面には、株式会社の代表取締役（指名委員会等設置会社にあっては、代表執行役。次項において同じ。）が署名し、又は記名押印しなければならない。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

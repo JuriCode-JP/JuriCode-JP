@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第四十九条
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false

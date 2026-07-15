@@ -45,8 +45,8 @@ paragraphs:
     text: 第一項（前項において準用する場合を含む。以下この項において同じ。）の規定の適用がある場合における前条第一項に規定する控除限度額の計算の特例その他第一項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

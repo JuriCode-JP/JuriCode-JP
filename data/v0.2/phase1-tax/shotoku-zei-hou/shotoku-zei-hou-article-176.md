@@ -23,8 +23,8 @@ paragraphs:
     modality: jogai
     references:
     - 前二条
-    - 次項
     - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false

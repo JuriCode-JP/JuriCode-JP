@@ -433,10 +433,21 @@ def rewrite_md(
         fm["parent_section"] = parent_section
     fm_yaml = yaml.dump(fm, allow_unicode=True, sort_keys=False, width=200)
 
-    # 見出しと本文の間は常に空行 1 つに正規化する (元 md の空行数に引きずられない)
-    prefix = body[: sec.start(1)].rstrip("\n") + "\n\n"
-    if new_h1:
-        prefix = _H1_RE.sub(lambda _m: new_h1, prefix, count=1)
+    # frontmatter と `## 原文` の間は **H1 見出しだけ** (format-spec §5.1)。
+    # 全部 derived なので、元の内容を温存せず丸ごと作り直す。
+    #
+    # Why 温存してはいけないか (実際に起きた事故):
+    #   旧 render_v02_md は marker を「segment 本文の先頭 20 字」を検索して直前に挿入して
+    #   いた。その 20 字が **H1 のキャプションにも含まれる** 条では、marker が H1 行の
+    #   内部に挿入され、H1 が 2 行に割れていた:
+    #       # 地方税法 第622条(（<!-- segment: simple id: ... -->
+    #       遊休土地に対して課する特別土地保有税の課税標準）)
+    #   H1 行だけを regex で差し替えると、**割れた残り半分と marker がそのまま残る**
+    #   (2026-07-14 に 18 条で残存。本文セクションの外なので G0-a〜d はどれも見ていなかった)。
+    #   ここを「作り直す」ことで、セクション外の残骸を構造的に一掃する。
+    heading_line = body[sec.start() : sec.start(1)].rstrip("\n")  # 例: "## 原文 (日本語)"
+    h1 = new_h1 or (_H1_RE.search(body).group(0) if _H1_RE.search(body) else "")
+    prefix = f"\n{h1}\n\n{heading_line}\n\n" if h1 else f"\n{heading_line}\n\n"
     new_body = prefix + new_ja_body + body[sec.end(1) :]
     return f"---\n{fm_yaml}---\n{new_body}"
 

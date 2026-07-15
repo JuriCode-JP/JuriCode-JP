@@ -51,8 +51,8 @@ paragraphs:
     text: 令第六十三条第二項ただし書の方法により同項に規定する申告書を提出する場合には、当該申告書には、前項第二号に掲げる事項のうち同条第二項ただし書の規定により氏名を付記する他の相続人の個人番号は、記載することを要しない。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false

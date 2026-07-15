@@ -35,8 +35,8 @@ paragraphs:
     text: 定型約款準備者が定型取引合意の前において前項の請求を拒んだときは、前条の規定は、適用しない。
     modality: jogai
     references:
-    - 前条
     - 前項
+    - 前条
   - id: minpou-art-548-3-p2-tadashi
     type: tadashi
     text: ただし、一時的な通信障害が発生した場合その他正当な事由がある場合は、この限りでない。

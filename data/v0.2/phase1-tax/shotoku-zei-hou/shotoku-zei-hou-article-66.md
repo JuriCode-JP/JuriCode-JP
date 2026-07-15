@@ -44,8 +44,8 @@ paragraphs:
     text: 第一項又は前項の規定の適用を受ける居住者が死亡した場合における長期大規模工事又は工事の請負に係る収入金額及び費用の額の処理の特例その他前二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前二項
     - 前項
+    - 前二項
 cases: []
 amendments: []
 tags:

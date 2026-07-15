@@ -62,8 +62,8 @@ paragraphs:
     text: 内国法人がその役員に対して支給する給与（前項又は次項の規定の適用があるものを除く。）の額のうち不相当に高額な部分の金額として政令で定める金額は、その内国法人の各事業年度の所得の金額の計算上、損金の額に算入しない。
     modality: unspecified
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

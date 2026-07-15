@@ -30,9 +30,9 @@ paragraphs:
     modality: gimu
     references:
     - 前三条
-    - 前条
     - 同項
     - 次条
+    - 前条
     depends_on: yakkihou-shikoukisoku-art-159-18-p1-zen
 cases: []
 amendments: []

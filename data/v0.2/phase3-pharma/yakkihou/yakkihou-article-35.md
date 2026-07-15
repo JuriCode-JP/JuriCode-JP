@@ -49,8 +49,8 @@ paragraphs:
     text: 医薬品営業所管理者は、次条第一項及び第二項に規定する義務並びに同条第三項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
     modality: gimu
     references:
-    - 同項
     - 次条
+    - 同項
 - number: 4
   has_proviso: true
   has_items: false

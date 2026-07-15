@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

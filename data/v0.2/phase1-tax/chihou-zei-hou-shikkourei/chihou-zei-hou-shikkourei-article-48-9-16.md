@@ -48,8 +48,8 @@ paragraphs:
     text: 前項の場合における法第三百二十一条の七の八第三項において読み替えて準用する法第三百二十一条の七の六の規定の適用については、同条中「前条第一項」とあるのは、「地方税法施行令（昭和二十五年政令第二百四十五号）第四十八条の九の十六第二項」とする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false

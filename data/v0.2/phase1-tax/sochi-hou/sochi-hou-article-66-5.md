@@ -157,8 +157,8 @@ paragraphs:
     text: 第三項の規定は、確定申告書等に同項の規定の適用を受ける旨を記載した書面を添付し、かつ、その用いる倍数が妥当なものであることを明らかにする書類その他の資料（次項において「資料等」という。）を保存している場合に限り、適用する。
     modality: unspecified
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 9
   has_proviso: false
   has_items: false

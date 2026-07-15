@@ -23,8 +23,8 @@ paragraphs:
     modality: gimu
     references:
     - 前条
-    - 同項
     - 次条
+    - 同項
   - id: sochi-hou-art-41-18-3-p1-kou-1
     type: kou
     text: '一　次に掲げる法人（その運営組織及び事業活動が適正であること並びに市民から支援を受けていることにつき政令で定める要件を満たすものに限る。）に対する寄附金

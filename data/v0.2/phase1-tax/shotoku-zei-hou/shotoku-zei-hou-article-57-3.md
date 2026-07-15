@@ -44,8 +44,8 @@ paragraphs:
     text: 前項に定めるもののほか、外貨建取引の換算の特例その他前二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前二項
     - 前項
+    - 前二項
 cases:
 - case_id: ntt-2016-06-02-j103-7
   case_type: ruling

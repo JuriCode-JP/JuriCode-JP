@@ -52,8 +52,8 @@ paragraphs:
     text: 前項の届出を行つた者（次項において「研修実施機関」という。）が行う研修の実施の基準は、次のとおりとする。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
   - id: yakkihou-shikoukisoku-art-149-16-p3-kou-1
     type: kou
     text: '一　研修は次に掲げる事項について講義により行うものとし、総時間数が十二時間以上であること。

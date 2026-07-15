@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による経由地公安委員会を経由して行う更新申請書の提出は、次項の規定による申出をする場合を除き、当該免許証等の有効期間が満了する日の直前のその者の誕生日までに行わなければならない。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

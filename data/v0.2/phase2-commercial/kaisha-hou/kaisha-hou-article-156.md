@@ -46,8 +46,8 @@ paragraphs:
     text: 前項の規定は、前条第一号及び第二号並びに第四号から第十三号までに掲げる場合には、適用しない。
     modality: jogai
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

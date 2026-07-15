@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の場合には、処分庁等は、直ちに、審査請求書又は審査請求録取書（前条後段の規定により陳述の内容を録取した書面をいう。第二十九条第一項及び第五十五条において同じ。）を審査庁となるべき行政庁に送付しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

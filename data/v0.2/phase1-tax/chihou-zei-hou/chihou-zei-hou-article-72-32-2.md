@@ -113,8 +113,8 @@ paragraphs:
     text: 第一項前段の規定の適用を受けている内国法人につき、第六項の処分又は前項の届出書の提出があつたときは、これらの処分又は届出書の提出があつた日の翌日以後の第一項前段の期間内に行う前条第一項の申告については、第一項前段の規定は、適用しない。
     modality: jogai
     references:
-    - 前条
     - 前項
+    - 前条
   - id: chihou-zei-hou-art-72-32-2-p9-tadashi
     type: tadashi
     text: ただし、当該内国法人が、同日以後新たに同項前段の承認を受けたときは、この限りでない。
@@ -174,8 +174,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

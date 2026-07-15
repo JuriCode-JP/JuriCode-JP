@@ -50,8 +50,8 @@ paragraphs:
     text: 前項の規定により第三百四十二条の二の許可を取り消す場合には、裁判所は、決定で、帰国等保証金（第九十四条第一項の保証金が納付されている場合にあつては、当該保証金。次項において同じ。）の全部又は一部を没取することができる。
     modality: kanou_kenri
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false

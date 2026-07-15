@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、前条第一項の処分が取り消され又は留置の期間が満了したときは、第九十八条の規定を準用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

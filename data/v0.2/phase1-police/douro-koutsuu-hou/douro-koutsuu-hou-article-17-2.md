@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 前条
     - 次条
+    - 前条
   - id: douro-koutsuu-hou-art-17-2-p1-kou-1
     type: kou
     text: 一　歩道等を通行する間、当該特定小型原動機付自転車が歩道等を通行することができるものであることを内閣府令で定める方法により表示していること。

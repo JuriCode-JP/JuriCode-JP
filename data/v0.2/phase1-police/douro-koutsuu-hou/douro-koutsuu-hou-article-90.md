@@ -159,8 +159,8 @@ paragraphs:
     text: この場合において、第三項中「第一項ただし書」とあるのは「第五項」と、「同項第四号」とあるのは「第一項第四号」と、第四項中「第一項ただし書」とあるのは「次項」と、「第二項」とあるのは「第六項」と読み替えるものとする。
     modality: gimu
     references:
-    - 次項
     - 同項
+    - 次項
     depends_on: douro-koutsuu-hou-art-90-p7-zen
 - number: 8
   has_proviso: false

@@ -98,8 +98,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 次項
     - 前項
+    - 次項
     - 同項
 - number: 4
   has_proviso: false

@@ -115,8 +115,8 @@ paragraphs:
     modality: gimu
     references:
     - 前条
-    - 同項
     - 次条
+    - 同項
 cases: []
 amendments: []
 tags:

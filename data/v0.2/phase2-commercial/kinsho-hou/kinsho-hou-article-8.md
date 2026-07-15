@@ -22,9 +22,9 @@ paragraphs:
     text: 第四条第一項から第三項までの規定による届出は、内閣総理大臣が第五条第一項の規定による届出書（同項ただし書に規定する事項の記載がない場合には、当該事項に係る前条第一項の規定による訂正届出書。次項において同じ。）を受理した日から十五日を経過した日に、その効力を生ずる。
     modality: unspecified
     references:
-    - 次項
-    - 前条
     - 同項
+    - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の期間内に前条第一項の規定による訂正届出書の提出があつた場合における前項の規定の適用については、内閣総理大臣がこれを受理した日に、第五条第一項の規定による届出書の受理があつたものとみなす。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

@@ -42,8 +42,8 @@ paragraphs:
     text: 前項の規定により還付をする場合において、当該中間納付額のうちすでに第二十五条から前条まで又は前項の規定により還付されることが確定したものがあるときは、当該中間納付額は、その還付されることが確定した金額だけ減額されたものとみなして同項の規定を適用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
     - 同項
 - number: 4
   has_proviso: false
@@ -66,8 +66,8 @@ paragraphs:
     text: 前項において準用する前条第一項の場合において、次の各号に掲げる還付金の区分に応じ当該各号に定める日数は、同項の期間に算入しない。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
     - 同項
   - id: chihou-zei-hou-shikkourei-art-29-p5-kou-1
     type: kou

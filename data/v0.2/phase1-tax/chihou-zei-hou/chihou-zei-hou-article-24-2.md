@@ -23,8 +23,8 @@ paragraphs:
     modality: unspecified
     references:
     - 次項
-    - 前条
     - 同項
+    - 前条
     - 次条
 - number: 2
   has_proviso: false

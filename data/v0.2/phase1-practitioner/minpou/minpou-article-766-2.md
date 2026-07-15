@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の定めについての前条第二項又は第三項の規定による審判の請求は、次に掲げる者（第二号に掲げる者にあっては、その者と子との交流についての定めをするため他に適当な方法がないときに限る。）がすることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 前項
+    - 前条
   - id: minpou-art-766-2-p2-kou-1
     type: kou
     text: 一　父母

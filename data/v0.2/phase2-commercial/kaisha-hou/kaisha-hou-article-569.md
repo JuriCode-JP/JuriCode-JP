@@ -22,8 +22,8 @@ paragraphs:
     text: 前条の申立てがあった場合には、裁判所は、次項の場合を除き、協定の認可の決定をする。
     modality: unspecified
     references:
-    - 次項
     - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: true

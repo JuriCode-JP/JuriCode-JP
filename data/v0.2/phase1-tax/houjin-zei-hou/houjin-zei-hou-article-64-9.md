@@ -129,8 +129,8 @@ paragraphs:
     text: 第二項の申請につき第一項に規定する親法人に対して通算承認の処分があつた場合には、第二項に規定する他の内国法人（同項に規定する最初の事業年度開始の時に当該親法人との間に完全支配関係があるものに限る。次項及び第六項において同じ。）の全てにつき、その通算承認があつたものとみなす。
     modality: unspecified
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 5
   has_proviso: false
   has_items: false

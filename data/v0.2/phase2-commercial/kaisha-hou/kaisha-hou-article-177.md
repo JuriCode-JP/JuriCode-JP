@@ -45,8 +45,8 @@ paragraphs:
     text: 裁判所は、前項の決定をするには、前条第一項の規定による請求の時における株式会社の資産状態その他一切の事情を考慮しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
@@ -71,8 +71,8 @@ paragraphs:
     text: 第二項の期間内に同項の申立てがないとき（当該期間内に第一項の協議が調った場合を除く。）は、前条第一項の規定による請求は、その効力を失う。
     modality: unspecified
     references:
-    - 前条
     - 同項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -54,8 +54,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 5
   has_proviso: false
   has_items: false

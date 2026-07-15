@@ -360,3 +360,73 @@ def test_rewrite_md_fails_loud_without_ja_section():
         assert "原文" in str(e)
     else:
         raise AssertionError("原文セクションが無い md は fail loud すべき")
+
+
+BROKEN_H1_MD = """---
+law_id: X
+article_number: '622'
+article_id: chihou-zei-hou-art-622
+paragraphs: []
+cases: []
+---
+
+# 地方税法 第622条(（<!-- segment: simple id: chihou-zei-hou-art-622-p1 -->
+遊休土地に対して課する特別土地保有税の課税標準）)
+
+## 原文 (日本語)
+
+### 第六百二十二条
+
+古い本文。
+
+## 判例リンク (Case Law)
+
+- 既存の判例リンク
+"""
+
+
+def test_rewrite_md_clears_junk_between_frontmatter_and_body():
+    """H1 と `## 原文` の間の残骸 (marker / 割れた H1 の後半) を一掃すること.
+
+    旧 render_v02_md は marker を「segment 本文の先頭 20 字」の直前に挿入していた。
+    その 20 字が H1 のキャプションにも現れる条では marker が **H1 行の内部** に入り、
+    H1 が 2 行に割れた。H1 行だけを差し替えると割れた残り半分が居残る (18 条で実際に
+    残存)。この領域は全部 derived なので丸ごと作り直す。
+    """
+    art = ET.fromstring(
+        "<Article Num='622'><ArticleCaption>（遊休土地に対して課する特別土地保有税の課税標準）"
+        "</ArticleCaption><ArticleTitle>第六百二十二条</ArticleTitle>"
+        "<Paragraph Num='1'><ParagraphSentence><Sentence>新しい本文。</Sentence>"
+        "</ParagraphSentence></Paragraph></Article>"
+    )
+    body, fm_paragraphs, _w = rb.build_article_md(art, "chihou-zei-hou-art-622")
+    out = rb.rewrite_md(
+        BROKEN_H1_MD, body, fm_paragraphs, new_h1=rb.build_h1(art, "地方税法", "622")
+    )
+
+    head = out.split("## 原文 (日本語)")[0]
+    assert "<!--" not in out, "内部マーカーが残っている"
+    # H1 と frontmatter 以外の行が head に残っていないこと
+    head_lines = [
+        ln for ln in head.split("---", 2)[2].splitlines() if ln.strip() and not ln.startswith("# ")
+    ]
+    assert head_lines == [], f"本文外のゴミ行が残っている: {head_lines}"
+    assert "# 地方税法 第622条(（遊休土地に対して課する特別土地保有税の課税標準）)" in out
+    assert "## 判例リンク (Case Law)" in out  # 後続セクションは保存
+    assert "新しい本文。" in out
+
+
+def test_relative_references_are_deterministic_and_in_document_order():
+    """references が出現順で決定論的であること.
+
+    旧実装 `list(set(refs))` は str ハッシュのランダム化により実行ごとに順序が
+    変わり、内容が同じなのに 2,516 条が差分として現れた (2026-07-14)。corpus は
+    再現可能でなければ「同じ入力から同じ出力」を主張できない。
+    """
+    from segment_parser import extract_relative_references
+
+    text = "前項の場合において、同項の規定により…前項に規定する…同項各号に掲げる"
+    got = extract_relative_references(text)
+    assert got == ["前項", "同項"], got  # 出現順・重複排除
+    for _ in range(20):
+        assert extract_relative_references(text) == got

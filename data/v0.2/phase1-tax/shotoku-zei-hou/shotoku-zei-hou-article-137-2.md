@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第百二十九条
     references:
-    - 次項
     - 同項
+    - 次項
   - id: shotoku-zei-hou-art-137-2-p1-kou-1
     type: kou
     text: 一　当該国外転出の日の属する年分の第百二十条第一項第三号（確定所得申告）に掲げる金額
@@ -98,9 +98,9 @@ paragraphs:
     text: 第一項の規定の適用を受ける個人は、同項の規定の適用に係る国外転出の日の属する年分の所得税に係る確定申告期限から納税猶予分の所得税額に相当する所得税の全部につき同項、前項、第八項又は第九項の規定による納税の猶予に係る期限が確定する日までの間の各年の十二月三十一日において有し、又は契約を締結している適用資産につき、引き続き第一項の規定の適用を受けたい旨その他財務省令で定める事項を記載した届出書（次項から第十項までにおいて「継続適用届出書」という。）を、同日の属する年の翌年三月十五日（次項から第十項までにおいて「提出期限」という。）までに、納税地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
+    - 同項
     - 前項
     - 次項
-    - 同項
 - number: 7
   has_proviso: false
   has_items: false
@@ -125,8 +125,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 9
   has_proviso: false
   has_items: true

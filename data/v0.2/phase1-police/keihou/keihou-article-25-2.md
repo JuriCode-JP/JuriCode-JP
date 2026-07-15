@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の規定により保護観察を仮に解除されたときは、前条第二項ただし書及び第二十六条の二第二号の規定の適用については、その処分を取り消されるまでの間は、保護観察に付せられなかったものとみなす。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

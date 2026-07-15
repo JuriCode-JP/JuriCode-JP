@@ -37,8 +37,8 @@ paragraphs:
     text: 前項に規定する場合には、株式会社は、前条第一項の規定により提出しなければならない新株予約権証券を有する者が交付を受けることができる株式の株主に対する通知又は催告をすることを要しない。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
@@ -64,8 +64,8 @@ paragraphs:
     text: 前項に規定する場合には、株式会社は、前条第一項の規定により提出しなければならない新株予約権証券を有する者が交付を受けることができる新株予約権の新株予約権者に対する通知又は催告をすることを要しない。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
@@ -91,8 +91,8 @@ paragraphs:
     text: 前項に規定する場合には、株式会社は、前条第一項の規定により提出しなければならない新株予約権証券を有する者が交付を受けることができる新株予約権付社債に付された新株予約権の新株予約権者に対する通知又は催告をすることを要しない。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

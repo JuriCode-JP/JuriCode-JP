@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第七十条
     references:
-    - 前条
     - 同項
+    - 前条
 cases: []
 amendments:
 - effective_date: '2020-04-01'

@@ -76,8 +76,8 @@ paragraphs:
     text: 第一項第二号に掲げる者が非居住者である場合における同項の規定により徴収された所得税の処理その他同項及び前項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -40,8 +40,8 @@ paragraphs:
     text: 前条第三項から第十一項までの規定は、前二項の規定による命令について準用する。
     modality: unspecified
     references:
-    - 前二項
     - 前条
+    - 前二項
   - id: douro-koutsuu-hou-art-75-2-supplnote-1
     type: supplnote
     text: （罰則　第一項及び第二項については第百十九条第二項第五号、第百二十三条　第三項については第百二十一条第一項第十号）

@@ -94,8 +94,8 @@ paragraphs:
     text: 第一項の規定は、同項の相続に係る被相続人から同項の相続又は遺贈により財産を取得した者が前条第一項の規定の適用を受け、又は受けている場合には、適用しない。
     modality: jogai
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: true
@@ -109,9 +109,9 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 前条
     - 同項
+    - 前項
   - id: sochi-hou-art-69-5-p5-kou-1
     type: kou
     text: 一　当該特定森林経営計画対象山林の価額

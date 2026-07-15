@@ -93,8 +93,8 @@ paragraphs:
     text: 裁判所は、第一項の申立てが不適法であるとき、又は申立てに理由がないことが明らかなときは、同項及び前二項の規定にかかわらず、直ちに申立てを却下することができる。
     modality: kanou_kenri
     references:
-    - 前二項
     - 同項
+    - 前二項
 - number: 8
   has_proviso: false
   has_items: false
@@ -105,8 +105,8 @@ paragraphs:
     text: 前項の規定は、前条第二項各号に掲げる裁判の申立てがあった裁判所が民事訴訟費用等に関する法律（昭和四十六年法律第四十号）の規定に従い当該各号に定める者に対する期日の呼出しに必要な費用の予納を相当の期間を定めて申立人に命じた場合において、その予納がないときについて準用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

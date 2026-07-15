@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の申請書には、前条第一項の検査命令書の写しを添えなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

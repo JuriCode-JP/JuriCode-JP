@@ -23,8 +23,8 @@ paragraphs:
     modality: unspecified
     references:
     - 次項
-    - 前条
     - 同項
+    - 前条
   - id: kokuzei-tsuusoku-hou-art-61-p1-kou-1
     type: kou
     text: 一　その申告又は更正に係る国税について期限内申告書が提出されている場合において、その法定申告期限から一年を経過する日後に当該修正申告書が提出され、又は当該更正に係る更正通知書が発せられたとき　その法定申告期限から一年を経過する日の翌日から当該修正申告書が提出され、又は当該更正に係る更正通知書が発せられた日までの期間
@@ -48,8 +48,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前条
     - 前項
+    - 前条
     - 同項
   - id: kokuzei-tsuusoku-hou-art-61-p2-kou-1
     type: kou

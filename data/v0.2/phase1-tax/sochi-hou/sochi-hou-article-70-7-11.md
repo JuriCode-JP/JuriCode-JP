@@ -38,16 +38,16 @@ paragraphs:
     text: 前項前段に規定する場合において、同項の経過措置医療法人が同項の経済的利益に係る贈与税の申告書の提出期限において認定医療法人（平成二十六年改正医療法施行日から令和十一年十二月三十一日までの間に厚生労働大臣認定を受けた医療法人に限る。）であるときは、同項の他の個人は、当該経済的利益について、前二条の規定の適用を受けることができる。
     modality: kanou_kenri
     references:
-    - 前二条
     - 前項
     - 同項
+    - 前二条
   - id: sochi-hou-art-70-7-11-p2-kou
     type: kou_dan
     text: この場合において、同項の死亡した個人は第七十条の七の九第一項又は前条第一項に規定する贈与者と、当該他の個人はこれらの規定に規定する受贈者とみなす。
     modality: unspecified
     references:
-    - 前条
     - 同項
+    - 前条
     depends_on: sochi-hou-art-70-7-11-p2-zen
 - number: 3
   has_proviso: false
@@ -59,9 +59,9 @@ paragraphs:
     text: 第一項の規定は、同項の他の個人が前項の規定により前二条の規定の適用を選択した場合を除き、適用しない。
     modality: jogai
     references:
-    - 前二条
-    - 前項
     - 同項
+    - 前項
+    - 前二条
 - number: 4
   has_proviso: false
   has_items: false

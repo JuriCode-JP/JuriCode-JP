@@ -62,8 +62,8 @@ paragraphs:
     text: 対象者は、第二項の規定により意見表明報告書に同項第二号に掲げる請求をする旨の記載をした場合には、第一項に規定する期間の末日の翌日までに、政令で定めるところにより、前項の規定による延長後の買付け等の期間その他の内閣府令で定める事項を公告しなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
@@ -74,8 +74,8 @@ paragraphs:
     text: 前項の規定による公告（次項において「期間延長請求公告」という。）を行つた対象者は、その内容に形式上の不備があり、又は記載された内容が事実と相違していると認めたときは、その内容を訂正して、内閣府令で定めるところにより、公告し、又は公表しなければならない。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 6
   has_proviso: false
   has_items: false

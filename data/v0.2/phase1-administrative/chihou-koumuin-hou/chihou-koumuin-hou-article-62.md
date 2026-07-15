@@ -22,8 +22,8 @@ paragraphs:
     text: 第六十条第二号又は前条第一号から第三号まで若しくは第五号に掲げる行為を企て、命じ、故意にこれを容認し、そそのかし、又はそのほう助をした者は、それぞれ各本条の刑に処する。
     modality: gimu_kei
     references:
-    - 本条
     - 前条
+    - 本条
 cases: []
 amendments: []
 tags:

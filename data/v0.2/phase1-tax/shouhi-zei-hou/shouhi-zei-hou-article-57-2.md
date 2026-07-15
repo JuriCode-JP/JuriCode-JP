@@ -37,8 +37,8 @@ paragraphs:
     text: この場合において、第九条第一項本文の規定により消費税を納める義務が免除される事業者が、同項本文の規定の適用を受けないこととなる課税期間の初日から前項の登録を受けようとするときは、政令で定める日までに、当該申請書を当該税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
     depends_on: shouhi-zei-hou-art-57-2-p2-zen
 - number: 3
   has_proviso: false

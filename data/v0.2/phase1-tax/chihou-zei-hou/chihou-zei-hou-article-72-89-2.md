@@ -25,11 +25,11 @@ paragraphs:
     override_target:
     - 前三条
     references:
-    - 同項
-    - 次条
     - 前条
-    - 次項
     - 前三条
+    - 次条
+    - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

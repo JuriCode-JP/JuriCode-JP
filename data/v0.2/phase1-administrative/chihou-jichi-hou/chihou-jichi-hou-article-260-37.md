@@ -34,8 +34,8 @@ paragraphs:
     - 前二条
     references:
     - 前二条
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

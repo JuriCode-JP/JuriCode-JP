@@ -31,8 +31,8 @@ paragraphs:
     text: 清算人が第四百八十二条第四項において準用する第三百五十六条第一項の規定に違反して同項第一号の取引をしたときは、当該取引により清算人又は第三者が得た利益の額は、前項の損害の額と推定する。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: true

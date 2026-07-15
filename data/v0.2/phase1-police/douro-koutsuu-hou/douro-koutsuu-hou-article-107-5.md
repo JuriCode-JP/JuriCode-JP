@@ -83,8 +83,8 @@ paragraphs:
     applies_provisions:
     - 第百四条
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false

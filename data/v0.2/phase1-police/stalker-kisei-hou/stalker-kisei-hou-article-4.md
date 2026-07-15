@@ -33,8 +33,8 @@ paragraphs:
     text: 一の警察本部長等が前項の規定による警告（以下「警告」という。）をした場合には、他の警察本部長等は、当該警告を受けた者に対し、当該警告に係る前条の規定に違反する行為について警告をすることができない。
     modality: kanou_negative
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: true
   has_items: false

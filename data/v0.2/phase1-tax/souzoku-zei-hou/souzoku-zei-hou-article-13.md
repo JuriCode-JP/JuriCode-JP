@@ -75,8 +75,8 @@ paragraphs:
     text: 前条第一項第二号又は第三号に掲げる財産の取得、維持又は管理のために生じた債務の金額は、前二項の規定による控除金額に算入しない。
     modality: unspecified
     references:
-    - 前二項
     - 前条
+    - 前二項
   - id: souzoku-zei-hou-art-13-p3-tadashi
     type: tadashi
     text: ただし、同条第二項の規定により同号に掲げる財産の価額を課税価格に算入した場合においては、この限りでない。

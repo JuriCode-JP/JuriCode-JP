@@ -23,8 +23,8 @@ paragraphs:
     modality: gimu
     references:
     - 次項
-    - 同項
     - 次条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -35,8 +35,8 @@ paragraphs:
     text: 法第五十三条第二十一項に規定する被合併法人等（次条及び第八条の十九の六において「被合併法人等」という。）の配賦欠損金控除額の生じた事業年度終了の日が同項に規定する適格合併の日の前日又は同項に規定する残余財産の確定の日である場合における当該配賦欠損金控除額に係る法第五十三条第二十項の規定の適用については、同項中「後最初の事業年度終了の日」とあるのは、「終了の日」とする。
     modality: gimu
     references:
-    - 同項
     - 次条
+    - 同項
 cases: []
 amendments: []
 tags:

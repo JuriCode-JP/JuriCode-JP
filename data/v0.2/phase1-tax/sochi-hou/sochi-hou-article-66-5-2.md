@@ -201,8 +201,8 @@ paragraphs:
     text: 第一項の規定により損金の額に算入されない金額に係る法人税法の規定の適用その他同項から第三項まで及び第六項から前項までの規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

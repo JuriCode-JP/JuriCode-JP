@@ -234,9 +234,18 @@ def detect_modality(text: str) -> str:
 
 
 def extract_relative_references(text: str) -> list[str]:
-    """text から相対参照を抽出 (絶対参照化は後段)."""
-    refs = RELATIVE_REF_PATTERN.findall(text)
-    return list(set(refs))  # 重複排除
+    """text から相対参照を抽出 (絶対参照化は後段). 出現順で重複排除する.
+
+    Why set を使わないか (非決定性のバグ):
+        旧実装は ``list(set(refs))`` だった。Python の str ハッシュは実行ごとに
+        ランダム化される (PYTHONHASHSEED) ため、**同じ入力から実行ごとに違う
+        順序の corpus が出る**。2026-07-14、内容が同じなのに 2,516 条の
+        frontmatter が差分として現れて発覚した。
+        corpus は再現可能でなければ「同じ入力から同じ出力」を主張できず、
+        差分レビューも監査も成立しない。dict のキー順 (= 挿入順) で
+        **出現順を保ったまま**重複排除する。
+    """
+    return list(dict.fromkeys(RELATIVE_REF_PATTERN.findall(text)))
 
 
 def detect_nikakawarazu_target(text: str) -> list[str]:

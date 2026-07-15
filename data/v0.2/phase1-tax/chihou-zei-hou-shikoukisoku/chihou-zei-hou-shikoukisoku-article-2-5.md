@@ -115,8 +115,8 @@ paragraphs:
     text: 退職手当等の支払者は、前項の帳簿を、最後に第二項の規定の適用を受けて提出された退職所得申告書に係る前条第二項ただし書の規定による期限まで保存しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false

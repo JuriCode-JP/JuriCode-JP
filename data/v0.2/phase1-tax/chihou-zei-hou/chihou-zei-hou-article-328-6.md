@@ -54,8 +54,8 @@ paragraphs:
     text: 第一項各号又は前項の規定により第三百二十八条の二の規定を適用する場合における所得税法第三十条第二項の退職所得控除額の計算については、前二項の規定による分離課税に係る所得割を徴収すべき退職手当等を支払うべきことが確定した時の状況によるものとする。
     modality: gimu
     references:
-    - 前二項
     - 前項
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false

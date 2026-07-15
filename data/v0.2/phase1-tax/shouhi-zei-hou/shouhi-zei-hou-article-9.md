@@ -108,9 +108,9 @@ paragraphs:
     override_target:
     - 前項
     references:
+    - 同項
     - 前項
     - 次項
-    - 同項
 - number: 8
   has_proviso: false
   has_items: false
@@ -130,8 +130,8 @@ paragraphs:
     text: やむを得ない事情があるため第四項又は第五項の規定による届出書を第四項の規定の適用を受けようとし、又は受けることをやめようとする課税期間の初日の前日までに提出できなかつた場合における同項又は前項の規定の適用の特例及び第七項に規定する調整対象固定資産の仕入れ等が特例申告書の提出に係る課税貨物の保税地域からの引取りである場合その他の場合における同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 cases:
 - case_id: ntt-2012-06-21-j87-22
   case_type: ruling

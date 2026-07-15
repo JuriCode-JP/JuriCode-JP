@@ -56,8 +56,8 @@ paragraphs:
     text: 法第六十九条第二十七項に規定する控除対象外国法人税の額を課されたことを証する書類その他の財務省令で定める書類は、前項第二号の過去適用事業年度の第二十九条の四第二項各号及び前条第二項各号に掲げる書類とする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: true

@@ -34,8 +34,8 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前条
-    - 同項
     - 次条
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

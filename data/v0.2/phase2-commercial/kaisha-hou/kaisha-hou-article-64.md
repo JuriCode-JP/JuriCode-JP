@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の証明書を交付した銀行等は、当該証明書の記載が事実と異なること又は第三十四条第一項若しくは前条第一項の規定により払い込まれた金銭の返還に関する制限があることをもって成立後の株式会社に対抗することができない。
     modality: kanou_negative
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

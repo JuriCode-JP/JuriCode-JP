@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第七十四条
     references:
-    - 次項
     - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false

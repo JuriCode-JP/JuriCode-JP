@@ -118,8 +118,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -144,8 +144,8 @@ paragraphs:
     text: 第一項第九号の「特定仕組債」とは、法第二条第一項第一号から第五号までに掲げる有価証券又は同項第十七号に掲げる有価証券のうち同項第一号から第五号までに掲げる有価証券の性質を有するもの（次に掲げる要件の全てに該当するものを除く。）であって、顧客が前条第三号ロ又は第五号ロに掲げる事項を理解するために相当程度の知識及び経験を必要とするものをいう。
     modality: teigi
     references:
-    - 前条
     - 同項
+    - 前条
   - id: kinsho-gyou-furei-art-83-p4-kou-1
     type: kou
     text: 一　償還期限及び償還金額（確定金額に限る。）の定めがあり、かつ、償還時に額面金額の全部又は一部の償還がされない条件が付されていないこと。

@@ -37,9 +37,9 @@ paragraphs:
     text: 前項本文の場合には、当該申告書に記載された事項のうち前条第一項から第三項までに規定する事項に相当するもの及び次項の規定により附記された事項は、同条第一項から第三項までの規定により申告されたものとみなす。
     modality: unspecified
     references:
-    - 次項
-    - 前条
     - 前項
+    - 前条
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

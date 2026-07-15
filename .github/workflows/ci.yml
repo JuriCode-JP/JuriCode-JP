@@ -102,6 +102,21 @@ jobs:
         # smoke test として担保 (FU-504 entry point 修復後の退行検知).
         run: python tools/scripts/fix-phase-tags.py --path data/v0.2 --check-only
 
+      - name: Canonical md residue check (G0-e)
+        # 正本 md の **ファイル全体** に残骸が無いこと:
+        #   (1) 内部マーカー `<!-- ... -->` が 0
+        #   (2) `## 原文` の外に本文由来のテキストが 0
+        #
+        # Why 独立ステップか: G0 ゲート本体は ground truth に e-Gov XML
+        # (cache/laws, 133MB, gitignored) を要求するため CI で走らない。
+        # G0-e だけは XML 不要なので、CI で常設できる。
+        #
+        # Why 必要か: G0-a〜d は「原文セクションの中身」しか見ていない。
+        # 検査範囲の外にあるものはゲートが緑でも残り続ける。実際 2026-07-14 に
+        # G0-a/b/c/d を全部緑にして「マーカー 0」と報告した後、セクション外に
+        # マーカー 1 件 + 本文の残骸 17 件が残っていた。
+        run: python tools/scripts/check-md-residue.py --path data/v0.2
+
       - name: Validate v0.2 corpus phase mapping (FU-503)
         # 2026-05-26 FU-503: build-v0.2-corpus.py の build_law_to_phase /
         # build_article_to_caption が data/v0.2/ から想定の 43 laws / 8 phases /

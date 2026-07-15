@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の書面には、前条第二項の書面を添附しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -89,8 +89,8 @@ paragraphs:
     text: 免許証（仮免許に係るものを除く。次条第五項において同じ。）及び免許情報記録個人番号カードを有する者は、前項の規定による免許証の有効期間の更新若しくは免許情報記録の有効期間の更新又はその双方を受けることができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 次条
+    - 前項
   - id: douro-koutsuu-hou-art-101-p7-tadashi
     type: tadashi
     text: ただし、その双方を受けようとする者は、その双方を同時に申請しなければならない。

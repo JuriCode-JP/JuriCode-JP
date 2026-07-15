@@ -22,8 +22,8 @@ paragraphs:
     text: 法第五十七条の七第一項第一号イに規定する政令で定める金額は、同項に規定する指定会社（次項及び第五項において「指定会社」という。）の平成二十四年七月一日を含む事業年度開始の時における同号イに規定する空港用地の帳簿価額とする。
     modality: gimu
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false

@@ -31,8 +31,8 @@ paragraphs:
     text: 税務署長は、前項の予定納税基準額が前条ただし書の規定により計算されるべきこととなつた場合には、同項の居住者に対し、書面によりその旨を通知する。
     modality: tetsuduki
     references:
-    - 前条
     - 前項
+    - 前条
     - 同項
 - number: 3
   has_proviso: false

@@ -180,8 +180,8 @@ paragraphs:
     modality: gimu
     references:
     - 前二項
-    - 次項
     - 前項
+    - 次項
   - id: shotoku-zei-hou-art-60-3-p10-kou-1
     type: kou
     text: 一　贈与の日の属する年分の所得税につき第一項から第三項までの規定の適用を受けるべき個人の受贈者　当該個人の同日の属する年分の所得税に係る確定申告期限
@@ -246,8 +246,8 @@ paragraphs:
     text: 第六項から前項までの規定の適用については、これらの規定に規定する受贈者、相続人、受遺者又は猶予適用相続人がこれらの規定に規定する贈与等の日後に前条第十一項各号に掲げる事由により取得した有価証券等は、当該受贈者、相続人、受遺者又は猶予適用相続人が引き続き所有していたものとみなす。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 13
   has_proviso: false
   has_items: false

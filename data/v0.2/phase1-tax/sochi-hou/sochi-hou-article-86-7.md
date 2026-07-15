@@ -33,8 +33,8 @@ paragraphs:
     text: 消費税法第十五条第二項から第十五項までの規定は、前項の規定を第八十五条から前条までにおいて適用する場合について準用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
