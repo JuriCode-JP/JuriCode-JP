@@ -54,24 +54,37 @@ def test_combined_digest_is_stable() -> None:
     assert mod.combined_digest(_REPO) == mod.combined_digest(_REPO)
 
 
+def _materialize_locked_files(mod, root: Path) -> None:
+    """Copy every real locked file into root, preserving relative paths, so
+    combined_digest(root) finds them all regardless of how many are locked."""
+    for rel in mod.LOCKED_FILES:
+        dst = root / rel
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_bytes((_REPO / rel).read_bytes())
+
+
 def test_combined_digest_binds_content(tmp_path: Path) -> None:
-    """Changing the file's content changes the digest."""
+    """Changing any locked file's content changes the digest."""
     mod = _load_module()
-    (tmp_path / "gates").mkdir()
-    orig = (_REPO / "gates" / "pass-lines.json").read_bytes()
-    (tmp_path / "gates" / "pass-lines.json").write_bytes(orig)
+    _materialize_locked_files(mod, tmp_path)
     before = mod.combined_digest(tmp_path)
-    (tmp_path / "gates" / "pass-lines.json").write_bytes(orig + b"\n// tampered\n")
+    first = tmp_path / mod.LOCKED_FILES[0]
+    first.write_bytes(first.read_bytes() + b"\n// tampered\n")
     after = mod.combined_digest(tmp_path)
     assert before != after
 
 
 def test_combined_digest_binds_path(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
-    """The path is hashed too: identical bytes under a different locked path differ."""
+    """The path is hashed too: identical bytes under a different locked path differ.
+
+    Isolated from the real LOCKED_FILES via monkeypatch so it exercises exactly one
+    file both times -- the point is the path, not the file count.
+    """
     mod = _load_module()
     content = b'{"pass_lines": {}}\n'
     (tmp_path / "gates").mkdir()
-    (tmp_path / "gates" / "pass-lines.json").write_bytes(content)
+    (tmp_path / "gates" / "a.json").write_bytes(content)
+    monkeypatch.setattr(mod, "LOCKED_FILES", ["gates/a.json"])
     d_normal = mod.combined_digest(tmp_path)
 
     (tmp_path / "other").mkdir()

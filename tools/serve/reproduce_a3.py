@@ -80,7 +80,7 @@ def _load_pass_lines() -> dict[str, dict]:
 # the bytes. A test (test_verify_gates_lock.py) asserts the two agree, so if a later
 # step adds a file to the lock and forgets to add it here, CI goes red instead of the
 # harness quietly stamping a digest that no longer matches the anchor.
-_LOCKED_GATE_FILES = ["gates/pass-lines.json"]
+_LOCKED_GATE_FILES = ["gates/pass-lines.json", "gates/g0-classification.json"]
 
 
 def _pass_lines_digest() -> str:

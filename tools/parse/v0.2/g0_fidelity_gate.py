@@ -1022,6 +1022,100 @@ def render_summary_md(agg: dict, skipped_no_xml: list[str]) -> str:
     return "\n".join(lines)
 
 
+_REPO_ROOT = _HERE.parents[2]  # tools/parse/v0.2 -> repo root
+G0_CLASSIFICATION_PATH = _REPO_ROOT / "gates" / "g0-classification.json"
+
+
+def load_classification() -> dict[str, list[str]]:
+    """Load gates/g0-classification.json: which aggregate counters decide pass/fail.
+
+    Why: whether a counter is a violation (fails the build), a diagnostic (printed,
+    never fails), or a descriptor (a magnitude, not a verdict) is an owner decision.
+    Holding it as data anchored by an out-of-repo digest keeps that decision out of
+    reach of whoever edits this module.
+    """
+    with G0_CLASSIFICATION_PATH.open(encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def check_classification_covers_aggregate(agg: dict, classification: dict) -> None:
+    """Cross-check the classification against the real aggregate() keys, both ways.
+
+    Why: an aggregate key that no list mentions would be silently excluded from the
+    verdict -- a violation that never fails is the exact defect this gate removes. A
+    classified key that aggregate() does not produce would silently protect nothing (a
+    typo in the list). Either mismatch raises. This runs on every gate invocation, not
+    only in tests, so the guarantee cannot drift away from the code that relies on it.
+    """
+    agg_keys = set(agg)
+    classified = (
+        set(classification["violation"])
+        | set(classification["diagnostic"])
+        | set(classification["descriptor"])
+    )
+    unclassified = agg_keys - classified
+    if unclassified:
+        raise ValueError(
+            f"g0-classification.json does not classify aggregate key(s): {sorted(unclassified)}. "
+            "Every aggregate counter must be listed as violation / diagnostic / descriptor."
+        )
+    phantom = classified - agg_keys
+    if phantom:
+        raise ValueError(
+            "g0-classification.json classifies key(s) that aggregate() does not "
+            f"produce: {sorted(phantom)} (a typo would silently protect nothing)."
+        )
+    overlap = set(classification["non_aggregate_violation"]) & agg_keys
+    if overlap:
+        raise ValueError(
+            "non_aggregate_violation entries must live outside aggregate(); found "
+            f"inside it: {sorted(overlap)}."
+        )
+
+
+def _counter_fires(value: Any) -> bool:
+    """A counter 'fires' when a number is non-zero or a list/dict/str is non-empty."""
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return value != 0
+    if isinstance(value, (list, dict, str)):
+        return len(value) > 0
+    return bool(value)
+
+
+def _counter_magnitude(value: Any) -> int:
+    """How much a fired counter contributes to the printed total."""
+    if isinstance(value, bool):
+        return 1 if value else 0
+    if isinstance(value, (int, float)):
+        return int(value)
+    if isinstance(value, (list, dict, str)):
+        return len(value)
+    return 1 if value else 0
+
+
+def count_violations(
+    agg: dict, skipped_no_xml: list[str], classification: dict
+) -> tuple[int, dict[str, Any]]:
+    """Total violation magnitude + the per-key breakdown of whatever fired.
+
+    Why: the exit code must equal what the summary shows -- never "N violations,
+    exit 0". Violation keys are the owner-classified ones; skipped_no_xml (a law
+    silently dropped from the denominator) is a violation held outside aggregate().
+    Diagnostics (e.g. g0a_paragraph_count_mismatch) are never counted here.
+    """
+    breakdown: dict[str, Any] = {}
+    for key in classification["violation"]:
+        val = agg[key]
+        if _counter_fires(val):
+            breakdown[key] = val
+    if "skipped_no_xml" in classification["non_aggregate_violation"] and skipped_no_xml:
+        breakdown["skipped_no_xml"] = skipped_no_xml
+    total = sum(_counter_magnitude(v) for v in breakdown.values())
+    return total, breakdown
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--data-dir", type=Path, default=Path("data/v0.2"))
@@ -1076,7 +1170,25 @@ def main() -> int:
     summary = render_summary_md(agg, skipped_no_xml)
     safe_write_text(args.out_dir / "summary.md", summary, encoding="utf-8")
     print(summary)
-    return 0
+
+    # ---- verdict: the exit code follows the findings ----
+    # The measurement above is unchanged; this only makes the exit code obey the
+    # owner-classified violation counters instead of always returning 0.
+    classification = load_classification()
+    check_classification_covers_aggregate(agg, classification)  # raises on drift, every run
+    total, breakdown = count_violations(agg, skipped_no_xml, classification)
+
+    diag = {k: agg[k] for k in classification["diagnostic"] if _counter_fires(agg[k])}
+    print("\n## 判定 (verdict)")
+    print(f"- violation total: {total}")
+    if breakdown:
+        for key, val in breakdown.items():
+            print(f"  - {key}: {val}")
+    if diag:
+        print(f"- diagnostics (printed, do not fail the gate): {diag}")
+    print(f"- exit: {1 if total >= 1 else 0}")
+
+    return 1 if total >= 1 else 0
 
 
 if __name__ == "__main__":

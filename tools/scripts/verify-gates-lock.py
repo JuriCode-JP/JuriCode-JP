@@ -47,6 +47,7 @@ from pathlib import Path
 # scanner learned this the hard way -- see tools/scripts/check_no_leaks.py).
 LOCKED_FILES = [
     "gates/pass-lines.json",
+    "gates/g0-classification.json",
 ]
 
 ENV_VAR = "GATES_LOCK_SHA256"
