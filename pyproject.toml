@@ -204,6 +204,10 @@ testpaths = [
     # ⚠ reproduce_a3.py は module top で numpy を import するため、CI (dev deps に numpy 無し)
     # では pytest.importorskip("numpy") で SKIP される (collection 落ち回避)。ローカルのみ実走。
     "tools/serve/tests/test_reproduce_a3_verdict.py",
+    # 2026-07-15: run-ci.py の pytest 対象集合が ci.yml と一致することの drift ガード。
+    # ci.yml 明示列挙と本 testpaths の両所に配線 (登録漏れは既知の事故クラス)。hermetic
+    # (yaml パース + importlib・build/ 非依存)。CI-safe。
+    "tools/scripts/tests/test_run_ci_pytest_parity.py",
 ]
 pythonpath = [
     "tools/shared/src",
