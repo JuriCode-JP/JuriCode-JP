@@ -15,6 +15,14 @@ Why 正本 md を唯一の情報源にするか (★F3 の解消):
     - 表 chunk (extract_table_from_xml.py)  : md には GFM 表として載るが chunk は別ファイル
     - 附則 chunk (extract_supplproviso_from_xml.py) : 附則は正本 md に存在しない
     - rollup chunk (add_rollup_chunks.py)   : segment の派生 (条・項単位の連結)
+
+★★ `build/chunks/` を丸ごと削除してはならない ★★
+    このディレクトリには、**本ツールでは再生成できないストア**が同居している:
+      通達 (*-tsutatsu)・タックスアンサー (*-taxanswer)・国税不服審判所の裁決 (kfs-*)
+    これらは NTA / KFS の Web から取得してパースしたもので、法令 corpus とは別系統。
+    `rm -rf build/chunks` をすると **NTA からの再取得が必要になる** (2026-07-14 に実際に
+    消してしまい、退避ディレクトリから復元した)。
+    本ツールは法令ストアだけを上書きするので、**消さずにそのまま再実行すればよい**。
 """
 
 from __future__ import annotations
