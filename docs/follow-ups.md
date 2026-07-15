@@ -1113,6 +1113,74 @@ chunk が返すと、出典検証 (quote → chunk → article hash) の鎖が�
 
 ---
 
+### [ ] FU-559: Fetch-time source hashes for tsutatsu / taxanswer / ruling layers (2026-07-13 added)
+
+**Context**: the citation registry (`tools/registry/build_registry.py`) records
+`hash_basis: juricode-stored-text` for the non-statute layers: the sha256 is computed over the
+text we ingested, i.e. a self-declared fingerprint, NOT a comparison against the publisher's
+original HTML (NTA / KFS). The statute layers, by contrast, are round-trip-verified against the
+e-Gov XML (`egov-xml-canonical`).
+
+**To do**: persist a hash of the source HTML at FETCH time (fetcher side), carry it through the
+parse pipeline into the layer stores, and upgrade the registry `hash_basis` for those layers to a
+source-anchored value. Until then the registry README wording ("self-declared, not verified
+against the publisher") must stay.
+
+**Related**: FU-555 (registry design) / FU-554 (canonicalization).
+
+### [ ] FU-560: Manifest anchors (ja_text_sha256) for supplementary provisions (附則) (2026-07-13 added)
+
+**Context**: 附則 chunks in corpus-v8 have `article_id: null` and no entry in
+`_source-manifest.json`, so the registry synthesizes 附則 documents (juri_id = 条-unit id derived
+from the chunk_id) and hashes their stored parse text itself (`hash_basis: egov-xml-derived`).
+The text is deterministic e-Gov XML parse output, but there is no per-document manifest anchor,
+so CI cannot round-trip-verify 附則 the way it verifies 本則 articles.
+
+**To do**: emit per-附則 manifest entries (or a parallel manifest) from the parse pipeline with a
+locked `ja_text_sha256`, then upgrade the registry's 附則 rows to `egov-xml-canonical` (copied
+verbatim, never recomputed).
+
+**Related**: FU-561 (branch-article corpus coverage) / FU-555.
+
+### [ ] FU-561: corpus-v8 drops most branch articles (条の枝番) from the retrieval index (2026-07-13 added)
+
+**Context (measured 2026-07-13, registry sprint)**: the manifests contain 16,332 articles across
+58 laws; corpus-v8 references only 10,630 of them (after normalizing the 156 underscore-form ids,
+e.g. `art-144_3` -> `art-144-3`). The uncovered 5,702 articles are 100% BRANCH articles
+(`第N条のM`): manifests hold 8,219 branch articles but corpus-v8 covers only 2,517. All 40
+"deleted" articles and 5 near-empty ones are inside that same uncovered set; ZERO plain-numbered
+articles are missing. Hardest-hit laws: kinsho-hou (873), chihou-zei-hou (754),
+yakkihou-shikoukisoku (535), chihou-zei-hou-shikkourei (360), kinsho-hou-shikkourei (348).
+
+**Impact**: retrieval cannot surface these articles at all (they are absent from the index, not
+merely ranked low). The registry deliberately ledgers ALL manifest articles regardless
+(documents.jsonl is the canonical ledger, not an index artifact), so `get_article` can still
+serve them once the MCP layer exists.
+
+**To do**: find where the corpus build enumerates articles (likely a numeric-only article-number
+filter or a branch-suffix parsing gap in the v8 chunk pipeline), fix, rebuild the corpus/index,
+and re-lock retrieval baselines afterwards (index change = new baseline per the model-update
+protocol). Do NOT hot-patch the index without re-locking baselines.
+
+**ROOT CAUSE FOUND AND FIXED (PR #138, 2026-07-14)**: the chunk pipeline never dropped these
+articles at enumeration time -- it emitted them as **empty chunk files**. `segment_parser` split
+the body on a paragraph-heading regex that allowed only ONE branch level
+(`(?:の[…]+)?`), so `第百三十二条の二` matched but `第十条の五の二` did not; when no heading
+matched, the paragraph body silently fell back to `""` and the article produced zero segments.
+The heading regex is now unified in `juricode_shared.headings` with zero-or-more branch levels.
+
+**Measured after PR #138** (`build/chunks`, 2026-07-14): 16,332 body chunk files, **0 empty**;
+of these **8,219 are branch articles, 0 empty** (was 5,813 empty). Every manifest article now has
+at least one chunk.
+
+**REMAINING**: the *index* (corpus-v8 / embeddings v8b) is still the old one and still lacks these
+articles. Closing this FU requires the corpus rebuild (free) + re-embed (costs money, separate
+decision) + new baselines. Do not mark done until the index is rebuilt and baselines re-locked.
+
+**Related**: FU-560 / retrieval baseline protocol (Vault CLAUDE.md モデル更新プロトコル) /
+PR #138 (G0 fidelity gate).
+
+
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
 
 **現状**: `hen: int + hen_name_ja + hen_name_en` flat 構造. 中国語・韓国語追加時にフィールドが増殖.

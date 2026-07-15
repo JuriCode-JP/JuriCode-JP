@@ -190,6 +190,9 @@ testpaths = [
     # valid_citations_only / verify_text_hash) の正本。ci.yml の明示列挙と本 testpaths の
     # 両所に配線する (登録漏れは既知の事故クラス)。
     "packages/juricode-verifier/tests",
+    # 2026-07-13: 引用レジストリ (W6 MVP) builder の hermetic tests。合成 tmp_path
+    # fixture のみ (build/ 非依存・CI-safe)。ci.yml 明示列挙と両所配線。
+    "tools/registry/tests/test_build_registry.py",
 ]
 pythonpath = [
     "tools/shared/src",
