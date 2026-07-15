@@ -986,6 +986,49 @@ FU-415 sprint で `fix-phase-tags.py` を サンドボックス環境 で開発�
 
 ---
 
+### FU-562 — Investigate the retrieval movement after item-level chunks entered the index
+
+**Status**: open (filed 2026-07-15). **Not started. Do not run the experiment casually --
+it changes one variable and must not be confounded with anything else.**
+
+**What was measured** (numbers side by side; the two indexes were built from different
+corpora, so this is not a like-for-like comparison and neither index "beat" the other):
+
+| | index v8b | index v9 |
+|---|---:|---:|
+| chunks in index | 89,412 | 143,749 |
+| A-3 honbun R@10 | 84/97 | 78/97 |
+| A-3 honbun R@20 | 87/97 | 85/97 |
+| A-3 tsutatsu R@20 | 15/15 | 15/15 |
+| A-3 taxanswer R@20 | 17/17 | 17/17 |
+| B4 grounded | 47/59 | 45/59 |
+| B4 `retrieval_gold_present` | 57/59 | 57/59 |
+
+`retrieval_gold_present` is **unchanged** (57/59): the gold chunks are still reachable.
+What moved is where they rank.
+
+**Hypothesis (unverified -- do not write it up as a finding until it is checked)**: short
+item-level (号) chunks now compete for top-K and push article-level gold down, even after
+article dedup. Their text is short and specific, which is exactly what makes them good
+citations and may also make them win on cosine similarity against a query phrased at the
+article level.
+
+**Steps**:
+1. Per-query diff of the queries whose rank moved. For each, record the `layer`,
+   `segment_type` and text length of the chunks that now outrank the gold. This is a
+   measurement, not a fix -- report what displaced what before proposing anything.
+2. Candidate change: prepend the paragraph stem (`context_prefix`) to item chunks'
+   `embed_text`, so an item carries the clause that introduces it. This was deliberately
+   deferred earlier to avoid confounding it with the corpus rebuild.
+3. **Change one variable at a time.** A re-embed costs money and hours: produce a
+   pre-flight cost report and get approval before running one.
+
+**Why this is P2, not P0**: the index is correct (G0-a/b/c/d/e all pass with zero
+violations; branch-numbered articles and item text are present and verbatim-quotable).
+The open question is ranking, not fidelity.
+
+---
+
 ## P3 — Phase 1 後期以降 (2026-10〜) / Phase 2 検討
 
 ### [ ] FU-553: TaxAnswer records lack a stable dedup key (article_id / directive_id)

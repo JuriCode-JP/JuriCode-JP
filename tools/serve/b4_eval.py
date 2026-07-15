@@ -37,6 +37,34 @@ from juricode_shared.safe_write import safe_write_text  # noqa: E402
 
 V8B_PREFIX = REPO / "build" / "embeddings" / "v0.2-aug-v8b-gemini"
 CORPUS = REPO / "build" / "corpus-v8-embed.jsonl"
+
+V9_PREFIX = REPO / "build" / "embeddings" / "v0.2-aug-v9-gemini"
+CORPUS_V9 = REPO / "build" / "corpus-v11-embed.jsonl"
+
+# 既定は v9 (現行 baseline)。--index v8b を渡せば旧 baseline が再現できる状態は保つ。
+_INDEX = V9_PREFIX
+_CORPUS = CORPUS_V9
+
+# 合格線は索引ごと。ある索引で測った線は、別の索引について何も言わない (母集団が違う)。
+#   v8b -- 号・細別が corpus に無く、枝番条 (132-2 等) は索引に存在すらしなかった頃の索引。
+#   v9  -- 号・細別が第一級。G0-a/b/c/d/e すべて違反ゼロ。数値は v8b より低い。
+#          それでもこちらを線にする。線は「ズレの検出」のためにあり、見栄えのためではない。
+BASELINES: dict[str, dict] = {
+    "v0.2-aug-v8b-gemini": {
+        "grounded_correct": 47,
+        "n_questions": 59,
+        "violations": {"G1": 0, "G2": 1, "G3": 0, "G4": 4, "G5": 0, "G6": 0},
+        "snapped_quote_mismatch": 0,
+        "note": "measured before item-level chunks existed",
+    },
+    "v0.2-aug-v9-gemini": {
+        "grounded_correct": 45,
+        "n_questions": 59,
+        "violations": {"G1": 0, "G2": 1, "G3": 0, "G4": 5, "G5": 0, "G6": 0},
+        "snapped_quote_mismatch": 0,
+        "note": "measured 2026-07-15 on corpus-v11 (item-level chunks present)",
+    },
+}
 OUT = REPO / "build" / "p2-b4-results"
 EVAL = REPO / "data" / "eval-set"
 
@@ -206,9 +234,9 @@ def classify_g2(attempts: list[list[dict]]) -> dict:
 
 def start_p1(fold: bool) -> tuple[ThreadingHTTPServer, int]:
     """実 v8b 索引を常駐ロードした P1 retrieval を localhost HTTP で起動 (in-process thread)."""
-    print(f"[startup] loading v8b index (fold={fold}) ...", file=sys.stderr)
+    print(f"[startup] loading index {_INDEX.name} (fold={fold}) ...", file=sys.stderr)
     t0 = time.perf_counter()
-    RS._SERVICE = RS.RetrievalService(V8B_PREFIX, CORPUS, default_fold=fold)
+    RS._SERVICE = RS.RetrievalService(_INDEX, _CORPUS, default_fold=fold)
     print(f"[startup] index loaded in {time.perf_counter() - t0:.1f}s", file=sys.stderr)
     httpd = ThreadingHTTPServer(("127.0.0.1", 0), RS.Handler)
     threading.Thread(target=httpd.serve_forever, daemon=True).start()
@@ -231,7 +259,15 @@ def main() -> int:
         help="出力 JSON のファイル名 (省略時は従来どおり b4-results-g2v2.json / -mock.json)。"
         "別モデル再測時に既存結果を上書きしないために指定する",
     )
+    ap.add_argument("--index", type=Path, default=None, help="索引 prefix (既定 v9)")
+    ap.add_argument("--corpus", type=Path, default=None, help="索引の入力 corpus (既定 v11)")
     args = ap.parse_args()
+
+    global _INDEX, _CORPUS
+    if args.index:
+        _INDEX = args.index
+    if args.corpus:
+        _CORPUS = args.corpus
 
     OUT.mkdir(parents=True, exist_ok=True)
     eval_items = build_eval_set()
@@ -327,7 +363,7 @@ def main() -> int:
     out_cost = provider.output_toks / 1_000_000 * RATE_OUTPUT_PER_M
     summary = {
         "model": args.model,
-        "index": V8B_PREFIX.name,
+        "index": _INDEX.name,
         "fold_default": True,
         "n_questions": n,
         "n_completed": n_done,
@@ -378,6 +414,35 @@ def main() -> int:
             f"\n*** STOP: snapped_quote_mismatch={g2_snapmismatch} (implementation bug). ***",
             file=sys.stderr,
         )
+        return 1
+
+    # ---- 合格線との照合 (mock は生成を伴わないので対象外) ----------------------
+    if args.mock:
+        return 0
+    base = BASELINES.get(_INDEX.name)
+    if base is None:
+        print(
+            f"\n*** STOP: no baseline recorded for index {_INDEX.name!r}. "
+            f"Known: {sorted(BASELINES)}. Measure it, then record it in BASELINES. ***",
+            file=sys.stderr,
+        )
+        return 1
+    drift = []
+    if n_grounded != base["grounded_correct"] or n_done != base["n_questions"]:
+        drift.append(
+            f"grounded {n_grounded}/{n_done} != baseline "
+            f"{base['grounded_correct']}/{base['n_questions']}"
+        )
+    for code, want in base["violations"].items():
+        if code_counts[code] != want:
+            drift.append(f"{code} {code_counts[code]} != baseline {want}")
+    print(f"\n=== baseline: {_INDEX.name} ({base['note']}) ===")
+    if drift:
+        print("*** B4 DRIFT (do not tune -- find the cause): ***", file=sys.stderr)
+        for d in drift:
+            print(f"    {d}", file=sys.stderr)
+        return 1
+    print("*** B4 PASS: reproduces the recorded baseline for this index. ***")
     return 0
 
 
