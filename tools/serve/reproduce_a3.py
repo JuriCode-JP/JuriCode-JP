@@ -53,27 +53,58 @@ CORPUS_V9 = REPO / "build" / "corpus-v11-embed.jsonl"
 CORPUS = CORPUS_V8
 
 # Pass lines are per index. A pass line measured on one index says nothing about
-# another: the corpora differ in what they contain, so the population differs.
-#
-#   v8b -- the corpus behind this index had no item-level (号) or sub-item text, and
-#          branch-numbered articles (e.g. 132-2) were absent from the index entirely.
-#          Kept so that `--index <v8b>` still reproduces the historical numbers.
-#   v9  -- item and sub-item text is first-class; branch-numbered articles are present.
-#          Fidelity gates G0-a/b/c/d/e pass with zero violations. These numbers are
-#          lower than v8b's. They are the pass line anyway: the index is more correct,
-#          and a pass line exists to detect drift, not to flatter the build.
-TARGETS: dict[str, dict] = {
-    "v0.2-aug-v8b-gemini": {
-        "honbun": {"N": 97, "R@10": 84, "R@20": 87},
-        "newlayer": {"tsutatsu": {"N": 15, "R@20": 15}, "taxanswer": {"N": 17, "R@20": 17}},
-        "note": "measured on the index built before item-level chunks existed",
-    },
-    "v0.2-aug-v9-gemini": {
-        "honbun": {"N": 97, "R@10": 78, "R@20": 85},
-        "newlayer": {"tsutatsu": {"N": 15, "R@20": 15}, "taxanswer": {"N": 17, "R@20": 17}},
-        "note": "measured 2026-07-15 on corpus-v11 (item-level chunks present)",
-    },
-}
+# another: the corpora differ in what they contain, so the population differs. The
+# values are NOT a literal here anymore -- they live in gates/pass-lines.json, which
+# is anchored by a digest held outside this repo's write scope (see
+# tools/scripts/verify-gates-lock.py). Keeping them out of the code means "the gate
+# passed" can no longer mean "it passed the line the same edit could have lowered".
+# The reasoning for why the v9 numbers are lower than v8b's lives in that file's
+# _comment field -- it is what stops someone from "fixing" the lower numbers.
+PASS_LINES_PATH = REPO / "gates" / "pass-lines.json"
+
+
+def _load_pass_lines() -> dict[str, dict]:
+    """Load the locked pass lines from gates/pass-lines.json.
+
+    Why: the pass line is a contract, not a build output. Reading it from a
+    digest-anchored file (rather than a code literal) keeps whoever edits this
+    module from silently moving the line they are being measured against.
+    """
+    with PASS_LINES_PATH.open(encoding="utf-8") as fh:
+        return json.load(fh)["pass_lines"]
+
+
+# The gate-contract files locked by tools/scripts/verify-gates-lock.py. This list
+# must stay identical to that script's LOCKED_FILES: the stamped digest below is
+# meant to equal what GATES_LOCK_SHA256 holds, and both bind the paths as well as
+# the bytes. A test (test_verify_gates_lock.py) asserts the two agree, so if a later
+# step adds a file to the lock and forgets to add it here, CI goes red instead of the
+# harness quietly stamping a digest that no longer matches the anchor.
+_LOCKED_GATE_FILES = ["gates/pass-lines.json", "gates/g0-classification.json"]
+
+
+def _pass_lines_digest() -> str:
+    """Combined SHA256 of the locked gate-contract files -- byte-identical to what
+    tools/scripts/verify-gates-lock.py computes and what goes in GATES_LOCK_SHA256.
+
+    Why: the stamp on the verdict line exists so a reader can confirm WHICH pass line
+    a run passed against, by comparing the stamp to the CI variable directly. That
+    only works if the stamp is the same value as the anchor -- the combined digest
+    over all locked files (path-bound), not the fingerprint of one file. The logic is
+    copied verbatim from verify-gates-lock.py:combined_digest (sorted list, LF
+    normalization, path + NUL + bytes); a subtle divergence would stamp a digest that
+    never matches, so the agreement is pinned by a test.
+    """
+    import hashlib
+
+    h = hashlib.sha256()
+    for rel in sorted(_LOCKED_GATE_FILES):
+        norm = (REPO / rel).read_bytes().replace(b"\r\n", b"\n")
+        h.update(rel.encode("utf-8") + b"\0" + norm)
+    return h.hexdigest()
+
+
+TARGETS: dict[str, dict] = _load_pass_lines()
 
 
 def _rss_mb() -> float | None:
@@ -285,16 +316,20 @@ def main() -> int:
     print(f"  startup={startup_s:.1f}s  RSS={rss} MB")
     print(f"\n  report -> {OUT / 'service-a3-repro.json'}")
 
+    digest = _pass_lines_digest()
     if not ok:
         print(
-            "\n*** T6 FAILED: service does not reproduce the A-3 numbers. STOP (do not tune). ***"
+            f"\n*** T6 FAILED: service does not reproduce the A-3 numbers. STOP (do not tune). ***"
+            f"\n  pass line checked against gates/pass-lines.json gates_lock_sha256={digest}"
         )
         return 1
     # 合格線は索引ごとに違う。ここに数値をハードコードすると、別の索引で通したときに
     # **緑のログが嘘をつく** (実際 2026-07-15 に、78/85 で通ったのに 84/87 と表示した)。
+    # digest を刻むことで、どの版の合格線に対して通ったかがログから分かる。
     print(
         f"\n*** T6 PASS: {args.index.name} reproduces its pass line "
         f"(honbun R@10={target['R@10']}/{target['N']}, R@20={target['R@20']}/{target['N']}). ***"
+        f"\n  pass line checked against gates/pass-lines.json gates_lock_sha256={digest}"
     )
     return 0
 

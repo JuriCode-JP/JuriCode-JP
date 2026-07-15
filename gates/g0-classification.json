@@ -1,0 +1,48 @@
+{
+  "_comment": "Which aggregate counters decide pass/fail, and which are only reported. A gate that prints violations and exits 0 is not a gate. This file is anchored by an out-of-repo digest (tools/scripts/verify-gates-lock.py); changing a key's class is an owner decision, not a fix for a red build.",
+  "violation": [
+    "articles_missing_md",
+    "articles_md_only",
+    "g0a_diff",
+    "g0a_order_violations",
+    "g0a_short_match_ambiguous",
+    "g0a_articles_with_excess",
+    "g0a_table_format_diff",
+    "g0b_diff",
+    "g0b_all_chunks_missing",
+    "g0b_parser_chunks_missing",
+    "g0b_articles_md_not_in_chunks",
+    "g0b_table_rows_not_in_table_chunks",
+    "g0c_violations",
+    "g0c_strict_line_violations",
+    "g0c_strict_substring_violations",
+    "marker_lines_total",
+    "files_with_markers",
+    "g0e_marker_articles",
+    "g0e_marker_occurrences",
+    "g0e_junk_articles",
+    "ruby_contaminated_articles",
+    "ruby_contaminated_occurrences",
+    "manifest_xml_sha_mismatch_laws"
+  ],
+  "diagnostic": [
+    "g0a_paragraph_count_mismatch"
+  ],
+  "descriptor": [
+    "laws",
+    "xml_articles",
+    "md_articles",
+    "g0a_exact",
+    "g0a_missing_by_category",
+    "g0b_exact",
+    "g0c_violation_samples",
+    "g0c_strict_samples",
+    "g0e_samples",
+    "ruby_by_law",
+    "ruby_samples",
+    "appdx_total"
+  ],
+  "non_aggregate_violation": [
+    "skipped_no_xml"
+  ]
+}
