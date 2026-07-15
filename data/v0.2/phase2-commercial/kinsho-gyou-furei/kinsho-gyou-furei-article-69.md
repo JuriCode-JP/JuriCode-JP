@@ -25,11 +25,14 @@ paragraphs:
     type: kou
     text: '一　当該業務を開始した場合　次に掲げる事項を記載した書類
 
-      イ　当該業務の方法
 
-      ロ　当該業務の損失の危険の管理方法
+      　イ　当該業務の方法
 
-      ハ　当該業務を行う部署の名称及び人員配置'
+
+      　ロ　当該業務の損失の危険の管理方法
+
+
+      　ハ　当該業務を行う部署の名称及び人員配置'
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-69-p1-kou-2

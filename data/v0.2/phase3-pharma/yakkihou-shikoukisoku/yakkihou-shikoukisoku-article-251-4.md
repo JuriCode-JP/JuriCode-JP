@@ -25,9 +25,11 @@ paragraphs:
     type: kou
     text: '一　医薬品又は再生医療等製品　次のイ又はロのいずれかに該当するもの
 
-      イ　小児の疾病の診断、治療又は予防
 
-      ロ　薬剤耐性を有する病原体による疾病の診断、治療又は予防'
+      　イ　小児の疾病の診断、治療又は予防
+
+
+      　ロ　薬剤耐性を有する病原体による疾病の診断、治療又は予防'
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-251-4-p1-kou-2

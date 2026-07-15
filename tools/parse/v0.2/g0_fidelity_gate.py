@@ -465,7 +465,28 @@ def load_chunks(chunk_dir: Path, law_abbrev: str, art_num: str) -> tuple[list[di
     return _read(Path(f"{base}.chunks.jsonl")), table
 
 
-def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: list[dict]) -> dict:
+_JA_SECTION_RE = re.compile(r"^##\s*原文[^\n]*\n(.*?)(?=^##\s|\Z)", re.DOTALL | re.MULTILINE)
+
+
+def ja_section_raw(md_text: str) -> str:
+    """正本 md の `## 原文` セクションを **原文のまま** 返す (G0-c-strict の ground truth).
+
+    Why extract_ja_paragraphs_from_md を使わないか:
+        あれは manifest hash 用の抽出器で、GFM の区切り行 (`| --- | --- |`) を落とす。
+        chunk は本文の連続スパン (表を含む) なので、区切り行を落とした本文と突き合わせると
+        **正しい chunk が違反に見える**。逐語引用の ground truth は「正本 md の本文そのもの」
+        でなければならない。検査対象を取り違えると、ゲートは嘘をつく。
+    """
+    m = _JA_SECTION_RE.search(md_text)
+    return m.group(1) if m else ""
+
+
+def compare_md_to_chunks(
+    md_paras: list[str],
+    chunks: list[dict],
+    table_chunks: list[dict],
+    md_raw_body: str = "",
+) -> dict:
     """G0-b / G0-c 診断: 正本 md -> chunk 変換の欠落・過剰を分類する.
 
     G0-b (本判定): 本文系 chunk の連結 == 正本 md の非表本文 (完全一致)。
@@ -485,7 +506,19 @@ def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: 
     md_main_norm = norm("".join(md_nontable_lines))
 
     body_chunks = [c for c in chunks if c.get("segment_type") in PARSER_CHUNK_TYPES]
-    body_texts = [c.get("text", "") for c in body_chunks]
+
+    def _drop_table_lines(t: str) -> str:
+        """chunk text から GFM 表行を落とす (G0-b の突合用).
+
+        Why: 号 chunk は「親本文の連続スパン」なので、号の中に表があれば表ごと含む
+        (逐語引用を壊さないため。→ _item_segment_text)。一方 G0-b は
+        「本文系 chunk の総和 == 正本の**非表**本文」という分割の検査なので、
+        重複して入っている表行はここで落としてから突き合わせる。
+        表そのものの欠落は md 表行 <-> table chunk の突合が別に見ている。
+        """
+        return "\n".join(ln for ln in t.split("\n") if not ln.lstrip().startswith("|"))
+
+    body_texts = [_drop_table_lines(c.get("text", "")) for c in body_chunks]
     body_norm = norm("".join(body_texts))
 
     result: dict[str, Any] = {
@@ -502,6 +535,10 @@ def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: 
         # G0-c: chunk ⊂ 親本文 (表 chunk は書式パイプを剥いで比較)
         "g0c_violations": 0,
         "g0c_violation_samples": [],
+        # G0-c-strict: 空白を **畳まずに** 判定する (逐語引用の byte 保証)
+        "g0c_strict_line_violations": 0,
+        "g0c_strict_substring_violations": 0,
+        "g0c_strict_samples": [],
     }
 
     if not result["exact"]:
@@ -522,6 +559,41 @@ def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: 
         result["md_not_in_chunks_chars"] = sum(
             len(r) for r in _uncovered_runs(md_main_norm, covered)
         )
+
+    # ---- G0-c-strict: 空白を畳まない byte 判定 (★2026-07-14 新設) ----------------
+    # Why: 従来の G0-c は norm() で空白を畳んでから包含を見ていた。ゆえに
+    #   本文 md 「二　…内国法人\n\n　イ　三以上の…」 (空行 ＋ 全角字下げ)
+    #   chunk   「二　…内国法人\nイ　三以上の…」     (改行 1 つ・字下げ無し)
+    # を **一致** と判定し、細別を含む号 chunk 4,238 件 (号の 10.2%) の byte 不一致を
+    # 「違反 0」と報告していた。検索では出るのに逐語引用の byte 検証が false になる
+    # ----「引けるが引用できない」非対称。逐語一致の byte 保証は本プロジェクトの中核
+    # 命題なので、ここは緩めない。
+    #
+    #   line      : chunk の各行が、親本文に **byte 部分列** として存在すること
+    #               (行 "全体" との一致は要求しない。前段/後段/但書 の segment は md の
+    #                1 行を途中で分割したものなので、行全体一致を課すと正常なものが落ちる)
+    #   substring : chunk の text 全体が親本文の **連続した** byte 部分列であること
+    #               ★ 例外 (allow-list) を作らない。連続でない chunk は、LLM が継ぎ目を
+    #                またいで引用した瞬間に「親本文に無い文字列」になり verify_citation が
+    #                必ず false になる。ゆえに号が表を含むなら chunk も表ごと含む
+    #                (→ rebuild_md_from_xml._item_segment_text)。
+    #   ground truth: 正本 md の `## 原文` セクション **そのもの** (md_raw_body)。
+    #                paragraph 抽出器は GFM 区切り行を落とすので、それを ground truth に
+    #                すると正しい chunk が違反に見える (2026-07-14 に実際そうなった)。
+    md_body_text = md_raw_body or "\n\n".join(md_paras)
+    for c in body_chunks:
+        raw = c.get("text", "")
+        if not raw.strip():
+            continue
+        for ln in raw.split("\n"):
+            if ln and ln not in md_body_text:
+                result["g0c_strict_line_violations"] += 1
+                if len(result["g0c_strict_samples"]) < 3:
+                    result["g0c_strict_samples"].append(f"LINE {c.get('id')}: {ln[:48]!r}")
+        if raw not in md_body_text:
+            result["g0c_strict_substring_violations"] += 1
+            if len(result["g0c_strict_samples"]) < 3:
+                result["g0c_strict_samples"].append(f"SUBSTR {c.get('id')} (表の飛び越し?)")
 
     md_all_depiped = norm(
         "".join(_strip_format_pipes(ln) for p in md_paras for ln in p.splitlines())
@@ -748,7 +820,9 @@ def process_law(
         ]
         g0a[num] = compare_article(art_units["groups"], art_units["extra"], md_blocks)
         chunks, table_chunks = load_chunks(chunks_dir, law_abbrev, num)
-        g0b[num] = compare_md_to_chunks(md_paras, chunks, table_chunks)
+        g0b[num] = compare_md_to_chunks(
+            md_paras, chunks, table_chunks, md_raw_body=ja_section_raw(md_text)
+        )
 
     report["marker_lines_total"] = marker_lines_total
     report["files_with_markers"] = files_with_markers
@@ -783,6 +857,9 @@ def aggregate(reports: list[dict]) -> dict:
         "g0b_table_rows_not_in_table_chunks": 0,
         "g0c_violations": 0,
         "g0c_violation_samples": [],
+        "g0c_strict_line_violations": 0,
+        "g0c_strict_substring_violations": 0,
+        "g0c_strict_samples": [],
         "marker_lines_total": 0,
         "files_with_markers": 0,
         "g0e_marker_articles": 0,
@@ -860,6 +937,11 @@ def aggregate(reports: list[dict]) -> dict:
             for smp in b.get("g0c_violation_samples", []):
                 if len(agg["g0c_violation_samples"]) < 10:
                     agg["g0c_violation_samples"].append(smp)
+            agg["g0c_strict_line_violations"] += b.get("g0c_strict_line_violations", 0)
+            agg["g0c_strict_substring_violations"] += b.get("g0c_strict_substring_violations", 0)
+            for smp in b.get("g0c_strict_samples", []):
+                if len(agg["g0c_strict_samples"]) < 10:
+                    agg["g0c_strict_samples"].append(smp)
     return agg
 
 
@@ -902,6 +984,12 @@ def render_summary_md(agg: dict, skipped_no_xml: list[str]) -> str:
         f"- 本文系 chunk 欠落 (kou のみ等を含む): {agg['g0b_parser_chunks_missing']}",
         f"- md 本文の一部が chunk に無い条: {agg['g0b_articles_md_not_in_chunks']}",
         f"- md 表行が table chunk に無い: {agg['g0b_table_rows_not_in_table_chunks']}",
+        "",
+        "## G0-c-strict: 空白を畳まない byte 判定 (逐語引用の保証)",
+        "",
+        f"- 行が親本文に byte 一致で存在しない: {agg['g0c_strict_line_violations']}",
+        f"- text が親本文の連続 byte 部分列でない: {agg['g0c_strict_substring_violations']}",
+        *[f"  - {s}" for s in agg["g0c_strict_samples"]],
         "",
         "## G0-c: chunk ⊂ 親条文本文",
         "",

@@ -30,11 +30,14 @@ paragraphs:
     type: kou
     text: '二　公開買付けの内容に関する事項のうち次に掲げるもの
 
-      イ　対象者の名称
 
-      ロ　買付け等に係る株券等の種類
+      　イ　対象者の名称
 
-      ハ　公開買付期間'
+
+      　ロ　買付け等に係る株券等の種類
+
+
+      　ハ　公開買付期間'
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-30-p1-kou-3

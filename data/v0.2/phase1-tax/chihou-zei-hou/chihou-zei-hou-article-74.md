@@ -59,15 +59,20 @@ paragraphs:
     type: kou
     text: '一　喫煙用の製造たばこ
 
-      イ　紙巻たばこ
 
-      ロ　葉巻たばこ
+      　イ　紙巻たばこ
 
-      ハ　パイプたばこ
 
-      ニ　刻みたばこ
+      　ロ　葉巻たばこ
 
-      ホ　加熱式たばこ'
+
+      　ハ　パイプたばこ
+
+
+      　ニ　刻みたばこ
+
+
+      　ホ　加熱式たばこ'
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-74-p2-kou-2

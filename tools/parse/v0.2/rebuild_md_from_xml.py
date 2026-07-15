@@ -156,10 +156,13 @@ def _render_table(ts: Any, indent: str = "") -> list[str]:
     return lines
 
 
-def _render_item(elem: Any, depth: int) -> list[str]:
+def _render_item(elem: Any, depth: int, *, skip_tables: bool = False) -> list[str]:
     """Item / SubitemN を案A の行群にする (文書順・再帰).
 
     depth 0 = 号 (段付けなし)、depth 1.. = 細別 (全角スペース × depth の段付け)。
+
+    skip_tables: 表 chunk は別ファイルに切り出されるため、segment text を作るときは
+        表を除く (本文系 chunk の総和 == 正本の非表本文、という G0-b の定義に合わせる)。
     """
     tag = elem.tag
     title_tag, sent_tag = f"{tag}Title", f"{tag}Sentence"
@@ -175,11 +178,12 @@ def _render_item(elem: Any, depth: int) -> list[str]:
             head = f"{indent}{title}{IDEO_SPACE}{text}" if title else f"{indent}{text}"
             lines.extend(["", head])
         elif ct == "TableStruct":
-            lines.extend(_render_table(child, indent))
+            if not skip_tables:
+                lines.extend(_render_table(child, indent))
         elif ct == "List":
             lines.extend(["", f"{indent}{_text(child)}"])
         elif ct.startswith("Subitem"):
-            lines.extend(_render_item(child, depth + 1))
+            lines.extend(_render_item(child, depth + 1, skip_tables=skip_tables))
     return lines
 
 
@@ -218,30 +222,32 @@ def paragraph_sentence_text(para: Any) -> str:
 
 
 def _item_segment_text(elem: Any) -> str:
-    """号 chunk の text: 号番号 ＋ 本文 ＋ 配下の細別 (番号 ＋ 本文).
+    """号 chunk の text: 本文 md における当該号の **連続スパン** (byte 切片そのもの).
 
-    Why 号番号 (ItemTitle「一」) を含めるか: 本文 md の当該行が
-    「一　国内　この法律の施行地をいう。」である以上、chunk の text も同じ内容に
-    しないと「chunk の総和 == 正本本文」(G0-b) が号番号の分だけ食い違う。番号込みに
-    すると chunk は本文行そのものになり、G0-b exact と G0-c (chunk ⊂ 親本文) が
-    どちらも自明に成立する。検索・引用の観点でも号番号は有用。
+    ★ 原則: chunk の text は常に「親本文の連続スパン」である。連結して作らない。
+
+    Why (★2026-07-14 の修正):
+        以前はここで「号番号 ＋ 本文 ＋ 細別」を独自に組み直していた。同じものを
+        2 度書けば必ずずれる。実際ずれた:
+            本文 md : 「二　…内国法人\n\n　イ　三以上の…」 (空行 ＋ 全角字下げ)
+            chunk   : 「二　…内国法人\nイ　三以上の…」     (改行 1 つ・字下げ無し)
+        結果、**細別を含む号 chunk 4,238 件 (号の 10.2%) が親条文本文の byte 部分列で
+        なくなっていた**。検索では出るのに逐語引用の検証 (byte 一致) が false になる
+        ----「引けるが引用できない」非対称。
+
+        なお当時の G0-c は空白を畳んでから判定していたため、この 4,238 件を
+        **違反 0 と報告していた**。検査が緩ければ、欠陥は検査の中にいても見えない。
+
+    Why 表を **飛ばさない** か:
+        表を飛び越して連結すると、その chunk は「親本文に存在しない継ぎ目」を持つ。
+        LLM が継ぎ目をまたいで引用した瞬間に verify_citation は必ず false になる。
+        ゆえに号の中に表があれば表ごと含める (地方税法 37 条・314 条の 6)。表が
+        table chunk と重複するのは許容する (rollup が既にそうであるのと同じ)。
+        重複は害がないが、連続でない chunk は逐語引用を壊す。
+
+        いまは本文と segment text が同一の関数 (_render_item) から出る。ずれようがない。
     """
-    tag = elem.tag
-    title_tag, sent_tag = f"{tag}Title", f"{tag}Sentence"
-    title = _text(elem.find(title_tag))
-    parts: list[str] = []
-    for child in elem:
-        ct = child.tag
-        if ct == sent_tag:
-            body = sentences_text(child)
-            parts.append(f"{title}{IDEO_SPACE}{body}" if title else body)
-        elif ct.startswith("Subitem"):
-            parts.append(_item_segment_text(child))
-        elif ct == "List":
-            # 号・細別の中の List は当該号の本文の一部 (md でも同じ行群に出る)。
-            # chunk に含めないと「md にあるのに chunk に無い」= G0-b 不一致になる。
-            parts.append(_text(child))
-    return "\n".join(p for p in parts if p)
+    return "\n".join(_render_item(elem, 0)).strip("\n")
 
 
 def _item_num_parts(raw: str) -> tuple[str, int | None]:

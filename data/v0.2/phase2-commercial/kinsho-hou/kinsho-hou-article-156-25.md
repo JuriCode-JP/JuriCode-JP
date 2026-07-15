@@ -44,9 +44,11 @@ paragraphs:
     type: kou
     text: '二　免許申請者が株式会社（次に掲げる機関を置くものに限る。）でないとき。
 
-      イ　取締役会
 
-      ロ　監査役、監査等委員会又は指名委員会等'
+      　イ　取締役会
+
+
+      　ロ　監査役、監査等委員会又は指名委員会等'
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-25-p2-kou-3
