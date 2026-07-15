@@ -2,11 +2,13 @@
 """T6: reproduce the locked A-3 numbers THROUGH the retrieval service (local, not CI).
 
 Why:
-    The A-3 pass line (v8b dense+dedup honbun R@10=84/97, R@20=87/97; new-layer tsutatsu
-    R@20=15/15, taxanswer R@20=17/17) was locked from tools/embed/a3_contamination_eval.py.
-    This harness proves the resident service reproduces those exact numbers using the SAME
-    retrieval core (RetrievalService.retrieve == retrieve.py dense + dedup_by_article) on the
-    SAME index and the SAME corpus-gold filter (N=97). If it does not reproduce, STOP and print
+    This harness proves the resident service reproduces the locked A-3 pass line THROUGH
+    the retrieval core (RetrievalService.retrieve == retrieve.py dense + dedup_by_article)
+    on the same index and the same corpus-gold filter. The pass lines are per index and
+    live in gates/pass-lines.json, anchored by a digest held outside this repo's write
+    scope (tools/scripts/verify-gates-lock.py); they are deliberately NOT copied here,
+    because a second copy of a number in a docstring is a source of truth nothing checks
+    and it goes stale silently. If a run does not reproduce its pass line, STOP and print
     the cause -- do NOT tune to hit the target.
 
     Encoding is deterministic (gemini-embedding-001 RETRIEVAL_QUERY), so a batched encode
@@ -223,6 +225,64 @@ def _newlayer(svc: S.RetrievalService, embs_cache: dict) -> dict:
     return out
 
 
+def _verdict(
+    honbun_off: dict,
+    newlayer: dict,
+    target: dict,
+    newlayer_target: dict,
+) -> tuple[bool, list[str]]:
+    """Decide T6 pass/fail from the measured honbun + new-layer numbers.
+
+    Why:
+        The verdict used to be an inline boolean that read honbun only, so a new-layer
+        shortfall was printed next to its target and never reached the exit code -- a
+        harder-to-spot version of "print a finding without letting it fail the run",
+        because the target sits right beside the measured value and a reader assumes
+        something compared them. Pulling the decision into a pure function (a) lets a
+        shrinking new-layer group fail the run and (b) makes the decision testable
+        without standing the service up. Every reason names the exact check that failed,
+        because a gate that fails without saying why invites tuning until it passes.
+
+    Compares fold_off only: fold_on is report-only -- the honbun verdict already ignores
+    it and the locked numbers were measured on fold_off; gating on fold_on would change
+    the contract silently. The new-layer group sets are compared BOTH ways first (a
+    measured group with no recorded target is not a pass; a recorded target never
+    measured is not a line met), which is the same exclusion shape the fidelity-gate
+    classification cross-check removes. Because that set check runs first, the per-group
+    indexing below is safe without defensive .get chains: _recall always returns "n" and
+    every A.K_CUTS recall key (zero hits give 0, not a missing key).
+
+    Returns (passed, reasons): passed is True only when reasons is empty.
+    """
+    reasons: list[str] = []
+    off = honbun_off["recall"]
+    if honbun_off["n"] != target["N"]:
+        reasons.append(f"honbun N={honbun_off['n']} != target {target['N']}")
+    if off["R@10"] != target["R@10"]:
+        reasons.append(f"honbun R@10={off['R@10']} != target {target['R@10']}")
+    if off["R@20"] != target["R@20"]:
+        reasons.append(f"honbun R@20={off['R@20']} != target {target['R@20']}")
+
+    measured = set(newlayer)
+    recorded = set(newlayer_target)
+    for g in sorted(measured - recorded):
+        reasons.append(
+            f"new-layer group {g!r} measured but has no recorded target (unknown is not a pass)"
+        )
+    for g in sorted(recorded - measured):
+        reasons.append(f"new-layer group {g!r} has a recorded target but was not measured")
+
+    for g in sorted(measured & recorded):
+        d = newlayer[g]["fold_off"]
+        t = newlayer_target[g]
+        if d["n"] != t["N"]:
+            reasons.append(f"new-layer {g} N={d['n']} != target {t['N']}")
+        if d["recall"]["R@20"] != t["R@20"]:
+            reasons.append(f"new-layer {g} R@20={d['recall']['R@20']} != target {t['R@20']}")
+
+    return (not reasons, reasons)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="T6 A-3 reproduction through the service.")
     ap.add_argument("--http-sample", type=int, default=0, help="live HTTP round-trips for latency")
@@ -290,11 +350,7 @@ def main() -> int:
 
     # ---- verdict ----
     off = honbun_off["recall"]
-    ok = (
-        off["R@10"] == target["R@10"]
-        and off["R@20"] == target["R@20"]
-        and honbun_off["n"] == target["N"]
-    )
+    ok, reasons = _verdict(honbun_off, newlayer, target, newlayer_target)
     print("\n=== T6: A-3 reproduction through the service ===")
     print(f"  index: {args.index.name}")
     print(f"  honbun N={honbun_off['n']} (target {target['N']})")
@@ -318,8 +374,10 @@ def main() -> int:
 
     digest = _pass_lines_digest()
     if not ok:
+        detail = "".join(f"\n    - {r}" for r in reasons)
         print(
             f"\n*** T6 FAILED: service does not reproduce the A-3 numbers. STOP (do not tune). ***"
+            f"\n  failed checks:{detail}"
             f"\n  pass line checked against gates/pass-lines.json gates_lock_sha256={digest}"
         )
         return 1
