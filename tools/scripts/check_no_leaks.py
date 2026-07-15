@@ -42,6 +42,14 @@ SELF_FILES = frozenset(
     {
         "tools/scripts/check_no_leaks.py",
         "tools/scripts/tests/test_check_no_leaks.py",
+        # The distribution leak scanner and its test enumerate the same banned
+        # tokens as rule definitions (person-name regex, internal-doc-number
+        # pattern, "Cowork"/"briefing"), so scanning their own introduction would
+        # flag the scanner's rules as leaks. Excluded like this gate's own files.
+        # Enumerated explicitly (never `tools/dist/*`): a wildcard would let any
+        # future file dropped under tools/dist/ bypass the leak scan.
+        "tools/dist/scan_artifacts.py",
+        "tools/dist/tests/test_scan_artifacts.py",
     }
 )
 

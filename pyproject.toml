@@ -193,6 +193,10 @@ testpaths = [
     # 2026-07-13: 引用レジストリ (W6 MVP) builder の hermetic tests。合成 tmp_path
     # fixture のみ (build/ 非依存・CI-safe)。ci.yml 明示列挙と両所配線。
     "tools/registry/tests/test_build_registry.py",
+    # 2026-07-15 D2: 配布物 leak スキャナのテスト。ci.yml 明示列挙のみだと bare pytest で
+    # サイレント無視されるため testpaths にも配線 (FU-545 型の登録漏れ回避)。hermetic
+    # (tmp_path のみ・build/ 非依存)。CI-safe。
+    "tools/dist/tests/test_scan_artifacts.py",
 ]
 pythonpath = [
     "tools/shared/src",

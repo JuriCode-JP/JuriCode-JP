@@ -12,7 +12,16 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from check_no_leaks import scan_line  # noqa: E402
+from check_no_leaks import SELF_FILES, scan_line  # noqa: E402
+
+
+def test_dist_scanner_is_self_excluded():
+    """The dist leak scanner + its test define banned tokens as rule literals, so
+    they must be in SELF_FILES or the gate would flag its own introduction. Pin
+    the exact paths (regression guard for D2, 2026-07-15). No wildcard entries."""
+    assert "tools/dist/scan_artifacts.py" in SELF_FILES
+    assert "tools/dist/tests/test_scan_artifacts.py" in SELF_FILES
+    assert not any("*" in f for f in SELF_FILES)  # explicit paths only, no globs
 
 
 def test_flags_name_encoded():
