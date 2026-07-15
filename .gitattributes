@@ -29,6 +29,18 @@
 *.js         text eol=lf
 *.xml        text eol=lf
 LICENSE      text eol=lf
+
+# 例外: 外部由来の法令 XML キャッシュ (cache/laws/) はバイト単位でそのまま保存する。
+# git は「最後にマッチしたルール」を適用するので、この行は上の `*.xml text eol=lf` より
+# 後に置かなければ効かない (前に置くと無効)。
+#
+# 理由: これは我々が書いた本文ではなく、測定済みのグラウンドトゥルースである。各法令の
+# _source-manifest.json が記録した source_xml_sha256 は、この XML の「いまディスクにある
+# バイト列」を指している。改行正規化 (CRLF→LF) を掛けると commit されるバイトが記録済み
+# ハッシュと食い違い、本文忠実性の照合が別物を基準にしてしまう。
+# `binary` ではなく `-text` を使うのは、バイトを保存しつつ diff は有効に保つため
+# (この XML を版管理する目的が「変更が diff に残る」ことなので、diff を殺す `binary` は不可)。
+cache/laws/*.xml    -text
 README*      text eol=lf
 CLAUDE.md    text eol=lf
 Makefile     text eol=lf
