@@ -197,6 +197,9 @@ testpaths = [
     # サイレント無視されるため testpaths にも配線 (FU-545 型の登録漏れ回避)。hermetic
     # (tmp_path のみ・build/ 非依存)。CI-safe。
     "tools/dist/tests/test_scan_artifacts.py",
+    # 2026-07-15: 合格線ロックゲートのテスト。ci.yml 明示列挙と本 testpaths の両所に配線
+    # (登録漏れは既知の事故クラス)。hermetic (subprocess + tmp_path・build/ 非依存)。CI-safe。
+    "tools/scripts/tests/test_verify_gates_lock.py",
 ]
 pythonpath = [
     "tools/shared/src",

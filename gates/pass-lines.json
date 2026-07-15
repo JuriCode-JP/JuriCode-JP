@@ -1,0 +1,41 @@
+{
+  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- the corpus behind this index had no item-level (号) or sub-item text, and branch-numbered articles (e.g. 132-2) were absent from the index entirely; kept so that selecting the v8b index still reproduces the historical numbers. v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations. The v9 numbers are lower than v8b's. They are the pass line anyway: the index is more correct, and a pass line exists to detect drift, not to flatter the build. This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass.",
+  "pass_lines": {
+    "v0.2-aug-v8b-gemini": {
+      "honbun": {
+        "N": 97,
+        "R@10": 84,
+        "R@20": 87
+      },
+      "newlayer": {
+        "taxanswer": {
+          "N": 17,
+          "R@20": 17
+        },
+        "tsutatsu": {
+          "N": 15,
+          "R@20": 15
+        }
+      },
+      "note": "measured on the index built before item-level chunks existed"
+    },
+    "v0.2-aug-v9-gemini": {
+      "honbun": {
+        "N": 97,
+        "R@10": 78,
+        "R@20": 85
+      },
+      "newlayer": {
+        "taxanswer": {
+          "N": 17,
+          "R@20": 17
+        },
+        "tsutatsu": {
+          "N": 15,
+          "R@20": 15
+        }
+      },
+      "note": "measured 2026-07-15 on corpus-v11 (item-level chunks present)"
+    }
+  }
+}
