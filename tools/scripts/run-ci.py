@@ -110,6 +110,7 @@ PYTEST_PATHS = [
     "tools/scripts/tests/test_check_no_leaks.py",
     "tools/registry/tests/test_build_registry.py",
     "tools/dist/tests/test_scan_artifacts.py",
+    "tools/dist/tests/test_build_snapshot.py",
     "tools/scripts/tests/test_verify_gates_lock.py",
     "tools/serve/tests/test_reproduce_a3_verdict.py",
     "tools/scripts/tests/test_run_ci_pytest_parity.py",
