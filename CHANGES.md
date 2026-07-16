@@ -33,7 +33,11 @@ is chunked and hashed, so a row-by-row diff would measure the pipeline, not the 
 
 ### Distribution
 
-- https://huggingface.co/datasets/JuriCode-JP/juricode-index
+- Hugging Face — self-contained snapshot `2026-07/` (rev.4: `snapshot.json` manifest + index + corpus + registry): https://huggingface.co/datasets/JuriCode-JP/juricode-index/tree/main/2026-07
+- Hugging Face — dataset root (previous layout, retained for compatibility): https://huggingface.co/datasets/JuriCode-JP/juricode-index
+- GitHub Release — immutable audit anchor (`snapshot.json` + the three registry files): https://github.com/JuriCode-JP/JuriCode-JP/releases/tag/snapshot-2026-07
+
+The self-contained snapshot's `snapshot.json` (sha256 `8beafc6883e72ff4493c551828f02d97ad38539a0b9bbea4d0ef08c3fb64bdd6`) records the sha256 of all seven distributed files (index, corpus, registry). The GitHub Release freezes that manifest and the three registry files, so the distribution stays verifiable against an anchor that cannot be silently replaced.
 
 ### SHA256
 
