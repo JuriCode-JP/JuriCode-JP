@@ -103,6 +103,7 @@ PYTEST_PATHS = [
     "tools/embed/tests/test_build_v8_corpus.py",
     "tools/embed/tests/test_filter_v8_embed.py",
     "tools/embed/tests/test_retrieve_dedup.py",
+    "tools/embed/tests/test_vec_json.py",
     "tools/serve/tests/test_retrieval_server.py",
     "tools/serve/tests/test_guards.py",
     "tools/serve/tests/test_chat_server.py",
