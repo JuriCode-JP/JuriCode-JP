@@ -194,6 +194,55 @@ jobs:
             exit 1
           }
 
+  fidelity-gate:
+    name: Build derived chunks and verify fidelity
+    # Why build rather than store the retrieval chunks: they are derived, not
+    # authored. The same versioned Markdown, the same versioned source XML, and the
+    # same deterministic parser always produce the same bytes. So CI rebuilds them
+    # from source and then verifies fidelity, which proves reproducibility (the build
+    # succeeds and is deterministic) as well as fidelity (the gate passes) in one run
+    # -- a stored copy would only ever prove the second. build/ is gitignored;
+    # nothing is committed by this job.
+    #
+    # Why a separate job instead of folding into the matrix above: one Python version
+    # is enough here. Rebuilding the chunks under Python 3.11 on Windows and under
+    # Python 3.12 on Linux -- the exact two environments the local pre-push runner and
+    # this job use -- produced byte-identical output for both builders, so a second
+    # matrix version would add no signal. (This is the deployed-environment pair, not
+    # a version-only isolation; it is exactly what makes "green locally" and "green in
+    # CI" mean the same artefact.) A separate job also runs in parallel with
+    # lint-and-test, keeping this off the wall-clock a human waits for.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dev dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      # The pipeline is build -> build -> verify, and each build is its own step so a
+      # build failure and a fidelity violation never surface as the same red: if a
+      # build breaks, the run says the build broke instead of leaving a fidelity
+      # report to be reverse-engineered. The two builds are order-independent today,
+      # but the order is pinned so that a future change to that property shows up here
+      # as a diff rather than as a silent behaviour change.
+      - name: Build segment chunks from canonical Markdown
+        run: python tools/parse/v0.2/build_chunks_from_md.py
+
+      - name: Build table chunks from source XML
+        run: python tools/parse/v0.2/extract_table_from_xml.py
+
+      - name: Verify fidelity (canonical md == source XML == derived chunks)
+        run: python tools/parse/v0.2/g0_fidelity_gate.py
+
   leak-gate:
     name: Leak gate (names / internal refs)
     runs-on: ubuntu-latest
