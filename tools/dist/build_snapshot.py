@@ -252,23 +252,33 @@ def compute_embed_exclusions(corpus_full: Path, corpus_embed: Path) -> dict[str,
 # =====================================================
 
 
-def file_plan(paths: SnapshotPaths) -> list[tuple[Path, str]]:
+def file_plan_parts(
+    index_prefix: Path, registry_dir: Path, corpus_embed: Path
+) -> list[tuple[Path, str]]:
     """(local source path, snapshot-relative dest) for the 7 shipped files.
 
     Ordered registry -> corpus -> index so ``files`` in snapshot.json has a
-    stable, byte-deterministic key order. publish_to_hf imports this so the
-    manifest and the upload can never disagree on paths.
+    stable, byte-deterministic key order. These three inputs are the ONLY
+    dependencies of the shipped layout: the full corpus and source manifests
+    are read to BUILD the snapshot but are not distributed, so publish_to_hf can
+    reuse this without them. This is the single source of truth for the mapping,
+    so the manifest and the upload can never disagree on paths.
     """
-    name = paths.index_prefix.name
+    name = index_prefix.name
     return [
-        (paths.registry_dir / "documents.jsonl", "registry/documents.jsonl"),
-        (paths.registry_dir / "chunks.jsonl", "registry/chunks.jsonl"),
-        (paths.registry_dir / "texts.jsonl", "registry/texts.jsonl"),
-        (paths.corpus_embed, "corpus/row-aligned-corpus.jsonl"),
-        (Path(str(paths.index_prefix) + ".meta.jsonl"), f"index/{name}.meta.jsonl"),
-        (Path(str(paths.index_prefix) + ".vec.json"), f"index/{name}.vec.json"),
-        (Path(str(paths.index_prefix) + ".npy"), f"index/{name}.npy"),
+        (registry_dir / "documents.jsonl", "registry/documents.jsonl"),
+        (registry_dir / "chunks.jsonl", "registry/chunks.jsonl"),
+        (registry_dir / "texts.jsonl", "registry/texts.jsonl"),
+        (corpus_embed, "corpus/row-aligned-corpus.jsonl"),
+        (Path(str(index_prefix) + ".meta.jsonl"), f"index/{name}.meta.jsonl"),
+        (Path(str(index_prefix) + ".vec.json"), f"index/{name}.vec.json"),
+        (Path(str(index_prefix) + ".npy"), f"index/{name}.npy"),
     ]
+
+
+def file_plan(paths: SnapshotPaths) -> list[tuple[Path, str]]:
+    """file_plan_parts bound to a SnapshotPaths (the snapshot-build caller)."""
+    return file_plan_parts(paths.index_prefix, paths.registry_dir, paths.corpus_embed)
 
 
 # =====================================================

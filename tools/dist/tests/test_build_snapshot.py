@@ -219,6 +219,14 @@ def test_build_snapshot_contract_shape(tree):
     assert snap["embed_exclusions"] == FIXTURE_EXCLUSIONS
 
 
+def test_file_plan_parts_matches_file_plan(tree):
+    # file_plan(paths) must be exactly file_plan_parts bound to the same inputs
+    # (publish_to_hf reuses the parts form, so the two cannot be allowed to drift).
+    assert B.file_plan(tree) == B.file_plan_parts(
+        tree.index_prefix, tree.registry_dir, tree.corpus_embed
+    )
+
+
 def test_build_snapshot_files_are_7_and_hashed(tree):
     snap = B.build_snapshot(tree, "2026-07", "2026-07-16")
     assert set(snap["files"]) == {
