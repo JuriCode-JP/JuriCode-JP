@@ -564,6 +564,36 @@ def test_embed_exclusion_skipped_in_measure_mode(tmp_path):
     assert report.embed_exclusions is None
 
 
+# ---- texts.jsonl (get_article payload, full M6 equality) --------------------
+
+
+def test_build_texts_emits_verified_payload(tmp_path):
+    """One {juri_id, text} row per document, juri_id-sorted, and EVERY shipped
+    text hashes to the ledger's text_sha256 (full M6 equality, all layers)."""
+    paths = make_tree(tmp_path)
+    d1, _, _ = BR.build_registry(paths, EXPECTED)
+    texts = BR.build_texts(paths, d1)
+    trows = [json.loads(line) for line in texts.decode("utf-8").splitlines()]
+    docs = _docs(d1)
+    assert [t["juri_id"] for t in trows] == sorted(docs)  # one per doc, sorted
+    assert all(set(t) == {"juri_id", "text"} for t in trows)  # exact schema
+    for t in trows:  # the invariant texts.jsonl exists to guarantee
+        got = hashlib.sha256(t["text"].encode("utf-8")).hexdigest()
+        assert got == docs[t["juri_id"]]["text_sha256"], t["juri_id"]
+
+
+def test_build_texts_stops_on_hash_mismatch(tmp_path):
+    """If the ledger value does not match the re-derived text, STOP (never ship
+    text that fails its own hash)."""
+    paths = make_tree(tmp_path)
+    d1, _, _ = BR.build_registry(paths, EXPECTED)
+    rows = [json.loads(line) for line in d1.decode("utf-8").splitlines()]
+    rows[0]["text_sha256"] = "0" * 64  # ledger value no longer matches derived text
+    tampered = "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows).encode("utf-8")
+    with pytest.raises(BR.RegistryError, match="texts hash mismatch"):
+        BR.build_texts(paths, tampered)
+
+
 def test_null_metadata_counted_not_fabricated(tmp_path):
     paths = make_tree(tmp_path)
     d1, _, report = BR.build_registry(paths, EXPECTED)

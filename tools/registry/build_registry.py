@@ -136,6 +136,11 @@ EXPECTED_COUNTS = {
 #: ``assert_embed_exclusions``.
 EMBED_SKIP_SEGMENT_TYPES = frozenset({"rollup", "supplproviso_rollup"})
 
+#: Layers whose document text is the store row verbatim. The dispatch key for
+#: the text resolver: these use the store text, the rest are re-derived from
+#: e-Gov XML keyed by hash_basis.
+_STORED_LAYERS = frozenset({"tsutatsu", "taxanswer", "ruling"})
+
 _SHA256_HEX_RE = re.compile(r"^[0-9a-f]{64}$")
 #: Sub-article unit suffixes on 附則 chunk ids (項/分割/表/列/rollup)。
 _SUPPL_UNIT_SUFFIX_RE = re.compile(r"(?:-p\d+|-sub\d+|-tbl\d+|-w\d+|-rollup)+$")
@@ -837,21 +842,17 @@ def build_registry(
     return to_bytes(documents), to_bytes(chunk_rows), report
 
 
-def sample_verify(paths: RegistryPaths, documents_bytes: bytes, per_layer: int = 20) -> int:
-    """Recompute the document hash from the SOURCE for N samples per layer
-    and compare against the emitted ledger via juricode_verifier.
+def _document_text_fn(paths: RegistryPaths):
+    """Build ``f(doc) -> str`` re-deriving each document's text from source by
+    the SAME per-layer rules the ledger hashes.
 
-    Why: the locked invariant is sha256(get_article text) == ledger value for
-    every layer; this closes the chain on the real data at build time
-    (statute recomputation goes through tools/parse/verify.py extraction +
-    _canonicalize, i.e. the same path CI uses for round-trip checks).
+    Why one shared resolver: ``--sample-verify`` and ``--emit-texts`` must
+    operate on the identical byte string, or texts.jsonl could ship text that
+    does not hash to the ledger value the sampler blessed. statute/enforcement
+    text is re-derived via tools/parse/verify.py extraction + _canonicalize (the
+    CI round-trip path), NOT taken from the corpus ``text`` field.
     """
     import importlib.util
-
-    verifier_src = _REPO / "packages" / "juricode-verifier" / "src"
-    if str(verifier_src) not in sys.path:
-        sys.path.insert(0, str(verifier_src))
-    from juricode_verifier import verify_text_hash
 
     parse_dir = _REPO / "tools" / "parse"
     if str(parse_dir) not in sys.path:
@@ -864,7 +865,6 @@ def sample_verify(paths: RegistryPaths, documents_bytes: bytes, per_layer: int =
     sys.modules["_registry_verify"] = vf
     spec.loader.exec_module(vf)
 
-    docs = [json.loads(line) for line in documents_bytes.decode("utf-8").splitlines()]
     laws, articles = load_manifests(paths.data_dir)
     dirs_by_abbrev = {ab: law["_dir"] for ab, law in laws.items()}
     tsut = load_tsutatsu_stores(paths.chunks_dir)
@@ -893,19 +893,69 @@ def sample_verify(paths: RegistryPaths, documents_bytes: bytes, per_layer: int =
             ruli[d["juri_id"]]["case_name_ja"], ruli[d["juri_id"]]["summary_ja"]
         ),
     }
-    checked = 0
+
+    def text_for(d: dict) -> str:
+        fn = stored.get(d["layer"]) or recompute[d["hash_basis"]]
+        return fn(d)
+
+    return text_for
+
+
+def sample_verify(paths: RegistryPaths, documents_bytes: bytes, per_layer: int = 20) -> int:
+    """Recompute the document hash from the SOURCE for N samples per layer
+    and compare against the emitted ledger via juricode_verifier.
+
+    Why: the locked invariant is sha256(get_article text) == ledger value for
+    every layer; this closes the chain on the real data at build time
+    (statute recomputation goes through tools/parse/verify.py extraction +
+    _canonicalize, i.e. the same path CI uses for round-trip checks).
+    """
+    verifier_src = _REPO / "packages" / "juricode-verifier" / "src"
+    if str(verifier_src) not in sys.path:
+        sys.path.insert(0, str(verifier_src))
+    from juricode_verifier import verify_text_hash
+
+    text_for = _document_text_fn(paths)
+    docs = [json.loads(line) for line in documents_bytes.decode("utf-8").splitlines()]
     by_group: dict[str, list[dict]] = {}
     for d in docs:
-        key = d["layer"] if d["layer"] in stored else d["hash_basis"]
+        key = d["layer"] if d["layer"] in _STORED_LAYERS else d["hash_basis"]
         by_group.setdefault(key, []).append(d)
-    for key, group in sorted(by_group.items()):
-        fn = stored.get(key) or recompute[key]
+    checked = 0
+    for _key, group in sorted(by_group.items()):
         for d in group[:per_layer]:  # docs are juri_id-sorted -> deterministic
-            violation = verify_text_hash(fn(d), d["text_sha256"])
+            violation = verify_text_hash(text_for(d), d["text_sha256"])
             if violation is not None:
                 raise RegistryError(f"sample verify failed for {d['juri_id']}: {violation.detail}")
             checked += 1
     return checked
+
+
+def build_texts(paths: RegistryPaths, documents_bytes: bytes) -> bytes:
+    """Emit the get_article payload store: one ``{juri_id, text}`` row per
+    document, verifying sha256(text) == the ledger's text_sha256 for EVERY
+    document (the full M6 equality, not a sample), sorted by juri_id.
+
+    Why full verification: texts.jsonl is the byte string a consumer actually
+    reads; the ledger hash is only trustworthy if the shipped text hashes to it.
+    Any mismatch is a hard STOP (never ship text that fails its own hash).
+    """
+    verifier_src = _REPO / "packages" / "juricode-verifier" / "src"
+    if str(verifier_src) not in sys.path:
+        sys.path.insert(0, str(verifier_src))
+    from juricode_verifier import verify_text_hash
+
+    text_for = _document_text_fn(paths)
+    # documents_bytes is already juri_id-sorted -> texts.jsonl inherits the order.
+    docs = [json.loads(line) for line in documents_bytes.decode("utf-8").splitlines()]
+    rows: list[dict] = []
+    for d in docs:
+        text = text_for(d)
+        violation = verify_text_hash(text, d["text_sha256"])
+        if violation is not None:
+            raise RegistryError(f"texts hash mismatch for {d['juri_id']}: {violation.detail}")
+        rows.append({"juri_id": d["juri_id"], "text": text})
+    return "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows).encode("utf-8")
 
 
 # =====================================================
@@ -931,6 +981,15 @@ def _build_argparser() -> argparse.ArgumentParser:
             "'measure' only reports the shortfall -- use while the index is "
             "older than the corpus (e.g. after a chunk rebuild, until re-embed). "
             "Return to 'assert' once the index is rebuilt."
+        ),
+    )
+    p.add_argument(
+        "--emit-texts",
+        action="store_true",
+        help=(
+            "also write texts.jsonl (one {juri_id, text} row per document), "
+            "verifying sha256(text)==text_sha256 for EVERY document (full M6 "
+            "equality). Heavy: re-derives statute text from every md."
         ),
     )
     return p
@@ -963,6 +1022,15 @@ def main(argv: list[str] | None = None) -> int:
     safe_write_text(args.out_dir / "documents.jsonl", docs1.decode("utf-8"), newline="\n")
     safe_write_text(args.out_dir / "chunks.jsonl", chunks1.decode("utf-8"), newline="\n")
 
+    n_texts = None
+    if args.emit_texts:
+        texts1 = build_texts(paths, docs1)
+        texts2 = build_texts(paths, docs1)  # determinism gate (§5), same as documents/chunks
+        if texts1 != texts2:
+            raise RegistryError("nondeterministic texts build: two runs differ byte-wise")
+        safe_write_text(args.out_dir / "texts.jsonl", texts1.decode("utf-8"), newline="\n")
+        n_texts = texts1.count(b"\n")
+
     print("== registry build report ==")
     print(f"documents by layer      : {dict(sorted(report.docs_by_layer.items()))}")
     print(f"documents by hash_basis : {dict(sorted(report.docs_by_hash_basis.items()))}")
@@ -976,6 +1044,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"embed exclusions (corpus−index): {report.embed_exclusions}")
     else:
         print("embed exclusions (corpus−index): SKIPPED (index-coverage=measure)")
+    if n_texts is not None:
+        print(f"texts.jsonl             : {n_texts} rows, all sha256(text)==text_sha256")
     return 0
 
 
