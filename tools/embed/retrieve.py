@@ -785,11 +785,16 @@ def main():
         type=Path,
         help="HyDE 仮想文キャッシュ jsonl (--hyde / --hyde-only で必須・query_hash 照合)",
     )
+    # Default aligned to the locked generation model (gemini-3.1-flash-lite).
+    # NOTE: the frozen pillar-1 HyDE result (HyDE did not clear its gate and the
+    # work was stopped) was measured with gemini-2.5-flash. Re-running HyDE with
+    # this default is a different experiment from the one that was frozen; the
+    # frozen conclusion does not describe gemini-3.1-flash-lite.
     ap.add_argument(
         "--hyde-gen-model",
         type=str,
-        default="gemini-2.5-flash",
-        help="仮想文生成 LLM (Gemini generation model, default: gemini-2.5-flash)",
+        default="gemini-3.1-flash-lite",
+        help="仮想文生成 LLM (Gemini generation model, default: gemini-3.1-flash-lite)",
     )
     args = ap.parse_args()
 
