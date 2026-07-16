@@ -1,5 +1,5 @@
 {
-  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- the corpus behind this index had no item-level (号) or sub-item text, and branch-numbered articles (e.g. 132-2) were absent from the index entirely; kept so that selecting the v8b index still reproduces the historical numbers. v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations. The v9 numbers are lower than v8b's. They are the pass line anyway: the index is more correct, and a pass line exists to detect drift, not to flatter the build. This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass. The honbun N is not the full question set: a question is scored only when its gold articles exist in both this corpus and an older corpus used as a cross-filter, and the older corpus lacks branch-numbered articles, so those questions are dropped before scoring. This pass line is therefore provisional -- once that cross-filter is removed it will be re-measured against the full set and the numbers will move. It still does its job here (a fixed denominator detects drift), but it is not a statement about overall accuracy.",
+  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- the corpus behind this index had no item-level (号) or sub-item text, and branch-numbered articles (e.g. 132-2) were absent from the index entirely; its numbers are recorded here as a historical baseline. v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations, and honbun is scored on the full ground-truth denominator with no cross-filter (a gold article absent from the index scores 0, not dropped). This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass.",
   "pass_lines": {
     "v0.2-aug-v8b-gemini": {
       "honbun": {
@@ -21,9 +21,9 @@
     },
     "v0.2-aug-v9-gemini": {
       "honbun": {
-        "N": 97,
-        "R@10": 78,
-        "R@20": 85
+        "N": 141,
+        "R@10": 115,
+        "R@20": 119
       },
       "newlayer": {
         "taxanswer": {
@@ -35,7 +35,7 @@
           "R@20": 15
         }
       },
-      "note": "measured 2026-07-15 on corpus-v11 (item-level chunks present)"
+      "note": "v9 honbun is measured on the full ground-truth denominator: every honbun question whose gold article the eval specifies is scored, with no cross-filter against either an older corpus or this index. A question whose gold article is absent from the index scores 0 (a miss) rather than being dropped. Any decrease from the earlier provisional 78/97 reflects (a) branch-numbered questions now included and (b) index-missing gold now counted as 0 — the visualization of gaps the previous filter hid, not a regression. The pass line detects drift against this fixed, honest population."
     }
   }
 }

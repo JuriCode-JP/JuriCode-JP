@@ -183,13 +183,19 @@ def _pctl(xs: list[float]) -> dict:
 
 
 def _build_adopted(svc: S.RetrievalService):
-    """Reproduce A-3's corpus-gold filter: honbun gold present in BOTH v7 and v8 corpora."""
-    v8_aids = {a for a in svc.article_ids if a}
-    _m, v7_recs, _s = R._load_artefacts(A.V7_PREFIX)
-    v7_aids = {r.get("article_id") for r in v7_recs if r.get("article_id")}
-    del _m
-    both = v7_aids & v8_aids
+    """Score the full honbun ground-truth denominator (no cross-filter).
 
+    Why:
+        Every honbun question whose eval specifies a gold article is scored; a gold
+        article absent from the index scores 0 (a miss), it is not dropped. The earlier
+        cross-filter (gold present in BOTH an older v7 corpus AND this index) hid index
+        gaps and branch-numbered questions from the denominator, so the pass line was
+        provisional. Removing it makes the line measure the honest population: a fixed,
+        full denominator that surfaces gaps instead of concealing them. `if gold` still
+        drops questions carrying no honbun gold at all -- a different question type, not
+        defect-hiding. (svc is kept in the signature for call-site stability; the id sets
+        it supplied are no longer needed now that scoring is against the full ground truth.)
+    """
     main_qs: list[dict] = []
     for group, path in A.MAIN_EVAL:
         for q in A._load_jsonl(path):
@@ -197,7 +203,7 @@ def _build_adopted(svc: S.RetrievalService):
             main_qs.append(q)
     adopted = []
     for q in main_qs:
-        gold = set(q.get("expected_article_ids") or []) & both
+        gold = set(q.get("expected_article_ids") or [])
         if gold:
             q["_gold"] = gold
             adopted.append(q)
