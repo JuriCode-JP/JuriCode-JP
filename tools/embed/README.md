@@ -132,13 +132,17 @@ python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.js
 python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl --top-k 10 \
     --reranker --reranker-corpus <corpus.jsonl> --reranker-model BAAI/bge-reranker-v2-m3 --reranker-candidates 30
 
+# NOTE: --hyde-gen-model defaults to the locked generation model (gemini-3.1-flash-lite).
+# The frozen pillar-1 HyDE result (HyDE did not clear its gate; work stopped) was
+# measured with gemini-2.5-flash, so a re-run with the current default is a different
+# experiment from the one that was frozen.
 # E3: HyDE 仮想文 dense のみ (trial 1 が cache を生成、trial 2/3 は ID 照合で再利用)
 GEMINI_API_KEY=... python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl \
-    --hyde-only --hyde-cache build/hyde-cache.jsonl --hyde-gen-model gemini-2.5-flash
+    --hyde-only --hyde-cache build/hyde-cache.jsonl --hyde-gen-model gemini-3.1-flash-lite
 
 # E3': HyDE + 原クエリ Late Fusion (RRF / 生スコア加算は不可)
 GEMINI_API_KEY=... python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl \
-    --hyde --hyde-fusion rrf --hyde-cache build/hyde-cache.jsonl --hyde-gen-model gemini-2.5-flash
+    --hyde --hyde-fusion rrf --hyde-cache build/hyde-cache.jsonl --hyde-gen-model gemini-3.1-flash-lite
 ```
 
 - **dense+rerank は新規コード不要**: `--reranker` を `--hybrid-bm25` なしで付けると `RetrievalPipeline.select_rerank_candidates(hybrid_on=False)` が **クリーンな dense top-N** をそのまま rerank に渡す (BM25 混入なし)。既存の `run-ablation.py` の `reranker` config がこれに相当。

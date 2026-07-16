@@ -24,7 +24,7 @@ P1 retrieval サービス (retrieval_server.py) の上に /chat を載せ、Gemi
     python tools/serve/chat_server.py --mock --port 8900
     # 実 LLM (P1 を別プロセスで起動しておく):
     python tools/serve/chat_server.py --retrieval-url http://127.0.0.1:8899 \\
-        --model gemini-2.5-flash --port 8900
+        --model gemini-3.1-flash-lite --port 8900
 """
 
 from __future__ import annotations
@@ -663,7 +663,7 @@ def main() -> int:
         default="http://127.0.0.1:8899",
         help="P1 retrieval_server の base URL",
     )
-    ap.add_argument("--model", type=str, default="gemini-2.5-flash", help="生成 LLM モデル名")
+    ap.add_argument("--model", type=str, default="gemini-3.1-flash-lite", help="生成 LLM モデル名")
     ap.add_argument(
         "--mock",
         action="store_true",
