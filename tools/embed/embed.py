@@ -134,6 +134,20 @@ def _save_atomic(
     npy_tmp = npy.with_suffix(".tmp.npy")
     meta_tmp = meta.parent / (meta.name + ".tmp")
     vec_tmp = vec.parent / (vec.name + ".tmp")
+    # API providers (gemini/openai) reconstruct the query embedding from
+    # {provider, model} alone, so ALSO write a portable .vec.json. Why: the
+    # distributed index must not ship a pickle (unpickling runs arbitrary code
+    # in the consumer's process). tfidf keeps only .vec.pkl -- its state holds
+    # the fitted vectorizer, which is not JSON-serialisable. Writing both keeps
+    # the write side and read side (retrieve._load_artefacts) in step so the
+    # next index does not silently regress to pickle-only.
+    vec_json = (
+        vec.with_name(vec.name.removesuffix(".pkl") + ".json")
+        if state.get("provider") in ("gemini", "openai")
+        else None
+    )
+    vec_json_tmp = vec_json.with_name(vec_json.name + ".tmp") if vec_json else None
+    tmps = [npy_tmp, meta_tmp, vec_tmp] + ([vec_json_tmp] if vec_json_tmp else [])
     try:
         np.save(npy_tmp, dense)
         with meta_tmp.open("w", encoding="utf-8") as fh:
@@ -144,11 +158,21 @@ def _save_atomic(
                 fh.write(json.dumps(m, ensure_ascii=False) + "\n")
         with vec_tmp.open("wb") as fh:
             pickle.dump(state, fh)
+        if vec_json_tmp is not None:
+            vec_json_tmp.write_text(
+                json.dumps(
+                    {"provider": state["provider"], "model": state["model"]},
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
         os.replace(npy_tmp, npy)
         os.replace(meta_tmp, meta)
         os.replace(vec_tmp, vec)
+        if vec_json is not None:
+            os.replace(vec_json_tmp, vec_json)
     except Exception:
-        for tmp in (npy_tmp, meta_tmp, vec_tmp):
+        for tmp in tmps:
             if tmp.exists():
                 tmp.unlink()
         raise

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """JuriCode-JP Top-K Retrieval Tester.
 
-Provider is detected from .vec.pkl. Supports tfidf / openai / gemini.
+Provider is detected from .vec.json (fallback .vec.pkl). Supports tfidf / openai / gemini.
 
 新規拡張 (2026-05-21):
 - --normalize-query: 法令略称展開 + 漢数字->アラビア数字正規化
@@ -362,8 +362,14 @@ def _load_artefacts(prefix):
     # ".2-gemini-17967" を suffix と解釈して壊す。文字列連結で回避。
     npy_path = prefix.parent / (prefix.name + ".npy")
     meta_path = prefix.parent / (prefix.name + ".meta.jsonl")
-    vec_path = prefix.parent / (prefix.name + ".vec.pkl")
-    missing = [str(p) for p in (npy_path, meta_path, vec_path) if not p.exists()]
+    vec_json_path = prefix.parent / (prefix.name + ".vec.json")
+    vec_pkl_path = prefix.parent / (prefix.name + ".vec.pkl")
+    # .vec.json (portable {provider, model}, no unpickling) wins; .vec.pkl is
+    # the fallback so existing local builds keep working. A distributed snapshot
+    # ships only .vec.json. At least one of the two must exist.
+    missing = [str(p) for p in (npy_path, meta_path) if not p.exists()]
+    if not vec_json_path.exists() and not vec_pkl_path.exists():
+        missing.append(f"{vec_json_path} or {vec_pkl_path}")
     if missing:
         raise FileNotFoundError(f"Missing artefact(s): {missing}")
 
@@ -376,8 +382,11 @@ def _load_artefacts(prefix):
                 continue
             records.append(json.loads(line))
 
-    with vec_path.open("rb") as fh:
-        state = pickle.load(fh)
+    if vec_json_path.exists():
+        state = json.loads(vec_json_path.read_text(encoding="utf-8"))
+    else:
+        with vec_pkl_path.open("rb") as fh:
+            state = pickle.load(fh)
     return matrix, records, state
 
 

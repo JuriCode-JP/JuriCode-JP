@@ -178,7 +178,7 @@ def main() -> int:
             if len(parts) >= 2:
                 before[Path(parts[-1].replace("\\", "/")).name] = parts[0]
         changed = []
-        for suf in (".npy", ".meta.jsonl", ".vec.pkl"):
+        for suf in (".npy", ".meta.jsonl", ".vec.pkl", ".vec.json"):
             p = Path(str(args.prev_index) + suf)
             name = p.name
             if name in before and _sha256(p)[: len(before[name])] != before[name]:
