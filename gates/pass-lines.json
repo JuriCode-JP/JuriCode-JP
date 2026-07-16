@@ -1,5 +1,5 @@
 {
-  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- the corpus behind this index had no item-level (号) or sub-item text, and branch-numbered articles (e.g. 132-2) were absent from the index entirely; its numbers are recorded here as a historical baseline. v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations, and honbun is scored on the full ground-truth denominator with no cross-filter (a gold article absent from the index scores 0, not dropped). This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass.",
+  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- the corpus behind this index had no item-level (号) or sub-item text, and branch-numbered articles (e.g. 132-2) were absent from the index entirely; its numbers are recorded here as a historical baseline. v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations, and honbun is scored on the full ground-truth denominator with no cross-filter (a gold article absent from the index scores 0, not dropped). The new-layer pass lines (taxanswer, tsutatsu) are likewise scored on the full denominator with no index filter, so a gold chunk absent from the index scores 0; a count below the question total reflects a source gap surfaced, not a regression. This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass.",
   "pass_lines": {
     "v0.2-aug-v8b-gemini": {
       "honbun": {
@@ -27,7 +27,7 @@
       },
       "newlayer": {
         "taxanswer": {
-          "N": 17,
+          "N": 20,
           "R@20": 17
         },
         "tsutatsu": {

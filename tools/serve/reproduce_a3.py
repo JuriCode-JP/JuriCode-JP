@@ -211,17 +211,25 @@ def _build_adopted(svc: S.RetrievalService):
 
 
 def _newlayer(svc: S.RetrievalService, embs_cache: dict) -> dict:
-    v8_cids = set(svc.chunk_ids)
+    """Score the full new-layer ground-truth denominator (no index filter).
+
+    Why:
+        Every new-layer question whose eval specifies a gold key is scored; a gold
+        chunk absent from the index scores 0 (a miss), it is not dropped. The earlier
+        self-filter (keep only golds present in this index's chunk ids) hid source gaps
+        from the denominator, so the pass line was provisional. `if exp` still drops
+        questions carrying no expected gold at all -- a different question type, not
+        defect-hiding. (svc is kept in the signature for call-site stability.)
+    """
     out = {}
     for group, path in A.NEWLAYER_EVAL:
         qs = A._load_jsonl(path)
         sel, golds = [], []
         for q in qs:
             exp = A._expected_newlayer(q)
-            present = {e for e in exp if e in v8_cids}
-            if present:
+            if exp:
                 sel.append(q["question"])
-                golds.append(present)
+                golds.append(set(exp))
         embs = R._encode_queries(sel, svc.state) if sel else np.zeros((0, svc.dim), np.float32)
         out[group] = {
             "total": len(qs),
