@@ -303,6 +303,43 @@ def main() -> int:
     # 12. Schema drift.
     results.append(("schema-drift", schema_drift()))
 
+    # 13-15. Fidelity pipeline (mirrors ci.yml's fidelity-gate job): rebuild the
+    # derived chunks from the versioned Markdown and source XML, then run the gate
+    # over them. build -> build -> gate, each build its own step so a build failure is
+    # never read as a fidelity violation. This OVERWRITES build/chunks with a fresh
+    # build on purpose -- the gate must check what the deterministic parser produces
+    # now, not a stale local copy -- and it does not delete the non-regenerable store
+    # files that also live there (the builders write per-file, they do not wipe the
+    # tree). Order is pinned even though the two builds are order-independent today, so
+    # a future change to that surfaces as a diff. Carrying the same pipeline here and
+    # in ci.yml is what makes "green locally" and "green in CI" mean the same thing.
+    results.append(
+        (
+            "build-segment-chunks",
+            run(
+                "build-segment-chunks",
+                [PY, "tools/parse/v0.2/build_chunks_from_md.py"],
+                env=PYENV,
+            ),
+        )
+    )
+    results.append(
+        (
+            "build-table-chunks",
+            run(
+                "build-table-chunks",
+                [PY, "tools/parse/v0.2/extract_table_from_xml.py"],
+                env=PYENV,
+            ),
+        )
+    )
+    results.append(
+        (
+            "fidelity-gate",
+            run("fidelity-gate", [PY, "tools/parse/v0.2/g0_fidelity_gate.py"], env=PYENV),
+        )
+    )
+
     # Local-only: 本則 table parity. Not in ci.yml on purpose (needs the gitignored
     # e-Gov XML cache); self-SKIPs (exit 0) when cache/laws is absent.
     results.append(
