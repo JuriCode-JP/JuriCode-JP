@@ -48,22 +48,28 @@
   9. schema drift（`python tools/shared/scripts/export-schema.py` + `git diff --exit-code schema/`）
 - 特に **8（cp932）・2（format）・9（schema drift）は `ruff check`/`pytest` では拾えない独立ステップ**。NUL byte／末尾整合／MAX_PATH も併せて担保（→ §10.2 と一体運用）。
 
-### 0.5.1 G0 忠実性ゲート（**CI では実行できない・ローカル必須**）
+### 0.5.1 G0 忠実性ゲート（**CI 常設・毎 PR 実行**／ローカルでも回せる）
 
-- **corpus・chunk・parser を触ったら、push 前にローカルで必ず回す**:
+- **corpus・chunk・parser を触ったら、push 前にローカルでも回す**（CI と同じものが走る）:
   ```bash
   python tools/parse/v0.2/g0_fidelity_gate.py --out-dir build/fidelity-report
   ```
+  `tools/scripts/run-ci.py` は `build_chunks_from_md.py` → `extract_table_from_xml.py` → `g0_fidelity_gate.py`
+  を自動実行するので、run-ci.py を通せば個別実行は不要。
   - **G0-a**: e-Gov XML の条文本文 == 正本 md（空白畳み込み後の完全一致・chunk と合算しない）
   - **G0-b**: 本文系 chunk の総和 == 正本 md の非表本文（完全一致）
   - **G0-c**: 各 chunk は親条文に無いテキストを含まない（捏造ゼロ）
-- **なぜ CI に入っていないか（重要・隠さない）**: 本ゲートは ground truth として e-Gov XML
-  (`cache/laws/`, 133 MB) を要求するが、同ディレクトリは `.gitignore` されており CI 環境に存在しない。
-  **XML を commit する／CI で e-Gov から取得する のどちらかを決めるまで、G0 は「ローカル必須・CI 非実行」**。
-  CI に「cache があれば走る」条件付きステップを足すと、**実際には毎回 skip されるのに緑に見える**ため入れない。
-- **`verify.py`（CI ステップ 5）は G0 の代わりにならない**。verify は md ↔ manifest の自己整合しか見ず、
-  manifest は同じ md から作られるため、**XML→md の変換で落ちた本文は原理的に検出できない**
+- **CI 常設になった（2026-07-16〜）**: 以前は ground truth の e-Gov XML (`cache/laws/`) が `.gitignore`
+  で CI 環境に無いため走らせられなかった。その後 **e-Gov XML をバイト単位で版管理下に置き（PR #149）、
+  `ci.yml` に独立ジョブ `fidelity-gate` を追加した（PR #150）**。CI は毎 PR で派生チャンクを
+  `build_chunks_from_md.py`（セグメント）→ `extract_table_from_xml.py`（表）で**再ビルドしてから**
+  ゲートを回す。チャンクは commit せず CI でビルドする＝**忠実性に加えて再現性も同時に検証**される。
+  ゲートは違反で exit 1（かつては無条件 return 0 だったのを「落ちるゲート」化済み）。
+  「原典 XML → 正本 md → チャンク」が毎 PR で機械照合される。
+- **`verify.py`（lint-and-test ジョブの一ステップ）は G0 の代わりにならない**。verify は md ↔ manifest の
+  自己整合しか見ず、manifest は同じ md から作られるため、**XML→md の変換で落ちた本文は原理的に検出できない**
   （2026-07-13 に号 41,621・細別 16,609 unit の欠落と、国税通則法 14 条の改正反映漏れがこの穴を通り抜けていた）。
+  G0 はこの穴を塞ぐために XML を直接 ground truth として突き合わせる別ゲートで、両者は併存する。
 
 ### 0.6 現行性
 - 税率・閾値・施行日は将来課題に棚上げせず、**e-Gov／総務省／都主税局／裁判所の一次情報で確認してからロック**。

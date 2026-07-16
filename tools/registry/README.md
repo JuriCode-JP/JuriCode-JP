@@ -58,8 +58,17 @@ fabricated**.
 - Layer stores under `build/chunks/` — enumerated by the allow-list constants
   in `build_registry.py`. A store-shaped entry outside the allow-list aborts
   the build (stale caches such as `build-chunks-backup` are known-ignored).
-- `build/corpus-v8.jsonl` (chunk universe) / `build/corpus-v8-embed.jsonl`
-  (index coverage gate: every embedded chunk must resolve in `chunks.jsonl`)
+- `build/corpus-v9.jsonl` (chunk universe) / `build/corpus-v9-embed.jsonl`
+  (row-aligned embed corpus). Two coverage gates run over the pair:
+  - **forward** (`embed ⊆ chunks`): every embedded chunk must resolve in
+    `chunks.jsonl`.
+  - **reverse** (`chunks − embed`): every corpus chunk absent from the index
+    must be a `-rollup` aggregation (`embed_skip=True` by design) or empty-text
+    (nothing to embed). A body chunk in the gap — e.g. one stamped
+    `embed_skip=True` by a future parser change — is a STOP (closes the
+    G0-e-class hole the forward gate alone misses). The exclusion breakdown
+    (`rollup_family` / `empty_text` / `total_gap`) is printed in the report.
+    Skipped when `--index-coverage measure` (stale index).
 
 ## Run
 
@@ -71,6 +80,7 @@ pytest tools/registry/tests/test_build_registry.py  # hermetic (CI-safe)
 
 Hard stops (never downgraded to warnings): duplicate `juri_id`, orphan chunks,
 statute sha mismatch, document-count drift vs. locked expectations,
-embed-index coverage holes, unexpected store entries, nondeterministic output.
+embed-index coverage holes (forward AND reverse), unexpected store entries,
+nondeterministic output.
 `law_num` duplicate **values** across laws are WARN-only here (the BQ
 exporter, where `law_num` is a key, owns the fatal check).

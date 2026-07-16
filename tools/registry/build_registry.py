@@ -127,6 +127,15 @@ EXPECTED_COUNTS = {
     "ruling": 13,
 }
 
+#: segment_types that are intentionally absent from the embed index. These are
+#: the ``-rollup`` aggregation chunks: build_v8_corpus S-1 marks them
+#: ``embed_skip=True`` because their body text is the sum of child (項/号) chunks
+#: which ARE embedded individually, so embedding the rollup too would be
+#: redundant. filter_v8_embed drops exactly these + empty-text rows. This is the
+#: ONLY non-empty-text category allowed to be missing from the index -- see
+#: ``assert_embed_exclusions``.
+EMBED_SKIP_SEGMENT_TYPES = frozenset({"rollup", "supplproviso_rollup"})
+
 _SHA256_HEX_RE = re.compile(r"^[0-9a-f]{64}$")
 #: Sub-article unit suffixes on 附則 chunk ids (項/分割/表/列/rollup)。
 _SUPPL_UNIT_SUFFIX_RE = re.compile(r"(?:-p\d+|-sub\d+|-tbl\d+|-w\d+|-rollup)+$")
@@ -170,6 +179,9 @@ class BuildReport:
     #: 旧索引にあって新 corpus に無い chunk_id の数。索引が corpus より古いときだけ
     #: 非ゼロになる (index_coverage="measure" のとき集計され、"assert" では 0 か STOP)。
     stale_index_chunk_ids: int = 0
+    #: corpus にあって索引に無い chunk の内訳 (逆方向ゲート assert_embed_exclusions)。
+    #: index_coverage="assert" のときだけ算出。measure では None のまま。
+    embed_exclusions: dict[str, int] | None = None
 
 
 # =====================================================
@@ -387,6 +399,11 @@ def load_corpus(corpus_path: Path) -> list[dict]:
         for line in f:
             r = json.loads(line)
             row = {k: r.get(k) for k in keep_common}
+            # Mirror filter_v8_embed EXACTLY: a row is embed-excluded on empty
+            # text via ``(text or "").strip()``. Captured here so the reverse
+            # exclusion gate can distinguish empty-text drops from unexpected
+            # ones without re-reading the corpus.
+            row["text_empty"] = not (r.get("text") or "").strip()
             lay = row["layer"]
             if lay in ("statute", "enforcement"):
                 row["article_id"] = r.get("article_id")
@@ -673,6 +690,50 @@ def assert_invariants(
     return len(uncovered)
 
 
+def assert_embed_exclusions(corpus: list[dict], embed_ids: set[str]) -> dict[str, int]:
+    """Gate the REVERSE direction: every corpus chunk absent from the embed
+    index must be either a ``-rollup`` aggregation (embed_skip=True by design)
+    or an empty-text chunk (nothing to embed). Anything else is a STOP.
+
+    Why (maintainer ruling 2026-07-16): ``assert_invariants`` only checks
+    ``embed ⊆ chunks`` (forward). A future parser change that stamps a BODY
+    chunk ``embed_skip=True`` would silently drop it from search and sail
+    through the forward gate -- the same class of hole as G0-e. This closes it:
+    the one-off manual proof that the corpus/index row gap is EXACTLY
+    ``{rollup, supplproviso_rollup} ∪ {empty-text}`` now runs on every build.
+
+    Runs only when the index is current (index_coverage="assert"); a stale
+    index (measure mode, e.g. mid chunk-rebuild) has an unrelated chunk_id
+    universe and would make this gate meaningless.
+
+    Args:
+        corpus: rows from ``load_corpus`` (need ``chunk_id`` / ``segment_type``
+            / ``text_empty``).
+        embed_ids: chunk_ids actually present in the row-aligned embed corpus.
+
+    Returns:
+        Exclusion breakdown for the operator report (rollup_family / empty_text
+        / total_gap). ``rollup_family + empty_text == total_gap`` by construction.
+    """
+    gap = [c for c in corpus if c["chunk_id"] not in embed_ids]
+    unexpected = [
+        c["chunk_id"]
+        for c in gap
+        if c["segment_type"] not in EMBED_SKIP_SEGMENT_TYPES and not c["text_empty"]
+    ]
+    if unexpected:
+        raise RegistryError(
+            f"{len(unexpected)} body chunk(s) in the corpus but absent from the embed "
+            f"index, and neither a -rollup aggregation nor empty-text "
+            f"(a body chunk marked embed_skip=True?), first 5: {sorted(unexpected)[:5]}"
+        )
+    rollup_family = sum(1 for c in gap if c["segment_type"] in EMBED_SKIP_SEGMENT_TYPES)
+    # empty_text counts the non-rollup remainder so the two buckets partition
+    # the gap exactly (a rollup chunk always carries its aggregated text).
+    empty_text = len(gap) - rollup_family
+    return {"rollup_family": rollup_family, "empty_text": empty_text, "total_gap": len(gap)}
+
+
 # =====================================================
 # Build orchestration
 # =====================================================
@@ -746,9 +807,16 @@ def build_registry(
     stale_index_ids = assert_invariants(
         documents, chunk_rows, embed_ids, expected, index_coverage=index_coverage
     )
+    # Reverse gate: only meaningful when the index tracks the corpus. In measure
+    # mode the index is stale (different chunk_id universe) so the gap is not the
+    # {rollup ∪ empty} partition and the gate is skipped.
+    embed_exclusions = (
+        assert_embed_exclusions(corpus, embed_ids) if index_coverage == "assert" else None
+    )
 
     report = BuildReport(law_num_duplicate_values=dup_values)
     report.stale_index_chunk_ids = stale_index_ids
+    report.embed_exclusions = embed_exclusions
     for d in documents:
         report.docs_by_layer[d["layer"]] = report.docs_by_layer.get(d["layer"], 0) + 1
         report.docs_by_hash_basis[d["hash_basis"]] = (
@@ -850,8 +918,8 @@ def _build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--data-dir", type=Path, default=_REPO / "data" / "v0.2")
     p.add_argument("--cache-dir", type=Path, default=_REPO / "cache" / "laws")
     p.add_argument("--chunks-dir", type=Path, default=_REPO / "build" / "chunks")
-    p.add_argument("--corpus", type=Path, default=_REPO / "build" / "corpus-v8.jsonl")
-    p.add_argument("--embed", type=Path, default=_REPO / "build" / "corpus-v8-embed.jsonl")
+    p.add_argument("--corpus", type=Path, default=_REPO / "build" / "corpus-v9.jsonl")
+    p.add_argument("--embed", type=Path, default=_REPO / "build" / "corpus-v9-embed.jsonl")
     p.add_argument("--out-dir", type=Path, default=_REPO / "build" / "registry")
     p.add_argument("--sample-verify", type=int, default=20, help="samples per layer (0=skip)")
     p.add_argument(
@@ -904,6 +972,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"null version_date       : {report.null_version_date}")
     print(f"law_num duplicate values: {report.law_num_duplicate_values}")
     print(f"manifest articles not referenced by corpus: {report.articles_not_in_corpus}")
+    if report.embed_exclusions is not None:
+        print(f"embed exclusions (corpus−index): {report.embed_exclusions}")
+    else:
+        print("embed exclusions (corpus−index): SKIPPED (index-coverage=measure)")
     return 0
 
 

@@ -169,12 +169,15 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
 
     corpus = [
         # 本則 (statute): hyphen id + underscore variant of the branch article.
+        # ``text`` mirrors the real corpus (embed source); the reverse exclusion
+        # gate reads it to tell empty-text drops from unexpected ones.
         {
             "chunk_id": "test-hou-art-1-p1",
             "layer": "statute",
             "segment_type": "simple",
             "article_id": "test-hou-art-1",
             "law_id": LAW_ID,
+            "text": "本則第一条本文",
         },
         {
             "chunk_id": "test-hou-art-1_2-p1",
@@ -182,6 +185,7 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
             "segment_type": "simple",
             "article_id": "test-hou-art-1_2",  # corpus underscore form
             "law_id": LAW_ID,
+            "text": "本則第一条の二本文",
         },
         # 附則 group with 条 substructure: art doc (2 paragraphs) + group rollup.
         {
@@ -190,6 +194,7 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
             "segment_type": "supplproviso",
             "article_id": None,
             "law_id": LAW_ID,
+            "text": "附則第一条第一項",
             "text_raw": "附則第一条第一項",
         },
         {
@@ -198,6 +203,7 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
             "segment_type": "supplproviso",
             "article_id": None,
             "law_id": LAW_ID,
+            "text": "附則第一条第二項",
             "text_raw": "附則第一条第二項",
         },
         {
@@ -206,6 +212,7 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
             "segment_type": "supplproviso_rollup",
             "article_id": None,
             "law_id": LAW_ID,
+            "text": "附　則（全文）",
             "text_raw": "附　則（全文）",
         },
         # tsutatsu: doc chunk + split chunk of the same directive.
@@ -214,17 +221,20 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
             "layer": "tsutatsu",
             "segment_type": "tsutatsu",
             "directive_id": "hojin-kihon-tsutatsu-1-1-1",
+            "text": "通達本文",
         },
         # taxanswer: two -sub chunks -> one document.
         {
             "chunk_id": "hojin-taxanswer-1000-sub1",
             "layer": "taxanswer",
             "segment_type": "taxanswer",
+            "text": "タックスアンサー本文 前半",
         },
         {
             "chunk_id": "hojin-taxanswer-1000-sub2",
             "layer": "taxanswer",
             "segment_type": "taxanswer",
+            "text": "タックスアンサー本文 後半",
         },
         # ruling.
         {
@@ -232,9 +242,13 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
             "layer": "ruling",
             "segment_type": "ruling",
             "case_id": "ntt-2000-01-01-j1-1",
+            "text": "テスト裁決\nテスト要旨",
         },
     ]
     _write_jsonl(tmp_path / "corpus.jsonl", corpus)
+    # Row-aligned embed corpus = filter_v8_embed output: drop embed_skip
+    # (supplproviso_rollup here) + empty text. The base tree has neither an
+    # empty-text row nor a plain rollup, so the gap is exactly the 1 rollup.
     _write_jsonl(
         tmp_path / "embed.jsonl",
         [{"chunk_id": c["chunk_id"]} for c in corpus if c["segment_type"] != "supplproviso_rollup"],
@@ -495,6 +509,59 @@ def test_embed_index_coverage_gate(tmp_path):
     _write_jsonl(paths.embed_path, [{"chunk_id": "ghost-chunk-1"}])
     with pytest.raises(BR.RegistryError, match="coverage hole"):
         BR.build_registry(paths, EXPECTED)
+
+
+# ---- reverse exclusion gate (corpus − index) -------------------------------
+
+
+def _embed_ids(paths) -> list[str]:
+    return [
+        json.loads(line)["chunk_id"]
+        for line in paths.embed_path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+
+
+def _set_embed(paths, chunk_ids: list[str]) -> None:
+    _write_jsonl(paths.embed_path, [{"chunk_id": c} for c in chunk_ids])
+
+
+def test_embed_exclusions_reports_rollup_gap(tmp_path):
+    """Base tree: the only corpus chunk absent from the index is the 1 rollup."""
+    paths = make_tree(tmp_path)
+    _, _, report = BR.build_registry(paths, EXPECTED)
+    assert report.embed_exclusions == {"rollup_family": 1, "empty_text": 0, "total_gap": 1}
+
+
+def test_embed_exclusion_body_chunk_stops(tmp_path):
+    """A non-rollup, non-empty chunk missing from the index is a STOP -- this is
+    the hole the gate closes (a body chunk stamped embed_skip=True)."""
+    paths = make_tree(tmp_path)
+    kept = [c for c in _embed_ids(paths) if c != "test-hou-art-1-p1"]  # drop a body chunk
+    _set_embed(paths, kept)
+    with pytest.raises(BR.RegistryError, match="body chunk"):
+        BR.build_registry(paths, EXPECTED)
+
+
+def test_embed_exclusion_empty_text_allowed(tmp_path):
+    """An empty-text chunk absent from the index is allowed (nothing to embed)
+    and counted separately from the rollup family."""
+    paths = make_tree(tmp_path)
+    rows = [json.loads(line) for line in paths.corpus_path.read_text(encoding="utf-8").splitlines()]
+    for r in rows:
+        if r["chunk_id"] == "test-hou-art-1-p1":
+            r["text"] = ""  # empty at source (mirrors the 4 消費税基本通達 rows)
+    _write_jsonl(paths.corpus_path, rows)
+    _set_embed(paths, [c for c in _embed_ids(paths) if c != "test-hou-art-1-p1"])
+    _, _, report = BR.build_registry(paths, EXPECTED)  # no STOP
+    assert report.embed_exclusions == {"rollup_family": 1, "empty_text": 1, "total_gap": 2}
+
+
+def test_embed_exclusion_skipped_in_measure_mode(tmp_path):
+    """Measure mode (stale index) skips the reverse gate; breakdown is None."""
+    paths = make_tree(tmp_path)
+    _, _, report = BR.build_registry(paths, EXPECTED, index_coverage="measure")
+    assert report.embed_exclusions is None
 
 
 def test_null_metadata_counted_not_fabricated(tmp_path):
