@@ -138,7 +138,7 @@ def test_pass_lines_parses_and_holds_locked_values() -> None:
     assert v8b["newlayer"]["taxanswer"] == {"N": 17, "R@20": 17}
 
     v9 = pl["v0.2-aug-v9-gemini"]
-    assert v9["honbun"] == {"N": 97, "R@10": 78, "R@20": 85}
+    assert v9["honbun"] == {"N": 141, "R@10": 115, "R@20": 119}
     assert v9["newlayer"]["tsutatsu"] == {"N": 15, "R@20": 15}
     assert v9["newlayer"]["taxanswer"] == {"N": 17, "R@20": 17}
 
