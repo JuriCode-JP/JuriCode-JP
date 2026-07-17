@@ -7,15 +7,14 @@ Why:
     (unknown-group / unmeasured-target), an all-match run passes, and every failure
     reason names the check that failed -- so a red gate can never be silently tuned green.
 
-CI note (deliberate skip):
-    reproduce_a3.py imports numpy at module top, and CI's dev deps do not include numpy;
-    importing the module in a CI-enumerated test fails collection (a real
-    ModuleNotFoundError happened this way in a recent run). Every test guards with
-    pytest.importorskip("numpy") BEFORE anything pulls reproduce_a3 in -- the same
-    ordering test_harness_stamp_equals_the_anchor_digest uses -- so these skip cleanly in
-    CI and run locally. That skip is a known gap, accepted here: making the numpy import
-    lazy is the real fix but belongs to a separate change (doing it here would confound
-    this one). tools/serve is not a package, so the module is loaded by file path.
+CI note (runs in CI):
+    reproduce_a3.py (and a3_contamination_eval.py, which it imports) now import numpy
+    lazily -- inside the functions that use it, not at module top -- so loading the module
+    no longer requires numpy. CI's dev deps still do not include numpy, but these tests
+    exercise only _verdict, which is numpy-free, so they now RUN in CI instead of skipping.
+    The by-path load still keeps its except -> pytest.skip fallback for any OTHER
+    retrieval-stack dependency that may be absent (that is not numpy). tools/serve is not a
+    package, so the module is loaded by file path.
 """
 
 from __future__ import annotations
@@ -29,13 +28,13 @@ _REPO = Path(__file__).resolve().parents[3]
 
 
 def _load_harness():
-    """Load reproduce_a3 by file path, guarded so CI (no numpy) skips instead of erroring.
+    """Load reproduce_a3 by file path.
 
-    Why the ordering matters: importorskip has to fire BEFORE the module is pulled in,
-    or collection dies before the guard is reached. So the guard, the sys.path insertion,
-    and the by-path load all live inside this function, and every test calls it first.
+    numpy is imported lazily inside the harness (and its a3_contamination_eval import), so
+    loading the module here does not need numpy and this runs in CI. The by-path load keeps
+    an except -> pytest.skip fallback for any other retrieval-stack dependency that may be
+    absent locally (that is not numpy).
     """
-    pytest.importorskip("numpy")
     import importlib.util
 
     serve = _REPO / "tools" / "serve"

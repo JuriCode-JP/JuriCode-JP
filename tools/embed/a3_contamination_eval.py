@@ -26,8 +26,10 @@ import datetime as _dt
 import json
 import sys
 from pathlib import Path
+from typing import TYPE_CHECKING
 
-import numpy as np
+if TYPE_CHECKING:  # runtime False -> numpy is not imported (the module still loads without it);
+    import numpy as np  # names the annotation type for static analysis (ruff F821)
 
 # retrieve.py lives in the same directory; reuse its committed retrieval machinery so the
 # math is identical to the production tool (no re-implementation drift).
@@ -148,6 +150,8 @@ def _rows_for(top_idx, match_keys, expected_per_query) -> list[dict]:
 
 def _encode_queries_cached(questions: list[str], state: dict) -> np.ndarray:
     """Encode once via Gemini RETRIEVAL_QUERY; cache to npy keyed by the question list."""
+    import numpy as np  # lazy import
+
     cache_npy = OUT / "query_emb.npy"
     cache_q = OUT / "query_list.json"
     if cache_npy.exists() and cache_q.exists():
