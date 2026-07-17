@@ -146,22 +146,8 @@ def _hit_key(h: dict) -> str:
 
 
 def _match(k, gset) -> bool:
-    """retrieved key が gold を満たす: 完全一致、または <gold>-subN（sub-chunk は
-    文書を chunk 分割したもので、eval gold は親を指す＝sub-chunk は親 gold の答え）。
-    "-sub" 境界と空 gold skip で over-credit を防ぐ。honbun は該当キー無しで無影響。"""
-    for g in gset:
-        if not g:
-            continue
-        if k == g:
-            return True
-        if (
-            isinstance(k, str)
-            and isinstance(g, str)
-            and k[: len(g)] == g
-            and k[len(g) :].startswith("-sub")
-        ):
-            return True
-    return False
+    """FU-563: 判定は retrieve.match_gold が唯一の真実。ここは後方互換の薄いラッパ。"""
+    return R.match_gold(k, gset)
 
 
 def _recall(svc: S.RetrievalService, embs, golds, fold: bool) -> dict:
