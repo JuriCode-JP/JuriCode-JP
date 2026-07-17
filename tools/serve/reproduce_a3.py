@@ -32,8 +32,6 @@ import sys
 import time
 from pathlib import Path
 
-import numpy as np
-
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO = SCRIPT_DIR.parents[1]
 for _p in (REPO / "tools" / "embed", REPO / "tools" / "shared" / "src", SCRIPT_DIR):
@@ -221,6 +219,8 @@ def _newlayer(svc: S.RetrievalService, embs_cache: dict) -> dict:
         questions carrying no expected gold at all -- a different question type, not
         defect-hiding. (svc is kept in the signature for call-site stability.)
     """
+    import numpy as np  # lazy import
+
     out = {}
     for group, path in A.NEWLAYER_EVAL:
         qs = A._load_jsonl(path)
