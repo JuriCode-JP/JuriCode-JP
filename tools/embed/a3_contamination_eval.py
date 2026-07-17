@@ -105,7 +105,7 @@ def _match_keys(records: list[dict]) -> list[str]:
 def _recall_row(top_ids: list[str], expected: set[str]) -> dict:
     rank = None
     for i, k in enumerate(top_ids, start=1):
-        if k in expected:
+        if R.match_gold(k, expected):
             rank = i
             break
     return {c: (1 if (rank is not None and rank <= c) else 0) for c in K_CUTS} | {"rank": rank}

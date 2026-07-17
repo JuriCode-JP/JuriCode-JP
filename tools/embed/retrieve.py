@@ -490,9 +490,29 @@ def _cosine_topk(query_matrix, corpus_matrix, top_k):
     return sims, top_idx
 
 
+def match_gold(key, gold_set) -> bool:
+    """retrieved key が gold を満たすか: 完全一致、または <gold>-subN（sub-chunk は
+    文書を chunk 分割したもので、eval gold は親を指す＝sub-chunk は親 gold の答え）。
+    空 gold は skip、境界は "-sub" のみ（over-credit 防止）。FU-563: serve reproduce_a3._match と
+    この 1 関数が唯一の判定＝3 スコアラーはここへ委譲しドリフトを防ぐ。"""
+    for g in gold_set:
+        if not g:
+            continue
+        if key == g:
+            return True
+        if (
+            isinstance(key, str)
+            and isinstance(g, str)
+            and key[: len(g)] == g
+            and key[len(g) :].startswith("-sub")
+        ):
+            return True
+    return False
+
+
 def _rank_of_first_match(ranked_ids, expected):
     for i, aid in enumerate(ranked_ids, start=1):
-        if aid in expected:
+        if match_gold(aid, expected):
             return i
     return None
 
@@ -959,7 +979,7 @@ def main():
                 chunk_id = pipeline.records[idx].get("chunk_id") or ""
                 directive_id = pipeline.records[idx].get("directive_id") or ""
                 match_key = aid if aid else (directive_id or chunk_id)
-                marker = " OK" if match_key in expected else ""
+                marker = " OK" if match_gold(match_key, expected) else ""
                 # Display: law article vs directive vs taxanswer
                 seg_type = pipeline.records[idx].get("segment_type") or ""
                 if aid:
