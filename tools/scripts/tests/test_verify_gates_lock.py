@@ -135,12 +135,12 @@ def test_pass_lines_parses_and_holds_locked_values() -> None:
     v8b = pl["v0.2-aug-v8b-gemini"]
     assert v8b["honbun"] == {"N": 141, "R@10": 84, "R@20": 87}
     assert v8b["newlayer"]["tsutatsu"] == {"N": 15, "R@20": 15}
-    assert v8b["newlayer"]["taxanswer"] == {"N": 20, "R@20": 17}
+    assert v8b["newlayer"]["taxanswer"] == {"N": 20, "R@20": 20}
 
     v9 = pl["v0.2-aug-v9-gemini"]
     assert v9["honbun"] == {"N": 141, "R@10": 115, "R@20": 119}
     assert v9["newlayer"]["tsutatsu"] == {"N": 15, "R@20": 15}
-    assert v9["newlayer"]["taxanswer"] == {"N": 20, "R@20": 17}
+    assert v9["newlayer"]["taxanswer"] == {"N": 20, "R@20": 20}
 
 
 # --- the harness stamp must agree with the anchor (makes the duplication safe) ----
