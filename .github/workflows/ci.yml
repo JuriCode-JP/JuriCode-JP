@@ -243,6 +243,14 @@ jobs:
       - name: Verify fidelity (canonical md == source XML == derived chunks)
         run: python tools/parse/v0.2/g0_fidelity_gate.py
 
+      # Sequential after g0 on purpose (no `if: always()`): if a build above fails,
+      # build/chunks is incomplete and parity would report "no chunk file" as a false
+      # DROP -- build noise, not a real drop. Running only after g0 is green means a
+      # red here reads cleanly as a genuine 本則 TableStruct drop on a good build. Both
+      # guards protect the same XML->chunk pipeline, so a break trips both at once.
+      - name: Verify body-text table parity (no silent TableStruct drops)
+        run: python tools/parse/v0.2/verify_table_parity.py
+
   leak-gate:
     name: Leak gate (names / internal refs)
     runs-on: ubuntu-latest

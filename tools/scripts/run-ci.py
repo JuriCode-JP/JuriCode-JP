@@ -5,9 +5,10 @@ Why:
     Reproducing CI before a push by hand misses steps (PR #14 shipped an em-dash
     that CI caught but a local ruff+pytest did not). This runner mirrors
     .github/workflows/ci.yml -- the SAME checks over the SAME target set -- so a
-    green here means a green there. It also runs the local-only table-parity check
-    when the e-Gov XML cache is present (that cache is gitignored and absent in CI,
-    so parity cannot run in CI; the script self-SKIPs when the cache is missing).
+    green here means a green there. This includes the body-text table-parity check,
+    which now runs every PR in ci.yml (fidelity-gate job) as well -- VA-2 stage 1 put
+    the e-Gov XML under version control (cache/laws), so the check is no longer
+    local-only; run-ci.py reproduces it with the same invocation.
 
     The pytest path list is duplicated from ci.yml on purpose: parsing YAML at
     runtime would add a dependency and let an indentation change break this tool for
@@ -344,8 +345,9 @@ def main() -> int:
         )
     )
 
-    # Local-only: 本則 table parity. Not in ci.yml on purpose (needs the gitignored
-    # e-Gov XML cache); self-SKIPs (exit 0) when cache/laws is absent.
+    # 本則 table parity. Now runs every PR in ci.yml (fidelity-gate job) too, since
+    # VA-2 stage 1 put the e-Gov XML cache under version control; this is the local
+    # reproduction. A missing cache/laws is now a broken state and fails loudly.
     results.append(
         (
             "table-parity",

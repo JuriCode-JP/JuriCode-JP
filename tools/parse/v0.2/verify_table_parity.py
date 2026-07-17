@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""verify_table_parity.py -- 本則 table chunks の parity guard (ローカル専用・cache/laws 必須).
+"""verify_table_parity.py -- 本則 table chunks の parity guard (CI 常設・cache/laws 必須).
 
 Why:
     extract_table が本則 <TableStruct> を silent に落としていないかを cache/laws の
-    e-Gov XML と build/chunks の双方向で突合する再発防止ガード。cache/laws は
-    .gitignore 対象で CI に不在のため、本 script は CI ステップではなく push 前
-    ローカル CI 再現 (run-ci.py の optional step) として実行する。
+    e-Gov XML と build/chunks の双方向で突合する再発防止ガード。cache/laws の e-Gov
+    XML は VA-2 段1 で版管理下に入ったため、本ゲートは ci.yml (fidelity-gate ジョブ)
+    で毎 PR 実行される。ローカルでも run-ci.py が同じ invocation で再現する。XML 不在
+    は壊れた状態ゆえ fail-loud (return 1)。
 
 parity 定義 (windowing 耐性・briefing §5):
     1 つの <TableStruct> は行ウィンドウ分割で複数 chunk record になりうる
@@ -135,11 +136,12 @@ def main() -> int:
 
     if not args.xml_dir.exists():
         print(
-            f"SKIP: xml-dir が見つかりません ({args.xml_dir})。parity は cache/laws "
-            "(gitignored) を要するためローカル限定です。",
+            f"FAIL: xml-dir が見つかりません ({args.xml_dir})。e-Gov XML は VA-2 段1 で "
+            "版管理下 (cache/laws・58 本) に入り常在すべきです。不在は壊れた状態ゆえ "
+            "fail-loud で落とします。",
             file=sys.stderr,
         )
-        return 0
+        return 1
 
     failures = check_parity(args.data_dir, args.xml_dir, args.chunks_dir)
     if failures:
