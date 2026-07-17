@@ -535,6 +535,17 @@ except ValidationError as e:
 
 ## P2 — Phase 1 中期 (2026-07〜09)
 
+### [ ] FU-563: 5211 prefix 正規化の scorer parity（eval gold-match の 3 scorer を揃える）(2026-07-17 追加)
+
+PR #163 (main `2912b5b9`) で `tools/serve/reproduce_a3.py` の `_match` に「retrieved `<gold>-subN` を親 gold にクレジット」する prefix 正規化を入れた（sub-chunk は文書を chunk 分割したもので eval gold は親を指す＝`-sub` 境界＋空 gold skip で over-credit 防止）。同種の gold-match ロジックが他に 2 箇所あり未同期で、同じ eval を回すと 5211 系設問（`hojin-taxanswer-5211` 等）が本来 hit なのに 0 点のまま残る（行番号は main `2912b5b9` 時点）:
+
+- `tools/embed/retrieve.py`（eval CLI・`main()` 内経路）: `_rank_of_first_match`（def :493・exact 判定）／`_expected_ids`（def :925・bare `hojin-taxanswer-{qa_code}` 生成）／集計 `aggregate_metrics`（def :646）
+- `tools/embed/a3_contamination_eval.py`: `_recall_row`（def :105）／`_match_keys`（def :96）
+
+いずれも `tools/scripts/run-ci.py` / `.github/workflows/ci.yml` の eval ステップ非対象＝**CI は割れない**（"落ちるゲート" ではなく開発者体験の不整合）。放置すると、開発者が retrieve.py eval CLI や a3_contamination_eval を回したとき 5211 系が 0 と表示され、誤った退行判断を招く。
+
+**対応（別 PR・rule 8・掃除系と混ぜない）**: `reproduce_a3._match` と同一の正規化（exact ∪ `<gold>-subN` prefix・`-sub` 境界・空 gold skip）を 3 scorer で共有する。**共有関数化推奨**（例: 共通 util に `match_gold(key, gold_set)` を切り出し 3 箇所が参照）＝「1 箇所直して他が未同期」の再発防止。テスト: 各 scorer に境界ユニット（`-52111` は非credit・空 gold skip・sub credit）。**ロック値への影響なし**（reproduce_a3 は 20/20 で locked 済・他 2 つは CI 非対象ゆえ pass line 無し）が、実測差が出るなら measure→maintainer がロックする規律に従う。参照: PR #163／commit `2912b5b9`。
+
 ### [x] FU-552: 法人税裁決 store の parser 修正 refresh (+9 link・2026-07-04 追加・相続裁決 bulk 直後) — ✅ 完了 2026-07-08
 
 **完了**: 修正後 parser で hojin store を再生成 (449 行不変・非 attached 全プロパティ byte 一致・要旨/メタ改変0・リンク喪失0)、純加算 +9 link (国税通則法 art-68 ×6・民法 art-624 ×1・houjin-art-2 ×2) を 3 条 md に付与、`test_hojin_rulings_store` floor を実測値 105 へ再ロック + FU-552 回帰ロック test 追加。偽リンク0・CI 全9 green。
