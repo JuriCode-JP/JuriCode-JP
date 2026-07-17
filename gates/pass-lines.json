@@ -1,15 +1,15 @@
 {
-  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- the corpus behind this index had no item-level (号) or sub-item text, and branch-numbered articles (e.g. 132-2) were absent from the index entirely; its numbers are recorded here as a historical baseline. v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations, and honbun is scored on the full ground-truth denominator with no cross-filter (a gold article absent from the index scores 0, not dropped). The new-layer pass lines (taxanswer, tsutatsu) are likewise scored on the full denominator with no index filter, so a gold chunk absent from the index scores 0; a count below the question total reflects a source gap surfaced, not a regression. This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass.",
+  "_comment": "Pass lines are per index. A pass line measured on one index says nothing about another: the corpora differ in what they contain, so the population differs. v8b -- an earlier, less complete index than v9. It does carry item-level (号) and sub-item chunks and many branch-numbered articles; the difference from v9 is coverage completeness -- v9 indexes more articles across more laws (e.g. fuller 医薬品医療機器等法 / 金融商品取引法 coverage) -- not the presence or absence of the 号/sub-item/branch layers. A few specific branch-numbered articles (e.g. the previously-cited 132-2) are absent from v8b. Its numbers are a historical baseline, now scored on the same full ground-truth denominator as v9 (a gold article absent from this index scores 0, not dropped). v9 -- item and sub-item text is first-class; branch-numbered articles are present; the fidelity gates pass with zero violations, and honbun is scored on the full ground-truth denominator with no cross-filter (a gold article absent from the index scores 0, not dropped). The new-layer pass lines (taxanswer, tsutatsu) are likewise scored on the full denominator with no index filter, so a gold chunk absent from the index scores 0; a count below the question total reflects a source gap surfaced, not a regression. This file is anchored by an out-of-repo digest (see tools/scripts/verify-gates-lock.py); values here are owner-locked baselines and must not be edited to make a run pass.",
   "pass_lines": {
     "v0.2-aug-v8b-gemini": {
       "honbun": {
-        "N": 97,
+        "N": 141,
         "R@10": 84,
         "R@20": 87
       },
       "newlayer": {
         "taxanswer": {
-          "N": 17,
+          "N": 20,
           "R@20": 17
         },
         "tsutatsu": {
@@ -17,7 +17,7 @@
           "R@20": 15
         }
       },
-      "note": "measured on the index built before item-level chunks existed"
+      "note": "an earlier, less complete index than v9; re-scored on the same full ground-truth denominator with no cross-filter (a gold absent from this index scores 0, not dropped)."
     },
     "v0.2-aug-v9-gemini": {
       "honbun": {

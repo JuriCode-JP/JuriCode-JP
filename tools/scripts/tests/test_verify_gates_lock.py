@@ -133,9 +133,9 @@ def test_pass_lines_parses_and_holds_locked_values() -> None:
     assert set(pl) == {"v0.2-aug-v8b-gemini", "v0.2-aug-v9-gemini"}
 
     v8b = pl["v0.2-aug-v8b-gemini"]
-    assert v8b["honbun"] == {"N": 97, "R@10": 84, "R@20": 87}
+    assert v8b["honbun"] == {"N": 141, "R@10": 84, "R@20": 87}
     assert v8b["newlayer"]["tsutatsu"] == {"N": 15, "R@20": 15}
-    assert v8b["newlayer"]["taxanswer"] == {"N": 17, "R@20": 17}
+    assert v8b["newlayer"]["taxanswer"] == {"N": 20, "R@20": 17}
 
     v9 = pl["v0.2-aug-v9-gemini"]
     assert v9["honbun"] == {"N": 141, "R@10": 115, "R@20": 119}
