@@ -73,9 +73,17 @@ def _good():
     return honbun_off, newlayer, target, newlayer_target
 
 
+def _healthy_groups():
+    """A honbun population where every configured law group scored at least one question --
+    the shape where the per-group presence guard stays silent (inert)."""
+    honbun_groups = {"tax": 12, "kinsho": 79, "pharma": 35, "real-estate": 15}
+    expected_groups = {"tax", "kinsho", "pharma", "real-estate"}
+    return honbun_groups, expected_groups
+
+
 def test_all_match_passes() -> None:
     h = _load_harness()
-    ok, reasons = h._verdict(*_good())
+    ok, reasons = h._verdict(*_good(), *_healthy_groups())
     assert ok is True
     assert reasons == []
 
@@ -84,7 +92,7 @@ def test_honbun_r10_short_fails_and_names_it() -> None:
     h = _load_harness()
     honbun_off, newlayer, target, newlayer_target = _good()
     honbun_off["recall"]["R@10"] = 77  # one below the locked line
-    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
     assert ok is False
     assert any("honbun R@10" in r for r in reasons)
 
@@ -93,7 +101,7 @@ def test_tsutatsu_n_short_fails_and_names_it() -> None:
     h = _load_harness()
     honbun_off, newlayer, target, newlayer_target = _good()
     newlayer["tsutatsu"]["fold_off"]["n"] = 12  # denominator silently shrank
-    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
     assert ok is False
     assert any("tsutatsu N" in r for r in reasons)
 
@@ -102,7 +110,7 @@ def test_taxanswer_r20_short_fails_and_names_it() -> None:
     h = _load_harness()
     honbun_off, newlayer, target, newlayer_target = _good()
     newlayer["taxanswer"]["fold_off"]["recall"]["R@20"] = 16
-    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
     assert ok is False
     assert any("taxanswer R@20" in r for r in reasons)
 
@@ -115,7 +123,7 @@ def test_measured_group_without_target_fails() -> None:
         "fold_off": {"n": 3, "recall": {"R@20": 3}},
         "fold_on": {"n": 3, "recall": {"R@20": 3}},
     }
-    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
     assert ok is False
     assert any("surprise" in r and "no recorded target" in r for r in reasons)
 
@@ -125,7 +133,7 @@ def test_target_group_without_measurement_fails() -> None:
     h = _load_harness()
     honbun_off, newlayer, target, newlayer_target = _good()
     newlayer_target["ghost"] = {"N": 5, "R@20": 5}
-    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
     assert ok is False
     assert any("ghost" in r and "not measured" in r for r in reasons)
 
@@ -135,9 +143,61 @@ def test_fold_on_shortfall_does_not_fail() -> None:
     h = _load_harness()
     honbun_off, newlayer, target, newlayer_target = _good()
     newlayer["tsutatsu"]["fold_on"]["recall"]["R@20"] = 0
-    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
     assert ok is True
     assert reasons == []
+
+
+def test_healthy_groups_guard_is_inert() -> None:
+    """Every configured group present with count >= 1 -> the per-group guard adds nothing."""
+    h = _load_harness()
+    honbun_off, newlayer, target, newlayer_target = _good()
+    ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target, *_healthy_groups())
+    assert ok is True
+    assert not any("law group" in r for r in reasons)
+
+
+def test_honbun_group_all_excluded_fails_and_names_it() -> None:
+    """A whole configured law group scoring zero questions is a denominator hole, not a pass."""
+    h = _load_harness()
+    honbun_off, newlayer, target, newlayer_target = _good()
+    honbun_groups, expected_groups = _healthy_groups()
+    del honbun_groups["kinsho"]  # commercial-kinsho dropped out of scoring entirely
+    ok, reasons = h._verdict(
+        honbun_off, newlayer, target, newlayer_target, honbun_groups, expected_groups
+    )
+    assert ok is False
+    assert any("'kinsho'" in r and "zero questions" in r for r in reasons)
+
+
+def test_zero_count_group_counts_as_excluded() -> None:
+    """A group present in the counter but with count 0 is still excluded (presence needs c > 0)."""
+    h = _load_harness()
+    honbun_off, newlayer, target, newlayer_target = _good()
+    honbun_groups, expected_groups = _healthy_groups()
+    honbun_groups["pharma"] = 0
+    ok, reasons = h._verdict(
+        honbun_off, newlayer, target, newlayer_target, honbun_groups, expected_groups
+    )
+    assert ok is False
+    assert any("'pharma'" in r and "zero questions" in r for r in reasons)
+
+
+def test_multiple_honbun_groups_excluded_one_reason_each() -> None:
+    """Each excluded group produces its own reason line (no collapsing)."""
+    h = _load_harness()
+    honbun_off, newlayer, target, newlayer_target = _good()
+    honbun_groups, expected_groups = _healthy_groups()
+    del honbun_groups["kinsho"]
+    del honbun_groups["real-estate"]
+    ok, reasons = h._verdict(
+        honbun_off, newlayer, target, newlayer_target, honbun_groups, expected_groups
+    )
+    assert ok is False
+    group_reasons = [r for r in reasons if "law group" in r and "zero questions" in r]
+    assert len(group_reasons) == 2
+    assert any("'kinsho'" in r for r in group_reasons)
+    assert any("'real-estate'" in r for r in group_reasons)
 
 
 def test_match_credits_subchunk_but_respects_boundary() -> None:

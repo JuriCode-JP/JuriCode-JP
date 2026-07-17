@@ -30,6 +30,7 @@ import argparse
 import json
 import sys
 import time
+from collections import Counter
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -249,6 +250,8 @@ def _verdict(
     newlayer: dict,
     target: dict,
     newlayer_target: dict,
+    honbun_groups: dict,
+    expected_groups: set,
 ) -> tuple[bool, list[str]]:
     """Decide T6 pass/fail from the measured honbun + new-layer numbers.
 
@@ -271,6 +274,12 @@ def _verdict(
     indexing below is safe without defensive .get chains: _recall always returns "n" and
     every A.K_CUTS recall key (zero hits give 0, not a missing key).
 
+    The honbun side is made symmetric with that: the aggregate N can be re-locked to a
+    reduced denominator and hide a whole configured law group scoring zero, so
+    honbun_groups (scored count per group) and expected_groups (what MAIN_EVAL configures)
+    are compared per group and a total exclusion fails loudly, just like the new-layer
+    recorded-but-not-measured check.
+
     Returns (passed, reasons): passed is True only when reasons is empty.
     """
     reasons: list[str] = []
@@ -281,6 +290,17 @@ def _verdict(
         reasons.append(f"honbun R@10={off['R@10']} != target {target['R@10']}")
     if off["R@20"] != target["R@20"]:
         reasons.append(f"honbun R@20={off['R@20']} != target {target['R@20']}")
+
+    # Per-group presence, mirroring the new-layer recorded-vs-measured check below: the
+    # aggregate N above hides a whole law group dropping to zero scored questions, and
+    # re-locking N to the survivors would make that hole permanent. Require every group
+    # MAIN_EVAL configures to score at least one question; a total exclusion fails loudly.
+    present = {g for g, c in honbun_groups.items() if c > 0}
+    for g in sorted(expected_groups - present):
+        reasons.append(
+            f"honbun law group {g!r} scored zero questions "
+            "(a whole configured group excluded is a denominator hole, not a pass)"
+        )
 
     measured = set(newlayer)
     recorded = set(newlayer_target)
@@ -330,6 +350,8 @@ def main() -> int:
 
     # ---- honbun N=97 (T6) ----
     adopted = _build_adopted(svc)
+    honbun_groups = Counter(q["_law_group"] for q in adopted)  # scored questions per law group
+    expected_groups = {g for g, _ in A.MAIN_EVAL}  # groups MAIN_EVAL configures
     questions = [q["question"] for q in adopted]
     golds = [q["_gold"] for q in adopted]
     print(f"[honbun] encoding {len(questions)} adopted queries ...", file=sys.stderr)
@@ -369,7 +391,9 @@ def main() -> int:
 
     # ---- verdict ----
     off = honbun_off["recall"]
-    ok, reasons = _verdict(honbun_off, newlayer, target, newlayer_target)
+    ok, reasons = _verdict(
+        honbun_off, newlayer, target, newlayer_target, honbun_groups, expected_groups
+    )
     print("\n=== T6: A-3 reproduction through the service ===")
     print(f"  index: {args.index.name}")
     print(f"  honbun N={honbun_off['n']} (target {target['N']})")
