@@ -138,3 +138,18 @@ def test_fold_on_shortfall_does_not_fail() -> None:
     ok, reasons = h._verdict(honbun_off, newlayer, target, newlayer_target)
     assert ok is True
     assert reasons == []
+
+
+def test_match_credits_subchunk_but_respects_boundary() -> None:
+    h = _load_harness()
+    assert hasattr(h, "_match"), (
+        "reproduce_a3 must expose _match (do NOT import from tools.serve.*)"
+    )
+    m = h._match
+    g = {"hojin-taxanswer-5211"}
+    assert m("hojin-taxanswer-5211", g) is True  # exact
+    assert m("hojin-taxanswer-5211-sub1", g) is True  # sub-chunk を credit
+    assert m("hojin-taxanswer-52111", g) is False  # "-sub" 境界なし＝非credit
+    assert m("hojin-taxanswer-5211-other", g) is False  # suffix が -sub でない
+    assert m("anything-sub1", {""}) is False  # 空 gold skip
+    assert m("hojin-taxanswer-5211", {"hojin-taxanswer-999"}) is False  # 不一致

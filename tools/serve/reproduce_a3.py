@@ -145,6 +145,25 @@ def _hit_key(h: dict) -> str:
     return h["article_id"] or h["chunk_id"]
 
 
+def _match(k, gset) -> bool:
+    """retrieved key が gold を満たす: 完全一致、または <gold>-subN（sub-chunk は
+    文書を chunk 分割したもので、eval gold は親を指す＝sub-chunk は親 gold の答え）。
+    "-sub" 境界と空 gold skip で over-credit を防ぐ。honbun は該当キー無しで無影響。"""
+    for g in gset:
+        if not g:
+            continue
+        if k == g:
+            return True
+        if (
+            isinstance(k, str)
+            and isinstance(g, str)
+            and k[: len(g)] == g
+            and k[len(g) :].startswith("-sub")
+        ):
+            return True
+    return False
+
+
 def _recall(svc: S.RetrievalService, embs, golds, fold: bool) -> dict:
     """Retrieve each query via the service core (dense+dedup, top_k=20) and score R@k."""
     hits_at = {c: 0 for c in A.K_CUTS}
@@ -156,7 +175,7 @@ def _recall(svc: S.RetrievalService, embs, golds, fold: bool) -> dict:
         hits, _ = svc.retrieve(vec, top_k=20, target_layers=None, dedup=True, fold=fold)
         lat_ms.append((time.perf_counter() - t0) * 1000.0)
         keys = [_hit_key(h) for h in hits]
-        rank = next((j for j, k in enumerate(keys, 1) if k in golds[i]), None)
+        rank = next((j for j, k in enumerate(keys, 1) if _match(k, golds[i])), None)
         ranks.append(rank)
         for c in A.K_CUTS:
             if rank is not None and rank <= c:
