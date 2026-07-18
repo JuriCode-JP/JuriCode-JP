@@ -111,6 +111,7 @@ PYTEST_PATHS = [
     "tools/serve/tests/test_guards.py",
     "tools/serve/tests/test_chat_server.py",
     "tools/scripts/tests/test_check_no_leaks.py",
+    "tools/scripts/tests/test_check_public_claims.py",
     "tools/registry/tests/test_build_registry.py",
     "tools/dist/tests/test_scan_artifacts.py",
     "tools/dist/tests/test_build_snapshot.py",
@@ -280,6 +281,15 @@ def main() -> int:
                 "cp932-safe (packages)",
                 [PY, "tools/scripts/check-cp932-safe.py", "--path", "packages"],
             ),
+        )
+    )
+
+    # 9b. Public-claims gate: no retrieval accuracy figures on the outward README
+    # (VA-5-data). Marketing surface only; open benchmarks/ figures are untouched.
+    results.append(
+        (
+            "public-claims",
+            run("public-claims", [PY, "tools/scripts/check-public-claims.py"]),
         )
     )
 
