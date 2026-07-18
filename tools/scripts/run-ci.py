@@ -81,6 +81,7 @@ PYTEST_PATHS = [
     "tools/parse/tests/test_shohi_rulings_store.py",
     "tools/parse/tests/test_shotoku_rulings_store.py",
     "tools/parse/tests/test_kokutsu_rulings_store.py",
+    "tools/parse/tests/test_caselaw_decision_date_nonnull.py",
     "tools/parse/tests/test_shotoku_corpus.py",
     "tools/parse/tests/test_souzoku_corpus.py",
     "tools/parse/tests/test_hyoka_corpus.py",
