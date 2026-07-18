@@ -108,6 +108,7 @@ PYTEST_PATHS = [
     "tools/embed/tests/test_retrieve_reexports.py",
     "tools/embed/tests/test_vec_json.py",
     "tools/serve/tests/test_retrieval_server.py",
+    "tools/serve/tests/test_retrieval_server_reexport.py",
     "tools/serve/tests/test_guards.py",
     "tools/serve/tests/test_chat_server.py",
     "tools/scripts/tests/test_check_no_leaks.py",

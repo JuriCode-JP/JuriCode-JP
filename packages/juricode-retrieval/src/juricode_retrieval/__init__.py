@@ -20,13 +20,27 @@ from .artefacts import _load_artefacts
 from .cosine import _cosine_topk
 from .dedup import dedup_by_article
 from .encode import _encode_queries
+from .service import (
+    EXPECTED_DIM,
+    RetrievalService,
+    _load_corpus,
+    build_dedup_keys,
+    filter_row_by_layers,
+    fold_taxanswer_chunk_id,
+)
 
 __version__ = "0.1.0"
 
 __all__ = [
+    "EXPECTED_DIM",
+    "RetrievalService",
     "__version__",
     "_cosine_topk",
     "_encode_queries",
     "_load_artefacts",
+    "_load_corpus",
+    "build_dedup_keys",
     "dedup_by_article",
+    "filter_row_by_layers",
+    "fold_taxanswer_chunk_id",
 ]
