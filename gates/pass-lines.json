@@ -38,4 +38,4 @@
       "note": "v9 honbun is measured on the full ground-truth denominator: every honbun question whose gold article the eval specifies is scored, with no cross-filter against either an older corpus or this index. A question whose gold article is absent from the index scores 0 (a miss) rather than being dropped. Any decrease from the earlier provisional 78/97 reflects (a) branch-numbered questions now included and (b) index-missing gold now counted as 0 — the visualization of gaps the previous filter hid, not a regression. The pass line detects drift against this fixed, honest population."
     }
   }
-}
+} 
