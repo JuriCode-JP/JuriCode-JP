@@ -7,7 +7,7 @@ figures (Recall@k, MRR, ...) belong in the open benchmarks/ directory, not on
 the marketing README. This gate fails if such a figure reappears there, so the
 rule is enforced by structure, not discipline.
 
-scan 対象: MARKETING_FILES のみ (README.md)。
+scan 対象: MARKETING_FILES のみ (README.md ・ README-EXT.md)。
   benchmarks/ ・ docs/ ・ tools/*/README などの公開研究/評価方法論は L-OPENCORE の
   与える側ゆえ対象外 (リポ全体は走査しない)。
 detection: 文脈語 (R@ / recall / precision / grounded / MRR / nDCG / 再現率 /
@@ -32,7 +32,9 @@ REPO = Path(__file__).resolve().parents[2]
 
 #: Outward-facing marketing surface(s) only. NOT the whole repo: benchmarks/ and
 #: other open research/methodology keep their figures (L-OPENCORE, the giving side).
-MARKETING_FILES = ("README.md",)
+#: README-EXT.md is the external reproduction runbook -- an outward-facing surface,
+#: so it is scanned too; its figures belong in benchmarks/, never on the runbook.
+MARKETING_FILES = ("README.md", "README-EXT.md")
 
 #: Accuracy context terms. A number on the same line as one of these reads as a
 #: retrieval-accuracy figure. The Japanese terms are cp932-safe.
