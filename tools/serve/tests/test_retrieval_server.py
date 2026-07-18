@@ -23,7 +23,10 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-import retrieval_server as S  # noqa: E402  (numpy-free at import time)
+# import order is pinned (S first): importing retrieval_server inserts packages/juricode-retrieval/src
+# on sys.path, so juricode_retrieval then resolves without a PYTHONPATH; do not let isort reorder.
+import retrieval_server as S  # noqa: E402, I001  (numpy-free at import time)
+import juricode_retrieval as JR  # noqa: E402  (resolves via the path S inserted)
 
 # ---- pure-Python: Pydantic schema (T1) ----
 
@@ -294,7 +297,7 @@ def test_fold_precompute_is_behavior_invariant(tmp_path):
         sims, idx_row = svc.dense_pool(query_vec, max(top_k * 3, 60))
         idx_list = [int(i) for i in idx_row]
         keys = S.build_dedup_keys(svc._base_keys, svc.chunk_ids, svc.layers, fold)
-        deduped = svc._R.dedup_by_article(np.array([idx_list], dtype=np.int64), keys, top_k)
+        deduped = JR.dedup_by_article(np.array([idx_list], dtype=np.int64), keys, top_k)
         return [svc.chunk_ids[int(i)] for i in deduped[0] if int(i) >= 0]
 
     queries = [[1.0, 0.05, 0.0, 0.0], [0.0, 0.0, 1.0, 0.02], [0.0, 1.0, 0.0, 0.0]]
