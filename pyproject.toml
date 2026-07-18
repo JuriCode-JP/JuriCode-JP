@@ -204,6 +204,10 @@ testpaths = [
     # 2026-07-15: 合格線ロックゲートのテスト。ci.yml 明示列挙と本 testpaths の両所に配線
     # (登録漏れは既知の事故クラス)。hermetic (subprocess + tmp_path・build/ 非依存)。CI-safe。
     "tools/scripts/tests/test_verify_gates_lock.py",
+    # 2026-07-18 VA-5-data: 対外 README の精度数値ゲート (check-public-claims.py) の
+    # テスト。判定コアの捕捉/偽陽性/射程限定 (MARKETING_FILES のみ) を固定。hermetic。
+    # ci.yml 明示列挙・run-ci.py PYTEST_PATHS・本 testpaths の三所に配線。
+    "tools/scripts/tests/test_check_public_claims.py",
     # 2026-07-15: T6 verdict (_verdict) の pure-function テスト。ci.yml 明示列挙と両所配線。
     # ⚠ reproduce_a3.py は module top で numpy を import するため、CI (dev deps に numpy 無し)
     # では pytest.importorskip("numpy") で SKIP される (collection 落ち回避)。ローカルのみ実走。

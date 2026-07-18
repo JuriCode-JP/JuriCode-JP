@@ -31,8 +31,6 @@
 | 法令数 | 30 | **43** |
 | 条文数 | 8,022 | **11,758** |
 | Retrieval chunks | 11,758 (条単位) | **63,246 (segment 単位)** |
-| 自治体 RAG R@1 (35Q) | 65.7% | **68.6%** (v0.1 baseline 超え) |
-| 自治体 RAG R@3 (35Q) | 88.6% | 85.7% (1 query 差) |
 | 各号 (kou) 構造化 | parser bug で欠落 | **14,868 chunks 復元** |
 | 附則 (SupplProvision) | 未取り込み | **~5,000 chunks + metadata** |
 | 設計図カテゴリ自動検出 | なし | **にかかわらず 504 / 準用 523** |
@@ -74,7 +72,7 @@
 | Phase 2 | 民事・商事法令 | 中小企業の法務コンプライアンス |
 | Phase 3 | 全法令網羅 | 市民・行政・国際社会への展開 |
 
-現在は **Phase 1 — v0.2.0 リリース済** の段階です。Phase 1 の戦略 target (自治体・警察・税理士・法律実務家) のうち、自治体ドメインで v0.1 baseline を超える retrieval 精度を達成しました。
+現在は **Phase 1 — v0.2.0 リリース済** の段階です。Phase 1 の戦略 target (自治体・警察・税理士・法律実務家) のうち、自治体ドメインで v0.1 baseline を上回る retrieval の改善を確認しました（評価の詳細は [benchmarks/](./benchmarks/) 参照）。
 
 ---
 
@@ -140,7 +138,7 @@ Currently in **Phase 1 — v0.2.0 released**. Among the Phase 1 strategic target
 | **附則 (SupplProvision) 抽出** | ✅ [tools/parse/v0.2/extract_supplproviso_from_xml.py](tools/parse/v0.2/extract_supplproviso_from_xml.py) (topic 分類 + target_main_articles 抽出 + 元号→西暦変換) |
 | **各号 (kou) 復元** | ✅ [tools/parse/v0.2/extract_kou_from_xml.py](tools/parse/v0.2/extract_kou_from_xml.py) |
 | **本則 rollup chunks** | ✅ [tools/parse/v0.2/add_rollup_chunks.py](tools/parse/v0.2/add_rollup_chunks.py) |
-| **自治体 RAG benchmark R@1 = 68.6%** | ✅ v0.1 baseline (65.7%) を超え達成 |
+| **自治体 RAG benchmark** | ✅ v0.1 baseline を上回る改善を確認（数値は [benchmarks/](./benchmarks/) 参照） |
 
 ### 収録範囲と、まだ収録していないもの / Scope and known gaps
 
