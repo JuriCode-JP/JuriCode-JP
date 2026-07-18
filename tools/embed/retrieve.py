@@ -20,11 +20,15 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
-import pickle
 import sys
 from pathlib import Path
 
+from juricode_retrieval import (
+    _cosine_topk,
+    _encode_queries,
+    _load_artefacts,
+    dedup_by_article,
+)
 from juricode_shared.text_norm import (
     arabic_version_of_article_numbers as _arabic_version_of_article_numbers,
 )
@@ -355,41 +359,6 @@ def rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=60):
 # =====================================================
 
 
-def _load_artefacts(prefix):
-    import numpy as np  # lazy import (FU-506)
-
-    # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で
-    # ".2-gemini-17967" を suffix と解釈して壊す。文字列連結で回避。
-    npy_path = prefix.parent / (prefix.name + ".npy")
-    meta_path = prefix.parent / (prefix.name + ".meta.jsonl")
-    vec_json_path = prefix.parent / (prefix.name + ".vec.json")
-    vec_pkl_path = prefix.parent / (prefix.name + ".vec.pkl")
-    # .vec.json (portable {provider, model}, no unpickling) wins; .vec.pkl is
-    # the fallback so existing local builds keep working. A distributed snapshot
-    # ships only .vec.json. At least one of the two must exist.
-    missing = [str(p) for p in (npy_path, meta_path) if not p.exists()]
-    if not vec_json_path.exists() and not vec_pkl_path.exists():
-        missing.append(f"{vec_json_path} or {vec_pkl_path}")
-    if missing:
-        raise FileNotFoundError(f"Missing artefact(s): {missing}")
-
-    matrix = np.load(npy_path)
-    records = []
-    with meta_path.open(encoding="utf-8") as fh:
-        for line in fh:
-            line = line.strip()
-            if not line:
-                continue
-            records.append(json.loads(line))
-
-    if vec_json_path.exists():
-        state = json.loads(vec_json_path.read_text(encoding="utf-8"))
-    else:
-        with vec_pkl_path.open("rb") as fh:
-            state = pickle.load(fh)
-    return matrix, records, state
-
-
 def _load_queries(eval_set_paths):
     out = []
     for p in eval_set_paths:
@@ -400,94 +369,6 @@ def _load_queries(eval_set_paths):
                     continue
                 out.append(json.loads(line))
     return out
-
-
-def _encode_queries(questions, state):
-    import numpy as np  # lazy import (FU-506)
-
-    provider = state.get("provider")
-
-    if provider == "tfidf":
-        v = state["vectorizer"]
-        return v.transform(questions).astype(np.float32).toarray()
-
-    if provider == "openai":
-        try:
-            from openai import OpenAI
-        except ImportError:
-            sys.exit("ERROR: openai package not installed. Run: pip install openai")
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            sys.exit("ERROR: OPENAI_API_KEY environment variable not set")
-        client = OpenAI(api_key=api_key)
-        model = state["model"]
-        resp = client.embeddings.create(model=model, input=questions)
-        return np.asarray([item.embedding for item in resp.data], dtype=np.float32)
-
-    if provider == "gemini":
-        try:
-            from google import genai
-            from google.genai import types
-        except ImportError:
-            sys.exit("ERROR: google-genai package not installed. Run: pip install google-genai")
-        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-        if not api_key:
-            sys.exit("ERROR: GEMINI_API_KEY (or GOOGLE_API_KEY) environment variable not set")
-        client = genai.Client(api_key=api_key)
-        model = state["model"]
-        BATCH_SIZE = 100
-        MAX_RETRIES = 5
-        all_embeddings = []
-        import time as _time
-
-        for batch_start in range(0, len(questions), BATCH_SIZE):
-            batch = questions[batch_start : batch_start + BATCH_SIZE]
-            last_err = None
-            for attempt in range(1, MAX_RETRIES + 1):
-                try:
-                    resp = client.models.embed_content(
-                        model=model,
-                        contents=batch,
-                        config=types.EmbedContentConfig(task_type="RETRIEVAL_QUERY"),
-                    )
-                    all_embeddings.extend(emb.values for emb in resp.embeddings)
-                    break
-                except Exception as e:
-                    last_err = e
-                    if attempt < MAX_RETRIES:
-                        # 429 RESOURCE_EXHAUSTED: wait at least 65s for quota reset
-                        is_429 = "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e)
-                        wait = 65.0 if is_429 else 1.5**attempt
-                        print(
-                            f"  [gemini retry {attempt}/{MAX_RETRIES}] {type(e).__name__}: waiting {wait:.1f}s",
-                            file=sys.stderr,
-                        )
-                        _time.sleep(wait)
-                    else:
-                        print(
-                            f"  [gemini FAILED after {MAX_RETRIES} retries] {last_err}",
-                            file=sys.stderr,
-                        )
-                        raise
-        return np.asarray(all_embeddings, dtype=np.float32)
-
-    sys.exit(f"ERROR: unsupported provider in artefacts: {provider!r}")
-
-
-def _cosine_topk(query_matrix, corpus_matrix, top_k):
-    import numpy as np  # lazy import (FU-506)
-
-    qn = np.linalg.norm(query_matrix, axis=1, keepdims=True)
-    qn[qn == 0] = 1.0
-    qnorm = query_matrix / qn
-
-    cn = np.linalg.norm(corpus_matrix, axis=1, keepdims=True)
-    cn[cn == 0] = 1.0
-    cnorm = corpus_matrix / cn
-
-    sims = qnorm @ cnorm.T
-    top_idx = np.argsort(-sims, axis=1)[:, :top_k]
-    return sims, top_idx
 
 
 def match_gold(key, gold_set) -> bool:
@@ -561,43 +442,6 @@ def _apply_hyde(
             [dense_top_idx, hyde_top_idx], [score_o, score_h], candidate_pool
         )
     return fused, dense_sims
-
-
-def dedup_by_article(top_idx_wide, article_ids, k):
-    """各 query で article_id でユニーク化、上位の rank を維持して unique articles 上位 K 個を返す.
-
-    v0.2 segment-level retrieval を v0.1 article-level Recall と公平比較する用途.
-    同じ article の複数 segment が top に来た場合、最初の (=top rank) segment のみ保持.
-
-    Args:
-        top_idx_wide: (N_queries, M) -- dense top-M segment indices (M > K 推奨)
-        article_ids: list[str] -- corpus record (segment) 順の article_id
-        k: target number of unique articles to return
-
-    Returns:
-        np.ndarray (N_queries, K) -- dedup 後の上位 K segment indices (代表 segment)
-    """
-    import numpy as np  # lazy import (FU-506)
-
-    n_queries = top_idx_wide.shape[0]
-    out = np.full((n_queries, k), -1, dtype=np.int64)
-    for qi in range(n_queries):
-        seen = set()
-        kept = []
-        for idx in top_idx_wide[qi]:
-            idx_int = int(idx)
-            if idx_int < 0:
-                continue
-            aid = article_ids[idx_int]
-            if aid in seen:
-                continue
-            seen.add(aid)
-            kept.append(idx_int)
-            if len(kept) >= k:
-                break
-        for i, idx_int in enumerate(kept):
-            out[qi, i] = idx_int
-    return out
 
 
 class RetrievalPipeline:

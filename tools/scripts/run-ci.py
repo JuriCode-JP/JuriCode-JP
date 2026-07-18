@@ -55,6 +55,7 @@ PYENV = {
 # places (and pyproject testpaths) -- a one-sided edit fails that parity test.
 PYTEST_PATHS = [
     "packages/juricode-verifier/tests",
+    "packages/juricode-retrieval/tests",
     "tools/shared/tests",
     "tools/validate/tests",
     "tools/parse/tests/test_tsutatsu_byte_regression.py",
@@ -104,6 +105,7 @@ PYTEST_PATHS = [
     "tools/embed/tests/test_build_v8_corpus.py",
     "tools/embed/tests/test_filter_v8_embed.py",
     "tools/embed/tests/test_retrieve_dedup.py",
+    "tools/embed/tests/test_retrieve_reexports.py",
     "tools/embed/tests/test_vec_json.py",
     "tools/serve/tests/test_retrieval_server.py",
     "tools/serve/tests/test_guards.py",

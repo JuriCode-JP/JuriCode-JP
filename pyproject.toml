@@ -190,6 +190,10 @@ testpaths = [
     # valid_citations_only / verify_text_hash) の正本。ci.yml の明示列挙と本 testpaths の
     # 両所に配線する (登録漏れは既知の事故クラス)。
     "packages/juricode-verifier/tests",
+    # 2026-07-18 A-2 step1: juricode-retrieval (packages/) の dense core unit tests。
+    # numpy-backed のため CI (dev deps に numpy 無し) では importorskip で SKIP・
+    # ローカルで実走。ci.yml 明示列挙と本 testpaths の両所に配線 (登録漏れは既知の事故クラス)。
+    "packages/juricode-retrieval/tests",
     # 2026-07-13: 引用レジストリ (W6 MVP) builder の hermetic tests。合成 tmp_path
     # fixture のみ (build/ 非依存・CI-safe)。ci.yml 明示列挙と両所配線。
     "tools/registry/tests/test_build_registry.py",
@@ -213,6 +217,7 @@ pythonpath = [
     "tools/shared/src",
     "tools/validate",
     "packages/juricode-verifier/src",
+    "packages/juricode-retrieval/src",
 ]
 # Don't auto-collect __pycache__ files left in mounted dirs.
 # --import-mode=importlib: 2026-05-25 追加. 複数の `tests/` ディレクトリが
