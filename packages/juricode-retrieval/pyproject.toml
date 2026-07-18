@@ -1,0 +1,46 @@
+[project]
+name = "juricode-retrieval"
+version = "0.1.0"
+description = "Dense-retrieval core for JuriCode-JP: artefact loading, query embedding, cosine top-k, and article-level dedup as the single source of truth"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "CHOKAI Co.,Ltd.", email = "sato@chokaijp.com" },
+]
+requires-python = ">=3.11"
+keywords = ["legal", "japan", "rag", "retrieval", "embedding", "juricode-jp"]
+
+# numpy is a hard dependency: every primitive computes on ndarrays. google-genai
+# is the production query-embedding provider. The openai and tfidf provider
+# branches stay lazily imported inside _encode_queries and are NOT hard
+# dependencies -- a consumer that never selects them never needs them installed
+# (a missing one fails loudly at use, preserving the original behaviour).
+dependencies = [
+    "numpy>=1.24",
+    "google-genai>=0.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/JuriCode-JP/JuriCode-JP"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/juricode_retrieval"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
