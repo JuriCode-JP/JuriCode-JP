@@ -1,0 +1,17 @@
+{
+  "_comment": "C-FID: each outward fidelity claim, anchored to the G0 counters that enforce it. check-fidelity-claims.py verifies (1) every gate_id is in gates/g0-classification.json's violation set (a claim cannot cite a counter that does not gate), (2) every readme_anchor appears in the outward README (the ledger stays in sync with the surface), and (3) enforced_by exists. Changing this file is an owner decision, not a fix for a red build. Future hardening candidate: grep-match that enforced_by actually computes the cited counter (deferred; counter names may not appear as literals in g0_fidelity_gate.py, which would false-fail).",
+  "claims": [
+    {
+      "claim_id": "body-equals-egov",
+      "readme_anchors": ["空白の畳み込みを除いて完全に一致", "modulo whitespace collapsing"],
+      "gate_ids": ["g0a_diff", "g0b_diff"],
+      "enforced_by": "tools/parse/v0.2/g0_fidelity_gate.py"
+    },
+    {
+      "claim_id": "no-ruby-contamination",
+      "readme_anchors": ["同じ主張を機械検証 (G0) で担保"],
+      "gate_ids": ["ruby_contaminated_articles", "ruby_contaminated_occurrences"],
+      "enforced_by": "tools/parse/v0.2/g0_fidelity_gate.py"
+    }
+  ]
+}

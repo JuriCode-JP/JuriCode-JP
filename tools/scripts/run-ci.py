@@ -113,6 +113,7 @@ PYTEST_PATHS = [
     "tools/serve/tests/test_chat_server.py",
     "tools/scripts/tests/test_check_no_leaks.py",
     "tools/scripts/tests/test_check_public_claims.py",
+    "tools/scripts/tests/test_check_fidelity_claims.py",
     "tools/registry/tests/test_build_registry.py",
     "tools/dist/tests/test_scan_artifacts.py",
     "tools/dist/tests/test_build_snapshot.py",
