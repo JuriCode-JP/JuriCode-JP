@@ -1,0 +1,10 @@
+# Gate integrity (VA-4b / guard-the-guard): changes to the files that define or
+# enforce the locked retrieval pass lines, or how CI runs, require the
+# repository owner's review. This keeps the pass-line anchor out of the reach of
+# whoever writes the code (including an AI agent), by structure not discipline.
+/.github/workflows/                          @MasahiroSato-0111
+/.github/CODEOWNERS                          @MasahiroSato-0111
+/tools/scripts/verify-gates-lock.py          @MasahiroSato-0111
+/tools/scripts/verify-eval-set-checksum.py   @MasahiroSato-0111
+/tools/scripts/approve-gates-lock.sh         @MasahiroSato-0111
+/gates/                                      @MasahiroSato-0111

@@ -14,6 +14,12 @@
 
 name: CI
 
+# Least privilege for the workflow token: read-only by default so the CI token
+# cannot push branches, move tags, or cut releases. Grant any write scope on the
+# specific job that needs it, never here.
+permissions:
+  contents: read
+
 on:
   push:
     branches: [main]
