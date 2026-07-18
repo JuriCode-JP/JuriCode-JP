@@ -48,6 +48,7 @@ from pathlib import Path
 LOCKED_FILES = [
     "gates/pass-lines.json",
     "gates/g0-classification.json",
+    "gates/fidelity-claims.json",
 ]
 
 ENV_VAR = "GATES_LOCK_SHA256"
