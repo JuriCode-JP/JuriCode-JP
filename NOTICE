@@ -1,0 +1,26 @@
+# NOTICE - third-party content attributions (JuriCode-JP)
+
+The JuriCode-JP structural layer (schema, tags, tools, original summaries and
+translations) is MIT-licensed. Incorporated third-party content retains its
+source license, attributed here.
+
+## 法令本文 / Statute text
+- Source: e-Gov 法令検索 (https://laws.e-gov.go.jp/)
+- License: PDL1.0 (公共データ利用規約第1.0版 / 政府標準利用規約・CC BY compatible)
+- Note: 出典明示で複製・転載・再配布可（商用含む）。本文は非改変で収録。
+
+## 法令の英訳 / Statute translations
+- Source: 法務省 日本法令外国語訳データベース (https://www.japaneselawtranslation.go.jp/)
+- License: PDL1.0
+
+## 裁決 / NTA appeal decisions
+- Source: 国税不服審判所 公表裁決
+- License: PDL1.0
+
+## タックスアンサー / NTA Tax Answer
+- Source: 国税庁 (https://www.nta.go.jp/taxes/shiraberu/taxanswer/)
+- License: PDL1.0-compatible (政府標準利用規約 / CC BY 4.0 compatible)
+
+## 判例本文 / Court judgments
+- Source: 裁判所 (https://www.courts.go.jp/)
+- License: Public domain (著作権法第13条3号). 要旨は自前要約。
