@@ -39,6 +39,11 @@ nDCG@K  = DCG@K / iDCG@K              (iDCG = 理想順序での DCG)
 
 ## 実験プロトコル
 
+> Step 1-2 は 2026-05 の初期差分実験(データセット A vs B・`text-embedding-3-small`)の記録。
+> 現行の canonical な retrieval eval は、単一の embedded corpus に対して `retrieve.py` を回す
+> Step 3-4(索引は `gemini-embedding-001`)。数値の正本は各索引ごとの `gates/pass-lines.json` と
+> `benchmarks/results/` の JSON。
+
 ### Step 1: データ準備
 
 1. **データセット A (baseline)**: e-Gov 法令 API から取得した XML を Markdown 化(1 法令 = 1 ファイル)
@@ -62,33 +67,44 @@ python tools/embed/embed.py \
 
 ### Step 3: Retrieval 実行
 
-各評価セットの質問に対して、両データセットで top-K 取得:
+実ハーネスは `tools/embed/retrieve.py`(dense + article 単位 dedup)。索引プレフィックスと
+評価セットを渡して top-K を取得する。クエリ埋め込みには `GEMINI_API_KEY` が要る。
 
 ```bash
 python tools/embed/retrieve.py \
-    --embeddings build/dataset-a-embedded.jsonl \
-    --queries data/eval-set/*.jsonl \
-    --model text-embedding-3-small \
-    --top-k 10 \
-    --output build/results-a.json
-
-python tools/embed/retrieve.py \
-    --embeddings build/dataset-b-embedded.jsonl \
-    --queries data/eval-set/*.jsonl \
-    --model text-embedding-3-small \
-    --top-k 10 \
-    --output build/results-b.json
+    --embedded build/embeddings/<index-name> \
+    --eval-set data/eval-set/tax.jsonl \
+               data/eval-set/tax-honbun-local/g1-local.jsonl \
+               data/eval-set/lawqa-jp/commercial-kinsho.jsonl \
+               data/eval-set/lawqa-jp/pharma.jsonl \
+               data/eval-set/lawqa-jp/real-estate.jsonl \
+    --top-k 20
 ```
+
+- 索引は `gemini-embedding-001`(RETRIEVAL_QUERY でクエリ埋め込み)。
+- `--embedded` は索引プレフィックス(拡張子なし・`.npy` / `.meta.jsonl` / `.vec.json` を読む)。
 
 ### Step 4: メトリクス計算
 
-```bash
-python tools/embed/evaluate.py \
-    --results-a build/results-a.json \
-    --results-b build/results-b.json \
-    --eval-set data/eval-set/ \
-    --output benchmarks/results/2026-MM-DD-<run-id>.json
-```
+メトリクス(Recall@1/3/5/10/20・MRR)は `retrieve.py` 内の `aggregate_metrics` が
+そのまま算出する(別途 `evaluate.py` は存在しない)。判定関数は `retrieve.match_gold` 一本で、
+serve 側 `reproduce_a3` と共有する(スコアラー間のドリフト防止)。
+
+### 分母の規約(固定分母・除外撤廃)
+
+recall の分母は**評価セットに読み込んだ全質問数**で固定する。
+
+- gold を引けなかった質問・gold 条文が索引に無い質問は、**除外せず miss(0)として分母に計上**する。
+  「引けない」を落として分母を縮めると、欠落を隠して見かけの recall が上がる。
+- 母集団の途中フィルタ(旧 corpus と索引の双方に gold があるものだけ残す等)は使わない。
+  索引の欠落は「隠す」のではなく「0 点として可視化する」。
+- **枝番条・号は別ハーネスで測る(宣言された分割・silent drop ではない)**: 条レベル gold だと
+  柱書チャンクがヒットしただけで合格してしまうため、`tools/embed/eval_branch_item.py` が
+  **chunk 粒度**(`gold_chunk_ids`)で別に判定する。honbun(条 gold)の分母と枝番(chunk gold)の
+  分母は別物として分けて報告する。
+
+各索引のロック済み合格線は `gates/pass-lines.json`(リポ外 digest でアンカー)。
+実測値は `benchmarks/results/` の JSON にのみ記録し、散文には数値を書かない。
 
 ## 公平性の担保
 

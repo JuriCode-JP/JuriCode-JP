@@ -6,8 +6,10 @@ Windows cp932 console での argparse `--help` 出力が UnicodeEncodeError で
 crash する事故 (FU-502/503/505) を構造的に予防する.
 
 scan 対象: tools/ 配下の *.py
-除外: tests / __pycache__ / .venv / venv / .tox / build / dist
-  (生成物・仮想環境を弾いて、誤検知ゼロを保つ)
+除外: tests / __pycache__ / .venv / venv / .tox は階層を問わず除外。
+  build / dist は「リポジトリ直下の生成物」だけ除外する (VA-1 #7):
+  裸の "dist" を全階層一致で弾くと配布コード tools/dist/ (公開面) まで
+  ゲートの視界から外れるため、ルート生成物だけに限定して tools/dist/ を走査に戻す。
 exit 0: 全 file cp932-safe
 exit 1: 1 件以上 unsafe 文字あり (stderr に詳細出力)
 """
@@ -16,18 +18,40 @@ import argparse
 import sys
 from pathlib import Path
 
-# 仮想環境 / キャッシュ / ビルド生成物を除外
-EXCLUDE_PARTS = frozenset(
+# 仮想環境 / キャッシュ / テストは階層を問わず除外 (どこにあっても環境・生成物)。
+EXCLUDE_ANY = frozenset(
     {
         "tests",
         "__pycache__",
         ".venv",
         "venv",
         ".tox",
-        "build",
-        "dist",
     }
 )
+# ビルド生成物ディレクトリはリポジトリ直下のものだけ除外する (VA-1 #7)。
+# Why: 裸の "dist" を全階層一致で弾くと、配布コード tools/dist/ (公開面) まで
+# cp932 ゲートの視界から外れる。D2 で .gitignore の dist/ をルート直下に
+# アンカーしたのと同型に、ルート生成物 (build/ dist/) だけを除外し、tools/dist/
+# のような正当な source を走査対象に戻す。
+EXCLUDE_ROOT = frozenset({"build", "dist"})
+
+# check-cp932-safe.py は tools/scripts/ 配下 -> parents[2] がリポジトリルート。
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def _is_root_build_artifact(path: Path) -> bool:
+    """path がリポジトリ直下の build/ dist/ 生成物なら True (VA-1 #7)。
+
+    Why: 除外を「全階層で dist という名前」ではなく「ルート直下の生成物ディレクトリ」に
+    アンカーする。これにより tools/dist/ (配布コード) は視界に残り、ルートの build/ dist/
+    (ビルド成果物) だけを弾く。リポジトリ外パスは relative_to が ValueError -> 除外しない
+    (走査する側に倒す＝死角を作らない)。
+    """
+    try:
+        rel = path.resolve().relative_to(REPO_ROOT)
+    except ValueError:
+        return False
+    return bool(rel.parts) and rel.parts[0] in EXCLUDE_ROOT
 
 
 def is_cp932_safe(c: str) -> bool:
@@ -61,7 +85,9 @@ def main() -> int:
     total = 0
     bad_files = 0
     for p in sorted(args.path.rglob("*.py")):
-        if any(part in EXCLUDE_PARTS for part in p.parts):
+        if any(part in EXCLUDE_ANY for part in p.parts):
+            continue
+        if _is_root_build_artifact(p):
             continue
         total += 1
         unsafe = scan_file(p)
