@@ -146,6 +146,60 @@ def test_missing_main_provision_is_fatal(tmp_path):
         AI.build_anchor_index(p)
 
 
+# ---- real tracked XML (the shapes the live probe confirmed) ---------------
+
+_REPO = Path(__file__).resolve().parents[3]
+CACHE = _REPO / "cache" / "laws"
+
+#: (law_id, article_number, expected anchor, shape). Each expected value was
+#: confirmed in a real browser by tools/probe/probe-egov-anchors.py on
+#: 2026-07-20: the anchor named the element AND the page landed on it. This is
+#: the CI-resident half of that probe -- it cannot re-check resolution offline,
+#: but it does pin the exact strings the probe blessed, so a builder change
+#: that would break resolution fails here instead of in production.
+#: cache/laws/*.xml is tracked (.gitignore re-includes it), so CI has the input.
+MEASURED = [
+    ("129AC0000000089", "1", "Mp-Pa_1-Ch_1-At_1", "平条"),
+    ("129AC0000000089", "424", "Mp-Pa_3-Ch_1-Se_2-Ss_3-Di_1-At_424", "節/款/目 入れ子"),
+    ("340AC0000000034", "22", "Mp-Pa_2-Ch_1-Se_1-Ss_2-At_22", "節/款 入れ子"),
+    ("340AC0000000034", "132-2", "Mp-Pa_2-Ch_5-At_132_2", "単一枝番"),
+    ("340AC0000000034", "142-2-2", "Mp-Pa_3-Ch_2-Se_1-Ss_2-At_142_2_2", "二重枝番"),
+    ("340AC0000000034", "22-2", "Mp-Pa_2-Ch_1-Se_1-Ss_3-Di_1-At_22_2", "枝番 + 目"),
+    ("340AC0000000034", "4-2", "Mp-Pa_1-Ch_2_2-At_4_2", "枝番の章 Ch_2_2"),
+    ("325M50000040017", "1", "Mp-At_1", "施行規則・平坦法令"),
+    ("325M50000040017", "1-2", "Mp-At_1_2", "平坦法令 + 枝番"),
+    ("325CO0000000245", "48-9-7-2", "Mp-Ch_3-Se_1-At_48_9_7_2", "施行令・三重枝番"),
+    ("325AC0000000226", "193", "Mp-Ch_2-Se_9-At_193", "削除条"),
+    ("325AC0000000226", "19-3", "Mp-Ch_1-Se_13-Ss_1-At_19_3", "削除条 + 枝番"),
+]
+
+
+@pytest.mark.parametrize(
+    ("law_id", "article_number", "expected", "shape"),
+    MEASURED,
+    ids=[f"{shape}:{law_id}:{num}" for law_id, num, _, shape in MEASURED],
+)
+def test_measured_anchor_from_tracked_xml(law_id, article_number, expected, shape):
+    xml_path = CACHE / f"{law_id}.xml"
+    if not xml_path.exists():  # pragma: no cover - tracked, but keep the skip honest
+        pytest.skip(f"tracked XML absent: {xml_path}")
+    index = AI.build_anchor_index(xml_path)
+    assert index[AI.to_egov_article_key(article_number)] == expected
+
+
+def test_deleted_article_is_anchored_like_any_other():
+    """A 「削除」 article keeps a normal id -- confirmed live, so no special case."""
+    index = AI.build_anchor_index(CACHE / "325AC0000000226.xml")
+    assert index["193"] == "Mp-Ch_2-Se_9-At_193"
+
+
+def test_supplementary_articles_absent_from_real_index():
+    """At_22 occurs once in 本則 and 12 more times across 附則; only 本則 is indexed."""
+    index = AI.build_anchor_index(CACHE / "340AC0000000034.xml")
+    assert index["22"] == "Mp-Pa_2-Ch_1-Se_1-Ss_2-At_22"
+    assert all(a.startswith("Mp-") and "-Sp-" not in a for a in index.values())
+
+
 # ---- key translation ------------------------------------------------------
 
 

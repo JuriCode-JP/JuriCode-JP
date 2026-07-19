@@ -363,6 +363,89 @@ def test_article_source_url_is_anchored_and_counted(tmp_path):
     assert (report.article_anchor_anchored, report.article_anchor_fallback) == (2, 0)
 
 
+#: Every anchor shape the builder must carry through to documents.jsonl.
+#: The index is supplied directly so one case per shape stays readable; the
+#: index values themselves are locked against real XML in
+#: tests/test_egov_anchor_index.py.
+_ANCHOR_SHAPES = [
+    ("1", "Mp-At_1", "平坦法令"),
+    ("1-2", "Mp-At_1_2", "平坦法令 + 枝番"),
+    ("5", "Mp-Pa_1-Ch_1-At_5", "平条 (編章あり)"),
+    ("132-2", "Mp-Pa_2-Ch_5-At_132_2", "単一枝番"),
+    ("142-2-2", "Mp-Pa_3-Ch_2-Se_1-Ss_2-At_142_2_2", "二重枝番"),
+    ("48-9-7-2", "Mp-Ch_3-Se_1-At_48_9_7_2", "三重枝番 (施行令)"),
+    ("4-2", "Mp-Pa_1-Ch_2_2-At_4_2", "枝番の章"),
+    ("424", "Mp-Pa_3-Ch_1-Se_2-Ss_3-Di_1-At_424", "節/款/目 入れ子"),
+    ("193", "Mp-Ch_2-Se_9-At_193", "削除条"),
+]
+
+
+@pytest.mark.parametrize(
+    ("article_number", "anchor", "shape"),
+    _ANCHOR_SHAPES,
+    ids=[shape for _, _, shape in _ANCHOR_SHAPES],
+)
+def test_every_anchor_shape_reaches_the_document_row(article_number, anchor, shape):
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    laws = {"test-hou": {"law_id": LAW_ID, "law_name_ja": "テスト法"}}
+    articles = {
+        "test-hou-art-x": {
+            "law_abbrev": "test-hou",
+            "article_number": article_number,
+            "ja_text_sha256": "0" * 64,
+        }
+    }
+    fm_meta = {
+        "test-hou-art-x": {
+            "version_date": "2020-01-01",
+            "source_url": law_url,
+            "last_verified": "2026-01-01",
+        }
+    }
+    rows, anchored, fallback = BR.build_article_documents(
+        laws,
+        articles,
+        fm_meta,
+        {LAW_ID: LAW_NUM},
+        {LAW_ID: "statute"},
+        {LAW_ID: {article_number.replace("-", "_"): anchor}},
+    )
+    assert rows[0]["source_url"] == f"{law_url}#{anchor}"
+    assert (anchored, fallback) == (1, 0)
+    # Anchoring is a citation-granularity change only.
+    assert rows[0]["text_sha256"] == "0" * 64
+    assert rows[0]["hash_basis"] == BR.HASH_EGOV_CANONICAL
+
+
+def test_unknown_article_number_falls_back_and_is_counted():
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    laws = {"test-hou": {"law_id": LAW_ID, "law_name_ja": "テスト法"}}
+    articles = {
+        "test-hou-art-x": {
+            "law_abbrev": "test-hou",
+            "article_number": "999",
+            "ja_text_sha256": "0" * 64,
+        }
+    }
+    fm_meta = {
+        "test-hou-art-x": {
+            "version_date": "2020-01-01",
+            "source_url": law_url,
+            "last_verified": "2026-01-01",
+        }
+    }
+    rows, anchored, fallback = BR.build_article_documents(
+        laws,
+        articles,
+        fm_meta,
+        {LAW_ID: LAW_NUM},
+        {LAW_ID: "statute"},
+        {LAW_ID: {"1": "Mp-At_1"}},
+    )
+    assert rows[0]["source_url"] == law_url
+    assert (anchored, fallback) == (0, 1)
+
+
 def test_article_source_url_falls_back_when_xml_absent(tmp_path):
     """A law with no tracked XML degrades to the law-level URL and is counted."""
     paths = make_tree(tmp_path)
