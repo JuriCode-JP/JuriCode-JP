@@ -119,3 +119,9 @@ credentials.json
 
 # ablation / eval 出力ディレクトリ (FU-512 等の一時計測結果)
 /fu512/
+
+# --- Assistant local state ---
+# ローカル固有の設定・作業ツリーは公開しない。
+# 共有する権限設定 (.claude/settings.json) は追跡するので ignore しない。
+/.claude/settings.local.json
+/.claude/worktrees/
