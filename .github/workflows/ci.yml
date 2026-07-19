@@ -161,6 +161,15 @@ jobs:
         # that does not gate, nor drift from the surface. No gate logic changes.
         run: python tools/scripts/check-fidelity-claims.py
 
+      - name: Public guarantee-claims gate (gate id required on guarantee statements)
+        # VA-5: every guarantee word on a board (README / spec page / package
+        # README) must carry an adjacent gate id ([G0-a]/(G0-a)/[HASH]/[G1]/[G2])
+        # naming the gate that backs it -- a bare promise fails. Also bans
+        # retrieval/accuracy figures on the boards (they belong in benchmarks/).
+        # Dictionary, board scope and exclusion markers are owner-locked; changing
+        # any of them requires repository-owner approval.
+        run: python tools/scripts/check-public-claims-gate.py
+
       - name: Verify locked eval-set golden checksum (FU-515 D-b)
         # 2026-06-21 FU-515 D-b: G1-local / G3-sp の golden answer key
         # (data/eval-set/tax-honbun-local/, data/eval-set/tax-supplproviso-probe/)

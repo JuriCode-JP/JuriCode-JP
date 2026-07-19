@@ -296,6 +296,16 @@ def main() -> int:
         )
     )
 
+    # 9c. Public guarantee-claims gate (VA-5): every guarantee word on a board
+    # carries an adjacent gate id naming the gate behind it; accuracy figures stay
+    # in benchmarks/. Dictionary/scope/exclusion markers are owner-locked.
+    results.append(
+        (
+            "public-claims-gate",
+            run("public-claims-gate", [PY, "tools/scripts/check-public-claims-gate.py"]),
+        )
+    )
+
     # 10-11. Guard-the-guard checksum gates. Their variable is injected by CI and is
     # unset locally, so they exit 0 with an INACTIVE warning -- surface that as
     # INACTIVE, never PASS (see run()).

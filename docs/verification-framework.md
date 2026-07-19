@@ -30,7 +30,7 @@ JuriCode-JP は政府公式の法令データ (e-Gov 法令API) から派生す�
 
 ## Layer 2: 生成時 (Parse-time) — `tools/parse/`
 
-**目的**: e-Gov XML から JuriCode-JP Markdown を生成する際, **テキストが改変されていないこと**を機械的に保証.
+**目的**: e-Gov XML から JuriCode-JP Markdown を生成する際, **テキストが改変されていないこと**を機械的に保証 [G0-a].
 
 責任範囲:
 
@@ -76,7 +76,7 @@ JuriCode-JP は政府公式の法令データ (e-Gov 法令API) から派生す�
 
 ## Layer 3: CI 時 (CI-time) — `tools/parse/verify.py` + `tools/validate/`
 
-**目的**: PR で投入される全データが、上記マニフェストと**一致し続けている**ことを保証.
+**目的**: PR で投入される全データが、上記マニフェストと**一致し続けている**ことを保証 [HASH].
 
 `tools/parse/verify.py` の動作:
 
