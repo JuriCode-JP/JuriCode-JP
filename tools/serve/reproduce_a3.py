@@ -352,7 +352,7 @@ def main() -> int:
     startup_s = time.perf_counter() - t_start
     print(f"[startup] done in {startup_s:.1f}s, RSS={_rss_mb()} MB", file=sys.stderr)
 
-    # ---- honbun N=97 (T6) ----
+    # ---- honbun full fixed denominator (T6; N locked in gates/pass-lines.json) ----
     adopted = _build_adopted(svc)
     honbun_groups = Counter(q["_law_group"] for q in adopted)  # scored questions per law group
     expected_groups = {g for g, _ in A.MAIN_EVAL}  # groups MAIN_EVAL configures
