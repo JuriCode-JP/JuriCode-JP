@@ -115,6 +115,7 @@ PYTEST_PATHS = [
     "tools/scripts/tests/test_check_no_leaks.py",
     "tools/scripts/tests/test_check_public_claims.py",
     "tools/scripts/tests/test_check_fidelity_claims.py",
+    "tools/scripts/tests/test_check_public_claims_gate.py",
     "tools/registry/tests/test_build_registry.py",
     "tools/dist/tests/test_scan_artifacts.py",
     "tools/dist/tests/test_build_snapshot.py",
@@ -293,6 +294,16 @@ def main() -> int:
         (
             "public-claims",
             run("public-claims", [PY, "tools/scripts/check-public-claims.py"]),
+        )
+    )
+
+    # 9c. Public guarantee-claims gate (VA-5): every guarantee word on a board
+    # carries an adjacent gate id naming the gate behind it; accuracy figures stay
+    # in benchmarks/. Dictionary/scope/exclusion markers are owner-locked.
+    results.append(
+        (
+            "public-claims-gate",
+            run("public-claims-gate", [PY, "tools/scripts/check-public-claims-gate.py"]),
         )
     )
 

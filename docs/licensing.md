@@ -2,7 +2,7 @@
 
 > 本ページは JuriCode-JP が扱う各データの**出所**と**利用条件**を一元化し、コントリビューター・利用者・審査機関が根拠を辿れるようにするもの。**各条件は一次資料（各公式サイトの利用規約）で確認済み**だが、規約は改定され得るため、利用時は最新の各サイト規約を確認すること。本ページは法的助言ではない。
 
-This page consolidates the **source** and **licensing terms** of each dataset JuriCode-JP handles, verified against each authority's official terms (2026-06-23). Terms may change; always check the latest. This is not legal advice.
+This page consolidates the **source** and **licensing terms** of each dataset JuriCode-JP handles, compiled from each authority's official terms of use (checked 2026-06-23). Terms may change; always check the latest. This is not legal advice.
 
 ---
 
@@ -10,7 +10,7 @@ This page consolidates the **source** and **licensing terms** of each dataset Ju
 
 | データ | 出所 | ライセンス／法的根拠 | 許される利用 | JuriCode-JP での扱い |
 |---|---|---|---|---|
-| **法令本文** | e-Gov 法令検索（laws.e-gov.go.jp） | **PDL1.0**（e-Gov＝政府標準利用規約・CC BY 互換） | 取得・構造化（本文非改変） | `source_url` 必須・round-trip hash で本文同一性を機械検証 |
+| **法令本文** | e-Gov 法令検索（laws.e-gov.go.jp） | **PDL1.0**（e-Gov＝政府標準利用規約・CC BY 互換） | 取得・構造化（本文非改変） | `source_url` 必須・round-trip hash で本文同一性を機械検証 [G0-a] |
 | **法令の英訳** | 法務省 日本法令外国語訳DB（JLT） | **PDL1.0**（公共データ利用規約 第1.0版） | 出典明示で**引用・複製・転載・再配布可** | 公式訳を `translation_status: official` で採用・出典明示。自前翻訳不要 |
 | **通達（国税庁）** | 国税庁（nta.go.jp/law/tsutatsu） | **著作権法13条2号**（国の機関が発する**告示・訓令・通達**は権利の目的とならない＝PD） | 出典明示で**複製・翻案・再配布可** | 法人税基本通達 等を `build/chunks` に収録・`license: public-domain-13-2`・`source_url` 必須 |
 | **裁決（国税不服審判所）** | 国税不服審判所 公表裁決 | **PDL1.0** | 出典明示で**複製・転載可** | 税務ドメインで採用・出典明示 |
@@ -27,7 +27,7 @@ This page consolidates the **source** and **licensing terms** of each dataset Ju
 
 ### 1. 法令本文 — e-Gov
 - 取得元: e-Gov 法令検索 API。`source_url` に当該法令の e-Gov URL を必須記載。
-- 本文は**完全コピー・非改変**（CLAUDE.md §4.1）。`verify.py` の round-trip hash で e-Gov 原文との同一性を機械検証。
+- 本文は**完全コピー・非改変** [G0-a]（CLAUDE.md §4.1）。`verify.py` の round-trip hash [G0-a] で e-Gov 原文との同一性を機械検証。
 - ライセンス: **PDL1.0**（e-Gov のコンテンツは政府標準利用規約＝CC BY 互換・PDL1.0）。出典明示で複製・転載・再配布可（商用含む）。本文は非改変で収録。
 
 ### 2. 法令の英訳 — 法務省 JLT（PDL1.0）

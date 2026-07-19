@@ -208,6 +208,9 @@ testpaths = [
     # テスト。判定コアの捕捉/偽陽性/射程限定 (MARKETING_FILES のみ) を固定。hermetic。
     # ci.yml 明示列挙・run-ci.py PYTEST_PATHS・本 testpaths の三所に配線。
     "tools/scripts/tests/test_check_public_claims.py",
+    # 保証主張ゲート (VA-5) の self-test。隣接窓・精度指標・除外クラスを固定。hermetic。
+    # ci.yml 明示列挙・run-ci.py PYTEST_PATHS・本 testpaths の三所に配線。
+    "tools/scripts/tests/test_check_public_claims_gate.py",
     # 2026-07-15: T6 verdict (_verdict) の pure-function テスト。ci.yml 明示列挙と両所配線。
     # ⚠ reproduce_a3.py は module top で numpy を import するため、CI (dev deps に numpy 無し)
     # では pytest.importorskip("numpy") で SKIP される (collection 落ち回避)。ローカルのみ実走。

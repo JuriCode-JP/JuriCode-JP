@@ -34,7 +34,7 @@
 | 各号 (kou) 構造化 | parser bug で欠落 | **14,868 chunks 復元** |
 | 附則 (SupplProvision) | 未取り込み | **~5,000 chunks + metadata** |
 | 設計図カテゴリ自動検出 | なし | **にかかわらず 504 / 準用 523** |
-| 構造化 metadata | parser bug あり | **完全 (topic / target_main_articles / modality 等)** |
+| 構造化 metadata | parser bug あり | **主要項目（topic / target_main_articles / modality 等）を付与** |
 
 ### 主な特徴
 
@@ -112,7 +112,7 @@ Currently in **Phase 1 — v0.2.0 released**. Among the Phase 1 strategic target
 - 警察関連法令 + 自治体関連法令 + 民法 + 税法 6 法令 + 商法・会社法・独禁法・金商法 + 労働基準法 + 薬機法 等 計 **43 法令 / 11,758 条** を 1 条 = 1 ファイルの YAML frontmatter + Markdown 形式で構造化 (2026-05-22 v0.2.0 リリース時点)
 - **v0.2.0**: segment-aware 構造化により **63,246 retrieval-ready chunks** に拡張 (本文/ただし書/前段/後段/柱書/各号/特則/準用 + 附則 + rollup)
 - 日本語原文と公定英訳の併記、最高裁判例リンク(出典 URL 付き)を各条文に統合
-- e-Gov 法令 API v2 からの自動取得・スキーマ検証・中間表現(IR)変換の完全パイプライン
+- e-Gov 法令 API v2 からの自動取得・スキーマ検証・中間表現(IR)変換の一貫したパイプライン
 - JSON Schema による機械検証 + Pydantic IR による型安全なデータアクセス
 - **設計図 4 層責任分界** (L1 前処理 / L2 metadata / L3 retrieval / L4 prompt) に基づく Japanese-legal RAG 設計
 
@@ -133,7 +133,7 @@ Currently in **Phase 1 — v0.2.0 released**. Among the Phase 1 strategic target
 | Phase 1 法令スコープ(警察・行政・民事・税・商事・労働・薬機 = **43 法令**) | ✅ [data/](data/) |
 | データ本体(条文構造化) | ✅ **11,758 条 / 43 法令** 投入済(2026-05-22 v0.2.0、当初 Phase 1 約束 75 条比 **約 157 倍**)|
 | **v0.2.0 segment-aware corpus** | ✅ **63,246 chunks** (各号 14,868 + 附則 ~5,000 + rollup 6,948 + segments) |
-| **XML ↔ 正本 忠実性ゲート (G0)** | ✅ [tools/parse/v0.2/g0_fidelity_gate.py](tools/parse/v0.2/g0_fidelity_gate.py) — e-Gov XML と canonical corpus を突合 (空白畳み込み後の完全一致) |
+| **XML ↔ 正本 忠実性ゲート (G0)** | ✅ [tools/parse/v0.2/g0_fidelity_gate.py](tools/parse/v0.2/g0_fidelity_gate.py) — e-Gov XML と canonical corpus を突合 (空白畳み込み後の完全一致 [G0-a]) |
 | **v0.2.0 仕様書** | ✅ [docs/format-spec-v0.2.md](docs/format-spec-v0.2.md) |
 | **附則 (SupplProvision) 抽出** | ✅ [tools/parse/v0.2/extract_supplproviso_from_xml.py](tools/parse/v0.2/extract_supplproviso_from_xml.py) (topic 分類 + target_main_articles 抽出 + 元号→西暦変換) |
 | **各号 (kou) 復元** | ✅ [tools/parse/v0.2/extract_kou_from_xml.py](tools/parse/v0.2/extract_kou_from_xml.py) |
@@ -143,7 +143,7 @@ Currently in **Phase 1 — v0.2.0 released**. Among the Phase 1 strategic target
 ### 収録範囲と、まだ収録していないもの / Scope and known gaps
 
 **JA** — canonical corpus (`data/v0.2/`) の単位は **本則の「条」** です。各条の本文は、
-e-Gov 法令 XML の条文本文と**空白の畳み込みを除いて完全に一致**することを、
+e-Gov 法令 XML の条文本文と**空白の畳み込みを除いて完全に一致** [G0-a] することを、
 [G0 忠実性ゲート](tools/parse/v0.2/g0_fidelity_gate.py) で全条について機械検証しています
 (項・号・細別・ただし書・条文内の表を含む)。
 
@@ -197,7 +197,7 @@ the repository layout now says so rather than a comment. Licenses: circulars are
 under Art. 13(2) of the Copyright Act; Tax Answer is CC-BY-compatible; rulings are PDL 1.0.
 
 **EN** — The canonical corpus is organized by **article of the main provisions**. Every article body is
-machine-verified to match the e-Gov XML exactly (modulo whitespace collapsing) by the
+machine-verified [G0-a] to match the e-Gov XML exactly (modulo whitespace collapsing) by the
 [G0 fidelity gate](tools/parse/v0.2/g0_fidelity_gate.py), including paragraphs, items, sub-items,
 provisos and in-article tables. **Appended tables (1,150) and the text of supplementary provisions are
 not yet in the canonical corpus** — see FU-556 / FU-557. Most articles are not yet translated.
