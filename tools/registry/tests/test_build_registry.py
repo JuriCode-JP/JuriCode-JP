@@ -112,8 +112,15 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
         ),
         encoding="utf-8",
     )
+    # MainProvision mirrors the real e-Gov shape (branch Num uses '_'), so the
+    # article anchors the registry emits are exercised end to end.
     (cache / f"{LAW_ID}.xml").write_text(
-        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody/></Law>", encoding="utf-8"
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody><MainProvision>"
+        '<Part Num="1"><Chapter Num="1">'
+        '<Article Num="1"/><Article Num="1_2"/>'
+        "</Chapter></Part>"
+        "</MainProvision></LawBody></Law>",
+        encoding="utf-8",
     )
 
     # Allow-listed stores (empty unless populated below).
@@ -339,6 +346,65 @@ def test_hash_basis_classification(tmp_path):
     assert docs["test-hou-art-1"]["text_sha256"] == by_id["test-hou-art-1"]
 
 
+# ---- article source_url anchors -------------------------------------------
+
+
+def test_article_source_url_is_anchored_and_counted(tmp_path):
+    """Statute articles get a per-article anchor; 附則 keep the law-level URL."""
+    paths = make_tree(tmp_path)
+    d1, _, report = BR.build_registry(paths, EXPECTED)
+    docs = _docs(d1)
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    # Locked: the fixture nests both articles under 第1編 第1章.
+    assert docs["test-hou-art-1"]["source_url"] == f"{law_url}#Mp-Pa_1-Ch_1-At_1"
+    assert docs["test-hou-art-1-2"]["source_url"] == f"{law_url}#Mp-Pa_1-Ch_1-At_1_2"
+    # 附則 are a different namespace and stay law-level (strand A owns them).
+    assert docs["test-hou-supplproviso-1"]["source_url"] == law_url
+    assert (report.article_anchor_anchored, report.article_anchor_fallback) == (2, 0)
+
+
+def test_article_source_url_falls_back_when_xml_absent(tmp_path):
+    """A law with no tracked XML degrades to the law-level URL and is counted."""
+    paths = make_tree(tmp_path)
+    (paths.cache_dir / f"{LAW_ID}.xml").rename(paths.cache_dir / f"{LAW_ID}.xml.bak")
+    with pytest.raises(BR.RegistryError):
+        BR.build_registry(paths, EXPECTED)  # load_law_nums owns the missing-XML STOP
+
+
+def test_article_source_url_falls_back_when_article_not_in_main_provision(tmp_path):
+    """Article absent from 本則: law-level URL, counted as a fallback."""
+    paths = make_tree(tmp_path)
+    (paths.cache_dir / f"{LAW_ID}.xml").write_text(
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody>"
+        '<MainProvision><Article Num="1"/></MainProvision>'
+        "</LawBody></Law>",
+        encoding="utf-8",
+    )
+    d1, _, report = BR.build_registry(paths, EXPECTED)
+    docs = _docs(d1)
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    assert docs["test-hou-art-1"]["source_url"] == f"{law_url}#Mp-At_1"
+    assert docs["test-hou-art-1-2"]["source_url"] == law_url
+    assert (report.article_anchor_anchored, report.article_anchor_fallback) == (1, 1)
+
+
+def test_anchoring_does_not_change_text_sha256(tmp_path):
+    """Citation granularity is a different axis from fidelity."""
+    paths = make_tree(tmp_path)
+    d1, _, _ = BR.build_registry(paths, EXPECTED)
+    before = _docs(d1)["test-hou-art-1"]["text_sha256"]
+    (paths.cache_dir / f"{LAW_ID}.xml").write_text(
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody>"
+        '<MainProvision><Chapter Num="9"><Article Num="1"/></Chapter></MainProvision>'
+        "</LawBody></Law>",
+        encoding="utf-8",
+    )
+    d2, _, _ = BR.build_registry(paths, EXPECTED)
+    after = _docs(d2)["test-hou-art-1"]
+    assert after["source_url"].endswith("#Mp-Ch_9-At_1")  # anchor moved
+    assert after["text_sha256"] == before  # fidelity did not
+
+
 # ---- T4 law_num ------------------------------------------------------------
 
 
@@ -382,7 +448,10 @@ def test_duplicate_law_num_values_warn_not_fail(tmp_path):
         encoding="utf-8",
     )
     (paths.cache_dir / f"{law2}.xml").write_text(
-        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody/></Law>", encoding="utf-8"
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody>"
+        '<MainProvision><Article Num="1"/></MainProvision>'
+        "</LawBody></Law>",
+        encoding="utf-8",
     )
     rows = [json.loads(line) for line in paths.corpus_path.read_text(encoding="utf-8").splitlines()]
     rows.append(
