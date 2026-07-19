@@ -79,7 +79,9 @@ PATTERNS: list[tuple[str, str, re.Pattern[str]]] = [
         # 内部 doc 連番ではない。数字で終わるものを除外して両者を分離する。
         # (パターンを緩めて検出を消したのではなく、別物を別物として区別した)
         # 負のコントロールは tests/test_scan_artifacts.py にある。
-        re.compile(r"(?:^|[\s\"'(/\\])\d{3}_[A-Za-z぀-ヿ一-鿿]"),
+        # 文字クラスは cp932-unsafe な CJK 境界リテラルを避け \uXXXX で書く (VA-1 #7):
+        # U+3040-U+30FF = ひらがな/カタカナ、U+4E00-U+9FFF = CJK 統合漢字 (意味は不変)。
+        re.compile(r"(?:^|[\s\"'(/\\])\d{3}_[A-Za-z\u3040-\u30ff\u4e00-\u9fff]"),
     ),
     (
         "internal-tool-name",
