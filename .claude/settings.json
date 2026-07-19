@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(gates/**)", "Write(gates/**)",
+      "Edit(**/pass-lines.json)", "Write(**/pass-lines.json)",
+      "Edit(tools/scripts/verify-*.py)", "Write(tools/scripts/verify-*.py)",
+      "Edit(**/*checksum*.py)", "Write(**/*checksum*.py)",
+      "Edit(.github/workflows/**)", "Write(.github/workflows/**)",
+      "Bash(gh variable set *)", "PowerShell(gh variable set *)",
+      "Bash(gh secret set *)", "PowerShell(gh secret set *)"
+    ],
+    "ask": [
+      "Bash(git push *)", "PowerShell(git push *)",
+      "Bash(gh pr merge *)", "PowerShell(gh pr merge *)",
+      "Bash(gh pr create *)", "PowerShell(gh pr create *)",
+      "Edit(**/expected*)", "Write(**/expected*)",
+      "Edit(**/*gold*)", "Edit(**/eval/**)",
+      "Edit(data/**)", "Write(data/**)",
+      "Edit(.claude/**)", "Write(.claude/**)"
+    ]
+  }
+}
