@@ -44,15 +44,17 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 
 #: Curated boards only -- NOT the whole repo. These are the outward surfaces
-#: where a guarantee is a promise to a reader. Deep technical specs that merely
-#: DESCRIBE the verification machinery (e.g. the v0.2 format spec) are out of
-#: scope: there the same vocabulary is mechanism, not a promise, and a word-level
-#: gate cannot tell the two apart. Widening this list is an owner decision.
+#: where a guarantee is a promise to a reader. The deeper v0.2 format spec is
+#: deliberately NOT here: it DESCRIBES the verification machinery, where the same
+#: vocabulary is mechanism, not a promise, and a word-level gate cannot tell the
+#: two apart. The v0.1 format spec IS in scope -- its fidelity statement is a
+#: guarantee, so it carries a gate id. Widening this list is an owner decision.
 BOARD_FILES = (
     "README.md",
     "README-EXT.md",
     "docs/strategy.md",
     "docs/licensing.md",
+    "docs/format-spec.md",
     "docs/verification-framework.md",
     "packages/juricode-verifier/README.md",
     "packages/juricode-retrieval/README.md",
