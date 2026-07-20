@@ -68,6 +68,13 @@ import warnings
 from dataclasses import dataclass, field
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from egov_anchor_index import (  # sibling module; sys.path set just above
+    load_anchor_indexes,
+    resolve_article_anchor,
+)
+
 _REPO = Path(__file__).resolve().parents[2]
 
 # =====================================================
@@ -187,6 +194,10 @@ class BuildReport:
     #: corpus にあって索引に無い chunk の内訳 (逆方向ゲート assert_embed_exclusions)。
     #: index_coverage="assert" のときだけ算出。measure では None のまま。
     embed_exclusions: dict[str, int] | None = None
+    #: 法令層 article doc のうち条単位アンカーを付与できた数 / law-level に落ちた数。
+    #: フォールバックは黙って捨てず必ず計数する (silent truncation 禁止)。
+    article_anchor_anchored: int = 0
+    article_anchor_fallback: int = 0
 
 
 # =====================================================
@@ -498,13 +509,33 @@ def build_article_documents(
     fm_meta: dict[str, dict],
     law_nums: dict[str, str],
     layer_by_law: dict[str, str],
-) -> list[dict]:
+    anchor_index: dict[str, dict[str, str]] | None = None,
+) -> tuple[list[dict], int, int]:
     """One document per manifest article (16,332 -- the canonical ledger,
-    independent of what the current retrieval index happens to reference)."""
+    independent of what the current retrieval index happens to reference).
+
+    Returns ``(rows, anchored, fallback)``. The frontmatter ``source_url`` is
+    law-level; here it gains the article's e-Gov anchor so a citation lands on
+    the article instead of the top of the statute (see egov_anchor_index).
+    Only this article layer is anchored -- 附則/通達/taxanswer/ruling keep
+    their existing URLs. ``text_sha256``/``hash_basis`` are untouched: this
+    changes citation granularity, not fidelity.
+
+    The two counts are returned rather than derived later because a fallback
+    must be visible in the operator report, never silently absorbed.
+    """
+    anchor_index = anchor_index or {}
     out = []
+    anchored_n = 0
+    fallback_n = 0
     for aid, entry in articles.items():
         law = laws[entry["law_abbrev"]]
         fm = fm_meta[aid]
+        source_url, anchored = resolve_article_anchor(
+            anchor_index, law["law_id"], str(entry["article_number"]), fm["source_url"]
+        )
+        anchored_n += anchored
+        fallback_n += not anchored
         out.append(
             _doc_row(
                 juri_id=aid,
@@ -514,14 +545,14 @@ def build_article_documents(
                 law_name_ja=law["law_name_ja"],
                 article_number=str(entry["article_number"]),
                 version_date=fm["version_date"],
-                source_url=fm["source_url"],
+                source_url=source_url,
                 text_sha256=entry["ja_text_sha256"],  # verbatim; never recomputed
                 hash_basis=HASH_EGOV_CANONICAL,
                 license=LICENSE_EGOV,
                 last_verified=fm["last_verified"],
             )
         )
-    return out
+    return out, anchored_n, fallback_n
 
 
 def build_suppl_documents(
@@ -785,8 +816,14 @@ def build_registry(
         if prev != url:
             raise RegistryError(f"law {law_id}: articles disagree on source_url")
 
+    # 条単位アンカーは追跡済みの e-Gov XML から決定論的に構築する (ネット非依存)。
+    anchor_index = load_anchor_indexes(paths.cache_dir, [law["law_id"] for law in laws.values()])
+    article_docs, anchored_n, fallback_n = build_article_documents(
+        laws, articles, fm_meta, law_nums, layer_by_law, anchor_index
+    )
+
     documents = (
-        build_article_documents(laws, articles, fm_meta, law_nums, layer_by_law)
+        article_docs
         + build_suppl_documents(suppl_by_doc, laws, law_nums, layer_by_law, law_source_url)
         + build_tsutatsu_documents(load_tsutatsu_stores(paths.chunks_dir))
         + build_taxanswer_documents(load_taxanswer_stores(paths.chunks_dir))
@@ -822,6 +859,8 @@ def build_registry(
     report = BuildReport(law_num_duplicate_values=dup_values)
     report.stale_index_chunk_ids = stale_index_ids
     report.embed_exclusions = embed_exclusions
+    report.article_anchor_anchored = anchored_n
+    report.article_anchor_fallback = fallback_n
     for d in documents:
         report.docs_by_layer[d["layer"]] = report.docs_by_layer.get(d["layer"], 0) + 1
         report.docs_by_hash_basis[d["hash_basis"]] = (
@@ -1039,6 +1078,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"null source_url         : {report.null_source_url}")
     print(f"null version_date       : {report.null_version_date}")
     print(f"law_num duplicate values: {report.law_num_duplicate_values}")
+    print(
+        f"article anchors         : {report.article_anchor_anchored} anchored / "
+        f"{report.article_anchor_fallback} law-level fallback"
+    )
     print(f"manifest articles not referenced by corpus: {report.articles_not_in_corpus}")
     if report.embed_exclusions is not None:
         print(f"embed exclusions (corpus−index): {report.embed_exclusions}")

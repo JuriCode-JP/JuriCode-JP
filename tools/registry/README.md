@@ -74,9 +74,38 @@ fabricated**.
 
 ```bash
 python tools/registry/build_registry.py            # defaults; prints report
+python tools/validate/check-source-url-anchors.py  # REQUIRED next step (see below)
 python tools/registry/build_registry.py --sample-verify 50
 pytest tools/registry/tests/test_build_registry.py  # hermetic (CI-safe)
 ```
+
+### Article anchor gate — runs here, not in CI
+
+`build_registry.py` gives every statute-layer article an e-Gov deep-link
+anchor (`…/law/<law_id>#Mp-…-At_<N>`; see `egov_anchor_index.py`). The
+whole-corpus check on those URLs is
+`tools/validate/check-source-url-anchors.py`, and it must be run **immediately
+after `build_registry.py`, on the `documents.jsonl` that run produced** — it
+reads the ledger, so it can only run where the ledger exists.
+
+That is the release/build process, not CI: CI never invokes
+`build_registry.py` (the ledger lives under gitignored `build/`, and CI only
+rebuilds the derived chunks). Wiring the whole-corpus gate into `ci.yml` would
+mean adding a registry build to CI; until that exists, a release that skips
+this step ships unverified links.
+
+What each half proves:
+
+| | where | proves |
+|---|---|---|
+| `check-source-url-anchors.py` | release, after every build | all 16,332 rows well-formed; every law has tracked XML (58/58) |
+| `tests/test_egov_anchor_index.py`, `tests/test_build_registry.py` | CI, every PR | each anchor SHAPE stays correct (branch/nesting/flat/fallback) |
+| `tools/probe/probe-egov-anchors.py` | manual, needs network | anchors resolve to the intended article in a real browser |
+
+The gate fails on a malformed URL or a missing XML, and always prints
+anchored / fallback / malformed counts — a fallback that is not reported is a
+silent truncation, and a green gate here does **not** mean "every link
+resolves" (only the probe can say that).
 
 Hard stops (never downgraded to warnings): duplicate `juri_id`, orphan chunks,
 statute sha mismatch, document-count drift vs. locked expectations,

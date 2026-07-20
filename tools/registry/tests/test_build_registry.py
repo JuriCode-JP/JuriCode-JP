@@ -112,8 +112,15 @@ def make_tree(tmp_path: Path) -> BR.RegistryPaths:
         ),
         encoding="utf-8",
     )
+    # MainProvision mirrors the real e-Gov shape (branch Num uses '_'), so the
+    # article anchors the registry emits are exercised end to end.
     (cache / f"{LAW_ID}.xml").write_text(
-        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody/></Law>", encoding="utf-8"
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody><MainProvision>"
+        '<Part Num="1"><Chapter Num="1">'
+        '<Article Num="1"/><Article Num="1_2"/>'
+        "</Chapter></Part>"
+        "</MainProvision></LawBody></Law>",
+        encoding="utf-8",
     )
 
     # Allow-listed stores (empty unless populated below).
@@ -339,6 +346,148 @@ def test_hash_basis_classification(tmp_path):
     assert docs["test-hou-art-1"]["text_sha256"] == by_id["test-hou-art-1"]
 
 
+# ---- article source_url anchors -------------------------------------------
+
+
+def test_article_source_url_is_anchored_and_counted(tmp_path):
+    """Statute articles get a per-article anchor; 附則 keep the law-level URL."""
+    paths = make_tree(tmp_path)
+    d1, _, report = BR.build_registry(paths, EXPECTED)
+    docs = _docs(d1)
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    # Locked: the fixture nests both articles under 第1編 第1章.
+    assert docs["test-hou-art-1"]["source_url"] == f"{law_url}#Mp-Pa_1-Ch_1-At_1"
+    assert docs["test-hou-art-1-2"]["source_url"] == f"{law_url}#Mp-Pa_1-Ch_1-At_1_2"
+    # 附則 are a different namespace and stay law-level (strand A owns them).
+    assert docs["test-hou-supplproviso-1"]["source_url"] == law_url
+    assert (report.article_anchor_anchored, report.article_anchor_fallback) == (2, 0)
+
+
+#: Every anchor shape the builder must carry through to documents.jsonl.
+#: The index is supplied directly so one case per shape stays readable; the
+#: index values themselves are locked against real XML in
+#: tests/test_egov_anchor_index.py.
+_ANCHOR_SHAPES = [
+    ("1", "Mp-At_1", "平坦法令"),
+    ("1-2", "Mp-At_1_2", "平坦法令 + 枝番"),
+    ("5", "Mp-Pa_1-Ch_1-At_5", "平条 (編章あり)"),
+    ("132-2", "Mp-Pa_2-Ch_5-At_132_2", "単一枝番"),
+    ("142-2-2", "Mp-Pa_3-Ch_2-Se_1-Ss_2-At_142_2_2", "二重枝番"),
+    ("48-9-7-2", "Mp-Ch_3-Se_1-At_48_9_7_2", "三重枝番 (施行令)"),
+    ("4-2", "Mp-Pa_1-Ch_2_2-At_4_2", "枝番の章"),
+    ("424", "Mp-Pa_3-Ch_1-Se_2-Ss_3-Di_1-At_424", "節/款/目 入れ子"),
+    ("193", "Mp-Ch_2-Se_9-At_193", "削除条"),
+]
+
+
+@pytest.mark.parametrize(
+    ("article_number", "anchor", "shape"),
+    _ANCHOR_SHAPES,
+    ids=[shape for _, _, shape in _ANCHOR_SHAPES],
+)
+def test_every_anchor_shape_reaches_the_document_row(article_number, anchor, shape):
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    laws = {"test-hou": {"law_id": LAW_ID, "law_name_ja": "テスト法"}}
+    articles = {
+        "test-hou-art-x": {
+            "law_abbrev": "test-hou",
+            "article_number": article_number,
+            "ja_text_sha256": "0" * 64,
+        }
+    }
+    fm_meta = {
+        "test-hou-art-x": {
+            "version_date": "2020-01-01",
+            "source_url": law_url,
+            "last_verified": "2026-01-01",
+        }
+    }
+    rows, anchored, fallback = BR.build_article_documents(
+        laws,
+        articles,
+        fm_meta,
+        {LAW_ID: LAW_NUM},
+        {LAW_ID: "statute"},
+        {LAW_ID: {article_number.replace("-", "_"): anchor}},
+    )
+    assert rows[0]["source_url"] == f"{law_url}#{anchor}"
+    assert (anchored, fallback) == (1, 0)
+    # Anchoring is a citation-granularity change only.
+    assert rows[0]["text_sha256"] == "0" * 64
+    assert rows[0]["hash_basis"] == BR.HASH_EGOV_CANONICAL
+
+
+def test_unknown_article_number_falls_back_and_is_counted():
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    laws = {"test-hou": {"law_id": LAW_ID, "law_name_ja": "テスト法"}}
+    articles = {
+        "test-hou-art-x": {
+            "law_abbrev": "test-hou",
+            "article_number": "999",
+            "ja_text_sha256": "0" * 64,
+        }
+    }
+    fm_meta = {
+        "test-hou-art-x": {
+            "version_date": "2020-01-01",
+            "source_url": law_url,
+            "last_verified": "2026-01-01",
+        }
+    }
+    rows, anchored, fallback = BR.build_article_documents(
+        laws,
+        articles,
+        fm_meta,
+        {LAW_ID: LAW_NUM},
+        {LAW_ID: "statute"},
+        {LAW_ID: {"1": "Mp-At_1"}},
+    )
+    assert rows[0]["source_url"] == law_url
+    assert (anchored, fallback) == (0, 1)
+
+
+def test_article_source_url_falls_back_when_xml_absent(tmp_path):
+    """A law with no tracked XML degrades to the law-level URL and is counted."""
+    paths = make_tree(tmp_path)
+    (paths.cache_dir / f"{LAW_ID}.xml").rename(paths.cache_dir / f"{LAW_ID}.xml.bak")
+    with pytest.raises(BR.RegistryError):
+        BR.build_registry(paths, EXPECTED)  # load_law_nums owns the missing-XML STOP
+
+
+def test_article_source_url_falls_back_when_article_not_in_main_provision(tmp_path):
+    """Article absent from 本則: law-level URL, counted as a fallback."""
+    paths = make_tree(tmp_path)
+    (paths.cache_dir / f"{LAW_ID}.xml").write_text(
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody>"
+        '<MainProvision><Article Num="1"/></MainProvision>'
+        "</LawBody></Law>",
+        encoding="utf-8",
+    )
+    d1, _, report = BR.build_registry(paths, EXPECTED)
+    docs = _docs(d1)
+    law_url = f"https://laws.e-gov.go.jp/law/{LAW_ID}"
+    assert docs["test-hou-art-1"]["source_url"] == f"{law_url}#Mp-At_1"
+    assert docs["test-hou-art-1-2"]["source_url"] == law_url
+    assert (report.article_anchor_anchored, report.article_anchor_fallback) == (1, 1)
+
+
+def test_anchoring_does_not_change_text_sha256(tmp_path):
+    """Citation granularity is a different axis from fidelity."""
+    paths = make_tree(tmp_path)
+    d1, _, _ = BR.build_registry(paths, EXPECTED)
+    before = _docs(d1)["test-hou-art-1"]["text_sha256"]
+    (paths.cache_dir / f"{LAW_ID}.xml").write_text(
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody>"
+        '<MainProvision><Chapter Num="9"><Article Num="1"/></Chapter></MainProvision>'
+        "</LawBody></Law>",
+        encoding="utf-8",
+    )
+    d2, _, _ = BR.build_registry(paths, EXPECTED)
+    after = _docs(d2)["test-hou-art-1"]
+    assert after["source_url"].endswith("#Mp-Ch_9-At_1")  # anchor moved
+    assert after["text_sha256"] == before  # fidelity did not
+
+
 # ---- T4 law_num ------------------------------------------------------------
 
 
@@ -382,7 +531,10 @@ def test_duplicate_law_num_values_warn_not_fail(tmp_path):
         encoding="utf-8",
     )
     (paths.cache_dir / f"{law2}.xml").write_text(
-        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody/></Law>", encoding="utf-8"
+        f"<Law><LawNum>{LAW_NUM}</LawNum><LawBody>"
+        '<MainProvision><Article Num="1"/></MainProvision>'
+        "</LawBody></Law>",
+        encoding="utf-8",
     )
     rows = [json.loads(line) for line in paths.corpus_path.read_text(encoding="utf-8").splitlines()]
     rows.append(

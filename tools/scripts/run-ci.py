@@ -117,6 +117,7 @@ PYTEST_PATHS = [
     "tools/scripts/tests/test_check_fidelity_claims.py",
     "tools/scripts/tests/test_check_public_claims_gate.py",
     "tools/registry/tests/test_build_registry.py",
+    "tools/registry/tests/test_egov_anchor_index.py",
     "tools/dist/tests/test_scan_artifacts.py",
     "tools/dist/tests/test_build_snapshot.py",
     "tools/dist/tests/test_publish_to_hf.py",
